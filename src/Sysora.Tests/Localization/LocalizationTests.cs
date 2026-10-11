@@ -94,6 +94,27 @@ public sealed partial class LocalizationTests
         }
     }
 
+    [Theory]
+    [MemberData(nameof(Translations))]
+    public void ComparisonExplanationsCanBeSaidOfToday(string set, string language)
+    {
+        // "Since yesterday" reuses the comparison explanations, replacing the second-period phrase with "today"
+        // (or its capitalized form when the sentence opens with it).
+        var culture = CultureInfo.GetCultureInfo(language);
+        var english = Read(Manager(set), CultureInfo.InvariantCulture);
+        var translated = Read(Manager(set), culture);
+        var englishPhrase = Strings.ResourceManager.GetString(nameof(Strings.Since_SecondPeriodPhrase), CultureInfo.InvariantCulture)!;
+        var phrase = Strings.ResourceManager.GetString(nameof(Strings.Since_SecondPeriodPhrase), culture)!;
+        var opening = char.ToUpper(phrase[0], culture) + phrase[1..];
+        foreach (var (key, text) in english.Where(e => e.Key != nameof(Strings.Since_SecondPeriodPhrase) && e.Value.Contains(englishPhrase, StringComparison.Ordinal)))
+        {
+            var translation = translated[key];
+            Assert.True(
+                translation.Contains(phrase, StringComparison.Ordinal) || translation.StartsWith(opening, StringComparison.Ordinal),
+                $"{set}.{key} ({language}): \"{translation}\" does not contain \"{phrase}\".");
+        }
+    }
+
     [Fact]
     public void FrenchTextsAreLoadedFromTheSatelliteAssembly()
     {

@@ -43,6 +43,8 @@ public static class AppLanguage
         new("pl", "Polski"),
         new("ru", "Русский"),
         new("uk", "Українська"),
+        new("cs", "Čeština"),
+        new("tr", "Türkçe"),
     ];
 
     /// <summary>The language of this process, as applied by <see cref="Apply"/> (English until then).</summary>
