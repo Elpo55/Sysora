@@ -35,6 +35,7 @@ public static class AppLanguage
     [
         new("en", "English"),
         new("fr", "Français"),
+        new("de", "Deutsch"),
     ];
 
     /// <summary>The language of this process, as applied by <see cref="Apply"/> (English until then).</summary>

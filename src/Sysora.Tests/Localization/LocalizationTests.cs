@@ -89,20 +89,21 @@ public sealed partial class LocalizationTests
     public void AMissingTranslationFallsBackToEnglish()
     {
         // A language Sysora is not translated into resolves every text to the English one.
-        var german = CultureInfo.GetCultureInfo("de");
-        Assert.Equal("Not available", Strings.ResourceManager.GetString(nameof(Strings.Common_NotAvailable), german));
+        var finnish = CultureInfo.GetCultureInfo("fi");
+        Assert.Equal("Not available", Strings.ResourceManager.GetString(nameof(Strings.Common_NotAvailable), finnish));
     }
 
     [Theory]
     [InlineData("", "fr-FR", "fr")]
     [InlineData("", "fr-CA", "fr")]
-    [InlineData("", "de-DE", "en")]
+    [InlineData("", "fi-FI", "en")]
+    [InlineData("", "de-AT", "de")]
     [InlineData("", "en-US", "en")]
     [InlineData("en", "fr-FR", "en")]
     [InlineData("fr", "en-US", "fr")]
     [InlineData("FR-be", "en-US", "fr")]
     [InlineData("xx", "fr-FR", "fr")]
-    [InlineData(null, "ja-JP", "en")]
+    [InlineData(null, "fi-FI", "en")]
     public void TheLanguageFollowsThePreferenceThenWindowsThenEnglish(string? preference, string windows, string expected)
     {
         Assert.Equal(expected, AppLanguage.Resolve(preference, CultureInfo.GetCultureInfo(windows)).Name);
