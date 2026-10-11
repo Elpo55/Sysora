@@ -161,9 +161,7 @@ public static class SinceYesterdayBuilder
                     OldValue = Text.Format(Strings.Since_Yesterday, row.BeforeText),
                     NewValue = Text.Format(Strings.Since_Today, row.AfterText),
                     Importance = row.Importance,
-                    Explanation = Text.Format(
-                        Strings.Since_Usage_Explanation,
-                        row.Explanation.Replace(Strings.Since_SecondPeriodPhrase, Strings.Since_TodayPhrase, StringComparison.Ordinal)),
+                    Explanation = Text.Format(Strings.Since_Usage_Explanation, ForToday(row.Explanation)),
                     When = Strings.Since_When,
                     Origin = Text.Format(Strings.Since_Usage_Origin, behavior.Before.Source, Text.InSentence(behavior.After.Source)),
                     Confidence = thin ? ConfidenceLevel.Low : ConfidenceLevel.Medium,
@@ -284,6 +282,25 @@ public static class SinceYesterdayBuilder
         Action = change.Action,
         AppKey = change.AppKey,
     };
+
+    /// <summary>
+    /// A comparison explanation said of today: its second period is today. A translation may open the sentence with the
+    /// phrase, so its capitalized form is replaced as well.
+    /// </summary>
+    private static string ForToday(string explanation)
+    {
+        var phrase = Strings.Since_SecondPeriodPhrase;
+        if (explanation.Contains(phrase, StringComparison.Ordinal))
+            return explanation.Replace(phrase, Strings.Since_TodayPhrase, StringComparison.Ordinal);
+
+        var opening = Capitalized(phrase);
+        return explanation.StartsWith(opening, StringComparison.Ordinal)
+            ? Capitalized(Strings.Since_TodayPhrase) + explanation[opening.Length..]
+            : explanation;
+    }
+
+    private static string Capitalized(string text) =>
+        text.Length == 0 ? text : char.ToUpper(text[0], AppLanguage.Current) + text[1..];
 }
 
 /// <summary>

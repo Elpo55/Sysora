@@ -1405,10 +1405,10 @@
     <value>У другому періоді працювало менше процесів.</value>
   </data>
   <data name="State_Explain_NetworkUp" xml:space="preserve">
-    <value>Більше мережевого трафіку в другому періоді.</value>
+    <value>Більше мережевого трафіку у другому періоді.</value>
   </data>
   <data name="State_Explain_NetworkDown" xml:space="preserve">
-    <value>Менше мережевого трафіку в другому періоді.</value>
+    <value>Менше мережевого трафіку у другому періоді.</value>
   </data>
   <data name="State_Points_One" xml:space="preserve">
     <value>{0} відсотковий пункт</value>
