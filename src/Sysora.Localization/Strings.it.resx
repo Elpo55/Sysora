@@ -1,0 +1,3810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>Non disponibile</value>
+  </data>
+  <data name="List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="List_LastSeparator" xml:space="preserve">
+    <value> e </value>
+  </data>
+  <data name="Unit_Byte" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Unit_Kilobyte" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Unit_Megabyte" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Unit_Gigabyte" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="Unit_Terabyte" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="Format_PerSecond" xml:space="preserve">
+    <value>{0}/s</value>
+  </data>
+  <data name="Format_Bps" xml:space="preserve">
+    <value>{0:0} bps</value>
+  </data>
+  <data name="Format_Kbps" xml:space="preserve">
+    <value>{0} Kbps</value>
+  </data>
+  <data name="Format_Mbps" xml:space="preserve">
+    <value>{0} Mbps</value>
+  </data>
+  <data name="Format_Gbps" xml:space="preserve">
+    <value>{0} Gbps</value>
+  </data>
+  <data name="Format_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Duration_DaysHoursMinutes" xml:space="preserve">
+    <value>{0} g {1} h {2} min</value>
+  </data>
+  <data name="Duration_HoursMinutes" xml:space="preserve">
+    <value>{0} h {1} min</value>
+  </data>
+  <data name="Duration_Minutes" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Duration_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Duration_DaysHours" xml:space="preserve">
+    <value>{0} g {1} h</value>
+  </data>
+  <data name="Duration_HoursPaddedMinutes" xml:space="preserve">
+    <value>{0} h {1:00} min</value>
+  </data>
+  <data name="Duration_MinutesPaddedSeconds" xml:space="preserve">
+    <value>{0} min {1:00} s</value>
+  </data>
+  <data name="Duration_Day_One" xml:space="preserve">
+    <value>{0} giorno</value>
+  </data>
+  <data name="Duration_Day_Other" xml:space="preserve">
+    <value>{0} giorni</value>
+  </data>
+  <data name="Duration_Hour_One" xml:space="preserve">
+    <value>{0} ora</value>
+  </data>
+  <data name="Duration_Hour_Other" xml:space="preserve">
+    <value>{0} ore</value>
+  </data>
+  <data name="Duration_Minute_One" xml:space="preserve">
+    <value>{0} minuto</value>
+  </data>
+  <data name="Duration_Minute_Other" xml:space="preserve">
+    <value>{0} minuti</value>
+  </data>
+  <data name="Diag_UsualWithMedian" xml:space="preserve">
+    <value>Abituale {0} (mediana {1})</value>
+  </data>
+  <data name="Diag_UsualOf" xml:space="preserve">
+    <value>Abituale: {0}</value>
+  </data>
+  <data name="Diag_UsualDetail" xml:space="preserve">
+    <value>{0} (mediana {1}, 95% dei minuti sotto {2})</value>
+  </data>
+  <data name="Source_HistoryMinutes7Days" xml:space="preserve">
+    <value>Medie al minuto della cronologia locale (ultimi 7 giorni)</value>
+  </data>
+  <data name="Diag_NotKnownYet" xml:space="preserve">
+    <value>Non ancora noto</value>
+  </data>
+  <data name="Diag_AveragePeak" xml:space="preserve">
+    <value>Media {0}, picco {1}</value>
+  </data>
+  <data name="Diag_AtOrAboveFor" xml:space="preserve">
+    <value>A {0} o più per {1} (media {2}, picco {3})</value>
+  </data>
+  <data name="Diag_Threshold" xml:space="preserve">
+    <value>Soglia {0}</value>
+  </data>
+  <data name="Diag_ReportedWhenAbove" xml:space="preserve">
+    <value>Segnalato quando supera {0} per {1}</value>
+  </data>
+  <data name="Diag_Metric_CpuUsage" xml:space="preserve">
+    <value>Utilizzo della CPU</value>
+  </data>
+  <data name="Diag_Metric_AppCpu" xml:space="preserve">
+    <value>Utilizzo della CPU dell'applicazione</value>
+  </data>
+  <data name="Diag_Metric_MemoryUsage" xml:space="preserve">
+    <value>Utilizzo della memoria</value>
+  </data>
+  <data name="Diag_Metric_Commit" xml:space="preserve">
+    <value>Memoria impegnata</value>
+  </data>
+  <data name="Diag_Metric_DiskActive" xml:space="preserve">
+    <value>Tempo di attività del disco</value>
+  </data>
+  <data name="Diag_Metric_SystemDiskSpace" xml:space="preserve">
+    <value>Spazio del disco di sistema</value>
+  </data>
+  <data name="Diag_Metric_VolumeSpace" xml:space="preserve">
+    <value>Spazio del volume</value>
+  </data>
+  <data name="Diag_Metric_ActivityVsUsual" xml:space="preserve">
+    <value>Attività rispetto al solito</value>
+  </data>
+  <data name="Diag_Metric_GpuUsage" xml:space="preserve">
+    <value>Utilizzo della GPU</value>
+  </data>
+  <data name="Diag_Metric_Connectivity" xml:space="preserve">
+    <value>Connettività</value>
+  </data>
+  <data name="Diag_Metric_Uptime" xml:space="preserve">
+    <value>Tempo di attività</value>
+  </data>
+  <data name="Diag_CpuLastMinute" xml:space="preserve">
+    <value>Utilizzo della CPU (ultimo minuto)</value>
+  </data>
+  <data name="Diag_CpuLoad_Explanation" xml:space="preserve">
+    <value>Quando il processore resta così occupato, le applicazioni devono aspettare il proprio turno e il PC può sembrare lento.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUnusual" xml:space="preserve">
+    <value>Il processore è molto più occupato del solito per questo PC ({0}). Le applicazioni devono aspettare il proprio turno e il PC può sembrare lento.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUsual" xml:space="preserve">
+    <value>Questo livello è alto, ma non insolito per questo PC ({0} per la maggior parte del tempo).</value>
+  </data>
+  <data name="Diag_CpuLoad_SaturatedTitle" xml:space="preserve">
+    <value>La CPU è satura</value>
+  </data>
+  <data name="Diag_CpuLoad_HighTitle" xml:space="preserve">
+    <value>Utilizzo della CPU elevato</value>
+  </data>
+  <data name="Diag_CpuLoad_HighDescription" xml:space="preserve">
+    <value>L'utilizzo della CPU è rimasto sopra {0} per {1} (media {2}).</value>
+  </data>
+  <data name="Diag_CpuLoad_Recommendation" xml:space="preserve">
+    <value>Apri Impatto delle app per vedere quali applicazioni usano il processore e chiudi quelle che non ti servono ora.</value>
+  </data>
+  <data name="Diag_CpuSpike_Title" xml:space="preserve">
+    <value>Breve picco della CPU</value>
+  </data>
+  <data name="Diag_CpuSpike_Description" xml:space="preserve">
+    <value>La CPU è al {0} in questo momento, ma solo da {1}.</value>
+  </data>
+  <data name="Diag_CpuSpike_Explanation" xml:space="preserve">
+    <value>I picchi brevi sono normali (apertura di un'applicazione, un'attività in background). Diventano una causa probabile di lentezza solo se durano.</value>
+  </data>
+  <data name="Diag_CpuNormal_Title" xml:space="preserve">
+    <value>Utilizzo della CPU normale</value>
+  </data>
+  <data name="Diag_CpuNormal_Description" xml:space="preserve">
+    <value>Il processore ha registrato una media del {0} nell'ultimo minuto (picco {1}).</value>
+  </data>
+  <data name="Diag_CpuNormal_Explanation" xml:space="preserve">
+    <value>Il processore ha capacità libera.</value>
+  </data>
+  <data name="Diag_AppCpu_Now" xml:space="preserve">
+    <value>{0} della CPU totale ora ({1})</value>
+  </data>
+  <data name="Count_Process_One" xml:space="preserve">
+    <value>{0} processo</value>
+  </data>
+  <data name="Count_Process_Other" xml:space="preserve">
+    <value>{0} processi</value>
+  </data>
+  <data name="Diag_AppCpu_TotalNow" xml:space="preserve">
+    <value>Utilizzo totale della CPU ora: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_LongTitle" xml:space="preserve">
+    <value>{0} usa molta CPU da diversi minuti</value>
+  </data>
+  <data name="Diag_AppCpu_LargeShareTitle" xml:space="preserve">
+    <value>{0} usa una parte importante della CPU</value>
+  </data>
+  <data name="Diag_AppCpu_Description" xml:space="preserve">
+    <value>{0} ha usato in media {1} della capacità totale della CPU per {2}.</value>
+  </data>
+  <data name="Diag_AppCpu_Explanation" xml:space="preserve">
+    <value>Una singola applicazione che tiene il processore così occupato lascia meno capacità a tutto il resto. Può svolgere un lavoro legittimo (una compilazione, un'esportazione, un gioco) o essere bloccata.</value>
+  </data>
+  <data name="Diag_AppCpu_Recommendation" xml:space="preserve">
+    <value>Se ora non ti serve {0}, chiudila o attendi che termini la sua attività. Impatto delle app ne mostra la cronologia.</value>
+  </data>
+  <data name="Diag_AppCpu_MainTitle" xml:space="preserve">
+    <value>{0} è il principale consumatore di CPU</value>
+  </data>
+  <data name="Diag_AppCpu_MainDescription" xml:space="preserve">
+    <value>{0} rappresenta {1} del carico del processore in questo momento ({2} su {3}).</value>
+  </data>
+  <data name="Diag_AppCpu_TotalCpu" xml:space="preserve">
+    <value>CPU totale {0}</value>
+  </data>
+  <data name="Diag_AppCpu_MainExplanation" xml:space="preserve">
+    <value>Se il processore resta occupato, questa applicazione è la causa più probabile.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneTitle" xml:space="preserve">
+    <value>Nessuna applicazione domina la CPU</value>
+  </data>
+  <data name="Diag_AppCpu_NoneDescription" xml:space="preserve">
+    <value>Il maggiore consumatore di CPU è {0}, con {1} della capacità totale.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneExplanation" xml:space="preserve">
+    <value>Nessuna singola applicazione tiene occupato il processore.</value>
+  </data>
+  <data name="Diag_AppCpu_EvidenceName" xml:space="preserve">
+    <value>CPU di {0}</value>
+  </data>
+  <data name="Diag_PerAppThreshold" xml:space="preserve">
+    <value>Soglia {0} per applicazione</value>
+  </data>
+  <data name="Diag_Memory_State" xml:space="preserve">
+    <value>{0} di {1} in uso, {2} disponibili</value>
+  </data>
+  <data name="Diag_Memory_Physical" xml:space="preserve">
+    <value>Memoria fisica</value>
+  </data>
+  <data name="Diag_Memory_LargestApp" xml:space="preserve">
+    <value>Applicazione più grande</value>
+  </data>
+  <data name="Common_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Diag_Memory_FullTitle" xml:space="preserve">
+    <value>La memoria è quasi piena</value>
+  </data>
+  <data name="Diag_Memory_LowTitle" xml:space="preserve">
+    <value>La memoria disponibile è scarsa</value>
+  </data>
+  <data name="Diag_Memory_HighDescription" xml:space="preserve">
+    <value>L'utilizzo della memoria è rimasto sopra {0} per {1} ({2} disponibili).</value>
+  </data>
+  <data name="Diag_Memory_HighExplanation" xml:space="preserve">
+    <value>Quando la memoria scarseggia, Windows sposta dati sul disco (paging), che è molto più lento della memoria: le applicazioni possono bloccarsi o rispondere lentamente.</value>
+  </data>
+  <data name="Diag_Memory_CloseApps" xml:space="preserve">
+    <value>Chiudi le applicazioni che non usi.</value>
+  </data>
+  <data name="Diag_Memory_CloseAppsLargest" xml:space="preserve">
+    <value>Chiudi le applicazioni che non usi. La più grande è {0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_HighTitle" xml:space="preserve">
+    <value>L'utilizzo della memoria è elevato</value>
+  </data>
+  <data name="Diag_Memory_JustReached" xml:space="preserve">
+    <value>L'utilizzo della memoria ha appena raggiunto {0} ({1} disponibili).</value>
+  </data>
+  <data name="Diag_Memory_JustReachedExplanation" xml:space="preserve">
+    <value>Se resta così alto, Windows inizierà a spostare dati sul disco, rallentando le applicazioni.</value>
+  </data>
+  <data name="Diag_Memory_EnoughTitle" xml:space="preserve">
+    <value>Memoria disponibile sufficiente</value>
+  </data>
+  <data name="Diag_Memory_EnoughDescription" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_EnoughExplanation" xml:space="preserve">
+    <value>Le applicazioni hanno spazio per lavorare senza che Windows sposti dati sul disco.</value>
+  </data>
+  <data name="Diag_Commit_Title" xml:space="preserve">
+    <value>La memoria virtuale è quasi esaurita</value>
+  </data>
+  <data name="Diag_Commit_Description" xml:space="preserve">
+    <value>Windows ha impegnato {0} del suo limite di memoria virtuale (memoria fisica + file di paging).</value>
+  </data>
+  <data name="Diag_Commit_Explanation" xml:space="preserve">
+    <value>Quando la memoria impegnata raggiunge il limite, le applicazioni possono non ottenere memoria e bloccarsi o chiudersi.</value>
+  </data>
+  <data name="Diag_Commit_Recommendation" xml:space="preserve">
+    <value>Chiudi le applicazioni che usano molta memoria. Se succede spesso, lascia che Windows gestisca automaticamente le dimensioni del file di paging.</value>
+  </data>
+  <data name="Diag_Growth_Trend" xml:space="preserve">
+    <value>Tendenza dell'utilizzo della memoria</value>
+  </data>
+  <data name="Diag_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} punti in {1} ({2:0.##} punti al minuto)</value>
+  </data>
+  <data name="Diag_Growth_TrendReference" xml:space="preserve">
+    <value>Tendenza robusta (Theil–Sen), insensibile ai picchi isolati</value>
+  </data>
+  <data name="Diag_Growth_AppMemory" xml:space="preserve">
+    <value>Memoria di {0}</value>
+  </data>
+  <data name="Diag_Growth_AppGrowth" xml:space="preserve">
+    <value>+{0} nello stesso periodo</value>
+  </data>
+  <data name="Diag_Growth_Title" xml:space="preserve">
+    <value>L'utilizzo della memoria è in costante aumento</value>
+  </data>
+  <data name="Diag_Growth_Description" xml:space="preserve">
+    <value>L'utilizzo della memoria è aumentato di {0:0} punti in {1}.</value>
+  </data>
+  <data name="Diag_Growth_DescriptionApp" xml:space="preserve">
+    <value>{0} è cresciuta di {1} nello stesso periodo.</value>
+  </data>
+  <data name="Diag_Growth_Points" xml:space="preserve">
+    <value>+{0:0} punti</value>
+  </data>
+  <data name="Diag_Growth_Reference" xml:space="preserve">
+    <value>Segnalato da +{0:0} punti in {1}</value>
+  </data>
+  <data name="Diag_Growth_Explanation" xml:space="preserve">
+    <value>Un aumento costante può essere normale (un'applicazione che carica dati) o il segno che un'applicazione non libera la memoria (una perdita). Sysora non può distinguerlo solo da queste misurazioni.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationReplay" xml:space="preserve">
+    <value>Osserva l'utilizzo della memoria in Replay; se continua a salire, riavvia l'applicazione responsabile.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationApp" xml:space="preserve">
+    <value>Se {0} continua a crescere, riavviarla libererà la memoria.</value>
+  </data>
+  <data name="Diag_Uptime_Reference" xml:space="preserve">
+    <value>Include il tempo in sospensione. Con l'avvio rapido, «Arresta» non lo azzera; «Riavvia» sì.</value>
+  </data>
+  <data name="Diag_Disk_Unnamed" xml:space="preserve">
+    <value>disco</value>
+  </data>
+  <data name="Diag_Disk_Throughput" xml:space="preserve">
+    <value>lettura {0}, scrittura {1}</value>
+  </data>
+  <data name="Diag_Disk_ActiveTimeOf" xml:space="preserve">
+    <value>Tempo di attività del disco {0}</value>
+  </data>
+  <data name="Diag_Disk_ThroughputAll" xml:space="preserve">
+    <value>Velocità effettiva (tutti i volumi)</value>
+  </data>
+  <data name="Diag_Disk_MostIo" xml:space="preserve">
+    <value>Più I/O</value>
+  </data>
+  <data name="Diag_Disk_IoReference" xml:space="preserve">
+    <value>L'I/O per processo comprende file, dispositivi e rete; non è suddivisibile per disco.</value>
+  </data>
+  <data name="Diag_Disk_Explanation" xml:space="preserve">
+    <value>Quando un disco è occupato quasi sempre, le applicazioni che devono leggere o scrivere file devono aspettare.</value>
+  </data>
+  <data name="Diag_Disk_ExplanationPaging" xml:space="preserve">
+    <value>Anche la memoria è alta: parte di questa attività potrebbe essere dovuta al paging della memoria su disco da parte di Windows (una possibilità, non confermata).</value>
+  </data>
+  <data name="Diag_Disk_SystemHeavyTitle" xml:space="preserve">
+    <value>Il disco di sistema mostra un'attività intensa</value>
+  </data>
+  <data name="Diag_Disk_HeavyTitle" xml:space="preserve">
+    <value>Il disco {0} mostra un'attività intensa</value>
+  </data>
+  <data name="Diag_Disk_HeavyDescription" xml:space="preserve">
+    <value>Il disco {0} è stato occupato per {1} del tempo per {2} ({3}).</value>
+  </data>
+  <data name="Diag_Disk_Recommendation" xml:space="preserve">
+    <value>Aggiornamenti, scansioni antivirus e indicizzazione dei file lo causano spesso temporaneamente. Impatto delle app mostra quali applicazioni leggono e scrivono di più.</value>
+  </data>
+  <data name="Diag_Disk_RecommendationApp" xml:space="preserve">
+    <value>{0} ha attualmente più I/O. Anche aggiornamenti, scansioni antivirus e indicizzazione dei file lo causano temporaneamente.</value>
+  </data>
+  <data name="Diag_Disk_NormalTitle" xml:space="preserve">
+    <value>Attività del disco normale</value>
+  </data>
+  <data name="Diag_Disk_NormalDescription" xml:space="preserve">
+    <value>Il disco più occupato ({0}) è stato attivo per {1} del tempo nell'ultimo minuto.</value>
+  </data>
+  <data name="Diag_Disk_NormalExplanation" xml:space="preserve">
+    <value>I dischi hanno capacità libera.</value>
+  </data>
+  <data name="Diag_Disk_BusiestLastMinute" xml:space="preserve">
+    <value>Tempo di attività del disco più occupato (ultimo minuto)</value>
+  </data>
+  <data name="Diag_Space_FreeOfUsed" xml:space="preserve">
+    <value>{0} liberi su {1} ({2} usato)</value>
+  </data>
+  <data name="Diag_Space_Reference" xml:space="preserve">
+    <value>Avviso {0}, critico {1} o meno di {2} liberi</value>
+  </data>
+  <data name="Diag_Space_FullTitle" xml:space="preserve">
+    <value>Il disco di sistema è quasi pieno</value>
+  </data>
+  <data name="Diag_Space_LowTitle" xml:space="preserve">
+    <value>Poco spazio libero sul disco di sistema</value>
+  </data>
+  <data name="Diag_Space_EnoughTitle" xml:space="preserve">
+    <value>Spazio libero sufficiente sul disco di sistema</value>
+  </data>
+  <data name="Diag_Space_FreeOn" xml:space="preserve">
+    <value>{0} liberi su {1} ({2} usato).</value>
+  </data>
+  <data name="Diag_Space_EnoughExplanation" xml:space="preserve">
+    <value>Windows ha spazio per aggiornamenti, file temporanei e file di paging.</value>
+  </data>
+  <data name="Diag_Space_LowExplanation" xml:space="preserve">
+    <value>Windows ha bisogno di spazio libero per aggiornamenti, file temporanei e file di paging. Un disco di sistema quasi pieno può rallentare il PC e far fallire gli aggiornamenti.</value>
+  </data>
+  <data name="Diag_Space_Recommendation" xml:space="preserve">
+    <value>Rimuovi i file che non ti servono più o usa Impostazioni di Windows › Sistema › Archiviazione › Consigli per la pulizia.</value>
+  </data>
+  <data name="Diag_Space_VolumeFullTitle" xml:space="preserve">
+    <value>Il volume {0} è pieno al {1}</value>
+  </data>
+  <data name="Diag_Space_VolumeExplanation" xml:space="preserve">
+    <value>Non è il disco di sistema, quindi non rallenta Windows, ma le applicazioni che vi salvano dati potrebbero restare senza spazio.</value>
+  </data>
+  <data name="Diag_Space_FreeOf" xml:space="preserve">
+    <value>{0} liberi su {1}</value>
+  </data>
+  <data name="Diag_Volume" xml:space="preserve">
+    <value>Volume {0}</value>
+  </data>
+  <data name="Diag_Warning" xml:space="preserve">
+    <value>Avviso {0}</value>
+  </data>
+  <data name="Diag_Unusual_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Diag_Unusual_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Diag_Unusual_Disk" xml:space="preserve">
+    <value>Attività del disco</value>
+  </data>
+  <data name="Diag_Unusual_OverLast" xml:space="preserve">
+    <value>{0} negli ultimi {1}</value>
+  </data>
+  <data name="Diag_Unusual_Reference" xml:space="preserve">
+    <value>Abituale {0}, 95% dei minuti sotto {1}</value>
+  </data>
+  <data name="Diag_Unusual_NormalTitle" xml:space="preserve">
+    <value>Attività nel tuo intervallo abituale</value>
+  </data>
+  <data name="Diag_Unusual_NormalDescription" xml:space="preserve">
+    <value>Gli ultimi {0} corrispondono all'attività abituale di questo PC.</value>
+  </data>
+  <data name="Diag_Unusual_Usual" xml:space="preserve">
+    <value>Abituale</value>
+  </data>
+  <data name="Diag_Unusual_NormalExplanation" xml:space="preserve">
+    <value>Confronto con le medie al minuto degli ultimi 7 giorni.</value>
+  </data>
+  <data name="Diag_Unusual_Part" xml:space="preserve">
+    <value>{0} {1} (di solito {2})</value>
+  </data>
+  <data name="Diag_Unusual_Title" xml:space="preserve">
+    <value>L'attività è insolita rispetto al tuo utilizzo recente</value>
+  </data>
+  <data name="Diag_Unusual_Description" xml:space="preserve">
+    <value>Negli ultimi {0}: {1}.</value>
+  </data>
+  <data name="Diag_Unusual_Usually" xml:space="preserve">
+    <value>di solito {0}</value>
+  </data>
+  <data name="Diag_Unusual_Explanation" xml:space="preserve">
+    <value>Questi valori superano ciò che questo PC mostra nel 95% dei minuti degli ultimi 7 giorni: è in esecuzione qualcosa di diverso dal solito.</value>
+  </data>
+  <data name="Diag_Unusual_Recommendation" xml:space="preserve">
+    <value>Usa Replay per vedere quando è iniziato e Impatto delle app per vedere quali applicazioni sono coinvolte.</value>
+  </data>
+  <data name="Diag_Gpu_FullTitle" xml:space="preserve">
+    <value>La GPU è completamente utilizzata</value>
+  </data>
+  <data name="Diag_Gpu_FullDescription" xml:space="preserve">
+    <value>Il motore grafico più occupato è sopra {0} da {1}.</value>
+  </data>
+  <data name="Diag_Gpu_FullExplanation" xml:space="preserve">
+    <value>Previsto durante il gioco, il rendering o la riproduzione di video ad alta risoluzione. Altrimenti un'applicazione sta usando molto la GPU, e lo schermo può sembrare poco reattivo.</value>
+  </data>
+  <data name="Diag_Gpu_NormalTitle" xml:space="preserve">
+    <value>Utilizzo della GPU normale</value>
+  </data>
+  <data name="Diag_Gpu_NormalDescription" xml:space="preserve">
+    <value>La GPU ha registrato una media del {0} nell'ultimo minuto.</value>
+  </data>
+  <data name="Diag_Gpu_NormalExplanation" xml:space="preserve">
+    <value>Il processore grafico ha capacità libera.</value>
+  </data>
+  <data name="Diag_Gpu_LastMinute" xml:space="preserve">
+    <value>Utilizzo della GPU (ultimo minuto)</value>
+  </data>
+  <data name="Diag_Net_InternetTitle" xml:space="preserve">
+    <value>Accesso a Internet disponibile</value>
+  </data>
+  <data name="Diag_Net_InternetDescription" xml:space="preserve">
+    <value>Windows segnala una connessione a Internet funzionante.</value>
+  </data>
+  <data name="Diag_Net_LimitedTitle" xml:space="preserve">
+    <value>Accesso a Internet limitato</value>
+  </data>
+  <data name="Diag_Net_LimitedDescription" xml:space="preserve">
+    <value>Windows segnala un accesso a Internet limitato (ad esempio una pagina di accesso).</value>
+  </data>
+  <data name="Diag_Net_LocalTitle" xml:space="preserve">
+    <value>Nessun accesso a Internet</value>
+  </data>
+  <data name="Diag_Net_LocalDescription" xml:space="preserve">
+    <value>Windows segnala una connessione di rete locale senza accesso a Internet.</value>
+  </data>
+  <data name="Diag_Net_NoneTitle" xml:space="preserve">
+    <value>Nessuna connessione di rete</value>
+  </data>
+  <data name="Diag_Net_NoneDescription" xml:space="preserve">
+    <value>Windows non segnala alcuna connessione di rete.</value>
+  </data>
+  <data name="Diag_Net_OkExplanation" xml:space="preserve">
+    <value>Le pagine web e le applicazioni online possono raggiungere Internet.</value>
+  </data>
+  <data name="Diag_Net_ProblemExplanation" xml:space="preserve">
+    <value>Le pagine web e le applicazioni online saranno lente o non funzioneranno. È un problema di connessione, non di prestazioni del PC.</value>
+  </data>
+  <data name="Diag_Net_Recommendation" xml:space="preserve">
+    <value>Controlla la connessione Wi-Fi o via cavo, oppure il router.</value>
+  </data>
+  <data name="Connectivity_Internet" xml:space="preserve">
+    <value>Accesso a Internet</value>
+  </data>
+  <data name="Connectivity_Constrained" xml:space="preserve">
+    <value>Accesso a Internet limitato</value>
+  </data>
+  <data name="Connectivity_Local" xml:space="preserve">
+    <value>Solo rete locale</value>
+  </data>
+  <data name="Connectivity_None" xml:space="preserve">
+    <value>Nessuna connessione</value>
+  </data>
+  <data name="Connectivity_Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="Diag_Uptime_Since" xml:space="preserve">
+    <value>Tempo dall'avvio di Windows</value>
+  </data>
+  <data name="Diag_Uptime_LongTitle" xml:space="preserve">
+    <value>Windows non viene riavviato da {0} giorni</value>
+  </data>
+  <data name="Diag_Uptime_RecentTitle" xml:space="preserve">
+    <value>Riavvio recente</value>
+  </data>
+  <data name="Diag_Uptime_Description" xml:space="preserve">
+    <value>Windows è stato avviato {0} fa.</value>
+  </data>
+  <data name="Diag_Uptime_Reference2" xml:space="preserve">
+    <value>Consigliato da {0:0} giorni</value>
+  </data>
+  <data name="Diag_Uptime_LongExplanation" xml:space="preserve">
+    <value>Alcuni problemi si accumulano nel tempo (driver, applicazioni che usano sempre più memoria). Un riavvio li elimina e applica gli aggiornamenti in sospeso. È un consiglio generale, non una causa misurata.</value>
+  </data>
+  <data name="Diag_Uptime_RecentExplanation" xml:space="preserve">
+    <value>Nessuna sessione lunga di cui preoccuparsi.</value>
+  </data>
+  <data name="Diag_Uptime_Recommendation" xml:space="preserve">
+    <value>Riavvia Windows quando ti è comodo (usa Riavvia, non Arresta).</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_One" xml:space="preserve">
+    <value>Nessun problema rilevato · {0} punto da tenere d'occhio</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_Other" xml:space="preserve">
+    <value>Nessun problema rilevato · {0} punti da tenere d'occhio</value>
+  </data>
+  <data name="Diag_Headline_NoProblem" xml:space="preserve">
+    <value>Nessun problema rilevato</value>
+  </data>
+  <data name="Diag_Headline_Problems_One" xml:space="preserve">
+    <value>{0} problema rilevato</value>
+  </data>
+  <data name="Diag_Headline_Problems_Other" xml:space="preserve">
+    <value>{0} problemi rilevati</value>
+  </data>
+  <data name="Diag_Summary_MostLikely" xml:space="preserve">
+    <value>Causa più probabile: {0}</value>
+  </data>
+  <data name="Diag_Summary_Also" xml:space="preserve">
+    <value>Inoltre: {0}.</value>
+  </data>
+  <data name="Diag_Summary_WorthKnowing" xml:space="preserve">
+    <value>Al momento nulla è saturo. Da sapere: {0}</value>
+  </data>
+  <data name="Diag_Summary_Nothing" xml:space="preserve">
+    <value>Al momento nulla è saturo: processore, memoria e dischi hanno capacità libera. Se poco fa il PC sembrava lento, Replay mostra cosa è successo negli ultimi minuti.</value>
+  </data>
+  <data name="Diag_Missing_Gpu" xml:space="preserve">
+    <value>Utilizzo della GPU: non disponibile su questo PC</value>
+  </data>
+  <data name="Diag_Missing_GpuOff" xml:space="preserve">
+    <value>Utilizzo della GPU: monitoraggio disattivato nelle Impostazioni</value>
+  </data>
+  <data name="Diag_Missing_Disk" xml:space="preserve">
+    <value>Attività del disco: non disponibile su questo PC</value>
+  </data>
+  <data name="Diag_Missing_Network" xml:space="preserve">
+    <value>Rete: non disponibile su questo PC</value>
+  </data>
+  <data name="Diag_Missing_NetworkOff" xml:space="preserve">
+    <value>Rete: monitoraggio disattivato nelle Impostazioni</value>
+  </data>
+  <data name="Diag_Missing_Temperature" xml:space="preserve">
+    <value>Temperatura della CPU: non disponibile (Windows non offre un modo documentato per leggerla senza un driver del kernel)</value>
+  </data>
+  <data name="Diag_Missing_AppNetwork" xml:space="preserve">
+    <value>Utilizzo della rete per applicazione: non disponibile (richiede la traccia eventi con privilegi di amministratore)</value>
+  </data>
+  <data name="Diag_Analyzing" xml:space="preserve">
+    <value>Analisi in corso…</value>
+  </data>
+  <data name="Diag_AnalyzingSummary" xml:space="preserve">
+    <value>Sysora ha bisogno di qualche secondo di misurazioni prima di poter diagnosticare il PC.</value>
+  </data>
+  <data name="Alert_UsualLevel" xml:space="preserve">
+    <value>Livello abituale {0}</value>
+  </data>
+  <data name="Alert_AveragePeak" xml:space="preserve">
+    <value>{0} in media (picco {1})</value>
+  </data>
+  <data name="Alert_OnAverage" xml:space="preserve">
+    <value>{0} in media</value>
+  </data>
+  <data name="Alert_TopApp" xml:space="preserve">
+    <value>Applicazione principale: {0} ({1})</value>
+  </data>
+  <data name="Alert_Cpu_UnusualTitle" xml:space="preserve">
+    <value>Utilizzo della CPU insolitamente alto</value>
+  </data>
+  <data name="Alert_Cpu_UsualTitle" xml:space="preserve">
+    <value>Utilizzo della CPU elevato (abituale per questo PC)</value>
+  </data>
+  <data name="Alert_Cpu_SustainedTitle" xml:space="preserve">
+    <value>Utilizzo della CPU elevato e prolungato</value>
+  </data>
+  <data name="Alert_UsualNotKnown" xml:space="preserve">
+    <value>Livello abituale non ancora noto</value>
+  </data>
+  <data name="Alert_Cpu_UnusualExplanation" xml:space="preserve">
+    <value>La CPU è rimasta sopra {0} per {1}, molto al di sopra del {2} abituale di questo PC.</value>
+  </data>
+  <data name="Alert_Cpu_UsualExplanation" xml:space="preserve">
+    <value>La CPU è rimasta sopra {0} per {1}. Questo livello è frequente su questo PC, quindi viene segnalato a titolo informativo.</value>
+  </data>
+  <data name="Alert_Cpu_SustainedExplanation" xml:space="preserve">
+    <value>La CPU è rimasta sopra {0} per {1}. I picchi brevi vengono ignorati; questo è durato.</value>
+  </data>
+  <data name="Alert_Cpu_Recommendation" xml:space="preserve">
+    <value>Controlla Impatto delle app per vedere quali applicazioni usano il processore.</value>
+  </data>
+  <data name="Alert_Memory_Title" xml:space="preserve">
+    <value>Memoria quasi piena</value>
+  </data>
+  <data name="Alert_LargestApp" xml:space="preserve">
+    <value>Applicazione più grande: {0} ({1})</value>
+  </data>
+  <data name="Alert_Memory_Explanation" xml:space="preserve">
+    <value>L'utilizzo della memoria è rimasto sopra {0} per {1}. Windows sposta allora dati sul disco, rallentando le applicazioni.</value>
+  </data>
+  <data name="Alert_Growth_Title" xml:space="preserve">
+    <value>Utilizzo della memoria in costante aumento</value>
+  </data>
+  <data name="Alert_Growth_Value" xml:space="preserve">
+    <value>+{0:0} punti ({1} → {2})</value>
+  </data>
+  <data name="Alert_Growth_NoApp" xml:space="preserve">
+    <value>Nessuna applicazione si distingue</value>
+  </data>
+  <data name="Alert_Growth_AppGrew" xml:space="preserve">
+    <value>{0} è cresciuta di {1}</value>
+  </data>
+  <data name="Alert_Growth_Explanation" xml:space="preserve">
+    <value>L'utilizzo della memoria aumenta da {0}. Può essere normale (dati in caricamento) o un'applicazione che non libera memoria.</value>
+  </data>
+  <data name="Alert_Growth_Recommendation" xml:space="preserve">
+    <value>Se {0} continua a crescere, riavviarla libera la memoria.</value>
+  </data>
+  <data name="Alert_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} punti in {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Title" xml:space="preserve">
+    <value>{0} ha usato molta CPU per {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Value" xml:space="preserve">
+    <value>{0} della CPU totale in media (picco {1})</value>
+  </data>
+  <data name="Alert_AppCpu_TotalNow" xml:space="preserve">
+    <value>CPU totale ora {0}</value>
+  </data>
+  <data name="Alert_AppCpu_Explanation" xml:space="preserve">
+    <value>{0} è rimasta sopra {1} della capacità totale della CPU per {2}. Potrebbe funzionare normalmente (una compilazione, un'esportazione) o essere bloccata.</value>
+  </data>
+  <data name="Alert_AppCpu_Recommendation" xml:space="preserve">
+    <value>Se ora non ti serve {0}, chiudila o attendi che termini la sua attività.</value>
+  </data>
+  <data name="Alert_Disk_Title" xml:space="preserve">
+    <value>Disco {0} occupato da {1}</value>
+  </data>
+  <data name="Alert_Disk_TitleUnnamed" xml:space="preserve">
+    <value>Disco occupato da {0}</value>
+  </data>
+  <data name="Alert_Disk_ReadWrite" xml:space="preserve">
+    <value>Lettura {0}, scrittura {1}</value>
+  </data>
+  <data name="Alert_Disk_MostIo" xml:space="preserve">
+    <value>Più I/O: {0}</value>
+  </data>
+  <data name="Alert_Disk_Explanation" xml:space="preserve">
+    <value>Il disco è stato attivo per più del {0} del tempo per {1}: le applicazioni che leggono o scrivono file devono aspettare.</value>
+  </data>
+  <data name="Alert_Disk_Recommendation" xml:space="preserve">
+    <value>Aggiornamenti, scansioni antivirus e indicizzazione lo causano spesso temporaneamente.</value>
+  </data>
+  <data name="Alert_Unusual_Disk" xml:space="preserve">
+    <value>Attività del disco</value>
+  </data>
+  <data name="Alert_Unusual_Title" xml:space="preserve">
+    <value>{0} insolitamente alto</value>
+  </data>
+  <data name="Alert_Unusual_Context" xml:space="preserve">
+    <value>Livello abituale {0} (mediana {1})</value>
+  </data>
+  <data name="Alert_Unusual_Explanation" xml:space="preserve">
+    <value>{0} è rimasto sopra il tuo riferimento recente per {1}.</value>
+  </data>
+  <data name="Alert_Unusual_Recommendation" xml:space="preserve">
+    <value>Usa Replay per vedere quando è iniziato.</value>
+  </data>
+  <data name="Alert_Baseline" xml:space="preserve">
+    <value>Riferimento</value>
+  </data>
+  <data name="Alert_Space_Title" xml:space="preserve">
+    <value>Poco spazio libero su {0}</value>
+  </data>
+  <data name="Alert_Space_Metric" xml:space="preserve">
+    <value>Spazio libero</value>
+  </data>
+  <data name="Alert_Space_Value" xml:space="preserve">
+    <value>{0} liberi ({1})</value>
+  </data>
+  <data name="Alert_Space_Context" xml:space="preserve">
+    <value>Volume da {0}</value>
+  </data>
+  <data name="Alert_Space_Explanation" xml:space="preserve">
+    <value>Windows ha bisogno di spazio libero sul disco di sistema per aggiornamenti, file temporanei e file di paging.</value>
+  </data>
+  <data name="Alert_Space_Recommendation" xml:space="preserve">
+    <value>Rimuovi i file che non ti servono più o usa Impostazioni di Windows › Sistema › Archiviazione.</value>
+  </data>
+  <data name="Alert_Space_Reference" xml:space="preserve">
+    <value>Avviso sotto {0} liberi</value>
+  </data>
+  <data name="Alert_ResolvedEvent" xml:space="preserve">
+    <value>Risolto: {0}</value>
+  </data>
+  <data name="Source_Cpu" xml:space="preserve">
+    <value>Contatore delle prestazioni di Windows \Processor Information(_Total)\% Processor Utility</value>
+  </data>
+  <data name="Source_Disk" xml:space="preserve">
+    <value>Contatore delle prestazioni di Windows \LogicalDisk(*)\% Idle Time (tempo attivo = 100 − inattività)</value>
+  </data>
+  <data name="Source_Gpu" xml:space="preserve">
+    <value>Contatore delle prestazioni di Windows \GPU Engine(*)\Utilization Percentage</value>
+  </data>
+  <data name="Format_PercentRange" xml:space="preserve">
+    <value>{0:0}–{1:0}%</value>
+  </data>
+  <data name="Source_Memory" xml:space="preserve">
+    <value>GlobalMemoryStatusEx (memoria fisica in uso)</value>
+  </data>
+  <data name="Source_Commit" xml:space="preserve">
+    <value>GetPerformanceInfo (memoria impegnata e limite)</value>
+  </data>
+  <data name="Source_Network" xml:space="preserve">
+    <value>Statistiche di interfaccia IP Helper (interfacce con gateway predefinito)</value>
+  </data>
+  <data name="Source_Processes" xml:space="preserve">
+    <value>NtQuerySystemInformation (tempo CPU, working set privato e contatori I/O per processo)</value>
+  </data>
+  <data name="Source_ProcessIo" xml:space="preserve">
+    <value>Contatori I/O per processo (file, dispositivi e rete insieme)</value>
+  </data>
+  <data name="Source_Storage" xml:space="preserve">
+    <value>GetDiskFreeSpaceEx (capacità del volume)</value>
+  </data>
+  <data name="Source_Uptime" xml:space="preserve">
+    <value>GetTickCount64 (tempo dall'avvio di Windows, sospensione inclusa)</value>
+  </data>
+  <data name="Source_Connectivity" xml:space="preserve">
+    <value>Indicatore di stato della connettività di rete di Windows</value>
+  </data>
+  <data name="Source_Sysora" xml:space="preserve">
+    <value>Misurazioni di Sysora</value>
+  </data>
+  <data name="Confidence_High_Lower" xml:space="preserve">
+    <value>alta</value>
+  </data>
+  <data name="Confidence_Medium_Lower" xml:space="preserve">
+    <value>media</value>
+  </data>
+  <data name="Confidence_Low_Lower" xml:space="preserve">
+    <value>bassa</value>
+  </data>
+  <data name="Confidence_High" xml:space="preserve">
+    <value>Affidabilità alta</value>
+  </data>
+  <data name="Confidence_Medium" xml:space="preserve">
+    <value>Affidabilità media</value>
+  </data>
+  <data name="Confidence_Low" xml:space="preserve">
+    <value>Affidabilità bassa</value>
+  </data>
+  <data name="Basis_Observed" xml:space="preserve">
+    <value>Osservato</value>
+  </data>
+  <data name="Basis_InferredConfidence" xml:space="preserve">
+    <value>Dedotto · affidabilità {0}</value>
+  </data>
+  <data name="Basis_Inferred" xml:space="preserve">
+    <value>Dedotto</value>
+  </data>
+  <data name="Basis_Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="Identity_ByPath" xml:space="preserve">
+    <value>Identificata dal percorso del suo eseguibile.</value>
+  </data>
+  <data name="Identity_ByName" xml:space="preserve">
+    <value>Identificata solo dal nome del processo: Windows non dà accesso al percorso dell'eseguibile.</value>
+  </data>
+  <data name="Impact_Resource_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Resource_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Impact_Resource_Io" xml:space="preserve">
+    <value>I/O del disco</value>
+  </data>
+  <data name="Impact_Resource_Running" xml:space="preserve">
+    <value>Tempo di esecuzione</value>
+  </data>
+  <data name="Impact_Level_VeryHigh" xml:space="preserve">
+    <value>Molto alto</value>
+  </data>
+  <data name="Impact_Level_High" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="Impact_Level_Moderate" xml:space="preserve">
+    <value>Moderato</value>
+  </data>
+  <data name="Impact_Level_Low" xml:space="preserve">
+    <value>Basso</value>
+  </data>
+  <data name="Impact_Formula" xml:space="preserve">
+    <value>Punteggio = 45% CPU + 40% memoria + 15% I/O del disco. Ogni parte è il carico medio dell'applicazione nel periodo analizzato (utilizzo durante l'esecuzione × quota di tempo in esecuzione), rispetto a un livello di riferimento: 15% della CPU totale, 25% della memoria fisica, 5 MB/s di I/O. Livelli: basso sotto 10, moderato sotto 25, alto sotto 50, molto alto da 50.</value>
+  </data>
+  <data name="Impact_Note_Waiting" xml:space="preserve">
+    <value>In attesa delle prime misurazioni dei processi.</value>
+  </data>
+  <data name="Impact_Note_Session" xml:space="preserve">
+    <value>Ogni applicazione vista dall'avvio di Sysora, misurata ogni pochi secondi.</value>
+  </data>
+  <data name="Impact_Note_NoHistory" xml:space="preserve">
+    <value>Nessuna cronologia delle applicazioni registrata per questo periodo. La cronologia viene salvata ogni cinque minuti mentre Sysora è in esecuzione.</value>
+  </data>
+  <data name="Impact_Note_History" xml:space="preserve">
+    <value>Dalla cronologia locale: le applicazioni più significative di ogni periodo di cinque minuti (quelle inferiori non vengono registrate). Gli ultimi minuti compaiono al termine del loro periodo di cinque minuti.</value>
+  </data>
+  <data name="Replay_Source_Memory" xml:space="preserve">
+    <value>Misurazioni dettagliate conservate in memoria (una per campione di CPU).</value>
+  </data>
+  <data name="Replay_Source_History" xml:space="preserve">
+    <value>Medie al minuto della cronologia locale.</value>
+  </data>
+  <data name="Baseline_Ready" xml:space="preserve">
+    <value>Comportamento abituale appreso da {0} di cronologia</value>
+  </data>
+  <data name="Baseline_Collecting" xml:space="preserve">
+    <value>Raccolta dei dati di riferimento… ({0} registrati sui {1} necessari prima che Sysora confronti con la tua attività abituale)</value>
+  </data>
+  <data name="Impact_Ev_CpuReference" xml:space="preserve">
+    <value>Riferimento per «molto alto»: {0} della CPU totale in media nel periodo</value>
+  </data>
+  <data name="Impact_Ev_MemoryReference" xml:space="preserve">
+    <value>Riferimento per «molto alto»: {0} di {1} in media nel periodo</value>
+  </data>
+  <data name="Impact_Ev_IoReference" xml:space="preserve">
+    <value>Riferimento per «molto alto»: {0} in media nel periodo</value>
+  </data>
+  <data name="Impact_Cpu_Description" xml:space="preserve">
+    <value>{0} della capacità totale della CPU in media nel periodo ({1} durante l'esecuzione)</value>
+  </data>
+  <data name="Impact_Memory_Description" xml:space="preserve">
+    <value>{0} della memoria fisica in media nel periodo ({1} durante l'esecuzione)</value>
+  </data>
+  <data name="Impact_Memory_Unknown" xml:space="preserve">
+    <value>Dimensione della memoria fisica sconosciuta: memoria non valutata</value>
+  </data>
+  <data name="Impact_Io_Description" xml:space="preserve">
+    <value>{0} in media nel periodo (file, dispositivi e rete insieme)</value>
+  </data>
+  <data name="Impact_Running_Description" xml:space="preserve">
+    <value>In esecuzione per {0} del tempo monitorato</value>
+  </data>
+  <data name="Impact_When_Most" xml:space="preserve">
+    <value>per la maggior parte del tempo monitorato</value>
+  </data>
+  <data name="Impact_When_Large" xml:space="preserve">
+    <value>per buona parte del tempo monitorato</value>
+  </data>
+  <data name="Impact_When_Part" xml:space="preserve">
+    <value>per parte del tempo monitorato</value>
+  </data>
+  <data name="Impact_When_Briefly" xml:space="preserve">
+    <value>brevemente</value>
+  </data>
+  <data name="Impact_RunningOfMeasured" xml:space="preserve">
+    <value>{0} in esecuzione su {1} misurati</value>
+  </data>
+  <data name="Impact_Explain_Low" xml:space="preserve">
+    <value>Utilizzo delle risorse basso nel periodo ({0}).</value>
+  </data>
+  <data name="Impact_Explain_Peaks" xml:space="preserve">
+    <value>Sono stati osservati brevi picchi di CPU fino a {0}.</value>
+  </data>
+  <data name="Impact_Explain_Used" xml:space="preserve">
+    <value>Questa applicazione ha usato {0} {1} ({2}).</value>
+  </data>
+  <data name="Impact_Amount_VeryHigh" xml:space="preserve">
+    <value>una quantità molto grande di {0}</value>
+  </data>
+  <data name="Impact_Amount_High" xml:space="preserve">
+    <value>una quantità grande di {0}</value>
+  </data>
+  <data name="Impact_Amount_Moderate" xml:space="preserve">
+    <value>una quantità moderata di {0}</value>
+  </data>
+  <data name="Impact_Noun_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Noun_Memory" xml:space="preserve">
+    <value>memoria</value>
+  </data>
+  <data name="Impact_Noun_Io" xml:space="preserve">
+    <value>I/O del disco</value>
+  </data>
+  <data name="Impact_Ev_RunningTime" xml:space="preserve">
+    <value>Tempo di esecuzione</value>
+  </data>
+  <data name="Impact_Ev_RunningValue" xml:space="preserve">
+    <value>{0} su {1} misurati</value>
+  </data>
+  <data name="Impact_Ev_RunningSource" xml:space="preserve">
+    <value>Campioni dei processi di Sysora (esclusi gli intervalli come la sospensione)</value>
+  </data>
+  <data name="Impact_Ev_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Ev_CpuValue" xml:space="preserve">
+    <value>Media {0} della CPU totale durante l'esecuzione, picco {1}</value>
+  </data>
+  <data name="Impact_Ev_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Impact_Ev_MemoryValue" xml:space="preserve">
+    <value>Media {0} di working set privato durante l'esecuzione, picco {1}</value>
+  </data>
+  <data name="Impact_Ev_Io" xml:space="preserve">
+    <value>I/O del disco</value>
+  </data>
+  <data name="Impact_Ev_IoValue" xml:space="preserve">
+    <value>Media {0} durante l'esecuzione, picco {1}</value>
+  </data>
+  <data name="Impact_Ev_Network" xml:space="preserve">
+    <value>Rete</value>
+  </data>
+  <data name="Impact_Ev_NetworkReference" xml:space="preserve">
+    <value>Windows non segnala l'utilizzo della rete per applicazione senza la traccia eventi; l'I/O di rete è incluso nell'I/O del disco.</value>
+  </data>
+  <data name="Impact_Ev_Launches" xml:space="preserve">
+    <value>Avvii</value>
+  </data>
+  <data name="Impact_Ev_Launches_One" xml:space="preserve">
+    <value>{0} avvio del processo osservato</value>
+  </data>
+  <data name="Impact_Ev_Launches_Other" xml:space="preserve">
+    <value>{0} avvii del processo osservati</value>
+  </data>
+  <data name="Impact_Ev_NoLaunch" xml:space="preserve">
+    <value>Nessun avvio del processo osservato (già in esecuzione o non riavviato)</value>
+  </data>
+  <data name="Impact_Ev_Identification" xml:space="preserve">
+    <value>Identificazione</value>
+  </data>
+  <data name="Impact_Ev_ImageNameOnly" xml:space="preserve">
+    <value>Solo nome dell'immagine</value>
+  </data>
+  <data name="Impact_Ev_Score" xml:space="preserve">
+    <value>Punteggio</value>
+  </data>
+  <data name="Impact_Ev_ScoreValue" xml:space="preserve">
+    <value>{0}/100 ({1})</value>
+  </data>
+  <data name="Insight_Game_JustStarted" xml:space="preserve">
+    <value>appena avviato</value>
+  </data>
+  <data name="Insight_Game_For" xml:space="preserve">
+    <value>da {0}</value>
+  </data>
+  <data name="Insight_Game_Running" xml:space="preserve">
+    <value>Gioco in esecuzione: {0} ({1}). Un riepilogo apparirà alla chiusura.</value>
+  </data>
+  <data name="Insight_LastGame" xml:space="preserve">
+    <value>Ultimo gioco: {0} ({1}) · {2}</value>
+  </data>
+  <data name="Insight_ActiveAlertMore" xml:space="preserve">
+    <value>Avviso attivo: {0} (+{1} altri)</value>
+  </data>
+  <data name="Insight_ActiveAlert" xml:space="preserve">
+    <value>Avviso attivo: {0}</value>
+  </data>
+  <data name="Insight_Recurring" xml:space="preserve">
+    <value>Ricorrente: {0}</value>
+  </data>
+  <data name="Insight_Health" xml:space="preserve">
+    <value>La salute del PC è {0}/100, abbassata soprattutto da {1}: {2}</value>
+  </data>
+  <data name="Insight_AnalyzingFirst" xml:space="preserve">
+    <value>Analisi delle prime misurazioni…</value>
+  </data>
+  <data name="Insight_NoIssue" xml:space="preserve">
+    <value>Nessun problema significativo rilevato</value>
+  </data>
+  <data name="Insight_MemoryAbove" xml:space="preserve">
+    <value>L'utilizzo della memoria è {0:0} punti sopra il tuo livello abituale ({1} rispetto al solito {2})</value>
+  </data>
+  <data name="Insight_MemoryBelow" xml:space="preserve">
+    <value>L'utilizzo della memoria è {0:0} punti sotto il tuo livello abituale ({1} rispetto al solito {2})</value>
+  </data>
+  <data name="Insight_CpuAbove" xml:space="preserve">
+    <value>L'utilizzo della CPU è {0:0} punti sopra il tuo livello abituale ({1} rispetto al solito {2})</value>
+  </data>
+  <data name="Insight_CpuBelow" xml:space="preserve">
+    <value>L'utilizzo della CPU è {0:0} punti sotto il tuo livello abituale ({1} rispetto al solito {2})</value>
+  </data>
+  <data name="Insight_Recovered" xml:space="preserve">
+    <value>Il tuo PC si è ripreso dopo l'ultimo problema ({0}): è terminato alle {1} e non si è ripresentato.</value>
+  </data>
+  <data name="Insight_Kind_HighCpu" xml:space="preserve">
+    <value>CPU alta</value>
+  </data>
+  <data name="Insight_Kind_HighMemory" xml:space="preserve">
+    <value>memoria alta</value>
+  </data>
+  <data name="Insight_Kind_RisingMemory" xml:space="preserve">
+    <value>memoria in aumento</value>
+  </data>
+  <data name="Insight_Kind_BusyDisk" xml:space="preserve">
+    <value>disco occupato</value>
+  </data>
+  <data name="Insight_Kind_LowSpace" xml:space="preserve">
+    <value>poco spazio su disco</value>
+  </data>
+  <data name="Insight_Kind_Unusual" xml:space="preserve">
+    <value>attività insolita</value>
+  </data>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} avviso «{1}» nelle ultime 24 ore (ultimo: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} avvisi «{1}» nelle ultime 24 ore (ultimo: {2}).</value>
+  </data>
+  <data name="Insight_WithinUsual" xml:space="preserve">
+    <value>L'utilizzo di CPU e memoria rientra nel tuo intervallo abituale per questo PC.</value>
+  </data>
+  <data name="Insight_LargestConsumer" xml:space="preserve">
+    <value>{0} è attualmente il maggiore consumatore di risorse ({1} di CPU, {2})</value>
+  </data>
+  <data name="Recurring_NotAnalyzed" xml:space="preserve">
+    <value>Non ancora analizzato.</value>
+  </data>
+  <data name="Recurring_NoHistoryYet" xml:space="preserve">
+    <value>ancora nessuna cronologia</value>
+  </data>
+  <data name="Recurring_OfHistory" xml:space="preserve">
+    <value>{0} di cronologia</value>
+  </data>
+  <data name="Recurring_NotEnough" xml:space="preserve">
+    <value>Dati storici insufficienti ({0}; i problemi ricorrenti richiedono almeno {1}).</value>
+  </data>
+  <data name="Recurring_None" xml:space="preserve">
+    <value>Nessun problema ricorrente negli ultimi {0} giorni.</value>
+  </data>
+  <data name="Recurring_One" xml:space="preserve">
+    <value>1 problema ricorrente: {0}</value>
+  </data>
+  <data name="Recurring_Many" xml:space="preserve">
+    <value>{0} problemi ricorrenti. Il più frequente: {1}</value>
+  </data>
+  <data name="Recurring_HighCpu" xml:space="preserve">
+    <value>Utilizzo della CPU elevato</value>
+  </data>
+  <data name="Recurring_HighMemory" xml:space="preserve">
+    <value>Utilizzo della memoria elevato</value>
+  </data>
+  <data name="Recurring_MemoryRising" xml:space="preserve">
+    <value>Utilizzo della memoria in aumento</value>
+  </data>
+  <data name="Recurring_DiskBusy" xml:space="preserve">
+    <value>Disco occupato</value>
+  </data>
+  <data name="Recurring_AppCpu" xml:space="preserve">
+    <value>{0} usa molta CPU</value>
+  </data>
+  <data name="Recurring_Connectivity" xml:space="preserve">
+    <value>Accesso a Internet perso o limitato</value>
+  </data>
+  <data name="Recurring_Occurrences" xml:space="preserve">
+    <value>Occorrenze</value>
+  </data>
+  <data name="Recurring_OccurrencesText" xml:space="preserve">
+    <value>{0} il {1}, dalle {2} alle {3}</value>
+  </data>
+  <data name="Count_Episode_One" xml:space="preserve">
+    <value>{0} episodio</value>
+  </data>
+  <data name="Count_Episode_Other" xml:space="preserve">
+    <value>{0} episodi</value>
+  </data>
+  <data name="Recurring_When" xml:space="preserve">
+    <value>Quando</value>
+  </data>
+  <data name="Recurring_MostAssociated" xml:space="preserve">
+    <value>Applicazione più associata</value>
+  </data>
+  <data name="Recurring_MostAssociatedText" xml:space="preserve">
+    <value>{0} ({1} episodi su {2})</value>
+  </data>
+  <data name="Recurring_Cause" xml:space="preserve">
+    <value>Causa</value>
+  </data>
+  <data name="Recurring_CauseConnectivity" xml:space="preserve">
+    <value>Windows segnala la perdita di accesso; il motivo (router, provider, segnale Wi-Fi) non è osservabile da Sysora.</value>
+  </data>
+  <data name="Recurring_Description" xml:space="preserve">
+    <value>{0} si è verificato {1} negli ultimi {2} giorni.</value>
+  </data>
+  <data name="Recurring_Pattern" xml:space="preserve">
+    <value>La maggior parte degli eventi si è verificata tra le {0:00}:00 e le {1:00}:00 ({2} su {3})</value>
+  </data>
+  <data name="Times_Once" xml:space="preserve">
+    <value>una volta</value>
+  </data>
+  <data name="Times_Twice" xml:space="preserve">
+    <value>due volte</value>
+  </data>
+  <data name="Times_N" xml:space="preserve">
+    <value>{0} volte</value>
+  </data>
+  <data name="Replay_Rose_Cpu" xml:space="preserve">
+    <value>La CPU è salita da {0} a {1}</value>
+  </data>
+  <data name="Replay_Rose_Memory" xml:space="preserve">
+    <value>La memoria è salita da {0} a {1}</value>
+  </data>
+  <data name="Replay_Rose_Disk" xml:space="preserve">
+    <value>L'attività del disco è salita da {0} a {1}</value>
+  </data>
+  <data name="Replay_Rose_Gpu" xml:space="preserve">
+    <value>La GPU è salita da {0} a {1}</value>
+  </data>
+  <data name="Replay_Reached_Cpu" xml:space="preserve">
+    <value>La CPU ha raggiunto {0}</value>
+  </data>
+  <data name="Replay_Reached_Memory" xml:space="preserve">
+    <value>La memoria ha raggiunto {0}</value>
+  </data>
+  <data name="Replay_Reached_Disk" xml:space="preserve">
+    <value>L'attività del disco ha raggiunto {0}</value>
+  </data>
+  <data name="Replay_Reached_Gpu" xml:space="preserve">
+    <value>La GPU ha raggiunto {0}</value>
+  </data>
+  <data name="Replay_Back_Cpu" xml:space="preserve">
+    <value>La CPU è tornata a {0}</value>
+  </data>
+  <data name="Replay_Back_Memory" xml:space="preserve">
+    <value>La memoria è tornata a {0}</value>
+  </data>
+  <data name="Replay_Back_Disk" xml:space="preserve">
+    <value>L'attività del disco è tornata a {0}</value>
+  </data>
+  <data name="Replay_Back_Gpu" xml:space="preserve">
+    <value>La GPU è tornata a {0}</value>
+  </data>
+  <data name="Replay_NoMeasurements" xml:space="preserve">
+    <value>Nessuna misurazione per questo periodo.</value>
+  </data>
+  <data name="Replay_MostIo" xml:space="preserve">
+    <value>più I/O: {0} {1}</value>
+  </data>
+  <data name="Replay_CpuAveraged" xml:space="preserve">
+    <value>CPU in media {0} (picco {1})</value>
+  </data>
+  <data name="Replay_MemoryLevel" xml:space="preserve">
+    <value>memoria {0}</value>
+  </data>
+  <data name="Replay_NoNotableChange" xml:space="preserve">
+    <value>Nessuna variazione significativa in questo periodo.</value>
+  </data>
+  <data name="Replay_NoSharpRise" xml:space="preserve">
+    <value>Nessun aumento brusco né saturazione in questo periodo: {0}.</value>
+  </data>
+  <data name="Replay_SharpRise" xml:space="preserve">
+    <value>Un aumento brusco di {0}{1} è comparso alle {2}</value>
+  </data>
+  <data name="Replay_FollowedBy" xml:space="preserve">
+    <value>, seguito da {0}</value>
+  </data>
+  <data name="Replay_NounAt" xml:space="preserve">
+    <value>{0} alle {1}</value>
+  </data>
+  <data name="Replay_Noun_Cpu" xml:space="preserve">
+    <value>utilizzo della CPU</value>
+  </data>
+  <data name="Replay_Noun_Memory" xml:space="preserve">
+    <value>utilizzo della memoria</value>
+  </data>
+  <data name="Replay_Noun_Disk" xml:space="preserve">
+    <value>attività del disco</value>
+  </data>
+  <data name="Replay_Noun_Gpu" xml:space="preserve">
+    <value>utilizzo della GPU</value>
+  </data>
+  <data name="Replay_Noun_Other" xml:space="preserve">
+    <value>attività</value>
+  </data>
+  <data name="Usual_Loading" xml:space="preserve">
+    <value>Caricamento della cronologia…</value>
+  </data>
+  <data name="Usual_Metric_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Usual_Metric_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Usual_Metric_Disk" xml:space="preserve">
+    <value>Tempo di attività del disco</value>
+  </data>
+  <data name="Usual_Metric_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Usual_Period_LastHour" xml:space="preserve">
+    <value>Ultima ora</value>
+  </data>
+  <data name="Usual_Period_Today" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="Usual_Period_Yesterday" xml:space="preserve">
+    <value>Ieri</value>
+  </data>
+  <data name="Usual_Period_7Days" xml:space="preserve">
+    <value>Ultimi 7 giorni</value>
+  </data>
+  <data name="Usual_Period_30Days" xml:space="preserve">
+    <value>Ultimi 30 giorni</value>
+  </data>
+  <data name="Usual_Period_AtThisHour" xml:space="preserve">
+    <value>Abituale a quest'ora</value>
+  </data>
+  <data name="Usual_Summary_Above" xml:space="preserve">
+    <value>{0} è {1:0} punti sopra il tuo livello abituale: {2} ora rispetto a {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Below" xml:space="preserve">
+    <value>{0} è {1:0} punti sotto il tuo livello abituale: {2} ora rispetto a {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Close" xml:space="preserve">
+    <value>L'attività attuale è vicina al tuo livello abituale (entro 10 punti).</value>
+  </data>
+  <data name="Usual_Summary_NotEnough" xml:space="preserve">
+    <value>Cronologia ancora insufficiente per sapere cosa è abituale: il confronto su 7 giorni richiede 4 ore su 2 giorni, quello su 30 giorni 24 ore su 8 giorni.</value>
+  </data>
+  <data name="Usual_NeededOverDays" xml:space="preserve">
+    <value>{0} su {1} giorni</value>
+  </data>
+  <data name="Usual_NotEnoughOverDays" xml:space="preserve">
+    <value>Dati insufficienti: {0} registrati su {1}, ne servono {2}</value>
+  </data>
+  <data name="Usual_NotEnough" xml:space="preserve">
+    <value>Dati insufficienti: {0} registrati, ne servono {1}</value>
+  </data>
+  <data name="Usual_Hours" xml:space="preserve">
+    <value>{0:0.#} h</value>
+  </data>
+  <data name="State_Metric_MemoryUsed" xml:space="preserve">
+    <value>Memoria in uso</value>
+  </data>
+  <data name="State_Metric_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="State_Metric_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="State_Metric_Processes" xml:space="preserve">
+    <value>Processi</value>
+  </data>
+  <data name="State_Metric_SystemFree" xml:space="preserve">
+    <value>Spazio libero (volume di Windows)</value>
+  </data>
+  <data name="State_Metric_MemoryPercent" xml:space="preserve">
+    <value>Memoria in uso (%)</value>
+  </data>
+  <data name="State_During" xml:space="preserve">
+    <value>Durante {0}</value>
+  </data>
+  <data name="State_SessionSource" xml:space="preserve">
+    <value>Medie registrate durante la sessione di gioco</value>
+  </data>
+  <data name="State_NotEnough" xml:space="preserve">
+    <value>Dati insufficienti per il confronto: {0}.</value>
+  </data>
+  <data name="State_NoMeasurementFor" xml:space="preserve">
+    <value>nessuna misurazione per «{0}»</value>
+  </data>
+  <data name="State_NoDifference" xml:space="preserve">
+    <value>Nessuna differenza significativa tra i due periodi.</value>
+  </data>
+  <data name="State_Notable_One" xml:space="preserve">
+    <value>{0} differenza significativa: {1}.</value>
+  </data>
+  <data name="State_Notable_Other" xml:space="preserve">
+    <value>{0} differenze significative: {1}.</value>
+  </data>
+  <data name="State_NotCompared" xml:space="preserve">
+    <value>Non confrontato (misurato in un solo periodo): {0}.</value>
+  </data>
+  <data name="State_OnlyOne" xml:space="preserve">
+    <value>Misurato in uno solo dei due periodi: non confrontato.</value>
+  </data>
+  <data name="State_NoChange" xml:space="preserve">
+    <value>Nessuna variazione</value>
+  </data>
+  <data name="State_Explain_Same" xml:space="preserve">
+    <value>Più o meno uguale nei due periodi.</value>
+  </data>
+  <data name="State_Explain_CpuUp" xml:space="preserve">
+    <value>Il processore era più occupato nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_CpuDown" xml:space="preserve">
+    <value>Il processore era meno occupato nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_MemoryUp" xml:space="preserve">
+    <value>Nel secondo periodo era in uso più memoria.</value>
+  </data>
+  <data name="State_Explain_MemoryDown" xml:space="preserve">
+    <value>Nel secondo periodo era in uso meno memoria.</value>
+  </data>
+  <data name="State_Explain_DiskUp" xml:space="preserve">
+    <value>I dischi erano più occupati nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_DiskDown" xml:space="preserve">
+    <value>I dischi erano meno occupati nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_GpuUp" xml:space="preserve">
+    <value>Il processore grafico era più occupato nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_GpuDown" xml:space="preserve">
+    <value>Il processore grafico era meno occupato nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_SpaceUsed" xml:space="preserve">
+    <value>È stato occupato spazio sul volume di Windows tra i due periodi.</value>
+  </data>
+  <data name="State_Explain_SpaceFreed" xml:space="preserve">
+    <value>È stato liberato spazio sul volume di Windows tra i due periodi.</value>
+  </data>
+  <data name="State_Explain_ProcessesUp" xml:space="preserve">
+    <value>Nel secondo periodo erano in esecuzione più processi.</value>
+  </data>
+  <data name="State_Explain_ProcessesDown" xml:space="preserve">
+    <value>Nel secondo periodo erano in esecuzione meno processi.</value>
+  </data>
+  <data name="State_Explain_NetworkUp" xml:space="preserve">
+    <value>Più traffico di rete nel secondo periodo.</value>
+  </data>
+  <data name="State_Explain_NetworkDown" xml:space="preserve">
+    <value>Meno traffico di rete nel secondo periodo.</value>
+  </data>
+  <data name="State_Points_One" xml:space="preserve">
+    <value>{0} punto percentuale</value>
+  </data>
+  <data name="State_Points_Other" xml:space="preserve">
+    <value>{0} punti percentuali</value>
+  </data>
+  <data name="Count_Measurement_One" xml:space="preserve">
+    <value>{0} misurazione</value>
+  </data>
+  <data name="Count_Measurement_Other" xml:space="preserve">
+    <value>{0} misurazioni</value>
+  </data>
+  <data name="State_NoMeasurement" xml:space="preserve">
+    <value>nessuna misurazione</value>
+  </data>
+  <data name="State_Label_HourAgo" xml:space="preserve">
+    <value>1 ora fa</value>
+  </data>
+  <data name="State_Label_Now" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="State_Label_YesterdaySameTime" xml:space="preserve">
+    <value>Ieri a quest'ora</value>
+  </data>
+  <data name="State_Label_Before" xml:space="preserve">
+    <value>Prima</value>
+  </data>
+  <data name="State_Label_After" xml:space="preserve">
+    <value>Dopo</value>
+  </data>
+  <data name="State_Source_Seconds" xml:space="preserve">
+    <value>Misurazioni al secondo conservate in memoria</value>
+  </data>
+  <data name="State_Source_Minutes" xml:space="preserve">
+    <value>Medie al minuto della cronologia locale</value>
+  </data>
+  <data name="State_Source_Hours" xml:space="preserve">
+    <value>Riepiloghi orari della cronologia locale</value>
+  </data>
+  <data name="State_NoSession" xml:space="preserve">
+    <value>Nessuna sessione di gioco</value>
+  </data>
+  <data name="State_NoSessionRecorded" xml:space="preserve">
+    <value>Nessuna sessione di gioco registrata</value>
+  </data>
+  <data name="State_NoSessionYet" xml:space="preserve">
+    <value>Nessuna sessione di gioco registrata finora: gioca per qualche minuto, poi confronta.</value>
+  </data>
+  <data name="State_BeforeGame" xml:space="preserve">
+    <value>Prima di {0}</value>
+  </data>
+  <data name="State_AfterGame" xml:space="preserve">
+    <value>Dopo {0}</value>
+  </data>
+  <data name="State_PreviousSession" xml:space="preserve">
+    <value>Sessione precedente</value>
+  </data>
+  <data name="State_NoEarlierSession" xml:space="preserve">
+    <value>Non c'è una sessione di gioco precedente con cui confrontare.</value>
+  </data>
+  <data name="WhyNow_Metric_Disk" xml:space="preserve">
+    <value>Attività del disco</value>
+  </data>
+  <data name="WhyNow_Metric_Network" xml:space="preserve">
+    <value>Traffico di rete</value>
+  </data>
+  <data name="WhyNow_NotEnough_Headline" xml:space="preserve">
+    <value>{0}: misurazioni ancora insufficienti</value>
+  </data>
+  <data name="WhyNow_NotEnough_Missing" xml:space="preserve">
+    <value>{0} non è disponibile nelle misurazioni, quindi non può essere spiegato.</value>
+  </data>
+  <data name="WhyNow_NotEnough_Summary" xml:space="preserve">
+    <value>Sysora ha bisogno di circa due minuti di misurazioni per capire quando è iniziato un cambiamento.</value>
+  </data>
+  <data name="WhyNow_Range" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="WhyNow_Quiet_Headline" xml:space="preserve">
+    <value>{0} non è insolitamente alto in questo momento</value>
+  </data>
+  <data name="WhyNow_Quiet_Summary" xml:space="preserve">
+    <value>{0} è rimasto tra {1} negli ultimi {2}; ora è {3}. Non c'è nessun aumento recente da spiegare.</value>
+  </data>
+  <data name="WhyNow_Quiet_Contributor" xml:space="preserve">
+    <value>Niente da attribuire: nessun aumento significativo.</value>
+  </data>
+  <data name="WhyNow_Label_Level" xml:space="preserve">
+    <value>Livello</value>
+  </data>
+  <data name="WhyNow_Quiet_Level" xml:space="preserve">
+    <value>{0} è rimasto tra {1} nel periodo analizzato.</value>
+  </data>
+  <data name="WhyNow_Label_UsualRange" xml:space="preserve">
+    <value>Intervallo abituale</value>
+  </data>
+  <data name="WhyNow_Label_Change" xml:space="preserve">
+    <value>Variazione</value>
+  </data>
+  <data name="WhyNow_Change" xml:space="preserve">
+    <value>{0} è salito da {1} a {2}.</value>
+  </data>
+  <data name="WhyNow_AlreadyHigh" xml:space="preserve">
+    <value>{0} è {1} ed era già alto all'inizio dei dati analizzati ({2}).</value>
+  </data>
+  <data name="WhyNow_Label_Started" xml:space="preserve">
+    <value>Inizio</value>
+  </data>
+  <data name="WhyNow_Started" xml:space="preserve">
+    <value>Verso le {0} (con un margine di {1:0} secondi).</value>
+  </data>
+  <data name="WhyNow_StartedBefore" xml:space="preserve">
+    <value>Prima delle {0}: i dati precedenti non sono disponibili.</value>
+  </data>
+  <data name="WhyNow_Label_Duration" xml:space="preserve">
+    <value>Durata</value>
+  </data>
+  <data name="WhyNow_AtLeast" xml:space="preserve">
+    <value>Almeno {0}</value>
+  </data>
+  <data name="WhyNow_Label_Associated" xml:space="preserve">
+    <value>Associato a</value>
+  </data>
+  <data name="WhyNow_Associated" xml:space="preserve">
+    <value>{0} alle {1} (nello stesso momento; non prova la causa)</value>
+  </data>
+  <data name="WhyNow_Label_SameTime" xml:space="preserve">
+    <value>Nello stesso momento</value>
+  </data>
+  <data name="WhyNow_Label_Similar" xml:space="preserve">
+    <value>Eventi simili</value>
+  </data>
+  <data name="WhyNow_Label_WhyMore" xml:space="preserve">
+    <value>Perché l'applicazione ha bisogno di più risorse</value>
+  </data>
+  <data name="WhyNow_NotObservable" xml:space="preserve">
+    <value>Ciò che un'applicazione fa internamente non è osservabile dall'esterno.</value>
+  </data>
+  <data name="WhyNow_Headline_Increased" xml:space="preserve">
+    <value>{0} è aumentato in modo significativo</value>
+  </data>
+  <data name="WhyNow_Headline_High" xml:space="preserve">
+    <value>{0} è alto da prima delle {1}</value>
+  </data>
+  <data name="WhyNow_Summary_WentFrom" xml:space="preserve">
+    <value>{0} è passato da {1} a {2}</value>
+  </data>
+  <data name="WhyNow_Summary_Is" xml:space="preserve">
+    <value>{0} è {1}</value>
+  </data>
+  <data name="WhyNow_Summary_Starting" xml:space="preserve">
+    <value>, a partire dalle {0} circa ({1} fa). </value>
+  </data>
+  <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
+    <value>{0} prima, {1} ora</value>
+  </data>
+  <data name="WhyNow_Ev_Now" xml:space="preserve">
+    <value>{0} ora</value>
+  </data>
+  <data name="WhyNow_Ev_Reference" xml:space="preserve">
+    <value>Media su intervalli di {0:0} secondi; una variazione conta da {1}</value>
+  </data>
+  <data name="WhyNow_Position_Above95" xml:space="preserve">
+    <value>sopra il 95% dei tuoi minuti registrati</value>
+  </data>
+  <data name="WhyNow_Position_Above" xml:space="preserve">
+    <value>sopra il tuo intervallo abituale</value>
+  </data>
+  <data name="WhyNow_Position_Below" xml:space="preserve">
+    <value>sotto il tuo intervallo abituale</value>
+  </data>
+  <data name="WhyNow_Position_Within" xml:space="preserve">
+    <value>nel tuo intervallo abituale</value>
+  </data>
+  <data name="WhyNow_Usual" xml:space="preserve">
+    <value>Di solito {0} (mediana {1}); ora {2}: {3}.</value>
+  </data>
+  <data name="WhyNow_Network_NotAvailable" xml:space="preserve">
+    <value>Non disponibile: Windows non segnala l'utilizzo della rete per applicazione senza la traccia eventi con privilegi di amministratore.</value>
+  </data>
+  <data name="WhyNow_Network_Summary" xml:space="preserve">
+    <value>L'applicazione responsabile non può essere identificata: Windows non segnala l'utilizzo della rete per applicazione senza la traccia eventi con privilegi di amministratore.</value>
+  </data>
+  <data name="WhyNow_Label_Contributor" xml:space="preserve">
+    <value>Contributo</value>
+  </data>
+  <data name="WhyNow_Gpu_Unknown" xml:space="preserve">
+    <value>Causa sconosciuta: l'utilizzo della GPU per applicazione non viene conservato nella cronologia. Gli eventi contemporanei possono aiutare.</value>
+  </data>
+  <data name="WhyNow_NoAppData" xml:space="preserve">
+    <value>Causa sconosciuta: nessun dato per applicazione per questo periodo (le applicazioni sono conservate solo nella cronologia recente in memoria).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeLargest" xml:space="preserve">
+    <value>Causa sconosciuta: l'aumento è iniziato prima dei dati analizzati. Maggiore consumatore ora: {0} ({1}).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeData" xml:space="preserve">
+    <value>Causa sconosciuta: l'aumento è iniziato prima dei dati analizzati.</value>
+  </data>
+  <data name="WhyNow_NoDataBefore" xml:space="preserve">
+    <value>Causa sconosciuta: nessun dato per applicazione precedente all'aumento.</value>
+  </data>
+  <data name="WhyNow_NoIncrease" xml:space="preserve">
+    <value>Causa sconosciuta: nessuna delle applicazioni misurate ha aumentato il proprio utilizzo.</value>
+  </data>
+  <data name="WhyNow_NoSingleApp" xml:space="preserve">
+    <value>Causa sconosciuta: nessuna singola applicazione spiega l'aumento (variazione maggiore: {0} {1}).</value>
+  </data>
+  <data name="WhyNow_Share" xml:space="preserve">
+    <value>, circa il {0} dell'aumento</value>
+  </data>
+  <data name="WhyNow_IoNote" xml:space="preserve">
+    <value> di I/O (file, dispositivi e rete insieme)</value>
+  </data>
+  <data name="WhyNow_NewApp" xml:space="preserve">
+    <value> — prima non era tra le applicazioni più attive</value>
+  </data>
+  <data name="WhyNow_Label_Likely" xml:space="preserve">
+    <value>Probabile causa</value>
+  </data>
+  <data name="WhyNow_Label_Possible" xml:space="preserve">
+    <value>Possibile causa</value>
+  </data>
+  <data name="WhyNow_ContributorText" xml:space="preserve">
+    <value>{0}: {1} ({2}{3}{4}){5}</value>
+  </data>
+  <data name="WhyNow_Summary_Likely" xml:space="preserve">
+    <value>I dati suggeriscono che {0} sia la causa principale ({1}{2}).</value>
+  </data>
+  <data name="WhyNow_Summary_Possible" xml:space="preserve">
+    <value>{0} potrebbe aver contribuito ({1}{2}), ma gli indizi sono deboli.</value>
+  </data>
+  <data name="WhyNow_AlsoRose" xml:space="preserve">
+    <value>Anche {0} è salito: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Similar_NotTracked" xml:space="preserve">
+    <value>Eventi simili: non tracciati (nessuna regola di avviso segue questa metrica).</value>
+  </data>
+  <data name="WhyNow_Similar_NoHistory" xml:space="preserve">
+    <value>Eventi simili: non disponibili (nessuna cronologia degli avvisi).</value>
+  </data>
+  <data name="WhyNow_Similar_None" xml:space="preserve">
+    <value>Eventi simili: nessuno negli ultimi {0} giorni.</value>
+  </data>
+  <data name="WhyNow_Similar_Count" xml:space="preserve">
+    <value>Eventi simili: {0} negli ultimi {1} giorni.</value>
+  </data>
+  <data name="Count_Alert_One" xml:space="preserve">
+    <value>{0} avviso</value>
+  </data>
+  <data name="Count_Alert_Other" xml:space="preserve">
+    <value>{0} avvisi</value>
+  </data>
+  <data name="WhyNow_Source_Mixed" xml:space="preserve">
+    <value>Misurazioni al secondo conservate in memoria, precedute dalle medie al minuto della cronologia locale</value>
+  </data>
+  <data name="Changes_UnknownOrigin" xml:space="preserve">
+    <value>Modifica rilevata, origine sconosciuta.</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated" xml:space="preserve">
+    <value>{0} installato o aggiornato</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated_Explanation" xml:space="preserve">
+    <value>Windows registra questa data quando un'applicazione viene installata; molti programmi di installazione la riscrivono anche durante gli aggiornamenti.</value>
+  </data>
+  <data name="Changes_MatchedByName" xml:space="preserve">
+    <value>Abbinata per nome ed editore nell'elenco delle applicazioni installate di Windows.</value>
+  </data>
+  <data name="Changes_VersionRead" xml:space="preserve">
+    <value>Versione letta dall'elenco delle applicazioni installate di Windows.</value>
+  </data>
+  <data name="Changes_Removed" xml:space="preserve">
+    <value>{0} rimosso</value>
+  </data>
+  <data name="Changes_Removed_Explanation" xml:space="preserve">
+    <value>L'applicazione non è più nell'elenco delle applicazioni installate di Windows.</value>
+  </data>
+  <data name="Changes_Removed_Origin" xml:space="preserve">
+    <value>Presente nello snapshot del {0}, assente dallo snapshot del {1}.</value>
+  </data>
+  <data name="Changes_Ev_InstalledApps" xml:space="preserve">
+    <value>Applicazioni installate</value>
+  </data>
+  <data name="Changes_Installed_OriginDate" xml:space="preserve">
+    <value>Data di installazione ({0}) registrata dal programma di installazione nell'elenco delle applicazioni installate di Windows.</value>
+  </data>
+  <data name="Changes_Installed_OriginSnapshot" xml:space="preserve">
+    <value>Nell'elenco delle applicazioni installate di Windows, assente dallo snapshot del {0}.</value>
+  </data>
+  <data name="Changes_Installed" xml:space="preserve">
+    <value>{0} installato</value>
+  </data>
+  <data name="Changes_Installed_ExplanationPublisher" xml:space="preserve">
+    <value>Nuova applicazione di {0}. Il nuovo software può aggiungere processi in background ed elementi di avvio.</value>
+  </data>
+  <data name="Changes_Installed_Explanation" xml:space="preserve">
+    <value>Nuova applicazione. Il nuovo software può aggiungere processi in background ed elementi di avvio.</value>
+  </data>
+  <data name="Changes_Updated" xml:space="preserve">
+    <value>{0} aggiornato</value>
+  </data>
+  <data name="Changes_Updated_Explanation" xml:space="preserve">
+    <value>Una nuova versione può comportarsi diversamente (prestazioni, attività in background).</value>
+  </data>
+  <data name="Changes_Startup_Origin" xml:space="preserve">
+    <value>Confrontate le voci di avvio del {0} e del {1}.</value>
+  </data>
+  <data name="Changes_Startup_New" xml:space="preserve">
+    <value>Nuovo programma di avvio: {0}</value>
+  </data>
+  <data name="Changes_Startup_New_Explanation" xml:space="preserve">
+    <value>Ora si avvia automaticamente all'accesso, il che può allungare l'avvio e usare risorse in background.</value>
+  </data>
+  <data name="Changes_Startup_Enabled" xml:space="preserve">
+    <value>Programma di avvio attivato: {0}</value>
+  </data>
+  <data name="Changes_Startup_Disabled" xml:space="preserve">
+    <value>Programma di avvio disattivato: {0}</value>
+  </data>
+  <data name="Changes_Startup_Enabled_Explanation" xml:space="preserve">
+    <value>Si avvierà di nuovo automaticamente all'accesso.</value>
+  </data>
+  <data name="Changes_Startup_Removed_Explanation" xml:space="preserve">
+    <value>Non si avvia più automaticamente all'accesso.</value>
+  </data>
+  <data name="Changes_Startup_Removed" xml:space="preserve">
+    <value>Programma di avvio rimosso: {0}</value>
+  </data>
+  <data name="Changes_Enabled" xml:space="preserve">
+    <value>Attivato</value>
+  </data>
+  <data name="Changes_Disabled" xml:space="preserve">
+    <value>Disattivato</value>
+  </data>
+  <data name="Changes_Ev_StartupEntry" xml:space="preserve">
+    <value>Voce di avvio</value>
+  </data>
+  <data name="Changes_Windows_Title" xml:space="preserve">
+    <value>Windows è stato aggiornato</value>
+  </data>
+  <data name="Changes_Windows_Explanation" xml:space="preserve">
+    <value>Gli aggiornamenti di Windows possono cambiare driver e servizi in background; le prime ore dopo un aggiornamento mostrano spesso più attività del disco e della CPU.</value>
+  </data>
+  <data name="Changes_Windows_Source" xml:space="preserve">
+    <value>Numero di build letto dal Registro di sistema (CurrentVersion).</value>
+  </data>
+  <data name="Changes_Bios_Title" xml:space="preserve">
+    <value>Firmware (BIOS) aggiornato</value>
+  </data>
+  <data name="Changes_Bios_Explanation" xml:space="preserve">
+    <value>Un aggiornamento del firmware può cambiare il risparmio energia e il comportamento dell'hardware.</value>
+  </data>
+  <data name="Changes_Bios_Source" xml:space="preserve">
+    <value>Versione del BIOS letta dal Registro di sistema (dati SMBIOS copiati da Windows).</value>
+  </data>
+  <data name="Changes_Memory_Subject" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Changes_Memory_Title" xml:space="preserve">
+    <value>La memoria installata è cambiata</value>
+  </data>
+  <data name="Changes_Memory_Explanation" xml:space="preserve">
+    <value>La quantità di memoria fisica è cambiata (un modulo aggiunto, rimosso o non rilevato).</value>
+  </data>
+  <data name="Changes_Memory_Source" xml:space="preserve">
+    <value>Memoria installata segnalata dal firmware.</value>
+  </data>
+  <data name="Changes_System_Origin" xml:space="preserve">
+    <value>Confrontati gli snapshot del {0} e del {1}.</value>
+  </data>
+  <data name="Changes_Devices_Origin" xml:space="preserve">
+    <value>Confrontati i dispositivi del {0} e del {1}.</value>
+  </data>
+  <data name="Changes_Device_New" xml:space="preserve">
+    <value>Nuovo dispositivo ({1}): {2}</value>
+  </data>
+  <data name="Changes_Device_Gone" xml:space="preserve">
+    <value>Dispositivo ({1}) non più presente: {2}</value>
+  </data>
+  <data name="Changes_Device_New_Explanation" xml:space="preserve">
+    <value>È comparso un dispositivo dallo snapshot precedente (nuovo hardware, un cambio di driver o un adattatore virtuale).</value>
+  </data>
+  <data name="Changes_Device_Gone_Explanation" xml:space="preserve">
+    <value>Un dispositivo presente nello snapshot precedente non è stato trovato (rimosso, disattivato o con un driver diverso).</value>
+  </data>
+  <data name="Changes_Space_UsedOf" xml:space="preserve">
+    <value>{0} → {1} usati su {2}</value>
+  </data>
+  <data name="Changes_Ev_InstalledSamePeriod" xml:space="preserve">
+    <value>Installato nello stesso periodo</value>
+  </data>
+  <data name="Changes_Ev_PossibleFiles" xml:space="preserve">
+    <value>Possibili cause, non confermate: Sysora non misura le dimensioni dei singoli file.</value>
+  </data>
+  <data name="Changes_Space_More" xml:space="preserve">
+    <value>{0} in più usati su {1}</value>
+  </data>
+  <data name="Changes_Space_Freed" xml:space="preserve">
+    <value>{0} liberati su {1}</value>
+  </data>
+  <data name="Changes_Space_Used" xml:space="preserve">
+    <value>{0} usati</value>
+  </data>
+  <data name="Changes_Space_Grew_Explanation" xml:space="preserve">
+    <value>Lo spazio usato su questo volume è cresciuto in modo evidente tra i due snapshot.</value>
+  </data>
+  <data name="Changes_Space_Freed_Explanation" xml:space="preserve">
+    <value>È stato liberato spazio su questo volume tra i due snapshot.</value>
+  </data>
+  <data name="Changes_Space_Origin" xml:space="preserve">
+    <value>Sysora misura lo spazio libero, non i singoli file.</value>
+  </data>
+  <data name="Changes_Usage_AverageMemory" xml:space="preserve">
+    <value>Utilizzo medio della memoria</value>
+  </data>
+  <data name="Changes_Usage_AverageCpu" xml:space="preserve">
+    <value>Utilizzo medio della CPU</value>
+  </data>
+  <data name="Changes_Usage_Reference" xml:space="preserve">
+    <value>Media delle 24 ore precedenti a ogni snapshot ({0} e {1} minuti di misurazioni)</value>
+  </data>
+  <data name="Changes_Ev_Possible" xml:space="preserve">
+    <value>Possibili cause, non confermate.</value>
+  </data>
+  <data name="Changes_Usage_Title" xml:space="preserve">
+    <value>{0} {1:+0;-0;0} punti</value>
+  </data>
+  <data name="Changes_Usage_MoreMemory" xml:space="preserve">
+    <value>Il PC ha usato in media molta più memoria rispetto al giorno di riferimento.</value>
+  </data>
+  <data name="Changes_Usage_MoreCpu" xml:space="preserve">
+    <value>Il PC ha usato in media molta più CPU rispetto al giorno di riferimento.</value>
+  </data>
+  <data name="Changes_Usage_LessMemory" xml:space="preserve">
+    <value>Il PC ha usato in media molta meno memoria rispetto al giorno di riferimento.</value>
+  </data>
+  <data name="Changes_Usage_LessCpu" xml:space="preserve">
+    <value>Il PC ha usato in media molta meno CPU rispetto al giorno di riferimento.</value>
+  </data>
+  <data name="Changes_Ev_SourceOf" xml:space="preserve">
+    <value>Applicazioni installate di Windows ({0})</value>
+  </data>
+  <data name="Changes_Ev_Source" xml:space="preserve">
+    <value>Applicazioni installate di Windows</value>
+  </data>
+  <data name="Changes_Ev_InstallDate" xml:space="preserve">
+    <value>Data di installazione registrata dal programma di installazione: {0}</value>
+  </data>
+  <data name="Device_Graphics" xml:space="preserve">
+    <value>Grafica</value>
+  </data>
+  <data name="Device_Network" xml:space="preserve">
+    <value>Rete</value>
+  </data>
+  <data name="Device_Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="AppSource_Machine" xml:space="preserve">
+    <value>Computer</value>
+  </data>
+  <data name="AppSource_Machine32" xml:space="preserve">
+    <value>Computer (32 bit)</value>
+  </data>
+  <data name="AppSource_User" xml:space="preserve">
+    <value>Utente</value>
+  </data>
+  <data name="AppSource_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Changes_OldestSnapshot" xml:space="preserve">
+    <value>Lo snapshot più vecchio è del {0}.</value>
+  </data>
+  <data name="Changes_NoSnapshot" xml:space="preserve">
+    <value>Nessuno snapshot ancora registrato; il primo viene creato un minuto dopo l'avvio di Sysora.</value>
+  </data>
+  <data name="Changes_NotEnough" xml:space="preserve">
+    <value>Cronologia ancora insufficiente per questo confronto. {0}</value>
+  </data>
+  <data name="Changes_Note" xml:space="preserve">
+    <value>Stato attuale confrontato con lo snapshot del {0}.</value>
+  </data>
+  <data name="Changes_Note_AppsUnreadable" xml:space="preserve">
+    <value>Non è stato possibile confrontare le applicazioni installate (illeggibili in uno degli snapshot).</value>
+  </data>
+  <data name="Changes_Frequent_Activity" xml:space="preserve">
+    <value>In esecuzione {0}, {1} dal {2}</value>
+  </data>
+  <data name="Count_Start_One" xml:space="preserve">
+    <value>{0} avvio</value>
+  </data>
+  <data name="Count_Start_Other" xml:space="preserve">
+    <value>{0} avvii</value>
+  </data>
+  <data name="Changes_Frequent_Title" xml:space="preserve">
+    <value>{0} ora viene eseguito regolarmente</value>
+  </data>
+  <data name="Changes_Frequent_Explanation" xml:space="preserve">
+    <value>Un programma mai visto prima da Sysora ha iniziato a essere eseguito regolarmente. Può essere una nuova applicazione, un assistente di aggiornamento o un'attività in background.</value>
+  </data>
+  <data name="Changes_Frequent_Origin" xml:space="preserve">
+    <value>Visto per la prima volta da Sysora il {0}; Sysora registra dal {1}.</value>
+  </data>
+  <data name="Changes_Ev_Activity" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="Changes_Ev_NameOnly" xml:space="preserve">
+    <value>Identificata solo dal nome del processo</value>
+  </data>
+  <data name="Since_Loading" xml:space="preserve">
+    <value>Confronto con ieri…</value>
+  </data>
+  <data name="Since_Area_Applications" xml:space="preserve">
+    <value>Applicazioni</value>
+  </data>
+  <data name="Since_Area_Startup" xml:space="preserve">
+    <value>Programmi di avvio</value>
+  </data>
+  <data name="Since_Area_Windows" xml:space="preserve">
+    <value>Versione di Windows</value>
+  </data>
+  <data name="Since_Area_Firmware" xml:space="preserve">
+    <value>Firmware (BIOS)</value>
+  </data>
+  <data name="Since_Area_Memory" xml:space="preserve">
+    <value>Memoria installata</value>
+  </data>
+  <data name="Since_Area_Devices" xml:space="preserve">
+    <value>Dispositivi</value>
+  </data>
+  <data name="Since_Area_DiskSpace" xml:space="preserve">
+    <value>Spazio su disco</value>
+  </data>
+  <data name="Since_Area_Usage" xml:space="preserve">
+    <value>Utilizzo</value>
+  </data>
+  <data name="Since_Area_Alerts" xml:space="preserve">
+    <value>Avvisi</value>
+  </data>
+  <data name="Since_NotEnough" xml:space="preserve">
+    <value>Cronologia ancora insufficiente</value>
+  </data>
+  <data name="Since_Usage_Title" xml:space="preserve">
+    <value>{0} {1} oggi</value>
+  </data>
+  <data name="Since_Yesterday" xml:space="preserve">
+    <value>{0} ieri</value>
+  </data>
+  <data name="Since_Today" xml:space="preserve">
+    <value>{0} oggi</value>
+  </data>
+  <data name="Since_Usage_Explanation" xml:space="preserve">
+    <value>{0} Medie su ogni giornata.</value>
+  </data>
+  <data name="Since_SecondPeriodPhrase" xml:space="preserve">
+    <value>nel secondo periodo</value>
+  </data>
+  <data name="Since_TodayPhrase" xml:space="preserve">
+    <value>oggi</value>
+  </data>
+  <data name="Since_When" xml:space="preserve">
+    <value>Oggi finora, rispetto a ieri</value>
+  </data>
+  <data name="Since_Usage_Origin" xml:space="preserve">
+    <value>{0} (ieri) e {1} (oggi).</value>
+  </data>
+  <data name="Since_MoreAlerts" xml:space="preserve">
+    <value>Più avvisi oggi ({0})</value>
+  </data>
+  <data name="Since_FewerAlerts" xml:space="preserve">
+    <value>Meno avvisi oggi ({0})</value>
+  </data>
+  <data name="Since_MoreAlerts_Explanation" xml:space="preserve">
+    <value>Oggi sono stati rilevati più problemi prolungati o insoliti rispetto a ieri.</value>
+  </data>
+  <data name="Since_FewerAlerts_Explanation" xml:space="preserve">
+    <value>Oggi sono stati rilevati meno problemi rispetto a ieri.</value>
+  </data>
+  <data name="Since_AlertsOrigin" xml:space="preserve">
+    <value>Avvisi registrati da Sysora.</value>
+  </data>
+  <data name="Since_Reason_Apps" xml:space="preserve">
+    <value>non è stato possibile leggere l'elenco delle applicazioni installate in uno degli snapshot</value>
+  </data>
+  <data name="Since_Reason_Startup" xml:space="preserve">
+    <value>non è stato possibile leggere i programmi di avvio in uno degli snapshot</value>
+  </data>
+  <data name="Since_Reason_Windows" xml:space="preserve">
+    <value>la build di Windows non è stata registrata</value>
+  </data>
+  <data name="Since_Reason_Bios" xml:space="preserve">
+    <value>questo PC non segnala la versione del BIOS</value>
+  </data>
+  <data name="Since_Reason_Memory" xml:space="preserve">
+    <value>il firmware non segnala la memoria installata</value>
+  </data>
+  <data name="Since_Reason_Volumes" xml:space="preserve">
+    <value>nessun volume è stato registrato</value>
+  </data>
+  <data name="Since_Reason_Usage" xml:space="preserve">
+    <value>cronologia insufficiente per oggi o ieri</value>
+  </data>
+  <data name="Since_NoChange" xml:space="preserve">
+    <value>Nessuna modifica da ieri</value>
+  </data>
+  <data name="Count_SignificantChange_One" xml:space="preserve">
+    <value>{0} modifica importante</value>
+  </data>
+  <data name="Count_SignificantChange_Other" xml:space="preserve">
+    <value>{0} modifiche importanti</value>
+  </data>
+  <data name="Count_MinorChange_One" xml:space="preserve">
+    <value>{0} modifica minore</value>
+  </data>
+  <data name="Count_MinorChange_Other" xml:space="preserve">
+    <value>{0} modifiche minori</value>
+  </data>
+  <data name="Since_Note" xml:space="preserve">
+    <value>Confronto con lo snapshot del {0}. Sono elencate solo le differenze osservate da Sysora; la loro origine è indicata quando è nota.</value>
+  </data>
+  <data name="Since_Between" xml:space="preserve">
+    <value>Tra {0} e {1}</value>
+  </data>
+  <data name="Since_Before" xml:space="preserve">
+    <value>Prima di {0}</value>
+  </data>
+  <data name="Game_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Non disponibile. Windows non fornisce ad altre applicazioni una fonte affidabile della frequenza dei fotogrammi: misurarla richiede la traccia eventi con privilegi di amministratore o l'intervento sul gioco, e Sysora non fa né l'una né l'altra cosa.</value>
+  </data>
+  <data name="Game_NoLimit_Title" xml:space="preserve">
+    <value>Nessun limite di risorse raggiunto</value>
+  </data>
+  <data name="Game_NoLimit_Description" xml:space="preserve">
+    <value>Memoria, processore, memoria video e dischi non sono mai rimasti al limite durante il tempo misurato.</value>
+  </data>
+  <data name="Game_Headline_None" xml:space="preserve">
+    <value>Nessun problema osservato</value>
+  </data>
+  <data name="Game_Headline_Points_One" xml:space="preserve">
+    <value>{0} punto da tenere d'occhio</value>
+  </data>
+  <data name="Game_Headline_Points_Other" xml:space="preserve">
+    <value>{0} punti da tenere d'occhio</value>
+  </data>
+  <data name="Game_Summary_DurationOf" xml:space="preserve">
+    <value>{0} su {1}.</value>
+  </data>
+  <data name="Game_Summary_Cpu" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Game_Summary_Memory" xml:space="preserve">
+    <value>memoria {0}</value>
+  </data>
+  <data name="Game_Summary_OnAverage" xml:space="preserve">
+    <value>In media: {0}.</value>
+  </data>
+  <data name="Game_Summary_Qualified" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="Game_Summary_NoLimit" xml:space="preserve">
+    <value>Nessun limite di risorse è stato raggiunto.</value>
+  </data>
+  <data name="Game_OfTotal" xml:space="preserve">
+    <value>su {0}</value>
+  </data>
+  <data name="Game_Fps_Note" xml:space="preserve">
+    <value>Nessuna fonte affidabile in Windows</value>
+  </data>
+  <data name="Game_Metric_CpuPc" xml:space="preserve">
+    <value>CPU (intero PC)</value>
+  </data>
+  <data name="Game_Metric_CpuGame" xml:space="preserve">
+    <value>CPU usata dal gioco</value>
+  </data>
+  <data name="Game_CpuGame_Note" xml:space="preserve">
+    <value>Quota della capacità totale del processore</value>
+  </data>
+  <data name="Game_Metric_GpuBusiest" xml:space="preserve">
+    <value>GPU (adattatore più occupato)</value>
+  </data>
+  <data name="Game_Metric_GpuGame" xml:space="preserve">
+    <value>GPU usata dal gioco</value>
+  </data>
+  <data name="Game_GpuGame_NotReported" xml:space="preserve">
+    <value>Windows non ha segnalato l'utilizzo della GPU per processo</value>
+  </data>
+  <data name="Game_GpuGame_Note" xml:space="preserve">
+    <value>Motore GPU più occupato usato dal gioco</value>
+  </data>
+  <data name="Game_Metric_VideoMemory" xml:space="preserve">
+    <value>Memoria video in uso</value>
+  </data>
+  <data name="Game_VideoMemory_Note" xml:space="preserve">
+    <value>memoria dedicata, tutte le applicazioni</value>
+  </data>
+  <data name="Game_Metric_MemoryPc" xml:space="preserve">
+    <value>Memoria (intero PC)</value>
+  </data>
+  <data name="Game_Metric_MemoryGame" xml:space="preserve">
+    <value>Memoria usata dal gioco</value>
+  </data>
+  <data name="Game_MemoryGame_Note" xml:space="preserve">
+    <value>Working set privato dei processi del gioco</value>
+  </data>
+  <data name="Game_Metric_Disk" xml:space="preserve">
+    <value>Tempo di attività del disco più occupato</value>
+  </data>
+  <data name="Game_Metric_NetReceived" xml:space="preserve">
+    <value>Rete ricevuta (intero PC)</value>
+  </data>
+  <data name="Game_Metric_NetSent" xml:space="preserve">
+    <value>Rete inviata (intero PC)</value>
+  </data>
+  <data name="Game_Metric_SelfCpu" xml:space="preserve">
+    <value>CPU di Sysora</value>
+  </data>
+  <data name="Game_SelfCpu_Note" xml:space="preserve">
+    <value>Misurato durante la sessione</value>
+  </data>
+  <data name="Game_OverPeriods" xml:space="preserve">
+    <value> in {0} periodi</value>
+  </data>
+  <data name="Game_Condition_Value" xml:space="preserve">
+    <value>A {0} o più per {1}{2} (picco {3})</value>
+  </data>
+  <data name="Game_Condition_Reference" xml:space="preserve">
+    <value>Conteggiato quando dura almeno {0}</value>
+  </data>
+  <data name="Game_Memory_Title" xml:space="preserve">
+    <value>La memoria era quasi piena</value>
+  </data>
+  <data name="Game_Memory_Description" xml:space="preserve">
+    <value>La memoria fisica è rimasta sopra {0} per {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Stutters" xml:space="preserve">
+    <value>Possibile causa di scatti</value>
+  </data>
+  <data name="Game_Memory_RecommendationApp" xml:space="preserve">
+    <value>Chiudi le applicazioni che non ti servono prima di giocare. L'altra applicazione più grande era {0} ({1}).</value>
+  </data>
+  <data name="Game_Memory_Recommendation" xml:space="preserve">
+    <value>Chiudi le applicazioni che non ti servono prima di giocare.</value>
+  </data>
+  <data name="Game_Cpu_Title" xml:space="preserve">
+    <value>Il processore era saturo</value>
+  </data>
+  <data name="Game_Cpu_Description" xml:space="preserve">
+    <value>L'utilizzo totale della CPU è rimasto sopra {0} per {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Slowdowns" xml:space="preserve">
+    <value>Probabile causa dei rallentamenti</value>
+  </data>
+  <data name="Game_Cpu_RecommendationApp" xml:space="preserve">
+    <value>L'altra applicazione più occupata era {0} ({1} di CPU in media): chiudila mentre giochi se non ti serve.</value>
+  </data>
+  <data name="Game_Cpu_Recommendation" xml:space="preserve">
+    <value>Abbassare le impostazioni più pesanti per la CPU (distanza visiva, densità della folla, fisica) riduce il carico.</value>
+  </data>
+  <data name="Game_Video_Title" xml:space="preserve">
+    <value>La memoria video era quasi piena</value>
+  </data>
+  <data name="Game_Video_Description" xml:space="preserve">
+    <value>La memoria video dedicata è rimasta sopra {0} di {1} per {2}{3}.</value>
+  </data>
+  <data name="Game_Video_Recommendation" xml:space="preserve">
+    <value>Abbassare la qualità delle texture o la risoluzione riduce l'uso della memoria video.</value>
+  </data>
+  <data name="Game_Disk_Title" xml:space="preserve">
+    <value>Un disco era occupato quasi sempre</value>
+  </data>
+  <data name="Game_Disk_Description" xml:space="preserve">
+    <value>Il disco più occupato è rimasto sopra {0} di tempo attivo per {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Loading" xml:space="preserve">
+    <value>Possibile causa delle pause di caricamento</value>
+  </data>
+  <data name="Game_Disk_Recommendation" xml:space="preserve">
+    <value>Installare il gioco su un'unità più veloce (SSD) accorcia i caricamenti; anche aggiornamenti o scansioni in esecuzione nello stesso momento tengono occupati i dischi.</value>
+  </data>
+  <data name="Game_GpuBound_Title" xml:space="preserve">
+    <value>La scheda grafica era il componente più carico</value>
+  </data>
+  <data name="Game_GpuBound_DescriptionCpu" xml:space="preserve">
+    <value>La GPU ha registrato una media del {0}, il processore del {1}.</value>
+  </data>
+  <data name="Game_GpuBound_Description" xml:space="preserve">
+    <value>La GPU ha registrato una media del {0}.</value>
+  </data>
+  <data name="Game_Qualifier_LikelyLimit" xml:space="preserve">
+    <value>Probabile fattore limitante</value>
+  </data>
+  <data name="Game_GpuBound_Recommendation" xml:space="preserve">
+    <value>È normale con un gioco impegnativo: è la GPU a dettare il ritmo. Abbassa le impostazioni grafiche o la risoluzione per una maggiore fluidità.</value>
+  </data>
+  <data name="Game_Ev_GpuBusiest" xml:space="preserve">
+    <value>Utilizzo della GPU (adattatore più occupato)</value>
+  </data>
+  <data name="Game_CpuHeavy_Title" xml:space="preserve">
+    <value>Il processore era molto utilizzato</value>
+  </data>
+  <data name="Game_CpuHeavy_DescriptionGpu" xml:space="preserve">
+    <value>Il processore ha registrato una media del {0}, la GPU del {1}.</value>
+  </data>
+  <data name="Game_CpuHeavy_Description" xml:space="preserve">
+    <value>Il processore ha registrato una media del {0}. L'utilizzo della GPU non era disponibile, quindi Sysora non può dire quale componente abbia dettato il ritmo.</value>
+  </data>
+  <data name="Game_Qualifier_Potential" xml:space="preserve">
+    <value>Possibile causa</value>
+  </data>
+  <data name="Game_CpuHeavy_Recommendation" xml:space="preserve">
+    <value>Chiudi le applicazioni in background e abbassa le impostazioni più pesanti per la CPU (distanza visiva, folla, fisica).</value>
+  </data>
+  <data name="Game_BusyApp_Title" xml:space="preserve">
+    <value>{0} era attiva durante il gioco</value>
+  </data>
+  <data name="Game_BusyApp_Description" xml:space="preserve">
+    <value>{0} ha usato in media {1} della CPU totale durante la sessione (picco {2}).</value>
+  </data>
+  <data name="Game_BusyApp_Recommendation" xml:space="preserve">
+    <value>Se non ti serve {0} mentre giochi, chiudila prima di avviare il gioco.</value>
+  </data>
+  <data name="Game_BusyApp_Value" xml:space="preserve">
+    <value>Media {0}, picco {1}, fino a {2} di memoria</value>
+  </data>
+  <data name="Game_BusyApp_Reference" xml:space="preserve">
+    <value>Media su tutti i campioni dei processi della sessione (0 quando non era in esecuzione)</value>
+  </data>
+  <data name="Game_Gaps_Title" xml:space="preserve">
+    <value>Le misurazioni sono state interrotte</value>
+  </data>
+  <data name="Game_Gaps_Description" xml:space="preserve">
+    <value>{0} ({1} non misurati): il PC era in sospensione o il monitoraggio era in pausa. I valori coprono solo il tempo misurato.</value>
+  </data>
+  <data name="Game_Compare_First" xml:space="preserve">
+    <value>Prima sessione registrata di {0}: ancora niente da confrontare.</value>
+  </data>
+  <data name="Game_Compare_Previous" xml:space="preserve">
+    <value>Confronto con la tua sessione precedente di {0} ({1}).</value>
+  </data>
+  <data name="Game_Compare_Average" xml:space="preserve">
+    <value>Confronto con la media delle tue {0} sessioni precedenti di {1} (dal {2}).</value>
+  </data>
+  <data name="Game_Ref_Previous" xml:space="preserve">
+    <value>la tua sessione precedente</value>
+  </data>
+  <data name="Game_Ref_PreviousN" xml:space="preserve">
+    <value>le tue {0} sessioni precedenti</value>
+  </data>
+  <data name="Game_Compare_HigherTitle" xml:space="preserve">
+    <value>{0} è stato più alto del solito per questo gioco</value>
+  </data>
+  <data name="Game_Compare_HigherDescription" xml:space="preserve">
+    <value>{0} ha registrato una media di {1}, {2} rispetto a {3} ({4}).</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryTitle" xml:space="preserve">
+    <value>Il gioco ha usato più memoria del solito</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryDescription" xml:space="preserve">
+    <value>Il gioco ha usato in media {0}, {1} rispetto a {2} ({3}).</value>
+  </data>
+  <data name="Game_Compare_NewLimitTitle" xml:space="preserve">
+    <value>{0}: nuovo in questa sessione</value>
+  </data>
+  <data name="Game_Compare_NewLimitDescription" xml:space="preserve">
+    <value>Questo limite non era stato raggiunto in {0} su {1}.</value>
+  </data>
+  <data name="Game_Qualifier_ObservedChange" xml:space="preserve">
+    <value>Variazione osservata, causa sconosciuta</value>
+  </data>
+  <data name="Game_Compare_Recommendation" xml:space="preserve">
+    <value>Un aggiornamento del gioco, impostazioni diverse o una parte diversa del gioco possono spiegarlo; se si ripete, confronta con Modifiche.</value>
+  </data>
+  <data name="Game_Compare_ThisSession" xml:space="preserve">
+    <value>Questa sessione: {0} (picco {1})</value>
+  </data>
+  <data name="Game_Compare_PreviousSessions" xml:space="preserve">
+    <value>Sessioni precedenti: {0} in media</value>
+  </data>
+  <data name="Game_Missing_Gpu" xml:space="preserve">
+    <value>Utilizzo della GPU: Non disponibile (nessun adattatore grafico lo ha segnalato o il monitoraggio della GPU è disattivato nelle Impostazioni).</value>
+  </data>
+  <data name="Game_Missing_GpuGame" xml:space="preserve">
+    <value>Utilizzo della GPU del gioco: Non disponibile (Windows non ha segnalato l'utilizzo della GPU per processo).</value>
+  </data>
+  <data name="Game_Missing_Video" xml:space="preserve">
+    <value>Memoria video: Non disponibile (il driver grafico non l'ha segnalata).</value>
+  </data>
+  <data name="Game_Missing_Temperatures" xml:space="preserve">
+    <value>Temperature: Non disponibili (Windows non offre un modo documentato per leggerle senza un driver del kernel).</value>
+  </data>
+  <data name="Game_Missing_Network" xml:space="preserve">
+    <value>Utilizzo della rete del gioco: Non disponibile (l'utilizzo della rete per applicazione richiede la traccia eventi con privilegi di amministratore); i valori di rete riguardano l'intero PC.</value>
+  </data>
+  <data name="Game_Coverage" xml:space="preserve">
+    <value>Misurato dalle {0} alle {1} ({2} di misurazioni).</value>
+  </data>
+  <data name="Game_Coverage_AlreadyRunning" xml:space="preserve">
+    <value>Il gioco era già in esecuzione dalle {0} quando Sysora è stato avviato: il tempo precedente non è coperto.</value>
+  </data>
+  <data name="Game_Coverage_Gaps" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Game_Coverage_SysoraClosed" xml:space="preserve">
+    <value>Sysora è stato chiuso prima del gioco: la fine della sessione non è coperta.</value>
+  </data>
+  <data name="Game_Coverage_TrackingStopped" xml:space="preserve">
+    <value>Le sessioni di gioco sono state disattivate prima della chiusura del gioco.</value>
+  </data>
+  <data name="Game_Ev_MeasuredTime" xml:space="preserve">
+    <value>Tempo misurato</value>
+  </data>
+  <data name="Game_Ev_Gaps" xml:space="preserve">
+    <value>{0}, {1} non misurati</value>
+  </data>
+  <data name="Game_Ev_NoGap" xml:space="preserve">
+    <value>Nessuna interruzione</value>
+  </data>
+  <data name="Game_Ev_CpuPc" xml:space="preserve">
+    <value>Utilizzo della CPU (intero PC)</value>
+  </data>
+  <data name="Game_Condition_Video" xml:space="preserve">
+    <value>Memoria video</value>
+  </data>
+  <data name="Source_VideoMemory" xml:space="preserve">
+    <value>Contatore delle prestazioni di Windows \GPU Adapter Memory(*)\Dedicated Usage</value>
+  </data>
+  <data name="Game_Points" xml:space="preserve">
+    <value>{0:0} punti</value>
+  </data>
+  <data name="Count_Interruption_One" xml:space="preserve">
+    <value>{0} interruzione</value>
+  </data>
+  <data name="Count_Interruption_Other" xml:space="preserve">
+    <value>{0} interruzioni</value>
+  </data>
+  <data name="Game_Detect_UserMarked" xml:space="preserve">
+    <value>Hai contrassegnato questa applicazione come gioco.</value>
+  </data>
+  <data name="Game_Detect_Windows" xml:space="preserve">
+    <value>Windows riconosce questo eseguibile come un gioco (elenco dei tuoi giochi della Game Bar).</value>
+  </data>
+  <data name="Game_Detect_Library" xml:space="preserve">
+    <value>Installato in una cartella della libreria giochi di {0}: probabilmente un gioco, non confermato da Windows.</value>
+  </data>
+  <data name="Game_Event_Started" xml:space="preserve">
+    <value>Gioco avviato: {0}</value>
+  </data>
+  <data name="Game_Event_Closed" xml:space="preserve">
+    <value>Gioco chiuso: {0} ({1})</value>
+  </data>
+  <data name="Game_Event_Gap" xml:space="preserve">
+    <value>Nessuna misurazione per {0} (PC in sospensione o monitoraggio in pausa)</value>
+  </data>
+  <data name="Health_NotCounted" xml:space="preserve">
+    <value>Non conteggiato</value>
+  </data>
+  <data name="Health_NoImpact" xml:space="preserve">
+    <value>Nessun impatto</value>
+  </data>
+  <data name="Count_Point_One" xml:space="preserve">
+    <value>{0} punto</value>
+  </data>
+  <data name="Count_Point_Other" xml:space="preserve">
+    <value>{0} punti</value>
+  </data>
+  <data name="Health_Collecting_Headline" xml:space="preserve">
+    <value>Salute del PC: raccolta dei dati…</value>
+  </data>
+  <data name="Health_Collecting_Summary" xml:space="preserve">
+    <value>Sysora ha bisogno di un paio di minuti di misurazioni prima di dare un punteggio.</value>
+  </data>
+  <data name="Health_Grade_Good" xml:space="preserve">
+    <value>Buona</value>
+  </data>
+  <data name="Health_Grade_Fair" xml:space="preserve">
+    <value>Discreta</value>
+  </data>
+  <data name="Health_Grade_NeedsAttention" xml:space="preserve">
+    <value>Richiede attenzione</value>
+  </data>
+  <data name="Health_Grade_Poor" xml:space="preserve">
+    <value>Scarsa</value>
+  </data>
+  <data name="Health_Grade_Collecting" xml:space="preserve">
+    <value>Raccolta dei dati</value>
+  </data>
+  <data name="Health_Method" xml:space="preserve">
+    <value>Il punteggio parte da 100. Ogni area toglie punti in base a ciò che è stato misurato, con soglie fisse indicate accanto. CPU, memoria, attività del disco e GPU usano le medie degli ultimi 15 minuti, quindi un breve picco conta poco. Le aree che non possono essere misurate su questo PC non vengono conteggiate e sono indicate come non disponibili: nulla viene stimato.</value>
+  </data>
+  <data name="Health_NoMeasurementYetLower" xml:space="preserve">
+    <value>ancora nessuna misurazione</value>
+  </data>
+  <data name="Health_NeedsData" xml:space="preserve">
+    <value>Sysora ha bisogno di {0} di misurazioni prima di dare un punteggio ({1} finora).</value>
+  </data>
+  <data name="Health_NothingLowers" xml:space="preserve">
+    <value>Al momento nulla abbassa il punteggio.</value>
+  </data>
+  <data name="Health_LoweredBy" xml:space="preserve">
+    <value>Abbassato da {0}.</value>
+  </data>
+  <data name="Health_Headline" xml:space="preserve">
+    <value>Salute del PC: {0}/100 · {1}</value>
+  </data>
+  <data name="Health_Area_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Health_Cpu_NotAvailable" xml:space="preserve">
+    <value>L'utilizzo della CPU non è disponibile su questo PC</value>
+  </data>
+  <data name="Health_NoMeasurementYet" xml:space="preserve">
+    <value>Ancora nessuna misurazione</value>
+  </data>
+  <data name="Health_PointsTakenOff" xml:space="preserve">
+    <value>Punti tolti</value>
+  </data>
+  <data name="Health_Cpu_Thresholds" xml:space="preserve">
+    <value>Nessuno sotto il 50% in media, fino a 15 al 100%</value>
+  </data>
+  <data name="Health_Cpu_Summary" xml:space="preserve">
+    <value>Media {0} su {1} (picco {2})</value>
+  </data>
+  <data name="Health_Cpu_Problem" xml:space="preserve">
+    <value>Il processore è stato quasi saturo in media: le applicazioni possono rispondere lentamente.</value>
+  </data>
+  <data name="Health_Cpu_Attention" xml:space="preserve">
+    <value>Il processore è stato occupato per la maggior parte del tempo; aveva ancora un po' di capacità libera.</value>
+  </data>
+  <data name="Health_Cpu_Good" xml:space="preserve">
+    <value>Il processore ha avuto capacità libera in media. I picchi brevi sono normali e contano poco.</value>
+  </data>
+  <data name="Health_Area_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Health_Memory_NotAvailable" xml:space="preserve">
+    <value>L'utilizzo della memoria non è disponibile su questo PC</value>
+  </data>
+  <data name="Health_Memory_Thresholds" xml:space="preserve">
+    <value>Nessuno sotto il 60% in media, fino a 20 al 95%; 3 in più quando la memoria impegnata resta sopra il 90% del suo limite</value>
+  </data>
+  <data name="Health_CommitShare" xml:space="preserve">
+    <value>Memoria impegnata (quota del limite)</value>
+  </data>
+  <data name="Health_CommitNote" xml:space="preserve">
+    <value>La memoria impegnata è vicina al suo limite: Windows potrebbe rifiutare nuove allocazioni di memoria.</value>
+  </data>
+  <data name="Health_Memory_Amount" xml:space="preserve">
+    <value>({0} di {1})</value>
+  </data>
+  <data name="Health_Memory_Summary" xml:space="preserve">
+    <value>Media {0} in uso{1} su {2}, picco {3}</value>
+  </data>
+  <data name="Health_Memory_Problem" xml:space="preserve">
+    <value>La memoria è quasi piena: Windows deve spostare dati sul disco, rallentando tutto.</value>
+  </data>
+  <data name="Health_Memory_Attention" xml:space="preserve">
+    <value>La memoria è molto utilizzata; aprire altre applicazioni potrebbe iniziare a rallentare il PC.</value>
+  </data>
+  <data name="Health_Memory_Good" xml:space="preserve">
+    <value>C'è memoria libera per le applicazioni in uso.</value>
+  </data>
+  <data name="Health_Area_Storage" xml:space="preserve">
+    <value>Archiviazione</value>
+  </data>
+  <data name="Health_Storage_NotAvailable" xml:space="preserve">
+    <value>Lo spazio libero non è disponibile su questo PC</value>
+  </data>
+  <data name="Health_Storage_Reference" xml:space="preserve">
+    <value>Avviso al {0} usato, critico al {1} (Impostazioni › Soglie di salute)</value>
+  </data>
+  <data name="Health_Storage_Thresholds" xml:space="preserve">
+    <value>16 quando il volume di Windows supera il livello critico, 8 sopra il livello di avviso; 4 per ogni altro volume sopra il livello critico</value>
+  </data>
+  <data name="Health_Storage_Summary" xml:space="preserve">
+    <value>{0} {1} liberi su {2}</value>
+  </data>
+  <data name="Count_OtherVolume_One" xml:space="preserve">
+    <value>{0} altro volume</value>
+  </data>
+  <data name="Count_OtherVolume_Other" xml:space="preserve">
+    <value>{0} altri volumi</value>
+  </data>
+  <data name="Health_Storage_Problem" xml:space="preserve">
+    <value>Il volume di Windows è quasi pieno: gli aggiornamenti possono fallire e Windows ha poco spazio per il file di paging e i file temporanei.</value>
+  </data>
+  <data name="Health_Storage_Attention" xml:space="preserve">
+    <value>Un volume si sta riempiendo. File di grandi dimensioni mostra cosa occupa più spazio (Sysora non elimina mai nulla).</value>
+  </data>
+  <data name="Health_Storage_Good" xml:space="preserve">
+    <value>Ogni volume ha ancora spazio.</value>
+  </data>
+  <data name="Health_Area_Disk" xml:space="preserve">
+    <value>Attività del disco</value>
+  </data>
+  <data name="Health_Disk_NotAvailable" xml:space="preserve">
+    <value>L'attività del disco non è disponibile su questo PC</value>
+  </data>
+  <data name="Health_Disk_Busiest" xml:space="preserve">
+    <value>Tempo di attività del disco più occupato</value>
+  </data>
+  <data name="Health_Disk_Thresholds" xml:space="preserve">
+    <value>Nessuno sotto il 40% in media, fino a 10 al 90%</value>
+  </data>
+  <data name="Health_Disk_Summary" xml:space="preserve">
+    <value>Disco più occupato attivo per il {0} del tempo in media (picco {1})</value>
+  </data>
+  <data name="Health_Disk_Problem" xml:space="preserve">
+    <value>Un disco è stato occupato per la maggior parte del tempo: l'apertura di file e applicazioni deve aspettarlo.</value>
+  </data>
+  <data name="Health_Disk_Attention" xml:space="preserve">
+    <value>Un disco è stato spesso occupato (aggiornamenti, indicizzazione, copie o un'applicazione che legge molto).</value>
+  </data>
+  <data name="Health_Disk_Good" xml:space="preserve">
+    <value>I dischi sono stati per lo più inattivi.</value>
+  </data>
+  <data name="Health_Gpu_Off" xml:space="preserve">
+    <value>Il monitoraggio della GPU è disattivato nelle Impostazioni</value>
+  </data>
+  <data name="Health_Gpu_NotAvailable" xml:space="preserve">
+    <value>L'utilizzo della GPU non è disponibile su questo PC</value>
+  </data>
+  <data name="Health_Gpu_VideoMemory" xml:space="preserve">
+    <value>memoria video {0} di {1}</value>
+  </data>
+  <data name="Health_Gpu_Dedicated" xml:space="preserve">
+    <value>Memoria video dedicata ({0})</value>
+  </data>
+  <data name="Health_Gpu_DedicatedValue" xml:space="preserve">
+    <value>{0} di {1} ({2})</value>
+  </data>
+  <data name="Health_Gpu_Reference" xml:space="preserve">
+    <value>5 punti tolti al 95% o più</value>
+  </data>
+  <data name="Health_Gpu_Usage" xml:space="preserve">
+    <value>Utilizzo medio {0}</value>
+  </data>
+  <data name="Health_Gpu_Attention" xml:space="preserve">
+    <value>La memoria video è quasi piena: giochi e applicazioni grafiche possono scattare mentre Windows sposta dati nella memoria di sistema.</value>
+  </data>
+  <data name="Health_Gpu_Good" xml:space="preserve">
+    <value>Una GPU occupata è normale durante il gioco o la riproduzione di video, quindi l'utilizzo da solo non abbassa il punteggio; lo fa solo una memoria video quasi piena.</value>
+  </data>
+  <data name="Health_Area_Temperatures" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Health_Temperatures_NotAvailable" xml:space="preserve">
+    <value>Non disponibile: Windows non offre un modo documentato per leggerle senza un driver del kernel, che Sysora non installa</value>
+  </data>
+  <data name="Health_Temperatures_Good" xml:space="preserve">
+    <value>Le temperature segnalate dai driver sono in un intervallo normale.</value>
+  </data>
+  <data name="Health_Temperatures_Hot" xml:space="preserve">
+    <value>Un componente si sta scaldando; potrebbe rallentare per raffreddarsi.</value>
+  </data>
+  <data name="Health_Temperature_Of" xml:space="preserve">
+    <value>Temperatura di {0}</value>
+  </data>
+  <data name="Health_Temperature_Reference" xml:space="preserve">
+    <value>5 punti a 85 °C, 10 a 95 °C</value>
+  </data>
+  <data name="Health_Temperature_Source" xml:space="preserve">
+    <value>Driver grafico</value>
+  </data>
+  <data name="Health_Area_Stability" xml:space="preserve">
+    <value>Stabilità</value>
+  </data>
+  <data name="Health_NotAnalyzedYet" xml:space="preserve">
+    <value>Non ancora analizzato</value>
+  </data>
+  <data name="Health_Stability_None" xml:space="preserve">
+    <value>Nessun problema ricorrente negli ultimi {0} giorni</value>
+  </data>
+  <data name="Count_RecurringProblem_One" xml:space="preserve">
+    <value>{0} problema ricorrente</value>
+  </data>
+  <data name="Count_RecurringProblem_Other" xml:space="preserve">
+    <value>{0} problemi ricorrenti</value>
+  </data>
+  <data name="Health_Stability_Good" xml:space="preserve">
+    <value>Nessun problema si è ripresentato ripetutamente negli ultimi giorni.</value>
+  </data>
+  <data name="Health_Stability_Problems" xml:space="preserve">
+    <value>Questi problemi si sono ripresentati in più giorni. Un problema che si ripete ha di solito una causa che vale la pena cercare.</value>
+  </data>
+  <data name="Health_RecurringProblems" xml:space="preserve">
+    <value>Problemi ricorrenti</value>
+  </data>
+  <data name="Health_Stability_Reference" xml:space="preserve">
+    <value>4 punti ciascuno (al massimo {0}). Un problema è ricorrente dopo {1} episodi in {2} giorni diversi.</value>
+  </data>
+  <data name="Health_Stability_Source" xml:space="preserve">
+    <value>Avvisi ed eventi della cronologia locale</value>
+  </data>
+  <data name="Health_Area_Anomalies" xml:space="preserve">
+    <value>Anomalie recenti</value>
+  </data>
+  <data name="Health_None" xml:space="preserve">
+    <value>Nessuna</value>
+  </data>
+  <data name="Health_Anomalies_None" xml:space="preserve">
+    <value>Nessun avviso nelle ultime 24 ore</value>
+  </data>
+  <data name="Health_Anomalies_Count" xml:space="preserve">
+    <value>{0} nelle ultime 24 ore</value>
+  </data>
+  <data name="Health_Anomalies_Active" xml:space="preserve">
+    <value>(ancora attivi: {0})</value>
+  </data>
+  <data name="Health_Anomalies_Good" xml:space="preserve">
+    <value>Di recente non è stato rilevato alcun problema prolungato o insolito.</value>
+  </data>
+  <data name="Health_Anomalies_Explanation" xml:space="preserve">
+    <value>Gli avvisi vengono generati solo per problemi che sono durati o erano insoliti per questo PC. Gli avvisi indicati come abituali per questo PC non tolgono nulla.</value>
+  </data>
+  <data name="Health_Area_Usual" xml:space="preserve">
+    <value>Comportamento abituale</value>
+  </data>
+  <data name="Health_Usual_Now" xml:space="preserve">
+    <value>{0} ora (media di 15 minuti)</value>
+  </data>
+  <data name="Health_Usual_Reference" xml:space="preserve">
+    <value>Di solito {0} (mediana {1}); insolito sopra {2}</value>
+  </data>
+  <data name="Health_Usual_Item" xml:space="preserve">
+    <value>{0} ({1} rispetto al solito {2})</value>
+  </data>
+  <data name="Health_Unusual" xml:space="preserve">
+    <value>Insolito</value>
+  </data>
+  <data name="Health_Usual" xml:space="preserve">
+    <value>Abituale</value>
+  </data>
+  <data name="Health_Usual_Above" xml:space="preserve">
+    <value>Sopra il tuo intervallo abituale: {0}</value>
+  </data>
+  <data name="Health_Usual_Within" xml:space="preserve">
+    <value>Nel tuo intervallo abituale</value>
+  </data>
+  <data name="Health_Usual_Busier" xml:space="preserve">
+    <value>Questo PC è più occupato del solito. Può essere previsto (un gioco, una compilazione) o il segno che qualcosa è in esecuzione in background.</value>
+  </data>
+  <data name="Health_Usual_Matches" xml:space="preserve">
+    <value>L'attività corrisponde a ciò che questo PC fa di solito.</value>
+  </data>
+  <data name="Health_Missing_Explanation" xml:space="preserve">
+    <value>Non conteggiato nel punteggio: Sysora non sostituisce mai una misurazione mancante con una stima.</value>
+  </data>
+  <data name="Health_Status_Normal" xml:space="preserve">
+    <value>Normale</value>
+  </data>
+  <data name="Health_Status_Attention" xml:space="preserve">
+    <value>Attenzione</value>
+  </data>
+  <data name="Health_Status_Problem" xml:space="preserve">
+    <value>Problema</value>
+  </data>
+  <data name="Health_ThresholdsSource" xml:space="preserve">
+    <value>Soglie di punteggio fisse di Sysora</value>
+  </data>
+  <data name="Health_UsualMedian" xml:space="preserve">
+    <value>{0} (mediana {1})</value>
+  </data>
+  <data name="AlertSeverity_Critical" xml:space="preserve">
+    <value>Critico</value>
+  </data>
+  <data name="AlertSeverity_Warning" xml:space="preserve">
+    <value>Attenzione</value>
+  </data>
+  <data name="AlertSeverity_Info" xml:space="preserve">
+    <value>Informazione</value>
+  </data>
+  <data name="Event_InternetAvailable" xml:space="preserve">
+    <value>Accesso a Internet disponibile</value>
+  </data>
+  <data name="Event_InternetLimited" xml:space="preserve">
+    <value>Accesso a Internet limitato</value>
+  </data>
+  <data name="Event_InternetLost" xml:space="preserve">
+    <value>Accesso a Internet perso (solo rete locale)</value>
+  </data>
+  <data name="Event_NetworkLost" xml:space="preserve">
+    <value>Connessione di rete persa</value>
+  </data>
+  <data name="Event_MetricUnavailable" xml:space="preserve">
+    <value>Metriche {0} non disponibili</value>
+  </data>
+  <data name="Event_MetricRestored" xml:space="preserve">
+    <value>Metriche {0} di nuovo disponibili</value>
+  </data>
+  <data name="Event_AsReportedByWindows" xml:space="preserve">
+    <value>Come segnalato da Windows</value>
+  </data>
+  <data name="Event_VolumeConnected" xml:space="preserve">
+    <value>Volume {0}{1} connesso</value>
+  </data>
+  <data name="Event_VolumeSize" xml:space="preserve">
+    <value>Volume {1} da {0}</value>
+  </data>
+  <data name="Event_VolumeDisconnected" xml:space="preserve">
+    <value>Volume {0} disconnesso</value>
+  </data>
+  <data name="Event_AppCpu" xml:space="preserve">
+    <value>La CPU di {0} è salita a {1}</value>
+  </data>
+  <data name="Event_AppCpuDetail" xml:space="preserve">
+    <value>{0} di memoria, {1}</value>
+  </data>
+  <data name="Event_AppMemory" xml:space="preserve">
+    <value>{0} usa {1} di memoria</value>
+  </data>
+  <data name="Event_AppMemoryDetail" xml:space="preserve">
+    <value>{0} della memoria fisica</value>
+  </data>
+  <data name="Event_RanFor" xml:space="preserve">
+    <value>In esecuzione per {0}.</value>
+  </data>
+  <data name="Event_AppExited" xml:space="preserve">
+    <value>{0} terminato</value>
+  </data>
+  <data name="Event_AppExitedDetail" xml:space="preserve">
+    <value>Usava {0} di CPU e {1} di memoria</value>
+  </data>
+  <data name="Event_AppClosed" xml:space="preserve">
+    <value>{0} chiuso</value>
+  </data>
+  <data name="Event_RanForShort" xml:space="preserve">
+    <value>In esecuzione per {0}</value>
+  </data>
+  <data name="Event_AppStarted" xml:space="preserve">
+    <value>{0} avviato</value>
+  </data>
+  <data name="Event_Kind_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Event_Kind_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Event_Kind_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Event_Kind_Storage" xml:space="preserve">
+    <value>Archiviazione</value>
+  </data>
+  <data name="Event_Kind_Disk" xml:space="preserve">
+    <value>Attività del disco</value>
+  </data>
+  <data name="Event_Kind_Network" xml:space="preserve">
+    <value>Rete</value>
+  </data>
+  <data name="Event_Kind_Processes" xml:space="preserve">
+    <value>Processi</value>
+  </data>
+  <data name="Event_Kind_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="DriveKind_Fixed" xml:space="preserve">
+    <value>fisso</value>
+  </data>
+  <data name="DriveKind_Removable" xml:space="preserve">
+    <value>rimovibile</value>
+  </data>
+  <data name="DriveKind_Network" xml:space="preserve">
+    <value>di rete</value>
+  </data>
+  <data name="DriveKind_Optical" xml:space="preserve">
+    <value>ottico</value>
+  </data>
+  <data name="DriveKind_Ram" xml:space="preserve">
+    <value>disco RAM</value>
+  </data>
+  <data name="DriveKind_Other" xml:space="preserve">
+    <value>altro</value>
+  </data>
+  <data name="Event_Gap" xml:space="preserve">
+    <value>Nessuna misurazione per {0}</value>
+  </data>
+  <data name="Event_GapDetail" xml:space="preserve">
+    <value>Sysora non era in esecuzione o il PC era in sospensione durante questo periodo.</value>
+  </data>
+  <data name="Event_MonitoringStarted" xml:space="preserve">
+    <value>Monitoraggio avviato</value>
+  </data>
+  <data name="Event_MonitoringPaused" xml:space="preserve">
+    <value>Monitoraggio in pausa</value>
+  </data>
+  <data name="Event_MonitoringResumed" xml:space="preserve">
+    <value>Monitoraggio ripreso</value>
+  </data>
+  <data name="Indicator_CpuNotAvailable" xml:space="preserve">
+    <value>Utilizzo della CPU non disponibile</value>
+  </data>
+  <data name="Indicator_CpuNormal" xml:space="preserve">
+    <value>CPU normale</value>
+  </data>
+  <data name="Indicator_MemoryNotAvailable" xml:space="preserve">
+    <value>Utilizzo della memoria non disponibile</value>
+  </data>
+  <data name="Indicator_MemoryNormal" xml:space="preserve">
+    <value>Memoria normale</value>
+  </data>
+  <data name="Indicator_StorageNotAvailable" xml:space="preserve">
+    <value>Archiviazione non disponibile</value>
+  </data>
+  <data name="Indicator_Storage" xml:space="preserve">
+    <value>Archiviazione {0} {1}</value>
+  </data>
+  <data name="Indicator_AboveCritical" xml:space="preserve">
+    <value>Sopra la soglia critica del {0}</value>
+  </data>
+  <data name="Indicator_AboveWarning" xml:space="preserve">
+    <value>Sopra la soglia di avviso del {0}</value>
+  </data>
+  <data name="Indicator_StorageNormal" xml:space="preserve">
+    <value>Archiviazione normale</value>
+  </data>
+  <data name="Indicator_NetworkNotAvailable" xml:space="preserve">
+    <value>Stato della rete non disponibile</value>
+  </data>
+  <data name="Indicator_NetworkConnected" xml:space="preserve">
+    <value>Rete connessa</value>
+  </data>
+  <data name="Indicator_NetworkRestricted" xml:space="preserve">
+    <value>Windows segnala un accesso limitato (ad esempio una pagina di accesso)</value>
+  </data>
+  <data name="Indicator_NetworkNoInternet" xml:space="preserve">
+    <value>Rete disponibile ma Internet non disponibile</value>
+  </data>
+  <data name="Indicator_NetworkUnknown" xml:space="preserve">
+    <value>Stato della rete sconosciuto</value>
+  </data>
+  <data name="Indicator_ProcessesNotAvailable" xml:space="preserve">
+    <value>Informazioni sui processi non disponibili</value>
+  </data>
+  <data name="Indicator_AppMemory" xml:space="preserve">
+    <value>{0} usa {1} di memoria</value>
+  </data>
+  <data name="Indicator_AppMemoryThreshold" xml:space="preserve">
+    <value>Sopra la soglia del {0} per applicazione</value>
+  </data>
+  <data name="Indicator_AppCpu" xml:space="preserve">
+    <value>{0} usa molta CPU</value>
+  </data>
+  <data name="Indicator_NoAbnormalProcess" xml:space="preserve">
+    <value>Nessun processo anomalo rilevato</value>
+  </data>
+  <data name="Indicator_AboveFor" xml:space="preserve">
+    <value>Sopra {0} per più di {1} s</value>
+  </data>
+  <data name="Intensity_Minimal_Description" xml:space="preserve">
+    <value>Per il gioco o la batteria: campiona meno spesso (CPU e memoria ogni 2 intervalli, processi, GPU e dischi ogni 3), conserva meno applicazioni per campione e valuta gli avvisi ogni 10 secondi.</value>
+  </data>
+  <data name="Intensity_Detailed_Description" xml:space="preserve">
+    <value>Per indagare su un problema: campiona il doppio delle volte dove serve (fino a 0,5 s per CPU e memoria, 1 s per i processi), conserva più applicazioni per campione.</value>
+  </data>
+  <data name="Intensity_Balanced_Description" xml:space="preserve">
+    <value>L'impostazione predefinita: gli intervalli definiti sotto, un buon equilibrio tra precisione e consumo di Sysora.</value>
+  </data>
+  <data name="Intensity_Minimal" xml:space="preserve">
+    <value>Minima</value>
+  </data>
+  <data name="Intensity_Detailed" xml:space="preserve">
+    <value>Dettagliata</value>
+  </data>
+  <data name="Intensity_Balanced" xml:space="preserve">
+    <value>Bilanciata</value>
+  </data>
+  <data name="Event_Sleep" xml:space="preserve">
+    <value>Il PC va in sospensione</value>
+  </data>
+  <data name="Event_ResumedAfter" xml:space="preserve">
+    <value>Il PC è uscito dalla sospensione (in sospensione per {0})</value>
+  </data>
+  <data name="Event_Resumed" xml:space="preserve">
+    <value>Il PC è uscito dalla sospensione</value>
+  </data>
+  <data name="Self_Measuring" xml:space="preserve">
+    <value>Impatto di Sysora: misurazione in corso…</value>
+  </data>
+  <data name="Self_OverBudget" xml:space="preserve">
+    <value>Sysora ha superato il suo budget di CPU ({0} della capacità totale) per un minuto: allunga i suoi intervalli di raccolta ×{1:0.##} per restare leggero.</value>
+  </data>
+  <data name="Self_HighMemory" xml:space="preserve">
+    <value>Sysora usa {0} di memoria, più del previsto. Riavviarlo libera la memoria; segnalalo se continua a crescere.</value>
+  </data>
+  <data name="Self_HighAllocations" xml:space="preserve">
+    <value>Sysora alloca {0} di memoria: più lavoro di garbage collection del solito.</value>
+  </data>
+  <data name="Self_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Cpu_Note" xml:space="preserve">
+    <value>Della capacità totale negli ultimi {0:0} secondi</value>
+  </data>
+  <data name="Self_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Self_Memory_NoteManaged" xml:space="preserve">
+    <value>Working set, di cui {0} di oggetti .NET</value>
+  </data>
+  <data name="Self_Memory_Note" xml:space="preserve">
+    <value>Working set</value>
+  </data>
+  <data name="Self_Allocations" xml:space="preserve">
+    <value>Allocazioni</value>
+  </data>
+  <data name="Self_Allocations_Note" xml:space="preserve">
+    <value>Garbage collection nell'ultimo periodo: {0} / {1} / {2} (generazione 0 / 1 / 2)</value>
+  </data>
+  <data name="Self_DiskWrites" xml:space="preserve">
+    <value>Scritture su disco</value>
+  </data>
+  <data name="Self_DiskWrites_Note" xml:space="preserve">
+    <value>Scritture di Sysora (database della cronologia, impostazioni, log), dalla sua voce nell'elenco dei processi</value>
+  </data>
+  <data name="Self_Background" xml:space="preserve">
+    <value>Attività in background</value>
+  </data>
+  <data name="Self_Background_Value" xml:space="preserve">
+    <value>{0} · {1:0} cicli di raccolta al minuto</value>
+  </data>
+  <data name="Self_Processes" xml:space="preserve">
+    <value>Processi analizzati</value>
+  </data>
+  <data name="Self_Processes_Note" xml:space="preserve">
+    <value>Ogni {0}, in una sola chiamata di sistema</value>
+  </data>
+  <data name="Self_Threads" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="Self_Headline" xml:space="preserve">
+    <value>Impatto di Sysora: {0}</value>
+  </data>
+  <data name="Self_Level_Low" xml:space="preserve">
+    <value>Basso</value>
+  </data>
+  <data name="Self_Level_Moderate" xml:space="preserve">
+    <value>Moderato</value>
+  </data>
+  <data name="Self_Level_High" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="Self_Level_Measuring" xml:space="preserve">
+    <value>Misurazione in corso…</value>
+  </data>
+  <data name="Self_Interval_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Interval_Memory" xml:space="preserve">
+    <value>memoria</value>
+  </data>
+  <data name="Self_Interval_Processes" xml:space="preserve">
+    <value>processi</value>
+  </data>
+  <data name="Self_Interval_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Self_Interval_Disks" xml:space="preserve">
+    <value>dischi</value>
+  </data>
+  <data name="Self_Interval_Network" xml:space="preserve">
+    <value>rete</value>
+  </data>
+  <data name="Self_Interval_Space" xml:space="preserve">
+    <value>spazio libero</value>
+  </data>
+  <data name="Self_Investigating" xml:space="preserve">
+    <value>Indagine in corso (dettagliata)</value>
+  </data>
+  <data name="Self_Intensity" xml:space="preserve">
+    <value>Intensità {0}</value>
+  </data>
+  <data name="Self_Hidden" xml:space="preserve">
+    <value>finestra nascosta: metriche a schermo rallentate</value>
+  </data>
+  <data name="LargeFiles_NoExtension" xml:space="preserve">
+    <value>(nessuna estensione)</value>
+  </data>
+  <data name="LargeFiles_Found" xml:space="preserve">
+    <value>{0} di {1} o più ({2}) in {3}</value>
+  </data>
+  <data name="Count_File_One" xml:space="preserve">
+    <value>{0} file</value>
+  </data>
+  <data name="Count_File_Other" xml:space="preserve">
+    <value>{0} file</value>
+  </data>
+  <data name="Count_Folder_One" xml:space="preserve">
+    <value>{0:N0} cartella</value>
+  </data>
+  <data name="Count_Folder_Other" xml:space="preserve">
+    <value>{0:N0} cartelle</value>
+  </data>
+  <data name="LargeFiles_Denied_One" xml:space="preserve">
+    <value>Impossibile leggere {0} cartella (accesso negato)</value>
+  </data>
+  <data name="LargeFiles_Denied_Other" xml:space="preserve">
+    <value>Impossibile leggere {0} cartelle (accesso negato)</value>
+  </data>
+  <data name="LargeFiles_Unavailable_One" xml:space="preserve">
+    <value>{0} cartella non disponibile</value>
+  </data>
+  <data name="LargeFiles_Unavailable_Other" xml:space="preserve">
+    <value>{0} cartelle non disponibili</value>
+  </data>
+  <data name="LargeFiles_ProblemsSuffix" xml:space="preserve">
+    <value>{0}: il loro contenuto è sconosciuto, non assente.</value>
+  </data>
+  <data name="LargeFiles_Cancelled" xml:space="preserve">
+    <value>Scansione annullata dopo {0}: risultati parziali, {1}{2}</value>
+  </data>
+  <data name="LargeFiles_Failed" xml:space="preserve">
+    <value>Scansione non riuscita.</value>
+  </data>
+  <data name="LargeFiles_Completed" xml:space="preserve">
+    <value>Scansione completata in {0}: {1}{2}</value>
+  </data>
+  <data name="LargeFiles_WindowsNote" xml:space="preserve">
+    <value>Gestito da Windows: non eliminarlo manualmente.</value>
+  </data>
+  <data name="LargeFiles_PageFile" xml:space="preserve">
+    <value>File di paging di Windows. Le sue dimensioni si impostano in Sistema › Impostazioni di sistema avanzate; non eliminarlo manualmente.</value>
+  </data>
+  <data name="LargeFiles_Hiberfil" xml:space="preserve">
+    <value>File di ibernazione (usato anche dall'avvio rapido). Gestito da Windows: non eliminarlo manualmente.</value>
+  </data>
+  <data name="LargeFiles_RecycleBinNote" xml:space="preserve">
+    <value>Nel Cestino: svuotare il Cestino libera questo spazio.</value>
+  </data>
+  <data name="LargeFiles_InstallerCache" xml:space="preserve">
+    <value>Cache di Windows Installer: necessaria per riparare o rimuovere applicazioni. Non eliminarla manualmente.</value>
+  </data>
+  <data name="LargeFiles_VirtualDiskNote" xml:space="preserve">
+    <value>Disco virtuale: può appartenere a WSL, Hyper-V, Docker o a una macchina virtuale e contenerne i dati.</value>
+  </data>
+  <data name="LargeFiles_DatabaseNote" xml:space="preserve">
+    <value>File di database: un'applicazione vi conserva i propri dati.</value>
+  </data>
+  <data name="LargeFiles_GameDataNote" xml:space="preserve">
+    <value>Dati di gioco: rimuoverli danneggia il gioco; disinstalla invece il gioco.</value>
+  </data>
+  <data name="LargeFiles_Cat_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="LargeFiles_Cat_Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="LargeFiles_Cat_Image" xml:space="preserve">
+    <value>Immagini</value>
+  </data>
+  <data name="LargeFiles_Cat_Archive" xml:space="preserve">
+    <value>Archivi</value>
+  </data>
+  <data name="LargeFiles_Cat_DiskImage" xml:space="preserve">
+    <value>Immagini disco</value>
+  </data>
+  <data name="LargeFiles_Cat_VirtualDisk" xml:space="preserve">
+    <value>Dischi virtuali</value>
+  </data>
+  <data name="LargeFiles_Cat_Installer" xml:space="preserve">
+    <value>Programmi di installazione</value>
+  </data>
+  <data name="LargeFiles_Cat_Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="LargeFiles_Cat_Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="LargeFiles_Cat_Log" xml:space="preserve">
+    <value>Log e dump</value>
+  </data>
+  <data name="LargeFiles_Cat_Document" xml:space="preserve">
+    <value>Documenti</value>
+  </data>
+  <data name="LargeFiles_Cat_GameData" xml:space="preserve">
+    <value>Dati di gioco</value>
+  </data>
+  <data name="LargeFiles_Cat_Windows" xml:space="preserve">
+    <value>Gestito da Windows</value>
+  </data>
+  <data name="LargeFiles_Cat_RecycleBin" xml:space="preserve">
+    <value>Cestino</value>
+  </data>
+  <data name="LargeFiles_Cat_Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="Timeline_High" xml:space="preserve">
+    <value>{0} alto</value>
+  </data>
+  <data name="Timeline_High_Detail" xml:space="preserve">
+    <value>{0} in media nel minuto (picco {1})</value>
+  </data>
+  <data name="Timeline_Source_Minutes" xml:space="preserve">
+    <value>Cronologia al minuto</value>
+  </data>
+  <data name="Timeline_Normal" xml:space="preserve">
+    <value>{0} tornato normale</value>
+  </data>
+  <data name="Timeline_Normal_Detail" xml:space="preserve">
+    <value>Dopo {0} di attività elevata (picco {1})</value>
+  </data>
+  <data name="Timeline_Source_Observed" xml:space="preserve">
+    <value>Osservato da Sysora</value>
+  </data>
+  <data name="Timeline_Was" xml:space="preserve">
+    <value>Prima: {0}</value>
+  </data>
+  <data name="Timeline_HappenedBetween" xml:space="preserve">
+    <value>Avvenuto tra {0} e {1}.</value>
+  </data>
+  <data name="Timeline_Source_Snapshots" xml:space="preserve">
+    <value>Rilevato confrontando snapshot del PC</value>
+  </data>
+  <data name="Trouble_Metric_MemoryAmount" xml:space="preserve">
+    <value>Memoria in uso (quantità)</value>
+  </data>
+  <data name="Trouble_Metric_Disk" xml:space="preserve">
+    <value>Tempo di attività del disco (disco più occupato)</value>
+  </data>
+  <data name="Trouble_Likely" xml:space="preserve">
+    <value>Probabile</value>
+  </data>
+  <data name="Trouble_Headline_Nothing" xml:space="preserve">
+    <value>Indagine completata: niente di anomalo misurato</value>
+  </data>
+  <data name="Trouble_Headline_One" xml:space="preserve">
+    <value>Indagine completata: {0} anomalia trovata</value>
+  </data>
+  <data name="Trouble_Headline_Other" xml:space="preserve">
+    <value>Indagine completata: {0} anomalie trovate</value>
+  </data>
+  <data name="Trouble_Summary_NoMeasurement" xml:space="preserve">
+    <value>Nessuna misurazione è stata effettuata durante l'indagine (monitoraggio in pausa o PC in sospensione).</value>
+  </data>
+  <data name="Trouble_Summary_Over" xml:space="preserve">
+    <value>{0} su {1}</value>
+  </data>
+  <data name="Trouble_Summary_Cpu" xml:space="preserve">
+    <value>: CPU {0} in media (picco {1})</value>
+  </data>
+  <data name="Trouble_Summary_Memory" xml:space="preserve">
+    <value>, memoria {0} (picco {1})</value>
+  </data>
+  <data name="Trouble_Summary_Suggests" xml:space="preserve">
+    <value>I dati suggeriscono: {0}</value>
+  </data>
+  <data name="Trouble_Summary_NoSingleApp" xml:space="preserve">
+    <value>Nessuna singola applicazione spiega chiaramente le anomalie.</value>
+  </data>
+  <data name="Trouble_Summary_Nothing" xml:space="preserve">
+    <value>Non è stato misurato niente di anomalo.</value>
+  </data>
+  <data name="Trouble_HighLoad" xml:space="preserve">
+    <value>Carico elevato</value>
+  </data>
+  <data name="Trouble_HighLoad_Text" xml:space="preserve">
+    <value>{0} in {1} misurazioni su {2} ({3} del tempo)</value>
+  </data>
+  <data name="Trouble_Share_Cpu" xml:space="preserve">
+    <value>CPU a {0} o più</value>
+  </data>
+  <data name="Trouble_Share_Memory" xml:space="preserve">
+    <value>Memoria a {0} o più</value>
+  </data>
+  <data name="Trouble_Share_Disk" xml:space="preserve">
+    <value>Un disco attivo per {0} del tempo o più</value>
+  </data>
+  <data name="Trouble_Alert" xml:space="preserve">
+    <value>Avviso</value>
+  </data>
+  <data name="Trouble_Interruption" xml:space="preserve">
+    <value>Interruzione</value>
+  </data>
+  <data name="Trouble_DiagnosisAtEnd" xml:space="preserve">
+    <value>Diagnosi finale</value>
+  </data>
+  <data name="Trouble_HighCpu" xml:space="preserve">
+    <value>CPU alta</value>
+  </data>
+  <data name="Trouble_HighCpu_Text" xml:space="preserve">
+    <value>{0} è stata l'applicazione più occupata in {1} dei {2} momenti di CPU alta ({3} al suo picco)</value>
+  </data>
+  <data name="Trouble_BusyDisk" xml:space="preserve">
+    <value>Disco occupato</value>
+  </data>
+  <data name="Trouble_BusyDisk_Text" xml:space="preserve">
+    <value>{0} ha avuto più I/O (file, dispositivi e rete insieme) in {1} dei {2} momenti di disco occupato</value>
+  </data>
+  <data name="Trouble_MemoryGrowth" xml:space="preserve">
+    <value>Crescita della memoria</value>
+  </data>
+  <data name="Trouble_MemoryGrowth_Text" xml:space="preserve">
+    <value>La memoria in uso è cresciuta di {0}; {1} ne è cresciuta di {2}</value>
+  </data>
+  <data name="Trouble_Game" xml:space="preserve">
+    <value>Gioco</value>
+  </data>
+  <data name="Trouble_Game_Text" xml:space="preserve">
+    <value>{0} alle {1}: un carico elevato dopo è previsto</value>
+  </data>
+  <data name="Trouble_StartedDuring" xml:space="preserve">
+    <value>Avviato durante l'indagine</value>
+  </data>
+  <data name="Trouble_At" xml:space="preserve">
+    <value>{0} alle {1}</value>
+  </data>
+  <data name="Trouble_Unknown_Temperatures" xml:space="preserve">
+    <value>Non disponibile: Windows non offre un modo documentato per leggerle senza un driver del kernel.</value>
+  </data>
+  <data name="Trouble_Unknown_Gpu" xml:space="preserve">
+    <value>Non disponibile su questo PC (o il monitoraggio della GPU è disattivato).</value>
+  </data>
+  <data name="Trouble_Applications" xml:space="preserve">
+    <value>Applicazioni</value>
+  </data>
+  <data name="Trouble_Unknown_Applications" xml:space="preserve">
+    <value>Non disponibile: nessuna misurazione dei processi durante l'indagine.</value>
+  </data>
+  <data name="Trouble_NetworkPerApp" xml:space="preserve">
+    <value>Rete per applicazione</value>
+  </data>
+  <data name="Trouble_Unknown_Network" xml:space="preserve">
+    <value>Non disponibile: Windows non la segnala senza la traccia eventi con privilegi di amministratore.</value>
+  </data>
+  <data name="Trouble_Fps" xml:space="preserve">
+    <value>Frequenza dei fotogrammi (FPS)</value>
+  </data>
+  <data name="Trouble_Unknown_Fps" xml:space="preserve">
+    <value>Non disponibile: Windows non offre una fonte affidabile ad altre applicazioni.</value>
+  </data>
+  <data name="Trouble_InsideApps" xml:space="preserve">
+    <value>All'interno delle applicazioni</value>
+  </data>
+  <data name="Trouble_Unknown_Inside" xml:space="preserve">
+    <value>Ciò che un'applicazione fa internamente (perché usa risorse) non è osservabile dall'esterno.</value>
+  </data>
+  <data name="Trouble_Rec_Cpu" xml:space="preserve">
+    <value>Se il rallentamento coincideva con i momenti in cui {0} era occupata, chiudila o lascia che termini la sua attività, poi avvia un'altra indagine per confrontare.</value>
+  </data>
+  <data name="Trouble_Rec_Memory" xml:space="preserve">
+    <value>A tratti la memoria era quasi piena: chiudi le applicazioni che non ti servono. Se succede spesso, più memoria aiuterebbe.</value>
+  </data>
+  <data name="Trouble_Rec_Disk" xml:space="preserve">
+    <value>A tratti un disco era molto occupato: lascia terminare aggiornamenti o copie. Impatto delle app mostra quali applicazioni leggono e scrivono di più.</value>
+  </data>
+  <data name="Trouble_Rec_Nothing" xml:space="preserve">
+    <value>Non è stato misurato niente di anomalo. Se il problema si è verificato durante l'indagine, potrebbe non comparire in queste misurazioni (latenza di rete, cali di fotogrammi, un guasto di un dispositivo); altrimenti avvia un'altra indagine mentre si verifica.</value>
+  </data>
+  <data name="Trouble_Rec_Export" xml:space="preserve">
+    <value>Esporta il rapporto per conservarlo o condividerlo con chi ti aiuta.</value>
+  </data>
+  <data name="Trouble_Event_Started" xml:space="preserve">
+    <value>Risoluzione dei problemi avviata ({0})</value>
+  </data>
+  <data name="Trouble_Event_StartedDetail" xml:space="preserve">
+    <value>Raccolta dettagliata fino alla fine dell'indagine.</value>
+  </data>
+  <data name="AlertStatus_New" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="AlertStatus_Seen" xml:space="preserve">
+    <value>Visto</value>
+  </data>
+  <data name="AlertStatus_Resolved" xml:space="preserve">
+    <value>Risolto</value>
+  </data>
+  <data name="Importance_High" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="Importance_Medium" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Importance_Low" xml:space="preserve">
+    <value>Bassa</value>
+  </data>
+  <data name="TimelineCat_Application" xml:space="preserve">
+    <value>Applicazione</value>
+  </data>
+  <data name="TimelineCat_Game" xml:space="preserve">
+    <value>Gioco</value>
+  </data>
+  <data name="TimelineCat_Alert" xml:space="preserve">
+    <value>Avviso</value>
+  </data>
+  <data name="TimelineCat_Anomaly" xml:space="preserve">
+    <value>Anomalia</value>
+  </data>
+  <data name="TimelineCat_Change" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="TimelineCat_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="TimelineCat_Investigation" xml:space="preserve">
+    <value>Indagine</value>
+  </data>
+  <data name="TimelineCat_Monitoring" xml:space="preserve">
+    <value>Monitoraggio</value>
+  </data>
+  <data name="ImpactPeriod_Session" xml:space="preserve">
+    <value>Questa sessione</value>
+  </data>
+  <data name="ImpactPeriod_24Hours" xml:space="preserve">
+    <value>Ultime 24 ore</value>
+  </data>
+  <data name="ImpactPeriod_7Days" xml:space="preserve">
+    <value>Ultimi 7 giorni</value>
+  </data>
+  <data name="TroubleEnd_Completed" xml:space="preserve">
+    <value>Completata</value>
+  </data>
+  <data name="TroubleEnd_Stopped" xml:space="preserve">
+    <value>Interrotta da te</value>
+  </data>
+  <data name="TroubleEnd_Closed" xml:space="preserve">
+    <value>Sysora è stato chiuso</value>
+  </data>
+  <data name="GameFinding_Anomaly" xml:space="preserve">
+    <value>Anomalia</value>
+  </data>
+  <data name="GameFinding_Analysis" xml:space="preserve">
+    <value>Analisi</value>
+  </data>
+  <data name="GameFinding_Comparison" xml:space="preserve">
+    <value>Confronto</value>
+  </data>
+  <data name="Report_Limit_Temperatures" xml:space="preserve">
+    <value>Temperature: non disponibili (Windows non offre un modo documentato per leggerle senza un driver del kernel).</value>
+  </data>
+  <data name="Report_Areas" xml:space="preserve">
+    <value>Aree</value>
+  </data>
+  <data name="Report_Col_Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Report_Col_State" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="Report_Col_ImpactScore" xml:space="preserve">
+    <value>Impatto sul punteggio</value>
+  </data>
+  <data name="Report_Col_Measured" xml:space="preserve">
+    <value>Misurato</value>
+  </data>
+  <data name="Report_Score" xml:space="preserve">
+    <value>Punteggio</value>
+  </data>
+  <data name="Report_PcHealth" xml:space="preserve">
+    <value>Salute del PC</value>
+  </data>
+  <data name="Report_WhatLowers" xml:space="preserve">
+    <value>Cosa lo abbassa</value>
+  </data>
+  <data name="Report_HowComputed" xml:space="preserve">
+    <value>Come viene calcolato</value>
+  </data>
+  <data name="Report_Problems" xml:space="preserve">
+    <value>Problemi</value>
+  </data>
+  <data name="Report_PointsToWatch" xml:space="preserve">
+    <value>Punti da tenere d'occhio</value>
+  </data>
+  <data name="Report_CheckedNormal" xml:space="preserve">
+    <value>Controllato e normale</value>
+  </data>
+  <data name="Report_Col_Finding" xml:space="preserve">
+    <value>Risultato</value>
+  </data>
+  <data name="Report_Col_Value" xml:space="preserve">
+    <value>Valore</value>
+  </data>
+  <data name="Report_Col_ComparedWith" xml:space="preserve">
+    <value>Confrontato con</value>
+  </data>
+  <data name="Report_Col_Confidence" xml:space="preserve">
+    <value>Affidabilità</value>
+  </data>
+  <data name="Report_Col_Explanation" xml:space="preserve">
+    <value>Spiegazione</value>
+  </data>
+  <data name="Report_ComparedUsual" xml:space="preserve">
+    <value>Confronto con la tua attività abituale</value>
+  </data>
+  <data name="Report_Col_Metric" xml:space="preserve">
+    <value>Metrica</value>
+  </data>
+  <data name="Report_Diagnosis" xml:space="preserve">
+    <value>Diagnosi</value>
+  </data>
+  <data name="Report_Analyzed_One" xml:space="preserve">
+    <value>{0} misurazione analizzata.</value>
+  </data>
+  <data name="Report_Analyzed_Other" xml:space="preserve">
+    <value>{0} misurazioni analizzate.</value>
+  </data>
+  <data name="Report_WhyNowTitle" xml:space="preserve">
+    <value>Perché ora? {0}</value>
+  </data>
+  <data name="Report_WhatHappened" xml:space="preserve">
+    <value>Cosa è successo</value>
+  </data>
+  <data name="Report_Statements" xml:space="preserve">
+    <value>Affermazioni e su cosa si basano</value>
+  </data>
+  <data name="Report_EventsSameTime" xml:space="preserve">
+    <value>Eventi nello stesso momento</value>
+  </data>
+  <data name="Report_CoincidenceNotProof" xml:space="preserve">
+    <value>Una coincidenza temporale non prova la causa.</value>
+  </data>
+  <data name="Report_NotMeasured" xml:space="preserve">
+    <value>{0}: non misurato in questo periodo.</value>
+  </data>
+  <data name="Report_Replay" xml:space="preserve">
+    <value>Replay delle prestazioni</value>
+  </data>
+  <data name="Report_Measurements" xml:space="preserve">
+    <value>Misurazioni</value>
+  </data>
+  <data name="Report_Col_Average" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Report_Col_Peak" xml:space="preserve">
+    <value>Picco</value>
+  </data>
+  <data name="Report_Col_Lowest" xml:space="preserve">
+    <value>Minimo</value>
+  </data>
+  <data name="Report_Events" xml:space="preserve">
+    <value>Eventi</value>
+  </data>
+  <data name="Report_GameTitle" xml:space="preserve">
+    <value>Sessione di gioco: {0}</value>
+  </data>
+  <data name="Report_Session" xml:space="preserve">
+    <value>Sessione</value>
+  </data>
+  <data name="Report_IdentifiedAsGame" xml:space="preserve">
+    <value>Identificato come gioco</value>
+  </data>
+  <data name="Report_Coverage" xml:space="preserve">
+    <value>Copertura</value>
+  </data>
+  <data name="Report_Col_Maximum" xml:space="preserve">
+    <value>Massimo</value>
+  </data>
+  <data name="Report_Col_Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="Report_Findings" xml:space="preserve">
+    <value>Risultati</value>
+  </data>
+  <data name="Report_Col_HowToRead" xml:space="preserve">
+    <value>Come leggerlo</value>
+  </data>
+  <data name="Report_Col_Description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="Report_ComparedPrevious" xml:space="preserve">
+    <value>Confronto con le sessioni precedenti</value>
+  </data>
+  <data name="Report_Col_ThisSession" xml:space="preserve">
+    <value>Questa sessione</value>
+  </data>
+  <data name="Report_Col_Previous" xml:space="preserve">
+    <value>Precedenti</value>
+  </data>
+  <data name="Report_Col_Difference" xml:space="preserve">
+    <value>Differenza</value>
+  </data>
+  <data name="Report_AppImpact" xml:space="preserve">
+    <value>Impatto delle app</value>
+  </data>
+  <data name="Report_Impact_None" xml:space="preserve">
+    <value>Nessun utilizzo delle applicazioni registrato per questo periodo.</value>
+  </data>
+  <data name="Report_Impact_Highest" xml:space="preserve">
+    <value>Impatto maggiore: {0} ({1}). {2}</value>
+  </data>
+  <data name="Report_Applications" xml:space="preserve">
+    <value>Applicazioni</value>
+  </data>
+  <data name="Report_Col_Application" xml:space="preserve">
+    <value>Applicazione</value>
+  </data>
+  <data name="Report_Col_Impact" xml:space="preserve">
+    <value>Impatto</value>
+  </data>
+  <data name="Report_Col_CpuAvg" xml:space="preserve">
+    <value>CPU (media)</value>
+  </data>
+  <data name="Report_Col_MemoryAvg" xml:space="preserve">
+    <value>Memoria (media)</value>
+  </data>
+  <data name="Report_Col_IoAvg" xml:space="preserve">
+    <value>I/O (media)</value>
+  </data>
+  <data name="Report_Col_Running" xml:space="preserve">
+    <value>In esecuzione</value>
+  </data>
+  <data name="Report_HowScoreComputed" xml:space="preserve">
+    <value>Come viene calcolato il punteggio</value>
+  </data>
+  <data name="Report_Impact_IoLimit" xml:space="preserve">
+    <value>L'I/O del disco per applicazione combina file, dispositivi e rete: Windows non li separa.</value>
+  </data>
+  <data name="Report_Period" xml:space="preserve">
+    <value>Periodo: {0}</value>
+  </data>
+  <data name="Report_Alerts" xml:space="preserve">
+    <value>Avvisi</value>
+  </data>
+  <data name="Report_Alerts_None" xml:space="preserve">
+    <value>Nessun avviso registrato.</value>
+  </data>
+  <data name="Report_Alerts_Summary" xml:space="preserve">
+    <value>{0}, {1} ancora attivi.</value>
+  </data>
+  <data name="Report_Col_Raised" xml:space="preserve">
+    <value>Generato</value>
+  </data>
+  <data name="Report_Col_Alert" xml:space="preserve">
+    <value>Avviso</value>
+  </data>
+  <data name="Report_Col_Severity" xml:space="preserve">
+    <value>Gravità</value>
+  </data>
+  <data name="Report_Col_Status" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="Report_Alerts_Note" xml:space="preserve">
+    <value>Gli avvisi vengono generati solo per problemi che durano o sono insoliti per questo PC, al massimo pochi all'ora.</value>
+  </data>
+  <data name="Report_SinceYesterday" xml:space="preserve">
+    <value>Da ieri</value>
+  </data>
+  <data name="Report_Col_Change" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="Report_Col_Importance" xml:space="preserve">
+    <value>Importanza</value>
+  </data>
+  <data name="Report_Col_When" xml:space="preserve">
+    <value>Quando</value>
+  </data>
+  <data name="Report_Unchanged" xml:space="preserve">
+    <value>Invariato: {0}</value>
+  </data>
+  <data name="Report_NotCompared" xml:space="preserve">
+    <value>Non confrontato: {0}</value>
+  </data>
+  <data name="Report_DetectedChanges" xml:space="preserve">
+    <value>Modifiche rilevate</value>
+  </data>
+  <data name="Report_Col_Origin" xml:space="preserve">
+    <value>Origine</value>
+  </data>
+  <data name="Report_Changes" xml:space="preserve">
+    <value>Modifiche</value>
+  </data>
+  <data name="Report_Changes_None" xml:space="preserve">
+    <value>Nessuna modifica registrata.</value>
+  </data>
+  <data name="Report_Changes_One" xml:space="preserve">
+    <value>{0} modifica rilevata confrontando snapshot del PC.</value>
+  </data>
+  <data name="Report_Changes_Other" xml:space="preserve">
+    <value>{0} modifiche rilevate confrontando snapshot del PC.</value>
+  </data>
+  <data name="Report_Changes_Limit" xml:space="preserve">
+    <value>Driver, servizi, attività pianificate e singoli file non vengono confrontati.</value>
+  </data>
+  <data name="Report_Changes_Note" xml:space="preserve">
+    <value>Una modifica viene datata tra due snapshot, a meno che il suo programma di installazione non abbia registrato una data. Quando la sua origine non è osservabile, viene indicato.</value>
+  </data>
+  <data name="Report_ComparisonTitle" xml:space="preserve">
+    <value>Confronto: {0} → {1}</value>
+  </data>
+  <data name="Report_BeforeAfter" xml:space="preserve">
+    <value>Prima / dopo</value>
+  </data>
+  <data name="Report_Col_Evolution" xml:space="preserve">
+    <value>Variazione</value>
+  </data>
+  <data name="Report_Col_Relative" xml:space="preserve">
+    <value>Relativa</value>
+  </data>
+  <data name="Report_Timeline" xml:space="preserve">
+    <value>Cronologia</value>
+  </data>
+  <data name="Report_Timeline_Summary" xml:space="preserve">
+    <value>{0} tra {1} e {2}.</value>
+  </data>
+  <data name="Count_Entry_One" xml:space="preserve">
+    <value>{0} voce</value>
+  </data>
+  <data name="Count_Entry_Other" xml:space="preserve">
+    <value>{0} voci</value>
+  </data>
+  <data name="Report_Entries" xml:space="preserve">
+    <value>Voci</value>
+  </data>
+  <data name="Report_Col_Time" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Report_Col_Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="Report_Col_Entry" xml:space="preserve">
+    <value>Voce</value>
+  </data>
+  <data name="Report_Col_Detail" xml:space="preserve">
+    <value>Dettaglio</value>
+  </data>
+  <data name="Report_Col_Source" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="Report_Timeline_Note" xml:space="preserve">
+    <value>Gli orari sono quelli osservati da Sysora. Una modifica trovata confrontando snapshot (≈) è avvenuta al più tardi all'ora indicata.</value>
+  </data>
+  <data name="Report_Troubleshooting" xml:space="preserve">
+    <value>Indagine di risoluzione dei problemi</value>
+  </data>
+  <data name="Report_Anomalies" xml:space="preserve">
+    <value>Anomalie</value>
+  </data>
+  <data name="Report_NoneMeasured" xml:space="preserve">
+    <value>Nessuna misurata.</value>
+  </data>
+  <data name="Report_Correlations" xml:space="preserve">
+    <value>Correlazioni e spiegazioni probabili</value>
+  </data>
+  <data name="Report_AppsInvolved" xml:space="preserve">
+    <value>Applicazioni coinvolte</value>
+  </data>
+  <data name="Report_Col_CpuPeak" xml:space="preserve">
+    <value>CPU (picco)</value>
+  </data>
+  <data name="Report_Col_MemoryPeak" xml:space="preserve">
+    <value>Memoria (picco)</value>
+  </data>
+  <data name="Report_Unknown" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="Report_Recommendations" xml:space="preserve">
+    <value>Consigli</value>
+  </data>
+  <data name="Report_Trouble_Ended" xml:space="preserve">
+    <value>Terminata: {0}. Durata prevista {1}.</value>
+  </data>
+  <data name="Report_Trouble_Collected" xml:space="preserve">
+    <value>Raccolto con l'intensità di monitoraggio Dettagliata.</value>
+  </data>
+  <data name="Report_Large_Denied" xml:space="preserve">
+    <value>{0}; il loro contenuto è sconosciuto. Esempi: {1}</value>
+  </data>
+  <data name="Report_Large_Unavailable_One" xml:space="preserve">
+    <value>{0} cartella non disponibile durante la scansione.</value>
+  </data>
+  <data name="Report_Large_Unavailable_Other" xml:space="preserve">
+    <value>{0} cartelle non disponibili durante la scansione.</value>
+  </data>
+  <data name="Report_Large_NotScanned" xml:space="preserve">
+    <value>Non analizzato: {0} ({1})</value>
+  </data>
+  <data name="Report_LargeFiles" xml:space="preserve">
+    <value>File di grandi dimensioni</value>
+  </data>
+  <data name="Report_LargestFiles" xml:space="preserve">
+    <value>File più grandi</value>
+  </data>
+  <data name="Report_Large_ReadOnly" xml:space="preserve">
+    <value>Sysora elenca i file; non li sposta, modifica o elimina mai.</value>
+  </data>
+  <data name="Report_Col_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Report_Col_Size" xml:space="preserve">
+    <value>Dimensione</value>
+  </data>
+  <data name="Report_Col_Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Report_Col_Modified" xml:space="preserve">
+    <value>Modificato</value>
+  </data>
+  <data name="Report_Col_Folder" xml:space="preserve">
+    <value>Cartella</value>
+  </data>
+  <data name="Report_ByType" xml:space="preserve">
+    <value>Per tipo</value>
+  </data>
+  <data name="Report_ByFolder" xml:space="preserve">
+    <value>Per cartella</value>
+  </data>
+  <data name="Report_Large_Scanned" xml:space="preserve">
+    <value>Analizzato: {0}; dimensione minima {1}.</value>
+  </data>
+  <data name="Report_Large_Counts" xml:space="preserve">
+    <value>{0} in {1}; {2} non seguiti; {3} ignorati.</value>
+  </data>
+  <data name="Count_Link_One" xml:space="preserve">
+    <value>{0} collegamento</value>
+  </data>
+  <data name="Count_Link_Other" xml:space="preserve">
+    <value>{0} collegamenti</value>
+  </data>
+  <data name="Count_CloudFile_One" xml:space="preserve">
+    <value>{0} file solo online</value>
+  </data>
+  <data name="Count_CloudFile_Other" xml:space="preserve">
+    <value>{0} file solo online</value>
+  </data>
+  <data name="Report_Col_Group" xml:space="preserve">
+    <value>Gruppo</value>
+  </data>
+  <data name="Report_Col_Files" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Report_Col_TotalSize" xml:space="preserve">
+    <value>Dimensione totale</value>
+  </data>
+  <data name="Report_OsVersion" xml:space="preserve">
+    <value>{0}{1} (build {2}, {3})</value>
+  </data>
+  <data name="Report_Html_Generated" xml:space="preserve">
+    <value>Generato il {0} · Sysora {1}</value>
+  </data>
+  <data name="Report_Html_Period" xml:space="preserve">
+    <value>Periodo analizzato: {0} – {1}</value>
+  </data>
+  <data name="Report_Html_ThisPc" xml:space="preserve">
+    <value>Questo PC</value>
+  </data>
+  <data name="Report_Html_Os" xml:space="preserve">
+    <value>Sistema operativo</value>
+  </data>
+  <data name="Report_Html_Processor" xml:space="preserve">
+    <value>Processore</value>
+  </data>
+  <data name="Report_Html_Memory" xml:space="preserve">
+    <value>Memoria</value>
+  </data>
+  <data name="Report_Html_Graphics" xml:space="preserve">
+    <value>Grafica</value>
+  </data>
+  <data name="Report_Html_NeverEstimates" xml:space="preserve">
+    <value>Sysora non sostituisce mai una misurazione mancante con una stima.</value>
+  </data>
+  <data name="Report_Html_Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Report_Html_Footer" xml:space="preserve">
+    <value>Creato localmente da Sysora: ogni valore proviene da questo PC. Osservato = misurato; Dedotto = ricavato dalle misurazioni (non dimostrato); Sconosciuto = non osservabile.</value>
+  </data>
+  <data name="App_LongDescription" xml:space="preserve">
+    <value>Sysora è una dashboard locale che monitora in tempo reale prestazioni, processi, archiviazione, attività di rete e salute del sistema, e spiega ciò che misura: perché il PC è lento, cosa è cambiato e quali applicazioni pesano di più.</value>
+  </data>
+  <data name="Process_Exited" xml:space="preserve">
+    <value>Il processo è terminato.</value>
+  </data>
+  <data name="Process_CoreWindows" xml:space="preserve">
+    <value>È un processo essenziale di Windows e non può essere terminato.</value>
+  </data>
+  <data name="Process_UseExit" xml:space="preserve">
+    <value>Usa Esci per chiudere Sysora.</value>
+  </data>
+  <data name="Process_AccessDeniedEnd" xml:space="preserve">
+    <value>Accesso negato. Per terminare questo processo servono i privilegi di amministratore.</value>
+  </data>
+  <data name="Process_AlreadyExited" xml:space="preserve">
+    <value>Il processo è già terminato.</value>
+  </data>
+  <data name="Process_Critical" xml:space="preserve">
+    <value>È un processo di sistema critico. Terminarlo arresterebbe Windows.</value>
+  </data>
+  <data name="Process_EndFailed" xml:space="preserve">
+    <value>Windows non è riuscito a terminare il processo (errore {0}).</value>
+  </data>
+  <data name="Process_AccessDeniedView" xml:space="preserve">
+    <value>Accesso negato. Per visualizzare queste informazioni servono i privilegi di amministratore.</value>
+  </data>
+  <data name="Process_WindowsError" xml:space="preserve">
+    <value>Non disponibile (errore di Windows {0}).</value>
+  </data>
+  <data name="LargeFiles_Excl_Svi" xml:space="preserve">
+    <value>Punti di ripristino e dati del volume riservati a Windows (non leggibili).</value>
+  </data>
+  <data name="LargeFiles_Excl_WinSxS" xml:space="preserve">
+    <value>Archivio componenti di Windows: i suoi file sono collegamenti reali condivisi con il resto di Windows, quindi le loro dimensioni verrebbero contate due volte.</value>
+  </data>
+  <data name="History_InMemory" xml:space="preserve">
+    <value>In memoria (modalità demo: nulla viene scritto sul disco)</value>
+  </data>
+  <data name="Game_Detect_Confirmed" xml:space="preserve">
+    <value>Hai confermato questo gioco ({0}).</value>
+  </data>
+  <data name="Game_Detect_Launcher" xml:space="preserve">
+    <value>{0} indica che {1} è installato in questa cartella.</value>
+  </data>
+</root>
