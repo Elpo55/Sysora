@@ -57,6 +57,7 @@ public sealed class MetricsMonitor : IMetricsMonitor, IAsyncDisposable
     private bool _overBudgetLogged;
     private CancellationTokenSource? _runCts;
     private CancellationTokenSource? _sleepCts;
+    private bool _wakePending;
     private TaskCompletionSource _resumed = NewSignal();
     private Task _loop = Task.CompletedTask;
     private int _lastMeasurement;
@@ -696,6 +697,13 @@ public sealed class MetricsMonitor : IMetricsMonitor, IAsyncDisposable
         using var sleep = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         lock (_lock)
         {
+            // Woken while collecting (a refresh, the window coming back): look at the schedule again instead of sleeping.
+            if (_wakePending)
+            {
+                _wakePending = false;
+                return;
+            }
+
             _sleepCts = sleep;
         }
 
@@ -723,11 +731,12 @@ public sealed class MetricsMonitor : IMetricsMonitor, IAsyncDisposable
         lock (_lock)
         {
             sleep = _sleepCts;
-        }
-
-        if (sleep is null)
-        {
-            return;
+            if (sleep is null)
+            {
+                // The loop is not sleeping: it checks this before its next sleep.
+                _wakePending = true;
+                return;
+            }
         }
 
         // Cancel on the thread pool: cancelling inline would run the loop's continuation on the

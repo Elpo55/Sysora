@@ -5,7 +5,14 @@ namespace Sysora.Localization;
 /// <summary>A language Sysora is translated into.</summary>
 /// <param name="Code">Two-letter language code stored in the settings ("en", "fr").</param>
 /// <param name="NativeName">Name of the language in that language ("English", "Français"), so anyone can find their own.</param>
-public sealed record LanguageInfo(string Code, string NativeName);
+public sealed record LanguageInfo(string Code, string NativeName)
+{
+    /// <summary>
+    /// The language tag given to Windows for its own controls (date pickers, context menus): the code, or the script or
+    /// region the translation is written for when the code alone is ambiguous ("zh-Hans", "pt-BR").
+    /// </summary>
+    public string WindowsTag { get; init; } = Code;
+}
 
 /// <summary>
 /// The languages Sysora is translated into, and the language this process uses. The language is chosen once, at
@@ -66,10 +73,37 @@ public static class AppLanguage
         var code = Normalize(preference);
         if (code == System)
         {
-            code = Find(systemUiCulture.TwoLetterISOLanguageName)?.Code ?? Fallback;
+            // The Chinese translation is in simplified characters: Windows in traditional Chinese keeps English.
+            code = IsTraditionalChinese(systemUiCulture) ? Fallback : Find(systemUiCulture.TwoLetterISOLanguageName)?.Code ?? Fallback;
         }
 
         return CultureInfo.GetCultureInfo(code);
+    }
+
+    /// <summary>The language tag to give Windows for <paramref name="culture"/> (see <see cref="LanguageInfo.WindowsTag"/>).</summary>
+    public static string WindowsTag(CultureInfo culture)
+    {
+        ArgumentNullException.ThrowIfNull(culture);
+        return Find(culture.Name)?.WindowsTag ?? culture.Name;
+    }
+
+    private static bool IsTraditionalChinese(CultureInfo culture)
+    {
+        for (var current = culture; !string.IsNullOrEmpty(current.Name); current = current.Parent)
+        {
+            if (current.Name.Equals("zh-Hant", StringComparison.OrdinalIgnoreCase)
+                || current.Name is "zh-TW" or "zh-HK" or "zh-MO")
+            {
+                return true;
+            }
+
+            if (current.Name.Equals("zh-Hans", StringComparison.OrdinalIgnoreCase))
+            {
+                return false;
+            }
+        }
+
+        return false;
     }
 
     /// <summary>

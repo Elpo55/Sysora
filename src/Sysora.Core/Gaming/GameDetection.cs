@@ -301,9 +301,10 @@ public static class GameClassifier
             return null;
         }
 
+        // A drive root ("D:\") is never a game's folder: it would make every program of the drive a game.
         var path = InstalledGameIndex.Normalize(executablePath);
         return settings.ConfirmedGames
-            .Where(g => path.StartsWith(InstalledGameIndex.Normalize(g.Folder), StringComparison.OrdinalIgnoreCase))
+            .Where(g => InstalledGameIndex.Normalize(g.Folder) is { Length: > 3 } folder && path.StartsWith(folder, StringComparison.OrdinalIgnoreCase))
             .MaxBy(g => g.Folder.Length);
     }
 

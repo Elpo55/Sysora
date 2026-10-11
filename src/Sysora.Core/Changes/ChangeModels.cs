@@ -200,7 +200,7 @@ public static class DeviceCategoryText
     };
 
     /// <summary>The same, in lowercase, to go inside a sentence.</summary>
-    public static string Lower(string category) => Label(category).ToLower(System.Globalization.CultureInfo.CurrentCulture);
+    public static string Lower(string category) => Text.InSentence(Label(category));
 }
 
 /// <summary>Sources of installed applications in words ("Machine", "User", "Store" are identifiers stored in snapshots).</summary>

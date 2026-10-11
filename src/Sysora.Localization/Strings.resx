@@ -1089,26 +1089,14 @@
   <data name="Insight_Kind_Unusual" xml:space="preserve">
     <value>unusual activity</value>
   </data>
-  <data name="Insight_Repeated" xml:space="preserve">
-    <value>This is the {0} {1} alert in the last 24 hours (latest: {2}).</value>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} {1} alert in the last 24 hours (latest: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} {1} alerts in the last 24 hours (latest: {2}).</value>
   </data>
   <data name="Insight_WithinUsual" xml:space="preserve">
     <value>CPU and memory usage are within your usual range for this PC.</value>
-  </data>
-  <data name="Ordinal_2" xml:space="preserve">
-    <value>second</value>
-  </data>
-  <data name="Ordinal_3" xml:space="preserve">
-    <value>third</value>
-  </data>
-  <data name="Ordinal_4" xml:space="preserve">
-    <value>fourth</value>
-  </data>
-  <data name="Ordinal_5" xml:space="preserve">
-    <value>fifth</value>
-  </data>
-  <data name="Ordinal_N" xml:space="preserve">
-    <value>{0}th</value>
   </data>
   <data name="Insight_LargestConsumer" xml:space="preserve">
     <value>{0} is currently the largest resource consumer ({1} CPU, {2})</value>

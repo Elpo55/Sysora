@@ -300,7 +300,7 @@ public static class ReportBuilder
             To = report.To,
             Summary = report.Apps.Count == 0
                 ? Strings.Report_Impact_None
-                : Text.Format(Strings.Report_Impact_Highest, report.Apps[0].Usage.Identity.Name, ImpactLevelText.Label(report.Apps[0].Score.Level).ToLower(CultureInfo.CurrentCulture), report.Apps[0].Explanation),
+                : Text.Format(Strings.Report_Impact_Highest, report.Apps[0].Usage.Identity.Name, Text.InSentence(ImpactLevelText.Label(report.Apps[0].Score.Level)), report.Apps[0].Explanation),
             Sections =
             [
                 new ReportSection(Strings.Report_Applications) { Tables = [new ReportTable(string.Empty, ["#", Strings.Report_Col_Application, Strings.Report_Col_Impact, Strings.Report_Col_CpuAvg, Strings.Report_Col_MemoryAvg, Strings.Report_Col_IoAvg, Strings.Report_Col_Running], rows)] },
@@ -580,7 +580,9 @@ public sealed record ReplayExport(DateTimeOffset From, DateTimeOffset To, bool I
     WriteIndented = true,
     PropertyNamingPolicy = JsonKnownNamingPolicy.CamelCase,
     UseStringEnumConverter = true,
-    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull)]
+    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+    // A value that could not be computed (NaN) must not prevent the report from being exported.
+    NumberHandling = JsonNumberHandling.AllowNamedFloatingPointLiterals)]
 [JsonSerializable(typeof(ReportDocument))]
 [JsonSerializable(typeof(PcHealthReport))]
 [JsonSerializable(typeof(DiagnosisReport))]

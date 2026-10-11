@@ -64,7 +64,7 @@ public static partial class Program
         try
         {
             // Built-in control texts (date pickers, context menus) follow the same language.
-            Microsoft.Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = culture.Name;
+            Microsoft.Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = AppLanguage.WindowsTag(culture);
         }
         catch (Exception ex) when (ex is COMException or InvalidOperationException or ArgumentException)
         {

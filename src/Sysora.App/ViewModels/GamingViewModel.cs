@@ -248,7 +248,7 @@ public sealed partial class GamingViewModel : PageViewModel
         }
 
         LiveTitle = Text.Format(UiStrings.Gaming_LiveTitle, live.Name, MetricFormatter.DurationPrecise(live.Duration));
-        LiveDetail = $"{live.DetectionEvidence} ({InsightDisplay.Text(live.Confidence).ToLower(CultureInfo.CurrentCulture)}) · {live.ExecutablePath}";
+        LiveDetail = $"{live.DetectionEvidence} ({Text.InSentence(InsightDisplay.Text(live.Confidence))}) · {live.ExecutablePath}";
         var parts = new List<string>();
         if (live.Cpu is { } cpu)
         {
@@ -486,7 +486,7 @@ public sealed partial class GameRecapViewModel : ObservableObject
         Headline = recap.Headline;
         Summary = recap.Summary;
         Coverage = recap.Coverage;
-        Detection = Text.Format(UiStrings.Gaming_Detection, session.DetectionEvidence, InsightDisplay.Text(session.Confidence).ToLower(CultureInfo.CurrentCulture));
+        Detection = Text.Format(UiStrings.Gaming_Detection, session.DetectionEvidence, Text.InSentence(InsightDisplay.Text(session.Confidence)));
         ExecutablePath = session.ExecutablePath;
         (Glyph, BrushKey) = HealthGlyphs.For(recap.Severity);
 

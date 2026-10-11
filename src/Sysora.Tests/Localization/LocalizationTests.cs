@@ -159,6 +159,79 @@ public sealed partial class LocalizationTests
         Assert.Equal(frenchSingular, Text.IsSingular(count, French));
     }
 
+    [Theory]
+    [InlineData("en", 1, PluralCategory.One)]
+    [InlineData("en", 0, PluralCategory.Other)]
+    [InlineData("de", 0, PluralCategory.Other)]
+    [InlineData("pt", 0, PluralCategory.One)]
+    [InlineData("pt", 2, PluralCategory.Other)]
+    [InlineData("ja", 1, PluralCategory.Other)]
+    [InlineData("zh", 1, PluralCategory.Other)]
+    [InlineData("ru", 1, PluralCategory.One)]
+    [InlineData("ru", 3, PluralCategory.Few)]
+    [InlineData("ru", 5, PluralCategory.Other)]
+    [InlineData("ru", 11, PluralCategory.Other)]
+    [InlineData("ru", 12, PluralCategory.Other)]
+    [InlineData("ru", 21, PluralCategory.One)]
+    [InlineData("ru", 22, PluralCategory.Few)]
+    [InlineData("ru", 111, PluralCategory.Other)]
+    [InlineData("uk", -21, PluralCategory.One)]
+    [InlineData("pl", 1, PluralCategory.One)]
+    [InlineData("pl", 4, PluralCategory.Few)]
+    [InlineData("pl", 12, PluralCategory.Other)]
+    [InlineData("pl", 21, PluralCategory.Other)]
+    [InlineData("pl", 24, PluralCategory.Few)]
+    [InlineData("cs", 2, PluralCategory.Few)]
+    [InlineData("cs", 5, PluralCategory.Other)]
+    [InlineData("cs", 22, PluralCategory.Other)]
+    public void PluralCategoriesFollowTheRulesOfEachLanguage(string language, long count, PluralCategory expected)
+    {
+        Assert.Equal(expected, Text.Category(count, CultureInfo.GetCultureInfo(language)));
+    }
+
+    [Fact]
+    public void LanguagesWithTwoPluralFormsKeepBothInThePluralTemplate()
+    {
+        var russian = CultureInfo.GetCultureInfo("ru");
+        const string One = "{0} файл";
+        const string Other = "{0} файла|{0} файлов";
+        Assert.Equal(One, Text.Template(21, One, Other, russian));
+        Assert.Equal("{0} файла", Text.Template(3, One, Other, russian));
+        Assert.Equal("{0} файлов", Text.Template(15, One, Other, russian));
+        Assert.Equal("{0} files", Text.Template(15, "{0} file", "{0} files", CultureInfo.GetCultureInfo("en")));
+    }
+
+    [Theory]
+    [InlineData("en", "Memory", "memory")]
+    [InlineData("en", "CPU usage", "CPU usage")]
+    [InlineData("en", "GPU (busiest adapter)", "GPU (busiest adapter)")]
+    [InlineData("en", "high", "high")]
+    [InlineData("en", "", "")]
+    [InlineData("fr", "Élevé", "élevé")]
+    [InlineData("de", "Arbeitsspeicher", "Arbeitsspeicher")]
+    [InlineData("tr", "Işlem", "ışlem")]
+    public void TextsArePutInsideASentenceByTheRulesOfTheInterfaceLanguage(string language, string text, string expected)
+    {
+        Assert.Equal(expected, Text.InSentence(text, CultureInfo.GetCultureInfo(language)));
+    }
+
+    [Theory]
+    [InlineData("zh-CN", "en")]
+    [InlineData("zh-TW", "en")]
+    [InlineData("zh-HK", "en")]
+    public void TraditionalChineseWindowsKeepsEnglish(string windows, string expectedWithoutChinese)
+    {
+        var resolved = AppLanguage.Resolve(AppLanguage.System, CultureInfo.GetCultureInfo(windows)).Name;
+        if (windows == "zh-CN" && AppLanguage.Find("zh") is not null)
+        {
+            Assert.Equal("zh", resolved);
+        }
+        else
+        {
+            Assert.Equal(expectedWithoutChinese, resolved);
+        }
+    }
+
     [Fact]
     public void ListsAreJoinedWithTheLastSeparator()
     {

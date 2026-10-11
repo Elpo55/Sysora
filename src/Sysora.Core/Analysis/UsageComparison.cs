@@ -164,7 +164,7 @@ public static class UsageComparer
                     Math.Abs(gap),
                     MetricFormatter.Percent(current),
                     MetricFormatter.Percent(reference.Average),
-                    Label(reference.Period).ToLower(CultureInfo.CurrentCulture));
+                    Text.InSentence(Label(reference.Period)));
             }
         }
 

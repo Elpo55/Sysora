@@ -165,7 +165,7 @@ public static class SinceYesterdayBuilder
                         Strings.Since_Usage_Explanation,
                         row.Explanation.Replace(Strings.Since_SecondPeriodPhrase, Strings.Since_TodayPhrase, StringComparison.Ordinal)),
                     When = Strings.Since_When,
-                    Origin = Text.Format(Strings.Since_Usage_Origin, behavior.Before.Source, behavior.After.Source.ToLower(CultureInfo.CurrentCulture)),
+                    Origin = Text.Format(Strings.Since_Usage_Origin, behavior.Before.Source, Text.InSentence(behavior.After.Source)),
                     Confidence = thin ? ConfidenceLevel.Low : ConfidenceLevel.Medium,
                     Action = DiagnosisAction.Compare,
                 });

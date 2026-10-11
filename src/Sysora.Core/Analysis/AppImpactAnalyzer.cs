@@ -234,7 +234,7 @@ public sealed class AppImpactAnalyzer : IAppImpactAnalyzer
             {
                 Source = usage.Identity.ExecutablePath ?? Strings.Impact_Ev_ImageNameOnly,
             },
-            new(Strings.Impact_Ev_Score, Text.Format(Strings.Impact_Ev_ScoreValue, score.Value, ImpactLevelText.Label(score.Level).ToLowerInvariant()))
+            new(Strings.Impact_Ev_Score, Text.Format(Strings.Impact_Ev_ScoreValue, score.Value, Text.InSentence(ImpactLevelText.Label(score.Level))))
             {
                 Reference = AppImpactScore.Formula,
             },

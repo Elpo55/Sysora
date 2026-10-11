@@ -420,7 +420,7 @@ public sealed partial class DashboardViewModel : PageViewModel
         IsMostlyUnchanged = summary.HasReference && summary.MostlyUnchanged;
         SinceYesterdayDetail = !summary.HasReference
             ? UiStrings.Dashboard_SinceYesterday_NoReference
-            : summary.Items.Count == 0 ? Text.Format(UiStrings.Dashboard_SinceYesterday_Nothing, string.Join(Strings.List_Separator, summary.UnchangedAreas).ToLower(CultureInfo.CurrentCulture))
+            : summary.Items.Count == 0 ? Text.Format(UiStrings.Dashboard_SinceYesterday_Nothing, string.Join(Strings.List_Separator, summary.UnchangedAreas))
             : string.Join(" · ", summary.Items.Take(2).Select(i => i.Title));
     }
 

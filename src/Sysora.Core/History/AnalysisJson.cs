@@ -51,7 +51,9 @@ public static class AnalysisJson
 [JsonSourceGenerationOptions(
     PropertyNamingPolicy = JsonKnownNamingPolicy.CamelCase,
     UseStringEnumConverter = true,
-    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull)]
+    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+    // A value that could not be computed (NaN) must not prevent a whole alert or session from being saved.
+    NumberHandling = JsonNumberHandling.AllowNamedFloatingPointLiterals)]
 [JsonSerializable(typeof(Alert))]
 [JsonSerializable(typeof(SystemBaseline))]
 [JsonSerializable(typeof(DetectedChange))]
