@@ -41,6 +41,8 @@ public static class AppLanguage
         new("pt", "Português (Brasil)") { WindowsTag = "pt-BR" },
         new("nl", "Nederlands"),
         new("pl", "Polski"),
+        new("ru", "Русский"),
+        new("uk", "Українська"),
     ];
 
     /// <summary>The language of this process, as applied by <see cref="Apply"/> (English until then).</summary>

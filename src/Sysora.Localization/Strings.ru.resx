@@ -1,0 +1,3810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>Недоступно</value>
+  </data>
+  <data name="List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="List_LastSeparator" xml:space="preserve">
+    <value> и </value>
+  </data>
+  <data name="Unit_Byte" xml:space="preserve">
+    <value>Б</value>
+  </data>
+  <data name="Unit_Kilobyte" xml:space="preserve">
+    <value>КБ</value>
+  </data>
+  <data name="Unit_Megabyte" xml:space="preserve">
+    <value>МБ</value>
+  </data>
+  <data name="Unit_Gigabyte" xml:space="preserve">
+    <value>ГБ</value>
+  </data>
+  <data name="Unit_Terabyte" xml:space="preserve">
+    <value>ТБ</value>
+  </data>
+  <data name="Format_PerSecond" xml:space="preserve">
+    <value>{0}/с</value>
+  </data>
+  <data name="Format_Bps" xml:space="preserve">
+    <value>{0:0} бит/с</value>
+  </data>
+  <data name="Format_Kbps" xml:space="preserve">
+    <value>{0} Кбит/с</value>
+  </data>
+  <data name="Format_Mbps" xml:space="preserve">
+    <value>{0} Мбит/с</value>
+  </data>
+  <data name="Format_Gbps" xml:space="preserve">
+    <value>{0} Гбит/с</value>
+  </data>
+  <data name="Format_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Duration_DaysHoursMinutes" xml:space="preserve">
+    <value>{0} д {1} ч {2} мин</value>
+  </data>
+  <data name="Duration_HoursMinutes" xml:space="preserve">
+    <value>{0} ч {1} мин</value>
+  </data>
+  <data name="Duration_Minutes" xml:space="preserve">
+    <value>{0} мин</value>
+  </data>
+  <data name="Duration_Seconds" xml:space="preserve">
+    <value>{0} с</value>
+  </data>
+  <data name="Duration_DaysHours" xml:space="preserve">
+    <value>{0} д {1} ч</value>
+  </data>
+  <data name="Duration_HoursPaddedMinutes" xml:space="preserve">
+    <value>{0} ч {1:00} мин</value>
+  </data>
+  <data name="Duration_MinutesPaddedSeconds" xml:space="preserve">
+    <value>{0} мин {1:00} с</value>
+  </data>
+  <data name="Duration_Day_One" xml:space="preserve">
+    <value>{0} день</value>
+  </data>
+  <data name="Duration_Day_Other" xml:space="preserve">
+    <value>{0} дня|{0} дней</value>
+  </data>
+  <data name="Duration_Hour_One" xml:space="preserve">
+    <value>{0} час</value>
+  </data>
+  <data name="Duration_Hour_Other" xml:space="preserve">
+    <value>{0} часа|{0} часов</value>
+  </data>
+  <data name="Duration_Minute_One" xml:space="preserve">
+    <value>{0} минута</value>
+  </data>
+  <data name="Duration_Minute_Other" xml:space="preserve">
+    <value>{0} минуты|{0} минут</value>
+  </data>
+  <data name="Diag_UsualWithMedian" xml:space="preserve">
+    <value>Обычно {0} (медиана {1})</value>
+  </data>
+  <data name="Diag_UsualOf" xml:space="preserve">
+    <value>Обычно: {0}</value>
+  </data>
+  <data name="Diag_UsualDetail" xml:space="preserve">
+    <value>{0} (медиана {1}, 95% минут ниже {2})</value>
+  </data>
+  <data name="Source_HistoryMinutes7Days" xml:space="preserve">
+    <value>Средние за минуту из локальной истории (последние 7 дней)</value>
+  </data>
+  <data name="Diag_NotKnownYet" xml:space="preserve">
+    <value>Пока неизвестно</value>
+  </data>
+  <data name="Diag_AveragePeak" xml:space="preserve">
+    <value>В среднем {0}, пик {1}</value>
+  </data>
+  <data name="Diag_AtOrAboveFor" xml:space="preserve">
+    <value>На уровне {0} и выше в течение {1} (в среднем {2}, пик {3})</value>
+  </data>
+  <data name="Diag_Threshold" xml:space="preserve">
+    <value>Порог {0}</value>
+  </data>
+  <data name="Diag_ReportedWhenAbove" xml:space="preserve">
+    <value>Сообщается, если выше {0} в течение {1}</value>
+  </data>
+  <data name="Diag_Metric_CpuUsage" xml:space="preserve">
+    <value>Загрузка ЦП</value>
+  </data>
+  <data name="Diag_Metric_AppCpu" xml:space="preserve">
+    <value>Загрузка ЦП приложением</value>
+  </data>
+  <data name="Diag_Metric_MemoryUsage" xml:space="preserve">
+    <value>Использование памяти</value>
+  </data>
+  <data name="Diag_Metric_Commit" xml:space="preserve">
+    <value>Выделенная память</value>
+  </data>
+  <data name="Diag_Metric_DiskActive" xml:space="preserve">
+    <value>Активное время диска</value>
+  </data>
+  <data name="Diag_Metric_SystemDiskSpace" xml:space="preserve">
+    <value>Место на системном диске</value>
+  </data>
+  <data name="Diag_Metric_VolumeSpace" xml:space="preserve">
+    <value>Место на томе</value>
+  </data>
+  <data name="Diag_Metric_ActivityVsUsual" xml:space="preserve">
+    <value>Активность по сравнению с обычной</value>
+  </data>
+  <data name="Diag_Metric_GpuUsage" xml:space="preserve">
+    <value>Загрузка GPU</value>
+  </data>
+  <data name="Diag_Metric_Connectivity" xml:space="preserve">
+    <value>Подключение</value>
+  </data>
+  <data name="Diag_Metric_Uptime" xml:space="preserve">
+    <value>Время работы</value>
+  </data>
+  <data name="Diag_CpuLastMinute" xml:space="preserve">
+    <value>Загрузка ЦП (последняя минута)</value>
+  </data>
+  <data name="Diag_CpuLoad_Explanation" xml:space="preserve">
+    <value>Когда процессор так загружен, приложениям приходится ждать процессорного времени, и компьютер может работать медленно.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUnusual" xml:space="preserve">
+    <value>Процессор загружен гораздо сильнее, чем обычно для этого компьютера ({0}). Приложениям приходится ждать процессорного времени, и компьютер может работать медленно.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUsual" xml:space="preserve">
+    <value>Это высокий уровень, но для этого компьютера он обычен (большую часть времени {0}).</value>
+  </data>
+  <data name="Diag_CpuLoad_SaturatedTitle" xml:space="preserve">
+    <value>ЦП перегружен</value>
+  </data>
+  <data name="Diag_CpuLoad_HighTitle" xml:space="preserve">
+    <value>Высокая загрузка ЦП</value>
+  </data>
+  <data name="Diag_CpuLoad_HighDescription" xml:space="preserve">
+    <value>Загрузка ЦП оставалась выше {0} в течение {1} (в среднем {2}).</value>
+  </data>
+  <data name="Diag_CpuLoad_Recommendation" xml:space="preserve">
+    <value>Откройте «Влияние приложений», чтобы увидеть, какие приложения используют процессор, и закройте те, что сейчас не нужны.</value>
+  </data>
+  <data name="Diag_CpuSpike_Title" xml:space="preserve">
+    <value>Кратковременный всплеск ЦП</value>
+  </data>
+  <data name="Diag_CpuSpike_Description" xml:space="preserve">
+    <value>Сейчас загрузка ЦП {0}, но всего {1}.</value>
+  </data>
+  <data name="Diag_CpuSpike_Explanation" xml:space="preserve">
+    <value>Кратковременные всплески нормальны (открытие приложения, фоновая задача). Вероятной причиной замедления они становятся, только если продолжаются.</value>
+  </data>
+  <data name="Diag_CpuNormal_Title" xml:space="preserve">
+    <value>Загрузка ЦП в норме</value>
+  </data>
+  <data name="Diag_CpuNormal_Description" xml:space="preserve">
+    <value>За последнюю минуту загрузка процессора в среднем составила {0} (пик {1}).</value>
+  </data>
+  <data name="Diag_CpuNormal_Explanation" xml:space="preserve">
+    <value>У процессора есть свободный ресурс.</value>
+  </data>
+  <data name="Diag_AppCpu_Now" xml:space="preserve">
+    <value>{0} всего ЦП сейчас ({1})</value>
+  </data>
+  <data name="Count_Process_One" xml:space="preserve">
+    <value>{0} процесс</value>
+  </data>
+  <data name="Count_Process_Other" xml:space="preserve">
+    <value>{0} процесса|{0} процессов</value>
+  </data>
+  <data name="Diag_AppCpu_TotalNow" xml:space="preserve">
+    <value>Общая загрузка ЦП сейчас: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_LongTitle" xml:space="preserve">
+    <value>{0} уже несколько минут сильно загружает ЦП</value>
+  </data>
+  <data name="Diag_AppCpu_LargeShareTitle" xml:space="preserve">
+    <value>{0} использует большую долю ЦП</value>
+  </data>
+  <data name="Diag_AppCpu_Description" xml:space="preserve">
+    <value>{0} в среднем использовало {1} общей мощности ЦП в течение {2}.</value>
+  </data>
+  <data name="Diag_AppCpu_Explanation" xml:space="preserve">
+    <value>Одно приложение, которое так загружает процессор, оставляет меньше ресурсов для всего остального. Оно может выполнять полезную работу (сборку, экспорт, игру) или зависнуть.</value>
+  </data>
+  <data name="Diag_AppCpu_Recommendation" xml:space="preserve">
+    <value>Если {0} сейчас не нужно, закройте его или дождитесь окончания задачи. «Влияние приложений» показывает его историю.</value>
+  </data>
+  <data name="Diag_AppCpu_MainTitle" xml:space="preserve">
+    <value>{0} — главный потребитель ЦП</value>
+  </data>
+  <data name="Diag_AppCpu_MainDescription" xml:space="preserve">
+    <value>Сейчас на {0} приходится {1} нагрузки на процессор ({2} из {3}).</value>
+  </data>
+  <data name="Diag_AppCpu_TotalCpu" xml:space="preserve">
+    <value>Всего ЦП {0}</value>
+  </data>
+  <data name="Diag_AppCpu_MainExplanation" xml:space="preserve">
+    <value>Если процессор останется загруженным, наиболее вероятная причина — это приложение.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneTitle" xml:space="preserve">
+    <value>Ни одно приложение не доминирует на ЦП</value>
+  </data>
+  <data name="Diag_AppCpu_NoneDescription" xml:space="preserve">
+    <value>Крупнейший потребитель ЦП — {0}: {1} общей мощности.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneExplanation" xml:space="preserve">
+    <value>Ни одно приложение по отдельности не загружает процессор.</value>
+  </data>
+  <data name="Diag_AppCpu_EvidenceName" xml:space="preserve">
+    <value>ЦП: {0}</value>
+  </data>
+  <data name="Diag_PerAppThreshold" xml:space="preserve">
+    <value>Порог {0} на приложение</value>
+  </data>
+  <data name="Diag_Memory_State" xml:space="preserve">
+    <value>Используется {0} из {1}, доступно {2}</value>
+  </data>
+  <data name="Diag_Memory_Physical" xml:space="preserve">
+    <value>Физическая память</value>
+  </data>
+  <data name="Diag_Memory_LargestApp" xml:space="preserve">
+    <value>Крупнейшее приложение</value>
+  </data>
+  <data name="Common_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Diag_Memory_FullTitle" xml:space="preserve">
+    <value>Память почти заполнена</value>
+  </data>
+  <data name="Diag_Memory_LowTitle" xml:space="preserve">
+    <value>Мало доступной памяти</value>
+  </data>
+  <data name="Diag_Memory_HighDescription" xml:space="preserve">
+    <value>Использование памяти оставалось выше {0} в течение {1} (доступно {2}).</value>
+  </data>
+  <data name="Diag_Memory_HighExplanation" xml:space="preserve">
+    <value>Когда памяти не хватает, Windows переносит данные на диск (подкачка), а он гораздо медленнее памяти: приложения могут подвисать или медленно реагировать.</value>
+  </data>
+  <data name="Diag_Memory_CloseApps" xml:space="preserve">
+    <value>Закройте приложения, которые вы не используете.</value>
+  </data>
+  <data name="Diag_Memory_CloseAppsLargest" xml:space="preserve">
+    <value>Закройте приложения, которые вы не используете. Крупнейшее — {0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_HighTitle" xml:space="preserve">
+    <value>Высокое использование памяти</value>
+  </data>
+  <data name="Diag_Memory_JustReached" xml:space="preserve">
+    <value>Использование памяти только что достигло {0} (доступно {1}).</value>
+  </data>
+  <data name="Diag_Memory_JustReachedExplanation" xml:space="preserve">
+    <value>Если оно останется таким высоким, Windows начнет переносить данные на диск, что замедлит приложения.</value>
+  </data>
+  <data name="Diag_Memory_EnoughTitle" xml:space="preserve">
+    <value>Достаточно доступной памяти</value>
+  </data>
+  <data name="Diag_Memory_EnoughDescription" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_EnoughExplanation" xml:space="preserve">
+    <value>У приложений есть место для работы без переноса данных на диск.</value>
+  </data>
+  <data name="Diag_Commit_Title" xml:space="preserve">
+    <value>Виртуальная память почти исчерпана</value>
+  </data>
+  <data name="Diag_Commit_Description" xml:space="preserve">
+    <value>Windows выделила {0} предела виртуальной памяти (физическая память + файл подкачки).</value>
+  </data>
+  <data name="Diag_Commit_Explanation" xml:space="preserve">
+    <value>Когда выделенная память достигает предела, приложения могут не получить память и зависнуть или закрыться.</value>
+  </data>
+  <data name="Diag_Commit_Recommendation" xml:space="preserve">
+    <value>Закройте приложения, потребляющие много памяти. Если это происходит часто, позвольте Windows автоматически управлять размером файла подкачки.</value>
+  </data>
+  <data name="Diag_Growth_Trend" xml:space="preserve">
+    <value>Тенденция использования памяти</value>
+  </data>
+  <data name="Diag_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} п. за {1} ({2:0.##} п. в минуту)</value>
+  </data>
+  <data name="Diag_Growth_TrendReference" xml:space="preserve">
+    <value>Устойчивая тенденция (Тейл — Сен), нечувствительная к единичным всплескам</value>
+  </data>
+  <data name="Diag_Growth_AppMemory" xml:space="preserve">
+    <value>Память {0}</value>
+  </data>
+  <data name="Diag_Growth_AppGrowth" xml:space="preserve">
+    <value>+{0} за тот же период</value>
+  </data>
+  <data name="Diag_Growth_Title" xml:space="preserve">
+    <value>Использование памяти постоянно растет</value>
+  </data>
+  <data name="Diag_Growth_Description" xml:space="preserve">
+    <value>Использование памяти выросло на {0:0} п. за {1}.</value>
+  </data>
+  <data name="Diag_Growth_DescriptionApp" xml:space="preserve">
+    <value>{0} выросло на {1} за тот же период.</value>
+  </data>
+  <data name="Diag_Growth_Points" xml:space="preserve">
+    <value>+{0:0} п.</value>
+  </data>
+  <data name="Diag_Growth_Reference" xml:space="preserve">
+    <value>Сообщается от +{0:0} п. за {1}</value>
+  </data>
+  <data name="Diag_Growth_Explanation" xml:space="preserve">
+    <value>Постоянный рост может быть нормальным (приложение загружает данные) или признаком того, что приложение не освобождает память (утечка). Только по этим измерениям Sysora не может определить, что именно.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationReplay" xml:space="preserve">
+    <value>Следите за использованием памяти в «Повторе»; если оно продолжит расти, перезапустите приложение, которое за это отвечает.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationApp" xml:space="preserve">
+    <value>Если {0} продолжит расти, его перезапуск освободит память.</value>
+  </data>
+  <data name="Diag_Uptime_Reference" xml:space="preserve">
+    <value>Включает время сна. При быстром запуске «Завершение работы» его не сбрасывает, а «Перезагрузка» сбрасывает.</value>
+  </data>
+  <data name="Diag_Disk_Unnamed" xml:space="preserve">
+    <value>диск</value>
+  </data>
+  <data name="Diag_Disk_Throughput" xml:space="preserve">
+    <value>чтение {0}, запись {1}</value>
+  </data>
+  <data name="Diag_Disk_ActiveTimeOf" xml:space="preserve">
+    <value>Активное время диска {0}</value>
+  </data>
+  <data name="Diag_Disk_ThroughputAll" xml:space="preserve">
+    <value>Пропускная способность (все тома)</value>
+  </data>
+  <data name="Diag_Disk_MostIo" xml:space="preserve">
+    <value>Больше всего ввода-вывода</value>
+  </data>
+  <data name="Diag_Disk_IoReference" xml:space="preserve">
+    <value>Ввод-вывод процессов включает файлы, устройства и сеть; разделить его по дискам нельзя.</value>
+  </data>
+  <data name="Diag_Disk_Explanation" xml:space="preserve">
+    <value>Когда диск занят почти всё время, приложениям, которым нужно читать или записывать файлы, приходится ждать.</value>
+  </data>
+  <data name="Diag_Disk_ExplanationPaging" xml:space="preserve">
+    <value>Память тоже загружена: часть этой активности может быть подкачкой памяти на диск (это возможно, но не подтверждено).</value>
+  </data>
+  <data name="Diag_Disk_SystemHeavyTitle" xml:space="preserve">
+    <value>Системный диск очень активен</value>
+  </data>
+  <data name="Diag_Disk_HeavyTitle" xml:space="preserve">
+    <value>Диск {0} очень активен</value>
+  </data>
+  <data name="Diag_Disk_HeavyDescription" xml:space="preserve">
+    <value>Диск {0} был занят {1} времени в течение {2} ({3}).</value>
+  </data>
+  <data name="Diag_Disk_Recommendation" xml:space="preserve">
+    <value>Обновления, антивирусные проверки и индексирование файлов часто временно вызывают это. «Влияние приложений» показывает, какие приложения больше всего читают и записывают.</value>
+  </data>
+  <data name="Diag_Disk_RecommendationApp" xml:space="preserve">
+    <value>Сейчас больше всего ввода-вывода у {0}. Обновления, антивирусные проверки и индексирование файлов тоже временно вызывают это.</value>
+  </data>
+  <data name="Diag_Disk_NormalTitle" xml:space="preserve">
+    <value>Активность диска в норме</value>
+  </data>
+  <data name="Diag_Disk_NormalDescription" xml:space="preserve">
+    <value>Самый загруженный диск ({0}) был активен {1} времени за последнюю минуту.</value>
+  </data>
+  <data name="Diag_Disk_NormalExplanation" xml:space="preserve">
+    <value>У дисков есть свободный ресурс.</value>
+  </data>
+  <data name="Diag_Disk_BusiestLastMinute" xml:space="preserve">
+    <value>Активное время самого загруженного диска (последняя минута)</value>
+  </data>
+  <data name="Diag_Space_FreeOfUsed" xml:space="preserve">
+    <value>Свободно {0} из {1} (занято {2})</value>
+  </data>
+  <data name="Diag_Space_Reference" xml:space="preserve">
+    <value>Предупреждение {0}, критично {1} или свободно меньше {2}</value>
+  </data>
+  <data name="Diag_Space_FullTitle" xml:space="preserve">
+    <value>Системный диск почти заполнен</value>
+  </data>
+  <data name="Diag_Space_LowTitle" xml:space="preserve">
+    <value>Мало свободного места на системном диске</value>
+  </data>
+  <data name="Diag_Space_EnoughTitle" xml:space="preserve">
+    <value>Достаточно свободного места на системном диске</value>
+  </data>
+  <data name="Diag_Space_FreeOn" xml:space="preserve">
+    <value>Свободно {0} на {1} (занято {2}).</value>
+  </data>
+  <data name="Diag_Space_EnoughExplanation" xml:space="preserve">
+    <value>У Windows есть место для обновлений, временных файлов и файла подкачки.</value>
+  </data>
+  <data name="Diag_Space_LowExplanation" xml:space="preserve">
+    <value>Windows нужно свободное место для обновлений, временных файлов и файла подкачки. Почти заполненный системный диск может замедлять компьютер и мешать установке обновлений.</value>
+  </data>
+  <data name="Diag_Space_Recommendation" xml:space="preserve">
+    <value>Удалите ненужные файлы или откройте «Параметры Windows › Система › Память › Рекомендации по очистке».</value>
+  </data>
+  <data name="Diag_Space_VolumeFullTitle" xml:space="preserve">
+    <value>Том {0} заполнен на {1}</value>
+  </data>
+  <data name="Diag_Space_VolumeExplanation" xml:space="preserve">
+    <value>Это не системный диск, поэтому Windows он не замедляет, но приложениям, сохраняющим на нем данные, может не хватить места.</value>
+  </data>
+  <data name="Diag_Space_FreeOf" xml:space="preserve">
+    <value>Свободно {0} из {1}</value>
+  </data>
+  <data name="Diag_Volume" xml:space="preserve">
+    <value>Том {0}</value>
+  </data>
+  <data name="Diag_Warning" xml:space="preserve">
+    <value>Предупреждение {0}</value>
+  </data>
+  <data name="Diag_Unusual_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Diag_Unusual_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Diag_Unusual_Disk" xml:space="preserve">
+    <value>Активность диска</value>
+  </data>
+  <data name="Diag_Unusual_OverLast" xml:space="preserve">
+    <value>{0} за последние {1}</value>
+  </data>
+  <data name="Diag_Unusual_Reference" xml:space="preserve">
+    <value>Обычно {0}, 95% минут ниже {1}</value>
+  </data>
+  <data name="Diag_Unusual_NormalTitle" xml:space="preserve">
+    <value>Активность в пределах обычного диапазона</value>
+  </data>
+  <data name="Diag_Unusual_NormalDescription" xml:space="preserve">
+    <value>Последние {0} соответствуют обычной активности этого компьютера.</value>
+  </data>
+  <data name="Diag_Unusual_Usual" xml:space="preserve">
+    <value>Обычно</value>
+  </data>
+  <data name="Diag_Unusual_NormalExplanation" xml:space="preserve">
+    <value>По сравнению со средними за минуту за последние 7 дней.</value>
+  </data>
+  <data name="Diag_Unusual_Part" xml:space="preserve">
+    <value>{0} {1} (обычно {2})</value>
+  </data>
+  <data name="Diag_Unusual_Title" xml:space="preserve">
+    <value>Активность необычна по сравнению с вашим недавним использованием</value>
+  </data>
+  <data name="Diag_Unusual_Description" xml:space="preserve">
+    <value>За последние {0}: {1}.</value>
+  </data>
+  <data name="Diag_Unusual_Usually" xml:space="preserve">
+    <value>обычно {0}</value>
+  </data>
+  <data name="Diag_Unusual_Explanation" xml:space="preserve">
+    <value>Эти значения выше того, что этот компьютер показывает в 95% минут за последние 7 дней: работает что-то необычное.</value>
+  </data>
+  <data name="Diag_Unusual_Recommendation" xml:space="preserve">
+    <value>Используйте «Повтор», чтобы увидеть, когда это началось, и «Влияние приложений», чтобы увидеть, какие приложения причастны.</value>
+  </data>
+  <data name="Diag_Gpu_FullTitle" xml:space="preserve">
+    <value>GPU загружен полностью</value>
+  </data>
+  <data name="Diag_Gpu_FullDescription" xml:space="preserve">
+    <value>Самый загруженный графический движок выше {0} уже {1}.</value>
+  </data>
+  <data name="Diag_Gpu_FullExplanation" xml:space="preserve">
+    <value>Ожидаемо во время игры, рендеринга или воспроизведения видео высокого разрешения. Иначе какое-то приложение сильно нагружает GPU, и изображение может отзываться медленно.</value>
+  </data>
+  <data name="Diag_Gpu_NormalTitle" xml:space="preserve">
+    <value>Загрузка GPU в норме</value>
+  </data>
+  <data name="Diag_Gpu_NormalDescription" xml:space="preserve">
+    <value>За последнюю минуту загрузка GPU в среднем составила {0}.</value>
+  </data>
+  <data name="Diag_Gpu_NormalExplanation" xml:space="preserve">
+    <value>У графического процессора есть свободный ресурс.</value>
+  </data>
+  <data name="Diag_Gpu_LastMinute" xml:space="preserve">
+    <value>Загрузка GPU (последняя минута)</value>
+  </data>
+  <data name="Diag_Net_InternetTitle" xml:space="preserve">
+    <value>Доступ к Интернету есть</value>
+  </data>
+  <data name="Diag_Net_InternetDescription" xml:space="preserve">
+    <value>Windows сообщает о работающем подключении к Интернету.</value>
+  </data>
+  <data name="Diag_Net_LimitedTitle" xml:space="preserve">
+    <value>Ограниченный доступ к Интернету</value>
+  </data>
+  <data name="Diag_Net_LimitedDescription" xml:space="preserve">
+    <value>Windows сообщает об ограниченном доступе к Интернету (например, страница входа).</value>
+  </data>
+  <data name="Diag_Net_LocalTitle" xml:space="preserve">
+    <value>Нет доступа к Интернету</value>
+  </data>
+  <data name="Diag_Net_LocalDescription" xml:space="preserve">
+    <value>Windows сообщает о подключении к локальной сети без доступа к Интернету.</value>
+  </data>
+  <data name="Diag_Net_NoneTitle" xml:space="preserve">
+    <value>Нет сетевого подключения</value>
+  </data>
+  <data name="Diag_Net_NoneDescription" xml:space="preserve">
+    <value>Windows сообщает об отсутствии сетевого подключения.</value>
+  </data>
+  <data name="Diag_Net_OkExplanation" xml:space="preserve">
+    <value>Веб-страницы и онлайн-приложения могут выходить в Интернет.</value>
+  </data>
+  <data name="Diag_Net_ProblemExplanation" xml:space="preserve">
+    <value>Веб-страницы и онлайн-приложения будут работать медленно или не будут работать. Это проблема подключения, а не производительности компьютера.</value>
+  </data>
+  <data name="Diag_Net_Recommendation" xml:space="preserve">
+    <value>Проверьте подключение по Wi-Fi или кабелю либо маршрутизатор.</value>
+  </data>
+  <data name="Connectivity_Internet" xml:space="preserve">
+    <value>Доступ к Интернету</value>
+  </data>
+  <data name="Connectivity_Constrained" xml:space="preserve">
+    <value>Ограниченный доступ к Интернету</value>
+  </data>
+  <data name="Connectivity_Local" xml:space="preserve">
+    <value>Только локальная сеть</value>
+  </data>
+  <data name="Connectivity_None" xml:space="preserve">
+    <value>Нет подключения</value>
+  </data>
+  <data name="Connectivity_Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="Diag_Uptime_Since" xml:space="preserve">
+    <value>Время с момента запуска Windows</value>
+  </data>
+  <data name="Diag_Uptime_LongTitle" xml:space="preserve">
+    <value>Windows не перезагружалась {0} дн.</value>
+  </data>
+  <data name="Diag_Uptime_RecentTitle" xml:space="preserve">
+    <value>Недавняя перезагрузка</value>
+  </data>
+  <data name="Diag_Uptime_Description" xml:space="preserve">
+    <value>Windows запущена {0} назад.</value>
+  </data>
+  <data name="Diag_Uptime_Reference2" xml:space="preserve">
+    <value>Рекомендуется с {0:0} дн.</value>
+  </data>
+  <data name="Diag_Uptime_LongExplanation" xml:space="preserve">
+    <value>Некоторые проблемы накапливаются со временем (драйверы, приложения, постепенно занимающие всё больше памяти). Перезагрузка устраняет их и применяет ожидающие обновления. Это общий совет, а не измеренная причина.</value>
+  </data>
+  <data name="Diag_Uptime_RecentExplanation" xml:space="preserve">
+    <value>Нет долгого сеанса, о котором стоило бы беспокоиться.</value>
+  </data>
+  <data name="Diag_Uptime_Recommendation" xml:space="preserve">
+    <value>Перезагрузите Windows, когда будет удобно (используйте «Перезагрузку», а не «Завершение работы»).</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_One" xml:space="preserve">
+    <value>Проблем не обнаружено · {0} пункт для наблюдения</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_Other" xml:space="preserve">
+    <value>Проблем не обнаружено · {0} пункта для наблюдения|Проблем не обнаружено · {0} пунктов для наблюдения</value>
+  </data>
+  <data name="Diag_Headline_NoProblem" xml:space="preserve">
+    <value>Проблем не обнаружено</value>
+  </data>
+  <data name="Diag_Headline_Problems_One" xml:space="preserve">
+    <value>Обнаружена {0} проблема</value>
+  </data>
+  <data name="Diag_Headline_Problems_Other" xml:space="preserve">
+    <value>Обнаружено {0} проблемы|Обнаружено {0} проблем</value>
+  </data>
+  <data name="Diag_Summary_MostLikely" xml:space="preserve">
+    <value>Наиболее вероятная причина: {0}</value>
+  </data>
+  <data name="Diag_Summary_Also" xml:space="preserve">
+    <value>Также: {0}.</value>
+  </data>
+  <data name="Diag_Summary_WorthKnowing" xml:space="preserve">
+    <value>Сейчас ничего не перегружено. Полезно знать: {0}</value>
+  </data>
+  <data name="Diag_Summary_Nothing" xml:space="preserve">
+    <value>Сейчас ничего не перегружено: у процессора, памяти и дисков есть свободный ресурс. Если компьютер только что работал медленно, «Повтор» покажет, что происходило в последние минуты.</value>
+  </data>
+  <data name="Diag_Missing_Gpu" xml:space="preserve">
+    <value>Загрузка GPU: недоступна на этом компьютере</value>
+  </data>
+  <data name="Diag_Missing_GpuOff" xml:space="preserve">
+    <value>Загрузка GPU: мониторинг отключен в параметрах</value>
+  </data>
+  <data name="Diag_Missing_Disk" xml:space="preserve">
+    <value>Активность диска: недоступна на этом компьютере</value>
+  </data>
+  <data name="Diag_Missing_Network" xml:space="preserve">
+    <value>Сеть: недоступна на этом компьютере</value>
+  </data>
+  <data name="Diag_Missing_NetworkOff" xml:space="preserve">
+    <value>Сеть: мониторинг отключен в параметрах</value>
+  </data>
+  <data name="Diag_Missing_Temperature" xml:space="preserve">
+    <value>Температура ЦП: недоступна (в Windows нет документированного способа узнать ее без драйвера ядра)</value>
+  </data>
+  <data name="Diag_Missing_AppNetwork" xml:space="preserve">
+    <value>Использование сети приложениями: недоступно (требуется трассировка событий с правами администратора)</value>
+  </data>
+  <data name="Diag_Analyzing" xml:space="preserve">
+    <value>Анализ…</value>
+  </data>
+  <data name="Diag_AnalyzingSummary" xml:space="preserve">
+    <value>Sysora нужно несколько секунд измерений, прежде чем диагностировать компьютер.</value>
+  </data>
+  <data name="Alert_UsualLevel" xml:space="preserve">
+    <value>Обычный уровень {0}</value>
+  </data>
+  <data name="Alert_AveragePeak" xml:space="preserve">
+    <value>{0} в среднем (пик {1})</value>
+  </data>
+  <data name="Alert_OnAverage" xml:space="preserve">
+    <value>{0} в среднем</value>
+  </data>
+  <data name="Alert_TopApp" xml:space="preserve">
+    <value>Главное приложение: {0} ({1})</value>
+  </data>
+  <data name="Alert_Cpu_UnusualTitle" xml:space="preserve">
+    <value>Необычно высокая загрузка ЦП</value>
+  </data>
+  <data name="Alert_Cpu_UsualTitle" xml:space="preserve">
+    <value>Высокая загрузка ЦП (обычная для этого компьютера)</value>
+  </data>
+  <data name="Alert_Cpu_SustainedTitle" xml:space="preserve">
+    <value>Продолжительная высокая загрузка ЦП</value>
+  </data>
+  <data name="Alert_UsualNotKnown" xml:space="preserve">
+    <value>Обычный уровень пока неизвестен</value>
+  </data>
+  <data name="Alert_Cpu_UnusualExplanation" xml:space="preserve">
+    <value>ЦП оставался выше {0} в течение {1}, намного выше обычного для этого компьютера уровня {2}.</value>
+  </data>
+  <data name="Alert_Cpu_UsualExplanation" xml:space="preserve">
+    <value>ЦП оставался выше {0} в течение {1}. Этот уровень обычен для этого компьютера, поэтому он указан для сведения.</value>
+  </data>
+  <data name="Alert_Cpu_SustainedExplanation" xml:space="preserve">
+    <value>ЦП оставался выше {0} в течение {1}. Кратковременные всплески игнорируются, а этот продолжался.</value>
+  </data>
+  <data name="Alert_Cpu_Recommendation" xml:space="preserve">
+    <value>Откройте «Влияние приложений», чтобы увидеть, какие приложения используют процессор.</value>
+  </data>
+  <data name="Alert_Memory_Title" xml:space="preserve">
+    <value>Память почти заполнена</value>
+  </data>
+  <data name="Alert_LargestApp" xml:space="preserve">
+    <value>Крупнейшее приложение: {0} ({1})</value>
+  </data>
+  <data name="Alert_Memory_Explanation" xml:space="preserve">
+    <value>Использование памяти оставалось выше {0} в течение {1}. В таком случае Windows переносит данные на диск, что замедляет приложения.</value>
+  </data>
+  <data name="Alert_Growth_Title" xml:space="preserve">
+    <value>Использование памяти постоянно растет</value>
+  </data>
+  <data name="Alert_Growth_Value" xml:space="preserve">
+    <value>+{0:0} п. ({1} → {2})</value>
+  </data>
+  <data name="Alert_Growth_NoApp" xml:space="preserve">
+    <value>Ни одно приложение не выделяется</value>
+  </data>
+  <data name="Alert_Growth_AppGrew" xml:space="preserve">
+    <value>{0} выросло на {1}</value>
+  </data>
+  <data name="Alert_Growth_Explanation" xml:space="preserve">
+    <value>Использование памяти растет уже {0}. Это может быть нормально (загружаются данные) или приложение не освобождает память.</value>
+  </data>
+  <data name="Alert_Growth_Recommendation" xml:space="preserve">
+    <value>Если {0} продолжит расти, перезапуск освободит память.</value>
+  </data>
+  <data name="Alert_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} п. за {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Title" xml:space="preserve">
+    <value>{0} сильно загружает ЦП уже {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Value" xml:space="preserve">
+    <value>{0} всего ЦП в среднем (пик {1})</value>
+  </data>
+  <data name="Alert_AppCpu_TotalNow" xml:space="preserve">
+    <value>Всего ЦП сейчас {0}</value>
+  </data>
+  <data name="Alert_AppCpu_Explanation" xml:space="preserve">
+    <value>{0} использовало более {1} общей мощности ЦП в течение {2}. Возможно, оно работает нормально (сборка, экспорт) или зависло.</value>
+  </data>
+  <data name="Alert_AppCpu_Recommendation" xml:space="preserve">
+    <value>Если {0} сейчас не нужно, закройте его или дождитесь окончания задачи.</value>
+  </data>
+  <data name="Alert_Disk_Title" xml:space="preserve">
+    <value>Диск {0} занят уже {1}</value>
+  </data>
+  <data name="Alert_Disk_TitleUnnamed" xml:space="preserve">
+    <value>Диск занят уже {0}</value>
+  </data>
+  <data name="Alert_Disk_ReadWrite" xml:space="preserve">
+    <value>Чтение {0}, запись {1}</value>
+  </data>
+  <data name="Alert_Disk_MostIo" xml:space="preserve">
+    <value>Больше всего ввода-вывода: {0}</value>
+  </data>
+  <data name="Alert_Disk_Explanation" xml:space="preserve">
+    <value>Диск был активен более {0} времени в течение {1}: приложениям, которые читают или записывают файлы, приходится ждать.</value>
+  </data>
+  <data name="Alert_Disk_Recommendation" xml:space="preserve">
+    <value>Обновления, антивирусные проверки и индексирование часто временно вызывают это.</value>
+  </data>
+  <data name="Alert_Unusual_Disk" xml:space="preserve">
+    <value>Активность диска</value>
+  </data>
+  <data name="Alert_Unusual_Title" xml:space="preserve">
+    <value>{0}: необычно высокий уровень</value>
+  </data>
+  <data name="Alert_Unusual_Context" xml:space="preserve">
+    <value>Обычный уровень {0} (медиана {1})</value>
+  </data>
+  <data name="Alert_Unusual_Explanation" xml:space="preserve">
+    <value>{0} остается выше вашего недавнего базового уровня уже {1}.</value>
+  </data>
+  <data name="Alert_Unusual_Recommendation" xml:space="preserve">
+    <value>Используйте «Повтор», чтобы увидеть, когда это началось.</value>
+  </data>
+  <data name="Alert_Baseline" xml:space="preserve">
+    <value>Базовый уровень</value>
+  </data>
+  <data name="Alert_Space_Title" xml:space="preserve">
+    <value>Мало свободного места на {0}</value>
+  </data>
+  <data name="Alert_Space_Metric" xml:space="preserve">
+    <value>Свободное место</value>
+  </data>
+  <data name="Alert_Space_Value" xml:space="preserve">
+    <value>Свободно {0} ({1})</value>
+  </data>
+  <data name="Alert_Space_Context" xml:space="preserve">
+    <value>Том {0}</value>
+  </data>
+  <data name="Alert_Space_Explanation" xml:space="preserve">
+    <value>Windows нужно свободное место на системном диске для обновлений, временных файлов и файла подкачки.</value>
+  </data>
+  <data name="Alert_Space_Recommendation" xml:space="preserve">
+    <value>Удалите ненужные файлы или откройте «Параметры Windows › Система › Память».</value>
+  </data>
+  <data name="Alert_Space_Reference" xml:space="preserve">
+    <value>Оповещение, если свободно меньше {0}</value>
+  </data>
+  <data name="Alert_ResolvedEvent" xml:space="preserve">
+    <value>Устранено: {0}</value>
+  </data>
+  <data name="Source_Cpu" xml:space="preserve">
+    <value>Счетчик производительности Windows \Processor Information(_Total)\% Processor Utility</value>
+  </data>
+  <data name="Source_Disk" xml:space="preserve">
+    <value>Счетчик производительности Windows \LogicalDisk(*)\% Idle Time (активное время = 100 − простой)</value>
+  </data>
+  <data name="Source_Gpu" xml:space="preserve">
+    <value>Счетчик производительности Windows \GPU Engine(*)\Utilization Percentage</value>
+  </data>
+  <data name="Format_PercentRange" xml:space="preserve">
+    <value>{0:0}–{1:0}%</value>
+  </data>
+  <data name="Source_Memory" xml:space="preserve">
+    <value>GlobalMemoryStatusEx (используемая физическая память)</value>
+  </data>
+  <data name="Source_Commit" xml:space="preserve">
+    <value>GetPerformanceInfo (выделенная память и предел)</value>
+  </data>
+  <data name="Source_Network" xml:space="preserve">
+    <value>Статистика интерфейсов IP Helper (интерфейсы со шлюзом по умолчанию)</value>
+  </data>
+  <data name="Source_Processes" xml:space="preserve">
+    <value>NtQuerySystemInformation (время ЦП, частный рабочий набор и счетчики ввода-вывода каждого процесса)</value>
+  </data>
+  <data name="Source_ProcessIo" xml:space="preserve">
+    <value>Счетчики ввода-вывода процессов (файлы, устройства и сеть вместе)</value>
+  </data>
+  <data name="Source_Storage" xml:space="preserve">
+    <value>GetDiskFreeSpaceEx (емкость тома)</value>
+  </data>
+  <data name="Source_Uptime" xml:space="preserve">
+    <value>GetTickCount64 (время с момента запуска Windows, включая сон)</value>
+  </data>
+  <data name="Source_Connectivity" xml:space="preserve">
+    <value>Индикатор состояния сетевого подключения Windows</value>
+  </data>
+  <data name="Source_Sysora" xml:space="preserve">
+    <value>Измерения Sysora</value>
+  </data>
+  <data name="Confidence_High_Lower" xml:space="preserve">
+    <value>высокая</value>
+  </data>
+  <data name="Confidence_Medium_Lower" xml:space="preserve">
+    <value>средняя</value>
+  </data>
+  <data name="Confidence_Low_Lower" xml:space="preserve">
+    <value>низкая</value>
+  </data>
+  <data name="Confidence_High" xml:space="preserve">
+    <value>Высокая достоверность</value>
+  </data>
+  <data name="Confidence_Medium" xml:space="preserve">
+    <value>Средняя достоверность</value>
+  </data>
+  <data name="Confidence_Low" xml:space="preserve">
+    <value>Низкая достоверность</value>
+  </data>
+  <data name="Basis_Observed" xml:space="preserve">
+    <value>Наблюдается</value>
+  </data>
+  <data name="Basis_InferredConfidence" xml:space="preserve">
+    <value>Предполагается · достоверность {0}</value>
+  </data>
+  <data name="Basis_Inferred" xml:space="preserve">
+    <value>Предполагается</value>
+  </data>
+  <data name="Basis_Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="Identity_ByPath" xml:space="preserve">
+    <value>Определено по пути к исполняемому файлу.</value>
+  </data>
+  <data name="Identity_ByName" xml:space="preserve">
+    <value>Определено только по имени процесса: Windows не дает доступа к пути к исполняемому файлу.</value>
+  </data>
+  <data name="Impact_Resource_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Impact_Resource_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Impact_Resource_Io" xml:space="preserve">
+    <value>Ввод-вывод диска</value>
+  </data>
+  <data name="Impact_Resource_Running" xml:space="preserve">
+    <value>Время работы</value>
+  </data>
+  <data name="Impact_Level_VeryHigh" xml:space="preserve">
+    <value>Очень высокое</value>
+  </data>
+  <data name="Impact_Level_High" xml:space="preserve">
+    <value>Высокое</value>
+  </data>
+  <data name="Impact_Level_Moderate" xml:space="preserve">
+    <value>Умеренное</value>
+  </data>
+  <data name="Impact_Level_Low" xml:space="preserve">
+    <value>Низкое</value>
+  </data>
+  <data name="Impact_Formula" xml:space="preserve">
+    <value>Оценка = 45% ЦП + 40% память + 15% ввод-вывод диска. Каждая часть — это средняя нагрузка приложения за анализируемый период (использование во время работы × доля времени работы) относительно эталонного уровня: 15% всего ЦП, 25% физической памяти, 5 МБ/с ввода-вывода. Уровни: низкое — меньше 10, умеренное — меньше 25, высокое — меньше 50, очень высокое — от 50.</value>
+  </data>
+  <data name="Impact_Note_Waiting" xml:space="preserve">
+    <value>Ожидание первых измерений процессов.</value>
+  </data>
+  <data name="Impact_Note_Session" xml:space="preserve">
+    <value>Все приложения, замеченные с момента запуска Sysora, измеряются каждые несколько секунд.</value>
+  </data>
+  <data name="Impact_Note_NoHistory" xml:space="preserve">
+    <value>История приложений за этот период еще не записана. История сохраняется каждые пять минут, пока работает Sysora.</value>
+  </data>
+  <data name="Impact_Note_History" xml:space="preserve">
+    <value>Из локальной истории: самые значимые приложения за каждые пять минут (менее значимые не записываются). Последние минуты появятся, когда закончится их пятиминутный интервал.</value>
+  </data>
+  <data name="Replay_Source_Memory" xml:space="preserve">
+    <value>Подробные измерения хранятся в памяти (по одному на каждое измерение ЦП).</value>
+  </data>
+  <data name="Replay_Source_History" xml:space="preserve">
+    <value>Средние за минуту из локальной истории.</value>
+  </data>
+  <data name="Baseline_Ready" xml:space="preserve">
+    <value>Обычное поведение изучено по {0} истории</value>
+  </data>
+  <data name="Baseline_Collecting" xml:space="preserve">
+    <value>Сбор базовых данных… (записано {0} из {1}, необходимых, прежде чем Sysora станет сравнивать с вашей обычной активностью)</value>
+  </data>
+  <data name="Impact_Ev_CpuReference" xml:space="preserve">
+    <value>Эталон для «очень высокого»: в среднем {0} всего ЦП за период</value>
+  </data>
+  <data name="Impact_Ev_MemoryReference" xml:space="preserve">
+    <value>Эталон для «очень высокого»: в среднем {0} из {1} за период</value>
+  </data>
+  <data name="Impact_Ev_IoReference" xml:space="preserve">
+    <value>Эталон для «очень высокого»: в среднем {0} за период</value>
+  </data>
+  <data name="Impact_Cpu_Description" xml:space="preserve">
+    <value>В среднем {0} общей мощности ЦП за период ({1} во время работы)</value>
+  </data>
+  <data name="Impact_Memory_Description" xml:space="preserve">
+    <value>В среднем {0} физической памяти за период ({1} во время работы)</value>
+  </data>
+  <data name="Impact_Memory_Unknown" xml:space="preserve">
+    <value>Объем физической памяти неизвестен: память не оценивается</value>
+  </data>
+  <data name="Impact_Io_Description" xml:space="preserve">
+    <value>В среднем {0} за период (файлы, устройства и сеть вместе)</value>
+  </data>
+  <data name="Impact_Running_Description" xml:space="preserve">
+    <value>Работало {0} отслеживаемого времени</value>
+  </data>
+  <data name="Impact_When_Most" xml:space="preserve">
+    <value>большую часть отслеживаемого времени</value>
+  </data>
+  <data name="Impact_When_Large" xml:space="preserve">
+    <value>значительную часть отслеживаемого времени</value>
+  </data>
+  <data name="Impact_When_Part" xml:space="preserve">
+    <value>часть отслеживаемого времени</value>
+  </data>
+  <data name="Impact_When_Briefly" xml:space="preserve">
+    <value>недолго</value>
+  </data>
+  <data name="Impact_RunningOfMeasured" xml:space="preserve">
+    <value>{0} работы из {1} измеренных</value>
+  </data>
+  <data name="Impact_Explain_Low" xml:space="preserve">
+    <value>Низкое использование ресурсов за период ({0}).</value>
+  </data>
+  <data name="Impact_Explain_Peaks" xml:space="preserve">
+    <value>Наблюдались кратковременные пики ЦП до {0}.</value>
+  </data>
+  <data name="Impact_Explain_Used" xml:space="preserve">
+    <value>Это приложение использовало {0} {1} ({2}).</value>
+  </data>
+  <data name="Impact_Amount_VeryHigh" xml:space="preserve">
+    <value>очень много {0}</value>
+  </data>
+  <data name="Impact_Amount_High" xml:space="preserve">
+    <value>много {0}</value>
+  </data>
+  <data name="Impact_Amount_Moderate" xml:space="preserve">
+    <value>умеренно много {0}</value>
+  </data>
+  <data name="Impact_Noun_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Impact_Noun_Memory" xml:space="preserve">
+    <value>памяти</value>
+  </data>
+  <data name="Impact_Noun_Io" xml:space="preserve">
+    <value>ввода-вывода диска</value>
+  </data>
+  <data name="Impact_Ev_RunningTime" xml:space="preserve">
+    <value>Время работы</value>
+  </data>
+  <data name="Impact_Ev_RunningValue" xml:space="preserve">
+    <value>{0} из {1} измеренных</value>
+  </data>
+  <data name="Impact_Ev_RunningSource" xml:space="preserve">
+    <value>Измерения процессов Sysora (перерывы, например сон, исключены)</value>
+  </data>
+  <data name="Impact_Ev_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Impact_Ev_CpuValue" xml:space="preserve">
+    <value>В среднем {0} всего ЦП во время работы, пик {1}</value>
+  </data>
+  <data name="Impact_Ev_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Impact_Ev_MemoryValue" xml:space="preserve">
+    <value>В среднем {0} частного рабочего набора во время работы, пик {1}</value>
+  </data>
+  <data name="Impact_Ev_Io" xml:space="preserve">
+    <value>Ввод-вывод диска</value>
+  </data>
+  <data name="Impact_Ev_IoValue" xml:space="preserve">
+    <value>В среднем {0} во время работы, пик {1}</value>
+  </data>
+  <data name="Impact_Ev_Network" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="Impact_Ev_NetworkReference" xml:space="preserve">
+    <value>Windows не сообщает об использовании сети приложениями без трассировки событий; сетевой ввод-вывод входит в ввод-вывод диска.</value>
+  </data>
+  <data name="Impact_Ev_Launches" xml:space="preserve">
+    <value>Запуски</value>
+  </data>
+  <data name="Impact_Ev_Launches_One" xml:space="preserve">
+    <value>Замечен {0} запуск процесса</value>
+  </data>
+  <data name="Impact_Ev_Launches_Other" xml:space="preserve">
+    <value>Замечено {0} запуска процесса|Замечено {0} запусков процесса</value>
+  </data>
+  <data name="Impact_Ev_NoLaunch" xml:space="preserve">
+    <value>Запусков процесса не замечено (уже работал или не перезапускался)</value>
+  </data>
+  <data name="Impact_Ev_Identification" xml:space="preserve">
+    <value>Определение</value>
+  </data>
+  <data name="Impact_Ev_ImageNameOnly" xml:space="preserve">
+    <value>Только имя образа</value>
+  </data>
+  <data name="Impact_Ev_Score" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="Impact_Ev_ScoreValue" xml:space="preserve">
+    <value>{0}/100 ({1})</value>
+  </data>
+  <data name="Insight_Game_JustStarted" xml:space="preserve">
+    <value>только что запущена</value>
+  </data>
+  <data name="Insight_Game_For" xml:space="preserve">
+    <value>уже {0}</value>
+  </data>
+  <data name="Insight_Game_Running" xml:space="preserve">
+    <value>Игра запущена: {0} ({1}). Сводка появится после ее закрытия.</value>
+  </data>
+  <data name="Insight_LastGame" xml:space="preserve">
+    <value>Последняя игра: {0} ({1}) · {2}</value>
+  </data>
+  <data name="Insight_ActiveAlertMore" xml:space="preserve">
+    <value>Активное оповещение: {0} (+{1})</value>
+  </data>
+  <data name="Insight_ActiveAlert" xml:space="preserve">
+    <value>Активное оповещение: {0}</value>
+  </data>
+  <data name="Insight_Recurring" xml:space="preserve">
+    <value>Повторяется: {0}</value>
+  </data>
+  <data name="Insight_Health" xml:space="preserve">
+    <value>Состояние ПК — {0}/100, его снижает в основном {1}: {2}</value>
+  </data>
+  <data name="Insight_AnalyzingFirst" xml:space="preserve">
+    <value>Анализ первых измерений…</value>
+  </data>
+  <data name="Insight_NoIssue" xml:space="preserve">
+    <value>Существенных проблем не обнаружено</value>
+  </data>
+  <data name="Insight_MemoryAbove" xml:space="preserve">
+    <value>Использование памяти на {0:0} п. выше обычного ({1} против обычных {2})</value>
+  </data>
+  <data name="Insight_MemoryBelow" xml:space="preserve">
+    <value>Использование памяти на {0:0} п. ниже обычного ({1} против обычных {2})</value>
+  </data>
+  <data name="Insight_CpuAbove" xml:space="preserve">
+    <value>Загрузка ЦП на {0:0} п. выше обычного ({1} против обычных {2})</value>
+  </data>
+  <data name="Insight_CpuBelow" xml:space="preserve">
+    <value>Загрузка ЦП на {0:0} п. ниже обычного ({1} против обычных {2})</value>
+  </data>
+  <data name="Insight_Recovered" xml:space="preserve">
+    <value>После последней проблемы ({0}) компьютер восстановился: она закончилась в {1} и не повторилась.</value>
+  </data>
+  <data name="Insight_Kind_HighCpu" xml:space="preserve">
+    <value>высокая загрузка ЦП</value>
+  </data>
+  <data name="Insight_Kind_HighMemory" xml:space="preserve">
+    <value>высокое использование памяти</value>
+  </data>
+  <data name="Insight_Kind_RisingMemory" xml:space="preserve">
+    <value>рост использования памяти</value>
+  </data>
+  <data name="Insight_Kind_BusyDisk" xml:space="preserve">
+    <value>занятый диск</value>
+  </data>
+  <data name="Insight_Kind_LowSpace" xml:space="preserve">
+    <value>мало места на диске</value>
+  </data>
+  <data name="Insight_Kind_Unusual" xml:space="preserve">
+    <value>необычная активность</value>
+  </data>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} оповещение «{1}» за последние 24 часа (последнее: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} оповещения «{1}» за последние 24 часа (последнее: {2}).|{0} оповещений «{1}» за последние 24 часа (последнее: {2}).</value>
+  </data>
+  <data name="Insight_WithinUsual" xml:space="preserve">
+    <value>Загрузка ЦП и использование памяти в пределах обычного диапазона для этого компьютера.</value>
+  </data>
+  <data name="Insight_LargestConsumer" xml:space="preserve">
+    <value>{0} сейчас больше всех потребляет ресурсы ({1} ЦП, {2})</value>
+  </data>
+  <data name="Recurring_NotAnalyzed" xml:space="preserve">
+    <value>Еще не проанализировано.</value>
+  </data>
+  <data name="Recurring_NoHistoryYet" xml:space="preserve">
+    <value>истории пока нет</value>
+  </data>
+  <data name="Recurring_OfHistory" xml:space="preserve">
+    <value>{0} истории</value>
+  </data>
+  <data name="Recurring_NotEnough" xml:space="preserve">
+    <value>Недостаточно исторических данных ({0}; для повторяющихся проблем нужно не менее {1}).</value>
+  </data>
+  <data name="Recurring_None" xml:space="preserve">
+    <value>Повторяющихся проблем за последние {0} дн. нет.</value>
+  </data>
+  <data name="Recurring_One" xml:space="preserve">
+    <value>1 повторяющаяся проблема: {0}</value>
+  </data>
+  <data name="Recurring_Many" xml:space="preserve">
+    <value>Повторяющихся проблем: {0}. Чаще всего: {1}</value>
+  </data>
+  <data name="Recurring_HighCpu" xml:space="preserve">
+    <value>Высокая загрузка ЦП</value>
+  </data>
+  <data name="Recurring_HighMemory" xml:space="preserve">
+    <value>Высокое использование памяти</value>
+  </data>
+  <data name="Recurring_MemoryRising" xml:space="preserve">
+    <value>Рост использования памяти</value>
+  </data>
+  <data name="Recurring_DiskBusy" xml:space="preserve">
+    <value>Диск занят</value>
+  </data>
+  <data name="Recurring_AppCpu" xml:space="preserve">
+    <value>{0} сильно загружает ЦП</value>
+  </data>
+  <data name="Recurring_Connectivity" xml:space="preserve">
+    <value>Доступ к Интернету потерян или ограничен</value>
+  </data>
+  <data name="Recurring_Occurrences" xml:space="preserve">
+    <value>Случаи</value>
+  </data>
+  <data name="Recurring_OccurrencesText" xml:space="preserve">
+    <value>{0} {1}, с {2} до {3}</value>
+  </data>
+  <data name="Count_Episode_One" xml:space="preserve">
+    <value>{0} эпизод</value>
+  </data>
+  <data name="Count_Episode_Other" xml:space="preserve">
+    <value>{0} эпизода|{0} эпизодов</value>
+  </data>
+  <data name="Recurring_When" xml:space="preserve">
+    <value>Когда</value>
+  </data>
+  <data name="Recurring_MostAssociated" xml:space="preserve">
+    <value>Чаще всего связанное приложение</value>
+  </data>
+  <data name="Recurring_MostAssociatedText" xml:space="preserve">
+    <value>{0} ({1} из {2} эпизодов)</value>
+  </data>
+  <data name="Recurring_Cause" xml:space="preserve">
+    <value>Причина</value>
+  </data>
+  <data name="Recurring_CauseConnectivity" xml:space="preserve">
+    <value>Windows сообщает о потере доступа; причину (маршрутизатор, провайдер, сигнал Wi-Fi) Sysora наблюдать не может.</value>
+  </data>
+  <data name="Recurring_Description" xml:space="preserve">
+    <value>{0}: случаев за последние {2} дн. — {1}.</value>
+  </data>
+  <data name="Recurring_Pattern" xml:space="preserve">
+    <value>Большинство событий произошло между {0:00}:00 и {1:00}:00 ({2} из {3})</value>
+  </data>
+  <data name="Times_Once" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Times_Twice" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Times_N" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Replay_Rose_Cpu" xml:space="preserve">
+    <value>ЦП вырос с {0} до {1}</value>
+  </data>
+  <data name="Replay_Rose_Memory" xml:space="preserve">
+    <value>Память выросла с {0} до {1}</value>
+  </data>
+  <data name="Replay_Rose_Disk" xml:space="preserve">
+    <value>Активность диска выросла с {0} до {1}</value>
+  </data>
+  <data name="Replay_Rose_Gpu" xml:space="preserve">
+    <value>GPU вырос с {0} до {1}</value>
+  </data>
+  <data name="Replay_Reached_Cpu" xml:space="preserve">
+    <value>ЦП достиг {0}</value>
+  </data>
+  <data name="Replay_Reached_Memory" xml:space="preserve">
+    <value>Память достигла {0}</value>
+  </data>
+  <data name="Replay_Reached_Disk" xml:space="preserve">
+    <value>Активность диска достигла {0}</value>
+  </data>
+  <data name="Replay_Reached_Gpu" xml:space="preserve">
+    <value>GPU достиг {0}</value>
+  </data>
+  <data name="Replay_Back_Cpu" xml:space="preserve">
+    <value>ЦП вернулся к {0}</value>
+  </data>
+  <data name="Replay_Back_Memory" xml:space="preserve">
+    <value>Память вернулась к {0}</value>
+  </data>
+  <data name="Replay_Back_Disk" xml:space="preserve">
+    <value>Активность диска вернулась к {0}</value>
+  </data>
+  <data name="Replay_Back_Gpu" xml:space="preserve">
+    <value>GPU вернулся к {0}</value>
+  </data>
+  <data name="Replay_NoMeasurements" xml:space="preserve">
+    <value>Нет измерений за этот период.</value>
+  </data>
+  <data name="Replay_MostIo" xml:space="preserve">
+    <value>больше всего ввода-вывода: {0} {1}</value>
+  </data>
+  <data name="Replay_CpuAveraged" xml:space="preserve">
+    <value>ЦП в среднем {0} (пик {1})</value>
+  </data>
+  <data name="Replay_MemoryLevel" xml:space="preserve">
+    <value>память {0}</value>
+  </data>
+  <data name="Replay_NoNotableChange" xml:space="preserve">
+    <value>Заметных изменений за этот период нет.</value>
+  </data>
+  <data name="Replay_NoSharpRise" xml:space="preserve">
+    <value>Резкого роста или перегрузки за этот период не было: {0}.</value>
+  </data>
+  <data name="Replay_SharpRise" xml:space="preserve">
+    <value>Резкий рост: {0}{1} в {2}</value>
+  </data>
+  <data name="Replay_FollowedBy" xml:space="preserve">
+    <value>, затем {0}</value>
+  </data>
+  <data name="Replay_NounAt" xml:space="preserve">
+    <value>{0} в {1}</value>
+  </data>
+  <data name="Replay_Noun_Cpu" xml:space="preserve">
+    <value>загрузка ЦП</value>
+  </data>
+  <data name="Replay_Noun_Memory" xml:space="preserve">
+    <value>использование памяти</value>
+  </data>
+  <data name="Replay_Noun_Disk" xml:space="preserve">
+    <value>активность диска</value>
+  </data>
+  <data name="Replay_Noun_Gpu" xml:space="preserve">
+    <value>загрузка GPU</value>
+  </data>
+  <data name="Replay_Noun_Other" xml:space="preserve">
+    <value>активность</value>
+  </data>
+  <data name="Usual_Loading" xml:space="preserve">
+    <value>Загрузка истории…</value>
+  </data>
+  <data name="Usual_Metric_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Usual_Metric_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Usual_Metric_Disk" xml:space="preserve">
+    <value>Активное время диска</value>
+  </data>
+  <data name="Usual_Metric_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Usual_Period_LastHour" xml:space="preserve">
+    <value>Последний час</value>
+  </data>
+  <data name="Usual_Period_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Usual_Period_Yesterday" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="Usual_Period_7Days" xml:space="preserve">
+    <value>Последние 7 дней</value>
+  </data>
+  <data name="Usual_Period_30Days" xml:space="preserve">
+    <value>Последние 30 дней</value>
+  </data>
+  <data name="Usual_Period_AtThisHour" xml:space="preserve">
+    <value>Обычно в это время</value>
+  </data>
+  <data name="Usual_Summary_Above" xml:space="preserve">
+    <value>{0}: на {1:0} п. выше обычного: сейчас {2} против {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Below" xml:space="preserve">
+    <value>{0}: на {1:0} п. ниже обычного: сейчас {2} против {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Close" xml:space="preserve">
+    <value>Текущая активность близка к обычному уровню (в пределах 10 п.).</value>
+  </data>
+  <data name="Usual_Summary_NotEnough" xml:space="preserve">
+    <value>Пока недостаточно истории, чтобы определить обычный уровень: для сравнения за 7 дней нужно 4 часа за 2 дня, за 30 дней — 24 часа за 8 дней.</value>
+  </data>
+  <data name="Usual_NeededOverDays" xml:space="preserve">
+    <value>{0} за {1} дн.</value>
+  </data>
+  <data name="Usual_NotEnoughOverDays" xml:space="preserve">
+    <value>Недостаточно данных: записано {0} за {1}, нужно {2}</value>
+  </data>
+  <data name="Usual_NotEnough" xml:space="preserve">
+    <value>Недостаточно данных: записано {0}, нужно {1}</value>
+  </data>
+  <data name="Usual_Hours" xml:space="preserve">
+    <value>{0:0.#} ч</value>
+  </data>
+  <data name="State_Metric_MemoryUsed" xml:space="preserve">
+    <value>Используемая память</value>
+  </data>
+  <data name="State_Metric_Download" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
+  <data name="State_Metric_Upload" xml:space="preserve">
+    <value>Отправка</value>
+  </data>
+  <data name="State_Metric_Processes" xml:space="preserve">
+    <value>Процессы</value>
+  </data>
+  <data name="State_Metric_SystemFree" xml:space="preserve">
+    <value>Свободное место (том Windows)</value>
+  </data>
+  <data name="State_Metric_MemoryPercent" xml:space="preserve">
+    <value>Используемая память (%)</value>
+  </data>
+  <data name="State_During" xml:space="preserve">
+    <value>Во время: {0}</value>
+  </data>
+  <data name="State_SessionSource" xml:space="preserve">
+    <value>Средние, записанные во время игрового сеанса</value>
+  </data>
+  <data name="State_NotEnough" xml:space="preserve">
+    <value>Недостаточно данных для сравнения: {0}.</value>
+  </data>
+  <data name="State_NoMeasurementFor" xml:space="preserve">
+    <value>нет измерений для «{0}»</value>
+  </data>
+  <data name="State_NoDifference" xml:space="preserve">
+    <value>Заметной разницы между двумя периодами нет.</value>
+  </data>
+  <data name="State_Notable_One" xml:space="preserve">
+    <value>{0} заметное различие: {1}.</value>
+  </data>
+  <data name="State_Notable_Other" xml:space="preserve">
+    <value>{0} заметных различия: {1}.|{0} заметных различий: {1}.</value>
+  </data>
+  <data name="State_NotCompared" xml:space="preserve">
+    <value>Не сравнивается (измерено только в одном периоде): {0}.</value>
+  </data>
+  <data name="State_OnlyOne" xml:space="preserve">
+    <value>Измерено только в одном из двух периодов: не сравнивается.</value>
+  </data>
+  <data name="State_NoChange" xml:space="preserve">
+    <value>Без изменений</value>
+  </data>
+  <data name="State_Explain_Same" xml:space="preserve">
+    <value>Примерно одинаково в обоих периодах.</value>
+  </data>
+  <data name="State_Explain_CpuUp" xml:space="preserve">
+    <value>Во втором периоде процессор был загружен сильнее.</value>
+  </data>
+  <data name="State_Explain_CpuDown" xml:space="preserve">
+    <value>Во втором периоде процессор был загружен меньше.</value>
+  </data>
+  <data name="State_Explain_MemoryUp" xml:space="preserve">
+    <value>Во втором периоде использовалось больше памяти.</value>
+  </data>
+  <data name="State_Explain_MemoryDown" xml:space="preserve">
+    <value>Во втором периоде использовалось меньше памяти.</value>
+  </data>
+  <data name="State_Explain_DiskUp" xml:space="preserve">
+    <value>Во втором периоде диски были заняты сильнее.</value>
+  </data>
+  <data name="State_Explain_DiskDown" xml:space="preserve">
+    <value>Во втором периоде диски были заняты меньше.</value>
+  </data>
+  <data name="State_Explain_GpuUp" xml:space="preserve">
+    <value>Во втором периоде графический процессор был загружен сильнее.</value>
+  </data>
+  <data name="State_Explain_GpuDown" xml:space="preserve">
+    <value>Во втором периоде графический процессор был загружен меньше.</value>
+  </data>
+  <data name="State_Explain_SpaceUsed" xml:space="preserve">
+    <value>Между двумя периодами на томе Windows было занято место.</value>
+  </data>
+  <data name="State_Explain_SpaceFreed" xml:space="preserve">
+    <value>Между двумя периодами на томе Windows было освобождено место.</value>
+  </data>
+  <data name="State_Explain_ProcessesUp" xml:space="preserve">
+    <value>Во втором периоде работало больше процессов.</value>
+  </data>
+  <data name="State_Explain_ProcessesDown" xml:space="preserve">
+    <value>Во втором периоде работало меньше процессов.</value>
+  </data>
+  <data name="State_Explain_NetworkUp" xml:space="preserve">
+    <value>Больше сетевого трафика во втором периоде.</value>
+  </data>
+  <data name="State_Explain_NetworkDown" xml:space="preserve">
+    <value>Меньше сетевого трафика во втором периоде.</value>
+  </data>
+  <data name="State_Points_One" xml:space="preserve">
+    <value>{0} процентный пункт</value>
+  </data>
+  <data name="State_Points_Other" xml:space="preserve">
+    <value>{0} процентных пункта|{0} процентных пунктов</value>
+  </data>
+  <data name="Count_Measurement_One" xml:space="preserve">
+    <value>{0} измерение</value>
+  </data>
+  <data name="Count_Measurement_Other" xml:space="preserve">
+    <value>{0} измерения|{0} измерений</value>
+  </data>
+  <data name="State_NoMeasurement" xml:space="preserve">
+    <value>нет измерений</value>
+  </data>
+  <data name="State_Label_HourAgo" xml:space="preserve">
+    <value>1 час назад</value>
+  </data>
+  <data name="State_Label_Now" xml:space="preserve">
+    <value>Сейчас</value>
+  </data>
+  <data name="State_Label_YesterdaySameTime" xml:space="preserve">
+    <value>Вчера в это время</value>
+  </data>
+  <data name="State_Label_Before" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="State_Label_After" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="State_Source_Seconds" xml:space="preserve">
+    <value>Посекундные измерения в памяти</value>
+  </data>
+  <data name="State_Source_Minutes" xml:space="preserve">
+    <value>Средние за минуту из локальной истории</value>
+  </data>
+  <data name="State_Source_Hours" xml:space="preserve">
+    <value>Почасовые сводки из локальной истории</value>
+  </data>
+  <data name="State_NoSession" xml:space="preserve">
+    <value>Нет игрового сеанса</value>
+  </data>
+  <data name="State_NoSessionRecorded" xml:space="preserve">
+    <value>Игровые сеансы не записаны</value>
+  </data>
+  <data name="State_NoSessionYet" xml:space="preserve">
+    <value>Игровые сеансы еще не записаны: поиграйте несколько минут, а затем сравните.</value>
+  </data>
+  <data name="State_BeforeGame" xml:space="preserve">
+    <value>До {0}</value>
+  </data>
+  <data name="State_AfterGame" xml:space="preserve">
+    <value>После {0}</value>
+  </data>
+  <data name="State_PreviousSession" xml:space="preserve">
+    <value>Предыдущий сеанс</value>
+  </data>
+  <data name="State_NoEarlierSession" xml:space="preserve">
+    <value>Нет более раннего игрового сеанса для сравнения.</value>
+  </data>
+  <data name="WhyNow_Metric_Disk" xml:space="preserve">
+    <value>Активность диска</value>
+  </data>
+  <data name="WhyNow_Metric_Network" xml:space="preserve">
+    <value>Сетевой трафик</value>
+  </data>
+  <data name="WhyNow_NotEnough_Headline" xml:space="preserve">
+    <value>{0}: пока недостаточно измерений</value>
+  </data>
+  <data name="WhyNow_NotEnough_Missing" xml:space="preserve">
+    <value>{0} отсутствует в измерениях, поэтому объяснить это нельзя.</value>
+  </data>
+  <data name="WhyNow_NotEnough_Summary" xml:space="preserve">
+    <value>Sysora нужно около двух минут измерений, чтобы определить, когда началось изменение.</value>
+  </data>
+  <data name="WhyNow_Range" xml:space="preserve">
+    <value>{0} – {1}</value>
+  </data>
+  <data name="WhyNow_Quiet_Headline" xml:space="preserve">
+    <value>{0}: сейчас уровень не повышен</value>
+  </data>
+  <data name="WhyNow_Quiet_Summary" xml:space="preserve">
+    <value>{0}: в пределах {1} за последние {2}; сейчас {3}. Недавнего роста, который нужно объяснять, нет.</value>
+  </data>
+  <data name="WhyNow_Quiet_Contributor" xml:space="preserve">
+    <value>Нечего связывать: значительного роста нет.</value>
+  </data>
+  <data name="WhyNow_Label_Level" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="WhyNow_Quiet_Level" xml:space="preserve">
+    <value>{0}: в пределах {1} за анализируемый период.</value>
+  </data>
+  <data name="WhyNow_Label_UsualRange" xml:space="preserve">
+    <value>Обычный диапазон</value>
+  </data>
+  <data name="WhyNow_Label_Change" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="WhyNow_Change" xml:space="preserve">
+    <value>{0}: рост с {1} до {2}.</value>
+  </data>
+  <data name="WhyNow_AlreadyHigh" xml:space="preserve">
+    <value>{0}: {1}, уровень был высоким уже в начале анализируемых данных ({2}).</value>
+  </data>
+  <data name="WhyNow_Label_Started" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="WhyNow_Started" xml:space="preserve">
+    <value>Около {0} (с точностью до {1:0} с).</value>
+  </data>
+  <data name="WhyNow_StartedBefore" xml:space="preserve">
+    <value>До {0}: более ранние данные недоступны.</value>
+  </data>
+  <data name="WhyNow_Label_Duration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="WhyNow_AtLeast" xml:space="preserve">
+    <value>Не менее {0}</value>
+  </data>
+  <data name="WhyNow_Label_Associated" xml:space="preserve">
+    <value>Связано с</value>
+  </data>
+  <data name="WhyNow_Associated" xml:space="preserve">
+    <value>{0} в {1} (одновременно; это не доказательство причины)</value>
+  </data>
+  <data name="WhyNow_Label_SameTime" xml:space="preserve">
+    <value>Одновременно</value>
+  </data>
+  <data name="WhyNow_Label_Similar" xml:space="preserve">
+    <value>Похожие события</value>
+  </data>
+  <data name="WhyNow_Label_WhyMore" xml:space="preserve">
+    <value>Почему приложению нужно больше</value>
+  </data>
+  <data name="WhyNow_NotObservable" xml:space="preserve">
+    <value>То, что приложение делает внутри, извне наблюдать нельзя.</value>
+  </data>
+  <data name="WhyNow_Headline_Increased" xml:space="preserve">
+    <value>{0}: значительный рост</value>
+  </data>
+  <data name="WhyNow_Headline_High" xml:space="preserve">
+    <value>{0}: высокий уровень еще до {1}</value>
+  </data>
+  <data name="WhyNow_Summary_WentFrom" xml:space="preserve">
+    <value>{0}: с {1} до {2}</value>
+  </data>
+  <data name="WhyNow_Summary_Is" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="WhyNow_Summary_Starting" xml:space="preserve">
+    <value>, начиная примерно с {0} ({1} назад). </value>
+  </data>
+  <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
+    <value>{0} до, {1} сейчас</value>
+  </data>
+  <data name="WhyNow_Ev_Now" xml:space="preserve">
+    <value>{0} сейчас</value>
+  </data>
+  <data name="WhyNow_Ev_Reference" xml:space="preserve">
+    <value>Усреднено по {0:0}-секундным интервалам; изменение отсчитывается от {1}</value>
+  </data>
+  <data name="WhyNow_Position_Above95" xml:space="preserve">
+    <value>выше 95% ваших записанных минут</value>
+  </data>
+  <data name="WhyNow_Position_Above" xml:space="preserve">
+    <value>выше вашего обычного диапазона</value>
+  </data>
+  <data name="WhyNow_Position_Below" xml:space="preserve">
+    <value>ниже вашего обычного диапазона</value>
+  </data>
+  <data name="WhyNow_Position_Within" xml:space="preserve">
+    <value>в пределах вашего обычного диапазона</value>
+  </data>
+  <data name="WhyNow_Usual" xml:space="preserve">
+    <value>Обычно {0} (медиана {1}); сейчас {2}: {3}.</value>
+  </data>
+  <data name="WhyNow_Network_NotAvailable" xml:space="preserve">
+    <value>Недоступно: Windows не сообщает об использовании сети приложениями без трассировки событий с правами администратора.</value>
+  </data>
+  <data name="WhyNow_Network_Summary" xml:space="preserve">
+    <value>Определить ответственное приложение нельзя: Windows не сообщает об использовании сети приложениями без трассировки событий с правами администратора.</value>
+  </data>
+  <data name="WhyNow_Label_Contributor" xml:space="preserve">
+    <value>Вклад</value>
+  </data>
+  <data name="WhyNow_Gpu_Unknown" xml:space="preserve">
+    <value>Причина неизвестна: загрузка GPU по приложениям не хранится в истории. Могут помочь одновременные события.</value>
+  </data>
+  <data name="WhyNow_NoAppData" xml:space="preserve">
+    <value>Причина неизвестна: нет данных по приложениям за этот период (приложения хранятся только в недавней истории в памяти).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeLargest" xml:space="preserve">
+    <value>Причина неизвестна: рост начался до анализируемых данных. Крупнейший потребитель сейчас: {0} ({1}).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeData" xml:space="preserve">
+    <value>Причина неизвестна: рост начался до анализируемых данных.</value>
+  </data>
+  <data name="WhyNow_NoDataBefore" xml:space="preserve">
+    <value>Причина неизвестна: нет данных по приложениям до начала роста.</value>
+  </data>
+  <data name="WhyNow_NoIncrease" xml:space="preserve">
+    <value>Причина неизвестна: ни одно из измеренных приложений не увеличило использование.</value>
+  </data>
+  <data name="WhyNow_NoSingleApp" xml:space="preserve">
+    <value>Причина неизвестна: ни одно приложение по отдельности не объясняет рост (наибольшее изменение: {0} {1}).</value>
+  </data>
+  <data name="WhyNow_Share" xml:space="preserve">
+    <value>, примерно {0} роста</value>
+  </data>
+  <data name="WhyNow_IoNote" xml:space="preserve">
+    <value> ввода-вывода (файлы, устройства и сеть вместе)</value>
+  </data>
+  <data name="WhyNow_NewApp" xml:space="preserve">
+    <value> — раньше не было среди самых активных приложений</value>
+  </data>
+  <data name="WhyNow_Label_Likely" xml:space="preserve">
+    <value>Вероятная причина</value>
+  </data>
+  <data name="WhyNow_Label_Possible" xml:space="preserve">
+    <value>Возможная причина</value>
+  </data>
+  <data name="WhyNow_ContributorText" xml:space="preserve">
+    <value>{0}: {1} ({2}{3}{4}){5}</value>
+  </data>
+  <data name="WhyNow_Summary_Likely" xml:space="preserve">
+    <value>Данные указывают, что главная причина — {0} ({1}{2}).</value>
+  </data>
+  <data name="WhyNow_Summary_Possible" xml:space="preserve">
+    <value>{0}, возможно, способствовало этому ({1}{2}), но доказательства слабые.</value>
+  </data>
+  <data name="WhyNow_AlsoRose" xml:space="preserve">
+    <value>{0} тоже вырос: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Similar_NotTracked" xml:space="preserve">
+    <value>Похожие события: не отслеживаются (ни одно правило оповещений не следит за этой метрикой).</value>
+  </data>
+  <data name="WhyNow_Similar_NoHistory" xml:space="preserve">
+    <value>Похожие события: недоступны (нет истории оповещений).</value>
+  </data>
+  <data name="WhyNow_Similar_None" xml:space="preserve">
+    <value>Похожие события: нет за последние {0} дн.</value>
+  </data>
+  <data name="WhyNow_Similar_Count" xml:space="preserve">
+    <value>Похожие события: {0} за последние {1} дн.</value>
+  </data>
+  <data name="Count_Alert_One" xml:space="preserve">
+    <value>{0} оповещение</value>
+  </data>
+  <data name="Count_Alert_Other" xml:space="preserve">
+    <value>{0} оповещения|{0} оповещений</value>
+  </data>
+  <data name="WhyNow_Source_Mixed" xml:space="preserve">
+    <value>Посекундные измерения в памяти, перед ними — средние за минуту из локальной истории</value>
+  </data>
+  <data name="Changes_UnknownOrigin" xml:space="preserve">
+    <value>Обнаружено изменение, источник неизвестен.</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated" xml:space="preserve">
+    <value>{0}: установлено или обновлено</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated_Explanation" xml:space="preserve">
+    <value>Windows записывает эту дату при установке приложения; многие установщики перезаписывают ее и при обновлении.</value>
+  </data>
+  <data name="Changes_MatchedByName" xml:space="preserve">
+    <value>Сопоставлено по имени и издателю в списке установленных приложений Windows.</value>
+  </data>
+  <data name="Changes_VersionRead" xml:space="preserve">
+    <value>Версия прочитана из списка установленных приложений Windows.</value>
+  </data>
+  <data name="Changes_Removed" xml:space="preserve">
+    <value>{0}: удалено</value>
+  </data>
+  <data name="Changes_Removed_Explanation" xml:space="preserve">
+    <value>Приложения больше нет в списке установленных приложений Windows.</value>
+  </data>
+  <data name="Changes_Removed_Origin" xml:space="preserve">
+    <value>Есть в снимке от {0}, нет в снимке от {1}.</value>
+  </data>
+  <data name="Changes_Ev_InstalledApps" xml:space="preserve">
+    <value>Установленные приложения</value>
+  </data>
+  <data name="Changes_Installed_OriginDate" xml:space="preserve">
+    <value>Дата установки ({0}) записана установщиком в список установленных приложений Windows.</value>
+  </data>
+  <data name="Changes_Installed_OriginSnapshot" xml:space="preserve">
+    <value>Есть в списке установленных приложений Windows, нет в снимке от {0}.</value>
+  </data>
+  <data name="Changes_Installed" xml:space="preserve">
+    <value>{0}: установлено</value>
+  </data>
+  <data name="Changes_Installed_ExplanationPublisher" xml:space="preserve">
+    <value>Новое приложение от {0}. Новые программы могут добавлять фоновые процессы и элементы автозагрузки.</value>
+  </data>
+  <data name="Changes_Installed_Explanation" xml:space="preserve">
+    <value>Новое приложение. Новые программы могут добавлять фоновые процессы и элементы автозагрузки.</value>
+  </data>
+  <data name="Changes_Updated" xml:space="preserve">
+    <value>{0}: обновлено</value>
+  </data>
+  <data name="Changes_Updated_Explanation" xml:space="preserve">
+    <value>Новая версия может вести себя иначе (производительность, фоновая активность).</value>
+  </data>
+  <data name="Changes_Startup_Origin" xml:space="preserve">
+    <value>Сравнены элементы автозагрузки от {0} и {1}.</value>
+  </data>
+  <data name="Changes_Startup_New" xml:space="preserve">
+    <value>Новая программа в автозагрузке: {0}</value>
+  </data>
+  <data name="Changes_Startup_New_Explanation" xml:space="preserve">
+    <value>Теперь она запускается автоматически при входе в систему, что может удлинить запуск и расходовать ресурсы в фоне.</value>
+  </data>
+  <data name="Changes_Startup_Enabled" xml:space="preserve">
+    <value>Программа автозагрузки включена: {0}</value>
+  </data>
+  <data name="Changes_Startup_Disabled" xml:space="preserve">
+    <value>Программа автозагрузки отключена: {0}</value>
+  </data>
+  <data name="Changes_Startup_Enabled_Explanation" xml:space="preserve">
+    <value>Она снова будет запускаться автоматически при входе в систему.</value>
+  </data>
+  <data name="Changes_Startup_Removed_Explanation" xml:space="preserve">
+    <value>Она больше не запускается автоматически при входе в систему.</value>
+  </data>
+  <data name="Changes_Startup_Removed" xml:space="preserve">
+    <value>Программа удалена из автозагрузки: {0}</value>
+  </data>
+  <data name="Changes_Enabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="Changes_Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="Changes_Ev_StartupEntry" xml:space="preserve">
+    <value>Элемент автозагрузки</value>
+  </data>
+  <data name="Changes_Windows_Title" xml:space="preserve">
+    <value>Windows обновлена</value>
+  </data>
+  <data name="Changes_Windows_Explanation" xml:space="preserve">
+    <value>Обновления Windows могут менять драйверы и фоновые службы; в первые часы после обновления часто видна дополнительная активность диска и ЦП.</value>
+  </data>
+  <data name="Changes_Windows_Source" xml:space="preserve">
+    <value>Номер сборки прочитан из реестра (CurrentVersion).</value>
+  </data>
+  <data name="Changes_Bios_Title" xml:space="preserve">
+    <value>Обновлена микропрограмма (BIOS)</value>
+  </data>
+  <data name="Changes_Bios_Explanation" xml:space="preserve">
+    <value>Обновление микропрограммы может изменить управление питанием и поведение оборудования.</value>
+  </data>
+  <data name="Changes_Bios_Source" xml:space="preserve">
+    <value>Версия BIOS прочитана из реестра (данные SMBIOS, скопированные Windows).</value>
+  </data>
+  <data name="Changes_Memory_Subject" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Changes_Memory_Title" xml:space="preserve">
+    <value>Изменился объем установленной памяти</value>
+  </data>
+  <data name="Changes_Memory_Explanation" xml:space="preserve">
+    <value>Объем физической памяти изменился (модуль добавлен, извлечен или не обнаружен).</value>
+  </data>
+  <data name="Changes_Memory_Source" xml:space="preserve">
+    <value>Установленная память по данным микропрограммы.</value>
+  </data>
+  <data name="Changes_System_Origin" xml:space="preserve">
+    <value>Сравнены снимки от {0} и {1}.</value>
+  </data>
+  <data name="Changes_Devices_Origin" xml:space="preserve">
+    <value>Сравнены устройства от {0} и {1}.</value>
+  </data>
+  <data name="Changes_Device_New" xml:space="preserve">
+    <value>Новое устройство ({1}): {2}</value>
+  </data>
+  <data name="Changes_Device_Gone" xml:space="preserve">
+    <value>Устройство ({1}) больше не обнаружено: {2}</value>
+  </data>
+  <data name="Changes_Device_New_Explanation" xml:space="preserve">
+    <value>Со времени предыдущего снимка появилось устройство (новое оборудование, смена драйвера или виртуальный адаптер).</value>
+  </data>
+  <data name="Changes_Device_Gone_Explanation" xml:space="preserve">
+    <value>Устройство из предыдущего снимка не найдено (извлечено, отключено или сменился драйвер).</value>
+  </data>
+  <data name="Changes_Space_UsedOf" xml:space="preserve">
+    <value>{0} → {1} занято из {2}</value>
+  </data>
+  <data name="Changes_Ev_InstalledSamePeriod" xml:space="preserve">
+    <value>Установлено в тот же период</value>
+  </data>
+  <data name="Changes_Ev_PossibleFiles" xml:space="preserve">
+    <value>Возможные причины, не подтверждено: Sysora не измеряет размер отдельных файлов.</value>
+  </data>
+  <data name="Changes_Space_More" xml:space="preserve">
+    <value>На {1} занято еще {0}</value>
+  </data>
+  <data name="Changes_Space_Freed" xml:space="preserve">
+    <value>На {1} освобождено {0}</value>
+  </data>
+  <data name="Changes_Space_Used" xml:space="preserve">
+    <value>Занято {0}</value>
+  </data>
+  <data name="Changes_Space_Grew_Explanation" xml:space="preserve">
+    <value>Занятое место на этом томе заметно выросло между двумя снимками.</value>
+  </data>
+  <data name="Changes_Space_Freed_Explanation" xml:space="preserve">
+    <value>Между двумя снимками на этом томе было освобождено место.</value>
+  </data>
+  <data name="Changes_Space_Origin" xml:space="preserve">
+    <value>Sysora измеряет свободное место, а не отдельные файлы.</value>
+  </data>
+  <data name="Changes_Usage_AverageMemory" xml:space="preserve">
+    <value>Среднее использование памяти</value>
+  </data>
+  <data name="Changes_Usage_AverageCpu" xml:space="preserve">
+    <value>Средняя загрузка ЦП</value>
+  </data>
+  <data name="Changes_Usage_Reference" xml:space="preserve">
+    <value>Среднее за 24 часа до каждого снимка ({0} и {1} мин измерений)</value>
+  </data>
+  <data name="Changes_Ev_Possible" xml:space="preserve">
+    <value>Возможные причины, не подтверждено.</value>
+  </data>
+  <data name="Changes_Usage_Title" xml:space="preserve">
+    <value>{0} {1:+0;-0;0} п.</value>
+  </data>
+  <data name="Changes_Usage_MoreMemory" xml:space="preserve">
+    <value>В среднем компьютер использовал заметно больше памяти, чем в контрольный день.</value>
+  </data>
+  <data name="Changes_Usage_MoreCpu" xml:space="preserve">
+    <value>В среднем компьютер заметно сильнее загружал ЦП, чем в контрольный день.</value>
+  </data>
+  <data name="Changes_Usage_LessMemory" xml:space="preserve">
+    <value>В среднем компьютер использовал заметно меньше памяти, чем в контрольный день.</value>
+  </data>
+  <data name="Changes_Usage_LessCpu" xml:space="preserve">
+    <value>В среднем компьютер заметно меньше загружал ЦП, чем в контрольный день.</value>
+  </data>
+  <data name="Changes_Ev_SourceOf" xml:space="preserve">
+    <value>Установленные приложения Windows ({0})</value>
+  </data>
+  <data name="Changes_Ev_Source" xml:space="preserve">
+    <value>Установленные приложения Windows</value>
+  </data>
+  <data name="Changes_Ev_InstallDate" xml:space="preserve">
+    <value>Дата установки, записанная установщиком: {0}</value>
+  </data>
+  <data name="Device_Graphics" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="Device_Network" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="Device_Volume" xml:space="preserve">
+    <value>Том</value>
+  </data>
+  <data name="AppSource_Machine" xml:space="preserve">
+    <value>Компьютер</value>
+  </data>
+  <data name="AppSource_Machine32" xml:space="preserve">
+    <value>Компьютер (32-разрядные)</value>
+  </data>
+  <data name="AppSource_User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="AppSource_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Changes_OldestSnapshot" xml:space="preserve">
+    <value>Самый старый снимок сделан {0}.</value>
+  </data>
+  <data name="Changes_NoSnapshot" xml:space="preserve">
+    <value>Снимков пока нет; первый делается через минуту после запуска Sysora.</value>
+  </data>
+  <data name="Changes_NotEnough" xml:space="preserve">
+    <value>Пока недостаточно истории для этого сравнения. {0}</value>
+  </data>
+  <data name="Changes_Note" xml:space="preserve">
+    <value>Текущее состояние сравнивается со снимком от {0}.</value>
+  </data>
+  <data name="Changes_Note_AppsUnreadable" xml:space="preserve">
+    <value>Не удалось сравнить установленные приложения (в одном из снимков они не прочитаны).</value>
+  </data>
+  <data name="Changes_Frequent_Activity" xml:space="preserve">
+    <value>Работает {0}, {1} с {2}</value>
+  </data>
+  <data name="Count_Start_One" xml:space="preserve">
+    <value>{0} запуск</value>
+  </data>
+  <data name="Count_Start_Other" xml:space="preserve">
+    <value>{0} запуска|{0} запусков</value>
+  </data>
+  <data name="Changes_Frequent_Title" xml:space="preserve">
+    <value>{0} теперь запускается регулярно</value>
+  </data>
+  <data name="Changes_Frequent_Explanation" xml:space="preserve">
+    <value>Программа, которую Sysora раньше не видела, стала регулярно запускаться. Это может быть новое приложение, помощник обновления или фоновая задача.</value>
+  </data>
+  <data name="Changes_Frequent_Origin" xml:space="preserve">
+    <value>Впервые замечено Sysora {0}; Sysora ведет запись с {1}.</value>
+  </data>
+  <data name="Changes_Ev_Activity" xml:space="preserve">
+    <value>Активность</value>
+  </data>
+  <data name="Changes_Ev_NameOnly" xml:space="preserve">
+    <value>Определено только по имени процесса</value>
+  </data>
+  <data name="Since_Loading" xml:space="preserve">
+    <value>Сравнение со вчерашним днем…</value>
+  </data>
+  <data name="Since_Area_Applications" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="Since_Area_Startup" xml:space="preserve">
+    <value>Программы автозагрузки</value>
+  </data>
+  <data name="Since_Area_Windows" xml:space="preserve">
+    <value>Версия Windows</value>
+  </data>
+  <data name="Since_Area_Firmware" xml:space="preserve">
+    <value>Микропрограмма (BIOS)</value>
+  </data>
+  <data name="Since_Area_Memory" xml:space="preserve">
+    <value>Установленная память</value>
+  </data>
+  <data name="Since_Area_Devices" xml:space="preserve">
+    <value>Устройства</value>
+  </data>
+  <data name="Since_Area_DiskSpace" xml:space="preserve">
+    <value>Место на диске</value>
+  </data>
+  <data name="Since_Area_Usage" xml:space="preserve">
+    <value>Использование</value>
+  </data>
+  <data name="Since_Area_Alerts" xml:space="preserve">
+    <value>Оповещения</value>
+  </data>
+  <data name="Since_NotEnough" xml:space="preserve">
+    <value>Пока недостаточно истории</value>
+  </data>
+  <data name="Since_Usage_Title" xml:space="preserve">
+    <value>{0} {1} сегодня</value>
+  </data>
+  <data name="Since_Yesterday" xml:space="preserve">
+    <value>{0} вчера</value>
+  </data>
+  <data name="Since_Today" xml:space="preserve">
+    <value>{0} сегодня</value>
+  </data>
+  <data name="Since_Usage_Explanation" xml:space="preserve">
+    <value>{0} Средние за каждый день.</value>
+  </data>
+  <data name="Since_SecondPeriodPhrase" xml:space="preserve">
+    <value>во втором периоде</value>
+  </data>
+  <data name="Since_TodayPhrase" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="Since_When" xml:space="preserve">
+    <value>Сегодня на данный момент по сравнению со вчера</value>
+  </data>
+  <data name="Since_Usage_Origin" xml:space="preserve">
+    <value>{0} (вчера) и {1} (сегодня).</value>
+  </data>
+  <data name="Since_MoreAlerts" xml:space="preserve">
+    <value>Сегодня больше оповещений ({0})</value>
+  </data>
+  <data name="Since_FewerAlerts" xml:space="preserve">
+    <value>Сегодня меньше оповещений ({0})</value>
+  </data>
+  <data name="Since_MoreAlerts_Explanation" xml:space="preserve">
+    <value>Сегодня обнаружено больше продолжительных или необычных проблем, чем вчера.</value>
+  </data>
+  <data name="Since_FewerAlerts_Explanation" xml:space="preserve">
+    <value>Сегодня обнаружено меньше проблем, чем вчера.</value>
+  </data>
+  <data name="Since_AlertsOrigin" xml:space="preserve">
+    <value>Оповещения, записанные Sysora.</value>
+  </data>
+  <data name="Since_Reason_Apps" xml:space="preserve">
+    <value>список установленных приложений не удалось прочитать в одном из снимков</value>
+  </data>
+  <data name="Since_Reason_Startup" xml:space="preserve">
+    <value>программы автозагрузки не удалось прочитать в одном из снимков</value>
+  </data>
+  <data name="Since_Reason_Windows" xml:space="preserve">
+    <value>сборка Windows не записана</value>
+  </data>
+  <data name="Since_Reason_Bios" xml:space="preserve">
+    <value>этот компьютер не сообщает версию BIOS</value>
+  </data>
+  <data name="Since_Reason_Memory" xml:space="preserve">
+    <value>микропрограмма не сообщает объем установленной памяти</value>
+  </data>
+  <data name="Since_Reason_Volumes" xml:space="preserve">
+    <value>тома не записаны</value>
+  </data>
+  <data name="Since_Reason_Usage" xml:space="preserve">
+    <value>недостаточно истории за сегодня или вчера</value>
+  </data>
+  <data name="Since_NoChange" xml:space="preserve">
+    <value>Со вчерашнего дня изменений нет</value>
+  </data>
+  <data name="Count_SignificantChange_One" xml:space="preserve">
+    <value>{0} важное изменение</value>
+  </data>
+  <data name="Count_SignificantChange_Other" xml:space="preserve">
+    <value>{0} важных изменения|{0} важных изменений</value>
+  </data>
+  <data name="Count_MinorChange_One" xml:space="preserve">
+    <value>{0} незначительное изменение</value>
+  </data>
+  <data name="Count_MinorChange_Other" xml:space="preserve">
+    <value>{0} незначительных изменения|{0} незначительных изменений</value>
+  </data>
+  <data name="Since_Note" xml:space="preserve">
+    <value>Сравнение со снимком от {0}. Перечислены только различия, которые наблюдала Sysora; источник указан, если он известен.</value>
+  </data>
+  <data name="Since_Between" xml:space="preserve">
+    <value>Между {0} и {1}</value>
+  </data>
+  <data name="Since_Before" xml:space="preserve">
+    <value>До {0}</value>
+  </data>
+  <data name="Game_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Недоступно. Windows не дает другим приложениям надежного источника частоты кадров: для ее измерения нужна трассировка событий с правами администратора или вмешательство в игру, а Sysora не делает ни того, ни другого.</value>
+  </data>
+  <data name="Game_NoLimit_Title" xml:space="preserve">
+    <value>Предел ресурсов не достигнут</value>
+  </data>
+  <data name="Game_NoLimit_Description" xml:space="preserve">
+    <value>Память, процессор, видеопамять и диски ни разу не оставались на пределе за измеренное время.</value>
+  </data>
+  <data name="Game_Headline_None" xml:space="preserve">
+    <value>Проблем не замечено</value>
+  </data>
+  <data name="Game_Headline_Points_One" xml:space="preserve">
+    <value>{0} пункт для наблюдения</value>
+  </data>
+  <data name="Game_Headline_Points_Other" xml:space="preserve">
+    <value>{0} пункта для наблюдения|{0} пунктов для наблюдения</value>
+  </data>
+  <data name="Game_Summary_DurationOf" xml:space="preserve">
+    <value>{0} из {1}.</value>
+  </data>
+  <data name="Game_Summary_Cpu" xml:space="preserve">
+    <value>ЦП {0}</value>
+  </data>
+  <data name="Game_Summary_Memory" xml:space="preserve">
+    <value>память {0}</value>
+  </data>
+  <data name="Game_Summary_OnAverage" xml:space="preserve">
+    <value>В среднем: {0}.</value>
+  </data>
+  <data name="Game_Summary_Qualified" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="Game_Summary_NoLimit" xml:space="preserve">
+    <value>Ни один предел ресурсов не был достигнут.</value>
+  </data>
+  <data name="Game_OfTotal" xml:space="preserve">
+    <value>из {0}</value>
+  </data>
+  <data name="Game_Fps_Note" xml:space="preserve">
+    <value>В Windows нет надежного источника</value>
+  </data>
+  <data name="Game_Metric_CpuPc" xml:space="preserve">
+    <value>ЦП (весь компьютер)</value>
+  </data>
+  <data name="Game_Metric_CpuGame" xml:space="preserve">
+    <value>ЦП, используемый игрой</value>
+  </data>
+  <data name="Game_CpuGame_Note" xml:space="preserve">
+    <value>Доля общей мощности процессора</value>
+  </data>
+  <data name="Game_Metric_GpuBusiest" xml:space="preserve">
+    <value>GPU (самый загруженный адаптер)</value>
+  </data>
+  <data name="Game_Metric_GpuGame" xml:space="preserve">
+    <value>GPU, используемый игрой</value>
+  </data>
+  <data name="Game_GpuGame_NotReported" xml:space="preserve">
+    <value>Windows не сообщила загрузку GPU по процессам</value>
+  </data>
+  <data name="Game_GpuGame_Note" xml:space="preserve">
+    <value>Самый загруженный движок GPU, используемый игрой</value>
+  </data>
+  <data name="Game_Metric_VideoMemory" xml:space="preserve">
+    <value>Используемая видеопамять</value>
+  </data>
+  <data name="Game_VideoMemory_Note" xml:space="preserve">
+    <value>выделенная память, все приложения</value>
+  </data>
+  <data name="Game_Metric_MemoryPc" xml:space="preserve">
+    <value>Память (весь компьютер)</value>
+  </data>
+  <data name="Game_Metric_MemoryGame" xml:space="preserve">
+    <value>Память, используемая игрой</value>
+  </data>
+  <data name="Game_MemoryGame_Note" xml:space="preserve">
+    <value>Частный рабочий набор процессов игры</value>
+  </data>
+  <data name="Game_Metric_Disk" xml:space="preserve">
+    <value>Активное время самого загруженного диска</value>
+  </data>
+  <data name="Game_Metric_NetReceived" xml:space="preserve">
+    <value>Получено по сети (весь компьютер)</value>
+  </data>
+  <data name="Game_Metric_NetSent" xml:space="preserve">
+    <value>Отправлено по сети (весь компьютер)</value>
+  </data>
+  <data name="Game_Metric_SelfCpu" xml:space="preserve">
+    <value>ЦП самой Sysora</value>
+  </data>
+  <data name="Game_SelfCpu_Note" xml:space="preserve">
+    <value>Измерено во время сеанса</value>
+  </data>
+  <data name="Game_OverPeriods" xml:space="preserve">
+    <value> в {0} периодах</value>
+  </data>
+  <data name="Game_Condition_Value" xml:space="preserve">
+    <value>На уровне {0} и выше в течение {1}{2} (пик {3})</value>
+  </data>
+  <data name="Game_Condition_Reference" xml:space="preserve">
+    <value>Учитывается, если длится не менее {0}</value>
+  </data>
+  <data name="Game_Memory_Title" xml:space="preserve">
+    <value>Память была почти заполнена</value>
+  </data>
+  <data name="Game_Memory_Description" xml:space="preserve">
+    <value>Физическая память оставалась выше {0} в течение {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Stutters" xml:space="preserve">
+    <value>Возможная причина подтормаживаний</value>
+  </data>
+  <data name="Game_Memory_RecommendationApp" xml:space="preserve">
+    <value>Перед игрой закройте ненужные приложения. Крупнейшим другим приложением было {0} ({1}).</value>
+  </data>
+  <data name="Game_Memory_Recommendation" xml:space="preserve">
+    <value>Перед игрой закройте ненужные приложения.</value>
+  </data>
+  <data name="Game_Cpu_Title" xml:space="preserve">
+    <value>Процессор был перегружен</value>
+  </data>
+  <data name="Game_Cpu_Description" xml:space="preserve">
+    <value>Общая загрузка ЦП оставалась выше {0} в течение {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Slowdowns" xml:space="preserve">
+    <value>Вероятная причина замедлений</value>
+  </data>
+  <data name="Game_Cpu_RecommendationApp" xml:space="preserve">
+    <value>Самым загруженным другим приложением было {0} (в среднем {1} ЦП): закрывайте его во время игры, если оно не нужно.</value>
+  </data>
+  <data name="Game_Cpu_Recommendation" xml:space="preserve">
+    <value>Снижение настроек, нагружающих ЦП (дальность прорисовки, плотность толпы, физика), уменьшает нагрузку.</value>
+  </data>
+  <data name="Game_Video_Title" xml:space="preserve">
+    <value>Видеопамять была почти заполнена</value>
+  </data>
+  <data name="Game_Video_Description" xml:space="preserve">
+    <value>Выделенная видеопамять оставалась выше {0} из {1} в течение {2}{3}.</value>
+  </data>
+  <data name="Game_Video_Recommendation" xml:space="preserve">
+    <value>Снижение качества текстур или разрешения уменьшает использование видеопамяти.</value>
+  </data>
+  <data name="Game_Disk_Title" xml:space="preserve">
+    <value>Диск был занят почти всё время</value>
+  </data>
+  <data name="Game_Disk_Description" xml:space="preserve">
+    <value>Самый загруженный диск оставался выше {0} активного времени в течение {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Loading" xml:space="preserve">
+    <value>Возможная причина пауз при загрузке</value>
+  </data>
+  <data name="Game_Disk_Recommendation" xml:space="preserve">
+    <value>Установка игры на более быстрый накопитель (SSD) сокращает загрузку; обновления или проверки, идущие одновременно, тоже занимают диски.</value>
+  </data>
+  <data name="Game_GpuBound_Title" xml:space="preserve">
+    <value>Видеокарта была самым нагруженным компонентом</value>
+  </data>
+  <data name="Game_GpuBound_DescriptionCpu" xml:space="preserve">
+    <value>GPU в среднем был загружен на {0}, процессор — на {1}.</value>
+  </data>
+  <data name="Game_GpuBound_Description" xml:space="preserve">
+    <value>GPU в среднем был загружен на {0}.</value>
+  </data>
+  <data name="Game_Qualifier_LikelyLimit" xml:space="preserve">
+    <value>Вероятный ограничивающий фактор</value>
+  </data>
+  <data name="Game_GpuBound_Recommendation" xml:space="preserve">
+    <value>Для требовательной игры это ожидаемо: темп задает GPU. Для большей плавности снизьте настройки графики или разрешение.</value>
+  </data>
+  <data name="Game_Ev_GpuBusiest" xml:space="preserve">
+    <value>Загрузка GPU (самый загруженный адаптер)</value>
+  </data>
+  <data name="Game_CpuHeavy_Title" xml:space="preserve">
+    <value>Процессор был сильно загружен</value>
+  </data>
+  <data name="Game_CpuHeavy_DescriptionGpu" xml:space="preserve">
+    <value>Процессор в среднем был загружен на {0}, GPU — на {1}.</value>
+  </data>
+  <data name="Game_CpuHeavy_Description" xml:space="preserve">
+    <value>Процессор в среднем был загружен на {0}. Загрузка GPU была недоступна, поэтому Sysora не может сказать, какой компонент задавал темп.</value>
+  </data>
+  <data name="Game_Qualifier_Potential" xml:space="preserve">
+    <value>Возможная причина</value>
+  </data>
+  <data name="Game_CpuHeavy_Recommendation" xml:space="preserve">
+    <value>Закройте фоновые приложения и снизьте настройки, нагружающие ЦП (дальность прорисовки, толпы, физика).</value>
+  </data>
+  <data name="Game_BusyApp_Title" xml:space="preserve">
+    <value>{0} было активно во время игры</value>
+  </data>
+  <data name="Game_BusyApp_Description" xml:space="preserve">
+    <value>{0} в среднем использовало {1} всего ЦП за сеанс (пик {2}).</value>
+  </data>
+  <data name="Game_BusyApp_Recommendation" xml:space="preserve">
+    <value>Если {0} не нужно во время игры, закройте его перед запуском игры.</value>
+  </data>
+  <data name="Game_BusyApp_Value" xml:space="preserve">
+    <value>В среднем {0}, пик {1}, до {2} памяти</value>
+  </data>
+  <data name="Game_BusyApp_Reference" xml:space="preserve">
+    <value>Среднее по всем измерениям процессов за сеанс (0, пока процесс не работал)</value>
+  </data>
+  <data name="Game_Gaps_Title" xml:space="preserve">
+    <value>Измерения прерывались</value>
+  </data>
+  <data name="Game_Gaps_Description" xml:space="preserve">
+    <value>{0} (не измерено {1}): компьютер спал или мониторинг был приостановлен. Значения относятся только к измеренному времени.</value>
+  </data>
+  <data name="Game_Compare_First" xml:space="preserve">
+    <value>Первый записанный сеанс {0}: сравнивать пока не с чем.</value>
+  </data>
+  <data name="Game_Compare_Previous" xml:space="preserve">
+    <value>По сравнению с предыдущим сеансом {0} ({1}).</value>
+  </data>
+  <data name="Game_Compare_Average" xml:space="preserve">
+    <value>По сравнению со средним за предыдущие сеансы {1} ({0}, с {2}).</value>
+  </data>
+  <data name="Game_Ref_Previous" xml:space="preserve">
+    <value>предыдущий сеанс</value>
+  </data>
+  <data name="Game_Ref_PreviousN" xml:space="preserve">
+    <value>предыдущие сеансы ({0})</value>
+  </data>
+  <data name="Game_Compare_HigherTitle" xml:space="preserve">
+    <value>{0}: выше обычного для этой игры</value>
+  </data>
+  <data name="Game_Compare_HigherDescription" xml:space="preserve">
+    <value>{0}: в среднем {1}, {2} относительно {3} (эталон: {4}).</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryTitle" xml:space="preserve">
+    <value>Игра использовала больше памяти, чем обычно</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryDescription" xml:space="preserve">
+    <value>Игра использовала в среднем {0}, {1} относительно {2} (эталон: {3}).</value>
+  </data>
+  <data name="Game_Compare_NewLimitTitle" xml:space="preserve">
+    <value>{0}: впервые в этом сеансе</value>
+  </data>
+  <data name="Game_Compare_NewLimitDescription" xml:space="preserve">
+    <value>Раньше этот предел не достигался (эталон: {0}, игра {1}).</value>
+  </data>
+  <data name="Game_Qualifier_ObservedChange" xml:space="preserve">
+    <value>Наблюдаемое изменение, причина неизвестна</value>
+  </data>
+  <data name="Game_Compare_Recommendation" xml:space="preserve">
+    <value>Это может объясняться обновлением игры, другими настройками или другой частью игры; если повторяется, сравните с «Изменениями».</value>
+  </data>
+  <data name="Game_Compare_ThisSession" xml:space="preserve">
+    <value>Этот сеанс: {0} (пик {1})</value>
+  </data>
+  <data name="Game_Compare_PreviousSessions" xml:space="preserve">
+    <value>Предыдущие сеансы: в среднем {0}</value>
+  </data>
+  <data name="Game_Missing_Gpu" xml:space="preserve">
+    <value>Загрузка GPU: Недоступно (ни один графический адаптер не сообщил ее, или мониторинг GPU отключен в параметрах).</value>
+  </data>
+  <data name="Game_Missing_GpuGame" xml:space="preserve">
+    <value>Загрузка GPU игрой: Недоступно (Windows не сообщила загрузку GPU по процессам).</value>
+  </data>
+  <data name="Game_Missing_Video" xml:space="preserve">
+    <value>Видеопамять: Недоступно (графический драйвер не сообщил ее).</value>
+  </data>
+  <data name="Game_Missing_Temperatures" xml:space="preserve">
+    <value>Температуры: Недоступно (в Windows нет документированного способа узнать их без драйвера ядра).</value>
+  </data>
+  <data name="Game_Missing_Network" xml:space="preserve">
+    <value>Использование сети игрой: Недоступно (для использования сети по приложениям нужна трассировка событий с правами администратора); сетевые значения относятся ко всему компьютеру.</value>
+  </data>
+  <data name="Game_Coverage" xml:space="preserve">
+    <value>Измерено с {0} до {1} ({2} измерений).</value>
+  </data>
+  <data name="Game_Coverage_AlreadyRunning" xml:space="preserve">
+    <value>Игра уже работала с {0}, когда запустилась Sysora: более раннее время не охвачено.</value>
+  </data>
+  <data name="Game_Coverage_Gaps" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Game_Coverage_SysoraClosed" xml:space="preserve">
+    <value>Sysora была закрыта раньше игры: конец сеанса не охвачен.</value>
+  </data>
+  <data name="Game_Coverage_TrackingStopped" xml:space="preserve">
+    <value>Игровые сеансы были отключены до закрытия игры.</value>
+  </data>
+  <data name="Game_Ev_MeasuredTime" xml:space="preserve">
+    <value>Измеренное время</value>
+  </data>
+  <data name="Game_Ev_Gaps" xml:space="preserve">
+    <value>{0}, не измерено {1}</value>
+  </data>
+  <data name="Game_Ev_NoGap" xml:space="preserve">
+    <value>Без перерывов</value>
+  </data>
+  <data name="Game_Ev_CpuPc" xml:space="preserve">
+    <value>Загрузка ЦП (весь компьютер)</value>
+  </data>
+  <data name="Game_Condition_Video" xml:space="preserve">
+    <value>Видеопамять</value>
+  </data>
+  <data name="Source_VideoMemory" xml:space="preserve">
+    <value>Счетчик производительности Windows \GPU Adapter Memory(*)\Dedicated Usage</value>
+  </data>
+  <data name="Game_Points" xml:space="preserve">
+    <value>{0:0} п.</value>
+  </data>
+  <data name="Count_Interruption_One" xml:space="preserve">
+    <value>{0} перерыв</value>
+  </data>
+  <data name="Count_Interruption_Other" xml:space="preserve">
+    <value>{0} перерыва|{0} перерывов</value>
+  </data>
+  <data name="Game_Detect_UserMarked" xml:space="preserve">
+    <value>Вы отметили это приложение как игру.</value>
+  </data>
+  <data name="Game_Detect_Windows" xml:space="preserve">
+    <value>Windows распознает этот исполняемый файл как игру (список ваших игр в Game Bar).</value>
+  </data>
+  <data name="Game_Detect_Library" xml:space="preserve">
+    <value>Установлено в папку игровой библиотеки {0}: вероятно, игра, но Windows этого не подтверждает.</value>
+  </data>
+  <data name="Game_Event_Started" xml:space="preserve">
+    <value>Игра запущена: {0}</value>
+  </data>
+  <data name="Game_Event_Closed" xml:space="preserve">
+    <value>Игра закрыта: {0} ({1})</value>
+  </data>
+  <data name="Game_Event_Gap" xml:space="preserve">
+    <value>Нет измерений в течение {0} (компьютер спал или мониторинг был приостановлен)</value>
+  </data>
+  <data name="Health_NotCounted" xml:space="preserve">
+    <value>Не учитывается</value>
+  </data>
+  <data name="Health_NoImpact" xml:space="preserve">
+    <value>Без влияния</value>
+  </data>
+  <data name="Count_Point_One" xml:space="preserve">
+    <value>{0} балл</value>
+  </data>
+  <data name="Count_Point_Other" xml:space="preserve">
+    <value>{0} балла|{0} баллов</value>
+  </data>
+  <data name="Health_Collecting_Headline" xml:space="preserve">
+    <value>Состояние ПК: сбор данных…</value>
+  </data>
+  <data name="Health_Collecting_Summary" xml:space="preserve">
+    <value>Sysora нужно несколько минут измерений, прежде чем выставить оценку.</value>
+  </data>
+  <data name="Health_Grade_Good" xml:space="preserve">
+    <value>Хорошее</value>
+  </data>
+  <data name="Health_Grade_Fair" xml:space="preserve">
+    <value>Удовлетворительное</value>
+  </data>
+  <data name="Health_Grade_NeedsAttention" xml:space="preserve">
+    <value>Требует внимания</value>
+  </data>
+  <data name="Health_Grade_Poor" xml:space="preserve">
+    <value>Плохое</value>
+  </data>
+  <data name="Health_Grade_Collecting" xml:space="preserve">
+    <value>Сбор данных</value>
+  </data>
+  <data name="Health_Method" xml:space="preserve">
+    <value>Оценка начинается со 100. Каждая область снимает баллы в зависимости от измерений по фиксированным порогам, указанным рядом. Для ЦП, памяти, активности диска и GPU используются средние за последние 15 минут, поэтому кратковременный всплеск почти не учитывается. Области, которые нельзя измерить на этом компьютере, не учитываются и отмечены как недоступные: ничего не оценивается на глаз.</value>
+  </data>
+  <data name="Health_NoMeasurementYetLower" xml:space="preserve">
+    <value>измерений пока нет</value>
+  </data>
+  <data name="Health_NeedsData" xml:space="preserve">
+    <value>Sysora нужно {0} измерений, прежде чем выставить оценку (пока {1}).</value>
+  </data>
+  <data name="Health_NothingLowers" xml:space="preserve">
+    <value>Сейчас оценку ничто не снижает.</value>
+  </data>
+  <data name="Health_LoweredBy" xml:space="preserve">
+    <value>Снижают: {0}.</value>
+  </data>
+  <data name="Health_Headline" xml:space="preserve">
+    <value>Состояние ПК: {0}/100 · {1}</value>
+  </data>
+  <data name="Health_Area_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Health_Cpu_NotAvailable" xml:space="preserve">
+    <value>Загрузка ЦП недоступна на этом компьютере</value>
+  </data>
+  <data name="Health_NoMeasurementYet" xml:space="preserve">
+    <value>Измерений пока нет</value>
+  </data>
+  <data name="Health_PointsTakenOff" xml:space="preserve">
+    <value>Снимаемые баллы</value>
+  </data>
+  <data name="Health_Cpu_Thresholds" xml:space="preserve">
+    <value>Ничего ниже 50% в среднем, до 15 при 100%</value>
+  </data>
+  <data name="Health_Cpu_Summary" xml:space="preserve">
+    <value>В среднем {0} за {1} (пик {2})</value>
+  </data>
+  <data name="Health_Cpu_Problem" xml:space="preserve">
+    <value>В среднем процессор был почти перегружен: приложения могут медленно реагировать.</value>
+  </data>
+  <data name="Health_Cpu_Attention" xml:space="preserve">
+    <value>Процессор был занят большую часть времени, но у него оставался небольшой запас.</value>
+  </data>
+  <data name="Health_Cpu_Good" xml:space="preserve">
+    <value>В среднем у процессора был запас. Кратковременные пики нормальны и почти не учитываются.</value>
+  </data>
+  <data name="Health_Area_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Health_Memory_NotAvailable" xml:space="preserve">
+    <value>Использование памяти недоступно на этом компьютере</value>
+  </data>
+  <data name="Health_Memory_Thresholds" xml:space="preserve">
+    <value>Ничего ниже 60% в среднем, до 20 при 95%; еще 3, если выделенная память остается выше 90% предела</value>
+  </data>
+  <data name="Health_CommitShare" xml:space="preserve">
+    <value>Выделенная память (доля предела)</value>
+  </data>
+  <data name="Health_CommitNote" xml:space="preserve">
+    <value>Выделенная память близка к пределу: Windows может отказывать в новом выделении памяти.</value>
+  </data>
+  <data name="Health_Memory_Amount" xml:space="preserve">
+    <value>({0} из {1})</value>
+  </data>
+  <data name="Health_Memory_Summary" xml:space="preserve">
+    <value>В среднем используется {0}{1} за {2}, пик {3}</value>
+  </data>
+  <data name="Health_Memory_Problem" xml:space="preserve">
+    <value>Память почти заполнена: Windows приходится переносить данные на диск, что замедляет всё.</value>
+  </data>
+  <data name="Health_Memory_Attention" xml:space="preserve">
+    <value>Память хорошо использована; открытие новых приложений может начать замедлять компьютер.</value>
+  </data>
+  <data name="Health_Memory_Good" xml:space="preserve">
+    <value>Для запущенных приложений есть свободная память.</value>
+  </data>
+  <data name="Health_Area_Storage" xml:space="preserve">
+    <value>Диски</value>
+  </data>
+  <data name="Health_Storage_NotAvailable" xml:space="preserve">
+    <value>Свободное место недоступно на этом компьютере</value>
+  </data>
+  <data name="Health_Storage_Reference" xml:space="preserve">
+    <value>Предупреждение при заполнении {0}, критично при {1} (Параметры › Пороги состояния)</value>
+  </data>
+  <data name="Health_Storage_Thresholds" xml:space="preserve">
+    <value>16, если том Windows выше критического уровня, 8 — выше уровня предупреждения; 4 за каждый другой том выше критического уровня</value>
+  </data>
+  <data name="Health_Storage_Summary" xml:space="preserve">
+    <value>{0}: свободно {1} из {2}</value>
+  </data>
+  <data name="Count_OtherVolume_One" xml:space="preserve">
+    <value>еще {0} том</value>
+  </data>
+  <data name="Count_OtherVolume_Other" xml:space="preserve">
+    <value>еще {0} тома|еще {0} томов</value>
+  </data>
+  <data name="Health_Storage_Problem" xml:space="preserve">
+    <value>Том Windows почти заполнен: обновления могут не устанавливаться, а у Windows мало места для файла подкачки и временных файлов.</value>
+  </data>
+  <data name="Health_Storage_Attention" xml:space="preserve">
+    <value>Том заполняется. «Большие файлы» показывают, что занимает больше всего места (Sysora никогда ничего не удаляет).</value>
+  </data>
+  <data name="Health_Storage_Good" xml:space="preserve">
+    <value>На каждом томе еще есть место.</value>
+  </data>
+  <data name="Health_Area_Disk" xml:space="preserve">
+    <value>Активность диска</value>
+  </data>
+  <data name="Health_Disk_NotAvailable" xml:space="preserve">
+    <value>Активность диска недоступна на этом компьютере</value>
+  </data>
+  <data name="Health_Disk_Busiest" xml:space="preserve">
+    <value>Активное время самого загруженного диска</value>
+  </data>
+  <data name="Health_Disk_Thresholds" xml:space="preserve">
+    <value>Ничего ниже 40% в среднем, до 10 при 90%</value>
+  </data>
+  <data name="Health_Disk_Summary" xml:space="preserve">
+    <value>Самый загруженный диск в среднем активен {0} времени (пик {1})</value>
+  </data>
+  <data name="Health_Disk_Problem" xml:space="preserve">
+    <value>Диск был занят большую часть времени: открытие файлов и приложений ждет его.</value>
+  </data>
+  <data name="Health_Disk_Attention" xml:space="preserve">
+    <value>Диск часто был занят (обновления, индексирование, копирование или приложение, которое много читает).</value>
+  </data>
+  <data name="Health_Disk_Good" xml:space="preserve">
+    <value>Диски в основном простаивали.</value>
+  </data>
+  <data name="Health_Gpu_Off" xml:space="preserve">
+    <value>Мониторинг GPU отключен в параметрах</value>
+  </data>
+  <data name="Health_Gpu_NotAvailable" xml:space="preserve">
+    <value>Загрузка GPU недоступна на этом компьютере</value>
+  </data>
+  <data name="Health_Gpu_VideoMemory" xml:space="preserve">
+    <value>видеопамять {0} из {1}</value>
+  </data>
+  <data name="Health_Gpu_Dedicated" xml:space="preserve">
+    <value>Выделенная видеопамять ({0})</value>
+  </data>
+  <data name="Health_Gpu_DedicatedValue" xml:space="preserve">
+    <value>{0} из {1} ({2})</value>
+  </data>
+  <data name="Health_Gpu_Reference" xml:space="preserve">
+    <value>Снимается 5 баллов при 95% и выше</value>
+  </data>
+  <data name="Health_Gpu_Usage" xml:space="preserve">
+    <value>Загрузка в среднем {0}</value>
+  </data>
+  <data name="Health_Gpu_Attention" xml:space="preserve">
+    <value>Видеопамять почти заполнена: игры и графические приложения могут подтормаживать, пока Windows переносит данные в системную память.</value>
+  </data>
+  <data name="Health_Gpu_Good" xml:space="preserve">
+    <value>Высокая загрузка GPU нормальна во время игр или просмотра видео, поэтому сама по себе загрузка оценку не снижает; ее снижает только почти заполненная видеопамять.</value>
+  </data>
+  <data name="Health_Area_Temperatures" xml:space="preserve">
+    <value>Температуры</value>
+  </data>
+  <data name="Health_Temperatures_NotAvailable" xml:space="preserve">
+    <value>Недоступно: в Windows нет документированного способа узнать их без драйвера ядра, а Sysora его не устанавливает</value>
+  </data>
+  <data name="Health_Temperatures_Good" xml:space="preserve">
+    <value>Температуры, сообщаемые драйверами, в пределах нормы.</value>
+  </data>
+  <data name="Health_Temperatures_Hot" xml:space="preserve">
+    <value>Компонент нагревается; он может снизить скорость, чтобы остыть.</value>
+  </data>
+  <data name="Health_Temperature_Of" xml:space="preserve">
+    <value>Температура: {0}</value>
+  </data>
+  <data name="Health_Temperature_Reference" xml:space="preserve">
+    <value>5 баллов при 85 °C, 10 при 95 °C</value>
+  </data>
+  <data name="Health_Temperature_Source" xml:space="preserve">
+    <value>Графический драйвер</value>
+  </data>
+  <data name="Health_Area_Stability" xml:space="preserve">
+    <value>Стабильность</value>
+  </data>
+  <data name="Health_NotAnalyzedYet" xml:space="preserve">
+    <value>Еще не проанализировано</value>
+  </data>
+  <data name="Health_Stability_None" xml:space="preserve">
+    <value>Повторяющихся проблем за последние {0} дн. нет</value>
+  </data>
+  <data name="Count_RecurringProblem_One" xml:space="preserve">
+    <value>{0} повторяющаяся проблема</value>
+  </data>
+  <data name="Count_RecurringProblem_Other" xml:space="preserve">
+    <value>{0} повторяющиеся проблемы|{0} повторяющихся проблем</value>
+  </data>
+  <data name="Health_Stability_Good" xml:space="preserve">
+    <value>За последние дни ни одна проблема не повторялась.</value>
+  </data>
+  <data name="Health_Stability_Problems" xml:space="preserve">
+    <value>Эти проблемы возвращались в разные дни. У повторяющейся проблемы обычно есть причина, которую стоит поискать.</value>
+  </data>
+  <data name="Health_RecurringProblems" xml:space="preserve">
+    <value>Повторяющиеся проблемы</value>
+  </data>
+  <data name="Health_Stability_Reference" xml:space="preserve">
+    <value>По 4 балла (не более {0}). Проблема считается повторяющейся после {1} эпизодов в {2} разных дня.</value>
+  </data>
+  <data name="Health_Stability_Source" xml:space="preserve">
+    <value>Оповещения и события из локальной истории</value>
+  </data>
+  <data name="Health_Area_Anomalies" xml:space="preserve">
+    <value>Недавние аномалии</value>
+  </data>
+  <data name="Health_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Health_Anomalies_None" xml:space="preserve">
+    <value>Оповещений за последние 24 часа нет</value>
+  </data>
+  <data name="Health_Anomalies_Count" xml:space="preserve">
+    <value>{0} за последние 24 часа</value>
+  </data>
+  <data name="Health_Anomalies_Active" xml:space="preserve">
+    <value>(еще активны: {0})</value>
+  </data>
+  <data name="Health_Anomalies_Good" xml:space="preserve">
+    <value>В последнее время продолжительных или необычных проблем не обнаружено.</value>
+  </data>
+  <data name="Health_Anomalies_Explanation" xml:space="preserve">
+    <value>Оповещения создаются только для проблем, которые длились или были необычны для этого компьютера. Оповещения, отмеченные как обычные для этого компьютера, баллы не снимают.</value>
+  </data>
+  <data name="Health_Area_Usual" xml:space="preserve">
+    <value>Обычное поведение</value>
+  </data>
+  <data name="Health_Usual_Now" xml:space="preserve">
+    <value>{0} сейчас (среднее за 15 минут)</value>
+  </data>
+  <data name="Health_Usual_Reference" xml:space="preserve">
+    <value>Обычно {0} (медиана {1}); необычно выше {2}</value>
+  </data>
+  <data name="Health_Usual_Item" xml:space="preserve">
+    <value>{0} ({1} против обычных {2})</value>
+  </data>
+  <data name="Health_Unusual" xml:space="preserve">
+    <value>Необычно</value>
+  </data>
+  <data name="Health_Usual" xml:space="preserve">
+    <value>Обычно</value>
+  </data>
+  <data name="Health_Usual_Above" xml:space="preserve">
+    <value>Выше обычного диапазона: {0}</value>
+  </data>
+  <data name="Health_Usual_Within" xml:space="preserve">
+    <value>В пределах обычного диапазона</value>
+  </data>
+  <data name="Health_Usual_Busier" xml:space="preserve">
+    <value>Этот компьютер загружен сильнее, чем обычно. Это может быть ожидаемо (игра, сборка) или признаком того, что что-то работает в фоне.</value>
+  </data>
+  <data name="Health_Usual_Matches" xml:space="preserve">
+    <value>Активность соответствует тому, что обычно делает этот компьютер.</value>
+  </data>
+  <data name="Health_Missing_Explanation" xml:space="preserve">
+    <value>Не учитывается в оценке: Sysora никогда не заменяет отсутствующее измерение предположением.</value>
+  </data>
+  <data name="Health_Status_Normal" xml:space="preserve">
+    <value>Норма</value>
+  </data>
+  <data name="Health_Status_Attention" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="Health_Status_Problem" xml:space="preserve">
+    <value>Проблема</value>
+  </data>
+  <data name="Health_ThresholdsSource" xml:space="preserve">
+    <value>Фиксированные пороги оценки Sysora</value>
+  </data>
+  <data name="Health_UsualMedian" xml:space="preserve">
+    <value>{0} (медиана {1})</value>
+  </data>
+  <data name="AlertSeverity_Critical" xml:space="preserve">
+    <value>Критическое</value>
+  </data>
+  <data name="AlertSeverity_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="AlertSeverity_Info" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Event_InternetAvailable" xml:space="preserve">
+    <value>Доступ к Интернету есть</value>
+  </data>
+  <data name="Event_InternetLimited" xml:space="preserve">
+    <value>Доступ к Интернету ограничен</value>
+  </data>
+  <data name="Event_InternetLost" xml:space="preserve">
+    <value>Доступ к Интернету потерян (только локальная сеть)</value>
+  </data>
+  <data name="Event_NetworkLost" xml:space="preserve">
+    <value>Сетевое подключение потеряно</value>
+  </data>
+  <data name="Event_MetricUnavailable" xml:space="preserve">
+    <value>Метрики «{0}» недоступны</value>
+  </data>
+  <data name="Event_MetricRestored" xml:space="preserve">
+    <value>Метрики «{0}» снова доступны</value>
+  </data>
+  <data name="Event_AsReportedByWindows" xml:space="preserve">
+    <value>По данным Windows</value>
+  </data>
+  <data name="Event_VolumeConnected" xml:space="preserve">
+    <value>Том {0}{1} подключен</value>
+  </data>
+  <data name="Event_VolumeSize" xml:space="preserve">
+    <value>Том {1}, {0}</value>
+  </data>
+  <data name="Event_VolumeDisconnected" xml:space="preserve">
+    <value>Том {0} отключен</value>
+  </data>
+  <data name="Event_AppCpu" xml:space="preserve">
+    <value>ЦП {0} вырос до {1}</value>
+  </data>
+  <data name="Event_AppCpuDetail" xml:space="preserve">
+    <value>{0} памяти, {1}</value>
+  </data>
+  <data name="Event_AppMemory" xml:space="preserve">
+    <value>{0} использует {1} памяти</value>
+  </data>
+  <data name="Event_AppMemoryDetail" xml:space="preserve">
+    <value>{0} физической памяти</value>
+  </data>
+  <data name="Event_RanFor" xml:space="preserve">
+    <value>Работало {0}.</value>
+  </data>
+  <data name="Event_AppExited" xml:space="preserve">
+    <value>{0}: процесс завершен</value>
+  </data>
+  <data name="Event_AppExitedDetail" xml:space="preserve">
+    <value>Использовало {0} ЦП и {1} памяти</value>
+  </data>
+  <data name="Event_AppClosed" xml:space="preserve">
+    <value>{0}: закрыто</value>
+  </data>
+  <data name="Event_RanForShort" xml:space="preserve">
+    <value>Работало {0}</value>
+  </data>
+  <data name="Event_AppStarted" xml:space="preserve">
+    <value>{0}: запущено</value>
+  </data>
+  <data name="Event_Kind_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Event_Kind_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Event_Kind_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Event_Kind_Storage" xml:space="preserve">
+    <value>Диски</value>
+  </data>
+  <data name="Event_Kind_Disk" xml:space="preserve">
+    <value>Активность диска</value>
+  </data>
+  <data name="Event_Kind_Network" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="Event_Kind_Processes" xml:space="preserve">
+    <value>Процессы</value>
+  </data>
+  <data name="Event_Kind_System" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="DriveKind_Fixed" xml:space="preserve">
+    <value>несъемный</value>
+  </data>
+  <data name="DriveKind_Removable" xml:space="preserve">
+    <value>съемный</value>
+  </data>
+  <data name="DriveKind_Network" xml:space="preserve">
+    <value>сетевой</value>
+  </data>
+  <data name="DriveKind_Optical" xml:space="preserve">
+    <value>оптический</value>
+  </data>
+  <data name="DriveKind_Ram" xml:space="preserve">
+    <value>RAM-диск</value>
+  </data>
+  <data name="DriveKind_Other" xml:space="preserve">
+    <value>другой</value>
+  </data>
+  <data name="Event_Gap" xml:space="preserve">
+    <value>Нет измерений в течение {0}</value>
+  </data>
+  <data name="Event_GapDetail" xml:space="preserve">
+    <value>В этот период Sysora не работала или компьютер спал.</value>
+  </data>
+  <data name="Event_MonitoringStarted" xml:space="preserve">
+    <value>Мониторинг запущен</value>
+  </data>
+  <data name="Event_MonitoringPaused" xml:space="preserve">
+    <value>Мониторинг приостановлен</value>
+  </data>
+  <data name="Event_MonitoringResumed" xml:space="preserve">
+    <value>Мониторинг возобновлен</value>
+  </data>
+  <data name="Indicator_CpuNotAvailable" xml:space="preserve">
+    <value>Загрузка ЦП недоступна</value>
+  </data>
+  <data name="Indicator_CpuNormal" xml:space="preserve">
+    <value>ЦП в норме</value>
+  </data>
+  <data name="Indicator_MemoryNotAvailable" xml:space="preserve">
+    <value>Использование памяти недоступно</value>
+  </data>
+  <data name="Indicator_MemoryNormal" xml:space="preserve">
+    <value>Память в норме</value>
+  </data>
+  <data name="Indicator_StorageNotAvailable" xml:space="preserve">
+    <value>Диски недоступны</value>
+  </data>
+  <data name="Indicator_Storage" xml:space="preserve">
+    <value>Диск {0} {1}</value>
+  </data>
+  <data name="Indicator_AboveCritical" xml:space="preserve">
+    <value>Выше критического порога {0}</value>
+  </data>
+  <data name="Indicator_AboveWarning" xml:space="preserve">
+    <value>Выше порога предупреждения {0}</value>
+  </data>
+  <data name="Indicator_StorageNormal" xml:space="preserve">
+    <value>Диски в норме</value>
+  </data>
+  <data name="Indicator_NetworkNotAvailable" xml:space="preserve">
+    <value>Состояние сети недоступно</value>
+  </data>
+  <data name="Indicator_NetworkConnected" xml:space="preserve">
+    <value>Сеть подключена</value>
+  </data>
+  <data name="Indicator_NetworkRestricted" xml:space="preserve">
+    <value>Windows сообщает об ограниченном доступе (например, страница входа)</value>
+  </data>
+  <data name="Indicator_NetworkNoInternet" xml:space="preserve">
+    <value>Сеть доступна, но Интернета нет</value>
+  </data>
+  <data name="Indicator_NetworkUnknown" xml:space="preserve">
+    <value>Состояние сети неизвестно</value>
+  </data>
+  <data name="Indicator_ProcessesNotAvailable" xml:space="preserve">
+    <value>Сведения о процессах недоступны</value>
+  </data>
+  <data name="Indicator_AppMemory" xml:space="preserve">
+    <value>{0} использует {1} памяти</value>
+  </data>
+  <data name="Indicator_AppMemoryThreshold" xml:space="preserve">
+    <value>Выше порога {0} на приложение</value>
+  </data>
+  <data name="Indicator_AppCpu" xml:space="preserve">
+    <value>{0} сильно загружает ЦП</value>
+  </data>
+  <data name="Indicator_NoAbnormalProcess" xml:space="preserve">
+    <value>Аномальных процессов не обнаружено</value>
+  </data>
+  <data name="Indicator_AboveFor" xml:space="preserve">
+    <value>Выше {0} дольше {1} с</value>
+  </data>
+  <data name="Intensity_Minimal_Description" xml:space="preserve">
+    <value>Для игр или работы от батареи: реже измеряет (ЦП и память раз в 2 интервала, процессы, GPU и диски раз в 3), хранит меньше приложений на измерение и проверяет оповещения раз в 10 секунд.</value>
+  </data>
+  <data name="Intensity_Detailed_Description" xml:space="preserve">
+    <value>Для исследования проблемы: измеряет вдвое чаще там, где это помогает (до 0,5 с для ЦП и памяти, 1 с для процессов), хранит больше приложений на измерение.</value>
+  </data>
+  <data name="Intensity_Balanced_Description" xml:space="preserve">
+    <value>По умолчанию: интервалы, заданные ниже, — хороший баланс между точностью и потреблением самой Sysora.</value>
+  </data>
+  <data name="Intensity_Minimal" xml:space="preserve">
+    <value>Минимальная</value>
+  </data>
+  <data name="Intensity_Detailed" xml:space="preserve">
+    <value>Подробная</value>
+  </data>
+  <data name="Intensity_Balanced" xml:space="preserve">
+    <value>Сбалансированная</value>
+  </data>
+  <data name="Event_Sleep" xml:space="preserve">
+    <value>Компьютер переходит в спящий режим</value>
+  </data>
+  <data name="Event_ResumedAfter" xml:space="preserve">
+    <value>Компьютер вышел из спящего режима (спал {0})</value>
+  </data>
+  <data name="Event_Resumed" xml:space="preserve">
+    <value>Компьютер вышел из спящего режима</value>
+  </data>
+  <data name="Self_Measuring" xml:space="preserve">
+    <value>Влияние Sysora: измерение…</value>
+  </data>
+  <data name="Self_OverBudget" xml:space="preserve">
+    <value>В течение минуты Sysora превышала свой бюджет ЦП ({0} общей мощности): она увеличивает интервалы сбора ×{1:0.##}, чтобы оставаться легкой.</value>
+  </data>
+  <data name="Self_HighMemory" xml:space="preserve">
+    <value>Sysora использует {0} памяти — больше, чем ожидалось. Перезапуск освобождает память; если объем продолжает расти, сообщите об этом.</value>
+  </data>
+  <data name="Self_HighAllocations" xml:space="preserve">
+    <value>Sysora выделяет {0} памяти: больше работы сборщика мусора, чем обычно.</value>
+  </data>
+  <data name="Self_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Self_Cpu_Note" xml:space="preserve">
+    <value>От общей мощности за последние {0:0} с</value>
+  </data>
+  <data name="Self_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Self_Memory_NoteManaged" xml:space="preserve">
+    <value>Рабочий набор, из них {0} — объекты .NET</value>
+  </data>
+  <data name="Self_Memory_Note" xml:space="preserve">
+    <value>Рабочий набор</value>
+  </data>
+  <data name="Self_Allocations" xml:space="preserve">
+    <value>Выделения памяти</value>
+  </data>
+  <data name="Self_Allocations_Note" xml:space="preserve">
+    <value>Сборки мусора за последний период: {0} / {1} / {2} (поколение 0 / 1 / 2)</value>
+  </data>
+  <data name="Self_DiskWrites" xml:space="preserve">
+    <value>Запись на диск</value>
+  </data>
+  <data name="Self_DiskWrites_Note" xml:space="preserve">
+    <value>Собственные записи Sysora (база данных истории, параметры, журналы) по ее строке в списке процессов</value>
+  </data>
+  <data name="Self_Background" xml:space="preserve">
+    <value>Фоновая активность</value>
+  </data>
+  <data name="Self_Background_Value" xml:space="preserve">
+    <value>{0} · {1:0} циклов сбора в минуту</value>
+  </data>
+  <data name="Self_Processes" xml:space="preserve">
+    <value>Проанализировано процессов</value>
+  </data>
+  <data name="Self_Processes_Note" xml:space="preserve">
+    <value>Каждые {0}, одним системным вызовом</value>
+  </data>
+  <data name="Self_Threads" xml:space="preserve">
+    <value>Потоки</value>
+  </data>
+  <data name="Self_Headline" xml:space="preserve">
+    <value>Влияние Sysora: {0}</value>
+  </data>
+  <data name="Self_Level_Low" xml:space="preserve">
+    <value>Низкое</value>
+  </data>
+  <data name="Self_Level_Moderate" xml:space="preserve">
+    <value>Умеренное</value>
+  </data>
+  <data name="Self_Level_High" xml:space="preserve">
+    <value>Высокое</value>
+  </data>
+  <data name="Self_Level_Measuring" xml:space="preserve">
+    <value>Измерение…</value>
+  </data>
+  <data name="Self_Interval_Cpu" xml:space="preserve">
+    <value>ЦП</value>
+  </data>
+  <data name="Self_Interval_Memory" xml:space="preserve">
+    <value>память</value>
+  </data>
+  <data name="Self_Interval_Processes" xml:space="preserve">
+    <value>процессы</value>
+  </data>
+  <data name="Self_Interval_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Self_Interval_Disks" xml:space="preserve">
+    <value>диски</value>
+  </data>
+  <data name="Self_Interval_Network" xml:space="preserve">
+    <value>сеть</value>
+  </data>
+  <data name="Self_Interval_Space" xml:space="preserve">
+    <value>свободное место</value>
+  </data>
+  <data name="Self_Investigating" xml:space="preserve">
+    <value>Идет исследование (подробное)</value>
+  </data>
+  <data name="Self_Intensity" xml:space="preserve">
+    <value>Интенсивность: {0}</value>
+  </data>
+  <data name="Self_Hidden" xml:space="preserve">
+    <value>окно скрыто: экранные метрики замедлены</value>
+  </data>
+  <data name="LargeFiles_NoExtension" xml:space="preserve">
+    <value>(без расширения)</value>
+  </data>
+  <data name="LargeFiles_Found" xml:space="preserve">
+    <value>{0} из {1} и больше ({2}) в {3}</value>
+  </data>
+  <data name="Count_File_One" xml:space="preserve">
+    <value>{0} файл</value>
+  </data>
+  <data name="Count_File_Other" xml:space="preserve">
+    <value>{0} файла|{0} файлов</value>
+  </data>
+  <data name="Count_Folder_One" xml:space="preserve">
+    <value>{0:N0} папка</value>
+  </data>
+  <data name="Count_Folder_Other" xml:space="preserve">
+    <value>{0:N0} папки|{0:N0} папок</value>
+  </data>
+  <data name="LargeFiles_Denied_One" xml:space="preserve">
+    <value>Не удалось прочитать {0} папку (доступ запрещен)</value>
+  </data>
+  <data name="LargeFiles_Denied_Other" xml:space="preserve">
+    <value>Не удалось прочитать {0} папки (доступ запрещен)|Не удалось прочитать {0} папок (доступ запрещен)</value>
+  </data>
+  <data name="LargeFiles_Unavailable_One" xml:space="preserve">
+    <value>{0} папка недоступна</value>
+  </data>
+  <data name="LargeFiles_Unavailable_Other" xml:space="preserve">
+    <value>{0} папки недоступны|{0} папок недоступно</value>
+  </data>
+  <data name="LargeFiles_ProblemsSuffix" xml:space="preserve">
+    <value>{0}: их содержимое неизвестно, а не отсутствует.</value>
+  </data>
+  <data name="LargeFiles_Cancelled" xml:space="preserve">
+    <value>Сканирование отменено через {0}: частичные результаты, {1}{2}</value>
+  </data>
+  <data name="LargeFiles_Failed" xml:space="preserve">
+    <value>Сканирование не удалось.</value>
+  </data>
+  <data name="LargeFiles_Completed" xml:space="preserve">
+    <value>Сканирование завершено за {0}: {1}{2}</value>
+  </data>
+  <data name="LargeFiles_WindowsNote" xml:space="preserve">
+    <value>Управляется Windows: не удаляйте вручную.</value>
+  </data>
+  <data name="LargeFiles_PageFile" xml:space="preserve">
+    <value>Файл подкачки Windows. Его размер задается в разделе «Система › Дополнительные параметры системы»; не удаляйте вручную.</value>
+  </data>
+  <data name="LargeFiles_Hiberfil" xml:space="preserve">
+    <value>Файл гибернации (используется и быстрым запуском). Управляется Windows: не удаляйте вручную.</value>
+  </data>
+  <data name="LargeFiles_RecycleBinNote" xml:space="preserve">
+    <value>В корзине: очистка корзины освободит это место.</value>
+  </data>
+  <data name="LargeFiles_InstallerCache" xml:space="preserve">
+    <value>Кэш установщика Windows: нужен для восстановления или удаления приложений. Не удаляйте вручную.</value>
+  </data>
+  <data name="LargeFiles_VirtualDiskNote" xml:space="preserve">
+    <value>Виртуальный диск: может принадлежать WSL, Hyper-V, Docker или виртуальной машине и содержать их данные.</value>
+  </data>
+  <data name="LargeFiles_DatabaseNote" xml:space="preserve">
+    <value>Файл базы данных: в нем приложение хранит свои данные.</value>
+  </data>
+  <data name="LargeFiles_GameDataNote" xml:space="preserve">
+    <value>Данные игры: их удаление сломает игру; вместо этого удалите игру.</value>
+  </data>
+  <data name="LargeFiles_Cat_Video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="LargeFiles_Cat_Audio" xml:space="preserve">
+    <value>Аудио</value>
+  </data>
+  <data name="LargeFiles_Cat_Image" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="LargeFiles_Cat_Archive" xml:space="preserve">
+    <value>Архивы</value>
+  </data>
+  <data name="LargeFiles_Cat_DiskImage" xml:space="preserve">
+    <value>Образы дисков</value>
+  </data>
+  <data name="LargeFiles_Cat_VirtualDisk" xml:space="preserve">
+    <value>Виртуальные диски</value>
+  </data>
+  <data name="LargeFiles_Cat_Installer" xml:space="preserve">
+    <value>Установщики</value>
+  </data>
+  <data name="LargeFiles_Cat_Backup" xml:space="preserve">
+    <value>Резервные копии</value>
+  </data>
+  <data name="LargeFiles_Cat_Database" xml:space="preserve">
+    <value>Базы данных</value>
+  </data>
+  <data name="LargeFiles_Cat_Log" xml:space="preserve">
+    <value>Журналы и дампы</value>
+  </data>
+  <data name="LargeFiles_Cat_Document" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="LargeFiles_Cat_GameData" xml:space="preserve">
+    <value>Данные игр</value>
+  </data>
+  <data name="LargeFiles_Cat_Windows" xml:space="preserve">
+    <value>Управляется Windows</value>
+  </data>
+  <data name="LargeFiles_Cat_RecycleBin" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="LargeFiles_Cat_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="Timeline_High" xml:space="preserve">
+    <value>{0}: высокий уровень</value>
+  </data>
+  <data name="Timeline_High_Detail" xml:space="preserve">
+    <value>В среднем {0} за минуту (пик {1})</value>
+  </data>
+  <data name="Timeline_Source_Minutes" xml:space="preserve">
+    <value>Поминутная история</value>
+  </data>
+  <data name="Timeline_Normal" xml:space="preserve">
+    <value>{0}: снова в норме</value>
+  </data>
+  <data name="Timeline_Normal_Detail" xml:space="preserve">
+    <value>После {0} высокой активности (пик {1})</value>
+  </data>
+  <data name="Timeline_Source_Observed" xml:space="preserve">
+    <value>Наблюдалось Sysora</value>
+  </data>
+  <data name="Timeline_Was" xml:space="preserve">
+    <value>Было: {0}</value>
+  </data>
+  <data name="Timeline_HappenedBetween" xml:space="preserve">
+    <value>Произошло между {0} и {1}.</value>
+  </data>
+  <data name="Timeline_Source_Snapshots" xml:space="preserve">
+    <value>Обнаружено при сравнении снимков компьютера</value>
+  </data>
+  <data name="Trouble_Metric_MemoryAmount" xml:space="preserve">
+    <value>Используемая память (объем)</value>
+  </data>
+  <data name="Trouble_Metric_Disk" xml:space="preserve">
+    <value>Активное время диска (самый загруженный диск)</value>
+  </data>
+  <data name="Trouble_Likely" xml:space="preserve">
+    <value>Вероятно</value>
+  </data>
+  <data name="Trouble_Headline_Nothing" xml:space="preserve">
+    <value>Исследование завершено: ничего аномального не измерено</value>
+  </data>
+  <data name="Trouble_Headline_One" xml:space="preserve">
+    <value>Исследование завершено: найдена {0} аномалия</value>
+  </data>
+  <data name="Trouble_Headline_Other" xml:space="preserve">
+    <value>Исследование завершено: найдено {0} аномалии|Исследование завершено: найдено {0} аномалий</value>
+  </data>
+  <data name="Trouble_Summary_NoMeasurement" xml:space="preserve">
+    <value>Во время исследования не было сделано ни одного измерения (мониторинг приостановлен или компьютер спал).</value>
+  </data>
+  <data name="Trouble_Summary_Over" xml:space="preserve">
+    <value>{0} за {1}</value>
+  </data>
+  <data name="Trouble_Summary_Cpu" xml:space="preserve">
+    <value>: ЦП в среднем {0} (пик {1})</value>
+  </data>
+  <data name="Trouble_Summary_Memory" xml:space="preserve">
+    <value>, память {0} (пик {1})</value>
+  </data>
+  <data name="Trouble_Summary_Suggests" xml:space="preserve">
+    <value>Данные указывают: {0}</value>
+  </data>
+  <data name="Trouble_Summary_NoSingleApp" xml:space="preserve">
+    <value>Ни одно приложение по отдельности явно не объясняет аномалии.</value>
+  </data>
+  <data name="Trouble_Summary_Nothing" xml:space="preserve">
+    <value>Ничего аномального не измерено.</value>
+  </data>
+  <data name="Trouble_HighLoad" xml:space="preserve">
+    <value>Высокая нагрузка</value>
+  </data>
+  <data name="Trouble_HighLoad_Text" xml:space="preserve">
+    <value>{0} в {1} из {2} измерений ({3} времени)</value>
+  </data>
+  <data name="Trouble_Share_Cpu" xml:space="preserve">
+    <value>ЦП на уровне {0} и выше</value>
+  </data>
+  <data name="Trouble_Share_Memory" xml:space="preserve">
+    <value>Память на уровне {0} и выше</value>
+  </data>
+  <data name="Trouble_Share_Disk" xml:space="preserve">
+    <value>Диск активен {0} времени и больше</value>
+  </data>
+  <data name="Trouble_Alert" xml:space="preserve">
+    <value>Оповещение</value>
+  </data>
+  <data name="Trouble_Interruption" xml:space="preserve">
+    <value>Перерыв</value>
+  </data>
+  <data name="Trouble_DiagnosisAtEnd" xml:space="preserve">
+    <value>Диагностика в конце</value>
+  </data>
+  <data name="Trouble_HighCpu" xml:space="preserve">
+    <value>Высокая загрузка ЦП</value>
+  </data>
+  <data name="Trouble_HighCpu_Text" xml:space="preserve">
+    <value>{0} было самым активным приложением в {1} из {2} моментов высокой загрузки ЦП ({3} на пике)</value>
+  </data>
+  <data name="Trouble_BusyDisk" xml:space="preserve">
+    <value>Занятый диск</value>
+  </data>
+  <data name="Trouble_BusyDisk_Text" xml:space="preserve">
+    <value>У {0} было больше всего ввода-вывода (файлы, устройства и сеть вместе) в {1} из {2} моментов занятости диска</value>
+  </data>
+  <data name="Trouble_MemoryGrowth" xml:space="preserve">
+    <value>Рост памяти</value>
+  </data>
+  <data name="Trouble_MemoryGrowth_Text" xml:space="preserve">
+    <value>Используемая память выросла на {0}; из них {1} выросло на {2}</value>
+  </data>
+  <data name="Trouble_Game" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="Trouble_Game_Text" xml:space="preserve">
+    <value>{0} в {1}: высокая нагрузка после этого ожидаема</value>
+  </data>
+  <data name="Trouble_StartedDuring" xml:space="preserve">
+    <value>Запущено во время исследования</value>
+  </data>
+  <data name="Trouble_At" xml:space="preserve">
+    <value>{0} в {1}</value>
+  </data>
+  <data name="Trouble_Unknown_Temperatures" xml:space="preserve">
+    <value>Недоступно: в Windows нет документированного способа узнать их без драйвера ядра.</value>
+  </data>
+  <data name="Trouble_Unknown_Gpu" xml:space="preserve">
+    <value>Недоступно на этом компьютере (или мониторинг GPU отключен).</value>
+  </data>
+  <data name="Trouble_Applications" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="Trouble_Unknown_Applications" xml:space="preserve">
+    <value>Недоступно: во время исследования не было измерений процессов.</value>
+  </data>
+  <data name="Trouble_NetworkPerApp" xml:space="preserve">
+    <value>Сеть по приложениям</value>
+  </data>
+  <data name="Trouble_Unknown_Network" xml:space="preserve">
+    <value>Недоступно: Windows не сообщает это без трассировки событий с правами администратора.</value>
+  </data>
+  <data name="Trouble_Fps" xml:space="preserve">
+    <value>Частота кадров (FPS)</value>
+  </data>
+  <data name="Trouble_Unknown_Fps" xml:space="preserve">
+    <value>Недоступно: Windows не дает другим приложениям надежного источника.</value>
+  </data>
+  <data name="Trouble_InsideApps" xml:space="preserve">
+    <value>Внутри приложений</value>
+  </data>
+  <data name="Trouble_Unknown_Inside" xml:space="preserve">
+    <value>То, что приложение делает внутри (почему оно использует ресурсы), извне наблюдать нельзя.</value>
+  </data>
+  <data name="Trouble_Rec_Cpu" xml:space="preserve">
+    <value>Если замедление совпадало с моментами, когда {0} было активно, закройте его или дайте ему завершить задачу, а затем запустите новое исследование для сравнения.</value>
+  </data>
+  <data name="Trouble_Rec_Memory" xml:space="preserve">
+    <value>Временами память была почти заполнена: закройте ненужные приложения. Если это происходит часто, поможет больше памяти.</value>
+  </data>
+  <data name="Trouble_Rec_Disk" xml:space="preserve">
+    <value>Временами диск был очень занят: дайте завершиться обновлениям или копированию. «Влияние приложений» показывает, какие приложения больше всего читают и записывают.</value>
+  </data>
+  <data name="Trouble_Rec_Nothing" xml:space="preserve">
+    <value>Ничего аномального не измерено. Если проблема возникла во время исследования, она может не отражаться в этих измерениях (сетевые задержки, просадки кадров, сбой устройства); иначе запустите новое исследование, когда проблема появится.</value>
+  </data>
+  <data name="Trouble_Rec_Export" xml:space="preserve">
+    <value>Экспортируйте отчет, чтобы сохранить его или передать тому, кто вам помогает.</value>
+  </data>
+  <data name="Trouble_Event_Started" xml:space="preserve">
+    <value>Начато устранение неполадок ({0})</value>
+  </data>
+  <data name="Trouble_Event_StartedDetail" xml:space="preserve">
+    <value>Подробный сбор до конца исследования.</value>
+  </data>
+  <data name="AlertStatus_New" xml:space="preserve">
+    <value>Новое</value>
+  </data>
+  <data name="AlertStatus_Seen" xml:space="preserve">
+    <value>Просмотрено</value>
+  </data>
+  <data name="AlertStatus_Resolved" xml:space="preserve">
+    <value>Устранено</value>
+  </data>
+  <data name="Importance_High" xml:space="preserve">
+    <value>Высокая</value>
+  </data>
+  <data name="Importance_Medium" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="Importance_Low" xml:space="preserve">
+    <value>Низкая</value>
+  </data>
+  <data name="TimelineCat_Application" xml:space="preserve">
+    <value>Приложение</value>
+  </data>
+  <data name="TimelineCat_Game" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="TimelineCat_Alert" xml:space="preserve">
+    <value>Оповещение</value>
+  </data>
+  <data name="TimelineCat_Anomaly" xml:space="preserve">
+    <value>Аномалия</value>
+  </data>
+  <data name="TimelineCat_Change" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="TimelineCat_System" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="TimelineCat_Investigation" xml:space="preserve">
+    <value>Исследование</value>
+  </data>
+  <data name="TimelineCat_Monitoring" xml:space="preserve">
+    <value>Мониторинг</value>
+  </data>
+  <data name="ImpactPeriod_Session" xml:space="preserve">
+    <value>Этот сеанс</value>
+  </data>
+  <data name="ImpactPeriod_24Hours" xml:space="preserve">
+    <value>Последние 24 часа</value>
+  </data>
+  <data name="ImpactPeriod_7Days" xml:space="preserve">
+    <value>Последние 7 дней</value>
+  </data>
+  <data name="TroubleEnd_Completed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="TroubleEnd_Stopped" xml:space="preserve">
+    <value>Остановлено вами</value>
+  </data>
+  <data name="TroubleEnd_Closed" xml:space="preserve">
+    <value>Sysora была закрыта</value>
+  </data>
+  <data name="GameFinding_Anomaly" xml:space="preserve">
+    <value>Аномалия</value>
+  </data>
+  <data name="GameFinding_Analysis" xml:space="preserve">
+    <value>Анализ</value>
+  </data>
+  <data name="GameFinding_Comparison" xml:space="preserve">
+    <value>Сравнение</value>
+  </data>
+  <data name="Report_Limit_Temperatures" xml:space="preserve">
+    <value>Температуры: недоступно (в Windows нет документированного способа узнать их без драйвера ядра).</value>
+  </data>
+  <data name="Report_Areas" xml:space="preserve">
+    <value>Области</value>
+  </data>
+  <data name="Report_Col_Area" xml:space="preserve">
+    <value>Область</value>
+  </data>
+  <data name="Report_Col_State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Report_Col_ImpactScore" xml:space="preserve">
+    <value>Влияние на оценку</value>
+  </data>
+  <data name="Report_Col_Measured" xml:space="preserve">
+    <value>Измерено</value>
+  </data>
+  <data name="Report_Score" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="Report_PcHealth" xml:space="preserve">
+    <value>Состояние ПК</value>
+  </data>
+  <data name="Report_WhatLowers" xml:space="preserve">
+    <value>Что ее снижает</value>
+  </data>
+  <data name="Report_HowComputed" xml:space="preserve">
+    <value>Как она рассчитывается</value>
+  </data>
+  <data name="Report_Problems" xml:space="preserve">
+    <value>Проблемы</value>
+  </data>
+  <data name="Report_PointsToWatch" xml:space="preserve">
+    <value>Пункты для наблюдения</value>
+  </data>
+  <data name="Report_CheckedNormal" xml:space="preserve">
+    <value>Проверено, в норме</value>
+  </data>
+  <data name="Report_Col_Finding" xml:space="preserve">
+    <value>Вывод</value>
+  </data>
+  <data name="Report_Col_Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Report_Col_ComparedWith" xml:space="preserve">
+    <value>По сравнению с</value>
+  </data>
+  <data name="Report_Col_Confidence" xml:space="preserve">
+    <value>Достоверность</value>
+  </data>
+  <data name="Report_Col_Explanation" xml:space="preserve">
+    <value>Объяснение</value>
+  </data>
+  <data name="Report_ComparedUsual" xml:space="preserve">
+    <value>По сравнению с вашей обычной активностью</value>
+  </data>
+  <data name="Report_Col_Metric" xml:space="preserve">
+    <value>Метрика</value>
+  </data>
+  <data name="Report_Diagnosis" xml:space="preserve">
+    <value>Диагностика</value>
+  </data>
+  <data name="Report_Analyzed_One" xml:space="preserve">
+    <value>Проанализировано {0} измерение.</value>
+  </data>
+  <data name="Report_Analyzed_Other" xml:space="preserve">
+    <value>Проанализировано {0} измерения.|Проанализировано {0} измерений.</value>
+  </data>
+  <data name="Report_WhyNowTitle" xml:space="preserve">
+    <value>Почему сейчас? {0}</value>
+  </data>
+  <data name="Report_WhatHappened" xml:space="preserve">
+    <value>Что произошло</value>
+  </data>
+  <data name="Report_Statements" xml:space="preserve">
+    <value>Утверждения и на чем они основаны</value>
+  </data>
+  <data name="Report_EventsSameTime" xml:space="preserve">
+    <value>Одновременные события</value>
+  </data>
+  <data name="Report_CoincidenceNotProof" xml:space="preserve">
+    <value>Совпадение во времени не доказывает причину.</value>
+  </data>
+  <data name="Report_NotMeasured" xml:space="preserve">
+    <value>{0}: не измерялось в этот период.</value>
+  </data>
+  <data name="Report_Replay" xml:space="preserve">
+    <value>Повтор производительности</value>
+  </data>
+  <data name="Report_Measurements" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="Report_Col_Average" xml:space="preserve">
+    <value>Среднее</value>
+  </data>
+  <data name="Report_Col_Peak" xml:space="preserve">
+    <value>Пик</value>
+  </data>
+  <data name="Report_Col_Lowest" xml:space="preserve">
+    <value>Минимум</value>
+  </data>
+  <data name="Report_Events" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Report_GameTitle" xml:space="preserve">
+    <value>Игровой сеанс: {0}</value>
+  </data>
+  <data name="Report_Session" xml:space="preserve">
+    <value>Сеанс</value>
+  </data>
+  <data name="Report_IdentifiedAsGame" xml:space="preserve">
+    <value>Определено как игра</value>
+  </data>
+  <data name="Report_Coverage" xml:space="preserve">
+    <value>Охват</value>
+  </data>
+  <data name="Report_Col_Maximum" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="Report_Col_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Report_Findings" xml:space="preserve">
+    <value>Выводы</value>
+  </data>
+  <data name="Report_Col_HowToRead" xml:space="preserve">
+    <value>Как читать</value>
+  </data>
+  <data name="Report_Col_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Report_ComparedPrevious" xml:space="preserve">
+    <value>По сравнению с предыдущими сеансами</value>
+  </data>
+  <data name="Report_Col_ThisSession" xml:space="preserve">
+    <value>Этот сеанс</value>
+  </data>
+  <data name="Report_Col_Previous" xml:space="preserve">
+    <value>Предыдущие</value>
+  </data>
+  <data name="Report_Col_Difference" xml:space="preserve">
+    <value>Разница</value>
+  </data>
+  <data name="Report_AppImpact" xml:space="preserve">
+    <value>Влияние приложений</value>
+  </data>
+  <data name="Report_Impact_None" xml:space="preserve">
+    <value>За этот период использование приложений не записано.</value>
+  </data>
+  <data name="Report_Impact_Highest" xml:space="preserve">
+    <value>Наибольшее влияние: {0} ({1}). {2}</value>
+  </data>
+  <data name="Report_Applications" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="Report_Col_Application" xml:space="preserve">
+    <value>Приложение</value>
+  </data>
+  <data name="Report_Col_Impact" xml:space="preserve">
+    <value>Влияние</value>
+  </data>
+  <data name="Report_Col_CpuAvg" xml:space="preserve">
+    <value>ЦП (сред.)</value>
+  </data>
+  <data name="Report_Col_MemoryAvg" xml:space="preserve">
+    <value>Память (сред.)</value>
+  </data>
+  <data name="Report_Col_IoAvg" xml:space="preserve">
+    <value>Ввод-вывод (сред.)</value>
+  </data>
+  <data name="Report_Col_Running" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+  <data name="Report_HowScoreComputed" xml:space="preserve">
+    <value>Как рассчитывается оценка</value>
+  </data>
+  <data name="Report_Impact_IoLimit" xml:space="preserve">
+    <value>Ввод-вывод диска по приложению объединяет файлы, устройства и сеть: Windows их не разделяет.</value>
+  </data>
+  <data name="Report_Period" xml:space="preserve">
+    <value>Период: {0}</value>
+  </data>
+  <data name="Report_Alerts" xml:space="preserve">
+    <value>Оповещения</value>
+  </data>
+  <data name="Report_Alerts_None" xml:space="preserve">
+    <value>Оповещения не записаны.</value>
+  </data>
+  <data name="Report_Alerts_Summary" xml:space="preserve">
+    <value>{0}, еще активны: {1}.</value>
+  </data>
+  <data name="Report_Col_Raised" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="Report_Col_Alert" xml:space="preserve">
+    <value>Оповещение</value>
+  </data>
+  <data name="Report_Col_Severity" xml:space="preserve">
+    <value>Серьезность</value>
+  </data>
+  <data name="Report_Col_Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Report_Alerts_Note" xml:space="preserve">
+    <value>Оповещения создаются только для проблем, которые длятся или необычны для этого компьютера, — не более нескольких в час.</value>
+  </data>
+  <data name="Report_SinceYesterday" xml:space="preserve">
+    <value>Со вчерашнего дня</value>
+  </data>
+  <data name="Report_Col_Change" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="Report_Col_Importance" xml:space="preserve">
+    <value>Важность</value>
+  </data>
+  <data name="Report_Col_When" xml:space="preserve">
+    <value>Когда</value>
+  </data>
+  <data name="Report_Unchanged" xml:space="preserve">
+    <value>Без изменений: {0}</value>
+  </data>
+  <data name="Report_NotCompared" xml:space="preserve">
+    <value>Не сравнивается: {0}</value>
+  </data>
+  <data name="Report_DetectedChanges" xml:space="preserve">
+    <value>Обнаруженные изменения</value>
+  </data>
+  <data name="Report_Col_Origin" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Report_Changes" xml:space="preserve">
+    <value>Изменения</value>
+  </data>
+  <data name="Report_Changes_None" xml:space="preserve">
+    <value>Изменения не записаны.</value>
+  </data>
+  <data name="Report_Changes_One" xml:space="preserve">
+    <value>Обнаружено {0} изменение при сравнении снимков компьютера.</value>
+  </data>
+  <data name="Report_Changes_Other" xml:space="preserve">
+    <value>Обнаружено {0} изменения при сравнении снимков компьютера.|Обнаружено {0} изменений при сравнении снимков компьютера.</value>
+  </data>
+  <data name="Report_Changes_Limit" xml:space="preserve">
+    <value>Драйверы, службы, запланированные задачи и отдельные файлы не сравниваются.</value>
+  </data>
+  <data name="Report_Changes_Note" xml:space="preserve">
+    <value>Изменение датируется промежутком между двумя снимками, если его установщик не записал дату. Если источник нельзя наблюдать, это указывается.</value>
+  </data>
+  <data name="Report_ComparisonTitle" xml:space="preserve">
+    <value>Сравнение: {0} → {1}</value>
+  </data>
+  <data name="Report_BeforeAfter" xml:space="preserve">
+    <value>До / после</value>
+  </data>
+  <data name="Report_Col_Evolution" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="Report_Col_Relative" xml:space="preserve">
+    <value>Относительно</value>
+  </data>
+  <data name="Report_Timeline" xml:space="preserve">
+    <value>Хронология</value>
+  </data>
+  <data name="Report_Timeline_Summary" xml:space="preserve">
+    <value>{0} между {1} и {2}.</value>
+  </data>
+  <data name="Count_Entry_One" xml:space="preserve">
+    <value>{0} запись</value>
+  </data>
+  <data name="Count_Entry_Other" xml:space="preserve">
+    <value>{0} записи|{0} записей</value>
+  </data>
+  <data name="Report_Entries" xml:space="preserve">
+    <value>Записи</value>
+  </data>
+  <data name="Report_Col_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Report_Col_Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Report_Col_Entry" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="Report_Col_Detail" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="Report_Col_Source" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Report_Timeline_Note" xml:space="preserve">
+    <value>Время указано так, как его наблюдала Sysora. Изменение, найденное при сравнении снимков (≈), произошло не позже указанного времени.</value>
+  </data>
+  <data name="Report_Troubleshooting" xml:space="preserve">
+    <value>Исследование для устранения неполадок</value>
+  </data>
+  <data name="Report_Anomalies" xml:space="preserve">
+    <value>Аномалии</value>
+  </data>
+  <data name="Report_NoneMeasured" xml:space="preserve">
+    <value>Не измерено.</value>
+  </data>
+  <data name="Report_Correlations" xml:space="preserve">
+    <value>Корреляции и вероятные объяснения</value>
+  </data>
+  <data name="Report_AppsInvolved" xml:space="preserve">
+    <value>Причастные приложения</value>
+  </data>
+  <data name="Report_Col_CpuPeak" xml:space="preserve">
+    <value>ЦП (пик)</value>
+  </data>
+  <data name="Report_Col_MemoryPeak" xml:space="preserve">
+    <value>Память (пик)</value>
+  </data>
+  <data name="Report_Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="Report_Recommendations" xml:space="preserve">
+    <value>Рекомендации</value>
+  </data>
+  <data name="Report_Trouble_Ended" xml:space="preserve">
+    <value>Завершено: {0}. Запланированная длительность {1}.</value>
+  </data>
+  <data name="Report_Trouble_Collected" xml:space="preserve">
+    <value>Собрано с подробной интенсивностью мониторинга.</value>
+  </data>
+  <data name="Report_Large_Denied" xml:space="preserve">
+    <value>{0}; их содержимое неизвестно. Примеры: {1}</value>
+  </data>
+  <data name="Report_Large_Unavailable_One" xml:space="preserve">
+    <value>{0} папка была недоступна во время сканирования.</value>
+  </data>
+  <data name="Report_Large_Unavailable_Other" xml:space="preserve">
+    <value>{0} папки были недоступны во время сканирования.|{0} папок были недоступны во время сканирования.</value>
+  </data>
+  <data name="Report_Large_NotScanned" xml:space="preserve">
+    <value>Не сканировалось: {0} ({1})</value>
+  </data>
+  <data name="Report_LargeFiles" xml:space="preserve">
+    <value>Большие файлы</value>
+  </data>
+  <data name="Report_LargestFiles" xml:space="preserve">
+    <value>Самые большие файлы</value>
+  </data>
+  <data name="Report_Large_ReadOnly" xml:space="preserve">
+    <value>Sysora только перечисляет файлы; она никогда их не перемещает, не изменяет и не удаляет.</value>
+  </data>
+  <data name="Report_Col_File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Report_Col_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Report_Col_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Report_Col_Modified" xml:space="preserve">
+    <value>Изменен</value>
+  </data>
+  <data name="Report_Col_Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Report_ByType" xml:space="preserve">
+    <value>По типу</value>
+  </data>
+  <data name="Report_ByFolder" xml:space="preserve">
+    <value>По папке</value>
+  </data>
+  <data name="Report_Large_Scanned" xml:space="preserve">
+    <value>Просканировано: {0}; минимальный размер {1}.</value>
+  </data>
+  <data name="Report_Large_Counts" xml:space="preserve">
+    <value>{0} в {1}; не отслежено: {2}; пропущено: {3}.</value>
+  </data>
+  <data name="Count_Link_One" xml:space="preserve">
+    <value>{0} ссылка</value>
+  </data>
+  <data name="Count_Link_Other" xml:space="preserve">
+    <value>{0} ссылки|{0} ссылок</value>
+  </data>
+  <data name="Count_CloudFile_One" xml:space="preserve">
+    <value>{0} файл только в сети</value>
+  </data>
+  <data name="Count_CloudFile_Other" xml:space="preserve">
+    <value>{0} файла только в сети|{0} файлов только в сети</value>
+  </data>
+  <data name="Report_Col_Group" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="Report_Col_Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="Report_Col_TotalSize" xml:space="preserve">
+    <value>Общий размер</value>
+  </data>
+  <data name="Report_OsVersion" xml:space="preserve">
+    <value>{0}{1} (сборка {2}, {3})</value>
+  </data>
+  <data name="Report_Html_Generated" xml:space="preserve">
+    <value>Создано {0} · Sysora {1}</value>
+  </data>
+  <data name="Report_Html_Period" xml:space="preserve">
+    <value>Анализируемый период: {0} – {1}</value>
+  </data>
+  <data name="Report_Html_ThisPc" xml:space="preserve">
+    <value>Этот компьютер</value>
+  </data>
+  <data name="Report_Html_Os" xml:space="preserve">
+    <value>Операционная система</value>
+  </data>
+  <data name="Report_Html_Processor" xml:space="preserve">
+    <value>Процессор</value>
+  </data>
+  <data name="Report_Html_Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="Report_Html_Graphics" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="Report_Html_NeverEstimates" xml:space="preserve">
+    <value>Sysora никогда не заменяет отсутствующее измерение предположением.</value>
+  </data>
+  <data name="Report_Html_Notes" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="Report_Html_Footer" xml:space="preserve">
+    <value>Создано локально в Sysora: каждое значение получено с этого компьютера. Наблюдается = измерено; Предполагается = выведено из измерений (не доказано); Неизвестно = нельзя наблюдать.</value>
+  </data>
+  <data name="App_LongDescription" xml:space="preserve">
+    <value>Sysora — локальная панель, которая в реальном времени отслеживает производительность, процессы, диски, сетевую активность и состояние системы и объясняет, что она измеряет: почему компьютер работает медленно, что изменилось и какие приложения нагружают его больше всего.</value>
+  </data>
+  <data name="Process_Exited" xml:space="preserve">
+    <value>Процесс завершился.</value>
+  </data>
+  <data name="Process_CoreWindows" xml:space="preserve">
+    <value>Это основной процесс Windows, его нельзя завершить.</value>
+  </data>
+  <data name="Process_UseExit" xml:space="preserve">
+    <value>Чтобы закрыть Sysora, используйте команду «Выход».</value>
+  </data>
+  <data name="Process_AccessDeniedEnd" xml:space="preserve">
+    <value>Доступ запрещен. Для завершения этого процесса нужны права администратора.</value>
+  </data>
+  <data name="Process_AlreadyExited" xml:space="preserve">
+    <value>Процесс уже завершился.</value>
+  </data>
+  <data name="Process_Critical" xml:space="preserve">
+    <value>Это критический системный процесс. Его завершение остановит Windows.</value>
+  </data>
+  <data name="Process_EndFailed" xml:space="preserve">
+    <value>Windows не удалось завершить процесс (ошибка {0}).</value>
+  </data>
+  <data name="Process_AccessDeniedView" xml:space="preserve">
+    <value>Доступ запрещен. Для просмотра этих сведений нужны права администратора.</value>
+  </data>
+  <data name="Process_WindowsError" xml:space="preserve">
+    <value>Недоступно (ошибка Windows {0}).</value>
+  </data>
+  <data name="LargeFiles_Excl_Svi" xml:space="preserve">
+    <value>Точки восстановления и данные тома, зарезервированные для Windows (недоступны для чтения).</value>
+  </data>
+  <data name="LargeFiles_Excl_WinSxS" xml:space="preserve">
+    <value>Хранилище компонентов Windows: его файлы — жесткие ссылки, общие с остальной Windows, поэтому их размер был бы учтен дважды.</value>
+  </data>
+  <data name="History_InMemory" xml:space="preserve">
+    <value>В памяти (демонстрационный режим: на диск ничего не записывается)</value>
+  </data>
+  <data name="Game_Detect_Confirmed" xml:space="preserve">
+    <value>Вы подтвердили эту игру ({0}).</value>
+  </data>
+  <data name="Game_Detect_Launcher" xml:space="preserve">
+    <value>{0} сообщает, что {1} установлена в этой папке.</value>
+  </data>
+</root>
