@@ -242,6 +242,19 @@ public sealed class LauncherGameTests : IDisposable
     }
 
     [Fact]
+    public void AConfirmedGameInADriveRootDoesNotMakeEveryProgramOfTheDriveAGame()
+    {
+        var settings = new GamingSettings
+        {
+            DetectLauncherGames = false,
+            DetectLibraryGames = false,
+            ConfirmedGames = [new ConfirmedGame("Riot:valorant.live", "VALORANT", @"D:\")],
+        };
+
+        Assert.Null(GameClassifier.Classify(@"D:\Tools\paint.exe", settings, new HashSet<string>(), InstalledGameIndex.Empty));
+    }
+
+    [Fact]
     public void NotAGameWinsOverEveryDetection()
     {
         var index = new InstalledGameIndex([new InstalledGame(GameLauncher.Steam, "730", "Counter-Strike 2", @"D:\Lib\cs2")]);

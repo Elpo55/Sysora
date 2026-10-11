@@ -208,7 +208,7 @@ public static class GameRecapBuilder
 
         if (findings.FirstOrDefault(f => f.Severity >= DiagnosisSeverity.Info) is { } first)
         {
-            parts.Add(first.Qualifier is { } qualifier ? Text.Format(Strings.Game_Summary_Qualified, qualifier, Lower(first.Title)) : $"{first.Title}.");
+            parts.Add(first.Qualifier is { } qualifier ? Text.Format(Strings.Game_Summary_Qualified, qualifier, Text.InSentence(first.Title)) : $"{first.Title}.");
         }
         else
         {
@@ -636,8 +636,6 @@ public static class GameRecapBuilder
         $"{(difference >= TimeSpan.Zero ? "+" : "−")}{MetricFormatter.DurationCompact(difference.Duration())}";
 
     private static string Time(DateTimeOffset time) => time.ToLocalTime().ToString("t", CultureInfo.CurrentCulture);
-
-    private static string Lower(string text) => text.Length > 0 ? char.ToLowerInvariant(text[0]) + text[1..] : text;
 
     private static string Interruptions(int count) =>
         Text.Plural(count, Strings.Count_Interruption_One, Strings.Count_Interruption_Other);

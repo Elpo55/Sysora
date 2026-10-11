@@ -1089,26 +1089,14 @@
   <data name="Insight_Kind_Unusual" xml:space="preserve">
     <value>activité inhabituelle</value>
   </data>
-  <data name="Insight_Repeated" xml:space="preserve">
-    <value>C'est la {0} alerte « {1} » des dernières 24 heures (la plus récente : {2}).</value>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} alerte « {1} » ces dernières 24 heures (la plus récente : {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} alertes « {1} » ces dernières 24 heures (la plus récente : {2}).</value>
   </data>
   <data name="Insight_WithinUsual" xml:space="preserve">
     <value>L'utilisation du processeur et de la mémoire est dans votre plage habituelle pour ce PC.</value>
-  </data>
-  <data name="Ordinal_2" xml:space="preserve">
-    <value>2e</value>
-  </data>
-  <data name="Ordinal_3" xml:space="preserve">
-    <value>3e</value>
-  </data>
-  <data name="Ordinal_4" xml:space="preserve">
-    <value>4e</value>
-  </data>
-  <data name="Ordinal_5" xml:space="preserve">
-    <value>5e</value>
-  </data>
-  <data name="Ordinal_N" xml:space="preserve">
-    <value>{0}e</value>
   </data>
   <data name="Insight_LargestConsumer" xml:space="preserve">
     <value>{0} est actuellement le plus gros consommateur de ressources ({1} de processeur, {2})</value>

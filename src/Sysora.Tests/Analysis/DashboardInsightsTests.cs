@@ -119,10 +119,25 @@ public sealed class DashboardInsightsTests
             TestData.Alert("disk.busy", now.AddHours(-30), lasted: TimeSpan.FromMinutes(5)),
         };
 
-        var insight = Assert.Single(DashboardInsights.Build(Report(recent), alerts, recent, UsageBaseline.Empty), i => i.Text.StartsWith("This is the", StringComparison.Ordinal));
+        var insight = Assert.Single(DashboardInsights.Build(Report(recent), alerts, recent, UsageBaseline.Empty), i => i.Text.Contains("in the last 24 hours", StringComparison.Ordinal));
 
-        Assert.Equal("This is the third busy disk alert in the last 24 hours (latest: Disk C: busy for 5m).", insight.Text);
+        Assert.Equal("3 busy disk alerts in the last 24 hours (latest: Disk C: busy for 5m).", insight.Text);
         Assert.Equal(DiagnosisAction.Alerts, insight.Action);
+    }
+
+    [Fact]
+    public void ManyRepeatedAlerts_AreCountedWithoutOrdinals()
+    {
+        var recent = TestData.Series(T0, 60, _ => 10);
+        var now = recent[^1].Timestamp;
+        var alerts = Enumerable.Range(0, 21)
+            .Select(i => TestData.Alert("disk.busy", now.AddMinutes(-60 * (i + 1)), lasted: TimeSpan.FromMinutes(3), title: "Disk C: busy for 3m"))
+            .ToArray();
+
+        var insight = Assert.Single(DashboardInsights.Build(Report(recent), alerts, recent, UsageBaseline.Empty), i => i.Text.Contains("in the last 24 hours", StringComparison.Ordinal));
+
+        // Ordinals such as "21th" were wrong past the 20th alert.
+        Assert.Equal("21 busy disk alerts in the last 24 hours (latest: Disk C: busy for 3m).", insight.Text);
     }
 
     [Fact]

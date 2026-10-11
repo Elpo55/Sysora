@@ -95,7 +95,7 @@ public sealed partial class SettingsViewModel : PageViewModel
     /// <summary>"Windows language (Français)", then every supported language in its own name.</summary>
     public IReadOnlyList<string> Languages { get; } =
     [
-        Text.Format(UiStrings.Settings_Language_System, AppLanguage.Resolve(AppLanguage.System, System.Globalization.CultureInfo.InstalledUICulture).NativeName is { Length: > 0 } native ? char.ToUpper(native[0], System.Globalization.CultureInfo.CurrentCulture) + native[1..] : string.Empty),
+        Text.Format(UiStrings.Settings_Language_System, AppLanguage.Find(AppLanguage.Resolve(AppLanguage.System, System.Globalization.CultureInfo.InstalledUICulture).Name)?.NativeName ?? AppLanguage.Supported[0].NativeName),
         .. AppLanguage.Supported.Select(l => l.NativeName),
     ];
 

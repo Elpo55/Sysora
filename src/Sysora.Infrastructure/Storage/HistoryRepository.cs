@@ -434,10 +434,9 @@ public sealed class HistoryRepository : IHistoryRepository, IAsyncDisposable, ID
         }
         finally
         {
+            // The gate itself is not disposed: an operation queued before this call still releases it after failing.
             _gate.Release();
         }
-
-        _gate.Dispose();
     }
 
     public ValueTask DisposeAsync()
@@ -453,6 +452,8 @@ public sealed class HistoryRepository : IHistoryRepository, IAsyncDisposable, ID
         await _gate.WaitAsync(cancellationToken).ConfigureAwait(false);
         try
         {
+            // Queued before the repository was disposed: never open the database again once it is closed.
+            ObjectDisposedException.ThrowIf(_disposed, this);
             return await Task.Run(() => work(EnsureOpen()), cancellationToken).ConfigureAwait(false);
         }
         catch (SqliteException ex) when (_filePath is not null && ex.SqliteErrorCode is 11 or 26)

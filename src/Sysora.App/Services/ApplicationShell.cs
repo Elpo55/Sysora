@@ -235,6 +235,8 @@ public sealed partial class ApplicationShell : IDisposable
 
         if (!_settings.Current.General.TrayHintShown)
         {
+            // Clicking this hint only shows the window, not the page of an earlier notification.
+            SetBalloonTarget(null);
             _tray?.ShowInfo(UiStrings.Tray_StillRunning, UiStrings.Tray_StillRunningText);
             _settings.Update(s => s with { General = s.General with { TrayHintShown = true } });
         }
@@ -297,8 +299,7 @@ public sealed partial class ApplicationShell : IDisposable
         var session = recap.Session;
         _dispatcher.TryEnqueue(() =>
         {
-            _balloonPage = AppPage.Gaming;
-            _balloonSession = session.Id;
+            SetBalloonTarget(AppPage.Gaming, session: session.Id);
             _tray?.ShowInfo(Text.Format(UiStrings.Tray_GameRecap, session.Name), Text.Format(UiStrings.Tray_GameRecapText, MetricFormatter.DurationPrecise(session.Duration), recap.Headline));
         });
     }
@@ -318,13 +319,19 @@ public sealed partial class ApplicationShell : IDisposable
                 return;
             }
 
-            _balloonPage = AppPage.Troubleshooting;
-            _balloonSession = null;
-            _balloonInvestigation = report.Id;
+            SetBalloonTarget(AppPage.Troubleshooting, investigation: report.Id);
             var headline = report.Headline;
             var colon = headline.IndexOf(':', StringComparison.Ordinal);
             _tray?.ShowInfo(UiStrings.Tray_InvestigationComplete, Text.Format(UiStrings.Tray_InvestigationText, colon > 0 ? headline[(colon + 1)..].Trim() : headline));
         });
+    }
+
+    /// <summary>What clicking the next notification opens (only the window when <paramref name="page"/> is null).</summary>
+    private void SetBalloonTarget(AppPage? page, Guid? session = null, Guid? investigation = null)
+    {
+        _balloonPage = page;
+        _balloonSession = session;
+        _balloonInvestigation = investigation;
     }
 
     private void OnBalloonClicked()
@@ -394,8 +401,7 @@ public sealed partial class ApplicationShell : IDisposable
 
         _dispatcher.TryEnqueue(() =>
         {
-            _balloonPage = AppPage.Alerts;
-            _balloonSession = null;
+            SetBalloonTarget(AppPage.Alerts);
             _tray?.ShowInfo(alert.Title, Text.Format(UiStrings.Tray_AlertText, alert.Value));
         });
     }

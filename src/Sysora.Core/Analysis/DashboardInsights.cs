@@ -137,7 +137,7 @@ public static class DashboardInsights
         if (health is { Score: { } score, Grade: PcHealthGrade.NeedsAttention or PcHealthGrade.Poor }
             && health.Components.Where(c => c.Penalty > 0).MaxBy(c => c.Penalty) is { } lowest)
         {
-            insights.Add(new Insight(Text.Format(Strings.Insight_Health, score, LowerFirst(lowest.Name), lowest.Summary), DiagnosisSeverity.Info, DiagnosisAction.PcHealth));
+            insights.Add(new Insight(Text.Format(Strings.Insight_Health, score, Text.InSentence(lowest.Name), lowest.Summary), DiagnosisSeverity.Info, DiagnosisAction.PcHealth));
         }
 
         if (Compared(recent, baseline) is { } comparison)
@@ -239,7 +239,7 @@ public static class DashboardInsights
         };
     }
 
-    /// <summary>"This is the third busy disk alert in the last 24 hours", when a kind of alert repeats.</summary>
+    /// <summary>"3 busy disk alerts in the last 24 hours", when a kind of alert repeats.</summary>
     private static Insight? Repeated(IReadOnlyList<Alert> alerts, DateTimeOffset now)
     {
         var group = alerts
@@ -265,7 +265,7 @@ public static class DashboardInsights
             "storage.low" => Strings.Insight_Kind_LowSpace,
             _ => Strings.Insight_Kind_Unusual,
         };
-        return new Insight(Text.Format(Strings.Insight_Repeated, Ordinal(group.Count()), kind, newest.Title), DiagnosisSeverity.Info, DiagnosisAction.Alerts)
+        return new Insight(Text.Plural(group.Count(), Strings.Insight_Repeated_One, Strings.Insight_Repeated_Other, kind, newest.Title), DiagnosisSeverity.Info, DiagnosisAction.Alerts)
         {
             AppKey = newest.AppKey,
         };
@@ -290,21 +290,6 @@ public static class DashboardInsights
 
         return new Insight(Strings.Insight_WithinUsual, DiagnosisSeverity.Normal, DiagnosisAction.None) { IsNote = true };
     }
-
-    private static string Ordinal(int value) => value switch
-    {
-        2 => Strings.Ordinal_2,
-        3 => Strings.Ordinal_3,
-        4 => Strings.Ordinal_4,
-        5 => Strings.Ordinal_5,
-        _ => Text.Format(Strings.Ordinal_N, value),
-    };
-
-    /// <summary>"Memory" → "memory" inside a sentence; acronyms ("GPU") are kept as they are.</summary>
-    private static string LowerFirst(string text) =>
-        text.Length > 1 && char.IsUpper(text[0]) && char.IsLower(text[1])
-            ? char.ToLower(text[0], CultureInfo.CurrentCulture) + text[1..]
-            : text;
 
     /// <summary>The application using the most resources now, when it is significant.</summary>
     private static Insight? LargestConsumer(IReadOnlyList<MetricSnapshot> recent)
