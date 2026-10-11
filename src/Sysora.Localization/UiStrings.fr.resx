@@ -649,7 +649,7 @@
     <value>Rechercher par nom ou dossier</value>
   </data>
   <data name="LargeFiles_Modified" xml:space="preserve">
-    <value> · modifié le</value>
+    <value> · modifié le </value>
   </data>
   <data name="LargeFiles_ShowInFileExplorer" xml:space="preserve">
     <value>Afficher dans l'Explorateur de fichiers</value>
