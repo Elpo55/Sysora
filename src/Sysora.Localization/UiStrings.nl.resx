@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Shell_SysoraWasStartedWithDemoEveryValueOnScreenIs" xml:space="preserve">
+    <value>Sysora is gestart met --demo: elke waarde op het scherm is gesimuleerd.</value>
+  </data>
+  <data name="Shell_DEMOMODESimulatedData" xml:space="preserve">
+    <value>DEMOMODUS · gesimuleerde gegevens</value>
+  </data>
+  <data name="Shell_MonitoringPaused" xml:space="preserve">
+    <value>Bewaking gepauzeerd</value>
+  </data>
+  <data name="Common_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Common_PCHealth" xml:space="preserve">
+    <value>Pc-gezondheid</value>
+  </data>
+  <data name="Common_Timeline" xml:space="preserve">
+    <value>Tijdlijn</value>
+  </data>
+  <data name="Shell_Investigate" xml:space="preserve">
+    <value>Onderzoeken</value>
+  </data>
+  <data name="Common_Diagnosis" xml:space="preserve">
+    <value>Diagnose</value>
+  </data>
+  <data name="Common_Troubleshooting" xml:space="preserve">
+    <value>Probleemoplossing</value>
+  </data>
+  <data name="Shell_InvestigationInProgress" xml:space="preserve">
+    <value>Onderzoek bezig</value>
+  </data>
+  <data name="Common_Replay" xml:space="preserve">
+    <value>Terugblik</value>
+  </data>
+  <data name="Common_Compare" xml:space="preserve">
+    <value>Vergelijken</value>
+  </data>
+  <data name="Common_AppImpact" xml:space="preserve">
+    <value>App-impact</value>
+  </data>
+  <data name="Common_Changes" xml:space="preserve">
+    <value>Wijzigingen</value>
+  </data>
+  <data name="Common_Alerts" xml:space="preserve">
+    <value>Waarschuwingen</value>
+  </data>
+  <data name="Shell_NewAlerts" xml:space="preserve">
+    <value>Nieuwe waarschuwingen</value>
+  </data>
+  <data name="Common_Gaming" xml:space="preserve">
+    <value>Games</value>
+  </data>
+  <data name="Shell_GameRunning" xml:space="preserve">
+    <value>Game actief</value>
+  </data>
+  <data name="Common_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Common_Performance" xml:space="preserve">
+    <value>Prestaties</value>
+  </data>
+  <data name="Common_Processes" xml:space="preserve">
+    <value>Processen</value>
+  </data>
+  <data name="Common_Storage" xml:space="preserve">
+    <value>Opslag</value>
+  </data>
+  <data name="Common_LargeFiles" xml:space="preserve">
+    <value>Grote bestanden</value>
+  </data>
+  <data name="Common_Network" xml:space="preserve">
+    <value>Netwerk</value>
+  </data>
+  <data name="Common_System" xml:space="preserve">
+    <value>Systeem</value>
+  </data>
+  <data name="Shell_OpenFolder" xml:space="preserve">
+    <value>Map openen</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>Exporteren</value>
+  </data>
+  <data name="Alerts_SaveTheAlertsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>De waarschuwingen opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Alerts_ProblemsThatLastOrAreUnusualForThisPCShortSpikes" xml:space="preserve">
+    <value>Problemen die aanhouden of ongebruikelijk zijn voor deze pc. Korte pieken worden nooit gemeld.</value>
+  </data>
+  <data name="Common_Show" xml:space="preserve">
+    <value>Weergeven</value>
+  </data>
+  <data name="Alerts_MarkAllAsSeen" xml:space="preserve">
+    <value>Alles als gezien markeren</value>
+  </data>
+  <data name="Alerts_AlertsAreTurnedOffInSettings" xml:space="preserve">
+    <value>Waarschuwingen zijn uitgeschakeld in Instellingen.</value>
+  </data>
+  <data name="Common_OpenSettings" xml:space="preserve">
+    <value>Instellingen openen</value>
+  </data>
+  <data name="Alerts_Context" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Alerts_WhyThisAlert" xml:space="preserve">
+    <value>Waarom deze waarschuwing</value>
+  </data>
+  <data name="Common_WhatYouCanDo" xml:space="preserve">
+    <value>Wat u kunt doen</value>
+  </data>
+  <data name="Common_DataUsed" xml:space="preserve">
+    <value>Gebruikte gegevens</value>
+  </data>
+  <data name="Alerts_ShowInReplay" xml:space="preserve">
+    <value>Weergeven in Terugblik</value>
+  </data>
+  <data name="Alerts_WhatHappenedAroundThisAlert" xml:space="preserve">
+    <value>Wat er rond deze waarschuwing gebeurde</value>
+  </data>
+  <data name="Common_WhyNow" xml:space="preserve">
+    <value>Waarom nu?</value>
+  </data>
+  <data name="Alerts_NothingToReport" xml:space="preserve">
+    <value>Niets te melden</value>
+  </data>
+  <data name="Alerts_SysoraRaisesAnAlertOnlyWhenAProblemLastsOrIs" xml:space="preserve">
+    <value>Sysora geeft alleen een waarschuwing als een probleem aanhoudt of ongebruikelijk is voor deze pc.</value>
+  </data>
+  <data name="Alerts_ActiveRules" xml:space="preserve">
+    <value>Actieve regels</value>
+  </data>
+  <data name="Alerts_AConditionMustLastBeforeItIsReportedWhileItLasts" xml:space="preserve">
+    <value>Een toestand moet aanhouden voordat hij wordt gemeld; zolang hij duurt, wordt één waarschuwing bijgewerkt, die een minuut na het einde van de toestand wordt opgelost. Komt hij kort daarna terug, dan wordt dezelfde waarschuwing heropend. Per uur worden hooguit enkele nieuwe waarschuwingen gegeven.</value>
+  </data>
+  <data name="Alerts_ChangeTheRulesInSettings" xml:space="preserve">
+    <value>De regels wijzigen in Instellingen</value>
+  </data>
+  <data name="AppImpact_SaveTheRankingAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>De ranglijst opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="AppImpact_WhichApplicationsWeighTheMostOnYourPC" xml:space="preserve">
+    <value>Welke toepassingen het zwaarst wegen op uw pc</value>
+  </data>
+  <data name="Common_Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Common_Refresh" xml:space="preserve">
+    <value>Vernieuwen</value>
+  </data>
+  <data name="Common_RefreshNow" xml:space="preserve">
+    <value>Nu vernieuwen</value>
+  </data>
+  <data name="AppImpact_Application" xml:space="preserve">
+    <value>Toepassing</value>
+  </data>
+  <data name="AppImpact_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Common_CPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="AppImpact_AverageCPUWhileRunningShareOfTotalCapacity" xml:space="preserve">
+    <value>Gemiddelde CPU tijdens het draaien, aandeel van de totale capaciteit</value>
+  </data>
+  <data name="Common_Memory" xml:space="preserve">
+    <value>Geheugen</value>
+  </data>
+  <data name="AppImpact_AveragePrivateWorkingSetWhileRunning" xml:space="preserve">
+    <value>Gemiddelde privéwerkset tijdens het draaien</value>
+  </data>
+  <data name="Common_DiskIO" xml:space="preserve">
+    <value>Schijf-I/O</value>
+  </data>
+  <data name="AppImpact_AverageReadAndWriteIOWhileRunningFilesDevicesAnd" xml:space="preserve">
+    <value>Gemiddelde lees- en schrijf-I/O tijdens het draaien (bestanden, apparaten en netwerk)</value>
+  </data>
+  <data name="AppImpact_Running" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="AppImpact_MeasuredTimeTheApplicationWasRunning" xml:space="preserve">
+    <value>Gemeten tijd dat de toepassing draaide</value>
+  </data>
+  <data name="AppImpact_Trend" xml:space="preserve">
+    <value>Trend</value>
+  </data>
+  <data name="AppImpact_SecondHalfOfThePeriodComparedWithTheFirstHalf" xml:space="preserve">
+    <value>Tweede helft van de periode vergeleken met de eerste</value>
+  </data>
+  <data name="AppImpact_ApplicationsByImpact" xml:space="preserve">
+    <value>Toepassingen op impact</value>
+  </data>
+  <data name="AppImpact_Running2" xml:space="preserve">
+    <value>actief</value>
+  </data>
+  <data name="AppImpact_NoApplicationUsageRecordedForThisPeriodYet" xml:space="preserve">
+    <value>Voor deze periode is nog geen toepassingsgebruik vastgelegd.</value>
+  </data>
+  <data name="AppImpact_ApplicationsAreIdentifiedByExecutablePath" xml:space="preserve">
+    <value>Toepassingen worden herkend aan het pad van het uitvoerbare bestand; processen die alleen een naam delen, blijven gescheiden. Netwerkgebruik per toepassing is niet beschikbaar.</value>
+  </data>
+  <data name="AppImpact_SelectAnApplicationToSeeWhyItRanksThereAndIts" xml:space="preserve">
+    <value>Selecteer een toepassing om te zien waarom ze daar staat en wat haar geschiedenis is.</value>
+  </data>
+  <data name="AppImpact_WhenDidThePCsCPUOrMemoryRiseAndWhatChangedAtThe" xml:space="preserve">
+    <value>Wanneer CPU of geheugen van de pc stegen en wat er tegelijk veranderde</value>
+  </data>
+  <data name="AppImpact_WhatDrivesTheScore" xml:space="preserve">
+    <value>Wat de score bepaalt</value>
+  </data>
+  <data name="Common_History" xml:space="preserve">
+    <value>Geschiedenis</value>
+  </data>
+  <data name="AppImpact_CPUShareOfTotalCapacity" xml:space="preserve">
+    <value>CPU (aandeel van de totale capaciteit)</value>
+  </data>
+  <data name="AppImpact_ApplicationCPUHistory" xml:space="preserve">
+    <value>CPU-geschiedenis van de toepassing</value>
+  </data>
+  <data name="AppImpact_MemoryPrivateWorkingSet" xml:space="preserve">
+    <value>Geheugen (privéwerkset)</value>
+  </data>
+  <data name="AppImpact_ApplicationMemoryHistory" xml:space="preserve">
+    <value>Geheugengeschiedenis van de toepassing</value>
+  </data>
+  <data name="AppImpact_WhyThisResultDataUsed" xml:space="preserve">
+    <value>Waarom dit resultaat? (gebruikte gegevens)</value>
+  </data>
+  <data name="Changes_WhatChangedOnThisPCRecently" xml:space="preserve">
+    <value>Wat er recent op deze pc is veranderd</value>
+  </data>
+  <data name="Common_View" xml:space="preserve">
+    <value>Weergave</value>
+  </data>
+  <data name="Changes_TakeASnapshotOfThePCNowAndCompareIt" xml:space="preserve">
+    <value>Nu een momentopname van de pc maken en vergelijken</value>
+  </data>
+  <data name="Changes_CheckNow" xml:space="preserve">
+    <value>Nu controleren</value>
+  </data>
+  <data name="Changes_SaveTheChangesAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>De wijzigingen opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Common_SINCEYESTERDAY" xml:space="preserve">
+    <value>SINDS GISTEREN</value>
+  </data>
+  <data name="Common_Significant" xml:space="preserve">
+    <value> belangrijk</value>
+  </data>
+  <data name="Common_Minor" xml:space="preserve">
+    <value> klein</value>
+  </data>
+  <data name="Common_MostOfYourSystemIsUnchanged" xml:space="preserve">
+    <value>Het grootste deel van uw systeem is ongewijzigd</value>
+  </data>
+  <data name="Changes_WhatItMeans" xml:space="preserve">
+    <value>Wat het betekent</value>
+  </data>
+  <data name="Changes_Origin" xml:space="preserve">
+    <value>Oorsprong</value>
+  </data>
+  <data name="Changes_NoChangeToShow" xml:space="preserve">
+    <value>Geen wijziging om te tonen</value>
+  </data>
+  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
+    <value>Sysora verzint nooit een wijziging: alleen verschillen tussen echte momentopnamen worden vermeld.</value>
+  </data>
+  <data name="Common_WhatIsCompared" xml:space="preserve">
+    <value>Wat wordt vergeleken</value>
+  </data>
+  <data name="Changes_InstalledApplicationsAppsAmpFeaturesAndStoreApps" xml:space="preserve">
+    <value>Geïnstalleerde toepassingen (Apps en onderdelen en Store-apps), opstartprogramma's (Run-sleutels en Opstartmappen), Windows-build, BIOS-versie, geïnstalleerd geheugen, grafische en netwerkadapters, vaste volumes en hun gebruikte ruimte, gemiddeld CPU- en geheugengebruik, en programma's die regelmatig zijn gaan draaien. Momentopnamen zijn alleen-lezen en blijven op deze pc.</value>
+  </data>
+  <data name="Changes_NotCoveredDriversServicesScheduledTasksAnd" xml:space="preserve">
+    <value>Niet inbegrepen: stuurprogramma's, services, geplande taken en afzonderlijke bestanden.</value>
+  </data>
+  <data name="Compare_BeforeAfterHowThePCBehavedInTwoPeriods" xml:space="preserve">
+    <value>Voor / na: hoe de pc zich in twee periodes gedroeg</value>
+  </data>
+  <data name="Compare_SaveThisComparisonAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Deze vergelijking opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Compare_GameSession" xml:space="preserve">
+    <value>Gamesessie</value>
+  </data>
+  <data name="Compare_NoGameSessionRecorded" xml:space="preserve">
+    <value>Geen gamesessie vastgelegd</value>
+  </data>
+  <data name="Compare_MomentDate" xml:space="preserve">
+    <value>Moment (datum)</value>
+  </data>
+  <data name="Compare_Time" xml:space="preserve">
+    <value>Tijd</value>
+  </data>
+  <data name="Compare_SecondMomentDate" xml:space="preserve">
+    <value>Tweede moment (datum)</value>
+  </data>
+  <data name="Compare_AMomentIsComparedOverThe10MinutesBeforeItQuot" xml:space="preserve">
+    <value>Een moment wordt vergeleken over de 10 minuten ervoor; "voor en na een moment" gebruikt 15 minuten aan elke kant. Recente periodes gebruiken metingen per seconde, oudere de geschiedenis per minuut of per uur.</value>
+  </data>
+  <data name="Common_Metric" xml:space="preserve">
+    <value>Meetwaarde</value>
+  </data>
+  <data name="Compare_Change" xml:space="preserve">
+    <value>Verandering</value>
+  </data>
+  <data name="Compare_Importance" xml:space="preserve">
+    <value>Belang</value>
+  </data>
+  <data name="Compare_AveragesOfCPUMemoryDiskActivityGPUNetwork" xml:space="preserve">
+    <value>Gemiddelden van CPU, geheugen, schijfactiviteit, GPU, netwerk, processen en vrije ruimte op het Windows-volume over elke periode. Een meetwaarde die in slechts één periode is gemeten, wordt als niet beschikbaar getoond en niet vergeleken. Percentages verschillen in procentpunten; hoeveelheden tonen ook de relatieve verandering.</value>
+  </data>
+  <data name="Dashboard_PCStatusOpenTheDiagnosis" xml:space="preserve">
+    <value>Pc-status, de diagnose openen</value>
+  </data>
+  <data name="Dashboard_OpenTheDiagnosis" xml:space="preserve">
+    <value>De diagnose openen</value>
+  </data>
+  <data name="Dashboard_MEMORY" xml:space="preserve">
+    <value>GEHEUGEN</value>
+  </data>
+  <data name="Common_GPU" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Dashboard_SYSTEMDISK" xml:space="preserve">
+    <value>SYSTEEMSCHIJF</value>
+  </data>
+  <data name="Dashboard_NETWORK" xml:space="preserve">
+    <value>NETWERK</value>
+  </data>
+  <data name="Dashboard_PCHealthOpenTheDetails" xml:space="preserve">
+    <value>Pc-gezondheid, de details openen</value>
+  </data>
+  <data name="Dashboard_PCHEALTH" xml:space="preserve">
+    <value>PC-GEZONDHEID</value>
+  </data>
+  <data name="Dashboard_SinceYesterdayOpenChanges" xml:space="preserve">
+    <value>Sinds gisteren, Wijzigingen openen</value>
+  </data>
+  <data name="Dashboard_Insights" xml:space="preserve">
+    <value>Inzichten</value>
+  </data>
+  <data name="Dashboard_QuickActions" xml:space="preserve">
+    <value>Snelle acties</value>
+  </data>
+  <data name="Dashboard_WhyIsMyPCSlow" xml:space="preserve">
+    <value>Waarom is mijn pc traag?</value>
+  </data>
+  <data name="Dashboard_Diagnose" xml:space="preserve">
+    <value>Diagnosticeren</value>
+  </data>
+  <data name="Dashboard_InvestigateAProblemForAFewMinutesWithDetailed" xml:space="preserve">
+    <value>Een probleem een paar minuten onderzoeken met gedetailleerd verzamelen</value>
+  </data>
+  <data name="Dashboard_Troubleshoot" xml:space="preserve">
+    <value>Problemen oplossen</value>
+  </data>
+  <data name="Dashboard_EverythingThatHappenedInOrder" xml:space="preserve">
+    <value>Alles wat er gebeurde, op volgorde</value>
+  </data>
+  <data name="Dashboard_WhatHappenedInTheLastMinutes" xml:space="preserve">
+    <value>Wat gebeurde er de afgelopen minuten?</value>
+  </data>
+  <data name="Dashboard_WhatChangedRecently" xml:space="preserve">
+    <value>Wat is er recent veranderd?</value>
+  </data>
+  <data name="Dashboard_ViewChanges" xml:space="preserve">
+    <value>Wijzigingen bekijken</value>
+  </data>
+  <data name="Dashboard_WhichApplicationWeighsTheMost" xml:space="preserve">
+    <value>Welke toepassing weegt het zwaarst?</value>
+  </data>
+  <data name="Dashboard_AppImpact" xml:space="preserve">
+    <value>App-impact</value>
+  </data>
+  <data name="Dashboard_RecapsOfYourGameSessions" xml:space="preserve">
+    <value>Samenvattingen van uw gamesessies</value>
+  </data>
+  <data name="Common_CPUUsage" xml:space="preserve">
+    <value>CPU-gebruik</value>
+  </data>
+  <data name="Common_ChartTimeSpan" xml:space="preserve">
+    <value>Tijdspanne van de grafiek</value>
+  </data>
+  <data name="Common_CPUUsageHistory" xml:space="preserve">
+    <value>Geschiedenis van het CPU-gebruik</value>
+  </data>
+  <data name="Common_MemoryUsageHistory" xml:space="preserve">
+    <value>Geschiedenis van het geheugengebruik</value>
+  </data>
+  <data name="Dashboard_TopApplications" xml:space="preserve">
+    <value>Belangrijkste toepassingen</value>
+  </data>
+  <data name="Dashboard_SortTopApplicationsBy" xml:space="preserve">
+    <value>Belangrijkste toepassingen sorteren op</value>
+  </data>
+  <data name="Dashboard_ViewAllProcesses" xml:space="preserve">
+    <value>Alle processen weergeven</value>
+  </data>
+  <data name="Dashboard_SystemHealth" xml:space="preserve">
+    <value>Systeemgezondheid</value>
+  </data>
+  <data name="Dashboard_InstantIndicatorsBasedOnYourHealthThresholds" xml:space="preserve">
+    <value>Directe indicatoren op basis van uw gezondheidsdrempels (Instellingen)</value>
+  </data>
+  <data name="Dashboard_OpenPerformanceDetails" xml:space="preserve">
+    <value>Prestatiedetails openen</value>
+  </data>
+  <data name="Diagnosis_WhyItMatters" xml:space="preserve">
+    <value>Waarom het ertoe doet</value>
+  </data>
+  <data name="Diagnosis_WhenDidItStartWhatChangedAtTheSameTimeAndHow" xml:space="preserve">
+    <value>Wanneer het begon, wat er tegelijk veranderde en hoe vaak het al eerder gebeurde</value>
+  </data>
+  <data name="Diagnosis_WhyIsMyPCSlowSysoraChecksWhatItMeasuresAnd" xml:space="preserve">
+    <value>Waarom is mijn pc traag? Sysora controleert wat het meet en legt uit wat het vindt.</value>
+  </data>
+  <data name="Diagnosis_AnalyzeAgain" xml:space="preserve">
+    <value>Opnieuw analyseren</value>
+  </data>
+  <data name="Diagnosis_SaveTheDiagnosisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>De diagnose opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Diagnosis_WhenAProblemStartedFromWhatLevelWhatChangedAtThe" xml:space="preserve">
+    <value>Wanneer een probleem begon, vanaf welk niveau, wat er tegelijk veranderde en hoe vaak het al eerder gebeurde.</value>
+  </data>
+  <data name="Diagnosis_MetricToExplain" xml:space="preserve">
+    <value>Te verklaren meetwaarde</value>
+  </data>
+  <data name="Diagnosis_Explain" xml:space="preserve">
+    <value>Verklaren</value>
+  </data>
+  <data name="Diagnosis_ExportThisExplanation" xml:space="preserve">
+    <value>Deze verklaring exporteren</value>
+  </data>
+  <data name="Common_Started" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="Diagnosis_BeforeNow" xml:space="preserve">
+    <value>Voor → nu</value>
+  </data>
+  <data name="Common_Duration" xml:space="preserve">
+    <value>Duur</value>
+  </data>
+  <data name="Diagnosis_MainContributor" xml:space="preserve">
+    <value>Belangrijkste veroorzaker</value>
+  </data>
+  <data name="Diagnosis_AtTheSameTimeACoincidenceInTimeIsNotProofOfCause" xml:space="preserve">
+    <value>Tegelijkertijd (een samenloop in de tijd is geen bewijs van oorzaak)</value>
+  </data>
+  <data name="Diagnosis_SeeEverythingThatHappenedAroundItInTheTimeline" xml:space="preserve">
+    <value>Alles wat er rond dat moment gebeurde bekijken in de Tijdlijn</value>
+  </data>
+  <data name="Diagnosis_EveryStatementAndWhatItRestsOn" xml:space="preserve">
+    <value>Elke uitspraak en waarop ze berust</value>
+  </data>
+  <data name="Common_RecurringProblems" xml:space="preserve">
+    <value>Terugkerende problemen</value>
+  </data>
+  <data name="Diagnosis_OpenPCHealth" xml:space="preserve">
+    <value>Pc-gezondheid openen</value>
+  </data>
+  <data name="Diagnosis_ComparedWithYourUsualActivity" xml:space="preserve">
+    <value>Vergeleken met uw gebruikelijke activiteit</value>
+  </data>
+  <data name="Common_Now" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="Diagnosis_AverageOfTheLast15Minutes" xml:space="preserve">
+    <value>Gemiddelde van de laatste 15 minuten</value>
+  </data>
+  <data name="Diagnosis_LastHour" xml:space="preserve">
+    <value>Laatste uur</value>
+  </data>
+  <data name="Diagnosis_Today" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="Diagnosis_Yesterday" xml:space="preserve">
+    <value>Gisteren</value>
+  </data>
+  <data name="Diagnosis_7Days" xml:space="preserve">
+    <value>7 dagen</value>
+  </data>
+  <data name="Diagnosis_30Days" xml:space="preserve">
+    <value>30 dagen</value>
+  </data>
+  <data name="Diagnosis_UsualAtThisHour" xml:space="preserve">
+    <value>Gebruikelijk op dit uur</value>
+  </data>
+  <data name="Diagnosis_SameHourOfTheDayOverTheLast30DaysTodayExcluded" xml:space="preserve">
+    <value>Hetzelfde uur van de dag over de laatste 30 dagen (vandaag niet meegerekend)</value>
+  </data>
+  <data name="Diagnosis_AveragesOfTheLocalHistoryAPeriodWithoutEnough" xml:space="preserve">
+    <value>Gemiddelden uit de lokale geschiedenis. Een periode zonder voldoende gemeten tijd toont een streepje (beweeg de aanwijzer erover om te zien hoeveel gegevens er zijn): Sysora vult het gat nooit met een schatting.</value>
+  </data>
+  <data name="Diagnosis_ProblemsDetected" xml:space="preserve">
+    <value>Gevonden problemen</value>
+  </data>
+  <data name="Common_Recommendations" xml:space="preserve">
+    <value>Aanbevelingen</value>
+  </data>
+  <data name="Diagnosis_PointsToWatch" xml:space="preserve">
+    <value>Aandachtspunten</value>
+  </data>
+  <data name="Diagnosis_CheckedAndNormal" xml:space="preserve">
+    <value>Gecontroleerd en normaal</value>
+  </data>
+  <data name="Diagnosis_NotAnalyzed" xml:space="preserve">
+    <value>Niet geanalyseerd</value>
+  </data>
+  <data name="Diagnosis_SysoraOnlyReportsWhatItMeasuresRulesAre" xml:space="preserve">
+    <value>Sysora meldt alleen wat het meet. De regels zijn deterministisch: dezelfde metingen geven altijd dezelfde diagnose.</value>
+  </data>
+  <data name="Gaming_ARecapOfEachGameSessionWhatYourPCTheGameAndOther" xml:space="preserve">
+    <value>Een samenvatting van elke gamesessie: wat uw pc, de game en andere toepassingen gebruikten. FPS wordt nooit geschat.</value>
+  </data>
+  <data name="Gaming_GameSessionsAreTurnedOffInSettingsNoNewSessionIs" xml:space="preserve">
+    <value>Gamesessies zijn uitgeschakeld in Instellingen: er wordt geen nieuwe sessie vastgelegd.</value>
+  </data>
+  <data name="Gaming_GAMERUNNINGRECORDINGWITHMINIMALIMPACT" xml:space="preserve">
+    <value>GAME ACTIEF · VASTLEGGEN MET MINIMALE IMPACT</value>
+  </data>
+  <data name="Gaming_NotAGame" xml:space="preserve">
+    <value>Geen game</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGameSettings" xml:space="preserve">
+    <value>Deze toepassing niet meer als game volgen (Instellingen › Games om ongedaan te maken)</value>
+  </data>
+  <data name="Common_GameSessions" xml:space="preserve">
+    <value>Gamesessies</value>
+  </data>
+  <data name="Gaming_NoGameSessionYet" xml:space="preserve">
+    <value>Nog geen gamesessie</value>
+  </data>
+  <data name="Gaming_StartAGameSysoraFollowsItAutomaticallyWhen" xml:space="preserve">
+    <value>Start een game: Sysora volgt die automatisch als Windows haar als game herkent (lijst van Game Bar), als een launcher haar als geïnstalleerd meldt (Steam, Epic, Riot, GOG) of als ze in een gamebibliotheekmap is geïnstalleerd. Zodra de game sluit, verschijnt hier een samenvatting. Sessies die korter zijn dan het minimum in Instellingen worden niet bewaard.</value>
+  </data>
+  <data name="Gaming_MarkAnApplicationAsAGameInSettings" xml:space="preserve">
+    <value>Een game toevoegen in Instellingen</value>
+  </data>
+  <data name="Gaming_BeforeVsDuringTheGame" xml:space="preserve">
+    <value>Voor vs. tijdens de game</value>
+  </data>
+  <data name="Gaming_BeforeVsAfterTheGame" xml:space="preserve">
+    <value>Voor vs. na de game</value>
+  </data>
+  <data name="Gaming_WithThePreviousSession" xml:space="preserve">
+    <value>Met de vorige sessie</value>
+  </data>
+  <data name="Gaming_ExportRecap" xml:space="preserve">
+    <value>Samenvatting exporteren</value>
+  </data>
+  <data name="Gaming_SaveThisRecapAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Deze samenvatting opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGamePastSessions" xml:space="preserve">
+    <value>Deze toepassing niet meer als game volgen (eerdere sessies blijven bewaard)</value>
+  </data>
+  <data name="Common_Measurements" xml:space="preserve">
+    <value>Metingen</value>
+  </data>
+  <data name="Common_Average" xml:space="preserve">
+    <value>Gemiddeld</value>
+  </data>
+  <data name="Gaming_Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Gaming_Scope" xml:space="preserve">
+    <value>Bereik</value>
+  </data>
+  <data name="Gaming_CPUDuringTheSession" xml:space="preserve">
+    <value>CPU tijdens de sessie</value>
+  </data>
+  <data name="Gaming_GPUDuringTheSession" xml:space="preserve">
+    <value>GPU tijdens de sessie</value>
+  </data>
+  <data name="Common_WhatHappened" xml:space="preserve">
+    <value>Wat er is gebeurd</value>
+  </data>
+  <data name="Gaming_ComparedWithPreviousSessions" xml:space="preserve">
+    <value>Vergeleken met vorige sessies</value>
+  </data>
+  <data name="Gaming_NotableDifference" xml:space="preserve">
+    <value>Noemenswaardig verschil</value>
+  </data>
+  <data name="Gaming_OtherApplicationsDuringTheGame" xml:space="preserve">
+    <value>Andere toepassingen tijdens de game</value>
+  </data>
+  <data name="Gaming_NoOtherApplicationUsedAMeasurableShareOfThe" xml:space="preserve">
+    <value>Geen andere toepassing gebruikte een meetbaar deel van de processor.</value>
+  </data>
+  <data name="Gaming_OtherProcessesOfTheGame" xml:space="preserve">
+    <value>Andere processen van de game</value>
+  </data>
+  <data name="Gaming_StartedByTheGameOrInstalledInItsFolderLaunchers" xml:space="preserve">
+    <value>Gestart door de game of geïnstalleerd in haar map (launchers, anti-cheat, crashrapportage…).</value>
+  </data>
+  <data name="Gaming_EventsDuringTheSession" xml:space="preserve">
+    <value>Gebeurtenissen tijdens de sessie</value>
+  </data>
+  <data name="Gaming_NotMeasured" xml:space="preserve">
+    <value>Niet gemeten</value>
+  </data>
+  <data name="LargeFiles_WhatTakesTheMostSpaceSysoraOnlyListsFilesItNever" xml:space="preserve">
+    <value>Wat de meeste ruimte inneemt. Sysora toont alleen bestanden: het verplaatst, wijzigt of verwijdert ze nooit.</value>
+  </data>
+  <data name="LargeFiles_SaveTheResultsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>De resultaten opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="LargeFiles_Where" xml:space="preserve">
+    <value>Waar</value>
+  </data>
+  <data name="LargeFiles_ChooseAFolder" xml:space="preserve">
+    <value>Een map kiezen…</value>
+  </data>
+  <data name="LargeFiles_FilesOf" xml:space="preserve">
+    <value>Bestanden vanaf</value>
+  </data>
+  <data name="LargeFiles_Scan" xml:space="preserve">
+    <value>Scannen</value>
+  </data>
+  <data name="LargeFiles_Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="LargeFiles_TheScanRunsOnlyWhenYouAskAtLowPriorityAndCanBe" xml:space="preserve">
+    <value>De scan draait alleen als u erom vraagt, met lage prioriteit, en kan altijd worden geannuleerd. Hij leest alleen maplijsten (er wordt geen bestand geopend), volgt geen koppelingen, slaat cloudbestanden die alleen online staan over en meldt de mappen die Windows weigert te tonen in plaats van ze als leeg te tellen.</value>
+  </data>
+  <data name="LargeFiles_FoldersNotReadLinksAndExclusions" xml:space="preserve">
+    <value>Niet gelezen mappen, koppelingen en uitsluitingen</value>
+  </data>
+  <data name="LargeFiles_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="LargeFiles_Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="LargeFiles_SearchByNameOrFolder" xml:space="preserve">
+    <value>Zoeken op naam of map</value>
+  </data>
+  <data name="LargeFiles_Modified" xml:space="preserve">
+    <value> · gewijzigd op </value>
+  </data>
+  <data name="LargeFiles_ShowInFileExplorer" xml:space="preserve">
+    <value>Weergeven in Verkenner</value>
+  </data>
+  <data name="LargeFiles_CopyThePath" xml:space="preserve">
+    <value>Het pad kopiëren</value>
+  </data>
+  <data name="Network_LocalStatisticsOnlySysoraSendsNoNetworkTrafficTo" xml:space="preserve">
+    <value>Alleen lokale statistieken: Sysora verstuurt geen netwerkverkeer om ze te meten</value>
+  </data>
+  <data name="Common_TimeSpan" xml:space="preserve">
+    <value>Tijdspanne</value>
+  </data>
+  <data name="Network_NetworkMonitoringIsTurnedOffInSettings" xml:space="preserve">
+    <value>Netwerkbewaking is uitgeschakeld in Instellingen.</value>
+  </data>
+  <data name="Network_CONNECTION" xml:space="preserve">
+    <value>VERBINDING</value>
+  </data>
+  <data name="Network_ACTIVEINTERFACE" xml:space="preserve">
+    <value>ACTIEVE INTERFACE</value>
+  </data>
+  <data name="Network_Throughput" xml:space="preserve">
+    <value>Doorvoer</value>
+  </data>
+  <data name="Network_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Network_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Network_NetworkThroughputHistory" xml:space="preserve">
+    <value>Geschiedenis van de netwerkdoorvoer</value>
+  </data>
+  <data name="Network_Interfaces" xml:space="preserve">
+    <value>Interfaces</value>
+  </data>
+  <data name="Network_LinkSpeed" xml:space="preserve">
+    <value>Verbindingssnelheid</value>
+  </data>
+  <data name="Network_Received" xml:space="preserve">
+    <value>Ontvangen</value>
+  </data>
+  <data name="Network_SinceTheInterfaceCameUp" xml:space="preserve">
+    <value>Sinds de interface actief is</value>
+  </data>
+  <data name="Network_Sent" xml:space="preserve">
+    <value>Verzonden</value>
+  </data>
+  <data name="Network_IPv4" xml:space="preserve">
+    <value>IPv4</value>
+  </data>
+  <data name="Network_IPv6" xml:space="preserve">
+    <value>IPv6</value>
+  </data>
+  <data name="Network_LatencyIsNotMeasuredItWouldRequireContactingA" xml:space="preserve">
+    <value>Latentie wordt niet gemeten: daarvoor zou een externe server moeten worden benaderd. De beschikbaarheid van internet komt uit de eigen connectiviteitscontroles van Windows.</value>
+  </data>
+  <data name="PcHealth_InWhatStateIsMyPCAScoreOutOf100ExplainedAreaBy" xml:space="preserve">
+    <value>In welke toestand is mijn pc? Een score op 100, per onderdeel uitgelegd.</value>
+  </data>
+  <data name="PcHealth_SaveThisAnalysisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Deze analyse opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="PcHealth_PCHealthScore" xml:space="preserve">
+    <value>Score voor pc-gezondheid</value>
+  </data>
+  <data name="PcHealth_OutOf100" xml:space="preserve">
+    <value>van 100</value>
+  </data>
+  <data name="PcHealth_Areas" xml:space="preserve">
+    <value>Onderdelen</value>
+  </data>
+  <data name="PcHealth_WhyThisImpact" xml:space="preserve">
+    <value>Waarom deze impact</value>
+  </data>
+  <data name="PcHealth_AProblemIsCalledRecurringAfter3EpisodesOn2" xml:space="preserve">
+    <value>Een probleem heet terugkerend na 3 episodes op 2 verschillende dagen in de laatste 7 dagen, op basis van de waarschuwingen en gebeurtenissen die Sysora heeft vastgelegd. Met minder geschiedenis zegt Sysora dat, in plaats van te gokken.</value>
+  </data>
+  <data name="PcHealth_DetailsAndIntensity" xml:space="preserve">
+    <value>Details en intensiteit</value>
+  </data>
+  <data name="PcHealth_HowTheScoreIsComputed" xml:space="preserve">
+    <value>Hoe de score wordt berekend</value>
+  </data>
+  <data name="PcHealth_NotCounted" xml:space="preserve">
+    <value>Niet meegeteld</value>
+  </data>
+  <data name="Performance_RealTimeUsageAndRecentHistory" xml:space="preserve">
+    <value>Realtime gebruik en recente geschiedenis</value>
+  </data>
+  <data name="Performance_DiskActivity" xml:space="preserve">
+    <value>Schijfactiviteit</value>
+  </data>
+  <data name="Performance_Speed" xml:space="preserve">
+    <value>Snelheid</value>
+  </data>
+  <data name="Performance_EffectiveClockRatedFrequencyCurrentProcessor" xml:space="preserve">
+    <value>Effectieve kloksnelheid: nominale frequentie × huidige processorprestaties, zoals berekend door Taakbeheer.</value>
+  </data>
+  <data name="Performance_BaseSpeed" xml:space="preserve">
+    <value>Basissnelheid</value>
+  </data>
+  <data name="Performance_PeakSpeedThisSession" xml:space="preserve">
+    <value>Pieksnelheid (deze sessie)</value>
+  </data>
+  <data name="Performance_Temperature" xml:space="preserve">
+    <value>Temperatuur</value>
+  </data>
+  <data name="Performance_Cores" xml:space="preserve">
+    <value>Kernen</value>
+  </data>
+  <data name="Performance_LogicalProcessors" xml:space="preserve">
+    <value>Logische processors</value>
+  </data>
+  <data name="Performance_Sockets" xml:space="preserve">
+    <value>Sockets</value>
+  </data>
+  <data name="Performance_L2Cache" xml:space="preserve">
+    <value>L2-cache</value>
+  </data>
+  <data name="Performance_L3Cache" xml:space="preserve">
+    <value>L3-cache</value>
+  </data>
+  <data name="Common_Threads" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="Common_Handles" xml:space="preserve">
+    <value>Ingangen</value>
+  </data>
+  <data name="Performance_UpTime" xml:space="preserve">
+    <value>Actieve tijd</value>
+  </data>
+  <data name="Performance_UsagePerLogicalProcessor" xml:space="preserve">
+    <value>Gebruik per logische processor</value>
+  </data>
+  <data name="Common_MemoryInUse" xml:space="preserve">
+    <value>Geheugen in gebruik</value>
+  </data>
+  <data name="Performance_InUse" xml:space="preserve">
+    <value>In gebruik</value>
+  </data>
+  <data name="Performance_Available" xml:space="preserve">
+    <value>Beschikbaar</value>
+  </data>
+  <data name="Performance_UsableByWindows" xml:space="preserve">
+    <value>Bruikbaar voor Windows</value>
+  </data>
+  <data name="Performance_Installed" xml:space="preserve">
+    <value>Geïnstalleerd</value>
+  </data>
+  <data name="Common_Committed" xml:space="preserve">
+    <value>Vastgelegd</value>
+  </data>
+  <data name="Performance_CommitChargeCommitLimitPhysicalMemoryPlusPage" xml:space="preserve">
+    <value>Vastgelegd geheugen / vastleggingslimiet (fysiek geheugen plus wisselbestanden).</value>
+  </data>
+  <data name="Performance_SystemCache" xml:space="preserve">
+    <value>Systeemcache</value>
+  </data>
+  <data name="Performance_StandbyListPlusSystemWorkingSetAsReportedBy" xml:space="preserve">
+    <value>Stand-bylijst plus systeemwerkset, zoals gemeld door GetPerformanceInfo.</value>
+  </data>
+  <data name="Performance_PagedPool" xml:space="preserve">
+    <value>Wisselbare pool</value>
+  </data>
+  <data name="Performance_NonPagedPool" xml:space="preserve">
+    <value>Niet-wisselbare pool</value>
+  </data>
+  <data name="Performance_NoGraphicsAdapterDataIsAvailableGPUMonitoringMay" xml:space="preserve">
+    <value>Er zijn geen gegevens van grafische adapters beschikbaar. GPU-bewaking is mogelijk uitgeschakeld in Instellingen, of dit systeem stelt geen GPU-prestatiemeteritems beschikbaar.</value>
+  </data>
+  <data name="Performance_DedicatedMemory" xml:space="preserve">
+    <value>Toegewezen geheugen</value>
+  </data>
+  <data name="Performance_SharedMemory" xml:space="preserve">
+    <value>Gedeeld geheugen</value>
+  </data>
+  <data name="Performance_NotExposedByTheWindowsGPUPerformanceCounters" xml:space="preserve">
+    <value>Niet beschikbaar gesteld door de GPU-prestatiemeteritems van Windows.</value>
+  </data>
+  <data name="Performance_ClockSpeed" xml:space="preserve">
+    <value>Kloksnelheid</value>
+  </data>
+  <data name="Performance_BusiestEngines" xml:space="preserve">
+    <value>Drukste engines</value>
+  </data>
+  <data name="Performance_DiskActivityCountersAreNotAvailableOnThisSystem" xml:space="preserve">
+    <value>Prestatiemeteritems voor schijfactiviteit zijn niet beschikbaar op dit systeem.</value>
+  </data>
+  <data name="Common_Read" xml:space="preserve">
+    <value>Lezen</value>
+  </data>
+  <data name="Common_Write" xml:space="preserve">
+    <value>Schrijven</value>
+  </data>
+  <data name="Processes_SearchProcesses" xml:space="preserve">
+    <value>Processen zoeken</value>
+  </data>
+  <data name="Processes_SearchByNameOrPID" xml:space="preserve">
+    <value>Zoeken op naam of PID</value>
+  </data>
+  <data name="Processes_HIGHESTCPUUSAGE" xml:space="preserve">
+    <value>HOOGSTE CPU-GEBRUIK</value>
+  </data>
+  <data name="Processes_HIGHESTMEMORYUSAGE" xml:space="preserve">
+    <value>HOOGSTE GEHEUGENGEBRUIK</value>
+  </data>
+  <data name="Processes_HIGHESTIOACTIVITY" xml:space="preserve">
+    <value>HOOGSTE I/O-ACTIVITEIT</value>
+  </data>
+  <data name="Processes_SortByName" xml:space="preserve">
+    <value>Sorteren op naam</value>
+  </data>
+  <data name="Processes_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Processes_SortByPID" xml:space="preserve">
+    <value>Sorteren op PID</value>
+  </data>
+  <data name="Processes_PID" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="Processes_SortByCPU" xml:space="preserve">
+    <value>Sorteren op CPU</value>
+  </data>
+  <data name="Processes_SortByMemory" xml:space="preserve">
+    <value>Sorteren op geheugen</value>
+  </data>
+  <data name="Processes_PrivateWorkingSetPhysicalMemoryUsedOnlyByThis" xml:space="preserve">
+    <value>Privéwerkset: fysiek geheugen dat alleen door dit proces wordt gebruikt</value>
+  </data>
+  <data name="Processes_SortByDiskIO" xml:space="preserve">
+    <value>Sorteren op schijf-I/O</value>
+  </data>
+  <data name="Processes_ReadAndWriteIOFilesDevicesAndNetwork" xml:space="preserve">
+    <value>Lees- en schrijf-I/O (bestanden, apparaten en netwerk)</value>
+  </data>
+  <data name="Processes_CPUIsAShareOfTotalCapacityMemoryIsThePrivate" xml:space="preserve">
+    <value>CPU is een aandeel van de totale capaciteit. Geheugen is de privéwerkset. Netwerkgebruik per proces wordt niet gemeten (vereist tracering met beheerdersrechten).</value>
+  </data>
+  <data name="Processes_SelectAProcessToSeeItsDetails" xml:space="preserve">
+    <value>Selecteer een proces om de details te zien.</value>
+  </data>
+  <data name="Processes_ThisProcessHasExited" xml:space="preserve">
+    <value>Dit proces is beëindigd.</value>
+  </data>
+  <data name="Processes_CriticalWindowsProcessEndingItWouldStopTheSystem" xml:space="preserve">
+    <value>Kritiek Windows-proces: beëindigen zou het systeem stoppen.</value>
+  </data>
+  <data name="Processes_ParentPID" xml:space="preserve">
+    <value>Bovenliggende PID</value>
+  </data>
+  <data name="Processes_Session" xml:space="preserve">
+    <value>Sessie</value>
+  </data>
+  <data name="Processes_PrivateWorkingSet" xml:space="preserve">
+    <value>Privéwerkset</value>
+  </data>
+  <data name="Processes_WorkingSet" xml:space="preserve">
+    <value>Werkset</value>
+  </data>
+  <data name="Processes_IncludesMemorySharedWithOtherProcesses" xml:space="preserve">
+    <value>Inclusief geheugen dat met andere processen wordt gedeeld</value>
+  </data>
+  <data name="Processes_PrivateBytes" xml:space="preserve">
+    <value>Privébytes</value>
+  </data>
+  <data name="Processes_IORead" xml:space="preserve">
+    <value>I/O gelezen</value>
+  </data>
+  <data name="Processes_IOWrite" xml:space="preserve">
+    <value>I/O geschreven</value>
+  </data>
+  <data name="Processes_Path" xml:space="preserve">
+    <value>Pad</value>
+  </data>
+  <data name="Processes_Company" xml:space="preserve">
+    <value>Bedrijf</value>
+  </data>
+  <data name="Common_Version" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="Processes_EndProcess" xml:space="preserve">
+    <value>Proces beëindigen…</value>
+  </data>
+  <data name="Replay_WhatHappenedOnYourPCInTheLastMinutesOrHours" xml:space="preserve">
+    <value>Wat er de afgelopen minuten of uren op uw pc is gebeurd</value>
+  </data>
+  <data name="Replay_BackToNow" xml:space="preserve">
+    <value>Terug naar nu</value>
+  </data>
+  <data name="Replay_ZoomIn" xml:space="preserve">
+    <value>Inzoomen</value>
+  </data>
+  <data name="Replay_ZoomInShorterPeriodAroundTheCursor" xml:space="preserve">
+    <value>Inzoomen (kortere periode rond de cursor)</value>
+  </data>
+  <data name="Replay_ZoomOut" xml:space="preserve">
+    <value>Uitzoomen</value>
+  </data>
+  <data name="Replay_ZoomOutLongerPeriod" xml:space="preserve">
+    <value>Uitzoomen (langere periode)</value>
+  </data>
+  <data name="Replay_CompareBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>Voor en na de cursor vergelijken</value>
+  </data>
+  <data name="Replay_CompareThe15MinutesBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>De 15 minuten voor en na de cursor vergelijken</value>
+  </data>
+  <data name="Replay_SaveThisPeriodAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Deze periode opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Replay_MoveTheCursorToThisMoment" xml:space="preserve">
+    <value>De cursor naar dit moment verplaatsen</value>
+  </data>
+  <data name="Replay_ReplayPosition" xml:space="preserve">
+    <value>Positie van de terugblik</value>
+  </data>
+  <data name="Replay_CPUUsageReplay" xml:space="preserve">
+    <value>Terugblik op het CPU-gebruik</value>
+  </data>
+  <data name="Replay_MemoryUsageReplay" xml:space="preserve">
+    <value>Terugblik op het geheugengebruik</value>
+  </data>
+  <data name="Replay_DiskBusiestVolumeActiveTime" xml:space="preserve">
+    <value>Schijf (drukste volume, actieve tijd)</value>
+  </data>
+  <data name="Replay_DiskActivityReplay" xml:space="preserve">
+    <value>Terugblik op de schijfactiviteit</value>
+  </data>
+  <data name="Replay_NetworkDownloadAndUpload" xml:space="preserve">
+    <value>Netwerk (download en upload)</value>
+  </data>
+  <data name="Replay_NetworkReplay" xml:space="preserve">
+    <value>Terugblik op het netwerk</value>
+  </data>
+  <data name="Replay_GPUBusiestAdapter" xml:space="preserve">
+    <value>GPU (drukste adapter)</value>
+  </data>
+  <data name="Replay_GPUUsageReplay" xml:space="preserve">
+    <value>Terugblik op het GPU-gebruik</value>
+  </data>
+  <data name="Replay_AtTheCursor" xml:space="preserve">
+    <value>Bij de cursor</value>
+  </data>
+  <data name="Replay_Disk" xml:space="preserve">
+    <value>Schijf</value>
+  </data>
+  <data name="Replay_Applications" xml:space="preserve">
+    <value>Toepassingen</value>
+  </data>
+  <data name="Replay_EventsAroundThisTime" xml:space="preserve">
+    <value>Gebeurtenissen rond dit tijdstip</value>
+  </data>
+  <data name="Replay_NoMeasurementsForThisPeriodLongerPeriodsUseThe" xml:space="preserve">
+    <value>Geen metingen voor deze periode. Langere periodes gebruiken de lokale geschiedenis, die zich vult terwijl Sysora draait.</value>
+  </data>
+  <data name="Settings_Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="Settings_ChangesAreAppliedAndSavedImmediately" xml:space="preserve">
+    <value>Wijzigingen worden direct toegepast en opgeslagen.</value>
+  </data>
+  <data name="Settings_General" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="Settings_FollowWindowsOrAlwaysUseLightOrDarkColors" xml:space="preserve">
+    <value>Windows volgen, of altijd lichte of donkere kleuren gebruiken</value>
+  </data>
+  <data name="Settings_Theme" xml:space="preserve">
+    <value>Thema</value>
+  </data>
+  <data name="Settings_WhatHappensWhenYouCloseTheSysoraWindow" xml:space="preserve">
+    <value>Wat er gebeurt als u het Sysora-venster sluit</value>
+  </data>
+  <data name="Settings_CloseWindow" xml:space="preserve">
+    <value>Venster sluiten</value>
+  </data>
+  <data name="Settings_Startup" xml:space="preserve">
+    <value>Opstarten</value>
+  </data>
+  <data name="Settings_StartSysoraWithWindows" xml:space="preserve">
+    <value>Sysora starten met Windows</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsOpenTheWindowMinimizedTo" xml:space="preserve">
+    <value>Bij het starten met Windows het venster geminimaliseerd op de taakbalk openen</value>
+  </data>
+  <data name="Settings_StartMinimized" xml:space="preserve">
+    <value>Geminimaliseerd starten</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsStayInTheNotificationArea" xml:space="preserve">
+    <value>Bij het starten met Windows in het systeemvak blijven zonder het venster te openen</value>
+  </data>
+  <data name="Settings_StartInTray" xml:space="preserve">
+    <value>In het systeemvak starten</value>
+  </data>
+  <data name="Settings_Monitoring" xml:space="preserve">
+    <value>Bewaking</value>
+  </data>
+  <data name="Settings_StopCollectingMetricsUntilYouResumeAlsoAvailable" xml:space="preserve">
+    <value>Stoppen met het verzamelen van meetwaarden tot u hervat (ook beschikbaar via de titelbalk en het pictogram in het systeemvak)</value>
+  </data>
+  <data name="Settings_PauseMonitoring" xml:space="preserve">
+    <value>Bewaking pauzeren</value>
+  </data>
+  <data name="Settings_MonitoringIntensity" xml:space="preserve">
+    <value>Bewakingsintensiteit</value>
+  </data>
+  <data name="Settings_CPUMemoryAndNetworkSamplingInterval" xml:space="preserve">
+    <value>Meetinterval voor CPU, geheugen en netwerk</value>
+  </data>
+  <data name="Settings_RealTimeMetrics" xml:space="preserve">
+    <value>Realtime meetwaarden</value>
+  </data>
+  <data name="Settings_RealTimeMetricsInterval" xml:space="preserve">
+    <value>Interval van realtime meetwaarden</value>
+  </data>
+  <data name="Settings_ProcessesGPUAndDiskActivitySamplingInterval" xml:space="preserve">
+    <value>Meetinterval voor processen, GPU en schijfactiviteit</value>
+  </data>
+  <data name="Settings_DetailedMetrics" xml:space="preserve">
+    <value>Gedetailleerde meetwaarden</value>
+  </data>
+  <data name="Settings_DetailedMetricsInterval" xml:space="preserve">
+    <value>Interval van gedetailleerde meetwaarden</value>
+  </data>
+  <data name="Settings_HowOftenFreeSpaceIsChecked" xml:space="preserve">
+    <value>Hoe vaak de vrije ruimte wordt gecontroleerd</value>
+  </data>
+  <data name="Settings_StorageCapacity" xml:space="preserve">
+    <value>Opslagcapaciteit</value>
+  </data>
+  <data name="Settings_StorageCapacityInterval" xml:space="preserve">
+    <value>Interval van de opslagcapaciteit</value>
+  </data>
+  <data name="Settings_DefaultTimeSpanOfChartsHistoryIsKeptInMemoryOnly" xml:space="preserve">
+    <value>Standaardtijdspanne van grafieken (de geschiedenis wordt alleen in het geheugen bewaard)</value>
+  </data>
+  <data name="Settings_ChartHistory" xml:space="preserve">
+    <value>Grafiekgeschiedenis</value>
+  </data>
+  <data name="Settings_GraphicsAdapterUsageAndMemory" xml:space="preserve">
+    <value>Gebruik en geheugen van grafische adapters</value>
+  </data>
+  <data name="Settings_MonitorGPU" xml:space="preserve">
+    <value>GPU bewaken</value>
+  </data>
+  <data name="Settings_InterfaceThroughputAndConnectivityReportedBy" xml:space="preserve">
+    <value>Doorvoer van interfaces en connectiviteit zoals gemeld door Windows</value>
+  </data>
+  <data name="Settings_MonitorNetwork" xml:space="preserve">
+    <value>Netwerk bewaken</value>
+  </data>
+  <data name="Settings_WhileTheWindowIsHiddenOrMinimizedSampleProcesses" xml:space="preserve">
+    <value>Als het venster verborgen of geminimaliseerd is, processen, GPU, schijf en netwerk minder vaak meten</value>
+  </data>
+  <data name="Settings_ReduceActivityInTheBackground" xml:space="preserve">
+    <value>Activiteit op de achtergrond verminderen</value>
+  </data>
+  <data name="Settings_MaximumCPUSysoraMayUseInOfTotalCapacityAboveIt" xml:space="preserve">
+    <value>Maximale CPU die Sysora mag gebruiken, in % van de totale capaciteit. Daarboven worden de intervallen automatisch opgerekt. 0 = geen limiet.</value>
+  </data>
+  <data name="Settings_CPUBudgetForSysora" xml:space="preserve">
+    <value>CPU-budget voor Sysora</value>
+  </data>
+  <data name="Settings_HealthThresholds" xml:space="preserve">
+    <value>Gezondheidsdrempels</value>
+  </data>
+  <data name="Settings_UsedByTheSystemHealthPanelCPUAndMemoryMustStay" xml:space="preserve">
+    <value>Gebruikt door het paneel Systeemgezondheid. CPU en geheugen moeten gedurende de opgegeven tijd boven een drempel blijven voordat ze worden gemeld, zodat korte pieken geen waarschuwingen geven.</value>
+  </data>
+  <data name="Settings_CPUWarning" xml:space="preserve">
+    <value>CPU-waarschuwing (%)</value>
+  </data>
+  <data name="Settings_CPUCritical" xml:space="preserve">
+    <value>CPU kritiek (%)</value>
+  </data>
+  <data name="Settings_CPUDurationS" xml:space="preserve">
+    <value>CPU-duur (s)</value>
+  </data>
+  <data name="Settings_MemoryWarning" xml:space="preserve">
+    <value>Geheugenwaarschuwing (%)</value>
+  </data>
+  <data name="Settings_MemoryCritical" xml:space="preserve">
+    <value>Geheugen kritiek (%)</value>
+  </data>
+  <data name="Settings_MemoryDurationS" xml:space="preserve">
+    <value>Geheugenduur (s)</value>
+  </data>
+  <data name="Settings_DiskWarning" xml:space="preserve">
+    <value>Schijfwaarschuwing (%)</value>
+  </data>
+  <data name="Settings_DiskCritical" xml:space="preserve">
+    <value>Schijf kritiek (%)</value>
+  </data>
+  <data name="Settings_AppMemoryOfRAM" xml:space="preserve">
+    <value>App-geheugen (% van RAM)</value>
+  </data>
+  <data name="Settings_AppCPU" xml:space="preserve">
+    <value>App-CPU (%)</value>
+  </data>
+  <data name="Settings_RestoreDefaultThresholds" xml:space="preserve">
+    <value>Standaarddrempels herstellen</value>
+  </data>
+  <data name="Settings_RaiseAlertsForProblemsThatLastOrAreUnusualFor" xml:space="preserve">
+    <value>Waarschuwingen geven voor problemen die aanhouden of ongebruikelijk zijn voor deze pc (getoond in Waarschuwingen)</value>
+  </data>
+  <data name="Settings_SmartAlerts" xml:space="preserve">
+    <value>Slimme waarschuwingen</value>
+  </data>
+  <data name="Settings_AlsoShowAWindowsNotificationForNewWarningsAnd" xml:space="preserve">
+    <value>Ook een Windows-melding tonen voor nieuwe waarschuwingen en kritieke waarschuwingen</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Meldingen</value>
+  </data>
+  <data name="Settings_AlertNotifications" xml:space="preserve">
+    <value>Meldingen van waarschuwingen</value>
+  </data>
+  <data name="Settings_EachConditionMustLastForTheGivenDurationBeforeAn" xml:space="preserve">
+    <value>Elke toestand moet de opgegeven tijd aanhouden voordat er een waarschuwing wordt gegeven. Zolang hij duurt, wordt één waarschuwing bijgewerkt; die wordt een minuut na het einde van de toestand opgelost.</value>
+  </data>
+  <data name="Settings_CPUAbove" xml:space="preserve">
+    <value>CPU boven (%)</value>
+  </data>
+  <data name="Settings_ForMinutes" xml:space="preserve">
+    <value>gedurende (minuten)</value>
+  </data>
+  <data name="Settings_MemoryAbove" xml:space="preserve">
+    <value>Geheugen boven (%)</value>
+  </data>
+  <data name="Settings_DiskBusyAbove" xml:space="preserve">
+    <value>Schijf druk boven (%)</value>
+  </data>
+  <data name="Settings_OneAppAboveCPU" xml:space="preserve">
+    <value>Eén app boven (% CPU)</value>
+  </data>
+  <data name="Settings_MemoryRisingByPoints" xml:space="preserve">
+    <value>Geheugen stijgt met (punten)</value>
+  </data>
+  <data name="Settings_WithinMinutes" xml:space="preserve">
+    <value>binnen (minuten)</value>
+  </data>
+  <data name="Settings_SystemDiskFreeBelow" xml:space="preserve">
+    <value>Systeemschijf vrij onder (%)</value>
+  </data>
+  <data name="Settings_ReopenInsteadOfNewWithinMin" xml:space="preserve">
+    <value>Heropenen in plaats van nieuw binnen (min)</value>
+  </data>
+  <data name="Settings_NewAlertsPerHourMax" xml:space="preserve">
+    <value>Nieuwe waarschuwingen per uur (max.)</value>
+  </data>
+  <data name="Settings_UnusualActivity" xml:space="preserve">
+    <value>Ongebruikelijke activiteit</value>
+  </data>
+  <data name="Settings_AlertWhenCPUMemoryOrDiskStayAboveYourUsualRange" xml:space="preserve">
+    <value>Waarschuwen als CPU, geheugen of schijf gedurende de opgegeven tijd boven uw gebruikelijke bereik blijven (geleerd uit minstens 4 uur geschiedenis).</value>
+  </data>
+  <data name="Settings_UnusualActivityDurationMinutes" xml:space="preserve">
+    <value>Duur van ongebruikelijke activiteit (minuten)</value>
+  </data>
+  <data name="Settings_UnusualActivityAlerts" xml:space="preserve">
+    <value>Waarschuwingen bij ongebruikelijke activiteit</value>
+  </data>
+  <data name="Settings_RestoreDefaultAlertRules" xml:space="preserve">
+    <value>Standaardwaarschuwingsregels herstellen</value>
+  </data>
+  <data name="Settings_SaveAggregatedPerformanceApplicationUsageEvents" xml:space="preserve">
+    <value>Samengevatte prestaties, toepassingsgebruik, gebeurtenissen, waarschuwingen, wijzigingen en gamesessies opslaan in een lokale database. Nodig voor App-impact over meerdere dagen, Wijzigingen, gamesamenvattingen en de referentie voor gebruikelijk gedrag.</value>
+  </data>
+  <data name="Settings_RecordHistory" xml:space="preserve">
+    <value>Geschiedenis vastleggen</value>
+  </data>
+  <data name="Settings_DetailedDataEverySecondKeptInMemoryForReplay" xml:space="preserve">
+    <value>Gedetailleerde gegevens (elke seconde) die voor Terugblik in het geheugen worden bewaard. Worden nooit naar schijf geschreven.</value>
+  </data>
+  <data name="Settings_ReplayBuffer" xml:space="preserve">
+    <value>Buffer voor terugblik</value>
+  </data>
+  <data name="Settings_MinuteLevelSystemDataAndFiveMinuteApplication" xml:space="preserve">
+    <value>Systeemgegevens per minuut en toepassingsgegevens per vijf minuten (1–31 dagen)</value>
+  </data>
+  <data name="Settings_KeepDetailedHistoryDays" xml:space="preserve">
+    <value>Gedetailleerde geschiedenis bewaren (dagen)</value>
+  </data>
+  <data name="Settings_HourlySummariesEventsAlertsChangesAndGame" xml:space="preserve">
+    <value>Samenvattingen per uur, gebeurtenissen, waarschuwingen, wijzigingen en gamesessies (7–365 dagen). Oudere gegevens worden automatisch verwijderd.</value>
+  </data>
+  <data name="Settings_KeepSummariesDays" xml:space="preserve">
+    <value>Samenvattingen bewaren (dagen)</value>
+  </data>
+  <data name="Settings_DeleteHistory" xml:space="preserve">
+    <value>Geschiedenis verwijderen</value>
+  </data>
+  <data name="Settings_Delete" xml:space="preserve">
+    <value>Verwijderen…</value>
+  </data>
+  <data name="Settings_FollowGameSessionsAutomaticallyAndShowARecapWhen" xml:space="preserve">
+    <value>Gamesessies automatisch volgen en een samenvatting tonen als de game sluit. FPS wordt nooit geschat.</value>
+  </data>
+  <data name="Settings_ExecutablesThatWindowsItselfRecognizesAsGames" xml:space="preserve">
+    <value>Uitvoerbare bestanden die Windows zelf als games herkent (lijst van Game Bar voor uw account)</value>
+  </data>
+  <data name="Settings_GamesRecognizedByWindows" xml:space="preserve">
+    <value>Door Windows herkende games</value>
+  </data>
+  <data name="Settings_ExecutablesInstalledInAGameLibraryFolderSteam" xml:space="preserve">
+    <value>Uitvoerbare bestanden die in een gamebibliotheekmap zijn geïnstalleerd (Steam, Epic, Xbox, GOG, Riot, EA, Ubisoft…); launchers, anti-cheat en crashrapportage worden overgeslagen</value>
+  </data>
+  <data name="Settings_GamesInLibraryFolders" xml:space="preserve">
+    <value>Games in bibliotheekmappen</value>
+  </data>
+  <data name="Settings_ShorterSessionsAreNotKept130Minutes" xml:space="preserve">
+    <value>Kortere sessies worden niet bewaard (1–30 minuten)</value>
+  </data>
+  <data name="Settings_MinimumSessionLengthMinutes" xml:space="preserve">
+    <value>Minimale sessieduur (minuten)</value>
+  </data>
+  <data name="Settings_ShowAWindowsNotificationWhenAGameRecapIsReady" xml:space="preserve">
+    <value>Een Windows-melding tonen als een gamesamenvatting klaar is</value>
+  </data>
+  <data name="Settings_RecapNotification" xml:space="preserve">
+    <value>Melding voor samenvatting</value>
+  </data>
+  <data name="Settings_WhileAGameIsInFrontPauseTheWindowsLiveUpdatesAnd" xml:space="preserve">
+    <value>Zolang een game op de voorgrond staat, de live-updates van het venster pauzeren en gedetailleerde meetwaarden minder vaak meten. Het vastleggen gaat door.</value>
+  </data>
+  <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
+    <value>Lichtere bewaking tijdens games</value>
+  </data>
+  <data name="Settings_YourGameLists" xml:space="preserve">
+    <value>Uw gamelijsten</value>
+  </data>
+  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
+    <value>Markeer een actieve toepassing als game als Sysora haar niet herkent, of verwijder een markering. Toepassingen die als geen game zijn gemarkeerd, worden nooit gevolgd.</value>
+  </data>
+  <data name="Settings_RunningApplication" xml:space="preserve">
+    <value>Actieve toepassing</value>
+  </data>
+  <data name="Settings_ChooseARunningApplication" xml:space="preserve">
+    <value>Een actieve toepassing kiezen</value>
+  </data>
+  <data name="Settings_RefreshTheListOfRunningApplications" xml:space="preserve">
+    <value>De lijst met actieve toepassingen vernieuwen</value>
+  </data>
+  <data name="Settings_MarkAsAGame" xml:space="preserve">
+    <value>Als game markeren</value>
+  </data>
+  <data name="Settings_MarkedAsGames" xml:space="preserve">
+    <value>Gemarkeerd als games</value>
+  </data>
+  <data name="Settings_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="Settings_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Settings_MarkedAsNotGames" xml:space="preserve">
+    <value>Gemarkeerd als geen games</value>
+  </data>
+  <data name="Settings_Privacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="Settings_SysoraIsLocalFirst" xml:space="preserve">
+    <value>Sysora werkt lokaal.</value>
+  </data>
+  <data name="Settings_NoTelemetryIsEnabledByDefault" xml:space="preserve">
+    <value>Er is standaard geen telemetrie ingeschakeld.</value>
+  </data>
+  <data name="Settings_NoAccountIsRequired" xml:space="preserve">
+    <value>Er is geen account nodig.</value>
+  </data>
+  <data name="Settings_NoSystemMetricsAreUploaded" xml:space="preserve">
+    <value>Er worden geen systeemmetingen geüpload.</value>
+  </data>
+  <data name="Settings_SysoraWorksOfflineAndNeverContactsAServer" xml:space="preserve">
+    <value>Sysora werkt offline en neemt nooit contact op met een server. Instellingen, logboeken en de lokale geschiedenis (prestaties, toepassingsnamen, waarschuwingen, gevonden wijzigingen, gamesessies) blijven in de map hieronder, op deze pc.</value>
+  </data>
+  <data name="Settings_OpenDataFolder" xml:space="preserve">
+    <value>Gegevensmap openen</value>
+  </data>
+  <data name="Settings_OpenLogsFolder" xml:space="preserve">
+    <value>Logboekmap openen</value>
+  </data>
+  <data name="Settings_Diagnostics" xml:space="preserve">
+    <value>Diagnostiek</value>
+  </data>
+  <data name="Settings_SysoraMeasuresItsOwnProcessEveryTenSecondsAFew" xml:space="preserve">
+    <value>Sysora meet elke tien seconden zijn eigen proces (een paar tellers uitlezen, geen extra verzameling), zodat u kunt controleren dat het nooit zelf het probleem wordt waarnaar het zoekt.</value>
+  </data>
+  <data name="Settings_DetailLevelOfTheLocalLogFilesKept14Days" xml:space="preserve">
+    <value>Detailniveau van de lokale logboekbestanden (14 dagen bewaard)</value>
+  </data>
+  <data name="Settings_LogLevel" xml:space="preserve">
+    <value>Logboekniveau</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="Settings_RunningInDemoModeAllMetricsAreSimulated" xml:space="preserve">
+    <value>Draait in demomodus: alle meetwaarden zijn gesimuleerd.</value>
+  </data>
+  <data name="Storage_FindLargeFiles" xml:space="preserve">
+    <value>Grote bestanden zoeken</value>
+  </data>
+  <data name="Storage_FindTheFilesThatTakeTheMostSpaceReadOnly" xml:space="preserve">
+    <value>De bestanden zoeken die de meeste ruimte innemen (alleen-lezen)</value>
+  </data>
+  <data name="Storage_VolumeInformationCouldNotBeReadDetailsAreInThe" xml:space="preserve">
+    <value>Volumegegevens konden niet worden gelezen. Details staan in het logboekbestand.</value>
+  </data>
+  <data name="Storage_Windows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="Storage_Used" xml:space="preserve">
+    <value>Gebruikt</value>
+  </data>
+  <data name="Storage_Free" xml:space="preserve">
+    <value>Vrij</value>
+  </data>
+  <data name="Storage_Total" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="Storage_ActiveTime" xml:space="preserve">
+    <value>Actieve tijd</value>
+  </data>
+  <data name="Storage_StorageAnalyzer" xml:space="preserve">
+    <value>Opslaganalyse</value>
+  </data>
+  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
+    <value>Grote mappen zoeken — gepland</value>
+  </data>
+  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
+    <value>Een toekomstige versie meet op verzoek de grootte van mappen om te laten zien waar de ruimte heen gaat. Die is alleen-lezen: Sysora verwijdert nooit bestanden. Netwerkstations worden niet getoond, omdat het opvragen van een losgekoppeld station lang kan blokkeren.</value>
+  </data>
+  <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
+    <value>Alleen informatie die Windows daadwerkelijk meldt, wordt getoond</value>
+  </data>
+  <data name="System_ReadHardwareInformationAgain" xml:space="preserve">
+    <value>Hardwaregegevens opnieuw lezen</value>
+  </data>
+  <data name="System_SYSTEMUPTIME" xml:space="preserve">
+    <value>ACTIEVE TIJD VAN HET SYSTEEM</value>
+  </data>
+  <data name="System_LastStart" xml:space="preserve">
+    <value>Laatste start</value>
+  </data>
+  <data name="System_WithFastStartupShuttingDownAndTurningOnAgainDoes" xml:space="preserve">
+    <value>Met Snel opstarten zet afsluiten en weer aanzetten deze teller niet terug: alleen Opnieuw opstarten doet dat.</value>
+  </data>
+  <data name="System_WINDOWS" xml:space="preserve">
+    <value>WINDOWS</value>
+  </data>
+  <data name="System_Edition" xml:space="preserve">
+    <value>Editie</value>
+  </data>
+  <data name="System_InstalledOn" xml:space="preserve">
+    <value>Geïnstalleerd op</value>
+  </data>
+  <data name="System_Architecture" xml:space="preserve">
+    <value>Architectuur</value>
+  </data>
+  <data name="System_ComputerName" xml:space="preserve">
+    <value>Computernaam</value>
+  </data>
+  <data name="System_HARDWARE" xml:space="preserve">
+    <value>HARDWARE</value>
+  </data>
+  <data name="System_Processor" xml:space="preserve">
+    <value>Processor</value>
+  </data>
+  <data name="System_Graphics" xml:space="preserve">
+    <value>Grafisch</value>
+  </data>
+  <data name="System_FIRMWARE" xml:space="preserve">
+    <value>FIRMWARE</value>
+  </data>
+  <data name="System_SystemModel" xml:space="preserve">
+    <value>Systeemmodel</value>
+  </data>
+  <data name="System_Motherboard" xml:space="preserve">
+    <value>Moederbord</value>
+  </data>
+  <data name="System_BIOS" xml:space="preserve">
+    <value>BIOS</value>
+  </data>
+  <data name="System_BIOSDate" xml:space="preserve">
+    <value>BIOS-datum</value>
+  </data>
+  <data name="Timeline_WhatHappenedOnThisPCInOrder" xml:space="preserve">
+    <value>Wat er op deze pc is gebeurd, op volgorde</value>
+  </data>
+  <data name="Timeline_ApplicationsStartedAndClosed" xml:space="preserve">
+    <value>Gestarte en gesloten toepassingen</value>
+  </data>
+  <data name="Timeline_Games" xml:space="preserve">
+    <value>Games</value>
+  </data>
+  <data name="Timeline_SpikesAndAnomalies" xml:space="preserve">
+    <value>Pieken en afwijkingen</value>
+  </data>
+  <data name="Timeline_DetectedChanges" xml:space="preserve">
+    <value>Gevonden wijzigingen</value>
+  </data>
+  <data name="Timeline_SleepNetworkAndDevices" xml:space="preserve">
+    <value>Slaapstand, netwerk en apparaten</value>
+  </data>
+  <data name="Timeline_TroubleshootingInvestigations" xml:space="preserve">
+    <value>Onderzoeken voor probleemoplossing</value>
+  </data>
+  <data name="Timeline_SysorasOwnEventsMonitoringStartedGaps" xml:space="preserve">
+    <value>Eigen gebeurtenissen van Sysora (bewaking gestart, onderbrekingen)</value>
+  </data>
+  <data name="Timeline_Order" xml:space="preserve">
+    <value>Volgorde</value>
+  </data>
+  <data name="Timeline_OldestFirst" xml:space="preserve">
+    <value>Oudste eerst</value>
+  </data>
+  <data name="Timeline_NewestFirst" xml:space="preserve">
+    <value>Nieuwste eerst</value>
+  </data>
+  <data name="Timeline_SaveTheEntriesShownAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>De getoonde items opslaan als HTML-rapport of JSON-gegevens</value>
+  </data>
+  <data name="Timeline_ShowThisMomentInReplay" xml:space="preserve">
+    <value>Dit moment weergeven in Terugblik</value>
+  </data>
+  <data name="Timeline_CompareBeforeAndAfter" xml:space="preserve">
+    <value>Voor en na vergelijken</value>
+  </data>
+  <data name="Timeline_CompareThe15MinutesBeforeAndAfter" xml:space="preserve">
+    <value>De 15 minuten ervoor en erna vergelijken</value>
+  </data>
+  <data name="Timeline_NoEntryToShow" xml:space="preserve">
+    <value>Geen item om te tonen</value>
+  </data>
+  <data name="Timeline_ChooseALongerPeriodOrShowMoreKindsOfEntries" xml:space="preserve">
+    <value>Kies een langere periode of toon meer soorten items. Sysora voegt nooit een item toe dat het niet heeft waargenomen.</value>
+  </data>
+  <data name="Troubleshooting_InvestigateAProblemForALimitedTimeSysoraCollects" xml:space="preserve">
+    <value>Een probleem gedurende beperkte tijd onderzoeken: Sysora verzamelt meer context en legt daarna uit wat het heeft gemeten.</value>
+  </data>
+  <data name="Troubleshooting_StartInvestigation" xml:space="preserve">
+    <value>Onderzoek starten</value>
+  </data>
+  <data name="Troubleshooting_StopNow" xml:space="preserve">
+    <value>Nu stoppen</value>
+  </data>
+  <data name="Troubleshooting_DuringTheInvestigationSysoraSamplesWithThe" xml:space="preserve">
+    <value>Tijdens het onderzoek meet Sysora met de gedetailleerde intensiteit (CPU en geheugen elke 0,5 s, processen, GPU en schijven elke seconde), ook als het venster verborgen is, en bewaart het elke gebeurtenis. Het blijft daarbij binnen zijn CPU-budget en keert aan het einde vanzelf terug naar uw gebruikelijke intensiteit. Er verlaat niets deze pc.</value>
+  </data>
+  <data name="Troubleshooting_Investigation" xml:space="preserve">
+    <value>Onderzoek</value>
+  </data>
+  <data name="Troubleshooting_OpenInReplay" xml:space="preserve">
+    <value>Openen in Terugblik</value>
+  </data>
+  <data name="Troubleshooting_ShowTheInvestigatedPeriodInReplay" xml:space="preserve">
+    <value>De onderzochte periode weergeven in Terugblik</value>
+  </data>
+  <data name="Troubleshooting_SaveTheReportAsAnHTMLPageOrJSONData" xml:space="preserve">
+    <value>Het rapport opslaan als HTML-pagina of JSON-gegevens</value>
+  </data>
+  <data name="Troubleshooting_CPUUsageDuringTheInvestigation" xml:space="preserve">
+    <value>CPU-gebruik tijdens het onderzoek</value>
+  </data>
+  <data name="Troubleshooting_MemoryUsageDuringTheInvestigation" xml:space="preserve">
+    <value>Geheugengebruik tijdens het onderzoek</value>
+  </data>
+  <data name="Troubleshooting_Peak" xml:space="preserve">
+    <value>Piek</value>
+  </data>
+  <data name="Troubleshooting_ColumnsAverageThenPeak" xml:space="preserve">
+    <value>Kolommen: gemiddelde, dan piek.</value>
+  </data>
+  <data name="Troubleshooting_Anomalies" xml:space="preserve">
+    <value>Afwijkingen</value>
+  </data>
+  <data name="Troubleshooting_CorrelationsAndLikelyExplanations" xml:space="preserve">
+    <value>Verbanden en waarschijnlijke verklaringen</value>
+  </data>
+  <data name="Troubleshooting_ObservedMeasuredInferredACoincidenceInThe" xml:space="preserve">
+    <value>Waargenomen = gemeten. Afgeleid = een samenloop in de metingen: de gegevens wijzen erop, het is niet bewezen.</value>
+  </data>
+  <data name="Troubleshooting_ApplicationsInvolved" xml:space="preserve">
+    <value>Betrokken toepassingen</value>
+  </data>
+  <data name="Troubleshooting_Events" xml:space="preserve">
+    <value>Gebeurtenissen</value>
+  </data>
+  <data name="Troubleshooting_WhatCouldNotBeKnown" xml:space="preserve">
+    <value>Wat niet bekend kon zijn</value>
+  </data>
+  <data name="Network_DownloadHeader" xml:space="preserve">
+    <value>DOWNLOAD</value>
+  </data>
+  <data name="Network_UploadHeader" xml:space="preserve">
+    <value>UPLOAD</value>
+  </data>
+  <data name="Common_Checking" xml:space="preserve">
+    <value>Controleren…</value>
+  </data>
+  <data name="Dashboard_NoIssue" xml:space="preserve">
+    <value>Geen probleem gevonden</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_One" xml:space="preserve">
+    <value>{0} item vraagt aandacht</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_Other" xml:space="preserve">
+    <value>{0} items vragen aandacht</value>
+  </data>
+  <data name="Dashboard_DiagnosisNotAvailable" xml:space="preserve">
+    <value>Diagnose niet beschikbaar</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_NoReference" xml:space="preserve">
+    <value>Sysora vergelijkt met een momentopname van gisteren; de eerste wordt een minuut na de start gemaakt.</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_Nothing" xml:space="preserve">
+    <value>Niets veranderd in de vergeleken onderdelen ({0}).</value>
+  </data>
+  <data name="Dashboard_AlertsNew" xml:space="preserve">
+    <value>Waarschuwingen ({0} nieuw)</value>
+  </data>
+  <data name="Dashboard_AlertsActive" xml:space="preserve">
+    <value>Waarschuwingen ({0} actief)</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Uit</value>
+  </data>
+  <data name="Dashboard_NetworkOff" xml:space="preserve">
+    <value>Netwerkbewaking is uitgeschakeld</value>
+  </data>
+  <data name="Dashboard_NotConnected" xml:space="preserve">
+    <value>Niet verbonden</value>
+  </data>
+  <data name="Dashboard_ConnectivityUnknown" xml:space="preserve">
+    <value>Connectiviteit onbekend</value>
+  </data>
+  <data name="Dashboard_SpeedNotAvailable" xml:space="preserve">
+    <value>Snelheid niet beschikbaar</value>
+  </data>
+  <data name="Count_Thread_One" xml:space="preserve">
+    <value>{0} thread</value>
+  </data>
+  <data name="Count_Thread_Other" xml:space="preserve">
+    <value>{0} threads</value>
+  </data>
+  <data name="Dashboard_Temperature" xml:space="preserve">
+    <value>Temperatuur: {0}</value>
+  </data>
+  <data name="Dashboard_MemoryOf" xml:space="preserve">
+    <value>van {0} · {1}</value>
+  </data>
+  <data name="Dashboard_MemoryAvailable" xml:space="preserve">
+    <value>{0} beschikbaar</value>
+  </data>
+  <data name="Dashboard_GpuOff" xml:space="preserve">
+    <value>GPU-bewaking is uitgeschakeld</value>
+  </data>
+  <data name="Dashboard_GpuMemory" xml:space="preserve">
+    <value>Geheugen {0} / {1}</value>
+  </data>
+  <data name="Dashboard_DiskFree" xml:space="preserve">
+    <value>{0} · {1} vrij van {2}</value>
+  </data>
+  <data name="Dashboard_ActiveTime" xml:space="preserve">
+    <value>Actieve tijd {0}</value>
+  </data>
+  <data name="Dashboard_ActiveTimeNotAvailable" xml:space="preserve">
+    <value>Actieve tijd niet beschikbaar</value>
+  </data>
+  <data name="LargeFiles_View_Files" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="LargeFiles_View_ByType" xml:space="preserve">
+    <value>Per type</value>
+  </data>
+  <data name="LargeFiles_View_ByExtension" xml:space="preserve">
+    <value>Per extensie</value>
+  </data>
+  <data name="LargeFiles_View_ByFolder" xml:space="preserve">
+    <value>Per map</value>
+  </data>
+  <data name="LargeFiles_AllTypes" xml:space="preserve">
+    <value>Alle typen</value>
+  </data>
+  <data name="LargeFiles_OrMore" xml:space="preserve">
+    <value>{0} of meer</value>
+  </data>
+  <data name="LargeFiles_Starting" xml:space="preserve">
+    <value>Starten…</value>
+  </data>
+  <data name="LargeFiles_ScanFailed" xml:space="preserve">
+    <value>De scan is mislukt: {0}</value>
+  </data>
+  <data name="LargeFiles_FolderTarget" xml:space="preserve">
+    <value>Map: {0}</value>
+  </data>
+  <data name="LargeFiles_VolumeTarget" xml:space="preserve">
+    <value>{0}{1}{2} · {3} vrij van {4}</value>
+  </data>
+  <data name="LargeFiles_AllFixed" xml:space="preserve">
+    <value>Alle vaste volumes</value>
+  </data>
+  <data name="LargeFiles_Progress" xml:space="preserve">
+    <value>{0} · {1} · {2} gezien · {3} tot nu toe</value>
+  </data>
+  <data name="Count_FileN0_One" xml:space="preserve">
+    <value>{0:N0} bestand</value>
+  </data>
+  <data name="Count_FileN0_Other" xml:space="preserve">
+    <value>{0:N0} bestanden</value>
+  </data>
+  <data name="Count_LargeFile_One" xml:space="preserve">
+    <value>{0} groot bestand</value>
+  </data>
+  <data name="Count_LargeFile_Other" xml:space="preserve">
+    <value>{0} grote bestanden</value>
+  </data>
+  <data name="LargeFiles_LastScan" xml:space="preserve">
+    <value>{0} gescand: {1} · {2} van {3} of meer</value>
+  </data>
+  <data name="LargeFiles_Truncated" xml:space="preserve">
+    <value>(de {0} grootste worden getoond)</value>
+  </data>
+  <data name="LargeFiles_Problem_Denied" xml:space="preserve">
+    <value>Toegang geweigerd: {0} konden niet worden gelezen, dus de inhoud is onbekend (niet leeg). Bijvoorbeeld: {1}.</value>
+  </data>
+  <data name="LargeFiles_Problem_Unavailable" xml:space="preserve">
+    <value>Niet beschikbaar: {0} konden niet worden gelezen (verwijderd tijdens de scan, apparaatfout of pad te lang).</value>
+  </data>
+  <data name="LargeFiles_Problem_Cloud" xml:space="preserve">
+    <value>{0} overgeslagen: ze staan in de cloud, niet op deze pc.</value>
+  </data>
+  <data name="LargeFiles_Problem_Links" xml:space="preserve">
+    <value>{0} niet gevolgd (koppelpunten en symbolische koppelingen verwijzen naar gegevens die elders worden geteld).</value>
+  </data>
+  <data name="LargeFiles_Problem_Excluded" xml:space="preserve">
+    <value>Niet gescand: {0} — {1}</value>
+  </data>
+  <data name="Diagnosis_WhyNowFailed" xml:space="preserve">
+    <value>De analyse kon niet worden voltooid. Details staan in het logboek.</value>
+  </data>
+  <data name="Diagnosis_BeforeData" xml:space="preserve">
+    <value>Voor de geanalyseerde gegevens</value>
+  </data>
+  <data name="Diagnosis_UsualNotKnown" xml:space="preserve">
+    <value>Gebruikelijk bereik nog niet bekend.</value>
+  </data>
+  <data name="Diagnosis_Failed" xml:space="preserve">
+    <value>De diagnose kon niet worden voltooid. Details staan in het logboek.</value>
+  </data>
+  <data name="Diagnosis_Analyzed" xml:space="preserve">
+    <value>Geanalyseerd: laatste {0} · {1} · bijgewerkt {2}</value>
+  </data>
+  <data name="Diagnosis_ObservedFor" xml:space="preserve">
+    <value>{0}: {1} gedurende {2}</value>
+  </data>
+  <data name="Diagnosis_Reference" xml:space="preserve">
+    <value>Referentie: {0}</value>
+  </data>
+  <data name="Diagnosis_ObservedAt" xml:space="preserve">
+    <value>Waargenomen {0}</value>
+  </data>
+  <data name="State_ProblemDetected" xml:space="preserve">
+    <value>Probleem gevonden</value>
+  </data>
+  <data name="State_Healthy" xml:space="preserve">
+    <value>Gezond</value>
+  </data>
+  <data name="Alerts_Filter_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Alerts_Filter_Active" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="Alerts_Filter_Resolved" xml:space="preserve">
+    <value>Opgelost</value>
+  </data>
+  <data name="Alerts_NoneIn7Days" xml:space="preserve">
+    <value>Geen waarschuwing vastgelegd in de laatste 7 dagen.</value>
+  </data>
+  <data name="Alerts_Summary" xml:space="preserve">
+    <value>{0} · {1} nieuw · {2} in de laatste 7 dagen</value>
+  </data>
+  <data name="Count_ActiveAlert_One" xml:space="preserve">
+    <value>{0} actieve waarschuwing</value>
+  </data>
+  <data name="Count_ActiveAlert_Other" xml:space="preserve">
+    <value>{0} actieve waarschuwingen</value>
+  </data>
+  <data name="Alerts_Rule_Cpu" xml:space="preserve">
+    <value>CPU boven {0} gedurende {1}</value>
+  </data>
+  <data name="Alerts_Rule_Memory" xml:space="preserve">
+    <value>geheugen boven {0} gedurende {1}</value>
+  </data>
+  <data name="Alerts_Rule_Disk" xml:space="preserve">
+    <value>schijf druk boven {0} gedurende {1}</value>
+  </data>
+  <data name="Alerts_Rule_App" xml:space="preserve">
+    <value>één toepassing boven {0} CPU gedurende {1}</value>
+  </data>
+  <data name="Alerts_Rule_Growth" xml:space="preserve">
+    <value>geheugen stijgt {0:0} punten in {1}</value>
+  </data>
+  <data name="Alerts_Rule_Unusual" xml:space="preserve">
+    <value>activiteit boven uw gebruikelijke bereik gedurende {0}</value>
+  </data>
+  <data name="Alerts_Rule_UnusualOff" xml:space="preserve">
+    <value>ongebruikelijke activiteit uit</value>
+  </data>
+  <data name="Alerts_Rule_Space" xml:space="preserve">
+    <value>minder dan {0} vrij op de systeemschijf</value>
+  </data>
+  <data name="Alerts_Lasted" xml:space="preserve">
+    <value>duurde {0}</value>
+  </data>
+  <data name="Alerts_SinceOngoing" xml:space="preserve">
+    <value>Sinds {0} · loopt nog{1}</value>
+  </data>
+  <data name="Count_Occurrence_One" xml:space="preserve">
+    <value>{0} voorval</value>
+  </data>
+  <data name="Count_Occurrence_Other" xml:space="preserve">
+    <value>{0} voorvallen</value>
+  </data>
+  <data name="Changes_View_Timeline" xml:space="preserve">
+    <value>Tijdlijn (laatste 30 dagen)</value>
+  </data>
+  <data name="Changes_View_Morning" xml:space="preserve">
+    <value>Sinds vanochtend</value>
+  </data>
+  <data name="Changes_View_Yesterday" xml:space="preserve">
+    <value>Sinds gisteren</value>
+  </data>
+  <data name="Changes_View_7Days" xml:space="preserve">
+    <value>Sinds 7 dagen geleden</value>
+  </data>
+  <data name="Changes_View_30Days" xml:space="preserve">
+    <value>Sinds 30 dagen geleden</value>
+  </data>
+  <data name="Changes_SinceFailed" xml:space="preserve">
+    <value>De vergelijking met gisteren kon niet worden gemaakt.</value>
+  </data>
+  <data name="Changes_NoSnapshotYet" xml:space="preserve">
+    <value>Nog geen momentopname vastgelegd. Sysora maakt er een een minuut na de start, daarna elke zes uur.</value>
+  </data>
+  <data name="Changes_Snapshots" xml:space="preserve">
+    <value>{0} sinds {1} · laatste {2}</value>
+  </data>
+  <data name="Count_DailySnapshot_One" xml:space="preserve">
+    <value>{0} dagelijkse momentopname</value>
+  </data>
+  <data name="Count_DailySnapshot_Other" xml:space="preserve">
+    <value>{0} dagelijkse momentopnamen</value>
+  </data>
+  <data name="Changes_NoChangeYet" xml:space="preserve">
+    <value>Nog geen wijziging vastgelegd. Wijzigingen verschijnen hier zodra Sysora dagelijkse momentopnamen van de pc vergelijkt (toepassingen, opstartprogramma's, Windows-versie, apparaten, schijfruimte en gemiddeld gebruik).</value>
+  </data>
+  <data name="Changes_DetectedNote" xml:space="preserve">
+    <value>Gevonden door momentopnamen van de pc te vergelijken. Bureaubladtoepassingen die in de laatste 30 dagen zijn geïnstalleerd of bijgewerkt, worden ook getoond op basis van de datums die Windows heeft vastgelegd.</value>
+  </data>
+  <data name="Changes_LoadFailed" xml:space="preserve">
+    <value>De wijzigingen konden niet worden geladen. Details staan in het logboek.</value>
+  </data>
+  <data name="Changes_Group_ThisWeek" xml:space="preserve">
+    <value>Deze week</value>
+  </data>
+  <data name="Changes_Group_Earlier" xml:space="preserve">
+    <value>Eerder</value>
+  </data>
+  <data name="Importance_HighLong" xml:space="preserve">
+    <value>Groot belang</value>
+  </data>
+  <data name="Changes_On" xml:space="preserve">
+    <value>Op {0}</value>
+  </data>
+  <data name="Changes_Between" xml:space="preserve">
+    <value>Tussen {0} en {1}</value>
+  </data>
+  <data name="Changes_SameDayBetween" xml:space="preserve">
+    <value>{0}, tussen {1} en {2}</value>
+  </data>
+  <data name="Changes_BeforeTime" xml:space="preserve">
+    <value>Voor {0}</value>
+  </data>
+  <data name="Recurring_OccurrencesShort" xml:space="preserve">
+    <value>{0}× op {1} dagen</value>
+  </data>
+  <data name="AppImpact_Failed" xml:space="preserve">
+    <value>De app-impact kon niet worden berekend. Details staan in het logboek.</value>
+  </data>
+  <data name="AppImpact_Summary" xml:space="preserve">
+    <value>{0} · {1} gemeten</value>
+  </data>
+  <data name="AppImpact_SummaryApps" xml:space="preserve">
+    <value>{0} · {1} gemeten · {2}</value>
+  </data>
+  <data name="Count_Application_One" xml:space="preserve">
+    <value>{0} toepassing</value>
+  </data>
+  <data name="Count_Application_Other" xml:space="preserve">
+    <value>{0} toepassingen</value>
+  </data>
+  <data name="AppImpact_LastHourPerMinute" xml:space="preserve">
+    <value>Laatste uur, per minuut</value>
+  </data>
+  <data name="AppImpact_PathNotAccessible" xml:space="preserve">
+    <value>Pad niet toegankelijk: alleen herkend aan de naam</value>
+  </data>
+  <data name="AppImpact_PathProtected" xml:space="preserve">
+    <value>Pad van het uitvoerbare bestand niet toegankelijk (beveiligd proces): alleen herkend aan de naam.</value>
+  </data>
+  <data name="AppImpact_RelativeScore" xml:space="preserve">
+    <value>Relatieve score {0}/100</value>
+  </data>
+  <data name="AppImpact_Peaks" xml:space="preserve">
+    <value>Piek CPU {0} · piek geheugen {1} · piek I/O {2}</value>
+  </data>
+  <data name="AppImpact_Starts_One" xml:space="preserve">
+    <value>{0} start waargenomen</value>
+  </data>
+  <data name="AppImpact_Starts_Other" xml:space="preserve">
+    <value>{0} starts waargenomen</value>
+  </data>
+  <data name="AppImpact_NoStart" xml:space="preserve">
+    <value>Geen start waargenomen in deze periode</value>
+  </data>
+  <data name="AppImpact_RunningNow" xml:space="preserve">
+    <value>Nu actief · {0}</value>
+  </data>
+  <data name="AppImpact_LastSeen" xml:space="preserve">
+    <value>Laatst gezien {0}</value>
+  </data>
+  <data name="AppImpact_NoHistory" xml:space="preserve">
+    <value>Geen geschiedenis voor deze toepassing in deze periode.</value>
+  </data>
+  <data name="AppImpact_ChartPerHour" xml:space="preserve">
+    <value>Gemiddelde tijdens het draaien, per uur. Gaten: draaide niet of niet gemeten.</value>
+  </data>
+  <data name="AppImpact_ChartPerMinutes" xml:space="preserve">
+    <value>Gemiddelde tijdens het draaien, per {0}. Gaten: draaide niet of niet gemeten.</value>
+  </data>
+  <data name="AppImpact_MostOfTheTime" xml:space="preserve">
+    <value>Het grootste deel van de tijd</value>
+  </data>
+  <data name="AppImpact_PartOfTheTime" xml:space="preserve">
+    <value>Een deel van de tijd</value>
+  </data>
+  <data name="AppImpact_Briefly" xml:space="preserve">
+    <value>Kort</value>
+  </data>
+  <data name="Replay_LoadFailed" xml:space="preserve">
+    <value>De gegevens van de terugblik konden niet worden geladen. Details staan in het logboek.</value>
+  </data>
+  <data name="Replay_Live" xml:space="preserve">
+    <value>Live · {0}</value>
+  </data>
+  <data name="Replay_Paused" xml:space="preserve">
+    <value>Gepauzeerd · {0}</value>
+  </data>
+  <data name="Replay_NoMeasurementAtTime" xml:space="preserve">
+    <value>Geen meting op dit tijdstip</value>
+  </data>
+  <data name="Replay_NowAt" xml:space="preserve">
+    <value>Nu ({0})</value>
+  </data>
+  <data name="Replay_DiskActive" xml:space="preserve">
+    <value>{0} actief{1}</value>
+  </data>
+  <data name="Replay_AppsNotAvailable" xml:space="preserve">
+    <value>Toepassingsgegevens niet beschikbaar voor dit moment.</value>
+  </data>
+  <data name="Replay_AppAverage" xml:space="preserve">
+    <value>{0} — {1} CPU, {2} (gemiddelde over 5 minuten)</value>
+  </data>
+  <data name="Replay_NoAppRecorded" xml:space="preserve">
+    <value>Geen toepassing vastgelegd voor deze periode van vijf minuten.</value>
+  </data>
+  <data name="Replay_AppNow" xml:space="preserve">
+    <value>{0}{1} — {2} CPU, {3}</value>
+  </data>
+  <data name="Trend_MemoryRisingBy" xml:space="preserve">
+    <value>Geheugen stijgt (+{0})</value>
+  </data>
+  <data name="Trend_MemoryRising" xml:space="preserve">
+    <value>Geheugen stijgt</value>
+  </data>
+  <data name="Trend_CpuRisingBy" xml:space="preserve">
+    <value>CPU stijgt (+{0})</value>
+  </data>
+  <data name="Trend_CpuRising" xml:space="preserve">
+    <value>CPU stijgt</value>
+  </data>
+  <data name="Trend_MemoryFallingBy" xml:space="preserve">
+    <value>Geheugen daalt ({0})</value>
+  </data>
+  <data name="Trend_MemoryFalling" xml:space="preserve">
+    <value>Geheugen daalt</value>
+  </data>
+  <data name="Trend_CpuFallingBy" xml:space="preserve">
+    <value>CPU daalt ({0})</value>
+  </data>
+  <data name="Trend_CpuFalling" xml:space="preserve">
+    <value>CPU daalt</value>
+  </data>
+  <data name="Trend_NotEnoughData" xml:space="preserve">
+    <value>Onvoldoende gegevens</value>
+  </data>
+  <data name="Trend_Stable" xml:space="preserve">
+    <value>Stabiel</value>
+  </data>
+  <data name="Count_MeasurementN0_One" xml:space="preserve">
+    <value>{0:N0} meting</value>
+  </data>
+  <data name="Count_MeasurementN0_Other" xml:space="preserve">
+    <value>{0:N0} metingen</value>
+  </data>
+  <data name="Evidence_Source" xml:space="preserve">
+    <value>Bron: {0}</value>
+  </data>
+  <data name="Action_Compare" xml:space="preserve">
+    <value>Voor / na vergelijken</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>{0} openen</value>
+  </data>
+  <data name="Gaming_NotFollowed" xml:space="preserve">
+    <value>{0} wordt niet meer als game gevolgd. U kunt dit ongedaan maken in Instellingen › Games.</value>
+  </data>
+  <data name="Gaming_LiveTitle" xml:space="preserve">
+    <value>{0} · draait al {1}</value>
+  </data>
+  <data name="Gaming_LiveCpu" xml:space="preserve">
+    <value>CPU {0} gem. ({1} piek)</value>
+  </data>
+  <data name="Gaming_LiveGpu" xml:space="preserve">
+    <value>GPU {0} gem. ({1} piek)</value>
+  </data>
+  <data name="Gaming_LiveMemory" xml:space="preserve">
+    <value>geheugen {0} gem.</value>
+  </data>
+  <data name="Gaming_LiveGameMemory" xml:space="preserve">
+    <value>game {0} gem.</value>
+  </data>
+  <data name="Gaming_Collecting" xml:space="preserve">
+    <value>De eerste metingen verzamelen…</value>
+  </data>
+  <data name="Gaming_SelfCpu" xml:space="preserve">
+    <value>Sysora zelf: gemiddeld {0} CPU tijdens deze sessie. FPS: Niet beschikbaar.</value>
+  </data>
+  <data name="Gaming_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Niet beschikbaar.</value>
+  </data>
+  <data name="Gaming_NoSessionYet" xml:space="preserve">
+    <value>Nog geen gamesessie vastgelegd.</value>
+  </data>
+  <data name="Gaming_Summary" xml:space="preserve">
+    <value>{0} in de laatste 90 dagen · {1} speeltijd gemeten</value>
+  </data>
+  <data name="Count_Session_One" xml:space="preserve">
+    <value>{0} sessie</value>
+  </data>
+  <data name="Count_Session_Other" xml:space="preserve">
+    <value>{0} sessies</value>
+  </data>
+  <data name="Gaming_LoadFailed" xml:space="preserve">
+    <value>De gamesessies konden niet worden geladen: {0}</value>
+  </data>
+  <data name="Gaming_Detection" xml:space="preserve">
+    <value>Herkend als game: {0} ({1})</value>
+  </data>
+  <data name="Gaming_CpuLegend" xml:space="preserve">
+    <value>Hele pc (gevuld) en de game (lijn), {0}</value>
+  </data>
+  <data name="Gaming_GpuLegendNoGame" xml:space="preserve">
+    <value>Drukste grafische adapter, {0} (GPU-gebruik van de game: niet beschikbaar)</value>
+  </data>
+  <data name="Gaming_GpuLegend" xml:space="preserve">
+    <value>Drukste grafische adapter (gevuld) en de game (lijn), {0}</value>
+  </data>
+  <data name="Gaming_StepMinute" xml:space="preserve">
+    <value>gemiddelde per minuut</value>
+  </data>
+  <data name="Gaming_StepOther" xml:space="preserve">
+    <value>gemiddelde per {0}</value>
+  </data>
+  <data name="Gaming_AppLine" xml:space="preserve">
+    <value>{0}: gemiddeld {1} CPU (piek {2}), tot {3}</value>
+  </data>
+  <data name="Timeline_LoadFailed" xml:space="preserve">
+    <value>De tijdlijn kon niet worden geladen. Details staan in het logboek.</value>
+  </data>
+  <data name="Timeline_Empty" xml:space="preserve">
+    <value>Nog niets vastgelegd in deze periode. Items komen uit wat Sysora waarneemt terwijl het draait: toepassingen, games, waarschuwingen, pieken, wijzigingen, slaapstand en onderzoeken.</value>
+  </data>
+  <data name="Timeline_Shown" xml:space="preserve">
+    <value>{0} van {1} getoond. De tijden zijn die waargenomen door Sysora; ≈ markeert een wijziging die is gevonden door momentopnamen te vergelijken (ze gebeurde uiterlijk op dat tijdstip).</value>
+  </data>
+  <data name="Network_Connected" xml:space="preserve">
+    <value>Verbonden met internet</value>
+  </data>
+  <data name="Network_RestrictedDetail" xml:space="preserve">
+    <value>Windows meldt beperkte toegang, bijvoorbeeld een aanmeldpagina</value>
+  </data>
+  <data name="Network_LocalOnly" xml:space="preserve">
+    <value>Alleen verbonden met een lokaal netwerk</value>
+  </data>
+  <data name="Network_NoInterface" xml:space="preserve">
+    <value>Geen actieve netwerkinterface</value>
+  </data>
+  <data name="Network_StatusUnknown" xml:space="preserve">
+    <value>Verbindingsstatus onbekend</value>
+  </data>
+  <data name="Network_NoLevel" xml:space="preserve">
+    <value>Windows heeft geen connectiviteitsniveau gemeld</value>
+  </data>
+  <data name="Network_Cellular" xml:space="preserve">
+    <value>Mobiel</value>
+  </data>
+  <data name="Network_DefaultRoute" xml:space="preserve">
+    <value>Standaardroute</value>
+  </data>
+  <data name="Network_NoAddress" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="Compare_Preset_HourAgo" xml:space="preserve">
+    <value>Nu vs. 1 uur geleden</value>
+  </data>
+  <data name="Compare_Preset_Yesterday" xml:space="preserve">
+    <value>Nu vs. gisteren rond deze tijd</value>
+  </data>
+  <data name="Compare_Preset_TodayYesterday" xml:space="preserve">
+    <value>Vandaag vs. gisteren</value>
+  </data>
+  <data name="Compare_Preset_GameDuring" xml:space="preserve">
+    <value>Gamesessie: voor vs. tijdens</value>
+  </data>
+  <data name="Compare_Preset_GameAfter" xml:space="preserve">
+    <value>Gamesessie: voor vs. na</value>
+  </data>
+  <data name="Compare_Preset_GamePrevious" xml:space="preserve">
+    <value>Gamesessie vs. de vorige</value>
+  </data>
+  <data name="Compare_Preset_Moment" xml:space="preserve">
+    <value>Voor vs. na een moment</value>
+  </data>
+  <data name="Compare_Preset_TwoMoments" xml:space="preserve">
+    <value>Twee momenten</value>
+  </data>
+  <data name="Compare_Failed" xml:space="preserve">
+    <value>De vergelijking kon niet worden gemaakt. Details staan in het logboek.</value>
+  </data>
+  <data name="Compare_NotCompared" xml:space="preserve">
+    <value>Niet vergeleken</value>
+  </data>
+  <data name="Troubleshooting_Idle" xml:space="preserve">
+    <value>Kies hoe lang u wilt onderzoeken en start terwijl het probleem optreedt (of vlak ervoor).</value>
+  </data>
+  <data name="Troubleshooting_Active" xml:space="preserve">
+    <value>Probleemoplossingsmodus actief · Extra context verzamelen…</value>
+  </data>
+  <data name="Troubleshooting_Elapsed" xml:space="preserve">
+    <value>{0} van {1} · stopt vanzelf, daarna keert het verzamelen terug naar normaal</value>
+  </data>
+  <data name="Count_Event_One" xml:space="preserve">
+    <value>{0} gebeurtenis</value>
+  </data>
+  <data name="Count_Event_Other" xml:space="preserve">
+    <value>{0} gebeurtenissen</value>
+  </data>
+  <data name="Troubleshooting_Period" xml:space="preserve">
+    <value>{0} · {1} · gedetailleerd verzamelen</value>
+  </data>
+  <data name="Troubleshooting_EndedByItself" xml:space="preserve">
+    <value>vanzelf beëindigd</value>
+  </data>
+  <data name="Troubleshooting_Stopped" xml:space="preserve">
+    <value>gestopt</value>
+  </data>
+  <data name="Troubleshooting_EndedOnClose" xml:space="preserve">
+    <value>beëindigd toen Sysora werd gesloten</value>
+  </data>
+  <data name="Troubleshooting_AppCpu" xml:space="preserve">
+    <value>{0} gem. · {1} piek</value>
+  </data>
+  <data name="Troubleshooting_AppMemory" xml:space="preserve">
+    <value>{0} piek</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_One" xml:space="preserve">
+    <value>Drukst in {0} moment met hoge CPU</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_Other" xml:space="preserve">
+    <value>Drukst in {0} momenten met hoge CPU</value>
+  </data>
+  <data name="Troubleshooting_MostIo_One" xml:space="preserve">
+    <value>Meeste I/O in {0} moment met drukke schijf</value>
+  </data>
+  <data name="Troubleshooting_MostIo_Other" xml:space="preserve">
+    <value>Meeste I/O in {0} momenten met drukke schijf</value>
+  </data>
+  <data name="Storage_Summary" xml:space="preserve">
+    <value>{0} · {1} vrij van {2}</value>
+  </data>
+  <data name="Count_Volume_One" xml:space="preserve">
+    <value>{0} volume</value>
+  </data>
+  <data name="Count_Volume_Other" xml:space="preserve">
+    <value>{0} volumes</value>
+  </data>
+  <data name="Storage_UsedPercent" xml:space="preserve">
+    <value>{0} gebruikt</value>
+  </data>
+  <data name="Storage_RemovableDisk" xml:space="preserve">
+    <value>Verwisselbare schijf</value>
+  </data>
+  <data name="Storage_OpticalDrive" xml:space="preserve">
+    <value>Optisch station</value>
+  </data>
+  <data name="Storage_RamDisk" xml:space="preserve">
+    <value>RAM-schijf</value>
+  </data>
+  <data name="Storage_LocalDisk" xml:space="preserve">
+    <value>Lokale schijf</value>
+  </data>
+  <data name="Storage_Kind_Fixed" xml:space="preserve">
+    <value>Vast</value>
+  </data>
+  <data name="Storage_Kind_Removable" xml:space="preserve">
+    <value>Verwisselbaar</value>
+  </data>
+  <data name="Storage_Kind_Optical" xml:space="preserve">
+    <value>Optisch</value>
+  </data>
+  <data name="Processes_EndTitle" xml:space="preserve">
+    <value>{0} beëindigen?</value>
+  </data>
+  <data name="Processes_EndMessage" xml:space="preserve">
+    <value>Sysora beëindigt {0} (PID {1}). Niet-opgeslagen werk in deze toepassing gaat verloren.</value>
+  </data>
+  <data name="Processes_EndButton" xml:space="preserve">
+    <value>Proces beëindigen</value>
+  </data>
+  <data name="Processes_Ended" xml:space="preserve">
+    <value>Proces beëindigd</value>
+  </data>
+  <data name="Processes_EndedMessage" xml:space="preserve">
+    <value>{0} (PID {1}) is beëindigd.</value>
+  </data>
+  <data name="Processes_NotEnded" xml:space="preserve">
+    <value>{0} is niet beëindigd</value>
+  </data>
+  <data name="Processes_UnknownError" xml:space="preserve">
+    <value>Onbekende fout.</value>
+  </data>
+  <data name="Processes_Filtered" xml:space="preserve">
+    <value>{0} van {1}</value>
+  </data>
+  <data name="Common_Loading" xml:space="preserve">
+    <value>Laden…</value>
+  </data>
+  <data name="System_VersionBuild" xml:space="preserve">
+    <value>Versie {0} (build {1})</value>
+  </data>
+  <data name="System_Build" xml:space="preserve">
+    <value>Build {0}</value>
+  </data>
+  <data name="System_RunsAs" xml:space="preserve">
+    <value>{0} (Sysora draait als {1})</value>
+  </data>
+  <data name="Count_Core_One" xml:space="preserve">
+    <value>{0} kern</value>
+  </data>
+  <data name="Count_Core_Other" xml:space="preserve">
+    <value>{0} kernen</value>
+  </data>
+  <data name="System_Base" xml:space="preserve">
+    <value>basis {0}</value>
+  </data>
+  <data name="System_Usable" xml:space="preserve">
+    <value>{0} bruikbaar</value>
+  </data>
+  <data name="System_Bits64x64" xml:space="preserve">
+    <value>64-bits (x64)</value>
+  </data>
+  <data name="System_Bits64Arm" xml:space="preserve">
+    <value>64-bits (ARM64)</value>
+  </data>
+  <data name="System_Bits32" xml:space="preserve">
+    <value>32-bits (x86)</value>
+  </data>
+  <data name="PcHealth_Failed" xml:space="preserve">
+    <value>De score kon niet worden berekend. Details staan in het logboek.</value>
+  </data>
+  <data name="PcHealth_BasedOn" xml:space="preserve">
+    <value>Gebaseerd op {0} · {1} · bijgewerkt {2}</value>
+  </data>
+  <data name="PcHealth_SelfMeasures" xml:space="preserve">
+    <value>Sysora meet elke tien seconden zijn eigen gebruik.</value>
+  </data>
+  <data name="Performance_TemperatureHint" xml:space="preserve">
+    <value>Windows stelt de CPU-temperatuur niet beschikbaar via een gedocumenteerde API. Uitlezen vereist een kernelstuurprogramma, dat Sysora bewust niet installeert.</value>
+  </data>
+  <data name="Performance_CoreN" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Performance_DiskN" xml:space="preserve">
+    <value>Schijf {0}</value>
+  </data>
+  <data name="Usual_CurrentAverage" xml:space="preserve">
+    <value>Gemiddelde van de laatste {0:0} minuten</value>
+  </data>
+  <data name="Usual_NotMeasuredRecently" xml:space="preserve">
+    <value>Niet gemeten in de laatste minuten</value>
+  </data>
+  <data name="Usual_PeriodAverage" xml:space="preserve">
+    <value>{0}: gemiddelde over {1} aan metingen ({2})</value>
+  </data>
+  <data name="Duration_Second_One" xml:space="preserve">
+    <value>{0} seconde</value>
+  </data>
+  <data name="Duration_Second_Other" xml:space="preserve">
+    <value>{0} seconden</value>
+  </data>
+  <data name="Chart_Rising" xml:space="preserve">
+    <value>Stijgend</value>
+  </data>
+  <data name="Chart_Falling" xml:space="preserve">
+    <value>Dalend</value>
+  </data>
+  <data name="Chart_Stats" xml:space="preserve">
+    <value>Gemiddeld {0} · Piek {1}{2}</value>
+  </data>
+  <data name="Shell_ResumeMonitoring" xml:space="preserve">
+    <value>Bewaking hervatten</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Sysora openen</value>
+  </data>
+  <data name="Tray_Exit" xml:space="preserve">
+    <value>Afsluiten</value>
+  </data>
+  <data name="Tray_StillRunning" xml:space="preserve">
+    <value>Sysora draait nog</value>
+  </data>
+  <data name="Tray_StillRunningText" xml:space="preserve">
+    <value>De bewaking gaat door in het systeemvak. Klik met de rechtermuisknop op het pictogram om af te sluiten.</value>
+  </data>
+  <data name="Tray_GameRecap" xml:space="preserve">
+    <value>Gamesamenvatting: {0}</value>
+  </data>
+  <data name="Tray_GameRecapText" xml:space="preserve">
+    <value>{0} · {1}. Klik om de samenvatting te openen.</value>
+  </data>
+  <data name="Tray_InvestigationComplete" xml:space="preserve">
+    <value>Onderzoek voltooid</value>
+  </data>
+  <data name="Tray_InvestigationText" xml:space="preserve">
+    <value>{0}. Klik om het rapport te openen.</value>
+  </data>
+  <data name="Tray_AlertText" xml:space="preserve">
+    <value>{0}. Klik om Waarschuwingen te openen.</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>(gepauzeerd)</value>
+  </data>
+  <data name="Tray_Tooltip" xml:space="preserve">
+    <value>CPU {0} · Geheugen {1}</value>
+  </data>
+  <data name="Export_PrepareFailed" xml:space="preserve">
+    <value>Het rapport kon niet worden voorbereid. Details staan in het logboek.</value>
+  </data>
+  <data name="Export_Html" xml:space="preserve">
+    <value>Rapport (HTML-pagina)</value>
+  </data>
+  <data name="Export_Json" xml:space="preserve">
+    <value>Gestructureerde gegevens (JSON)</value>
+  </data>
+  <data name="Export_Saved" xml:space="preserve">
+    <value>Rapport opgeslagen: {0}</value>
+  </data>
+  <data name="Export_SaveFailed" xml:space="preserve">
+    <value>Het rapport kon niet worden opgeslagen: {0}</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="Settings_Language_Description" xml:space="preserve">
+    <value>Taal van de interface, analyses, waarschuwingen en rapporten</value>
+  </data>
+  <data name="Settings_Language_Restart" xml:space="preserve">
+    <value>De nieuwe taal wordt toegepast nadat Sysora opnieuw is gestart. Uw geschiedenis en instellingen blijven bewaard.</value>
+  </data>
+  <data name="Settings_Language_RestartNow" xml:space="preserve">
+    <value>Nu opnieuw starten</value>
+  </data>
+  <data name="Settings_Log_Debug" xml:space="preserve">
+    <value>Foutopsporing</value>
+  </data>
+  <data name="Settings_Log_Information" xml:space="preserve">
+    <value>Informatie</value>
+  </data>
+  <data name="Settings_Log_Warning" xml:space="preserve">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="Settings_Log_Error" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="Settings_Language_System" xml:space="preserve">
+    <value>Windows-taal ({0})</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Systeem</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Licht</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Donker</value>
+  </data>
+  <data name="Settings_Close_Quit" xml:space="preserve">
+    <value>Toepassing afsluiten</value>
+  </data>
+  <data name="Settings_Close_Tray" xml:space="preserve">
+    <value>Minimaliseren naar het systeemvak</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Versie {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Licentie {0} · {1}</value>
+  </data>
+  <data name="Settings_DeleteHistory_Title" xml:space="preserve">
+    <value>De lokale geschiedenis verwijderen?</value>
+  </data>
+  <data name="Settings_DeleteHistory_Message" xml:space="preserve">
+    <value>Sysora verwijdert de vastgelegde prestatiegeschiedenis, het toepassingsgebruik, gebeurtenissen, waarschuwingen, gevonden wijzigingen en gamesessies van deze pc. De referentie voor gebruikelijk gedrag wordt opnieuw geleerd. Dit kan niet ongedaan worden gemaakt.</value>
+  </data>
+  <data name="Settings_DeleteHistory_Failed" xml:space="preserve">
+    <value>De geschiedenis kon niet worden verwijderd: {0}</value>
+  </data>
+  <data name="Settings_Startup_Enabled" xml:space="preserve">
+    <value>Sysora start wanneer u zich aanmeldt.</value>
+  </data>
+  <data name="Settings_Startup_DisabledByUser" xml:space="preserve">
+    <value>Geregistreerd, maar uitgeschakeld in Windows-instellingen › Apps › Opstarten.</value>
+  </data>
+  <data name="Settings_Startup_Unknown" xml:space="preserve">
+    <value>De opstartregistratie kon niet worden gelezen.</value>
+  </data>
+  <data name="Settings_Startup_Off" xml:space="preserve">
+    <value>Gebruikt de standaard Run-sleutel van de gebruiker; zichtbaar in Instellingen › Apps › Opstarten.</value>
+  </data>
+  <data name="Settings_Stretched" xml:space="preserve">
+    <value>opgerekt met ×{0:0.##} om binnen het CPU-budget te blijven</value>
+  </data>
+  <data name="Settings_History_Since" xml:space="preserve">
+    <value>gegevens sinds {0}</value>
+  </data>
+  <data name="Settings_History_NoData" xml:space="preserve">
+    <value>nog geen gegevens</value>
+  </data>
+  <data name="Settings_History_OnDisk" xml:space="preserve">
+    <value>{0} op schijf</value>
+  </data>
+  <data name="Settings_History_NotAvailable" xml:space="preserve">
+    <value>Geschiedenis niet beschikbaar: {0}</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Aan</value>
+  </data>
+  <data name="Dashboard_SortByCpu" xml:space="preserve">
+    <value>Op CPU</value>
+  </data>
+  <data name="Dashboard_SortByMemory" xml:space="preserve">
+    <value>Op geheugen</value>
+  </data>
+  <data name="Dashboard_TopCpu" xml:space="preserve">
+    <value>{0} CPU</value>
+  </data>
+  <data name="Dashboard_TopMemory" xml:space="preserve">
+    <value>{0} geheugen</value>
+  </data>
+  <data name="Dashboard_Uptime" xml:space="preserve">
+    <value>{0} · Actief sinds {1}</value>
+  </data>
+  <data name="AppImpact_LevelImpact" xml:space="preserve">
+    <value>Impact: {0}</value>
+  </data>
+  <data name="Changes_NoneFound" xml:space="preserve">
+    <value>Geen wijziging gevonden.</value>
+  </data>
+  <data name="Replay_PerMinute" xml:space="preserve">
+    <value>{0} (per minuut)</value>
+  </data>
+  <data name="Replay_SourceHint" xml:space="preserve">
+    <value>Klik op een grafiek of verplaats de schuifregelaar om de waarden op een bepaald moment af te lezen.</value>
+  </data>
+  <data name="Replay_SourceOlder" xml:space="preserve">
+    <value>Ouder dan {0}: toepassingen worden per vijf minuten getoond.</value>
+  </data>
+  <data name="Settings_Games_LauncherToggle" xml:space="preserve">
+    <value>Met een launcher geïnstalleerde games</value>
+  </data>
+  <data name="Settings_Games_LauncherToggleDescription" xml:space="preserve">
+    <value>Games die Steam, Epic Games, Riot of GOG als geïnstalleerd melden, gelezen uit de bestanden van de launchers op deze pc</value>
+  </data>
+  <data name="Settings_Games_LaunchersTitle" xml:space="preserve">
+    <value>Games gevonden in uw launchers</value>
+  </data>
+  <data name="Settings_Games_LaunchersDescription" xml:space="preserve">
+    <value>Sysora leest de eigen bestanden van de launchers op deze pc: het werkt offline, verstuurt niets, start nooit een game en wijzigt nooit de bestanden ervan. Bevestig een game om haar ook zonder launcher te blijven volgen, of negeer haar.</value>
+  </data>
+  <data name="Settings_Games_ScanAgain" xml:space="preserve">
+    <value>Opnieuw zoeken</value>
+  </data>
+  <data name="Settings_Games_Confirm" xml:space="preserve">
+    <value>Bevestigen</value>
+  </data>
+  <data name="Settings_Games_ConfirmHint" xml:space="preserve">
+    <value>Deze game blijven volgen, ook als launcherdetectie is uitgeschakeld of de launcher is verwijderd</value>
+  </data>
+  <data name="Settings_Games_Ignore" xml:space="preserve">
+    <value>Negeren</value>
+  </data>
+  <data name="Settings_Games_YourGames" xml:space="preserve">
+    <value>Uw games</value>
+  </data>
+  <data name="Settings_Games_YourGamesDescription" xml:space="preserve">
+    <value>Voeg een game toe die Sysora niet herkent door het programma (.exe) te kiezen. Sysora volgt de game de volgende keer dat ze draait; het start haar nooit zelf. Toepassingen die als geen game zijn gemarkeerd, worden nooit gevolgd.</value>
+  </data>
+  <data name="Settings_Games_Browse" xml:space="preserve">
+    <value>Een game toevoegen…</value>
+  </data>
+  <data name="Settings_Games_OrRunning" xml:space="preserve">
+    <value>Of kies een toepassing die nu actief is</value>
+  </data>
+  <data name="Settings_Games_ChangeLocation" xml:space="preserve">
+    <value>Locatie wijzigen…</value>
+  </data>
+  <data name="Settings_Games_AlreadyAdded" xml:space="preserve">
+    <value>{0} staat al in uw games.</value>
+  </data>
+  <data name="Settings_Games_Added" xml:space="preserve">
+    <value>{0} toegevoegd: Sysora volgt de game vanaf de volgende start.</value>
+  </data>
+  <data name="Settings_Games_Moved" xml:space="preserve">
+    <value>{0} verwijst nu naar de nieuwe locatie. De eerdere sessies blijven bewaard.</value>
+  </data>
+  <data name="Settings_Games_NotAProgram" xml:space="preserve">
+    <value>Kies het programma van de game (een bestand dat eindigt op .exe).</value>
+  </data>
+  <data name="Settings_Games_NotFound" xml:space="preserve">
+    <value>{0} is niet gevonden. Het is mogelijk verplaatst of verwijderd.</value>
+  </data>
+  <data name="Settings_Games_Unreadable" xml:space="preserve">
+    <value>{0} kan niet worden gecontroleerd: het pad is ongeldig of de toegang wordt geweigerd.</value>
+  </data>
+  <data name="Settings_Games_SystemProgram" xml:space="preserve">
+    <value>Windows-programma's worden nooit als games gevolgd.</value>
+  </data>
+  <data name="Settings_Games_NoLauncherGame" xml:space="preserve">
+    <value>Geen game gevonden in de bestanden van de launchers (Steam, Epic Games, Riot, GOG).</value>
+  </data>
+  <data name="Settings_Games_LauncherSummary" xml:space="preserve">
+    <value>{0}: {1}. Games waarvan de map niet meer bestaat, worden overgeslagen.</value>
+  </data>
+  <data name="Count_GameFound_One" xml:space="preserve">
+    <value>{0} game gevonden</value>
+  </data>
+  <data name="Count_GameFound_Other" xml:space="preserve">
+    <value>{0} games gevonden</value>
+  </data>
+  <data name="Settings_Games_Missing" xml:space="preserve">
+    <value>Niet gevonden op deze locatie: de game is mogelijk verplaatst. Kies de nieuwe locatie of verwijder haar.</value>
+  </data>
+  <data name="Settings_Games_State_Confirmed" xml:space="preserve">
+    <value>Bevestigd</value>
+  </data>
+  <data name="Settings_Games_State_ConfirmedGone" xml:space="preserve">
+    <value>Bevestigd (niet meer vermeld door de launcher)</value>
+  </data>
+  <data name="Settings_Games_State_Ignored" xml:space="preserve">
+    <value>Genegeerd: niet gevolgd</value>
+  </data>
+  <data name="Settings_Games_State_Auto" xml:space="preserve">
+    <value>Automatisch gevolgd</value>
+  </data>
+  <data name="Settings_Games_State_Off" xml:space="preserve">
+    <value>Niet gevolgd (launcherdetectie staat uit)</value>
+  </data>
+  <data name="Settings_Games_FollowAgain" xml:space="preserve">
+    <value>Weer volgen</value>
+  </data>
+  <data name="Settings_Games_Unconfirm" xml:space="preserve">
+    <value>Bevestiging verwijderen</value>
+  </data>
+</root>

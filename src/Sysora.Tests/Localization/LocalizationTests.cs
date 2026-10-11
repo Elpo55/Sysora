@@ -77,6 +77,23 @@ public sealed partial class LocalizationTests
         }
     }
 
+    [Theory]
+    [MemberData(nameof(Translations))]
+    public void PluralTemplatesHoldTheFormsOfTheirLanguage(string set, string language)
+    {
+        var culture = CultureInfo.GetCultureInfo(language);
+        var english = Read(Manager(set), CultureInfo.InvariantCulture);
+        var translated = Read(Manager(set), culture);
+        var threeForms = new[] { 2L, 5L }.Select(n => Text.Category(n, culture)).Distinct().Count() == 2;
+        foreach (var (key, text) in translated)
+        {
+            // The "other" template of a plural pair (key_One / key_Other) holds "few|many" in languages with three forms.
+            var isPlural = key.EndsWith("_Other", StringComparison.Ordinal) && english.ContainsKey(key[..^"_Other".Length] + "_One");
+            var forms = text.Split(Text.PluralFormSeparator).Length;
+            Assert.True(forms == (isPlural && threeForms ? 2 : 1), $"{set}.{key} ({language}): {forms} form(s) in \"{text}\".");
+        }
+    }
+
     [Fact]
     public void FrenchTextsAreLoadedFromTheSatelliteAssembly()
     {
