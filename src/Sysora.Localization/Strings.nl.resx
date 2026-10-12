@@ -1563,6 +1563,9 @@
   <data name="WhyNow_Summary_Starting" xml:space="preserve">
     <value>, beginnend rond {0} ({1} geleden). </value>
   </data>
+  <data name="WhyNow_Summary_End" xml:space="preserve">
+    <value>. </value>
+  </data>
   <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
     <value>Eerst {0}, nu {1}</value>
   </data>

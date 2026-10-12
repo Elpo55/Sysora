@@ -1563,6 +1563,9 @@
   <data name="WhyNow_Summary_Starting" xml:space="preserve">
     <value>, yaklaşık {0} itibarıyla ({1} önce). </value>
   </data>
+  <data name="WhyNow_Summary_End" xml:space="preserve">
+    <value>. </value>
+  </data>
   <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
     <value>Önce {0}, şimdi {1}</value>
   </data>

@@ -1563,6 +1563,9 @@
   <data name="WhyNow_Summary_Starting" xml:space="preserve">
     <value> starting around {0} ({1} ago). </value>
   </data>
+  <data name="WhyNow_Summary_End" xml:space="preserve">
+    <value>. </value>
+  </data>
   <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
     <value>{0} before, {1} now</value>
   </data>
