@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Shell_SysoraWasStartedWithDemoEveryValueOnScreenIs" xml:space="preserve">
+    <value>Sysora 以 --demo 啟動：螢幕上的所有數值都是模擬的。</value>
+  </data>
+  <data name="Shell_DEMOMODESimulatedData" xml:space="preserve">
+    <value>示範模式 · 模擬資料</value>
+  </data>
+  <data name="Shell_MonitoringPaused" xml:space="preserve">
+    <value>監視已暫停</value>
+  </data>
+  <data name="Common_Dashboard" xml:space="preserve">
+    <value>儀表板</value>
+  </data>
+  <data name="Common_PCHealth" xml:space="preserve">
+    <value>電腦健康狀況</value>
+  </data>
+  <data name="Common_Timeline" xml:space="preserve">
+    <value>時間軸</value>
+  </data>
+  <data name="Shell_Investigate" xml:space="preserve">
+    <value>調查</value>
+  </data>
+  <data name="Common_Diagnosis" xml:space="preserve">
+    <value>診斷</value>
+  </data>
+  <data name="Common_Troubleshooting" xml:space="preserve">
+    <value>疑難排解</value>
+  </data>
+  <data name="Shell_InvestigationInProgress" xml:space="preserve">
+    <value>正在調查</value>
+  </data>
+  <data name="Common_Replay" xml:space="preserve">
+    <value>重播</value>
+  </data>
+  <data name="Common_Compare" xml:space="preserve">
+    <value>比較</value>
+  </data>
+  <data name="Common_AppImpact" xml:space="preserve">
+    <value>應用程式影響</value>
+  </data>
+  <data name="Common_Changes" xml:space="preserve">
+    <value>變更</value>
+  </data>
+  <data name="Common_Alerts" xml:space="preserve">
+    <value>警示</value>
+  </data>
+  <data name="Shell_NewAlerts" xml:space="preserve">
+    <value>新警示</value>
+  </data>
+  <data name="Common_Gaming" xml:space="preserve">
+    <value>遊戲</value>
+  </data>
+  <data name="Shell_GameRunning" xml:space="preserve">
+    <value>遊戲正在執行</value>
+  </data>
+  <data name="Common_Details" xml:space="preserve">
+    <value>詳細資訊</value>
+  </data>
+  <data name="Common_Performance" xml:space="preserve">
+    <value>效能</value>
+  </data>
+  <data name="Common_Processes" xml:space="preserve">
+    <value>處理程序</value>
+  </data>
+  <data name="Common_Storage" xml:space="preserve">
+    <value>儲存空間</value>
+  </data>
+  <data name="Common_LargeFiles" xml:space="preserve">
+    <value>大型檔案</value>
+  </data>
+  <data name="Common_Network" xml:space="preserve">
+    <value>網路</value>
+  </data>
+  <data name="Common_System" xml:space="preserve">
+    <value>系統</value>
+  </data>
+  <data name="Shell_OpenFolder" xml:space="preserve">
+    <value>開啟資料夾</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>匯出</value>
+  </data>
+  <data name="Alerts_SaveTheAlertsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將警示另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Alerts_ProblemsThatLastOrAreUnusualForThisPCShortSpikes" xml:space="preserve">
+    <value>持續存在或對這台電腦來說異常的問題。短暫的峰值從不報告。</value>
+  </data>
+  <data name="Common_Show" xml:space="preserve">
+    <value>顯示</value>
+  </data>
+  <data name="Alerts_MarkAllAsSeen" xml:space="preserve">
+    <value>全部標記為已檢視</value>
+  </data>
+  <data name="Alerts_AlertsAreTurnedOffInSettings" xml:space="preserve">
+    <value>已在設定中關閉警示。</value>
+  </data>
+  <data name="Common_OpenSettings" xml:space="preserve">
+    <value>開啟設定</value>
+  </data>
+  <data name="Alerts_Context" xml:space="preserve">
+    <value>背景資訊</value>
+  </data>
+  <data name="Alerts_WhyThisAlert" xml:space="preserve">
+    <value>為何出現此警示</value>
+  </data>
+  <data name="Common_WhatYouCanDo" xml:space="preserve">
+    <value>你可以做什麼</value>
+  </data>
+  <data name="Common_DataUsed" xml:space="preserve">
+    <value>使用的資料</value>
+  </data>
+  <data name="Alerts_ShowInReplay" xml:space="preserve">
+    <value>在重播中顯示</value>
+  </data>
+  <data name="Alerts_WhatHappenedAroundThisAlert" xml:space="preserve">
+    <value>此警示前後發生了什麼</value>
+  </data>
+  <data name="Common_WhyNow" xml:space="preserve">
+    <value>為何是現在？</value>
+  </data>
+  <data name="Alerts_NothingToReport" xml:space="preserve">
+    <value>沒有要報告的內容</value>
+  </data>
+  <data name="Alerts_SysoraRaisesAnAlertOnlyWhenAProblemLastsOrIs" xml:space="preserve">
+    <value>只有當問題持續存在或對這台電腦來說異常時，Sysora 才會發出警示。</value>
+  </data>
+  <data name="Alerts_ActiveRules" xml:space="preserve">
+    <value>作用中的規則</value>
+  </data>
+  <data name="Alerts_AConditionMustLastBeforeItIsReportedWhileItLasts" xml:space="preserve">
+    <value>條件必須持續一段時間才會被報告；持續期間只更新同一則警示，條件結束一分鐘後該警示即被解決。如果不久後再次出現，同一則警示會重新開啟。每小時最多發出幾則新警示。</value>
+  </data>
+  <data name="Alerts_ChangeTheRulesInSettings" xml:space="preserve">
+    <value>在設定中變更規則</value>
+  </data>
+  <data name="AppImpact_SaveTheRankingAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將排名另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="AppImpact_WhichApplicationsWeighTheMostOnYourPC" xml:space="preserve">
+    <value>哪些應用程式對你的電腦負擔最重</value>
+  </data>
+  <data name="Common_Period" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="Common_Refresh" xml:space="preserve">
+    <value>重新整理</value>
+  </data>
+  <data name="Common_RefreshNow" xml:space="preserve">
+    <value>立即重新整理</value>
+  </data>
+  <data name="AppImpact_Application" xml:space="preserve">
+    <value>應用程式</value>
+  </data>
+  <data name="AppImpact_Impact" xml:space="preserve">
+    <value>影響</value>
+  </data>
+  <data name="Common_CPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="AppImpact_AverageCPUWhileRunningShareOfTotalCapacity" xml:space="preserve">
+    <value>執行時的平均 CPU，佔總容量的比例</value>
+  </data>
+  <data name="Common_Memory" xml:space="preserve">
+    <value>記憶體</value>
+  </data>
+  <data name="AppImpact_AveragePrivateWorkingSetWhileRunning" xml:space="preserve">
+    <value>執行時的平均私用工作集</value>
+  </data>
+  <data name="Common_DiskIO" xml:space="preserve">
+    <value>磁碟 I/O</value>
+  </data>
+  <data name="AppImpact_AverageReadAndWriteIOWhileRunningFilesDevicesAnd" xml:space="preserve">
+    <value>執行時的平均讀寫 I/O（檔案、裝置和網路）</value>
+  </data>
+  <data name="AppImpact_Running" xml:space="preserve">
+    <value>執行時間</value>
+  </data>
+  <data name="AppImpact_MeasuredTimeTheApplicationWasRunning" xml:space="preserve">
+    <value>測量到的應用程式執行時間</value>
+  </data>
+  <data name="AppImpact_Trend" xml:space="preserve">
+    <value>趨勢</value>
+  </data>
+  <data name="AppImpact_SecondHalfOfThePeriodComparedWithTheFirstHalf" xml:space="preserve">
+    <value>期間後半段與前半段相比</value>
+  </data>
+  <data name="AppImpact_ApplicationsByImpact" xml:space="preserve">
+    <value>按影響排列的應用程式</value>
+  </data>
+  <data name="AppImpact_Running2" xml:space="preserve">
+    <value>正在執行</value>
+  </data>
+  <data name="AppImpact_NoApplicationUsageRecordedForThisPeriodYet" xml:space="preserve">
+    <value>此期間尚未記錄應用程式使用情況。</value>
+  </data>
+  <data name="AppImpact_ApplicationsAreIdentifiedByExecutablePath" xml:space="preserve">
+    <value>應用程式按可執行檔路徑識別；僅名稱相同的處理程序會分開統計。每個應用程式的網路使用情況無法使用。</value>
+  </data>
+  <data name="AppImpact_SelectAnApplicationToSeeWhyItRanksThereAndIts" xml:space="preserve">
+    <value>選擇一個應用程式，檢視它排在這裡的原因及其歷史記錄。</value>
+  </data>
+  <data name="AppImpact_WhenDidThePCsCPUOrMemoryRiseAndWhatChangedAtThe" xml:space="preserve">
+    <value>電腦的 CPU 或記憶體何時上升，同一時間發生了什麼變化</value>
+  </data>
+  <data name="AppImpact_WhatDrivesTheScore" xml:space="preserve">
+    <value>影響分數的因素</value>
+  </data>
+  <data name="Common_History" xml:space="preserve">
+    <value>歷史記錄</value>
+  </data>
+  <data name="AppImpact_CPUShareOfTotalCapacity" xml:space="preserve">
+    <value>CPU（佔總容量的比例）</value>
+  </data>
+  <data name="AppImpact_ApplicationCPUHistory" xml:space="preserve">
+    <value>應用程式 CPU 歷史記錄</value>
+  </data>
+  <data name="AppImpact_MemoryPrivateWorkingSet" xml:space="preserve">
+    <value>記憶體（私用工作集）</value>
+  </data>
+  <data name="AppImpact_ApplicationMemoryHistory" xml:space="preserve">
+    <value>應用程式記憶體歷史記錄</value>
+  </data>
+  <data name="AppImpact_WhyThisResultDataUsed" xml:space="preserve">
+    <value>為何得出此結果？（使用的資料）</value>
+  </data>
+  <data name="Changes_WhatChangedOnThisPCRecently" xml:space="preserve">
+    <value>這台電腦最近發生了哪些變化</value>
+  </data>
+  <data name="Common_View" xml:space="preserve">
+    <value>檢視</value>
+  </data>
+  <data name="Changes_TakeASnapshotOfThePCNowAndCompareIt" xml:space="preserve">
+    <value>立即為電腦建立快照並進行比較</value>
+  </data>
+  <data name="Changes_CheckNow" xml:space="preserve">
+    <value>立即檢查</value>
+  </data>
+  <data name="Changes_SaveTheChangesAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將變更另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Common_SINCEYESTERDAY" xml:space="preserve">
+    <value>自昨天以來</value>
+  </data>
+  <data name="Common_Significant" xml:space="preserve">
+    <value> 項重要變更</value>
+  </data>
+  <data name="Common_Minor" xml:space="preserve">
+    <value> 項次要變更</value>
+  </data>
+  <data name="Common_MostOfYourSystemIsUnchanged" xml:space="preserve">
+    <value>系統的大部分內容未發生變化</value>
+  </data>
+  <data name="Changes_WhatItMeans" xml:space="preserve">
+    <value>含義</value>
+  </data>
+  <data name="Changes_Origin" xml:space="preserve">
+    <value>來源</value>
+  </data>
+  <data name="Changes_NoChangeToShow" xml:space="preserve">
+    <value>沒有要顯示的變更</value>
+  </data>
+  <data name="Common_WhatIsCompared" xml:space="preserve">
+    <value>比較的內容</value>
+  </data>
+  <data name="Changes_InstalledApplicationsAppsAmpFeaturesAndStoreApps" xml:space="preserve">
+    <value>已安裝的應用程式（應用程式與功能以及 Store 應用程式）、啟動程式（Run 登錄機碼和啟動資料夾）、Windows 組建、BIOS 版本、已安裝的記憶體、圖形和網路介面卡、固定磁碟區及其已用空間、平均 CPU 和記憶體使用率，以及開始定期執行的程式。快照是唯讀的，並保留在這台電腦上。</value>
+  </data>
+  <data name="Changes_NotCoveredDriversServicesScheduledTasksAnd" xml:space="preserve">
+    <value>不包括：驅動程式、服務、排程工作和單個檔案。</value>
+  </data>
+  <data name="Compare_BeforeAfterHowThePCBehavedInTwoPeriods" xml:space="preserve">
+    <value>之前 / 之後：電腦在兩個期間的表現</value>
+  </data>
+  <data name="Compare_SaveThisComparisonAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將此比較另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Compare_GameSession" xml:space="preserve">
+    <value>遊戲工作階段</value>
+  </data>
+  <data name="Compare_NoGameSessionRecorded" xml:space="preserve">
+    <value>未記錄遊戲工作階段</value>
+  </data>
+  <data name="Compare_MomentDate" xml:space="preserve">
+    <value>時刻（日期）</value>
+  </data>
+  <data name="Compare_Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Compare_SecondMomentDate" xml:space="preserve">
+    <value>第二個時刻（日期）</value>
+  </data>
+  <data name="Compare_AMomentIsComparedOverThe10MinutesBeforeItQuot" xml:space="preserve">
+    <value>某個時刻會與其之前的 10 分鐘進行比較；「某個時刻之前與之後」在兩側各使用 15 分鐘。近期的期間使用每秒測量，較早的期間使用每分鐘或每小時的歷史記錄。</value>
+  </data>
+  <data name="Common_Metric" xml:space="preserve">
+    <value>指標</value>
+  </data>
+  <data name="Compare_Change" xml:space="preserve">
+    <value>變化</value>
+  </data>
+  <data name="Compare_Importance" xml:space="preserve">
+    <value>重要性</value>
+  </data>
+  <data name="Compare_AveragesOfCPUMemoryDiskActivityGPUNetwork" xml:space="preserve">
+    <value>每個期間的 CPU、記憶體、磁碟活動、GPU、網路、處理程序和 Windows 磁碟區可用空間的平均值。僅在一個期間內測量的指標顯示為無法使用且不進行比較。百分比的差異以百分點表示；數量還會顯示相對變化。</value>
+  </data>
+  <data name="Dashboard_PCStatusOpenTheDiagnosis" xml:space="preserve">
+    <value>電腦狀態，開啟診斷</value>
+  </data>
+  <data name="Dashboard_OpenTheDiagnosis" xml:space="preserve">
+    <value>開啟診斷</value>
+  </data>
+  <data name="Dashboard_MEMORY" xml:space="preserve">
+    <value>記憶體</value>
+  </data>
+  <data name="Common_GPU" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Dashboard_SYSTEMDISK" xml:space="preserve">
+    <value>系統磁碟</value>
+  </data>
+  <data name="Dashboard_NETWORK" xml:space="preserve">
+    <value>網路</value>
+  </data>
+  <data name="Dashboard_PCHealthOpenTheDetails" xml:space="preserve">
+    <value>電腦健康狀況，開啟詳細資訊</value>
+  </data>
+  <data name="Dashboard_PCHEALTH" xml:space="preserve">
+    <value>電腦健康狀況</value>
+  </data>
+  <data name="Dashboard_SinceYesterdayOpenChanges" xml:space="preserve">
+    <value>自昨天以來，開啟變更</value>
+  </data>
+  <data name="Dashboard_Insights" xml:space="preserve">
+    <value>見解</value>
+  </data>
+  <data name="Dashboard_QuickActions" xml:space="preserve">
+    <value>快速操作</value>
+  </data>
+  <data name="Dashboard_WhyIsMyPCSlow" xml:space="preserve">
+    <value>我的電腦為什麼慢？</value>
+  </data>
+  <data name="Dashboard_Diagnose" xml:space="preserve">
+    <value>診斷</value>
+  </data>
+  <data name="Dashboard_InvestigateAProblemForAFewMinutesWithDetailed" xml:space="preserve">
+    <value>透過詳細收集調查問題幾分鐘</value>
+  </data>
+  <data name="Dashboard_Troubleshoot" xml:space="preserve">
+    <value>疑難排解</value>
+  </data>
+  <data name="Dashboard_EverythingThatHappenedInOrder" xml:space="preserve">
+    <value>按順序顯示發生的所有事情</value>
+  </data>
+  <data name="Dashboard_WhatHappenedInTheLastMinutes" xml:space="preserve">
+    <value>最近幾分鐘發生了什麼？</value>
+  </data>
+  <data name="Dashboard_WhatChangedRecently" xml:space="preserve">
+    <value>最近有哪些變化？</value>
+  </data>
+  <data name="Dashboard_ViewChanges" xml:space="preserve">
+    <value>檢視變更</value>
+  </data>
+  <data name="Dashboard_WhichApplicationWeighsTheMost" xml:space="preserve">
+    <value>哪個應用程式負擔最重？</value>
+  </data>
+  <data name="Dashboard_AppImpact" xml:space="preserve">
+    <value>應用程式影響</value>
+  </data>
+  <data name="Dashboard_RecapsOfYourGameSessions" xml:space="preserve">
+    <value>你的遊戲工作階段回顧</value>
+  </data>
+  <data name="Common_CPUUsage" xml:space="preserve">
+    <value>CPU 使用率</value>
+  </data>
+  <data name="Common_ChartTimeSpan" xml:space="preserve">
+    <value>圖表時間跨度</value>
+  </data>
+  <data name="Common_CPUUsageHistory" xml:space="preserve">
+    <value>CPU 使用率歷史記錄</value>
+  </data>
+  <data name="Common_MemoryUsageHistory" xml:space="preserve">
+    <value>記憶體使用率歷史記錄</value>
+  </data>
+  <data name="Dashboard_TopApplications" xml:space="preserve">
+    <value>主要應用程式</value>
+  </data>
+  <data name="Dashboard_SortTopApplicationsBy" xml:space="preserve">
+    <value>主要應用程式的排序方式</value>
+  </data>
+  <data name="Dashboard_ViewAllProcesses" xml:space="preserve">
+    <value>檢視所有處理程序</value>
+  </data>
+  <data name="Dashboard_SystemHealth" xml:space="preserve">
+    <value>系統健康狀況</value>
+  </data>
+  <data name="Dashboard_InstantIndicatorsBasedOnYourHealthThresholds" xml:space="preserve">
+    <value>基於你的健康狀況臨界值的即時指標（設定）</value>
+  </data>
+  <data name="Dashboard_OpenPerformanceDetails" xml:space="preserve">
+    <value>開啟效能詳細資訊</value>
+  </data>
+  <data name="Diagnosis_WhyItMatters" xml:space="preserve">
+    <value>為何重要</value>
+  </data>
+  <data name="Diagnosis_WhenDidItStartWhatChangedAtTheSameTimeAndHow" xml:space="preserve">
+    <value>何時開始、同一時間發生了什麼變化，以及以前發生的頻率</value>
+  </data>
+  <data name="Diagnosis_WhyIsMyPCSlowSysoraChecksWhatItMeasuresAnd" xml:space="preserve">
+    <value>我的電腦為什麼慢？Sysora 會檢查它測量的內容，並解釋它的發現。</value>
+  </data>
+  <data name="Diagnosis_AnalyzeAgain" xml:space="preserve">
+    <value>再次分析</value>
+  </data>
+  <data name="Diagnosis_SaveTheDiagnosisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將診斷另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Diagnosis_WhenAProblemStartedFromWhatLevelWhatChangedAtThe" xml:space="preserve">
+    <value>問題何時開始、從什麼水平開始、同一時間發生了什麼變化，以及以前發生的頻率。</value>
+  </data>
+  <data name="Diagnosis_MetricToExplain" xml:space="preserve">
+    <value>要解釋的指標</value>
+  </data>
+  <data name="Diagnosis_Explain" xml:space="preserve">
+    <value>解釋</value>
+  </data>
+  <data name="Diagnosis_ExportThisExplanation" xml:space="preserve">
+    <value>匯出此解釋</value>
+  </data>
+  <data name="Common_Started" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="Diagnosis_BeforeNow" xml:space="preserve">
+    <value>之前 → 現在</value>
+  </data>
+  <data name="Common_Duration" xml:space="preserve">
+    <value>持續時間</value>
+  </data>
+  <data name="Diagnosis_MainContributor" xml:space="preserve">
+    <value>主要因素</value>
+  </data>
+  <data name="Diagnosis_AtTheSameTimeACoincidenceInTimeIsNotProofOfCause" xml:space="preserve">
+    <value>同一時間（時間上的巧合不能證明因果關係）</value>
+  </data>
+  <data name="Diagnosis_SeeEverythingThatHappenedAroundItInTheTimeline" xml:space="preserve">
+    <value>在時間軸中檢視前後發生的所有事情</value>
+  </data>
+  <data name="Diagnosis_EveryStatementAndWhatItRestsOn" xml:space="preserve">
+    <value>每個結論及其依據</value>
+  </data>
+  <data name="Common_RecurringProblems" xml:space="preserve">
+    <value>反覆出現的問題</value>
+  </data>
+  <data name="Diagnosis_OpenPCHealth" xml:space="preserve">
+    <value>開啟電腦健康狀況</value>
+  </data>
+  <data name="Diagnosis_ComparedWithYourUsualActivity" xml:space="preserve">
+    <value>與你的平常活動相比</value>
+  </data>
+  <data name="Common_Now" xml:space="preserve">
+    <value>現在</value>
+  </data>
+  <data name="Diagnosis_AverageOfTheLast15Minutes" xml:space="preserve">
+    <value>過去 15 分鐘的平均值</value>
+  </data>
+  <data name="Diagnosis_LastHour" xml:space="preserve">
+    <value>過去一小時</value>
+  </data>
+  <data name="Diagnosis_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Diagnosis_Yesterday" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="Diagnosis_7Days" xml:space="preserve">
+    <value>7 天</value>
+  </data>
+  <data name="Diagnosis_30Days" xml:space="preserve">
+    <value>30 天</value>
+  </data>
+  <data name="Diagnosis_UsualAtThisHour" xml:space="preserve">
+    <value>此時段的平常水平</value>
+  </data>
+  <data name="Diagnosis_SameHourOfTheDayOverTheLast30DaysTodayExcluded" xml:space="preserve">
+    <value>過去 30 天中一天內的同一小時（不包括今天）</value>
+  </data>
+  <data name="Diagnosis_AveragesOfTheLocalHistoryAPeriodWithoutEnough" xml:space="preserve">
+    <value>本機歷史記錄的平均值。測量時間不足的期間顯示為破折號（將滑鼠懸停在上面可檢視現有資料量）：Sysora 從不使用估計值填補空缺。</value>
+  </data>
+  <data name="Diagnosis_ProblemsDetected" xml:space="preserve">
+    <value>偵測到的問題</value>
+  </data>
+  <data name="Common_Recommendations" xml:space="preserve">
+    <value>建議</value>
+  </data>
+  <data name="Diagnosis_PointsToWatch" xml:space="preserve">
+    <value>需關注的事項</value>
+  </data>
+  <data name="Diagnosis_CheckedAndNormal" xml:space="preserve">
+    <value>已檢查且正常</value>
+  </data>
+  <data name="Diagnosis_NotAnalyzed" xml:space="preserve">
+    <value>未分析</value>
+  </data>
+  <data name="Diagnosis_SysoraOnlyReportsWhatItMeasuresRulesAre" xml:space="preserve">
+    <value>Sysora 只報告它測量到的內容。規則是確定性的：相同的測量結果始終得出相同的診斷。</value>
+  </data>
+  <data name="Gaming_ARecapOfEachGameSessionWhatYourPCTheGameAndOther" xml:space="preserve">
+    <value>每個遊戲工作階段的回顧：你的電腦、遊戲和其他應用程式使用了多少資源。從不估計 FPS。</value>
+  </data>
+  <data name="Gaming_GameSessionsAreTurnedOffInSettingsNoNewSessionIs" xml:space="preserve">
+    <value>已在設定中關閉遊戲工作階段：不會記錄新工作階段。</value>
+  </data>
+  <data name="Gaming_GAMERUNNINGRECORDINGWITHMINIMALIMPACT" xml:space="preserve">
+    <value>遊戲正在執行 · 以最低影響記錄</value>
+  </data>
+  <data name="Gaming_NotAGame" xml:space="preserve">
+    <value>不是遊戲</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGameSettings" xml:space="preserve">
+    <value>不再將此應用程式作為遊戲追蹤（可在 設定 › 遊戲 中復原）</value>
+  </data>
+  <data name="Common_GameSessions" xml:space="preserve">
+    <value>遊戲工作階段</value>
+  </data>
+  <data name="Gaming_NoGameSessionYet" xml:space="preserve">
+    <value>尚無遊戲工作階段</value>
+  </data>
+  <data name="Gaming_StartAGameSysoraFollowsItAutomaticallyWhen" xml:space="preserve">
+    <value>啟動遊戲：當 Windows 將其識別為遊戲（Game Bar 清單）、啟動器報告其已安裝（Steam、Epic、Riot、GOG）或它安裝在遊戲庫資料夾中時，Sysora 會自動追蹤它。遊戲關閉後，此處會顯示回顧。短於設定中最短時長的工作階段不會保留。</value>
+  </data>
+  <data name="Gaming_MarkAnApplicationAsAGameInSettings" xml:space="preserve">
+    <value>在設定中新增遊戲</value>
+  </data>
+  <data name="Gaming_BeforeVsDuringTheGame" xml:space="preserve">
+    <value>遊戲前與遊戲期間</value>
+  </data>
+  <data name="Gaming_BeforeVsAfterTheGame" xml:space="preserve">
+    <value>遊戲前與遊戲後</value>
+  </data>
+  <data name="Gaming_WithThePreviousSession" xml:space="preserve">
+    <value>與上一個工作階段</value>
+  </data>
+  <data name="Gaming_ExportRecap" xml:space="preserve">
+    <value>匯出回顧</value>
+  </data>
+  <data name="Gaming_SaveThisRecapAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將此回顧另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGamePastSessions" xml:space="preserve">
+    <value>不再將此應用程式作為遊戲追蹤（過去的工作階段會保留）</value>
+  </data>
+  <data name="Common_Measurements" xml:space="preserve">
+    <value>測量</value>
+  </data>
+  <data name="Common_Average" xml:space="preserve">
+    <value>平均值</value>
+  </data>
+  <data name="Gaming_Maximum" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="Gaming_Scope" xml:space="preserve">
+    <value>範圍</value>
+  </data>
+  <data name="Gaming_CPUDuringTheSession" xml:space="preserve">
+    <value>工作階段期間的 CPU</value>
+  </data>
+  <data name="Gaming_GPUDuringTheSession" xml:space="preserve">
+    <value>工作階段期間的 GPU</value>
+  </data>
+  <data name="Common_WhatHappened" xml:space="preserve">
+    <value>發生了什麼</value>
+  </data>
+  <data name="Gaming_ComparedWithPreviousSessions" xml:space="preserve">
+    <value>與之前的工作階段相比</value>
+  </data>
+  <data name="Gaming_NotableDifference" xml:space="preserve">
+    <value>明顯差異</value>
+  </data>
+  <data name="Gaming_OtherApplicationsDuringTheGame" xml:space="preserve">
+    <value>遊戲期間的其他應用程式</value>
+  </data>
+  <data name="Gaming_NoOtherApplicationUsedAMeasurableShareOfThe" xml:space="preserve">
+    <value>沒有其他應用程式使用可測量的處理器份額。</value>
+  </data>
+  <data name="Gaming_OtherProcessesOfTheGame" xml:space="preserve">
+    <value>遊戲的其他處理程序</value>
+  </data>
+  <data name="Gaming_StartedByTheGameOrInstalledInItsFolderLaunchers" xml:space="preserve">
+    <value>由遊戲啟動或安裝在其資料夾中（啟動器、反作弊、當機報告程式…）。</value>
+  </data>
+  <data name="Gaming_EventsDuringTheSession" xml:space="preserve">
+    <value>工作階段期間的事件</value>
+  </data>
+  <data name="Gaming_NotMeasured" xml:space="preserve">
+    <value>未測量</value>
+  </data>
+  <data name="LargeFiles_WhatTakesTheMostSpaceSysoraOnlyListsFilesItNever" xml:space="preserve">
+    <value>佔用空間最多的內容。Sysora 只列出檔案：從不移動、變更或刪除檔案。</value>
+  </data>
+  <data name="LargeFiles_SaveTheResultsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將結果另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="LargeFiles_Where" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="LargeFiles_ChooseAFolder" xml:space="preserve">
+    <value>選擇資料夾…</value>
+  </data>
+  <data name="LargeFiles_FilesOf" xml:space="preserve">
+    <value>檔案大小</value>
+  </data>
+  <data name="LargeFiles_Scan" xml:space="preserve">
+    <value>掃描</value>
+  </data>
+  <data name="LargeFiles_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="LargeFiles_TheScanRunsOnlyWhenYouAskAtLowPriorityAndCanBe" xml:space="preserve">
+    <value>掃描僅在你要求時執行，優先順序低，可隨時取消。它只會讀取資料夾清單（不開啟任何檔案），不跟隨連結，跳過僅限線上的雲端檔案，並報告 Windows 拒絕列出的資料夾，而不是將其視為空資料夾。</value>
+  </data>
+  <data name="LargeFiles_FoldersNotReadLinksAndExclusions" xml:space="preserve">
+    <value>未讀取的資料夾、連結和排除項</value>
+  </data>
+  <data name="LargeFiles_Type" xml:space="preserve">
+    <value>類型</value>
+  </data>
+  <data name="LargeFiles_Search" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="LargeFiles_SearchByNameOrFolder" xml:space="preserve">
+    <value>按名稱或資料夾搜尋</value>
+  </data>
+  <data name="LargeFiles_Modified" xml:space="preserve">
+    <value> · 修改於 </value>
+  </data>
+  <data name="LargeFiles_ShowInFileExplorer" xml:space="preserve">
+    <value>在檔案總管中顯示</value>
+  </data>
+  <data name="LargeFiles_CopyThePath" xml:space="preserve">
+    <value>複製路徑</value>
+  </data>
+  <data name="Network_LocalStatisticsOnlySysoraSendsNoNetworkTrafficTo" xml:space="preserve">
+    <value>僅本機統計資訊 — Sysora 不會為測量而傳送任何網路流量</value>
+  </data>
+  <data name="Common_TimeSpan" xml:space="preserve">
+    <value>時間跨度</value>
+  </data>
+  <data name="Network_NetworkMonitoringIsTurnedOffInSettings" xml:space="preserve">
+    <value>已在設定中關閉網路監視。</value>
+  </data>
+  <data name="Network_CONNECTION" xml:space="preserve">
+    <value>連線</value>
+  </data>
+  <data name="Network_ACTIVEINTERFACE" xml:space="preserve">
+    <value>活動介面</value>
+  </data>
+  <data name="Network_Throughput" xml:space="preserve">
+    <value>輸送量</value>
+  </data>
+  <data name="Network_Download" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="Network_Upload" xml:space="preserve">
+    <value>上傳</value>
+  </data>
+  <data name="Network_NetworkThroughputHistory" xml:space="preserve">
+    <value>網路輸送量歷史記錄</value>
+  </data>
+  <data name="Network_Interfaces" xml:space="preserve">
+    <value>介面</value>
+  </data>
+  <data name="Network_LinkSpeed" xml:space="preserve">
+    <value>連結速度</value>
+  </data>
+  <data name="Network_Received" xml:space="preserve">
+    <value>已接收</value>
+  </data>
+  <data name="Network_SinceTheInterfaceCameUp" xml:space="preserve">
+    <value>自介面啟動以來</value>
+  </data>
+  <data name="Network_Sent" xml:space="preserve">
+    <value>已傳送</value>
+  </data>
+  <data name="Network_IPv4" xml:space="preserve">
+    <value>IPv4</value>
+  </data>
+  <data name="Network_IPv6" xml:space="preserve">
+    <value>IPv6</value>
+  </data>
+  <data name="Network_LatencyIsNotMeasuredItWouldRequireContactingA" xml:space="preserve">
+    <value>不測量延遲：那需要聯絡遠端伺服器。網際網路可用性來自 Windows 自己的連線檢查。</value>
+  </data>
+  <data name="PcHealth_InWhatStateIsMyPCAScoreOutOf100ExplainedAreaBy" xml:space="preserve">
+    <value>我的電腦處於什麼狀態？滿分 100 分，按方面逐一解釋。</value>
+  </data>
+  <data name="PcHealth_SaveThisAnalysisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將此分析另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="PcHealth_PCHealthScore" xml:space="preserve">
+    <value>電腦健康狀況分數</value>
+  </data>
+  <data name="PcHealth_OutOf100" xml:space="preserve">
+    <value>滿分 100</value>
+  </data>
+  <data name="PcHealth_Areas" xml:space="preserve">
+    <value>方面</value>
+  </data>
+  <data name="PcHealth_WhyThisImpact" xml:space="preserve">
+    <value>為何有此影響</value>
+  </data>
+  <data name="PcHealth_AProblemIsCalledRecurringAfter3EpisodesOn2" xml:space="preserve">
+    <value>根據 Sysora 記錄的警示和事件，一個問題在過去 7 天內的 2 個不同日子出現 3 次後即視為反覆出現。歷史記錄較少時，Sysora 會如實說明，而不是猜測。</value>
+  </data>
+  <data name="PcHealth_DetailsAndIntensity" xml:space="preserve">
+    <value>詳細資訊和強度</value>
+  </data>
+  <data name="PcHealth_HowTheScoreIsComputed" xml:space="preserve">
+    <value>分數的計算方式</value>
+  </data>
+  <data name="PcHealth_NotCounted" xml:space="preserve">
+    <value>未計入</value>
+  </data>
+  <data name="Performance_RealTimeUsageAndRecentHistory" xml:space="preserve">
+    <value>即時使用率和近期歷史記錄</value>
+  </data>
+  <data name="Performance_DiskActivity" xml:space="preserve">
+    <value>磁碟活動</value>
+  </data>
+  <data name="Performance_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Performance_EffectiveClockRatedFrequencyCurrentProcessor" xml:space="preserve">
+    <value>有效時脈：額定頻率 × 目前處理器效能，與工作管理員的計算方式相同。</value>
+  </data>
+  <data name="Performance_BaseSpeed" xml:space="preserve">
+    <value>基本速度</value>
+  </data>
+  <data name="Performance_PeakSpeedThisSession" xml:space="preserve">
+    <value>峰值速度（本次工作階段）</value>
+  </data>
+  <data name="Performance_Temperature" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="Performance_Cores" xml:space="preserve">
+    <value>核心</value>
+  </data>
+  <data name="Performance_LogicalProcessors" xml:space="preserve">
+    <value>邏輯處理器</value>
+  </data>
+  <data name="Performance_Sockets" xml:space="preserve">
+    <value>插槽</value>
+  </data>
+  <data name="Performance_L2Cache" xml:space="preserve">
+    <value>L2 快取</value>
+  </data>
+  <data name="Performance_L3Cache" xml:space="preserve">
+    <value>L3 快取</value>
+  </data>
+  <data name="Common_Threads" xml:space="preserve">
+    <value>執行緒</value>
+  </data>
+  <data name="Common_Handles" xml:space="preserve">
+    <value>控制代碼</value>
+  </data>
+  <data name="Performance_UpTime" xml:space="preserve">
+    <value>運作時間</value>
+  </data>
+  <data name="Performance_UsagePerLogicalProcessor" xml:space="preserve">
+    <value>每個邏輯處理器的使用率</value>
+  </data>
+  <data name="Common_MemoryInUse" xml:space="preserve">
+    <value>正在使用的記憶體</value>
+  </data>
+  <data name="Performance_InUse" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="Performance_Available" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Performance_UsableByWindows" xml:space="preserve">
+    <value>Windows 可用</value>
+  </data>
+  <data name="Performance_Installed" xml:space="preserve">
+    <value>已安裝</value>
+  </data>
+  <data name="Common_Committed" xml:space="preserve">
+    <value>已認可</value>
+  </data>
+  <data name="Performance_CommitChargeCommitLimitPhysicalMemoryPlusPage" xml:space="preserve">
+    <value>認可大小 / 認可限制（實體記憶體加分頁檔）。</value>
+  </data>
+  <data name="Performance_SystemCache" xml:space="preserve">
+    <value>系統快取</value>
+  </data>
+  <data name="Performance_StandbyListPlusSystemWorkingSetAsReportedBy" xml:space="preserve">
+    <value>備用清單加系統工作集，由 GetPerformanceInfo 報告。</value>
+  </data>
+  <data name="Performance_PagedPool" xml:space="preserve">
+    <value>分頁集區</value>
+  </data>
+  <data name="Performance_NonPagedPool" xml:space="preserve">
+    <value>非分頁集區</value>
+  </data>
+  <data name="Performance_NoGraphicsAdapterDataIsAvailableGPUMonitoringMay" xml:space="preserve">
+    <value>沒有可用的圖形介面卡資料。可能已在設定中關閉 GPU 監視，或者此系統不提供 GPU 效能計數器。</value>
+  </data>
+  <data name="Performance_DedicatedMemory" xml:space="preserve">
+    <value>專用記憶體</value>
+  </data>
+  <data name="Performance_SharedMemory" xml:space="preserve">
+    <value>共享記憶體</value>
+  </data>
+  <data name="Performance_NotExposedByTheWindowsGPUPerformanceCounters" xml:space="preserve">
+    <value>Windows GPU 效能計數器不提供此資訊。</value>
+  </data>
+  <data name="Performance_ClockSpeed" xml:space="preserve">
+    <value>時脈速度</value>
+  </data>
+  <data name="Performance_BusiestEngines" xml:space="preserve">
+    <value>最繁忙的引擎</value>
+  </data>
+  <data name="Performance_DiskActivityCountersAreNotAvailableOnThisSystem" xml:space="preserve">
+    <value>此系統上沒有磁碟活動計數器。</value>
+  </data>
+  <data name="Common_Read" xml:space="preserve">
+    <value>讀取</value>
+  </data>
+  <data name="Common_Write" xml:space="preserve">
+    <value>寫入</value>
+  </data>
+  <data name="Processes_SearchProcesses" xml:space="preserve">
+    <value>搜尋處理程序</value>
+  </data>
+  <data name="Processes_SearchByNameOrPID" xml:space="preserve">
+    <value>按名稱或 PID 搜尋</value>
+  </data>
+  <data name="Processes_HIGHESTCPUUSAGE" xml:space="preserve">
+    <value>CPU 使用率最高</value>
+  </data>
+  <data name="Processes_HIGHESTMEMORYUSAGE" xml:space="preserve">
+    <value>記憶體使用率最高</value>
+  </data>
+  <data name="Processes_HIGHESTIOACTIVITY" xml:space="preserve">
+    <value>I/O 活動最多</value>
+  </data>
+  <data name="Processes_SortByName" xml:space="preserve">
+    <value>按名稱排序</value>
+  </data>
+  <data name="Processes_Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Processes_SortByPID" xml:space="preserve">
+    <value>按 PID 排序</value>
+  </data>
+  <data name="Processes_PID" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="Processes_SortByCPU" xml:space="preserve">
+    <value>按 CPU 排序</value>
+  </data>
+  <data name="Processes_SortByMemory" xml:space="preserve">
+    <value>按記憶體排序</value>
+  </data>
+  <data name="Processes_PrivateWorkingSetPhysicalMemoryUsedOnlyByThis" xml:space="preserve">
+    <value>私用工作集：僅由此處理程序使用的實體記憶體</value>
+  </data>
+  <data name="Processes_SortByDiskIO" xml:space="preserve">
+    <value>按磁碟 I/O 排序</value>
+  </data>
+  <data name="Processes_ReadAndWriteIOFilesDevicesAndNetwork" xml:space="preserve">
+    <value>讀寫 I/O（檔案、裝置和網路）</value>
+  </data>
+  <data name="Processes_CPUIsAShareOfTotalCapacityMemoryIsThePrivate" xml:space="preserve">
+    <value>CPU 為佔總容量的比例。記憶體為私用工作集。不測量每個處理程序的網路使用情況（需要系統管理員層級的追蹤）。</value>
+  </data>
+  <data name="Processes_SelectAProcessToSeeItsDetails" xml:space="preserve">
+    <value>選擇一個處理程序以檢視其詳細資訊。</value>
+  </data>
+  <data name="Processes_ThisProcessHasExited" xml:space="preserve">
+    <value>此處理程序已結束。</value>
+  </data>
+  <data name="Processes_CriticalWindowsProcessEndingItWouldStopTheSystem" xml:space="preserve">
+    <value>關鍵 Windows 處理程序：結束它會使系統停止執行。</value>
+  </data>
+  <data name="Processes_ParentPID" xml:space="preserve">
+    <value>父 PID</value>
+  </data>
+  <data name="Processes_Session" xml:space="preserve">
+    <value>工作階段</value>
+  </data>
+  <data name="Processes_PrivateWorkingSet" xml:space="preserve">
+    <value>私用工作集</value>
+  </data>
+  <data name="Processes_WorkingSet" xml:space="preserve">
+    <value>工作集</value>
+  </data>
+  <data name="Processes_IncludesMemorySharedWithOtherProcesses" xml:space="preserve">
+    <value>包括與其他處理程序共享的記憶體</value>
+  </data>
+  <data name="Processes_PrivateBytes" xml:space="preserve">
+    <value>私用位元組</value>
+  </data>
+  <data name="Processes_IORead" xml:space="preserve">
+    <value>I/O 讀取</value>
+  </data>
+  <data name="Processes_IOWrite" xml:space="preserve">
+    <value>I/O 寫入</value>
+  </data>
+  <data name="Processes_Path" xml:space="preserve">
+    <value>路徑</value>
+  </data>
+  <data name="Processes_Company" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="Common_Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Processes_EndProcess" xml:space="preserve">
+    <value>結束處理程序…</value>
+  </data>
+  <data name="Replay_WhatHappenedOnYourPCInTheLastMinutesOrHours" xml:space="preserve">
+    <value>最近幾分鐘或幾小時你的電腦上發生了什麼</value>
+  </data>
+  <data name="Replay_BackToNow" xml:space="preserve">
+    <value>回到現在</value>
+  </data>
+  <data name="Replay_ZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="Replay_ZoomInShorterPeriodAroundTheCursor" xml:space="preserve">
+    <value>放大（游標周圍較短的期間）</value>
+  </data>
+  <data name="Replay_ZoomOut" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="Replay_ZoomOutLongerPeriod" xml:space="preserve">
+    <value>縮小（較長的期間）</value>
+  </data>
+  <data name="Replay_CompareBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>比較游標之前和之後</value>
+  </data>
+  <data name="Replay_CompareThe15MinutesBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>比較游標之前和之後的 15 分鐘</value>
+  </data>
+  <data name="Replay_SaveThisPeriodAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將此期間另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Replay_MoveTheCursorToThisMoment" xml:space="preserve">
+    <value>將游標移到此時刻</value>
+  </data>
+  <data name="Replay_ReplayPosition" xml:space="preserve">
+    <value>重播位置</value>
+  </data>
+  <data name="Replay_CPUUsageReplay" xml:space="preserve">
+    <value>CPU 使用率重播</value>
+  </data>
+  <data name="Replay_MemoryUsageReplay" xml:space="preserve">
+    <value>記憶體使用率重播</value>
+  </data>
+  <data name="Replay_DiskBusiestVolumeActiveTime" xml:space="preserve">
+    <value>磁碟（最繁忙的磁碟區，活動時間）</value>
+  </data>
+  <data name="Replay_DiskActivityReplay" xml:space="preserve">
+    <value>磁碟活動重播</value>
+  </data>
+  <data name="Replay_NetworkDownloadAndUpload" xml:space="preserve">
+    <value>網路（下載和上傳）</value>
+  </data>
+  <data name="Replay_NetworkReplay" xml:space="preserve">
+    <value>網路重播</value>
+  </data>
+  <data name="Replay_GPUBusiestAdapter" xml:space="preserve">
+    <value>GPU（最繁忙的介面卡）</value>
+  </data>
+  <data name="Replay_GPUUsageReplay" xml:space="preserve">
+    <value>GPU 使用率重播</value>
+  </data>
+  <data name="Replay_AtTheCursor" xml:space="preserve">
+    <value>游標處</value>
+  </data>
+  <data name="Replay_Disk" xml:space="preserve">
+    <value>磁碟</value>
+  </data>
+  <data name="Replay_Applications" xml:space="preserve">
+    <value>應用程式</value>
+  </data>
+  <data name="Replay_EventsAroundThisTime" xml:space="preserve">
+    <value>此時前後的事件</value>
+  </data>
+  <data name="Replay_NoMeasurementsForThisPeriodLongerPeriodsUseThe" xml:space="preserve">
+    <value>此期間沒有測量資料。較長的期間使用本機歷史記錄，它會在 Sysora 執行時逐漸填充。</value>
+  </data>
+  <data name="Settings_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Settings_ChangesAreAppliedAndSavedImmediately" xml:space="preserve">
+    <value>變更會立即套用並儲存。</value>
+  </data>
+  <data name="Settings_General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Settings_FollowWindowsOrAlwaysUseLightOrDarkColors" xml:space="preserve">
+    <value>跟隨 Windows，或始終使用淺色或深色</value>
+  </data>
+  <data name="Settings_Theme" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="Settings_WhatHappensWhenYouCloseTheSysoraWindow" xml:space="preserve">
+    <value>關閉 Sysora 視窗時的操作</value>
+  </data>
+  <data name="Settings_CloseWindow" xml:space="preserve">
+    <value>關閉視窗</value>
+  </data>
+  <data name="Settings_Startup" xml:space="preserve">
+    <value>啟動</value>
+  </data>
+  <data name="Settings_StartSysoraWithWindows" xml:space="preserve">
+    <value>隨 Windows 啟動 Sysora</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsOpenTheWindowMinimizedTo" xml:space="preserve">
+    <value>隨 Windows 啟動時，將視窗最小化到工作列</value>
+  </data>
+  <data name="Settings_StartMinimized" xml:space="preserve">
+    <value>以最小化方式啟動</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsStayInTheNotificationArea" xml:space="preserve">
+    <value>隨 Windows 啟動時，停留在通知區域，不開啟視窗</value>
+  </data>
+  <data name="Settings_StartInTray" xml:space="preserve">
+    <value>在通知區域中啟動</value>
+  </data>
+  <data name="Settings_Monitoring" xml:space="preserve">
+    <value>監視</value>
+  </data>
+  <data name="Settings_StopCollectingMetricsUntilYouResumeAlsoAvailable" xml:space="preserve">
+    <value>停止收集指標，直到你恢復為止（也可以透過標題列和系統匣圖示操作）</value>
+  </data>
+  <data name="Settings_PauseMonitoring" xml:space="preserve">
+    <value>暫停監視</value>
+  </data>
+  <data name="Settings_MonitoringIntensity" xml:space="preserve">
+    <value>監視強度</value>
+  </data>
+  <data name="Settings_CPUMemoryAndNetworkSamplingInterval" xml:space="preserve">
+    <value>CPU、記憶體和網路的取樣間隔</value>
+  </data>
+  <data name="Settings_RealTimeMetrics" xml:space="preserve">
+    <value>即時指標</value>
+  </data>
+  <data name="Settings_RealTimeMetricsInterval" xml:space="preserve">
+    <value>即時指標間隔</value>
+  </data>
+  <data name="Settings_ProcessesGPUAndDiskActivitySamplingInterval" xml:space="preserve">
+    <value>處理程序、GPU 和磁碟活動的取樣間隔</value>
+  </data>
+  <data name="Settings_DetailedMetrics" xml:space="preserve">
+    <value>詳細指標</value>
+  </data>
+  <data name="Settings_DetailedMetricsInterval" xml:space="preserve">
+    <value>詳細指標間隔</value>
+  </data>
+  <data name="Settings_HowOftenFreeSpaceIsChecked" xml:space="preserve">
+    <value>檢查可用空間的頻率</value>
+  </data>
+  <data name="Settings_StorageCapacity" xml:space="preserve">
+    <value>儲存容量</value>
+  </data>
+  <data name="Settings_StorageCapacityInterval" xml:space="preserve">
+    <value>儲存容量間隔</value>
+  </data>
+  <data name="Settings_DefaultTimeSpanOfChartsHistoryIsKeptInMemoryOnly" xml:space="preserve">
+    <value>圖表的預設時間跨度（歷史記錄僅儲存在記憶體中）</value>
+  </data>
+  <data name="Settings_ChartHistory" xml:space="preserve">
+    <value>圖表歷史記錄</value>
+  </data>
+  <data name="Settings_GraphicsAdapterUsageAndMemory" xml:space="preserve">
+    <value>圖形介面卡使用率和記憶體</value>
+  </data>
+  <data name="Settings_MonitorGPU" xml:space="preserve">
+    <value>監視 GPU</value>
+  </data>
+  <data name="Settings_InterfaceThroughputAndConnectivityReportedBy" xml:space="preserve">
+    <value>Windows 報告的介面輸送量和連線狀態</value>
+  </data>
+  <data name="Settings_MonitorNetwork" xml:space="preserve">
+    <value>監視網路</value>
+  </data>
+  <data name="Settings_WhileTheWindowIsHiddenOrMinimizedSampleProcesses" xml:space="preserve">
+    <value>視窗隱藏或最小化時，降低處理程序、GPU、磁碟和網路的取樣頻率</value>
+  </data>
+  <data name="Settings_ReduceActivityInTheBackground" xml:space="preserve">
+    <value>減少背景活動</value>
+  </data>
+  <data name="Settings_MaximumCPUSysoraMayUseInOfTotalCapacityAboveIt" xml:space="preserve">
+    <value>Sysora 可使用的最大 CPU，以佔總容量的百分比表示。超過時會自動延長間隔。0 = 無限制。</value>
+  </data>
+  <data name="Settings_CPUBudgetForSysora" xml:space="preserve">
+    <value>Sysora 的 CPU 預算</value>
+  </data>
+  <data name="Settings_HealthThresholds" xml:space="preserve">
+    <value>健康狀況臨界值</value>
+  </data>
+  <data name="Settings_UsedByTheSystemHealthPanelCPUAndMemoryMustStay" xml:space="preserve">
+    <value>由「系統健康狀況」面板使用。CPU 和記憶體必須在指定時長內持續高於臨界值才會報告，以避免因短暫峰值而發出警示。</value>
+  </data>
+  <data name="Settings_CPUWarning" xml:space="preserve">
+    <value>CPU 警告 (%)</value>
+  </data>
+  <data name="Settings_CPUCritical" xml:space="preserve">
+    <value>CPU 嚴重 (%)</value>
+  </data>
+  <data name="Settings_CPUDurationS" xml:space="preserve">
+    <value>CPU 持續時間（秒）</value>
+  </data>
+  <data name="Settings_MemoryWarning" xml:space="preserve">
+    <value>記憶體警告 (%)</value>
+  </data>
+  <data name="Settings_MemoryCritical" xml:space="preserve">
+    <value>記憶體嚴重 (%)</value>
+  </data>
+  <data name="Settings_MemoryDurationS" xml:space="preserve">
+    <value>記憶體持續時間（秒）</value>
+  </data>
+  <data name="Settings_DiskWarning" xml:space="preserve">
+    <value>磁碟警告 (%)</value>
+  </data>
+  <data name="Settings_DiskCritical" xml:space="preserve">
+    <value>磁碟嚴重 (%)</value>
+  </data>
+  <data name="Settings_AppMemoryOfRAM" xml:space="preserve">
+    <value>應用程式記憶體（佔 RAM 的 %）</value>
+  </data>
+  <data name="Settings_AppCPU" xml:space="preserve">
+    <value>應用程式 CPU (%)</value>
+  </data>
+  <data name="Settings_RestoreDefaultThresholds" xml:space="preserve">
+    <value>恢復預設臨界值</value>
+  </data>
+  <data name="Settings_RaiseAlertsForProblemsThatLastOrAreUnusualFor" xml:space="preserve">
+    <value>對持續存在或對這台電腦來說異常的問題發出警示（顯示在「警示」中）</value>
+  </data>
+  <data name="Settings_SmartAlerts" xml:space="preserve">
+    <value>智慧警示</value>
+  </data>
+  <data name="Settings_AlsoShowAWindowsNotificationForNewWarningsAnd" xml:space="preserve">
+    <value>對新的警告和嚴重警示也顯示 Windows 通知</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Settings_AlertNotifications" xml:space="preserve">
+    <value>警示通知</value>
+  </data>
+  <data name="Settings_EachConditionMustLastForTheGivenDurationBeforeAn" xml:space="preserve">
+    <value>每個條件必須持續指定的時長才會發出警示。持續期間只更新同一則警示；條件結束一分鐘後該警示即被解決。</value>
+  </data>
+  <data name="Settings_CPUAbove" xml:space="preserve">
+    <value>CPU 高於 (%)</value>
+  </data>
+  <data name="Settings_ForMinutes" xml:space="preserve">
+    <value>持續（分鐘）</value>
+  </data>
+  <data name="Settings_MemoryAbove" xml:space="preserve">
+    <value>記憶體高於 (%)</value>
+  </data>
+  <data name="Settings_DiskBusyAbove" xml:space="preserve">
+    <value>磁碟繁忙高於 (%)</value>
+  </data>
+  <data name="Settings_OneAppAboveCPU" xml:space="preserve">
+    <value>單個應用程式高於（% CPU）</value>
+  </data>
+  <data name="Settings_MemoryRisingByPoints" xml:space="preserve">
+    <value>記憶體上升幅度（百分點）</value>
+  </data>
+  <data name="Settings_WithinMinutes" xml:space="preserve">
+    <value>時間範圍（分鐘）</value>
+  </data>
+  <data name="Settings_SystemDiskFreeBelow" xml:space="preserve">
+    <value>系統磁碟可用空間低於 (%)</value>
+  </data>
+  <data name="Settings_ReopenInsteadOfNewWithinMin" xml:space="preserve">
+    <value>在此時間內重新開啟而不新建（分鐘）</value>
+  </data>
+  <data name="Settings_NewAlertsPerHourMax" xml:space="preserve">
+    <value>每小時新警示數（最大）</value>
+  </data>
+  <data name="Settings_UnusualActivity" xml:space="preserve">
+    <value>異常活動</value>
+  </data>
+  <data name="Settings_AlertWhenCPUMemoryOrDiskStayAboveYourUsualRange" xml:space="preserve">
+    <value>當 CPU、記憶體或磁碟在指定時長內持續高於你的通常範圍（根據至少 4 小時的歷史記錄得出）時發出警示。</value>
+  </data>
+  <data name="Settings_UnusualActivityDurationMinutes" xml:space="preserve">
+    <value>異常活動持續時間（分鐘）</value>
+  </data>
+  <data name="Settings_UnusualActivityAlerts" xml:space="preserve">
+    <value>異常活動警示</value>
+  </data>
+  <data name="Settings_RestoreDefaultAlertRules" xml:space="preserve">
+    <value>恢復預設警示規則</value>
+  </data>
+  <data name="Settings_SaveAggregatedPerformanceApplicationUsageEvents" xml:space="preserve">
+    <value>將彙總的效能、應用程式使用情況、事件、警示、變更和遊戲工作階段儲存到本機資料庫。多天的應用程式影響、變更、遊戲回顧和平常行為基準都需要它。</value>
+  </data>
+  <data name="Settings_RecordHistory" xml:space="preserve">
+    <value>記錄歷史記錄</value>
+  </data>
+  <data name="Settings_DetailedDataEverySecondKeptInMemoryForReplay" xml:space="preserve">
+    <value>詳細資料（每秒）儲存在記憶體中供重播使用。從不寫入磁碟。</value>
+  </data>
+  <data name="Settings_ReplayBuffer" xml:space="preserve">
+    <value>重播緩衝區</value>
+  </data>
+  <data name="Settings_MinuteLevelSystemDataAndFiveMinuteApplication" xml:space="preserve">
+    <value>每分鐘的系統資料和每五分鐘的應用程式資料（1–31 天）</value>
+  </data>
+  <data name="Settings_KeepDetailedHistoryDays" xml:space="preserve">
+    <value>詳細歷史記錄保留天數</value>
+  </data>
+  <data name="Settings_HourlySummariesEventsAlertsChangesAndGame" xml:space="preserve">
+    <value>每小時摘要、事件、警示、變更和遊戲工作階段（7–365 天）。較舊的資料會自動刪除。</value>
+  </data>
+  <data name="Settings_KeepSummariesDays" xml:space="preserve">
+    <value>摘要保留天數</value>
+  </data>
+  <data name="Settings_DeleteHistory" xml:space="preserve">
+    <value>刪除歷史記錄</value>
+  </data>
+  <data name="Settings_Delete" xml:space="preserve">
+    <value>刪除…</value>
+  </data>
+  <data name="Settings_FollowGameSessionsAutomaticallyAndShowARecapWhen" xml:space="preserve">
+    <value>自動追蹤遊戲工作階段，並在遊戲關閉時顯示回顧。從不估計 FPS。</value>
+  </data>
+  <data name="Settings_ExecutablesThatWindowsItselfRecognizesAsGames" xml:space="preserve">
+    <value>Windows 本身識別為遊戲的可執行檔（你帳戶的 Game Bar 清單）</value>
+  </data>
+  <data name="Settings_GamesRecognizedByWindows" xml:space="preserve">
+    <value>Windows 識別的遊戲</value>
+  </data>
+  <data name="Settings_ExecutablesInstalledInAGameLibraryFolderSteam" xml:space="preserve">
+    <value>安裝在遊戲庫資料夾中的可執行檔（Steam、Epic、Xbox、GOG、Riot、EA、Ubisoft…）；不包括啟動器、反作弊和當機報告程式</value>
+  </data>
+  <data name="Settings_GamesInLibraryFolders" xml:space="preserve">
+    <value>遊戲庫資料夾中的遊戲</value>
+  </data>
+  <data name="Settings_ShorterSessionsAreNotKept130Minutes" xml:space="preserve">
+    <value>更短的工作階段不會保留（1–30 分鐘）</value>
+  </data>
+  <data name="Settings_MinimumSessionLengthMinutes" xml:space="preserve">
+    <value>最短工作階段時長（分鐘）</value>
+  </data>
+  <data name="Settings_ShowAWindowsNotificationWhenAGameRecapIsReady" xml:space="preserve">
+    <value>遊戲回顧準備就緒時顯示 Windows 通知</value>
+  </data>
+  <data name="Settings_RecapNotification" xml:space="preserve">
+    <value>回顧通知</value>
+  </data>
+  <data name="Settings_WhileAGameIsInFrontPauseTheWindowsLiveUpdatesAnd" xml:space="preserve">
+    <value>遊戲在前台時，暫停視窗的即時更新，並降低詳細指標的取樣頻率。記錄會繼續。</value>
+  </data>
+  <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
+    <value>遊戲期間減輕監視</value>
+  </data>
+  <data name="Settings_RunningApplication" xml:space="preserve">
+    <value>正在執行的應用程式</value>
+  </data>
+  <data name="Settings_ChooseARunningApplication" xml:space="preserve">
+    <value>選擇正在執行的應用程式</value>
+  </data>
+  <data name="Settings_RefreshTheListOfRunningApplications" xml:space="preserve">
+    <value>重新整理正在執行的應用程式清單</value>
+  </data>
+  <data name="Settings_MarkAsAGame" xml:space="preserve">
+    <value>標記為遊戲</value>
+  </data>
+  <data name="Settings_MarkedAsGames" xml:space="preserve">
+    <value>已標記為遊戲</value>
+  </data>
+  <data name="Settings_None" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="Settings_Remove" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Settings_MarkedAsNotGames" xml:space="preserve">
+    <value>已標記為非遊戲</value>
+  </data>
+  <data name="Settings_Privacy" xml:space="preserve">
+    <value>隱私權</value>
+  </data>
+  <data name="Settings_SysoraIsLocalFirst" xml:space="preserve">
+    <value>Sysora 以本機為先。</value>
+  </data>
+  <data name="Settings_NoTelemetryIsEnabledByDefault" xml:space="preserve">
+    <value>預設不啟用任何遙測。</value>
+  </data>
+  <data name="Settings_NoAccountIsRequired" xml:space="preserve">
+    <value>無需帳戶。</value>
+  </data>
+  <data name="Settings_NoSystemMetricsAreUploaded" xml:space="preserve">
+    <value>不上傳任何系統指標。</value>
+  </data>
+  <data name="Settings_SysoraWorksOfflineAndNeverContactsAServer" xml:space="preserve">
+    <value>Sysora 可離線工作，從不聯絡伺服器。設定、記錄檔和本機歷史記錄（效能、應用程式名稱、警示、偵測到的變更、遊戲工作階段）都儲存在下方的資料夾中，保留在這台電腦上。</value>
+  </data>
+  <data name="Settings_OpenDataFolder" xml:space="preserve">
+    <value>開啟資料所在的資料夾</value>
+  </data>
+  <data name="Settings_OpenLogsFolder" xml:space="preserve">
+    <value>開啟記錄檔資料夾</value>
+  </data>
+  <data name="Settings_Diagnostics" xml:space="preserve">
+    <value>診斷</value>
+  </data>
+  <data name="Settings_SysoraMeasuresItsOwnProcessEveryTenSecondsAFew" xml:space="preserve">
+    <value>Sysora 每十秒測量一次自身處理程序（讀取幾個計數器，不進行額外收集），這樣你就可以確認它永遠不會成為它要尋找的問題。</value>
+  </data>
+  <data name="Settings_DetailLevelOfTheLocalLogFilesKept14Days" xml:space="preserve">
+    <value>本機記錄檔的詳細層級（保留 14 天）</value>
+  </data>
+  <data name="Settings_LogLevel" xml:space="preserve">
+    <value>記錄檔層級</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="Settings_RunningInDemoModeAllMetricsAreSimulated" xml:space="preserve">
+    <value>正在以示範模式執行：所有指標都是模擬的。</value>
+  </data>
+  <data name="Storage_FindLargeFiles" xml:space="preserve">
+    <value>尋找大型檔案</value>
+  </data>
+  <data name="Storage_FindTheFilesThatTakeTheMostSpaceReadOnly" xml:space="preserve">
+    <value>尋找佔用空間最多的檔案（唯讀）</value>
+  </data>
+  <data name="Storage_VolumeInformationCouldNotBeReadDetailsAreInThe" xml:space="preserve">
+    <value>無法讀取磁碟區資訊。詳細資訊位於記錄檔中。</value>
+  </data>
+  <data name="Storage_Windows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="Storage_Used" xml:space="preserve">
+    <value>已用</value>
+  </data>
+  <data name="Storage_Free" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Storage_Total" xml:space="preserve">
+    <value>總計</value>
+  </data>
+  <data name="Storage_ActiveTime" xml:space="preserve">
+    <value>活動時間</value>
+  </data>
+  <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
+    <value>僅顯示 Windows 實際報告的資訊</value>
+  </data>
+  <data name="System_ReadHardwareInformationAgain" xml:space="preserve">
+    <value>重新讀取硬體資訊</value>
+  </data>
+  <data name="System_SYSTEMUPTIME" xml:space="preserve">
+    <value>系統運作時間</value>
+  </data>
+  <data name="System_LastStart" xml:space="preserve">
+    <value>上次啟動</value>
+  </data>
+  <data name="System_WithFastStartupShuttingDownAndTurningOnAgainDoes" xml:space="preserve">
+    <value>啟用快速啟動時，關機後再開機不會重置此計數器：只有「重新啟動」才會。</value>
+  </data>
+  <data name="System_WINDOWS" xml:space="preserve">
+    <value>WINDOWS</value>
+  </data>
+  <data name="System_Edition" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="System_InstalledOn" xml:space="preserve">
+    <value>安裝日期</value>
+  </data>
+  <data name="System_Architecture" xml:space="preserve">
+    <value>架構</value>
+  </data>
+  <data name="System_ComputerName" xml:space="preserve">
+    <value>電腦名稱</value>
+  </data>
+  <data name="System_HARDWARE" xml:space="preserve">
+    <value>硬體</value>
+  </data>
+  <data name="System_Processor" xml:space="preserve">
+    <value>處理器</value>
+  </data>
+  <data name="System_Graphics" xml:space="preserve">
+    <value>圖形</value>
+  </data>
+  <data name="System_FIRMWARE" xml:space="preserve">
+    <value>韌體</value>
+  </data>
+  <data name="System_SystemModel" xml:space="preserve">
+    <value>系統型號</value>
+  </data>
+  <data name="System_Motherboard" xml:space="preserve">
+    <value>主機板</value>
+  </data>
+  <data name="System_BIOS" xml:space="preserve">
+    <value>BIOS</value>
+  </data>
+  <data name="System_BIOSDate" xml:space="preserve">
+    <value>BIOS 日期</value>
+  </data>
+  <data name="Timeline_WhatHappenedOnThisPCInOrder" xml:space="preserve">
+    <value>這台電腦上發生了什麼，按時間順序</value>
+  </data>
+  <data name="Timeline_ApplicationsStartedAndClosed" xml:space="preserve">
+    <value>已啟動和關閉的應用程式</value>
+  </data>
+  <data name="Timeline_Games" xml:space="preserve">
+    <value>遊戲</value>
+  </data>
+  <data name="Timeline_SpikesAndAnomalies" xml:space="preserve">
+    <value>峰值和異常</value>
+  </data>
+  <data name="Timeline_DetectedChanges" xml:space="preserve">
+    <value>偵測到的變更</value>
+  </data>
+  <data name="Timeline_SleepNetworkAndDevices" xml:space="preserve">
+    <value>睡眠、網路和裝置</value>
+  </data>
+  <data name="Timeline_TroubleshootingInvestigations" xml:space="preserve">
+    <value>疑難排解調查</value>
+  </data>
+  <data name="Timeline_SysorasOwnEventsMonitoringStartedGaps" xml:space="preserve">
+    <value>Sysora 自身的事件（開始監視、中斷）</value>
+  </data>
+  <data name="Timeline_Order" xml:space="preserve">
+    <value>順序</value>
+  </data>
+  <data name="Timeline_OldestFirst" xml:space="preserve">
+    <value>最早的在前</value>
+  </data>
+  <data name="Timeline_NewestFirst" xml:space="preserve">
+    <value>最新的在前</value>
+  </data>
+  <data name="Timeline_SaveTheEntriesShownAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>將顯示的項目另存為 HTML 報告或 JSON 資料</value>
+  </data>
+  <data name="Timeline_ShowThisMomentInReplay" xml:space="preserve">
+    <value>在重播中顯示此時刻</value>
+  </data>
+  <data name="Timeline_CompareBeforeAndAfter" xml:space="preserve">
+    <value>比較之前和之後</value>
+  </data>
+  <data name="Timeline_CompareThe15MinutesBeforeAndAfter" xml:space="preserve">
+    <value>比較之前和之後的 15 分鐘</value>
+  </data>
+  <data name="Timeline_NoEntryToShow" xml:space="preserve">
+    <value>沒有要顯示的項目</value>
+  </data>
+  <data name="Timeline_ChooseALongerPeriodOrShowMoreKindsOfEntries" xml:space="preserve">
+    <value>選擇更長的期間或顯示更多類型的項目。Sysora 從不新增它沒有觀察到的項目。</value>
+  </data>
+  <data name="Troubleshooting_InvestigateAProblemForALimitedTimeSysoraCollects" xml:space="preserve">
+    <value>在有限的時間內調查問題：Sysora 會收集更多上下文，然後解釋它測量到的內容。</value>
+  </data>
+  <data name="Troubleshooting_StartInvestigation" xml:space="preserve">
+    <value>開始調查</value>
+  </data>
+  <data name="Troubleshooting_StopNow" xml:space="preserve">
+    <value>立即停止</value>
+  </data>
+  <data name="Troubleshooting_DuringTheInvestigationSysoraSamplesWithThe" xml:space="preserve">
+    <value>調查期間，Sysora 使用「詳細」強度取樣（CPU 和記憶體每 0.5 秒一次，處理程序、GPU 和磁碟每秒一次），即使視窗已隱藏也是如此，並保留每個事件。它仍會保持在 CPU 預算之內，並在結束時自動恢復為你平常的強度。所有資料都不會離開這台電腦。</value>
+  </data>
+  <data name="Troubleshooting_Investigation" xml:space="preserve">
+    <value>調查</value>
+  </data>
+  <data name="Troubleshooting_OpenInReplay" xml:space="preserve">
+    <value>在重播中開啟</value>
+  </data>
+  <data name="Troubleshooting_ShowTheInvestigatedPeriodInReplay" xml:space="preserve">
+    <value>在重播中顯示調查的期間</value>
+  </data>
+  <data name="Troubleshooting_SaveTheReportAsAnHTMLPageOrJSONData" xml:space="preserve">
+    <value>將報告另存為 HTML 頁面或 JSON 資料</value>
+  </data>
+  <data name="Troubleshooting_CPUUsageDuringTheInvestigation" xml:space="preserve">
+    <value>調查期間的 CPU 使用率</value>
+  </data>
+  <data name="Troubleshooting_MemoryUsageDuringTheInvestigation" xml:space="preserve">
+    <value>調查期間的記憶體使用率</value>
+  </data>
+  <data name="Troubleshooting_Peak" xml:space="preserve">
+    <value>峰值</value>
+  </data>
+  <data name="Troubleshooting_ColumnsAverageThenPeak" xml:space="preserve">
+    <value>列：平均值，然後是峰值。</value>
+  </data>
+  <data name="Troubleshooting_Anomalies" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="Troubleshooting_CorrelationsAndLikelyExplanations" xml:space="preserve">
+    <value>相關性和可能的解釋</value>
+  </data>
+  <data name="Troubleshooting_ObservedMeasuredInferredACoincidenceInThe" xml:space="preserve">
+    <value>已觀察 = 測量所得。推斷 = 測量中的巧合：證據表明如此，但未經證實。</value>
+  </data>
+  <data name="Troubleshooting_ApplicationsInvolved" xml:space="preserve">
+    <value>涉及的應用程式</value>
+  </data>
+  <data name="Troubleshooting_Events" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Troubleshooting_WhatCouldNotBeKnown" xml:space="preserve">
+    <value>無法得知的內容</value>
+  </data>
+  <data name="Network_DownloadHeader" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="Network_UploadHeader" xml:space="preserve">
+    <value>上傳</value>
+  </data>
+  <data name="Common_Checking" xml:space="preserve">
+    <value>正在檢查…</value>
+  </data>
+  <data name="Dashboard_NoIssue" xml:space="preserve">
+    <value>未偵測到問題</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_One" xml:space="preserve">
+    <value>{0} 個事項需要注意</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_Other" xml:space="preserve">
+    <value>{0} 個事項需要注意</value>
+  </data>
+  <data name="Dashboard_DiagnosisNotAvailable" xml:space="preserve">
+    <value>診斷無法使用</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_NoReference" xml:space="preserve">
+    <value>Sysora 會與昨天的快照進行比較；第一個快照會在它啟動一分鐘後建立。</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_Nothing" xml:space="preserve">
+    <value>比較的方面均無變化（{0}）。</value>
+  </data>
+  <data name="Dashboard_AlertsNew" xml:space="preserve">
+    <value>警示（{0} 則新警示）</value>
+  </data>
+  <data name="Dashboard_AlertsActive" xml:space="preserve">
+    <value>警示（{0} 則作用中）</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="Dashboard_NetworkOff" xml:space="preserve">
+    <value>已關閉網路監視</value>
+  </data>
+  <data name="Dashboard_NotConnected" xml:space="preserve">
+    <value>未連線</value>
+  </data>
+  <data name="Dashboard_ConnectivityUnknown" xml:space="preserve">
+    <value>連線狀態未知</value>
+  </data>
+  <data name="Dashboard_SpeedNotAvailable" xml:space="preserve">
+    <value>速度無法使用</value>
+  </data>
+  <data name="Count_Thread_One" xml:space="preserve">
+    <value>{0} 個執行緒</value>
+  </data>
+  <data name="Count_Thread_Other" xml:space="preserve">
+    <value>{0} 個執行緒</value>
+  </data>
+  <data name="Dashboard_Temperature" xml:space="preserve">
+    <value>溫度：{0}</value>
+  </data>
+  <data name="Dashboard_MemoryOf" xml:space="preserve">
+    <value>共 {0} · {1}</value>
+  </data>
+  <data name="Dashboard_MemoryAvailable" xml:space="preserve">
+    <value>可用 {0}</value>
+  </data>
+  <data name="Dashboard_GpuOff" xml:space="preserve">
+    <value>已關閉 GPU 監視</value>
+  </data>
+  <data name="Dashboard_GpuMemory" xml:space="preserve">
+    <value>記憶體 {0} / {1}</value>
+  </data>
+  <data name="Dashboard_DiskFree" xml:space="preserve">
+    <value>{0} · 可用 {1}（共 {2}）</value>
+  </data>
+  <data name="Dashboard_ActiveTime" xml:space="preserve">
+    <value>活動時間 {0}</value>
+  </data>
+  <data name="Dashboard_ActiveTimeNotAvailable" xml:space="preserve">
+    <value>活動時間無法使用</value>
+  </data>
+  <data name="LargeFiles_View_Files" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="LargeFiles_View_ByType" xml:space="preserve">
+    <value>按類型</value>
+  </data>
+  <data name="LargeFiles_View_ByExtension" xml:space="preserve">
+    <value>按副檔名</value>
+  </data>
+  <data name="LargeFiles_View_ByFolder" xml:space="preserve">
+    <value>按資料夾</value>
+  </data>
+  <data name="LargeFiles_AllTypes" xml:space="preserve">
+    <value>所有類型</value>
+  </data>
+  <data name="LargeFiles_OrMore" xml:space="preserve">
+    <value>{0} 或更大</value>
+  </data>
+  <data name="LargeFiles_Starting" xml:space="preserve">
+    <value>正在開始…</value>
+  </data>
+  <data name="LargeFiles_ScanFailed" xml:space="preserve">
+    <value>掃描失敗：{0}</value>
+  </data>
+  <data name="LargeFiles_FolderTarget" xml:space="preserve">
+    <value>資料夾：{0}</value>
+  </data>
+  <data name="LargeFiles_VolumeTarget" xml:space="preserve">
+    <value>{0}{1}{2} · 可用 {3}（共 {4}）</value>
+  </data>
+  <data name="LargeFiles_AllFixed" xml:space="preserve">
+    <value>所有固定磁碟區</value>
+  </data>
+  <data name="LargeFiles_Progress" xml:space="preserve">
+    <value>{0} · {1} · 已檢視 {2} · 目前 {3}</value>
+  </data>
+  <data name="Count_FileN0_One" xml:space="preserve">
+    <value>{0:N0} 個檔案</value>
+  </data>
+  <data name="Count_FileN0_Other" xml:space="preserve">
+    <value>{0:N0} 個檔案</value>
+  </data>
+  <data name="Count_LargeFile_One" xml:space="preserve">
+    <value>{0} 個大檔案</value>
+  </data>
+  <data name="Count_LargeFile_Other" xml:space="preserve">
+    <value>{0} 個大檔案</value>
+  </data>
+  <data name="LargeFiles_LastScan" xml:space="preserve">
+    <value>已於 {0} 掃描：{1} · {2} 大於或等於 {3}</value>
+  </data>
+  <data name="LargeFiles_Truncated" xml:space="preserve">
+    <value>（列出了最大的 {0} 個）</value>
+  </data>
+  <data name="LargeFiles_Problem_Denied" xml:space="preserve">
+    <value>拒絕存取：無法讀取 {0}，因此其內容未知（並非為空）。例如：{1}。</value>
+  </data>
+  <data name="LargeFiles_Problem_Unavailable" xml:space="preserve">
+    <value>無法使用：無法讀取 {0}（掃描期間被刪除、裝置錯誤或路徑過長）。</value>
+  </data>
+  <data name="LargeFiles_Problem_Cloud" xml:space="preserve">
+    <value>已跳過 {0}：它們儲存在雲端，而不是這台電腦上。</value>
+  </data>
+  <data name="LargeFiles_Problem_Links" xml:space="preserve">
+    <value>未跟隨 {0}（連接點和符號連結指向在別處計算的資料）。</value>
+  </data>
+  <data name="LargeFiles_Problem_Excluded" xml:space="preserve">
+    <value>未掃描：{0} — {1}</value>
+  </data>
+  <data name="Diagnosis_WhyNowFailed" xml:space="preserve">
+    <value>無法完成分析。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Diagnosis_BeforeData" xml:space="preserve">
+    <value>分析資料之前</value>
+  </data>
+  <data name="Diagnosis_UsualNotKnown" xml:space="preserve">
+    <value>尚不清楚通常範圍。</value>
+  </data>
+  <data name="Diagnosis_Failed" xml:space="preserve">
+    <value>無法完成診斷。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Diagnosis_Analyzed" xml:space="preserve">
+    <value>已分析：最近 {0} · {1} · 更新於 {2}</value>
+  </data>
+  <data name="Diagnosis_ObservedFor" xml:space="preserve">
+    <value>{0}：{2} 內為 {1}</value>
+  </data>
+  <data name="Diagnosis_Reference" xml:space="preserve">
+    <value>參考：{0}</value>
+  </data>
+  <data name="Diagnosis_ObservedAt" xml:space="preserve">
+    <value>觀察時間：{0}</value>
+  </data>
+  <data name="State_ProblemDetected" xml:space="preserve">
+    <value>偵測到問題</value>
+  </data>
+  <data name="State_Healthy" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="Alerts_Filter_All" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Alerts_Filter_Active" xml:space="preserve">
+    <value>作用中</value>
+  </data>
+  <data name="Alerts_Filter_Resolved" xml:space="preserve">
+    <value>已解決</value>
+  </data>
+  <data name="Alerts_NoneIn7Days" xml:space="preserve">
+    <value>過去 7 天內未記錄警示。</value>
+  </data>
+  <data name="Alerts_Summary" xml:space="preserve">
+    <value>{0} · {1} 則新警示 · 過去 7 天內 {2} 則</value>
+  </data>
+  <data name="Count_ActiveAlert_One" xml:space="preserve">
+    <value>{0} 則作用中的警示</value>
+  </data>
+  <data name="Count_ActiveAlert_Other" xml:space="preserve">
+    <value>{0} 則作用中的警示</value>
+  </data>
+  <data name="Alerts_Rule_Cpu" xml:space="preserve">
+    <value>CPU 高於 {0} 持續 {1}</value>
+  </data>
+  <data name="Alerts_Rule_Memory" xml:space="preserve">
+    <value>記憶體高於 {0} 持續 {1}</value>
+  </data>
+  <data name="Alerts_Rule_Disk" xml:space="preserve">
+    <value>磁碟繁忙高於 {0} 持續 {1}</value>
+  </data>
+  <data name="Alerts_Rule_App" xml:space="preserve">
+    <value>單個應用程式的 CPU 高於 {0} 持續 {1}</value>
+  </data>
+  <data name="Alerts_Rule_Growth" xml:space="preserve">
+    <value>記憶體在 {1} 內上升 {0:0} 個百分點</value>
+  </data>
+  <data name="Alerts_Rule_Unusual" xml:space="preserve">
+    <value>活動高於你的通常範圍持續 {0}</value>
+  </data>
+  <data name="Alerts_Rule_UnusualOff" xml:space="preserve">
+    <value>異常活動警示已關閉</value>
+  </data>
+  <data name="Alerts_Rule_Space" xml:space="preserve">
+    <value>系統磁碟可用空間少於 {0}</value>
+  </data>
+  <data name="Alerts_Lasted" xml:space="preserve">
+    <value>持續了 {0}</value>
+  </data>
+  <data name="Alerts_SinceOngoing" xml:space="preserve">
+    <value>自 {0} 起 · 持續中{1}</value>
+  </data>
+  <data name="Count_Occurrence_One" xml:space="preserve">
+    <value>{0} 次</value>
+  </data>
+  <data name="Count_Occurrence_Other" xml:space="preserve">
+    <value>{0} 次</value>
+  </data>
+  <data name="Changes_View_Timeline" xml:space="preserve">
+    <value>時間軸（過去 30 天）</value>
+  </data>
+  <data name="Changes_View_Morning" xml:space="preserve">
+    <value>自今天早上以來</value>
+  </data>
+  <data name="Changes_View_Yesterday" xml:space="preserve">
+    <value>自昨天以來</value>
+  </data>
+  <data name="Changes_View_7Days" xml:space="preserve">
+    <value>自 7 天前以來</value>
+  </data>
+  <data name="Changes_View_30Days" xml:space="preserve">
+    <value>自 30 天前以來</value>
+  </data>
+  <data name="Changes_SinceFailed" xml:space="preserve">
+    <value>無法與昨天進行比較。</value>
+  </data>
+  <data name="Changes_NoSnapshotYet" xml:space="preserve">
+    <value>尚未記錄快照。Sysora 會在啟動一分鐘後建立一個快照，之後每六小時建立一次。</value>
+  </data>
+  <data name="Changes_Snapshots" xml:space="preserve">
+    <value>自 {1} 起共 {0} · 最近一次 {2}</value>
+  </data>
+  <data name="Count_DailySnapshot_One" xml:space="preserve">
+    <value>{0} 個每日快照</value>
+  </data>
+  <data name="Count_DailySnapshot_Other" xml:space="preserve">
+    <value>{0} 個每日快照</value>
+  </data>
+  <data name="Changes_NoChangeYet" xml:space="preserve">
+    <value>尚未記錄變更。Sysora 比較電腦的每日快照（應用程式、啟動程式、Windows 版本、裝置、磁碟空間和平均使用情況）後，變更會顯示在此處。</value>
+  </data>
+  <data name="Changes_DetectedNote" xml:space="preserve">
+    <value>透過比較電腦的快照偵測到。還會根據 Windows 中記錄的日期列出過去 30 天內安裝或更新的桌面應用程式。</value>
+  </data>
+  <data name="Changes_LoadFailed" xml:space="preserve">
+    <value>無法載入變更。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Changes_Group_ThisWeek" xml:space="preserve">
+    <value>本週</value>
+  </data>
+  <data name="Changes_Group_Earlier" xml:space="preserve">
+    <value>更早</value>
+  </data>
+  <data name="Importance_HighLong" xml:space="preserve">
+    <value>重要性高</value>
+  </data>
+  <data name="Changes_On" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Changes_Between" xml:space="preserve">
+    <value>{0} 到 {1} 之間</value>
+  </data>
+  <data name="Changes_SameDayBetween" xml:space="preserve">
+    <value>{0}，{1} 到 {2} 之間</value>
+  </data>
+  <data name="Changes_BeforeTime" xml:space="preserve">
+    <value>{0} 之前</value>
+  </data>
+  <data name="Recurring_OccurrencesShort" xml:space="preserve">
+    <value>{1} 天內 {0} 次</value>
+  </data>
+  <data name="AppImpact_Failed" xml:space="preserve">
+    <value>無法計算應用程式影響。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="AppImpact_Summary" xml:space="preserve">
+    <value>{0} · 已測量 {1}</value>
+  </data>
+  <data name="AppImpact_SummaryApps" xml:space="preserve">
+    <value>{0} · 已測量 {1} · {2}</value>
+  </data>
+  <data name="Count_Application_One" xml:space="preserve">
+    <value>{0} 個應用程式</value>
+  </data>
+  <data name="Count_Application_Other" xml:space="preserve">
+    <value>{0} 個應用程式</value>
+  </data>
+  <data name="AppImpact_LastHourPerMinute" xml:space="preserve">
+    <value>過去一小時，按分鐘</value>
+  </data>
+  <data name="AppImpact_PathNotAccessible" xml:space="preserve">
+    <value>路徑不可存取：僅按名稱識別</value>
+  </data>
+  <data name="AppImpact_PathProtected" xml:space="preserve">
+    <value>可執行檔路徑不可存取（受保護的處理程序）：僅按名稱識別。</value>
+  </data>
+  <data name="AppImpact_RelativeScore" xml:space="preserve">
+    <value>相對分數 {0}/100</value>
+  </data>
+  <data name="AppImpact_Peaks" xml:space="preserve">
+    <value>CPU 峰值 {0} · 記憶體峰值 {1} · I/O 峰值 {2}</value>
+  </data>
+  <data name="AppImpact_Starts_One" xml:space="preserve">
+    <value>觀察到 {0} 次啟動</value>
+  </data>
+  <data name="AppImpact_Starts_Other" xml:space="preserve">
+    <value>觀察到 {0} 次啟動</value>
+  </data>
+  <data name="AppImpact_NoStart" xml:space="preserve">
+    <value>此期間未觀察到啟動</value>
+  </data>
+  <data name="AppImpact_RunningNow" xml:space="preserve">
+    <value>正在執行 · {0}</value>
+  </data>
+  <data name="AppImpact_LastSeen" xml:space="preserve">
+    <value>上次出現：{0}</value>
+  </data>
+  <data name="AppImpact_NoHistory" xml:space="preserve">
+    <value>此期間沒有此應用程式的歷史記錄。</value>
+  </data>
+  <data name="AppImpact_ChartPerHour" xml:space="preserve">
+    <value>執行時的平均值，按小時。空白：未執行或未測量。</value>
+  </data>
+  <data name="AppImpact_ChartPerMinutes" xml:space="preserve">
+    <value>執行時的平均值，每 {0}。空白：未執行或未測量。</value>
+  </data>
+  <data name="AppImpact_MostOfTheTime" xml:space="preserve">
+    <value>大部分時間</value>
+  </data>
+  <data name="AppImpact_PartOfTheTime" xml:space="preserve">
+    <value>部分時間</value>
+  </data>
+  <data name="AppImpact_Briefly" xml:space="preserve">
+    <value>短暫</value>
+  </data>
+  <data name="Replay_LoadFailed" xml:space="preserve">
+    <value>無法載入重播資料。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Replay_Live" xml:space="preserve">
+    <value>即時 · {0}</value>
+  </data>
+  <data name="Replay_Paused" xml:space="preserve">
+    <value>已暫停 · {0}</value>
+  </data>
+  <data name="Replay_NoMeasurementAtTime" xml:space="preserve">
+    <value>此時沒有測量資料</value>
+  </data>
+  <data name="Replay_NowAt" xml:space="preserve">
+    <value>現在（{0}）</value>
+  </data>
+  <data name="Replay_DiskActive" xml:space="preserve">
+    <value>活動 {0}{1}</value>
+  </data>
+  <data name="Replay_AppsNotAvailable" xml:space="preserve">
+    <value>此時刻沒有應用程式資料。</value>
+  </data>
+  <data name="Replay_AppAverage" xml:space="preserve">
+    <value>{0} — CPU {1}，{2}（5 分鐘平均值）</value>
+  </data>
+  <data name="Replay_NoAppRecorded" xml:space="preserve">
+    <value>此五分鐘期間未記錄任何應用程式。</value>
+  </data>
+  <data name="Replay_AppNow" xml:space="preserve">
+    <value>{0}{1} — CPU {2}，{3}</value>
+  </data>
+  <data name="Trend_MemoryRisingBy" xml:space="preserve">
+    <value>記憶體上升（+{0}）</value>
+  </data>
+  <data name="Trend_MemoryRising" xml:space="preserve">
+    <value>記憶體上升</value>
+  </data>
+  <data name="Trend_CpuRisingBy" xml:space="preserve">
+    <value>CPU 上升（+{0}）</value>
+  </data>
+  <data name="Trend_CpuRising" xml:space="preserve">
+    <value>CPU 上升</value>
+  </data>
+  <data name="Trend_MemoryFallingBy" xml:space="preserve">
+    <value>記憶體下降（{0}）</value>
+  </data>
+  <data name="Trend_MemoryFalling" xml:space="preserve">
+    <value>記憶體下降</value>
+  </data>
+  <data name="Trend_CpuFallingBy" xml:space="preserve">
+    <value>CPU 下降（{0}）</value>
+  </data>
+  <data name="Trend_CpuFalling" xml:space="preserve">
+    <value>CPU 下降</value>
+  </data>
+  <data name="Trend_NotEnoughData" xml:space="preserve">
+    <value>資料不足</value>
+  </data>
+  <data name="Trend_Stable" xml:space="preserve">
+    <value>穩定</value>
+  </data>
+  <data name="Count_MeasurementN0_One" xml:space="preserve">
+    <value>{0:N0} 次測量</value>
+  </data>
+  <data name="Count_MeasurementN0_Other" xml:space="preserve">
+    <value>{0:N0} 次測量</value>
+  </data>
+  <data name="Evidence_Source" xml:space="preserve">
+    <value>來源：{0}</value>
+  </data>
+  <data name="Action_Compare" xml:space="preserve">
+    <value>比較之前 / 之後</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>開啟 {0}</value>
+  </data>
+  <data name="Gaming_NotFollowed" xml:space="preserve">
+    <value>{0} 將不再作為遊戲追蹤。你可以在 設定 › 遊戲 中復原此操作。</value>
+  </data>
+  <data name="Gaming_LiveTitle" xml:space="preserve">
+    <value>{0} · 已執行 {1}</value>
+  </data>
+  <data name="Gaming_LiveCpu" xml:space="preserve">
+    <value>CPU 平均 {0}（峰值 {1}）</value>
+  </data>
+  <data name="Gaming_LiveGpu" xml:space="preserve">
+    <value>GPU 平均 {0}（峰值 {1}）</value>
+  </data>
+  <data name="Gaming_LiveMemory" xml:space="preserve">
+    <value>記憶體平均 {0}</value>
+  </data>
+  <data name="Gaming_LiveGameMemory" xml:space="preserve">
+    <value>遊戲平均 {0}</value>
+  </data>
+  <data name="Gaming_Collecting" xml:space="preserve">
+    <value>正在收集第一批測量…</value>
+  </data>
+  <data name="Gaming_SelfCpu" xml:space="preserve">
+    <value>Sysora 自身：本次工作階段期間平均佔用 CPU {0}。FPS：無法使用。</value>
+  </data>
+  <data name="Gaming_FpsNotAvailable" xml:space="preserve">
+    <value>FPS：無法使用。</value>
+  </data>
+  <data name="Gaming_NoSessionYet" xml:space="preserve">
+    <value>尚未記錄遊戲工作階段。</value>
+  </data>
+  <data name="Gaming_Summary" xml:space="preserve">
+    <value>過去 90 天內 {0} · 測量的遊戲時間 {1}</value>
+  </data>
+  <data name="Count_Session_One" xml:space="preserve">
+    <value>{0} 個工作階段</value>
+  </data>
+  <data name="Count_Session_Other" xml:space="preserve">
+    <value>{0} 個工作階段</value>
+  </data>
+  <data name="Gaming_LoadFailed" xml:space="preserve">
+    <value>無法載入遊戲工作階段：{0}</value>
+  </data>
+  <data name="Gaming_Detection" xml:space="preserve">
+    <value>識別為遊戲：{0}（{1}）</value>
+  </data>
+  <data name="Gaming_CpuLegend" xml:space="preserve">
+    <value>整台電腦（填充）和遊戲（線條），{0}</value>
+  </data>
+  <data name="Gaming_GpuLegendNoGame" xml:space="preserve">
+    <value>最繁忙的圖形介面卡，{0}（遊戲的 GPU 使用率：無法使用）</value>
+  </data>
+  <data name="Gaming_GpuLegend" xml:space="preserve">
+    <value>最繁忙的圖形介面卡（填充）和遊戲（線條），{0}</value>
+  </data>
+  <data name="Gaming_StepMinute" xml:space="preserve">
+    <value>每分鐘平均值</value>
+  </data>
+  <data name="Gaming_StepOther" xml:space="preserve">
+    <value>每 {0} 的平均值</value>
+  </data>
+  <data name="Gaming_AppLine" xml:space="preserve">
+    <value>{0}：CPU 平均 {1}（峰值 {2}），最多 {3}</value>
+  </data>
+  <data name="Timeline_LoadFailed" xml:space="preserve">
+    <value>無法載入時間軸。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Timeline_Empty" xml:space="preserve">
+    <value>此期間尚無任何記錄。項目來自 Sysora 執行時觀察到的內容：應用程式、遊戲、警示、峰值、變更、睡眠和調查。</value>
+  </data>
+  <data name="Timeline_Shown" xml:space="preserve">
+    <value>顯示 {0}，共 {1}。時間為 Sysora 觀察到的時間；≈ 表示透過比較快照發現的變更（最遲發生在該時間）。</value>
+  </data>
+  <data name="Network_Connected" xml:space="preserve">
+    <value>已連線到網際網路</value>
+  </data>
+  <data name="Network_RestrictedDetail" xml:space="preserve">
+    <value>Windows 報告存取受限，例如需要登入的頁面</value>
+  </data>
+  <data name="Network_LocalOnly" xml:space="preserve">
+    <value>僅連線到區域網路</value>
+  </data>
+  <data name="Network_NoInterface" xml:space="preserve">
+    <value>沒有活動的網路介面</value>
+  </data>
+  <data name="Network_StatusUnknown" xml:space="preserve">
+    <value>連線狀態未知</value>
+  </data>
+  <data name="Network_NoLevel" xml:space="preserve">
+    <value>Windows 未報告連線層級</value>
+  </data>
+  <data name="Network_Cellular" xml:space="preserve">
+    <value>行動網路</value>
+  </data>
+  <data name="Network_DefaultRoute" xml:space="preserve">
+    <value>預設路由</value>
+  </data>
+  <data name="Network_NoAddress" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="Compare_Preset_HourAgo" xml:space="preserve">
+    <value>現在與 1 小時前</value>
+  </data>
+  <data name="Compare_Preset_Yesterday" xml:space="preserve">
+    <value>現在與昨天的這個時間</value>
+  </data>
+  <data name="Compare_Preset_TodayYesterday" xml:space="preserve">
+    <value>今天與昨天</value>
+  </data>
+  <data name="Compare_Preset_GameDuring" xml:space="preserve">
+    <value>遊戲工作階段：之前與期間</value>
+  </data>
+  <data name="Compare_Preset_GameAfter" xml:space="preserve">
+    <value>遊戲工作階段：之前與之後</value>
+  </data>
+  <data name="Compare_Preset_GamePrevious" xml:space="preserve">
+    <value>遊戲工作階段與上一個工作階段</value>
+  </data>
+  <data name="Compare_Preset_Moment" xml:space="preserve">
+    <value>某個時刻之前與之後</value>
+  </data>
+  <data name="Compare_Preset_TwoMoments" xml:space="preserve">
+    <value>兩個時刻</value>
+  </data>
+  <data name="Compare_Failed" xml:space="preserve">
+    <value>無法進行比較。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Compare_NotCompared" xml:space="preserve">
+    <value>未比較</value>
+  </data>
+  <data name="Troubleshooting_Idle" xml:space="preserve">
+    <value>選擇調查時長，然後在問題發生時（或發生前）開始。</value>
+  </data>
+  <data name="Troubleshooting_Active" xml:space="preserve">
+    <value>疑難排解模式已啟用 · 正在收集更多上下文…</value>
+  </data>
+  <data name="Troubleshooting_Elapsed" xml:space="preserve">
+    <value>{0} / {1} · 將自動結束，之後收集恢復正常</value>
+  </data>
+  <data name="Count_Event_One" xml:space="preserve">
+    <value>{0} 個事件</value>
+  </data>
+  <data name="Count_Event_Other" xml:space="preserve">
+    <value>{0} 個事件</value>
+  </data>
+  <data name="Troubleshooting_Period" xml:space="preserve">
+    <value>{0} · {1} · 詳細收集</value>
+  </data>
+  <data name="Troubleshooting_EndedByItself" xml:space="preserve">
+    <value>已自動結束</value>
+  </data>
+  <data name="Troubleshooting_Stopped" xml:space="preserve">
+    <value>已停止</value>
+  </data>
+  <data name="Troubleshooting_EndedOnClose" xml:space="preserve">
+    <value>Sysora 關閉時結束</value>
+  </data>
+  <data name="Troubleshooting_AppCpu" xml:space="preserve">
+    <value>平均 {0} · 峰值 {1}</value>
+  </data>
+  <data name="Troubleshooting_AppMemory" xml:space="preserve">
+    <value>峰值 {0}</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_One" xml:space="preserve">
+    <value>在 {0} 次 CPU 偏高時刻中最繁忙</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_Other" xml:space="preserve">
+    <value>在 {0} 次 CPU 偏高時刻中最繁忙</value>
+  </data>
+  <data name="Troubleshooting_MostIo_One" xml:space="preserve">
+    <value>在 {0} 次磁碟繁忙時刻中 I/O 最多</value>
+  </data>
+  <data name="Troubleshooting_MostIo_Other" xml:space="preserve">
+    <value>在 {0} 次磁碟繁忙時刻中 I/O 最多</value>
+  </data>
+  <data name="Storage_Summary" xml:space="preserve">
+    <value>{0} · 可用 {1}（共 {2}）</value>
+  </data>
+  <data name="Count_Volume_One" xml:space="preserve">
+    <value>{0} 個磁碟區</value>
+  </data>
+  <data name="Count_Volume_Other" xml:space="preserve">
+    <value>{0} 個磁碟區</value>
+  </data>
+  <data name="Storage_UsedPercent" xml:space="preserve">
+    <value>已用 {0}</value>
+  </data>
+  <data name="Storage_RemovableDisk" xml:space="preserve">
+    <value>卸除式磁碟</value>
+  </data>
+  <data name="Storage_OpticalDrive" xml:space="preserve">
+    <value>光碟機</value>
+  </data>
+  <data name="Storage_RamDisk" xml:space="preserve">
+    <value>RAM 磁碟</value>
+  </data>
+  <data name="Storage_LocalDisk" xml:space="preserve">
+    <value>本機磁碟</value>
+  </data>
+  <data name="Storage_Kind_Fixed" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="Storage_Kind_Removable" xml:space="preserve">
+    <value>卸除式</value>
+  </data>
+  <data name="Storage_Kind_Optical" xml:space="preserve">
+    <value>光碟</value>
+  </data>
+  <data name="Processes_EndTitle" xml:space="preserve">
+    <value>結束 {0}？</value>
+  </data>
+  <data name="Processes_EndMessage" xml:space="preserve">
+    <value>Sysora 將結束 {0}（PID {1}）。此應用程式中所有未儲存的工作都將遺失。</value>
+  </data>
+  <data name="Processes_EndButton" xml:space="preserve">
+    <value>結束處理程序</value>
+  </data>
+  <data name="Processes_Ended" xml:space="preserve">
+    <value>處理程序已結束</value>
+  </data>
+  <data name="Processes_EndedMessage" xml:space="preserve">
+    <value>{0}（PID {1}）已結束。</value>
+  </data>
+  <data name="Processes_NotEnded" xml:space="preserve">
+    <value>未能結束 {0}</value>
+  </data>
+  <data name="Processes_UnknownError" xml:space="preserve">
+    <value>未知錯誤。</value>
+  </data>
+  <data name="Processes_Filtered" xml:space="preserve">
+    <value>{0} / {1}</value>
+  </data>
+  <data name="Common_Loading" xml:space="preserve">
+    <value>正在載入…</value>
+  </data>
+  <data name="System_VersionBuild" xml:space="preserve">
+    <value>版本 {0}（組建 {1}）</value>
+  </data>
+  <data name="System_Build" xml:space="preserve">
+    <value>組建 {0}</value>
+  </data>
+  <data name="System_RunsAs" xml:space="preserve">
+    <value>{0}（Sysora 以 {1} 執行）</value>
+  </data>
+  <data name="Count_Core_One" xml:space="preserve">
+    <value>{0} 個核心</value>
+  </data>
+  <data name="Count_Core_Other" xml:space="preserve">
+    <value>{0} 個核心</value>
+  </data>
+  <data name="System_Base" xml:space="preserve">
+    <value>基本 {0}</value>
+  </data>
+  <data name="System_Usable" xml:space="preserve">
+    <value>可用 {0}</value>
+  </data>
+  <data name="System_Bits64x64" xml:space="preserve">
+    <value>64 位 (x64)</value>
+  </data>
+  <data name="System_Bits64Arm" xml:space="preserve">
+    <value>64 位 (ARM64)</value>
+  </data>
+  <data name="System_Bits32" xml:space="preserve">
+    <value>32 位 (x86)</value>
+  </data>
+  <data name="PcHealth_Failed" xml:space="preserve">
+    <value>無法計算分數。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="PcHealth_BasedOn" xml:space="preserve">
+    <value>依據 {0} · {1} · 更新於 {2}</value>
+  </data>
+  <data name="PcHealth_SelfMeasures" xml:space="preserve">
+    <value>Sysora 每十秒測量一次自身的使用情況。</value>
+  </data>
+  <data name="Performance_TemperatureHint" xml:space="preserve">
+    <value>Windows 不透過有文件記載的 API 提供 CPU 溫度。讀取它需要核心驅動程式，而 Sysora 有意不安裝核心驅動程式。</value>
+  </data>
+  <data name="Performance_CoreN" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Performance_DiskN" xml:space="preserve">
+    <value>磁碟 {0}</value>
+  </data>
+  <data name="Usual_CurrentAverage" xml:space="preserve">
+    <value>過去 {0:0} 分鐘的平均值</value>
+  </data>
+  <data name="Usual_NotMeasuredRecently" xml:space="preserve">
+    <value>最近幾分鐘未測量</value>
+  </data>
+  <data name="Usual_PeriodAverage" xml:space="preserve">
+    <value>{0}：{1} 測量資料的平均值（{2}）</value>
+  </data>
+  <data name="Duration_Second_One" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Duration_Second_Other" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Chart_Rising" xml:space="preserve">
+    <value>上升</value>
+  </data>
+  <data name="Chart_Falling" xml:space="preserve">
+    <value>下降</value>
+  </data>
+  <data name="Chart_Stats" xml:space="preserve">
+    <value>平均 {0} · 峰值 {1}{2}</value>
+  </data>
+  <data name="Shell_ResumeMonitoring" xml:space="preserve">
+    <value>恢復監視</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>開啟 Sysora</value>
+  </data>
+  <data name="Tray_Exit" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="Tray_StillRunning" xml:space="preserve">
+    <value>Sysora 仍在執行</value>
+  </data>
+  <data name="Tray_StillRunningText" xml:space="preserve">
+    <value>監視會在通知區域中繼續。以滑鼠右鍵按一下圖示即可結束。</value>
+  </data>
+  <data name="Tray_GameRecap" xml:space="preserve">
+    <value>遊戲回顧：{0}</value>
+  </data>
+  <data name="Tray_GameRecapText" xml:space="preserve">
+    <value>{0} · {1}。按一下開啟回顧。</value>
+  </data>
+  <data name="Tray_InvestigationComplete" xml:space="preserve">
+    <value>調查完成</value>
+  </data>
+  <data name="Tray_InvestigationText" xml:space="preserve">
+    <value>{0}。按一下開啟報告。</value>
+  </data>
+  <data name="Tray_AlertText" xml:space="preserve">
+    <value>{0}。按一下開啟「警示」。</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>（已暫停）</value>
+  </data>
+  <data name="Tray_Tooltip" xml:space="preserve">
+    <value>CPU {0} · 記憶體 {1}</value>
+  </data>
+  <data name="Export_PrepareFailed" xml:space="preserve">
+    <value>無法準備報告。有關詳細資訊，請參閱記錄檔。</value>
+  </data>
+  <data name="Export_Html" xml:space="preserve">
+    <value>報告（HTML 頁面）</value>
+  </data>
+  <data name="Export_Json" xml:space="preserve">
+    <value>結構化資料 (JSON)</value>
+  </data>
+  <data name="Export_Saved" xml:space="preserve">
+    <value>報告已儲存：{0}</value>
+  </data>
+  <data name="Export_SaveFailed" xml:space="preserve">
+    <value>無法儲存報告：{0}</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="Settings_Language_Description" xml:space="preserve">
+    <value>介面、分析、警示和報告的語言</value>
+  </data>
+  <data name="Settings_Language_Restart" xml:space="preserve">
+    <value>Sysora 重新啟動後將使用新語言。你的歷史記錄和設定會保留。</value>
+  </data>
+  <data name="Settings_Language_RestartNow" xml:space="preserve">
+    <value>立即重新啟動</value>
+  </data>
+  <data name="Settings_Log_Debug" xml:space="preserve">
+    <value>除錯</value>
+  </data>
+  <data name="Settings_Log_Information" xml:space="preserve">
+    <value>資訊</value>
+  </data>
+  <data name="Settings_Log_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Settings_Log_Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="Settings_Language_System" xml:space="preserve">
+    <value>Windows 語言（{0}）</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>系統</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>淺色</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="Settings_Close_Quit" xml:space="preserve">
+    <value>結束應用程式</value>
+  </data>
+  <data name="Settings_Close_Tray" xml:space="preserve">
+    <value>最小化到系統匣</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0} 授權 · {1}</value>
+  </data>
+  <data name="Settings_DeleteHistory_Title" xml:space="preserve">
+    <value>刪除本機歷史記錄？</value>
+  </data>
+  <data name="Settings_DeleteHistory_Message" xml:space="preserve">
+    <value>Sysora 將從這台電腦中刪除記錄的效能歷史記錄、應用程式使用情況、事件、警示、偵測到的變更和遊戲工作階段。將重新學習平常行為基準。此操作無法復原。</value>
+  </data>
+  <data name="Settings_DeleteHistory_Failed" xml:space="preserve">
+    <value>無法刪除歷史記錄：{0}</value>
+  </data>
+  <data name="Settings_Startup_Enabled" xml:space="preserve">
+    <value>登入時會啟動 Sysora。</value>
+  </data>
+  <data name="Settings_Startup_DisabledByUser" xml:space="preserve">
+    <value>已註冊，但已在 Windows 設定 › 應用程式 › 啟動 中關閉。</value>
+  </data>
+  <data name="Settings_Startup_Unknown" xml:space="preserve">
+    <value>無法讀取啟動註冊資訊。</value>
+  </data>
+  <data name="Settings_Startup_Off" xml:space="preserve">
+    <value>使用標準的每使用者 Run 登錄機碼；可在 設定 › 應用程式 › 啟動 中檢視。</value>
+  </data>
+  <data name="Settings_Stretched" xml:space="preserve">
+    <value>已延長 ×{0:0.##} 以保持在 CPU 預算之內</value>
+  </data>
+  <data name="Settings_History_Since" xml:space="preserve">
+    <value>資料始於 {0}</value>
+  </data>
+  <data name="Settings_History_NoData" xml:space="preserve">
+    <value>尚無資料</value>
+  </data>
+  <data name="Settings_History_OnDisk" xml:space="preserve">
+    <value>磁碟上 {0}</value>
+  </data>
+  <data name="Settings_History_NotAvailable" xml:space="preserve">
+    <value>歷史記錄無法使用：{0}</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="Dashboard_SortByCpu" xml:space="preserve">
+    <value>按 CPU</value>
+  </data>
+  <data name="Dashboard_SortByMemory" xml:space="preserve">
+    <value>按記憶體</value>
+  </data>
+  <data name="Dashboard_TopCpu" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Dashboard_TopMemory" xml:space="preserve">
+    <value>記憶體 {0}</value>
+  </data>
+  <data name="Dashboard_Uptime" xml:space="preserve">
+    <value>{0} · 已執行 {1}</value>
+  </data>
+  <data name="AppImpact_LevelImpact" xml:space="preserve">
+    <value>影響：{0}</value>
+  </data>
+  <data name="Changes_NoneFound" xml:space="preserve">
+    <value>未發現變更。</value>
+  </data>
+  <data name="Replay_PerMinute" xml:space="preserve">
+    <value>{0}（每分鐘）</value>
+  </data>
+  <data name="Replay_SourceHint" xml:space="preserve">
+    <value>按一下圖表或移動滑桿，即可讀取某一時刻的數值。</value>
+  </data>
+  <data name="Replay_SourceOlder" xml:space="preserve">
+    <value>早於 {0}：應用程式按每五分鐘顯示。</value>
+  </data>
+  <data name="Settings_Games_LauncherToggle" xml:space="preserve">
+    <value>透過啟動器安裝的遊戲</value>
+  </data>
+  <data name="Settings_Games_LauncherToggleDescription" xml:space="preserve">
+    <value>Steam、Epic Games、Riot 或 GOG 報告為已安裝的遊戲，從這台電腦上啟動器的檔案中讀取</value>
+  </data>
+  <data name="Settings_Games_LaunchersTitle" xml:space="preserve">
+    <value>在你的啟動器中找到的遊戲</value>
+  </data>
+  <data name="Settings_Games_LaunchersDescription" xml:space="preserve">
+    <value>Sysora 讀取這台電腦上啟動器自己的檔案：它可離線工作，不傳送任何內容，從不啟動遊戲，也從不變更其檔案。確認某個遊戲，即使沒有其啟動器也會繼續追蹤它；或者忽略它。</value>
+  </data>
+  <data name="Settings_Games_ScanAgain" xml:space="preserve">
+    <value>再次尋找</value>
+  </data>
+  <data name="Settings_Games_Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Settings_Games_ConfirmHint" xml:space="preserve">
+    <value>即使關閉了啟動器偵測或解除安裝了啟動器，也繼續追蹤此遊戲</value>
+  </data>
+  <data name="Settings_Games_Ignore" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="Settings_Games_YourGames" xml:space="preserve">
+    <value>你的遊戲</value>
+  </data>
+  <data name="Settings_Games_YourGamesDescription" xml:space="preserve">
+    <value>選擇程式 (.exe) 來新增 Sysora 無法識別的遊戲。Sysora 會在它下次執行時追蹤它；從不啟動它。標記為非遊戲的應用程式永遠不會被追蹤。</value>
+  </data>
+  <data name="Settings_Games_Browse" xml:space="preserve">
+    <value>新增遊戲…</value>
+  </data>
+  <data name="Settings_Games_OrRunning" xml:space="preserve">
+    <value>或者選擇目前正在執行的應用程式</value>
+  </data>
+  <data name="Settings_Games_ChangeLocation" xml:space="preserve">
+    <value>變更位置…</value>
+  </data>
+  <data name="Settings_Games_AlreadyAdded" xml:space="preserve">
+    <value>{0} 已在你的遊戲中。</value>
+  </data>
+  <data name="Settings_Games_Added" xml:space="preserve">
+    <value>已新增 {0}：Sysora 會從它下次啟動時開始追蹤。</value>
+  </data>
+  <data name="Settings_Games_Moved" xml:space="preserve">
+    <value>{0} 現在指向其新位置。其過去的工作階段會保留。</value>
+  </data>
+  <data name="Settings_Games_NotAProgram" xml:space="preserve">
+    <value>選擇遊戲的程式（以 .exe 結尾的檔案）。</value>
+  </data>
+  <data name="Settings_Games_NotFound" xml:space="preserve">
+    <value>找不到 {0}。它可能已被移動或刪除。</value>
+  </data>
+  <data name="Settings_Games_Unreadable" xml:space="preserve">
+    <value>無法檢查 {0}：路徑無效或拒絕存取。</value>
+  </data>
+  <data name="Settings_Games_SystemProgram" xml:space="preserve">
+    <value>Windows 程式永遠不會作為遊戲追蹤。</value>
+  </data>
+  <data name="Settings_Games_NoLauncherGame" xml:space="preserve">
+    <value>在啟動器的檔案中找不到遊戲（Steam、Epic Games、Riot、GOG）。</value>
+  </data>
+  <data name="Settings_Games_LauncherSummary" xml:space="preserve">
+    <value>{0}：{1}。資料夾已不存在的遊戲不包括在內。</value>
+  </data>
+  <data name="Count_GameFound_One" xml:space="preserve">
+    <value>找到 {0} 個遊戲</value>
+  </data>
+  <data name="Count_GameFound_Other" xml:space="preserve">
+    <value>找到 {0} 個遊戲</value>
+  </data>
+  <data name="Settings_Games_Missing" xml:space="preserve">
+    <value>在此位置找不到：遊戲可能已移動。請選擇其新位置或將其刪除。</value>
+  </data>
+  <data name="Settings_Games_State_Confirmed" xml:space="preserve">
+    <value>已確認</value>
+  </data>
+  <data name="Settings_Games_State_ConfirmedGone" xml:space="preserve">
+    <value>已確認（啟動器已不再列出）</value>
+  </data>
+  <data name="Settings_Games_State_Ignored" xml:space="preserve">
+    <value>已忽略：不追蹤</value>
+  </data>
+  <data name="Settings_Games_State_Auto" xml:space="preserve">
+    <value>自動追蹤</value>
+  </data>
+  <data name="Settings_Games_State_Off" xml:space="preserve">
+    <value>不追蹤（已關閉啟動器偵測）</value>
+  </data>
+  <data name="Settings_Games_FollowAgain" xml:space="preserve">
+    <value>重新追蹤</value>
+  </data>
+  <data name="Settings_Games_Unconfirm" xml:space="preserve">
+    <value>取消確認</value>
+  </data>
+</root>
