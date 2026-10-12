@@ -61,7 +61,11 @@ public sealed class AppHost : IAsyncDisposable
         services.AddSingleton(dispatcher);
         services.AddSingleton(paths);
         services.AddSingleton(levelSwitch);
-        services.AddSingleton<FileLoggerProvider>();
+        // Demo mode can run next to the normal instance: it logs to its own files.
+        services.AddSingleton(_ => new FileLoggerProvider(
+            paths,
+            levelSwitch,
+            options.DemoMode ? FileLoggerProvider.DemoFilePrefix : FileLoggerProvider.DefaultFilePrefix));
         services.AddLogging(builder => builder.SetMinimumLevel(LogLevel.Debug));
         services.AddSingleton<ILoggerProvider>(sp => sp.GetRequiredService<FileLoggerProvider>());
 
