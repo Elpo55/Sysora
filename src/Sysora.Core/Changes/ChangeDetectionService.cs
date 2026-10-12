@@ -54,7 +54,7 @@ public sealed class ChangeDetectionService : IChangeDetectionService, IAsyncDisp
         _time = timeProvider ?? TimeProvider.System;
     }
 
-    /// <summary>Raised on a background thread after new changes are recorded.</summary>
+    /// <summary>Raised on a background thread after a snapshot is recorded.</summary>
     public event EventHandler? Changed;
 
     /// <summary>Starts the periodic snapshots.</summary>
