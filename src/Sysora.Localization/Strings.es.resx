@@ -1563,6 +1563,9 @@
   <data name="WhyNow_Summary_Starting" xml:space="preserve">
     <value>, a partir de las {0} aprox. (hace {1}). </value>
   </data>
+  <data name="WhyNow_Summary_End" xml:space="preserve">
+    <value>. </value>
+  </data>
   <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
     <value>{0} antes, {1} ahora</value>
   </data>

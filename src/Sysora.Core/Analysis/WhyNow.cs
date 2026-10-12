@@ -304,7 +304,7 @@ public static class WhyNowAnalyzer
                 : Text.Format(Strings.WhyNow_Summary_Is, name, format(current)))
             + (started is { } at
                 ? Text.Format(Strings.WhyNow_Summary_Starting, Clock(at), MetricFormatter.DurationPrecise(duration))
-                : ". ")
+                : Strings.WhyNow_Summary_End)
             + contributor.Summary;
 
         return new WhyNowExplanation
