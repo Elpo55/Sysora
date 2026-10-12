@@ -47,6 +47,7 @@ public static class AppLanguage
         new("tr", "Türkçe"),
         new("ja", "日本語"),
         new("zh-Hans", "中文（简体）") { WindowsTag = "zh-CN" },
+        new("ko", "한국어"),
     ];
 
     /// <summary>The language of this process, as applied by <see cref="Apply"/> (English until then).</summary>

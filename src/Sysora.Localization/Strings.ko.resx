@@ -1,0 +1,3816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>사용할 수 없음</value>
+  </data>
+  <data name="List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="List_LastSeparator" xml:space="preserve">
+    <value> 및 </value>
+  </data>
+  <data name="Sentence_End" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Sentence_Separator" xml:space="preserve">
+    <value>. </value>
+  </data>
+  <data name="Unit_Byte" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Unit_Kilobyte" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Unit_Megabyte" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Unit_Gigabyte" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="Unit_Terabyte" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="Format_PerSecond" xml:space="preserve">
+    <value>{0}/초</value>
+  </data>
+  <data name="Format_Bps" xml:space="preserve">
+    <value>{0:0} bps</value>
+  </data>
+  <data name="Format_Kbps" xml:space="preserve">
+    <value>{0} Kbps</value>
+  </data>
+  <data name="Format_Mbps" xml:space="preserve">
+    <value>{0} Mbps</value>
+  </data>
+  <data name="Format_Gbps" xml:space="preserve">
+    <value>{0} Gbps</value>
+  </data>
+  <data name="Format_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Duration_DaysHoursMinutes" xml:space="preserve">
+    <value>{0}일 {1}시간 {2}분</value>
+  </data>
+  <data name="Duration_HoursMinutes" xml:space="preserve">
+    <value>{0}시간 {1}분</value>
+  </data>
+  <data name="Duration_Minutes" xml:space="preserve">
+    <value>{0}분</value>
+  </data>
+  <data name="Duration_Seconds" xml:space="preserve">
+    <value>{0}초</value>
+  </data>
+  <data name="Duration_DaysHours" xml:space="preserve">
+    <value>{0}일 {1}시간</value>
+  </data>
+  <data name="Duration_HoursPaddedMinutes" xml:space="preserve">
+    <value>{0}시간 {1:00}분</value>
+  </data>
+  <data name="Duration_MinutesPaddedSeconds" xml:space="preserve">
+    <value>{0}분 {1:00}초</value>
+  </data>
+  <data name="Duration_Day_One" xml:space="preserve">
+    <value>{0}일</value>
+  </data>
+  <data name="Duration_Day_Other" xml:space="preserve">
+    <value>{0}일</value>
+  </data>
+  <data name="Duration_Hour_One" xml:space="preserve">
+    <value>{0}시간</value>
+  </data>
+  <data name="Duration_Hour_Other" xml:space="preserve">
+    <value>{0}시간</value>
+  </data>
+  <data name="Duration_Minute_One" xml:space="preserve">
+    <value>{0}분</value>
+  </data>
+  <data name="Duration_Minute_Other" xml:space="preserve">
+    <value>{0}분</value>
+  </data>
+  <data name="Diag_UsualWithMedian" xml:space="preserve">
+    <value>평소 {0}(중앙값 {1})</value>
+  </data>
+  <data name="Diag_UsualOf" xml:space="preserve">
+    <value>평소 {0}</value>
+  </data>
+  <data name="Diag_UsualDetail" xml:space="preserve">
+    <value>{0}(중앙값 {1}, 95%의 분이 {2} 미만)</value>
+  </data>
+  <data name="Source_HistoryMinutes7Days" xml:space="preserve">
+    <value>로컬 기록의 분당 평균(최근 7일)</value>
+  </data>
+  <data name="Diag_NotKnownYet" xml:space="preserve">
+    <value>아직 알 수 없음</value>
+  </data>
+  <data name="Diag_AveragePeak" xml:space="preserve">
+    <value>평균 {0}, 최고 {1}</value>
+  </data>
+  <data name="Diag_AtOrAboveFor" xml:space="preserve">
+    <value>{1} 동안 {0} 이상(평균 {2}, 최고 {3})</value>
+  </data>
+  <data name="Diag_Threshold" xml:space="preserve">
+    <value>임계값 {0}</value>
+  </data>
+  <data name="Diag_ReportedWhenAbove" xml:space="preserve">
+    <value>{1} 동안 {0}을(를) 넘으면 보고</value>
+  </data>
+  <data name="Diag_Metric_CpuUsage" xml:space="preserve">
+    <value>CPU 사용률</value>
+  </data>
+  <data name="Diag_Metric_AppCpu" xml:space="preserve">
+    <value>앱 CPU 사용률</value>
+  </data>
+  <data name="Diag_Metric_MemoryUsage" xml:space="preserve">
+    <value>메모리 사용률</value>
+  </data>
+  <data name="Diag_Metric_Commit" xml:space="preserve">
+    <value>커밋 크기</value>
+  </data>
+  <data name="Diag_Metric_DiskActive" xml:space="preserve">
+    <value>디스크 활성 시간</value>
+  </data>
+  <data name="Diag_Metric_SystemDiskSpace" xml:space="preserve">
+    <value>시스템 디스크 공간</value>
+  </data>
+  <data name="Diag_Metric_VolumeSpace" xml:space="preserve">
+    <value>볼륨 공간</value>
+  </data>
+  <data name="Diag_Metric_ActivityVsUsual" xml:space="preserve">
+    <value>평소와 비교한 활동</value>
+  </data>
+  <data name="Diag_Metric_GpuUsage" xml:space="preserve">
+    <value>GPU 사용률</value>
+  </data>
+  <data name="Diag_Metric_Connectivity" xml:space="preserve">
+    <value>연결</value>
+  </data>
+  <data name="Diag_Metric_Uptime" xml:space="preserve">
+    <value>가동 시간</value>
+  </data>
+  <data name="Diag_CpuLastMinute" xml:space="preserve">
+    <value>CPU 사용률(최근 1분)</value>
+  </data>
+  <data name="Diag_CpuLoad_Explanation" xml:space="preserve">
+    <value>프로세서가 이렇게 계속 바쁘면 앱이 프로세서 시간을 기다려야 하므로 PC가 느리게 느껴질 수 있습니다.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUnusual" xml:space="preserve">
+    <value>프로세서가 이 PC의 평소보다 훨씬 바쁩니다({0}). 앱이 프로세서 시간을 기다려야 하므로 PC가 느리게 느껴질 수 있습니다.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUsual" xml:space="preserve">
+    <value>높은 수준이지만 이 PC에서는 드문 일이 아닙니다(대부분 {0}).</value>
+  </data>
+  <data name="Diag_CpuLoad_SaturatedTitle" xml:space="preserve">
+    <value>CPU가 포화 상태입니다</value>
+  </data>
+  <data name="Diag_CpuLoad_HighTitle" xml:space="preserve">
+    <value>CPU 사용률 높음</value>
+  </data>
+  <data name="Diag_CpuLoad_HighDescription" xml:space="preserve">
+    <value>CPU 사용률이 {1} 동안 {0}을(를) 넘었습니다(평균 {2}).</value>
+  </data>
+  <data name="Diag_CpuLoad_Recommendation" xml:space="preserve">
+    <value>앱 영향을 열어 프로세서를 사용하는 앱을 확인하고 지금 필요하지 않은 앱을 닫으세요.</value>
+  </data>
+  <data name="Diag_CpuSpike_Title" xml:space="preserve">
+    <value>짧은 CPU 급증</value>
+  </data>
+  <data name="Diag_CpuSpike_Description" xml:space="preserve">
+    <value>CPU가 현재 {0}이지만 지금까지 {1} 동안만 지속되었습니다.</value>
+  </data>
+  <data name="Diag_CpuSpike_Explanation" xml:space="preserve">
+    <value>짧은 급증은 정상입니다(앱 열기, 백그라운드 작업). 오래 지속될 때만 느려지는 원인일 가능성이 있습니다.</value>
+  </data>
+  <data name="Diag_CpuNormal_Title" xml:space="preserve">
+    <value>CPU 사용률 정상</value>
+  </data>
+  <data name="Diag_CpuNormal_Description" xml:space="preserve">
+    <value>프로세서의 최근 1분 평균은 {0}입니다(최고 {1}).</value>
+  </data>
+  <data name="Diag_CpuNormal_Explanation" xml:space="preserve">
+    <value>프로세서에 여유 용량이 있습니다.</value>
+  </data>
+  <data name="Diag_AppCpu_Now" xml:space="preserve">
+    <value>현재 전체 CPU의 {0}({1})</value>
+  </data>
+  <data name="Count_Process_One" xml:space="preserve">
+    <value>프로세스 {0}개</value>
+  </data>
+  <data name="Count_Process_Other" xml:space="preserve">
+    <value>프로세스 {0}개</value>
+  </data>
+  <data name="Diag_AppCpu_TotalNow" xml:space="preserve">
+    <value>현재 전체 CPU 사용률: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_LongTitle" xml:space="preserve">
+    <value>{0}이(가) 몇 분 동안 CPU를 많이 사용하고 있습니다</value>
+  </data>
+  <data name="Diag_AppCpu_LargeShareTitle" xml:space="preserve">
+    <value>{0}이(가) CPU의 큰 부분을 사용합니다</value>
+  </data>
+  <data name="Diag_AppCpu_Description" xml:space="preserve">
+    <value>{0}이(가) {2} 동안 전체 CPU 용량의 평균 {1}을(를) 사용했습니다.</value>
+  </data>
+  <data name="Diag_AppCpu_Explanation" xml:space="preserve">
+    <value>하나의 앱이 프로세서를 이렇게 바쁘게 만들면 다른 모든 작업에 남는 용량이 줄어듭니다. 정상적인 작업(빌드, 내보내기, 게임)을 하고 있을 수도 있고 멈춰 있을 수도 있습니다.</value>
+  </data>
+  <data name="Diag_AppCpu_Recommendation" xml:space="preserve">
+    <value>지금 {0}이(가) 필요하지 않으면 닫거나 작업이 끝날 때까지 기다리세요. 앱 영향에서 기록을 볼 수 있습니다.</value>
+  </data>
+  <data name="Diag_AppCpu_MainTitle" xml:space="preserve">
+    <value>{0}이(가) CPU를 가장 많이 사용합니다</value>
+  </data>
+  <data name="Diag_AppCpu_MainDescription" xml:space="preserve">
+    <value>현재 프로세서 부하의 {1}을(를) {0}이(가) 차지합니다({3} 중 {2}).</value>
+  </data>
+  <data name="Diag_AppCpu_TotalCpu" xml:space="preserve">
+    <value>전체 CPU {0}</value>
+  </data>
+  <data name="Diag_AppCpu_MainExplanation" xml:space="preserve">
+    <value>프로세서가 계속 바쁘다면 이 앱이 가장 가능성 높은 원인입니다.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneTitle" xml:space="preserve">
+    <value>CPU를 독차지하는 앱 없음</value>
+  </data>
+  <data name="Diag_AppCpu_NoneDescription" xml:space="preserve">
+    <value>CPU를 가장 많이 사용하는 앱은 {0}(전체 용량의 {1})입니다.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneExplanation" xml:space="preserve">
+    <value>프로세서를 계속 바쁘게 만드는 단일 앱은 없습니다.</value>
+  </data>
+  <data name="Diag_AppCpu_EvidenceName" xml:space="preserve">
+    <value>{0} CPU</value>
+  </data>
+  <data name="Diag_PerAppThreshold" xml:space="preserve">
+    <value>앱당 임계값 {0}</value>
+  </data>
+  <data name="Diag_Memory_State" xml:space="preserve">
+    <value>{1} 중 {0} 사용 중, {2} 사용 가능</value>
+  </data>
+  <data name="Diag_Memory_Physical" xml:space="preserve">
+    <value>물리적 메모리</value>
+  </data>
+  <data name="Diag_Memory_LargestApp" xml:space="preserve">
+    <value>가장 큰 앱</value>
+  </data>
+  <data name="Common_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Diag_Memory_FullTitle" xml:space="preserve">
+    <value>메모리가 거의 가득 참</value>
+  </data>
+  <data name="Diag_Memory_LowTitle" xml:space="preserve">
+    <value>사용 가능한 메모리 부족</value>
+  </data>
+  <data name="Diag_Memory_HighDescription" xml:space="preserve">
+    <value>메모리 사용률이 {1} 동안 {0}을(를) 넘었습니다({2} 사용 가능).</value>
+  </data>
+  <data name="Diag_Memory_HighExplanation" xml:space="preserve">
+    <value>메모리가 부족하면 Windows가 데이터를 디스크로 옮깁니다(페이징). 디스크는 메모리보다 훨씬 느리므로 앱이 일시 중지되거나 느리게 응답할 수 있습니다.</value>
+  </data>
+  <data name="Diag_Memory_CloseApps" xml:space="preserve">
+    <value>사용하지 않는 앱을 닫으세요.</value>
+  </data>
+  <data name="Diag_Memory_CloseAppsLargest" xml:space="preserve">
+    <value>사용하지 않는 앱을 닫으세요. 가장 큰 앱은 {0}({1})입니다.</value>
+  </data>
+  <data name="Diag_Memory_HighTitle" xml:space="preserve">
+    <value>메모리 사용률 높음</value>
+  </data>
+  <data name="Diag_Memory_JustReached" xml:space="preserve">
+    <value>메모리 사용률이 방금 {0}에 도달했습니다({1} 사용 가능).</value>
+  </data>
+  <data name="Diag_Memory_JustReachedExplanation" xml:space="preserve">
+    <value>이 상태가 계속되면 Windows가 데이터를 디스크로 옮기기 시작하여 앱이 느려집니다.</value>
+  </data>
+  <data name="Diag_Memory_EnoughTitle" xml:space="preserve">
+    <value>사용 가능한 메모리 충분</value>
+  </data>
+  <data name="Diag_Memory_EnoughDescription" xml:space="preserve">
+    <value>{0}({1}).</value>
+  </data>
+  <data name="Diag_Memory_EnoughExplanation" xml:space="preserve">
+    <value>Windows가 데이터를 디스크로 옮기지 않아도 앱이 작동할 공간이 있습니다.</value>
+  </data>
+  <data name="Diag_Commit_Title" xml:space="preserve">
+    <value>가상 메모리가 거의 소진됨</value>
+  </data>
+  <data name="Diag_Commit_Description" xml:space="preserve">
+    <value>Windows가 가상 메모리 한도(물리적 메모리 + 페이지 파일)의 {0}을(를) 커밋했습니다.</value>
+  </data>
+  <data name="Diag_Commit_Explanation" xml:space="preserve">
+    <value>커밋 크기가 한도에 도달하면 앱이 메모리를 얻지 못해 충돌하거나 응답하지 않을 수 있습니다.</value>
+  </data>
+  <data name="Diag_Commit_Recommendation" xml:space="preserve">
+    <value>메모리를 많이 사용하는 앱을 닫으세요. 자주 발생하면 Windows가 페이지 파일 크기를 자동으로 관리하도록 하세요.</value>
+  </data>
+  <data name="Diag_Growth_Trend" xml:space="preserve">
+    <value>메모리 사용률 추세</value>
+  </data>
+  <data name="Diag_Growth_TrendValue" xml:space="preserve">
+    <value>{1} 동안 +{0:0.#}%p(분당 {2:0.##}%p)</value>
+  </data>
+  <data name="Diag_Growth_TrendReference" xml:space="preserve">
+    <value>강건한 추세(Theil–Sen), 고립된 급증의 영향을 받지 않음</value>
+  </data>
+  <data name="Diag_Growth_AppMemory" xml:space="preserve">
+    <value>{0} 메모리</value>
+  </data>
+  <data name="Diag_Growth_AppGrowth" xml:space="preserve">
+    <value>같은 기간 +{0}</value>
+  </data>
+  <data name="Diag_Growth_Title" xml:space="preserve">
+    <value>메모리 사용률이 꾸준히 증가하고 있습니다</value>
+  </data>
+  <data name="Diag_Growth_Description" xml:space="preserve">
+    <value>메모리 사용률이 {1} 동안 {0:0}%p 증가했습니다.</value>
+  </data>
+  <data name="Diag_Growth_DescriptionApp" xml:space="preserve">
+    <value>같은 기간 {0}이(가) {1} 증가했습니다.</value>
+  </data>
+  <data name="Diag_Growth_Points" xml:space="preserve">
+    <value>+{0:0}%p</value>
+  </data>
+  <data name="Diag_Growth_Reference" xml:space="preserve">
+    <value>{1} 동안 +{0:0}%p부터 보고</value>
+  </data>
+  <data name="Diag_Growth_Explanation" xml:space="preserve">
+    <value>꾸준한 증가는 정상일 수도 있고(데이터를 불러오는 앱) 앱이 메모리를 해제하지 않는다는 신호일 수도 있습니다(누수). 이 측정만으로는 Sysora가 어느 쪽인지 알 수 없습니다.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationReplay" xml:space="preserve">
+    <value>다시 보기에서 메모리 사용률을 확인하고, 계속 증가하면 원인이 되는 앱을 다시 시작하세요.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationApp" xml:space="preserve">
+    <value>{0}이(가) 계속 커지면 다시 시작하여 메모리를 확보할 수 있습니다.</value>
+  </data>
+  <data name="Diag_Uptime_Reference" xml:space="preserve">
+    <value>절전 시간을 포함합니다. 빠른 시작을 사용하면 "시스템 종료"로는 초기화되지 않고 "다시 시작"으로만 초기화됩니다.</value>
+  </data>
+  <data name="Diag_Disk_Unnamed" xml:space="preserve">
+    <value>디스크</value>
+  </data>
+  <data name="Diag_Disk_Throughput" xml:space="preserve">
+    <value>읽기 {0}, 쓰기 {1}</value>
+  </data>
+  <data name="Diag_Disk_ActiveTimeOf" xml:space="preserve">
+    <value>디스크 {0} 활성 시간</value>
+  </data>
+  <data name="Diag_Disk_ThroughputAll" xml:space="preserve">
+    <value>처리량(모든 볼륨)</value>
+  </data>
+  <data name="Diag_Disk_MostIo" xml:space="preserve">
+    <value>I/O가 가장 많은 앱</value>
+  </data>
+  <data name="Diag_Disk_IoReference" xml:space="preserve">
+    <value>프로세스별 I/O에는 파일, 장치, 네트워크가 포함되며 디스크별로 나눌 수 없습니다.</value>
+  </data>
+  <data name="Diag_Disk_Explanation" xml:space="preserve">
+    <value>디스크가 거의 항상 바쁘면 파일을 읽거나 써야 하는 앱이 기다려야 합니다.</value>
+  </data>
+  <data name="Diag_Disk_ExplanationPaging" xml:space="preserve">
+    <value>메모리 사용률도 높습니다. 이 활동의 일부는 Windows가 메모리를 디스크로 페이징하는 것일 수 있습니다(가능성이며 확인되지 않음).</value>
+  </data>
+  <data name="Diag_Disk_SystemHeavyTitle" xml:space="preserve">
+    <value>시스템 디스크의 활동이 많음</value>
+  </data>
+  <data name="Diag_Disk_HeavyTitle" xml:space="preserve">
+    <value>디스크 {0}의 활동이 많음</value>
+  </data>
+  <data name="Diag_Disk_HeavyDescription" xml:space="preserve">
+    <value>디스크 {0}이(가) {2} 동안 {1}의 시간 동안 바빴습니다({3}).</value>
+  </data>
+  <data name="Diag_Disk_Recommendation" xml:space="preserve">
+    <value>업데이트, 바이러스 백신 검사, 파일 인덱싱이 일시적으로 이런 상황을 일으키는 경우가 많습니다. 앱 영향에서 가장 많이 읽고 쓰는 앱을 확인할 수 있습니다.</value>
+  </data>
+  <data name="Diag_Disk_RecommendationApp" xml:space="preserve">
+    <value>현재 {0}의 I/O가 가장 많습니다. 업데이트, 바이러스 백신 검사, 파일 인덱싱도 일시적으로 이런 상황을 일으킵니다.</value>
+  </data>
+  <data name="Diag_Disk_NormalTitle" xml:space="preserve">
+    <value>디스크 활동 정상</value>
+  </data>
+  <data name="Diag_Disk_NormalDescription" xml:space="preserve">
+    <value>가장 바쁜 디스크({0})는 최근 1분 동안 {1}의 시간 동안 활성 상태였습니다.</value>
+  </data>
+  <data name="Diag_Disk_NormalExplanation" xml:space="preserve">
+    <value>디스크에 여유 용량이 있습니다.</value>
+  </data>
+  <data name="Diag_Disk_BusiestLastMinute" xml:space="preserve">
+    <value>가장 바쁜 디스크의 활성 시간(최근 1분)</value>
+  </data>
+  <data name="Diag_Space_FreeOfUsed" xml:space="preserve">
+    <value>{1} 중 {0} 사용 가능({2} 사용됨)</value>
+  </data>
+  <data name="Diag_Space_Reference" xml:space="preserve">
+    <value>경고 {0}, 위험 {1} 또는 사용 가능 공간 {2} 미만</value>
+  </data>
+  <data name="Diag_Space_FullTitle" xml:space="preserve">
+    <value>시스템 디스크가 거의 가득 참</value>
+  </data>
+  <data name="Diag_Space_LowTitle" xml:space="preserve">
+    <value>시스템 디스크의 사용 가능한 공간 부족</value>
+  </data>
+  <data name="Diag_Space_EnoughTitle" xml:space="preserve">
+    <value>시스템 디스크의 사용 가능한 공간 충분</value>
+  </data>
+  <data name="Diag_Space_FreeOn" xml:space="preserve">
+    <value>{1}에 {0} 사용 가능({2} 사용됨).</value>
+  </data>
+  <data name="Diag_Space_EnoughExplanation" xml:space="preserve">
+    <value>Windows에 업데이트, 임시 파일, 페이지 파일을 위한 공간이 있습니다.</value>
+  </data>
+  <data name="Diag_Space_LowExplanation" xml:space="preserve">
+    <value>Windows에는 업데이트, 임시 파일, 페이지 파일을 위한 여유 공간이 필요합니다. 시스템 디스크가 거의 가득 차면 PC가 느려지고 업데이트가 실패할 수 있습니다.</value>
+  </data>
+  <data name="Diag_Space_Recommendation" xml:space="preserve">
+    <value>더 이상 필요하지 않은 파일을 제거하거나 Windows 설정 › 시스템 › 저장소 › 정리 권장 사항을 사용하세요.</value>
+  </data>
+  <data name="Diag_Space_VolumeFullTitle" xml:space="preserve">
+    <value>볼륨 {0} 사용률 {1}</value>
+  </data>
+  <data name="Diag_Space_VolumeExplanation" xml:space="preserve">
+    <value>시스템 디스크가 아니므로 Windows를 느리게 하지는 않지만, 이곳에 데이터를 저장하는 앱의 공간이 부족해질 수 있습니다.</value>
+  </data>
+  <data name="Diag_Space_FreeOf" xml:space="preserve">
+    <value>{1} 중 {0} 사용 가능</value>
+  </data>
+  <data name="Diag_Volume" xml:space="preserve">
+    <value>볼륨 {0}</value>
+  </data>
+  <data name="Diag_Warning" xml:space="preserve">
+    <value>경고 {0}</value>
+  </data>
+  <data name="Diag_Unusual_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Diag_Unusual_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Diag_Unusual_Disk" xml:space="preserve">
+    <value>디스크 활동</value>
+  </data>
+  <data name="Diag_Unusual_OverLast" xml:space="preserve">
+    <value>최근 {1} 동안의 {0}</value>
+  </data>
+  <data name="Diag_Unusual_Reference" xml:space="preserve">
+    <value>평소 {0}, 95%의 분이 {1} 미만</value>
+  </data>
+  <data name="Diag_Unusual_NormalTitle" xml:space="preserve">
+    <value>평소 범위 내의 활동</value>
+  </data>
+  <data name="Diag_Unusual_NormalDescription" xml:space="preserve">
+    <value>최근 {0} 동안의 활동이 이 PC의 평소 활동과 비슷합니다.</value>
+  </data>
+  <data name="Diag_Unusual_Usual" xml:space="preserve">
+    <value>평소</value>
+  </data>
+  <data name="Diag_Unusual_NormalExplanation" xml:space="preserve">
+    <value>최근 7일의 분당 평균과 비교했습니다.</value>
+  </data>
+  <data name="Diag_Unusual_Part" xml:space="preserve">
+    <value>{0} {1}(평소 {2})</value>
+  </data>
+  <data name="Diag_Unusual_Title" xml:space="preserve">
+    <value>최근 사용량과 비교해 활동이 평소와 다름</value>
+  </data>
+  <data name="Diag_Unusual_Description" xml:space="preserve">
+    <value>최근 {0} 동안: {1}.</value>
+  </data>
+  <data name="Diag_Unusual_Usually" xml:space="preserve">
+    <value>평소 {0}</value>
+  </data>
+  <data name="Diag_Unusual_Explanation" xml:space="preserve">
+    <value>이 값은 최근 7일 동안 이 PC가 95%의 분에서 보인 수준보다 높습니다. 평소와 다른 무언가가 실행 중입니다.</value>
+  </data>
+  <data name="Diag_Unusual_Recommendation" xml:space="preserve">
+    <value>다시 보기로 언제 시작되었는지, 앱 영향으로 어떤 앱이 관련되어 있는지 확인하세요.</value>
+  </data>
+  <data name="Diag_Gpu_FullTitle" xml:space="preserve">
+    <value>GPU가 완전히 사용 중</value>
+  </data>
+  <data name="Diag_Gpu_FullDescription" xml:space="preserve">
+    <value>가장 바쁜 그래픽 엔진이 {1} 동안 {0}을(를) 넘었습니다.</value>
+  </data>
+  <data name="Diag_Gpu_FullExplanation" xml:space="preserve">
+    <value>게임, 렌더링, 고해상도 동영상 재생 중에는 예상되는 상황입니다. 그렇지 않다면 어떤 앱이 GPU를 많이 사용하고 있어 화면이 느리게 느껴질 수 있습니다.</value>
+  </data>
+  <data name="Diag_Gpu_NormalTitle" xml:space="preserve">
+    <value>GPU 사용률 정상</value>
+  </data>
+  <data name="Diag_Gpu_NormalDescription" xml:space="preserve">
+    <value>GPU의 최근 1분 평균은 {0}입니다.</value>
+  </data>
+  <data name="Diag_Gpu_NormalExplanation" xml:space="preserve">
+    <value>그래픽 프로세서에 여유 용량이 있습니다.</value>
+  </data>
+  <data name="Diag_Gpu_LastMinute" xml:space="preserve">
+    <value>GPU 사용률(최근 1분)</value>
+  </data>
+  <data name="Diag_Net_InternetTitle" xml:space="preserve">
+    <value>인터넷 액세스 가능</value>
+  </data>
+  <data name="Diag_Net_InternetDescription" xml:space="preserve">
+    <value>Windows에서 인터넷 연결이 정상이라고 보고합니다.</value>
+  </data>
+  <data name="Diag_Net_LimitedTitle" xml:space="preserve">
+    <value>제한된 인터넷 액세스</value>
+  </data>
+  <data name="Diag_Net_LimitedDescription" xml:space="preserve">
+    <value>Windows에서 인터넷 액세스가 제한되었다고 보고합니다(예: 로그인 페이지).</value>
+  </data>
+  <data name="Diag_Net_LocalTitle" xml:space="preserve">
+    <value>인터넷 액세스 없음</value>
+  </data>
+  <data name="Diag_Net_LocalDescription" xml:space="preserve">
+    <value>Windows에서 인터넷 액세스 없이 로컬 네트워크에만 연결되었다고 보고합니다.</value>
+  </data>
+  <data name="Diag_Net_NoneTitle" xml:space="preserve">
+    <value>네트워크 연결 없음</value>
+  </data>
+  <data name="Diag_Net_NoneDescription" xml:space="preserve">
+    <value>Windows에서 네트워크 연결이 없다고 보고합니다.</value>
+  </data>
+  <data name="Diag_Net_OkExplanation" xml:space="preserve">
+    <value>웹 페이지와 온라인 앱이 인터넷에 연결할 수 있습니다.</value>
+  </data>
+  <data name="Diag_Net_ProblemExplanation" xml:space="preserve">
+    <value>웹 페이지와 온라인 앱이 느리거나 작동하지 않습니다. PC의 성능 문제가 아니라 연결 문제입니다.</value>
+  </data>
+  <data name="Diag_Net_Recommendation" xml:space="preserve">
+    <value>Wi-Fi 또는 케이블 연결이나 공유기를 확인하세요.</value>
+  </data>
+  <data name="Connectivity_Internet" xml:space="preserve">
+    <value>인터넷 액세스</value>
+  </data>
+  <data name="Connectivity_Constrained" xml:space="preserve">
+    <value>제한된 인터넷 액세스</value>
+  </data>
+  <data name="Connectivity_Local" xml:space="preserve">
+    <value>로컬 네트워크만</value>
+  </data>
+  <data name="Connectivity_None" xml:space="preserve">
+    <value>연결 없음</value>
+  </data>
+  <data name="Connectivity_Unknown" xml:space="preserve">
+    <value>알 수 없음</value>
+  </data>
+  <data name="Diag_Uptime_Since" xml:space="preserve">
+    <value>Windows 시작 후 경과 시간</value>
+  </data>
+  <data name="Diag_Uptime_LongTitle" xml:space="preserve">
+    <value>Windows가 {0}일 동안 다시 시작되지 않았습니다</value>
+  </data>
+  <data name="Diag_Uptime_RecentTitle" xml:space="preserve">
+    <value>최근에 다시 시작됨</value>
+  </data>
+  <data name="Diag_Uptime_Description" xml:space="preserve">
+    <value>Windows가 {0} 전에 시작되었습니다.</value>
+  </data>
+  <data name="Diag_Uptime_Reference2" xml:space="preserve">
+    <value>{0:0}일부터 권장</value>
+  </data>
+  <data name="Diag_Uptime_LongExplanation" xml:space="preserve">
+    <value>일부 문제는 시간이 지나면서 쌓입니다(드라이버, 점점 더 많은 메모리를 사용하는 앱). 다시 시작하면 이를 정리하고 보류 중인 업데이트를 적용합니다. 측정된 원인이 아닌 일반적인 제안입니다.</value>
+  </data>
+  <data name="Diag_Uptime_RecentExplanation" xml:space="preserve">
+    <value>오래 실행된 세션에 대해 걱정할 필요가 없습니다.</value>
+  </data>
+  <data name="Diag_Uptime_Recommendation" xml:space="preserve">
+    <value>편할 때 Windows를 다시 시작하세요("시스템 종료"가 아닌 "다시 시작" 사용).</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_One" xml:space="preserve">
+    <value>문제가 감지되지 않음 · 주의할 항목 {0}개</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_Other" xml:space="preserve">
+    <value>문제가 감지되지 않음 · 주의할 항목 {0}개</value>
+  </data>
+  <data name="Diag_Headline_NoProblem" xml:space="preserve">
+    <value>문제가 감지되지 않음</value>
+  </data>
+  <data name="Diag_Headline_Problems_One" xml:space="preserve">
+    <value>문제 {0}개 감지됨</value>
+  </data>
+  <data name="Diag_Headline_Problems_Other" xml:space="preserve">
+    <value>문제 {0}개 감지됨</value>
+  </data>
+  <data name="Diag_Summary_MostLikely" xml:space="preserve">
+    <value>가장 가능성 높은 원인: {0}</value>
+  </data>
+  <data name="Diag_Summary_Also" xml:space="preserve">
+    <value>또한: {0}.</value>
+  </data>
+  <data name="Diag_Summary_WorthKnowing" xml:space="preserve">
+    <value>현재 포화 상태인 항목은 없습니다. 알아 두면 좋은 점: {0}</value>
+  </data>
+  <data name="Diag_Summary_Nothing" xml:space="preserve">
+    <value>현재 포화 상태인 항목은 없습니다. 프로세서, 메모리, 디스크 모두 여유 용량이 있습니다. 조금 전에 PC가 느리게 느껴졌다면 다시 보기에서 최근 몇 분 동안 일어난 일을 확인할 수 있습니다.</value>
+  </data>
+  <data name="Diag_Missing_Gpu" xml:space="preserve">
+    <value>GPU 사용률: 이 PC에서 사용할 수 없음</value>
+  </data>
+  <data name="Diag_Missing_GpuOff" xml:space="preserve">
+    <value>GPU 사용률: 설정에서 모니터링이 꺼져 있음</value>
+  </data>
+  <data name="Diag_Missing_Disk" xml:space="preserve">
+    <value>디스크 활동: 이 PC에서 사용할 수 없음</value>
+  </data>
+  <data name="Diag_Missing_Network" xml:space="preserve">
+    <value>네트워크: 이 PC에서 사용할 수 없음</value>
+  </data>
+  <data name="Diag_Missing_NetworkOff" xml:space="preserve">
+    <value>네트워크: 설정에서 모니터링이 꺼져 있음</value>
+  </data>
+  <data name="Diag_Missing_Temperature" xml:space="preserve">
+    <value>CPU 온도: 사용할 수 없음(Windows에는 커널 드라이버 없이 이를 읽는 문서화된 방법이 없음)</value>
+  </data>
+  <data name="Diag_Missing_AppNetwork" xml:space="preserve">
+    <value>앱별 네트워크 사용량: 사용할 수 없음(관리자 수준의 이벤트 추적 필요)</value>
+  </data>
+  <data name="Diag_Analyzing" xml:space="preserve">
+    <value>분석 중…</value>
+  </data>
+  <data name="Diag_AnalyzingSummary" xml:space="preserve">
+    <value>Sysora가 PC를 진단하려면 몇 초 동안의 측정이 필요합니다.</value>
+  </data>
+  <data name="Alert_UsualLevel" xml:space="preserve">
+    <value>평소 수준 {0}</value>
+  </data>
+  <data name="Alert_AveragePeak" xml:space="preserve">
+    <value>평균 {0}(최고 {1})</value>
+  </data>
+  <data name="Alert_OnAverage" xml:space="preserve">
+    <value>평균 {0}</value>
+  </data>
+  <data name="Alert_TopApp" xml:space="preserve">
+    <value>상위 앱: {0}({1})</value>
+  </data>
+  <data name="Alert_Cpu_UnusualTitle" xml:space="preserve">
+    <value>CPU 사용률이 평소보다 높음</value>
+  </data>
+  <data name="Alert_Cpu_UsualTitle" xml:space="preserve">
+    <value>CPU 사용률 높음(이 PC에서는 평소 수준)</value>
+  </data>
+  <data name="Alert_Cpu_SustainedTitle" xml:space="preserve">
+    <value>CPU 사용률이 계속 높음</value>
+  </data>
+  <data name="Alert_UsualNotKnown" xml:space="preserve">
+    <value>평소 수준을 아직 알 수 없음</value>
+  </data>
+  <data name="Alert_Cpu_UnusualExplanation" xml:space="preserve">
+    <value>CPU가 {1} 동안 {0}을(를) 넘었으며, 이 PC의 평소 수준 {2}보다 훨씬 높습니다.</value>
+  </data>
+  <data name="Alert_Cpu_UsualExplanation" xml:space="preserve">
+    <value>CPU가 {1} 동안 {0}을(를) 넘었습니다. 이 PC에서는 흔한 수준이므로 참고용으로 보고합니다.</value>
+  </data>
+  <data name="Alert_Cpu_SustainedExplanation" xml:space="preserve">
+    <value>CPU가 {1} 동안 {0}을(를) 넘었습니다. 짧은 급증은 무시되지만 이번에는 오래 지속되었습니다.</value>
+  </data>
+  <data name="Alert_Cpu_Recommendation" xml:space="preserve">
+    <value>앱 영향에서 프로세서를 사용하는 앱을 확인하세요.</value>
+  </data>
+  <data name="Alert_Memory_Title" xml:space="preserve">
+    <value>메모리가 거의 가득 참</value>
+  </data>
+  <data name="Alert_LargestApp" xml:space="preserve">
+    <value>가장 큰 앱: {0}({1})</value>
+  </data>
+  <data name="Alert_Memory_Explanation" xml:space="preserve">
+    <value>메모리 사용률이 {1} 동안 {0}을(를) 넘었습니다. 이 경우 Windows가 데이터를 디스크로 옮겨 앱이 느려집니다.</value>
+  </data>
+  <data name="Alert_Growth_Title" xml:space="preserve">
+    <value>메모리 사용률이 꾸준히 증가함</value>
+  </data>
+  <data name="Alert_Growth_Value" xml:space="preserve">
+    <value>+{0:0}%p({1} → {2})</value>
+  </data>
+  <data name="Alert_Growth_NoApp" xml:space="preserve">
+    <value>특별히 눈에 띄는 단일 앱 없음</value>
+  </data>
+  <data name="Alert_Growth_AppGrew" xml:space="preserve">
+    <value>{0}이(가) {1} 증가함</value>
+  </data>
+  <data name="Alert_Growth_Explanation" xml:space="preserve">
+    <value>메모리 사용률이 {0} 동안 증가하고 있습니다. 정상일 수도 있고(데이터 로드 중) 앱이 메모리를 해제하지 않는 것일 수도 있습니다.</value>
+  </data>
+  <data name="Alert_Growth_Recommendation" xml:space="preserve">
+    <value>{0}이(가) 계속 커지면 다시 시작하여 메모리를 확보할 수 있습니다.</value>
+  </data>
+  <data name="Alert_Growth_TrendValue" xml:space="preserve">
+    <value>{1} 동안 +{0:0.#}%p</value>
+  </data>
+  <data name="Alert_AppCpu_Title" xml:space="preserve">
+    <value>{0}이(가) {1} 동안 CPU를 많이 사용함</value>
+  </data>
+  <data name="Alert_AppCpu_Value" xml:space="preserve">
+    <value>전체 CPU의 평균 {0}(최고 {1})</value>
+  </data>
+  <data name="Alert_AppCpu_TotalNow" xml:space="preserve">
+    <value>현재 전체 CPU {0}</value>
+  </data>
+  <data name="Alert_AppCpu_Explanation" xml:space="preserve">
+    <value>{0}이(가) {2} 동안 전체 CPU 용량의 {1}을(를) 넘었습니다. 정상적으로 작업 중(빌드, 내보내기)이거나 멈춰 있을 수 있습니다.</value>
+  </data>
+  <data name="Alert_AppCpu_Recommendation" xml:space="preserve">
+    <value>지금 {0}이(가) 필요하지 않으면 닫거나 작업이 끝날 때까지 기다리세요.</value>
+  </data>
+  <data name="Alert_Disk_Title" xml:space="preserve">
+    <value>디스크 {0}이(가) {1} 동안 바쁨</value>
+  </data>
+  <data name="Alert_Disk_TitleUnnamed" xml:space="preserve">
+    <value>디스크가 {0} 동안 바쁨</value>
+  </data>
+  <data name="Alert_Disk_ReadWrite" xml:space="preserve">
+    <value>읽기 {0}, 쓰기 {1}</value>
+  </data>
+  <data name="Alert_Disk_MostIo" xml:space="preserve">
+    <value>I/O가 가장 많은 앱: {0}</value>
+  </data>
+  <data name="Alert_Disk_Explanation" xml:space="preserve">
+    <value>디스크가 {1} 동안 {0} 이상의 시간 동안 활성 상태였습니다. 파일을 읽거나 쓰는 앱이 기다려야 합니다.</value>
+  </data>
+  <data name="Alert_Disk_Recommendation" xml:space="preserve">
+    <value>업데이트, 바이러스 백신 검사, 인덱싱이 일시적으로 이런 상황을 일으키는 경우가 많습니다.</value>
+  </data>
+  <data name="Alert_Unusual_Disk" xml:space="preserve">
+    <value>디스크 활동</value>
+  </data>
+  <data name="Alert_Unusual_Title" xml:space="preserve">
+    <value>{0}이(가) 평소보다 높음</value>
+  </data>
+  <data name="Alert_Unusual_Context" xml:space="preserve">
+    <value>평소 수준 {0}(중앙값 {1})</value>
+  </data>
+  <data name="Alert_Unusual_Explanation" xml:space="preserve">
+    <value>{0}이(가) {1} 동안 최근 기준선보다 높게 유지되었습니다.</value>
+  </data>
+  <data name="Alert_Unusual_Recommendation" xml:space="preserve">
+    <value>다시 보기로 언제 시작되었는지 확인하세요.</value>
+  </data>
+  <data name="Alert_Baseline" xml:space="preserve">
+    <value>기준선</value>
+  </data>
+  <data name="Alert_Space_Title" xml:space="preserve">
+    <value>{0}의 사용 가능한 공간 부족</value>
+  </data>
+  <data name="Alert_Space_Metric" xml:space="preserve">
+    <value>사용 가능한 공간</value>
+  </data>
+  <data name="Alert_Space_Value" xml:space="preserve">
+    <value>{0} 사용 가능({1})</value>
+  </data>
+  <data name="Alert_Space_Context" xml:space="preserve">
+    <value>{0} 볼륨</value>
+  </data>
+  <data name="Alert_Space_Explanation" xml:space="preserve">
+    <value>Windows에는 업데이트, 임시 파일, 페이지 파일을 위해 시스템 디스크에 여유 공간이 필요합니다.</value>
+  </data>
+  <data name="Alert_Space_Recommendation" xml:space="preserve">
+    <value>더 이상 필요하지 않은 파일을 제거하거나 Windows 설정 › 시스템 › 저장소를 사용하세요.</value>
+  </data>
+  <data name="Alert_Space_Reference" xml:space="preserve">
+    <value>사용 가능 공간이 {0} 미만이면 경고</value>
+  </data>
+  <data name="Alert_ResolvedEvent" xml:space="preserve">
+    <value>해결됨: {0}</value>
+  </data>
+  <data name="Source_Cpu" xml:space="preserve">
+    <value>Windows 성능 카운터 \Processor Information(_Total)\% Processor Utility</value>
+  </data>
+  <data name="Source_Disk" xml:space="preserve">
+    <value>Windows 성능 카운터 \LogicalDisk(*)\% Idle Time(활성 시간 = 100 − 유휴)</value>
+  </data>
+  <data name="Source_Gpu" xml:space="preserve">
+    <value>Windows 성능 카운터 \GPU Engine(*)\Utilization Percentage</value>
+  </data>
+  <data name="Format_PercentRange" xml:space="preserve">
+    <value>{0:0}–{1:0}%</value>
+  </data>
+  <data name="Source_Memory" xml:space="preserve">
+    <value>GlobalMemoryStatusEx(사용 중인 물리적 메모리)</value>
+  </data>
+  <data name="Source_Commit" xml:space="preserve">
+    <value>GetPerformanceInfo(커밋 크기 및 한도)</value>
+  </data>
+  <data name="Source_Network" xml:space="preserve">
+    <value>IP 도우미 인터페이스 통계(기본 게이트웨이가 있는 인터페이스)</value>
+  </data>
+  <data name="Source_Processes" xml:space="preserve">
+    <value>NtQuerySystemInformation(프로세스별 CPU 시간, 개인 작업 집합, I/O 카운터)</value>
+  </data>
+  <data name="Source_ProcessIo" xml:space="preserve">
+    <value>프로세스별 I/O 카운터(파일, 장치, 네트워크 합계)</value>
+  </data>
+  <data name="Source_Storage" xml:space="preserve">
+    <value>GetDiskFreeSpaceEx(볼륨 용량)</value>
+  </data>
+  <data name="Source_Uptime" xml:space="preserve">
+    <value>GetTickCount64(Windows 시작 후 경과 시간, 절전 포함)</value>
+  </data>
+  <data name="Source_Connectivity" xml:space="preserve">
+    <value>Windows 네트워크 연결 상태 표시기</value>
+  </data>
+  <data name="Source_Sysora" xml:space="preserve">
+    <value>Sysora 측정</value>
+  </data>
+  <data name="Confidence_High_Lower" xml:space="preserve">
+    <value>높음</value>
+  </data>
+  <data name="Confidence_Medium_Lower" xml:space="preserve">
+    <value>보통</value>
+  </data>
+  <data name="Confidence_Low_Lower" xml:space="preserve">
+    <value>낮음</value>
+  </data>
+  <data name="Confidence_High" xml:space="preserve">
+    <value>높은 신뢰도</value>
+  </data>
+  <data name="Confidence_Medium" xml:space="preserve">
+    <value>보통 신뢰도</value>
+  </data>
+  <data name="Confidence_Low" xml:space="preserve">
+    <value>낮은 신뢰도</value>
+  </data>
+  <data name="Basis_Observed" xml:space="preserve">
+    <value>관찰됨</value>
+  </data>
+  <data name="Basis_InferredConfidence" xml:space="preserve">
+    <value>추론됨 · 신뢰도 {0}</value>
+  </data>
+  <data name="Basis_Inferred" xml:space="preserve">
+    <value>추론됨</value>
+  </data>
+  <data name="Basis_Unknown" xml:space="preserve">
+    <value>알 수 없음</value>
+  </data>
+  <data name="Identity_ByPath" xml:space="preserve">
+    <value>실행 파일 경로로 식별했습니다.</value>
+  </data>
+  <data name="Identity_ByName" xml:space="preserve">
+    <value>프로세스 이름으로만 식별했습니다. Windows에서 실행 파일 경로에 대한 액세스를 허용하지 않습니다.</value>
+  </data>
+  <data name="Impact_Resource_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Resource_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Impact_Resource_Io" xml:space="preserve">
+    <value>디스크 I/O</value>
+  </data>
+  <data name="Impact_Resource_Running" xml:space="preserve">
+    <value>실행 시간</value>
+  </data>
+  <data name="Impact_Level_VeryHigh" xml:space="preserve">
+    <value>매우 높음</value>
+  </data>
+  <data name="Impact_Level_High" xml:space="preserve">
+    <value>높음</value>
+  </data>
+  <data name="Impact_Level_Moderate" xml:space="preserve">
+    <value>보통</value>
+  </data>
+  <data name="Impact_Level_Low" xml:space="preserve">
+    <value>낮음</value>
+  </data>
+  <data name="Impact_Formula" xml:space="preserve">
+    <value>점수 = CPU 45% + 메모리 40% + 디스크 I/O 15%. 각 부분은 분석 기간 동안의 앱 평균 부하(실행 중 사용량 × 실행 시간 비율)를 기준 수준과 비교한 값입니다. 기준: 전체 CPU의 15%, 물리적 메모리의 25%, I/O 5MB/s. 수준: 10 미만 낮음, 25 미만 보통, 50 미만 높음, 50 이상 매우 높음.</value>
+  </data>
+  <data name="Impact_Note_Waiting" xml:space="preserve">
+    <value>첫 번째 프로세스 측정을 기다리는 중입니다.</value>
+  </data>
+  <data name="Impact_Note_Session" xml:space="preserve">
+    <value>Sysora가 시작된 후 확인된 모든 앱을 몇 초마다 측정합니다.</value>
+  </data>
+  <data name="Impact_Note_NoHistory" xml:space="preserve">
+    <value>이 기간에 기록된 앱 기록이 아직 없습니다. Sysora가 실행되는 동안 5분마다 기록이 저장됩니다.</value>
+  </data>
+  <data name="Impact_Note_History" xml:space="preserve">
+    <value>로컬 기록 기준: 각 5분 기간에서 가장 중요한 앱(그보다 낮은 앱은 기록되지 않음). 최근 몇 분은 해당 5분 기간이 끝나면 표시됩니다.</value>
+  </data>
+  <data name="Replay_Source_Memory" xml:space="preserve">
+    <value>메모리에 보관된 상세 측정(CPU 샘플당 1개).</value>
+  </data>
+  <data name="Replay_Source_History" xml:space="preserve">
+    <value>로컬 기록의 분당 평균.</value>
+  </data>
+  <data name="Baseline_Ready" xml:space="preserve">
+    <value>{0}의 기록으로 평소 동작을 학습했습니다</value>
+  </data>
+  <data name="Baseline_Collecting" xml:space="preserve">
+    <value>기준선 데이터를 수집하는 중…(Sysora가 평소 활동과 비교하려면 {1}이(가) 필요하며 현재 {0} 기록됨)</value>
+  </data>
+  <data name="Impact_Ev_CpuReference" xml:space="preserve">
+    <value>"매우 높음"의 기준: 기간 동안 전체 CPU의 평균 {0}</value>
+  </data>
+  <data name="Impact_Ev_MemoryReference" xml:space="preserve">
+    <value>"매우 높음"의 기준: 기간 동안 {1} 중 평균 {0}</value>
+  </data>
+  <data name="Impact_Ev_IoReference" xml:space="preserve">
+    <value>"매우 높음"의 기준: 기간 동안 평균 {0}</value>
+  </data>
+  <data name="Impact_Cpu_Description" xml:space="preserve">
+    <value>기간 동안 전체 CPU 용량의 평균 {0}(실행 중 {1})</value>
+  </data>
+  <data name="Impact_Memory_Description" xml:space="preserve">
+    <value>기간 동안 물리적 메모리의 평균 {0}(실행 중 {1})</value>
+  </data>
+  <data name="Impact_Memory_Unknown" xml:space="preserve">
+    <value>물리적 메모리 크기를 알 수 없음: 메모리는 점수에 반영되지 않음</value>
+  </data>
+  <data name="Impact_Io_Description" xml:space="preserve">
+    <value>기간 동안 평균 {0}(파일, 장치, 네트워크 합계)</value>
+  </data>
+  <data name="Impact_Running_Description" xml:space="preserve">
+    <value>모니터링 시간의 {0} 동안 실행됨</value>
+  </data>
+  <data name="Impact_When_Most" xml:space="preserve">
+    <value>모니터링 시간 대부분 동안</value>
+  </data>
+  <data name="Impact_When_Large" xml:space="preserve">
+    <value>모니터링 시간의 상당 부분 동안</value>
+  </data>
+  <data name="Impact_When_Part" xml:space="preserve">
+    <value>모니터링 시간 일부 동안</value>
+  </data>
+  <data name="Impact_When_Briefly" xml:space="preserve">
+    <value>잠깐</value>
+  </data>
+  <data name="Impact_RunningOfMeasured" xml:space="preserve">
+    <value>측정된 {1} 중 {0} 실행</value>
+  </data>
+  <data name="Impact_Explain_Low" xml:space="preserve">
+    <value>기간 동안 리소스 사용량이 적습니다({0}).</value>
+  </data>
+  <data name="Impact_Explain_Peaks" xml:space="preserve">
+    <value>최대 {0}의 짧은 CPU 급증이 관찰되었습니다.</value>
+  </data>
+  <data name="Impact_Explain_Used" xml:space="preserve">
+    <value>이 앱은 {1} {0}을(를) 사용했습니다({2}).</value>
+  </data>
+  <data name="Impact_Amount_VeryHigh" xml:space="preserve">
+    <value>매우 많은 {0}</value>
+  </data>
+  <data name="Impact_Amount_High" xml:space="preserve">
+    <value>많은 {0}</value>
+  </data>
+  <data name="Impact_Amount_Moderate" xml:space="preserve">
+    <value>적당한 양의 {0}</value>
+  </data>
+  <data name="Impact_Noun_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Noun_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Impact_Noun_Io" xml:space="preserve">
+    <value>디스크 I/O</value>
+  </data>
+  <data name="Impact_Ev_RunningTime" xml:space="preserve">
+    <value>실행 시간</value>
+  </data>
+  <data name="Impact_Ev_RunningValue" xml:space="preserve">
+    <value>측정된 {1} 중 {0}</value>
+  </data>
+  <data name="Impact_Ev_RunningSource" xml:space="preserve">
+    <value>Sysora 프로세스 샘플(절전 등의 공백 제외)</value>
+  </data>
+  <data name="Impact_Ev_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Ev_CpuValue" xml:space="preserve">
+    <value>실행 중 전체 CPU의 평균 {0}, 최고 {1}</value>
+  </data>
+  <data name="Impact_Ev_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Impact_Ev_MemoryValue" xml:space="preserve">
+    <value>실행 중 개인 작업 집합 평균 {0}, 최고 {1}</value>
+  </data>
+  <data name="Impact_Ev_Io" xml:space="preserve">
+    <value>디스크 I/O</value>
+  </data>
+  <data name="Impact_Ev_IoValue" xml:space="preserve">
+    <value>실행 중 평균 {0}, 최고 {1}</value>
+  </data>
+  <data name="Impact_Ev_Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="Impact_Ev_NetworkReference" xml:space="preserve">
+    <value>Windows는 이벤트 추적 없이 앱별 네트워크 사용량을 보고하지 않습니다. 네트워크 I/O는 디스크 I/O에 포함됩니다.</value>
+  </data>
+  <data name="Impact_Ev_Launches" xml:space="preserve">
+    <value>실행 횟수</value>
+  </data>
+  <data name="Impact_Ev_Launches_One" xml:space="preserve">
+    <value>프로세스 시작 {0}회 관찰됨</value>
+  </data>
+  <data name="Impact_Ev_Launches_Other" xml:space="preserve">
+    <value>프로세스 시작 {0}회 관찰됨</value>
+  </data>
+  <data name="Impact_Ev_NoLaunch" xml:space="preserve">
+    <value>관찰된 프로세스 시작 없음(이미 실행 중이거나 다시 시작되지 않음)</value>
+  </data>
+  <data name="Impact_Ev_Identification" xml:space="preserve">
+    <value>식별</value>
+  </data>
+  <data name="Impact_Ev_ImageNameOnly" xml:space="preserve">
+    <value>이미지 이름만</value>
+  </data>
+  <data name="Impact_Ev_Score" xml:space="preserve">
+    <value>점수</value>
+  </data>
+  <data name="Impact_Ev_ScoreValue" xml:space="preserve">
+    <value>{0}/100({1})</value>
+  </data>
+  <data name="Insight_Game_JustStarted" xml:space="preserve">
+    <value>방금 시작됨</value>
+  </data>
+  <data name="Insight_Game_For" xml:space="preserve">
+    <value>{0} 동안</value>
+  </data>
+  <data name="Insight_Game_Running" xml:space="preserve">
+    <value>게임 실행 중: {0}({1}). 게임이 종료되면 요약이 표시됩니다.</value>
+  </data>
+  <data name="Insight_LastGame" xml:space="preserve">
+    <value>마지막 게임: {0}({1}) · {2}</value>
+  </data>
+  <data name="Insight_ActiveAlertMore" xml:space="preserve">
+    <value>활성 경고: {0}(외 {1}개)</value>
+  </data>
+  <data name="Insight_ActiveAlert" xml:space="preserve">
+    <value>활성 경고: {0}</value>
+  </data>
+  <data name="Insight_Recurring" xml:space="preserve">
+    <value>반복: {0}</value>
+  </data>
+  <data name="Insight_Health" xml:space="preserve">
+    <value>PC 상태가 {0}/100이며, 주로 {1} 때문에 낮아졌습니다: {2}</value>
+  </data>
+  <data name="Insight_AnalyzingFirst" xml:space="preserve">
+    <value>첫 번째 측정을 분석하는 중…</value>
+  </data>
+  <data name="Insight_NoIssue" xml:space="preserve">
+    <value>중요한 문제가 감지되지 않음</value>
+  </data>
+  <data name="Insight_MemoryAbove" xml:space="preserve">
+    <value>메모리 사용률이 평소 수준보다 {0:0}%p 높습니다(현재 {1}, 평소 {2})</value>
+  </data>
+  <data name="Insight_MemoryBelow" xml:space="preserve">
+    <value>메모리 사용률이 평소 수준보다 {0:0}%p 낮습니다(현재 {1}, 평소 {2})</value>
+  </data>
+  <data name="Insight_CpuAbove" xml:space="preserve">
+    <value>CPU 사용률이 평소 수준보다 {0:0}%p 높습니다(현재 {1}, 평소 {2})</value>
+  </data>
+  <data name="Insight_CpuBelow" xml:space="preserve">
+    <value>CPU 사용률이 평소 수준보다 {0:0}%p 낮습니다(현재 {1}, 평소 {2})</value>
+  </data>
+  <data name="Insight_Recovered" xml:space="preserve">
+    <value>PC가 마지막 문제({0}) 이후 회복되었습니다. 문제는 {1}에 끝났으며 다시 발생하지 않았습니다.</value>
+  </data>
+  <data name="Insight_Kind_HighCpu" xml:space="preserve">
+    <value>높은 CPU</value>
+  </data>
+  <data name="Insight_Kind_HighMemory" xml:space="preserve">
+    <value>높은 메모리</value>
+  </data>
+  <data name="Insight_Kind_RisingMemory" xml:space="preserve">
+    <value>메모리 증가</value>
+  </data>
+  <data name="Insight_Kind_BusyDisk" xml:space="preserve">
+    <value>디스크 사용 중</value>
+  </data>
+  <data name="Insight_Kind_LowSpace" xml:space="preserve">
+    <value>디스크 공간 부족</value>
+  </data>
+  <data name="Insight_Kind_Unusual" xml:space="preserve">
+    <value>평소와 다른 활동</value>
+  </data>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>지난 24시간 동안 "{1}" 경고 {0}개(최근: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>지난 24시간 동안 "{1}" 경고 {0}개(최근: {2}).</value>
+  </data>
+  <data name="Insight_WithinUsual" xml:space="preserve">
+    <value>CPU와 메모리 사용률이 이 PC의 평소 범위 내에 있습니다.</value>
+  </data>
+  <data name="Insight_LargestConsumer" xml:space="preserve">
+    <value>{0}이(가) 현재 리소스를 가장 많이 사용합니다(CPU {1}, {2})</value>
+  </data>
+  <data name="Recurring_NotAnalyzed" xml:space="preserve">
+    <value>아직 분석되지 않았습니다.</value>
+  </data>
+  <data name="Recurring_NoHistoryYet" xml:space="preserve">
+    <value>아직 기록 없음</value>
+  </data>
+  <data name="Recurring_OfHistory" xml:space="preserve">
+    <value>{0}의 기록</value>
+  </data>
+  <data name="Recurring_NotEnough" xml:space="preserve">
+    <value>기록 데이터가 부족합니다({0}, 반복 문제를 찾으려면 최소 {1} 필요).</value>
+  </data>
+  <data name="Recurring_None" xml:space="preserve">
+    <value>최근 {0}일 동안 반복된 문제가 없습니다.</value>
+  </data>
+  <data name="Recurring_One" xml:space="preserve">
+    <value>반복 문제 1개: {0}</value>
+  </data>
+  <data name="Recurring_Many" xml:space="preserve">
+    <value>반복 문제 {0}개. 가장 잦은 문제: {1}</value>
+  </data>
+  <data name="Recurring_HighCpu" xml:space="preserve">
+    <value>높은 CPU 사용률</value>
+  </data>
+  <data name="Recurring_HighMemory" xml:space="preserve">
+    <value>높은 메모리 사용률</value>
+  </data>
+  <data name="Recurring_MemoryRising" xml:space="preserve">
+    <value>메모리 사용률 증가</value>
+  </data>
+  <data name="Recurring_DiskBusy" xml:space="preserve">
+    <value>디스크 사용 중</value>
+  </data>
+  <data name="Recurring_AppCpu" xml:space="preserve">
+    <value>{0}의 CPU 사용량이 많음</value>
+  </data>
+  <data name="Recurring_Connectivity" xml:space="preserve">
+    <value>인터넷 액세스 끊김 또는 제한</value>
+  </data>
+  <data name="Recurring_Occurrences" xml:space="preserve">
+    <value>발생 횟수</value>
+  </data>
+  <data name="Recurring_OccurrencesText" xml:space="preserve">
+    <value>{1} 동안 {0}, {2}부터 {3}까지</value>
+  </data>
+  <data name="Count_Episode_One" xml:space="preserve">
+    <value>{0}회</value>
+  </data>
+  <data name="Count_Episode_Other" xml:space="preserve">
+    <value>{0}회</value>
+  </data>
+  <data name="Recurring_When" xml:space="preserve">
+    <value>발생 시간대</value>
+  </data>
+  <data name="Recurring_MostAssociated" xml:space="preserve">
+    <value>가장 관련된 앱</value>
+  </data>
+  <data name="Recurring_MostAssociatedText" xml:space="preserve">
+    <value>{0}({2}회 중 {1}회)</value>
+  </data>
+  <data name="Recurring_Cause" xml:space="preserve">
+    <value>원인</value>
+  </data>
+  <data name="Recurring_CauseConnectivity" xml:space="preserve">
+    <value>Windows에서 액세스 끊김을 보고합니다. 그 이유(공유기, 공급자, Wi-Fi 신호)는 Sysora가 관찰할 수 없습니다.</value>
+  </data>
+  <data name="Recurring_Description" xml:space="preserve">
+    <value>최근 {2}일 동안 "{0}"이(가) {1} 발생했습니다.</value>
+  </data>
+  <data name="Recurring_Pattern" xml:space="preserve">
+    <value>대부분의 이벤트가 {0:00}:00~{1:00}:00 사이에 발생했습니다({3}회 중 {2}회)</value>
+  </data>
+  <data name="Times_Once" xml:space="preserve">
+    <value>1회</value>
+  </data>
+  <data name="Times_Twice" xml:space="preserve">
+    <value>2회</value>
+  </data>
+  <data name="Times_N" xml:space="preserve">
+    <value>{0}회</value>
+  </data>
+  <data name="Replay_Rose_Cpu" xml:space="preserve">
+    <value>CPU가 {0}에서 {1}(으)로 증가</value>
+  </data>
+  <data name="Replay_Rose_Memory" xml:space="preserve">
+    <value>메모리가 {0}에서 {1}(으)로 증가</value>
+  </data>
+  <data name="Replay_Rose_Disk" xml:space="preserve">
+    <value>디스크 활동이 {0}에서 {1}(으)로 증가</value>
+  </data>
+  <data name="Replay_Rose_Gpu" xml:space="preserve">
+    <value>GPU가 {0}에서 {1}(으)로 증가</value>
+  </data>
+  <data name="Replay_Reached_Cpu" xml:space="preserve">
+    <value>CPU가 {0}에 도달</value>
+  </data>
+  <data name="Replay_Reached_Memory" xml:space="preserve">
+    <value>메모리가 {0}에 도달</value>
+  </data>
+  <data name="Replay_Reached_Disk" xml:space="preserve">
+    <value>디스크 활동이 {0}에 도달</value>
+  </data>
+  <data name="Replay_Reached_Gpu" xml:space="preserve">
+    <value>GPU가 {0}에 도달</value>
+  </data>
+  <data name="Replay_Back_Cpu" xml:space="preserve">
+    <value>CPU가 {0}(으)로 돌아옴</value>
+  </data>
+  <data name="Replay_Back_Memory" xml:space="preserve">
+    <value>메모리가 {0}(으)로 돌아옴</value>
+  </data>
+  <data name="Replay_Back_Disk" xml:space="preserve">
+    <value>디스크 활동이 {0}(으)로 돌아옴</value>
+  </data>
+  <data name="Replay_Back_Gpu" xml:space="preserve">
+    <value>GPU가 {0}(으)로 돌아옴</value>
+  </data>
+  <data name="Replay_NoMeasurements" xml:space="preserve">
+    <value>이 기간의 측정이 없습니다.</value>
+  </data>
+  <data name="Replay_MostIo" xml:space="preserve">
+    <value>I/O가 가장 많음: {0} {1}</value>
+  </data>
+  <data name="Replay_CpuAveraged" xml:space="preserve">
+    <value>CPU 평균 {0}(최고 {1})</value>
+  </data>
+  <data name="Replay_MemoryLevel" xml:space="preserve">
+    <value>메모리 {0}</value>
+  </data>
+  <data name="Replay_NoNotableChange" xml:space="preserve">
+    <value>이 기간에 주목할 만한 변화가 없습니다.</value>
+  </data>
+  <data name="Replay_NoSharpRise" xml:space="preserve">
+    <value>이 기간에 급격한 증가나 포화가 없습니다: {0}.</value>
+  </data>
+  <data name="Replay_SharpRise" xml:space="preserve">
+    <value>{2}에 {0}{1}이(가) 급격히 증가했습니다</value>
+  </data>
+  <data name="Replay_FollowedBy" xml:space="preserve">
+    <value>, 이어서 {0}</value>
+  </data>
+  <data name="Replay_NounAt" xml:space="preserve">
+    <value>{1}의 {0}</value>
+  </data>
+  <data name="Replay_Noun_Cpu" xml:space="preserve">
+    <value>CPU 사용률</value>
+  </data>
+  <data name="Replay_Noun_Memory" xml:space="preserve">
+    <value>메모리 사용률</value>
+  </data>
+  <data name="Replay_Noun_Disk" xml:space="preserve">
+    <value>디스크 활동</value>
+  </data>
+  <data name="Replay_Noun_Gpu" xml:space="preserve">
+    <value>GPU 사용률</value>
+  </data>
+  <data name="Replay_Noun_Other" xml:space="preserve">
+    <value>활동</value>
+  </data>
+  <data name="Usual_Loading" xml:space="preserve">
+    <value>기록을 불러오는 중…</value>
+  </data>
+  <data name="Usual_Metric_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Usual_Metric_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Usual_Metric_Disk" xml:space="preserve">
+    <value>디스크 활성 시간</value>
+  </data>
+  <data name="Usual_Metric_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Usual_Period_LastHour" xml:space="preserve">
+    <value>지난 1시간</value>
+  </data>
+  <data name="Usual_Period_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="Usual_Period_Yesterday" xml:space="preserve">
+    <value>어제</value>
+  </data>
+  <data name="Usual_Period_7Days" xml:space="preserve">
+    <value>최근 7일</value>
+  </data>
+  <data name="Usual_Period_30Days" xml:space="preserve">
+    <value>최근 30일</value>
+  </data>
+  <data name="Usual_Period_AtThisHour" xml:space="preserve">
+    <value>이 시간대의 평소 수준</value>
+  </data>
+  <data name="Usual_Summary_Above" xml:space="preserve">
+    <value>{0}이(가) 평소 수준보다 {1:0}%p 높습니다: 현재 {2}, 평소 {3}({4}).</value>
+  </data>
+  <data name="Usual_Summary_Below" xml:space="preserve">
+    <value>{0}이(가) 평소 수준보다 {1:0}%p 낮습니다: 현재 {2}, 평소 {3}({4}).</value>
+  </data>
+  <data name="Usual_Summary_Close" xml:space="preserve">
+    <value>현재 활동이 평소 수준과 비슷합니다(10%p 이내).</value>
+  </data>
+  <data name="Usual_Summary_NotEnough" xml:space="preserve">
+    <value>평소 수준을 판단하기에는 아직 기록이 부족합니다. 7일 비교에는 2일에 걸친 4시간, 30일 비교에는 8일에 걸친 24시간이 필요합니다.</value>
+  </data>
+  <data name="Usual_NeededOverDays" xml:space="preserve">
+    <value>{1}일에 걸친 {0}</value>
+  </data>
+  <data name="Usual_NotEnoughOverDays" xml:space="preserve">
+    <value>데이터 부족: {1} 동안 {0} 기록됨, {2} 필요</value>
+  </data>
+  <data name="Usual_NotEnough" xml:space="preserve">
+    <value>데이터 부족: {0} 기록됨, {1} 필요</value>
+  </data>
+  <data name="Usual_Hours" xml:space="preserve">
+    <value>{0:0.#}시간</value>
+  </data>
+  <data name="State_Metric_MemoryUsed" xml:space="preserve">
+    <value>사용 중인 메모리</value>
+  </data>
+  <data name="State_Metric_Download" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="State_Metric_Upload" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="State_Metric_Processes" xml:space="preserve">
+    <value>프로세스</value>
+  </data>
+  <data name="State_Metric_SystemFree" xml:space="preserve">
+    <value>사용 가능한 공간(Windows 볼륨)</value>
+  </data>
+  <data name="State_Metric_MemoryPercent" xml:space="preserve">
+    <value>사용 중인 메모리(%)</value>
+  </data>
+  <data name="State_During" xml:space="preserve">
+    <value>{0} 중</value>
+  </data>
+  <data name="State_SessionSource" xml:space="preserve">
+    <value>게임 세션 동안 기록된 평균</value>
+  </data>
+  <data name="State_NotEnough" xml:space="preserve">
+    <value>비교할 데이터가 부족합니다: {0}.</value>
+  </data>
+  <data name="State_NoMeasurementFor" xml:space="preserve">
+    <value>"{0}"에 대한 측정 없음</value>
+  </data>
+  <data name="State_NoDifference" xml:space="preserve">
+    <value>두 기간 사이에 주목할 만한 차이가 없습니다.</value>
+  </data>
+  <data name="State_Notable_One" xml:space="preserve">
+    <value>주목할 만한 차이 {0}개: {1}.</value>
+  </data>
+  <data name="State_Notable_Other" xml:space="preserve">
+    <value>주목할 만한 차이 {0}개: {1}.</value>
+  </data>
+  <data name="State_NotCompared" xml:space="preserve">
+    <value>비교되지 않음(한 기간에서만 측정됨): {0}.</value>
+  </data>
+  <data name="State_OnlyOne" xml:space="preserve">
+    <value>두 기간 중 하나에서만 측정됨: 비교되지 않음.</value>
+  </data>
+  <data name="State_NoChange" xml:space="preserve">
+    <value>변화 없음</value>
+  </data>
+  <data name="State_Explain_Same" xml:space="preserve">
+    <value>두 기간이 거의 같습니다.</value>
+  </data>
+  <data name="State_Explain_CpuUp" xml:space="preserve">
+    <value>두 번째 기간에 프로세서가 더 바빴습니다.</value>
+  </data>
+  <data name="State_Explain_CpuDown" xml:space="preserve">
+    <value>두 번째 기간에 프로세서가 덜 바빴습니다.</value>
+  </data>
+  <data name="State_Explain_MemoryUp" xml:space="preserve">
+    <value>두 번째 기간에 더 많은 메모리가 사용되었습니다.</value>
+  </data>
+  <data name="State_Explain_MemoryDown" xml:space="preserve">
+    <value>두 번째 기간에 더 적은 메모리가 사용되었습니다.</value>
+  </data>
+  <data name="State_Explain_DiskUp" xml:space="preserve">
+    <value>두 번째 기간에 디스크가 더 바빴습니다.</value>
+  </data>
+  <data name="State_Explain_DiskDown" xml:space="preserve">
+    <value>두 번째 기간에 디스크가 덜 바빴습니다.</value>
+  </data>
+  <data name="State_Explain_GpuUp" xml:space="preserve">
+    <value>두 번째 기간에 그래픽 프로세서가 더 바빴습니다.</value>
+  </data>
+  <data name="State_Explain_GpuDown" xml:space="preserve">
+    <value>두 번째 기간에 그래픽 프로세서가 덜 바빴습니다.</value>
+  </data>
+  <data name="State_Explain_SpaceUsed" xml:space="preserve">
+    <value>두 기간 사이에 Windows 볼륨의 공간이 사용되었습니다.</value>
+  </data>
+  <data name="State_Explain_SpaceFreed" xml:space="preserve">
+    <value>두 기간 사이에 Windows 볼륨의 공간이 확보되었습니다.</value>
+  </data>
+  <data name="State_Explain_ProcessesUp" xml:space="preserve">
+    <value>두 번째 기간에 더 많은 프로세스가 실행되었습니다.</value>
+  </data>
+  <data name="State_Explain_ProcessesDown" xml:space="preserve">
+    <value>두 번째 기간에 더 적은 프로세스가 실행되었습니다.</value>
+  </data>
+  <data name="State_Explain_NetworkUp" xml:space="preserve">
+    <value>두 번째 기간에 네트워크 트래픽이 더 많았습니다.</value>
+  </data>
+  <data name="State_Explain_NetworkDown" xml:space="preserve">
+    <value>두 번째 기간에 네트워크 트래픽이 더 적었습니다.</value>
+  </data>
+  <data name="State_Points_One" xml:space="preserve">
+    <value>{0}%p</value>
+  </data>
+  <data name="State_Points_Other" xml:space="preserve">
+    <value>{0}%p</value>
+  </data>
+  <data name="Count_Measurement_One" xml:space="preserve">
+    <value>측정 {0}개</value>
+  </data>
+  <data name="Count_Measurement_Other" xml:space="preserve">
+    <value>측정 {0}개</value>
+  </data>
+  <data name="State_NoMeasurement" xml:space="preserve">
+    <value>측정 없음</value>
+  </data>
+  <data name="State_Label_HourAgo" xml:space="preserve">
+    <value>1시간 전</value>
+  </data>
+  <data name="State_Label_Now" xml:space="preserve">
+    <value>지금</value>
+  </data>
+  <data name="State_Label_YesterdaySameTime" xml:space="preserve">
+    <value>어제 이 시간</value>
+  </data>
+  <data name="State_Label_Before" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="State_Label_After" xml:space="preserve">
+    <value>이후</value>
+  </data>
+  <data name="State_Source_Seconds" xml:space="preserve">
+    <value>메모리에 보관된 초당 측정</value>
+  </data>
+  <data name="State_Source_Minutes" xml:space="preserve">
+    <value>로컬 기록의 분당 평균</value>
+  </data>
+  <data name="State_Source_Hours" xml:space="preserve">
+    <value>로컬 기록의 시간별 요약</value>
+  </data>
+  <data name="State_NoSession" xml:space="preserve">
+    <value>게임 세션 없음</value>
+  </data>
+  <data name="State_NoSessionRecorded" xml:space="preserve">
+    <value>기록된 게임 세션 없음</value>
+  </data>
+  <data name="State_NoSessionYet" xml:space="preserve">
+    <value>아직 기록된 게임 세션이 없습니다. 몇 분 동안 게임을 플레이한 후 비교하세요.</value>
+  </data>
+  <data name="State_BeforeGame" xml:space="preserve">
+    <value>{0} 이전</value>
+  </data>
+  <data name="State_AfterGame" xml:space="preserve">
+    <value>{0} 이후</value>
+  </data>
+  <data name="State_PreviousSession" xml:space="preserve">
+    <value>이전 세션</value>
+  </data>
+  <data name="State_NoEarlierSession" xml:space="preserve">
+    <value>비교할 이전 게임 세션이 없습니다.</value>
+  </data>
+  <data name="WhyNow_Metric_Disk" xml:space="preserve">
+    <value>디스크 활동</value>
+  </data>
+  <data name="WhyNow_Metric_Network" xml:space="preserve">
+    <value>네트워크 트래픽</value>
+  </data>
+  <data name="WhyNow_NotEnough_Headline" xml:space="preserve">
+    <value>{0}: 아직 측정이 부족함</value>
+  </data>
+  <data name="WhyNow_NotEnough_Missing" xml:space="preserve">
+    <value>측정에 {0}이(가) 없으므로 설명할 수 없습니다.</value>
+  </data>
+  <data name="WhyNow_NotEnough_Summary" xml:space="preserve">
+    <value>Sysora가 변화가 언제 시작되었는지 알려면 약 2분 동안의 측정이 필요합니다.</value>
+  </data>
+  <data name="WhyNow_Range" xml:space="preserve">
+    <value>{0}–{1}</value>
+  </data>
+  <data name="WhyNow_Quiet_Headline" xml:space="preserve">
+    <value>{0}이(가) 현재 평소보다 높지 않음</value>
+  </data>
+  <data name="WhyNow_Quiet_Summary" xml:space="preserve">
+    <value>{0}이(가) 최근 {2} 동안 {1} 사이에 머물렀으며 현재는 {3}입니다. 설명할 최근의 증가가 없습니다.</value>
+  </data>
+  <data name="WhyNow_Quiet_Contributor" xml:space="preserve">
+    <value>원인으로 지목할 것 없음: 큰 증가 없음.</value>
+  </data>
+  <data name="WhyNow_Label_Level" xml:space="preserve">
+    <value>수준</value>
+  </data>
+  <data name="WhyNow_Quiet_Level" xml:space="preserve">
+    <value>{0}이(가) 분석 기간 동안 {1} 사이에 머물렀습니다.</value>
+  </data>
+  <data name="WhyNow_Label_UsualRange" xml:space="preserve">
+    <value>평소 범위</value>
+  </data>
+  <data name="WhyNow_Label_Change" xml:space="preserve">
+    <value>변화</value>
+  </data>
+  <data name="WhyNow_Change" xml:space="preserve">
+    <value>{0}이(가) {1}에서 {2}(으)로 증가했습니다.</value>
+  </data>
+  <data name="WhyNow_AlreadyHigh" xml:space="preserve">
+    <value>{0}은(는) {1}이며, 분석된 데이터의 시작 시점에 이미 높았습니다({2}).</value>
+  </data>
+  <data name="WhyNow_Label_Started" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="WhyNow_Started" xml:space="preserve">
+    <value>약 {0}({1:0}초 이내).</value>
+  </data>
+  <data name="WhyNow_StartedBefore" xml:space="preserve">
+    <value>{0} 이전: 이전 데이터를 사용할 수 없습니다.</value>
+  </data>
+  <data name="WhyNow_Label_Duration" xml:space="preserve">
+    <value>지속 시간</value>
+  </data>
+  <data name="WhyNow_AtLeast" xml:space="preserve">
+    <value>최소 {0}</value>
+  </data>
+  <data name="WhyNow_Label_Associated" xml:space="preserve">
+    <value>관련 항목</value>
+  </data>
+  <data name="WhyNow_Associated" xml:space="preserve">
+    <value>{1}의 {0}(같은 시간, 원인의 증거는 아님)</value>
+  </data>
+  <data name="WhyNow_Label_SameTime" xml:space="preserve">
+    <value>같은 시간에</value>
+  </data>
+  <data name="WhyNow_Label_Similar" xml:space="preserve">
+    <value>비슷한 이벤트</value>
+  </data>
+  <data name="WhyNow_Label_WhyMore" xml:space="preserve">
+    <value>앱이 더 많은 리소스가 필요한 이유</value>
+  </data>
+  <data name="WhyNow_NotObservable" xml:space="preserve">
+    <value>앱이 내부적으로 무엇을 하는지는 외부에서 관찰할 수 없습니다.</value>
+  </data>
+  <data name="WhyNow_Headline_Increased" xml:space="preserve">
+    <value>{0}이(가) 크게 증가했습니다</value>
+  </data>
+  <data name="WhyNow_Headline_High" xml:space="preserve">
+    <value>{0}이(가) {1} 이전부터 높았습니다</value>
+  </data>
+  <data name="WhyNow_Summary_WentFrom" xml:space="preserve">
+    <value>{0}이(가) {1}에서 {2}(으)로 변했습니다</value>
+  </data>
+  <data name="WhyNow_Summary_Is" xml:space="preserve">
+    <value>{0}은(는) {1}입니다</value>
+  </data>
+  <data name="WhyNow_Summary_Starting" xml:space="preserve">
+    <value>. 약 {0}부터 시작되었습니다({1} 전). </value>
+  </data>
+  <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
+    <value>이전 {0}, 현재 {1}</value>
+  </data>
+  <data name="WhyNow_Ev_Now" xml:space="preserve">
+    <value>현재 {0}</value>
+  </data>
+  <data name="WhyNow_Ev_Reference" xml:space="preserve">
+    <value>{0:0}초 단위로 평균을 냈으며, 변화는 {1}부터 계산합니다</value>
+  </data>
+  <data name="WhyNow_Position_Above95" xml:space="preserve">
+    <value>기록된 분의 95%보다 높음</value>
+  </data>
+  <data name="WhyNow_Position_Above" xml:space="preserve">
+    <value>평소 범위보다 높음</value>
+  </data>
+  <data name="WhyNow_Position_Below" xml:space="preserve">
+    <value>평소 범위보다 낮음</value>
+  </data>
+  <data name="WhyNow_Position_Within" xml:space="preserve">
+    <value>평소 범위 내</value>
+  </data>
+  <data name="WhyNow_Usual" xml:space="preserve">
+    <value>평소 {0}(중앙값 {1}), 현재 {2}: {3}.</value>
+  </data>
+  <data name="WhyNow_Network_NotAvailable" xml:space="preserve">
+    <value>사용할 수 없음: Windows는 관리자 수준의 이벤트 추적 없이 앱별 네트워크 사용량을 보고하지 않습니다.</value>
+  </data>
+  <data name="WhyNow_Network_Summary" xml:space="preserve">
+    <value>원인이 되는 앱을 식별할 수 없습니다. Windows는 관리자 수준의 이벤트 추적 없이 앱별 네트워크 사용량을 보고하지 않습니다.</value>
+  </data>
+  <data name="WhyNow_Label_Contributor" xml:space="preserve">
+    <value>원인</value>
+  </data>
+  <data name="WhyNow_Gpu_Unknown" xml:space="preserve">
+    <value>원인을 알 수 없음: 앱별 GPU 사용률은 기록에 보관되지 않습니다. 같은 시간의 이벤트가 도움이 될 수 있습니다.</value>
+  </data>
+  <data name="WhyNow_NoAppData" xml:space="preserve">
+    <value>원인을 알 수 없음: 이 기간의 앱별 데이터가 없습니다(앱은 메모리에 있는 최근 기록에만 보관됨).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeLargest" xml:space="preserve">
+    <value>원인을 알 수 없음: 증가가 분석된 데이터보다 먼저 시작되었습니다. 현재 가장 많이 사용하는 앱: {0}({1}).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeData" xml:space="preserve">
+    <value>원인을 알 수 없음: 증가가 분석된 데이터보다 먼저 시작되었습니다.</value>
+  </data>
+  <data name="WhyNow_NoDataBefore" xml:space="preserve">
+    <value>원인을 알 수 없음: 증가 이전의 앱별 데이터가 없습니다.</value>
+  </data>
+  <data name="WhyNow_NoIncrease" xml:space="preserve">
+    <value>원인을 알 수 없음: 측정된 앱 중 사용량이 늘어난 앱이 없습니다.</value>
+  </data>
+  <data name="WhyNow_NoSingleApp" xml:space="preserve">
+    <value>원인을 알 수 없음: 증가를 설명하는 단일 앱이 없습니다(가장 큰 변화: {0} {1}).</value>
+  </data>
+  <data name="WhyNow_Share" xml:space="preserve">
+    <value>, 증가분의 약 {0}</value>
+  </data>
+  <data name="WhyNow_IoNote" xml:space="preserve">
+    <value> I/O(파일, 장치, 네트워크 합계)</value>
+  </data>
+  <data name="WhyNow_NewApp" xml:space="preserve">
+    <value> — 이전에는 가장 바쁜 앱에 포함되지 않음</value>
+  </data>
+  <data name="WhyNow_Label_Likely" xml:space="preserve">
+    <value>가능성 높은 원인</value>
+  </data>
+  <data name="WhyNow_Label_Possible" xml:space="preserve">
+    <value>가능한 원인</value>
+  </data>
+  <data name="WhyNow_ContributorText" xml:space="preserve">
+    <value>{0}: {1}({2}{3}{4}){5}</value>
+  </data>
+  <data name="WhyNow_Summary_Likely" xml:space="preserve">
+    <value>증거에 따르면 {0}이(가) 주요 원인입니다({1}{2}).</value>
+  </data>
+  <data name="WhyNow_Summary_Possible" xml:space="preserve">
+    <value>{0}이(가) 영향을 주었을 수 있지만({1}{2}) 증거가 약합니다.</value>
+  </data>
+  <data name="WhyNow_AlsoRose" xml:space="preserve">
+    <value>{0}도 증가했습니다: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Similar_NotTracked" xml:space="preserve">
+    <value>비슷한 이벤트: 추적되지 않음(이 메트릭을 따르는 경고 규칙 없음).</value>
+  </data>
+  <data name="WhyNow_Similar_NoHistory" xml:space="preserve">
+    <value>비슷한 이벤트: 사용할 수 없음(경고 기록 없음).</value>
+  </data>
+  <data name="WhyNow_Similar_None" xml:space="preserve">
+    <value>비슷한 이벤트: 최근 {0}일 동안 없음.</value>
+  </data>
+  <data name="WhyNow_Similar_Count" xml:space="preserve">
+    <value>비슷한 이벤트: 최근 {1}일 동안 {0}.</value>
+  </data>
+  <data name="Count_Alert_One" xml:space="preserve">
+    <value>경고 {0}개</value>
+  </data>
+  <data name="Count_Alert_Other" xml:space="preserve">
+    <value>경고 {0}개</value>
+  </data>
+  <data name="WhyNow_Source_Mixed" xml:space="preserve">
+    <value>메모리에 보관된 초당 측정과 그 이전의 로컬 기록 분당 평균</value>
+  </data>
+  <data name="Changes_UnknownOrigin" xml:space="preserve">
+    <value>변경이 감지되었으며 원인은 알 수 없습니다.</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated" xml:space="preserve">
+    <value>{0} 설치 또는 업데이트됨</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated_Explanation" xml:space="preserve">
+    <value>Windows는 앱이 설치될 때 이 날짜를 기록하며, 많은 설치 프로그램이 앱을 업데이트할 때도 이 날짜를 다시 씁니다.</value>
+  </data>
+  <data name="Changes_MatchedByName" xml:space="preserve">
+    <value>Windows의 설치된 앱 목록에서 이름과 게시자로 일치시켰습니다.</value>
+  </data>
+  <data name="Changes_VersionRead" xml:space="preserve">
+    <value>Windows의 설치된 앱 목록에서 읽은 버전입니다.</value>
+  </data>
+  <data name="Changes_Removed" xml:space="preserve">
+    <value>{0} 제거됨</value>
+  </data>
+  <data name="Changes_Removed_Explanation" xml:space="preserve">
+    <value>이 앱은 더 이상 Windows의 설치된 앱 목록에 없습니다.</value>
+  </data>
+  <data name="Changes_Removed_Origin" xml:space="preserve">
+    <value>{0}의 스냅숏에는 있었고 {1}의 스냅숏에는 없습니다.</value>
+  </data>
+  <data name="Changes_Ev_InstalledApps" xml:space="preserve">
+    <value>설치된 앱</value>
+  </data>
+  <data name="Changes_Installed_OriginDate" xml:space="preserve">
+    <value>설치 프로그램이 Windows의 설치된 앱 목록에 기록한 설치 날짜({0})입니다.</value>
+  </data>
+  <data name="Changes_Installed_OriginSnapshot" xml:space="preserve">
+    <value>Windows의 설치된 앱 목록에 있으며 {0}의 스냅숏에는 없었습니다.</value>
+  </data>
+  <data name="Changes_Installed" xml:space="preserve">
+    <value>{0} 설치됨</value>
+  </data>
+  <data name="Changes_Installed_ExplanationPublisher" xml:space="preserve">
+    <value>{0}의 새 앱입니다. 새 소프트웨어는 백그라운드 프로세스와 시작 항목을 추가할 수 있습니다.</value>
+  </data>
+  <data name="Changes_Installed_Explanation" xml:space="preserve">
+    <value>새 앱입니다. 새 소프트웨어는 백그라운드 프로세스와 시작 항목을 추가할 수 있습니다.</value>
+  </data>
+  <data name="Changes_Updated" xml:space="preserve">
+    <value>{0} 업데이트됨</value>
+  </data>
+  <data name="Changes_Updated_Explanation" xml:space="preserve">
+    <value>새 버전은 다르게 동작할 수 있습니다(성능, 백그라운드 활동).</value>
+  </data>
+  <data name="Changes_Startup_Origin" xml:space="preserve">
+    <value>{0}과(와) {1}의 시작 항목을 비교했습니다.</value>
+  </data>
+  <data name="Changes_Startup_New" xml:space="preserve">
+    <value>새 시작 프로그램: {0}</value>
+  </data>
+  <data name="Changes_Startup_New_Explanation" xml:space="preserve">
+    <value>이제 로그인할 때 자동으로 시작되므로 시작 시간이 길어지고 백그라운드에서 리소스를 사용할 수 있습니다.</value>
+  </data>
+  <data name="Changes_Startup_Enabled" xml:space="preserve">
+    <value>시작 프로그램 사용: {0}</value>
+  </data>
+  <data name="Changes_Startup_Disabled" xml:space="preserve">
+    <value>시작 프로그램 사용 안 함: {0}</value>
+  </data>
+  <data name="Changes_Startup_Enabled_Explanation" xml:space="preserve">
+    <value>로그인할 때 다시 자동으로 시작됩니다.</value>
+  </data>
+  <data name="Changes_Startup_Removed_Explanation" xml:space="preserve">
+    <value>더 이상 로그인할 때 자동으로 시작되지 않습니다.</value>
+  </data>
+  <data name="Changes_Startup_Removed" xml:space="preserve">
+    <value>시작 프로그램 제거됨: {0}</value>
+  </data>
+  <data name="Changes_Enabled" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="Changes_Disabled" xml:space="preserve">
+    <value>사용 안 함</value>
+  </data>
+  <data name="Changes_Ev_StartupEntry" xml:space="preserve">
+    <value>시작 항목</value>
+  </data>
+  <data name="Changes_Windows_Title" xml:space="preserve">
+    <value>Windows가 업데이트됨</value>
+  </data>
+  <data name="Changes_Windows_Explanation" xml:space="preserve">
+    <value>Windows 업데이트는 드라이버와 백그라운드 서비스를 변경할 수 있으며, 업데이트 후 처음 몇 시간 동안은 디스크와 CPU 활동이 늘어나는 경우가 많습니다.</value>
+  </data>
+  <data name="Changes_Windows_Source" xml:space="preserve">
+    <value>레지스트리(CurrentVersion)에서 읽은 빌드 번호입니다.</value>
+  </data>
+  <data name="Changes_Bios_Title" xml:space="preserve">
+    <value>펌웨어(BIOS) 업데이트됨</value>
+  </data>
+  <data name="Changes_Bios_Explanation" xml:space="preserve">
+    <value>펌웨어 업데이트는 전원 관리와 하드웨어 동작을 변경할 수 있습니다.</value>
+  </data>
+  <data name="Changes_Bios_Source" xml:space="preserve">
+    <value>레지스트리에서 읽은 BIOS 버전입니다(Windows가 복사한 SMBIOS 데이터).</value>
+  </data>
+  <data name="Changes_Memory_Subject" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Changes_Memory_Title" xml:space="preserve">
+    <value>설치된 메모리가 변경됨</value>
+  </data>
+  <data name="Changes_Memory_Explanation" xml:space="preserve">
+    <value>물리적 메모리 양이 변경되었습니다(모듈 추가, 제거 또는 감지되지 않음).</value>
+  </data>
+  <data name="Changes_Memory_Source" xml:space="preserve">
+    <value>펌웨어가 보고한 설치된 메모리입니다.</value>
+  </data>
+  <data name="Changes_System_Origin" xml:space="preserve">
+    <value>{0}과(와) {1}의 스냅숏을 비교했습니다.</value>
+  </data>
+  <data name="Changes_Devices_Origin" xml:space="preserve">
+    <value>{0}과(와) {1}의 장치를 비교했습니다.</value>
+  </data>
+  <data name="Changes_Device_New" xml:space="preserve">
+    <value>새 {1} 장치: {2}</value>
+  </data>
+  <data name="Changes_Device_Gone" xml:space="preserve">
+    <value>더 이상 없는 {0} 장치: {2}</value>
+  </data>
+  <data name="Changes_Device_New_Explanation" xml:space="preserve">
+    <value>이전 스냅숏 이후 장치가 나타났습니다(새 하드웨어, 드라이버 변경 또는 가상 어댑터).</value>
+  </data>
+  <data name="Changes_Device_Gone_Explanation" xml:space="preserve">
+    <value>이전 스냅숏에 있던 장치를 찾을 수 없습니다(제거됨, 사용 안 함 또는 드라이버가 변경됨).</value>
+  </data>
+  <data name="Changes_Space_UsedOf" xml:space="preserve">
+    <value>{2} 중 {0} → {1} 사용</value>
+  </data>
+  <data name="Changes_Ev_InstalledSamePeriod" xml:space="preserve">
+    <value>같은 기간에 설치됨</value>
+  </data>
+  <data name="Changes_Ev_PossibleFiles" xml:space="preserve">
+    <value>가능한 원인이며 확인되지 않았습니다. Sysora는 개별 파일의 크기를 측정하지 않습니다.</value>
+  </data>
+  <data name="Changes_Space_More" xml:space="preserve">
+    <value>{1}에서 {0} 더 사용됨</value>
+  </data>
+  <data name="Changes_Space_Freed" xml:space="preserve">
+    <value>{1}에서 {0} 확보됨</value>
+  </data>
+  <data name="Changes_Space_Used" xml:space="preserve">
+    <value>{0} 사용됨</value>
+  </data>
+  <data name="Changes_Space_Grew_Explanation" xml:space="preserve">
+    <value>두 스냅숏 사이에 이 볼륨의 사용 공간이 눈에 띄게 늘었습니다.</value>
+  </data>
+  <data name="Changes_Space_Freed_Explanation" xml:space="preserve">
+    <value>두 스냅숏 사이에 이 볼륨의 공간이 확보되었습니다.</value>
+  </data>
+  <data name="Changes_Space_Origin" xml:space="preserve">
+    <value>Sysora는 개별 파일이 아니라 사용 가능한 공간을 측정합니다.</value>
+  </data>
+  <data name="Changes_Usage_AverageMemory" xml:space="preserve">
+    <value>평균 메모리 사용률</value>
+  </data>
+  <data name="Changes_Usage_AverageCpu" xml:space="preserve">
+    <value>평균 CPU 사용률</value>
+  </data>
+  <data name="Changes_Usage_Reference" xml:space="preserve">
+    <value>각 스냅숏 전 24시간의 평균({0}분 및 {1}분의 측정)</value>
+  </data>
+  <data name="Changes_Ev_Possible" xml:space="preserve">
+    <value>가능한 원인이며 확인되지 않았습니다.</value>
+  </data>
+  <data name="Changes_Usage_Title" xml:space="preserve">
+    <value>{0} {1:+0;-0;0}%p</value>
+  </data>
+  <data name="Changes_Usage_MoreMemory" xml:space="preserve">
+    <value>기준일보다 PC의 평균 메모리 사용량이 눈에 띄게 많았습니다.</value>
+  </data>
+  <data name="Changes_Usage_MoreCpu" xml:space="preserve">
+    <value>기준일보다 PC의 평균 CPU 사용량이 눈에 띄게 많았습니다.</value>
+  </data>
+  <data name="Changes_Usage_LessMemory" xml:space="preserve">
+    <value>기준일보다 PC의 평균 메모리 사용량이 눈에 띄게 적었습니다.</value>
+  </data>
+  <data name="Changes_Usage_LessCpu" xml:space="preserve">
+    <value>기준일보다 PC의 평균 CPU 사용량이 눈에 띄게 적었습니다.</value>
+  </data>
+  <data name="Changes_Ev_SourceOf" xml:space="preserve">
+    <value>Windows 설치된 앱({0})</value>
+  </data>
+  <data name="Changes_Ev_Source" xml:space="preserve">
+    <value>Windows 설치된 앱</value>
+  </data>
+  <data name="Changes_Ev_InstallDate" xml:space="preserve">
+    <value>설치 프로그램이 기록한 설치 날짜: {0}</value>
+  </data>
+  <data name="Device_Graphics" xml:space="preserve">
+    <value>그래픽</value>
+  </data>
+  <data name="Device_Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="Device_Volume" xml:space="preserve">
+    <value>볼륨</value>
+  </data>
+  <data name="AppSource_Machine" xml:space="preserve">
+    <value>컴퓨터</value>
+  </data>
+  <data name="AppSource_Machine32" xml:space="preserve">
+    <value>컴퓨터(32비트)</value>
+  </data>
+  <data name="AppSource_User" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="AppSource_Store" xml:space="preserve">
+    <value>스토어</value>
+  </data>
+  <data name="Changes_OldestSnapshot" xml:space="preserve">
+    <value>가장 오래된 스냅숏은 {0}의 것입니다.</value>
+  </data>
+  <data name="Changes_NoSnapshot" xml:space="preserve">
+    <value>아직 기록된 스냅숏이 없습니다. 첫 번째 스냅숏은 Sysora가 시작되고 1분 후에 만들어집니다.</value>
+  </data>
+  <data name="Changes_NotEnough" xml:space="preserve">
+    <value>이 비교를 위한 기록이 아직 부족합니다. {0}</value>
+  </data>
+  <data name="Changes_Note" xml:space="preserve">
+    <value>현재 상태를 {0}의 스냅숏과 비교했습니다.</value>
+  </data>
+  <data name="Changes_Note_AppsUnreadable" xml:space="preserve">
+    <value>설치된 앱을 비교할 수 없습니다(스냅숏 중 하나에서 읽을 수 없음).</value>
+  </data>
+  <data name="Changes_Frequent_Activity" xml:space="preserve">
+    <value>{2} 이후 {0} 실행, {1}</value>
+  </data>
+  <data name="Count_Start_One" xml:space="preserve">
+    <value>{0}회 시작</value>
+  </data>
+  <data name="Count_Start_Other" xml:space="preserve">
+    <value>{0}회 시작</value>
+  </data>
+  <data name="Changes_Frequent_Title" xml:space="preserve">
+    <value>{0}이(가) 이제 정기적으로 실행됨</value>
+  </data>
+  <data name="Changes_Frequent_Explanation" xml:space="preserve">
+    <value>Sysora가 이전에 보지 못한 프로그램이 정기적으로 실행되기 시작했습니다. 새 앱, 업데이트 도우미 또는 백그라운드 작업일 수 있습니다.</value>
+  </data>
+  <data name="Changes_Frequent_Origin" xml:space="preserve">
+    <value>Sysora가 {0}에 처음 확인했으며, Sysora는 {1}부터 기록하고 있습니다.</value>
+  </data>
+  <data name="Changes_Ev_Activity" xml:space="preserve">
+    <value>활동</value>
+  </data>
+  <data name="Changes_Ev_NameOnly" xml:space="preserve">
+    <value>프로세스 이름으로만 식별됨</value>
+  </data>
+  <data name="Since_Loading" xml:space="preserve">
+    <value>어제와 비교하는 중…</value>
+  </data>
+  <data name="Since_Area_Applications" xml:space="preserve">
+    <value>앱</value>
+  </data>
+  <data name="Since_Area_Startup" xml:space="preserve">
+    <value>시작 프로그램</value>
+  </data>
+  <data name="Since_Area_Windows" xml:space="preserve">
+    <value>Windows 버전</value>
+  </data>
+  <data name="Since_Area_Firmware" xml:space="preserve">
+    <value>펌웨어(BIOS)</value>
+  </data>
+  <data name="Since_Area_Memory" xml:space="preserve">
+    <value>설치된 메모리</value>
+  </data>
+  <data name="Since_Area_Devices" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="Since_Area_DiskSpace" xml:space="preserve">
+    <value>디스크 공간</value>
+  </data>
+  <data name="Since_Area_Usage" xml:space="preserve">
+    <value>사용량</value>
+  </data>
+  <data name="Since_Area_Alerts" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Since_NotEnough" xml:space="preserve">
+    <value>아직 기록이 부족함</value>
+  </data>
+  <data name="Since_Usage_Title" xml:space="preserve">
+    <value>오늘 {0} {1}</value>
+  </data>
+  <data name="Since_Yesterday" xml:space="preserve">
+    <value>어제 {0}</value>
+  </data>
+  <data name="Since_Today" xml:space="preserve">
+    <value>오늘 {0}</value>
+  </data>
+  <data name="Since_Usage_Explanation" xml:space="preserve">
+    <value>{0} 각 날의 평균입니다.</value>
+  </data>
+  <data name="Since_SecondPeriodPhrase" xml:space="preserve">
+    <value>두 번째 기간에</value>
+  </data>
+  <data name="Since_TodayPhrase" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="Since_When" xml:space="preserve">
+    <value>오늘 지금까지, 어제와 비교</value>
+  </data>
+  <data name="Since_Usage_Origin" xml:space="preserve">
+    <value>{0}(어제) 및 {1}(오늘).</value>
+  </data>
+  <data name="Since_MoreAlerts" xml:space="preserve">
+    <value>오늘 경고가 더 많음({0})</value>
+  </data>
+  <data name="Since_FewerAlerts" xml:space="preserve">
+    <value>오늘 경고가 더 적음({0})</value>
+  </data>
+  <data name="Since_MoreAlerts_Explanation" xml:space="preserve">
+    <value>오늘 어제보다 오래 지속되거나 평소와 다른 문제가 더 많이 감지되었습니다.</value>
+  </data>
+  <data name="Since_FewerAlerts_Explanation" xml:space="preserve">
+    <value>오늘 어제보다 감지된 문제가 적습니다.</value>
+  </data>
+  <data name="Since_AlertsOrigin" xml:space="preserve">
+    <value>Sysora가 기록한 경고입니다.</value>
+  </data>
+  <data name="Since_Reason_Apps" xml:space="preserve">
+    <value>스냅숏 중 하나에서 설치된 앱 목록을 읽을 수 없었습니다</value>
+  </data>
+  <data name="Since_Reason_Startup" xml:space="preserve">
+    <value>스냅숏 중 하나에서 시작 프로그램을 읽을 수 없었습니다</value>
+  </data>
+  <data name="Since_Reason_Windows" xml:space="preserve">
+    <value>Windows 빌드가 기록되지 않았습니다</value>
+  </data>
+  <data name="Since_Reason_Bios" xml:space="preserve">
+    <value>이 PC는 BIOS 버전을 보고하지 않습니다</value>
+  </data>
+  <data name="Since_Reason_Memory" xml:space="preserve">
+    <value>펌웨어가 설치된 메모리를 보고하지 않습니다</value>
+  </data>
+  <data name="Since_Reason_Volumes" xml:space="preserve">
+    <value>기록된 볼륨이 없습니다</value>
+  </data>
+  <data name="Since_Reason_Usage" xml:space="preserve">
+    <value>오늘 또는 어제의 기록이 부족합니다</value>
+  </data>
+  <data name="Since_NoChange" xml:space="preserve">
+    <value>어제 이후 변경 내용 없음</value>
+  </data>
+  <data name="Count_SignificantChange_One" xml:space="preserve">
+    <value>중요한 변경 {0}개</value>
+  </data>
+  <data name="Count_SignificantChange_Other" xml:space="preserve">
+    <value>중요한 변경 {0}개</value>
+  </data>
+  <data name="Count_MinorChange_One" xml:space="preserve">
+    <value>사소한 변경 {0}개</value>
+  </data>
+  <data name="Count_MinorChange_Other" xml:space="preserve">
+    <value>사소한 변경 {0}개</value>
+  </data>
+  <data name="Since_Note" xml:space="preserve">
+    <value>{0}의 스냅숏과 비교했습니다. Sysora가 관찰한 차이만 표시하며, 원인을 알 경우 함께 표시합니다.</value>
+  </data>
+  <data name="Since_Between" xml:space="preserve">
+    <value>{0}~{1}</value>
+  </data>
+  <data name="Since_Before" xml:space="preserve">
+    <value>{0} 이전</value>
+  </data>
+  <data name="Game_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: 사용할 수 없음. Windows는 다른 앱에 신뢰할 수 있는 프레임 속도 정보를 제공하지 않습니다. 측정하려면 관리자 수준의 이벤트 추적이나 게임에 대한 후킹이 필요하며, Sysora는 둘 다 하지 않습니다.</value>
+  </data>
+  <data name="Game_NoLimit_Title" xml:space="preserve">
+    <value>리소스 한도에 도달하지 않음</value>
+  </data>
+  <data name="Game_NoLimit_Description" xml:space="preserve">
+    <value>측정된 시간 동안 메모리, 프로세서, 비디오 메모리, 디스크가 한도에 머문 적이 없습니다.</value>
+  </data>
+  <data name="Game_Headline_None" xml:space="preserve">
+    <value>관찰된 문제 없음</value>
+  </data>
+  <data name="Game_Headline_Points_One" xml:space="preserve">
+    <value>주의할 항목 {0}개</value>
+  </data>
+  <data name="Game_Headline_Points_Other" xml:space="preserve">
+    <value>주의할 항목 {0}개</value>
+  </data>
+  <data name="Game_Summary_DurationOf" xml:space="preserve">
+    <value>{1}: {0}.</value>
+  </data>
+  <data name="Game_Summary_Cpu" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Game_Summary_Memory" xml:space="preserve">
+    <value>메모리 {0}</value>
+  </data>
+  <data name="Game_Summary_OnAverage" xml:space="preserve">
+    <value>평균: {0}.</value>
+  </data>
+  <data name="Game_Summary_Qualified" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="Game_Summary_NoLimit" xml:space="preserve">
+    <value>리소스 한도에 도달하지 않았습니다.</value>
+  </data>
+  <data name="Game_OfTotal" xml:space="preserve">
+    <value>/ {0}</value>
+  </data>
+  <data name="Game_Fps_Note" xml:space="preserve">
+    <value>Windows에 신뢰할 수 있는 정보가 없음</value>
+  </data>
+  <data name="Game_Metric_CpuPc" xml:space="preserve">
+    <value>CPU(PC 전체)</value>
+  </data>
+  <data name="Game_Metric_CpuGame" xml:space="preserve">
+    <value>게임이 사용한 CPU</value>
+  </data>
+  <data name="Game_CpuGame_Note" xml:space="preserve">
+    <value>전체 프로세서 용량에서 차지하는 비율</value>
+  </data>
+  <data name="Game_Metric_GpuBusiest" xml:space="preserve">
+    <value>GPU(가장 바쁜 어댑터)</value>
+  </data>
+  <data name="Game_Metric_GpuGame" xml:space="preserve">
+    <value>게임이 사용한 GPU</value>
+  </data>
+  <data name="Game_GpuGame_NotReported" xml:space="preserve">
+    <value>Windows에서 프로세스별 GPU 사용률을 보고하지 않음</value>
+  </data>
+  <data name="Game_GpuGame_Note" xml:space="preserve">
+    <value>게임이 사용한 가장 바쁜 GPU 엔진</value>
+  </data>
+  <data name="Game_Metric_VideoMemory" xml:space="preserve">
+    <value>사용 중인 비디오 메모리</value>
+  </data>
+  <data name="Game_VideoMemory_Note" xml:space="preserve">
+    <value>전용 메모리, 모든 앱</value>
+  </data>
+  <data name="Game_Metric_MemoryPc" xml:space="preserve">
+    <value>메모리(PC 전체)</value>
+  </data>
+  <data name="Game_Metric_MemoryGame" xml:space="preserve">
+    <value>게임이 사용한 메모리</value>
+  </data>
+  <data name="Game_MemoryGame_Note" xml:space="preserve">
+    <value>게임 프로세스의 개인 작업 집합</value>
+  </data>
+  <data name="Game_Metric_Disk" xml:space="preserve">
+    <value>가장 바쁜 디스크의 활성 시간</value>
+  </data>
+  <data name="Game_Metric_NetReceived" xml:space="preserve">
+    <value>네트워크 수신(PC 전체)</value>
+  </data>
+  <data name="Game_Metric_NetSent" xml:space="preserve">
+    <value>네트워크 송신(PC 전체)</value>
+  </data>
+  <data name="Game_Metric_SelfCpu" xml:space="preserve">
+    <value>Sysora 자체 CPU</value>
+  </data>
+  <data name="Game_SelfCpu_Note" xml:space="preserve">
+    <value>세션 동안 측정됨</value>
+  </data>
+  <data name="Game_OverPeriods" xml:space="preserve">
+    <value>({0}개 구간)</value>
+  </data>
+  <data name="Game_Condition_Value" xml:space="preserve">
+    <value>{1}{2} 동안 {0} 이상(최고 {3})</value>
+  </data>
+  <data name="Game_Condition_Reference" xml:space="preserve">
+    <value>{0} 이상 지속될 때 계산됨</value>
+  </data>
+  <data name="Game_Memory_Title" xml:space="preserve">
+    <value>메모리가 거의 가득 찼음</value>
+  </data>
+  <data name="Game_Memory_Description" xml:space="preserve">
+    <value>물리적 메모리가 {1}{2} 동안 {0}을(를) 넘었습니다.</value>
+  </data>
+  <data name="Game_Qualifier_Stutters" xml:space="preserve">
+    <value>끊김의 가능한 원인</value>
+  </data>
+  <data name="Game_Memory_RecommendationApp" xml:space="preserve">
+    <value>게임하기 전에 필요하지 않은 앱을 닫으세요. 다른 앱 중 가장 큰 앱은 {0}({1})이었습니다.</value>
+  </data>
+  <data name="Game_Memory_Recommendation" xml:space="preserve">
+    <value>게임하기 전에 필요하지 않은 앱을 닫으세요.</value>
+  </data>
+  <data name="Game_Cpu_Title" xml:space="preserve">
+    <value>프로세서가 포화 상태였음</value>
+  </data>
+  <data name="Game_Cpu_Description" xml:space="preserve">
+    <value>전체 CPU 사용률이 {1}{2} 동안 {0}을(를) 넘었습니다.</value>
+  </data>
+  <data name="Game_Qualifier_Slowdowns" xml:space="preserve">
+    <value>느려짐의 가능성 높은 원인</value>
+  </data>
+  <data name="Game_Cpu_RecommendationApp" xml:space="preserve">
+    <value>다른 앱 중 가장 바쁜 앱은 {0}(CPU 평균 {1})이었습니다. 필요하지 않으면 게임하는 동안 닫으세요.</value>
+  </data>
+  <data name="Game_Cpu_Recommendation" xml:space="preserve">
+    <value>CPU를 많이 사용하는 설정(시야 거리, 군중 밀도, 물리 효과)을 낮추면 부하가 줄어듭니다.</value>
+  </data>
+  <data name="Game_Video_Title" xml:space="preserve">
+    <value>비디오 메모리가 거의 가득 찼음</value>
+  </data>
+  <data name="Game_Video_Description" xml:space="preserve">
+    <value>전용 비디오 메모리가 {2}{3} 동안 {1} 중 {0}을(를) 넘었습니다.</value>
+  </data>
+  <data name="Game_Video_Recommendation" xml:space="preserve">
+    <value>텍스처 품질이나 해상도를 낮추면 비디오 메모리 사용량이 줄어듭니다.</value>
+  </data>
+  <data name="Game_Disk_Title" xml:space="preserve">
+    <value>디스크가 거의 항상 바빴음</value>
+  </data>
+  <data name="Game_Disk_Description" xml:space="preserve">
+    <value>가장 바쁜 디스크의 활성 시간이 {1}{2} 동안 {0}을(를) 넘었습니다.</value>
+  </data>
+  <data name="Game_Qualifier_Loading" xml:space="preserve">
+    <value>로딩 중 멈춤의 가능한 원인</value>
+  </data>
+  <data name="Game_Disk_Recommendation" xml:space="preserve">
+    <value>게임을 더 빠른 드라이브(SSD)에 설치하면 로딩이 짧아집니다. 동시에 실행되는 업데이트나 검사도 디스크를 바쁘게 만듭니다.</value>
+  </data>
+  <data name="Game_GpuBound_Title" xml:space="preserve">
+    <value>그래픽 카드의 부하가 가장 높았음</value>
+  </data>
+  <data name="Game_GpuBound_DescriptionCpu" xml:space="preserve">
+    <value>프로세서가 평균 {1}인 동안 GPU는 평균 {0}이었습니다.</value>
+  </data>
+  <data name="Game_GpuBound_Description" xml:space="preserve">
+    <value>GPU 평균 {0}이었습니다.</value>
+  </data>
+  <data name="Game_Qualifier_LikelyLimit" xml:space="preserve">
+    <value>가능성 높은 제한 요인</value>
+  </data>
+  <data name="Game_GpuBound_Recommendation" xml:space="preserve">
+    <value>요구 사양이 높은 게임에서는 예상되는 상황입니다. GPU가 속도를 결정합니다. 더 부드럽게 하려면 그래픽 설정이나 해상도를 낮추세요.</value>
+  </data>
+  <data name="Game_Ev_GpuBusiest" xml:space="preserve">
+    <value>GPU 사용률(가장 바쁜 어댑터)</value>
+  </data>
+  <data name="Game_CpuHeavy_Title" xml:space="preserve">
+    <value>프로세서가 많이 사용되었음</value>
+  </data>
+  <data name="Game_CpuHeavy_DescriptionGpu" xml:space="preserve">
+    <value>GPU가 평균 {1}인 동안 프로세서는 평균 {0}이었습니다.</value>
+  </data>
+  <data name="Game_CpuHeavy_Description" xml:space="preserve">
+    <value>프로세서 평균 {0}이었습니다. GPU 사용률을 사용할 수 없으므로 Sysora는 어떤 구성 요소가 속도를 결정했는지 알 수 없습니다.</value>
+  </data>
+  <data name="Game_Qualifier_Potential" xml:space="preserve">
+    <value>잠재적 원인</value>
+  </data>
+  <data name="Game_CpuHeavy_Recommendation" xml:space="preserve">
+    <value>백그라운드 앱을 닫고 CPU를 많이 사용하는 설정(시야 거리, 군중, 물리 효과)을 낮추세요.</value>
+  </data>
+  <data name="Game_BusyApp_Title" xml:space="preserve">
+    <value>게임 중에 {0}이(가) 바빴음</value>
+  </data>
+  <data name="Game_BusyApp_Description" xml:space="preserve">
+    <value>세션 동안 {0}이(가) 전체 CPU의 평균 {1}을(를) 사용했습니다(최고 {2}).</value>
+  </data>
+  <data name="Game_BusyApp_Recommendation" xml:space="preserve">
+    <value>게임하는 동안 {0}이(가) 필요하지 않으면 게임을 시작하기 전에 닫으세요.</value>
+  </data>
+  <data name="Game_BusyApp_Value" xml:space="preserve">
+    <value>평균 {0}, 최고 {1}, 메모리 최대 {2}</value>
+  </data>
+  <data name="Game_BusyApp_Reference" xml:space="preserve">
+    <value>세션의 모든 프로세스 샘플에 대한 평균(실행되지 않은 동안은 0)</value>
+  </data>
+  <data name="Game_Gaps_Title" xml:space="preserve">
+    <value>측정이 중단되었음</value>
+  </data>
+  <data name="Game_Gaps_Description" xml:space="preserve">
+    <value>{0}({1} 측정 안 됨): PC가 절전 상태였거나 모니터링이 일시 중지되었습니다. 값은 측정된 시간만 반영합니다.</value>
+  </data>
+  <data name="Game_Compare_First" xml:space="preserve">
+    <value>{0}의 첫 번째 기록 세션: 아직 비교할 대상이 없습니다.</value>
+  </data>
+  <data name="Game_Compare_Previous" xml:space="preserve">
+    <value>{0}의 이전 세션과 비교했습니다({1}).</value>
+  </data>
+  <data name="Game_Compare_Average" xml:space="preserve">
+    <value>{1}의 이전 세션 {0}개의 평균과 비교했습니다({2} 이후).</value>
+  </data>
+  <data name="Game_Ref_Previous" xml:space="preserve">
+    <value>이전 세션</value>
+  </data>
+  <data name="Game_Ref_PreviousN" xml:space="preserve">
+    <value>이전 세션 {0}개</value>
+  </data>
+  <data name="Game_Compare_HigherTitle" xml:space="preserve">
+    <value>{0}이(가) 이 게임의 평소보다 높았음</value>
+  </data>
+  <data name="Game_Compare_HigherDescription" xml:space="preserve">
+    <value>{0}의 평균은 {1}로, {3}({4})와(과) 비교해 {2}입니다.</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryTitle" xml:space="preserve">
+    <value>게임이 평소보다 많은 메모리를 사용했음</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryDescription" xml:space="preserve">
+    <value>게임이 평균 {0}을(를) 사용했으며, {2}({3})와(과) 비교해 {1}입니다.</value>
+  </data>
+  <data name="Game_Compare_NewLimitTitle" xml:space="preserve">
+    <value>{0}: 이번 세션에서 새로 발생</value>
+  </data>
+  <data name="Game_Compare_NewLimitDescription" xml:space="preserve">
+    <value>{1}의 {0}에서는 이 한도에 도달하지 않았습니다.</value>
+  </data>
+  <data name="Game_Qualifier_ObservedChange" xml:space="preserve">
+    <value>관찰된 변화, 원인 알 수 없음</value>
+  </data>
+  <data name="Game_Compare_Recommendation" xml:space="preserve">
+    <value>게임 업데이트, 다른 설정 또는 게임의 다른 부분이 원인일 수 있습니다. 계속 발생하면 변경 내용과 비교하세요.</value>
+  </data>
+  <data name="Game_Compare_ThisSession" xml:space="preserve">
+    <value>이번 세션: {0}(최고 {1})</value>
+  </data>
+  <data name="Game_Compare_PreviousSessions" xml:space="preserve">
+    <value>이전 세션: 평균 {0}</value>
+  </data>
+  <data name="Game_Missing_Gpu" xml:space="preserve">
+    <value>GPU 사용률: 사용할 수 없음(이를 보고한 그래픽 어댑터가 없거나 설정에서 GPU 모니터링이 꺼져 있음).</value>
+  </data>
+  <data name="Game_Missing_GpuGame" xml:space="preserve">
+    <value>게임의 GPU 사용률: 사용할 수 없음(Windows에서 프로세스별 GPU 사용률을 보고하지 않음).</value>
+  </data>
+  <data name="Game_Missing_Video" xml:space="preserve">
+    <value>비디오 메모리: 사용할 수 없음(그래픽 드라이버가 보고하지 않음).</value>
+  </data>
+  <data name="Game_Missing_Temperatures" xml:space="preserve">
+    <value>온도: 사용할 수 없음(Windows에는 커널 드라이버 없이 이를 읽는 문서화된 방법이 없음).</value>
+  </data>
+  <data name="Game_Missing_Network" xml:space="preserve">
+    <value>게임의 네트워크 사용량: 사용할 수 없음(앱별 네트워크 사용량에는 관리자 수준의 이벤트 추적 필요). 네트워크 값은 PC 전체 기준입니다.</value>
+  </data>
+  <data name="Game_Coverage" xml:space="preserve">
+    <value>{0}부터 {1}까지 측정했습니다({2}의 측정).</value>
+  </data>
+  <data name="Game_Coverage_AlreadyRunning" xml:space="preserve">
+    <value>Sysora가 시작될 때 게임이 {0}부터 이미 실행 중이었으므로 그 이전 시간은 포함되지 않습니다.</value>
+  </data>
+  <data name="Game_Coverage_Gaps" xml:space="preserve">
+    <value>{0}({1}).</value>
+  </data>
+  <data name="Game_Coverage_SysoraClosed" xml:space="preserve">
+    <value>게임보다 먼저 Sysora가 종료되어 세션의 끝부분은 포함되지 않습니다.</value>
+  </data>
+  <data name="Game_Coverage_TrackingStopped" xml:space="preserve">
+    <value>게임이 종료되기 전에 게임 세션 기록이 꺼졌습니다.</value>
+  </data>
+  <data name="Game_Ev_MeasuredTime" xml:space="preserve">
+    <value>측정 시간</value>
+  </data>
+  <data name="Game_Ev_Gaps" xml:space="preserve">
+    <value>{0}, {1} 측정 안 됨</value>
+  </data>
+  <data name="Game_Ev_NoGap" xml:space="preserve">
+    <value>중단 없음</value>
+  </data>
+  <data name="Game_Ev_CpuPc" xml:space="preserve">
+    <value>CPU 사용률(PC 전체)</value>
+  </data>
+  <data name="Game_Condition_Video" xml:space="preserve">
+    <value>비디오 메모리</value>
+  </data>
+  <data name="Source_VideoMemory" xml:space="preserve">
+    <value>Windows 성능 카운터 \GPU Adapter Memory(*)\Dedicated Usage</value>
+  </data>
+  <data name="Game_Points" xml:space="preserve">
+    <value>{0:0}%p</value>
+  </data>
+  <data name="Count_Interruption_One" xml:space="preserve">
+    <value>중단 {0}회</value>
+  </data>
+  <data name="Count_Interruption_Other" xml:space="preserve">
+    <value>중단 {0}회</value>
+  </data>
+  <data name="Game_Detect_UserMarked" xml:space="preserve">
+    <value>이 앱을 게임으로 표시했습니다.</value>
+  </data>
+  <data name="Game_Detect_Windows" xml:space="preserve">
+    <value>Windows에서 이 실행 파일을 게임으로 인식합니다(Game Bar의 게임 목록).</value>
+  </data>
+  <data name="Game_Detect_Library" xml:space="preserve">
+    <value>{0} 게임 라이브러리 폴더에 설치됨: 게임일 가능성이 높지만 Windows에서 확인되지 않았습니다.</value>
+  </data>
+  <data name="Game_Event_Started" xml:space="preserve">
+    <value>게임 시작됨: {0}</value>
+  </data>
+  <data name="Game_Event_Closed" xml:space="preserve">
+    <value>게임 종료됨: {0}({1})</value>
+  </data>
+  <data name="Game_Event_Gap" xml:space="preserve">
+    <value>{0} 동안 측정 없음(PC 절전 또는 모니터링 일시 중지)</value>
+  </data>
+  <data name="Health_NotCounted" xml:space="preserve">
+    <value>계산되지 않음</value>
+  </data>
+  <data name="Health_NoImpact" xml:space="preserve">
+    <value>영향 없음</value>
+  </data>
+  <data name="Count_Point_One" xml:space="preserve">
+    <value>{0}점</value>
+  </data>
+  <data name="Count_Point_Other" xml:space="preserve">
+    <value>{0}점</value>
+  </data>
+  <data name="Health_Collecting_Headline" xml:space="preserve">
+    <value>PC 상태: 데이터를 수집하는 중…</value>
+  </data>
+  <data name="Health_Collecting_Summary" xml:space="preserve">
+    <value>Sysora가 점수를 매기려면 몇 분 동안의 측정이 필요합니다.</value>
+  </data>
+  <data name="Health_Grade_Good" xml:space="preserve">
+    <value>좋음</value>
+  </data>
+  <data name="Health_Grade_Fair" xml:space="preserve">
+    <value>보통</value>
+  </data>
+  <data name="Health_Grade_NeedsAttention" xml:space="preserve">
+    <value>주의 필요</value>
+  </data>
+  <data name="Health_Grade_Poor" xml:space="preserve">
+    <value>나쁨</value>
+  </data>
+  <data name="Health_Grade_Collecting" xml:space="preserve">
+    <value>데이터 수집 중</value>
+  </data>
+  <data name="Health_Method" xml:space="preserve">
+    <value>점수는 100점에서 시작합니다. 각 영역은 측정 결과에 따라 점수를 감점하며, 고정 임계값이 옆에 표시됩니다. CPU, 메모리, 디스크 활동, GPU는 최근 15분 동안의 평균을 사용하므로 짧은 급증은 거의 반영되지 않습니다. 이 PC에서 측정할 수 없는 영역은 계산하지 않고 사용할 수 없음으로 표시합니다. 추정하는 값은 없습니다.</value>
+  </data>
+  <data name="Health_NoMeasurementYetLower" xml:space="preserve">
+    <value>아직 측정 없음</value>
+  </data>
+  <data name="Health_NeedsData" xml:space="preserve">
+    <value>Sysora가 점수를 매기려면 {0}의 측정이 필요합니다(현재: {1}).</value>
+  </data>
+  <data name="Health_NothingLowers" xml:space="preserve">
+    <value>현재 점수를 낮추는 항목이 없습니다.</value>
+  </data>
+  <data name="Health_LoweredBy" xml:space="preserve">
+    <value>감점 원인: {0}.</value>
+  </data>
+  <data name="Health_Headline" xml:space="preserve">
+    <value>PC 상태: {0}/100 · {1}</value>
+  </data>
+  <data name="Health_Area_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Health_Cpu_NotAvailable" xml:space="preserve">
+    <value>이 PC에서는 CPU 사용률을 사용할 수 없습니다</value>
+  </data>
+  <data name="Health_NoMeasurementYet" xml:space="preserve">
+    <value>아직 측정 없음</value>
+  </data>
+  <data name="Health_PointsTakenOff" xml:space="preserve">
+    <value>감점</value>
+  </data>
+  <data name="Health_Cpu_Thresholds" xml:space="preserve">
+    <value>평균 50% 미만이면 감점 없음, 100%에서 최대 15점</value>
+  </data>
+  <data name="Health_Cpu_Summary" xml:space="preserve">
+    <value>{1} 동안 평균 {0}(최고 {2})</value>
+  </data>
+  <data name="Health_Cpu_Problem" xml:space="preserve">
+    <value>프로세서가 평균적으로 거의 포화 상태였습니다. 앱이 느리게 응답할 수 있습니다.</value>
+  </data>
+  <data name="Health_Cpu_Attention" xml:space="preserve">
+    <value>프로세서가 대부분의 시간 동안 바빴지만 아직 약간의 여유 용량이 있었습니다.</value>
+  </data>
+  <data name="Health_Cpu_Good" xml:space="preserve">
+    <value>프로세서에 평균적으로 여유 용량이 있었습니다. 짧은 급증은 정상이며 거의 반영되지 않습니다.</value>
+  </data>
+  <data name="Health_Area_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Health_Memory_NotAvailable" xml:space="preserve">
+    <value>이 PC에서는 메모리 사용률을 사용할 수 없습니다</value>
+  </data>
+  <data name="Health_Memory_Thresholds" xml:space="preserve">
+    <value>평균 60% 미만이면 감점 없음, 95%에서 최대 20점. 커밋 크기가 한도의 90%를 넘으면 3점 추가 감점</value>
+  </data>
+  <data name="Health_CommitShare" xml:space="preserve">
+    <value>커밋 크기(한도 대비 비율)</value>
+  </data>
+  <data name="Health_CommitNote" xml:space="preserve">
+    <value>커밋 크기가 한도에 가깝습니다. Windows가 새 메모리 할당을 거부할 수 있습니다.</value>
+  </data>
+  <data name="Health_Memory_Amount" xml:space="preserve">
+    <value>({1} 중 {0})</value>
+  </data>
+  <data name="Health_Memory_Summary" xml:space="preserve">
+    <value>{2} 동안 평균 {0} 사용{1}, 최고 {3}</value>
+  </data>
+  <data name="Health_Memory_Problem" xml:space="preserve">
+    <value>메모리가 거의 가득 찼습니다. Windows가 데이터를 디스크로 옮겨야 하므로 모든 것이 느려집니다.</value>
+  </data>
+  <data name="Health_Memory_Attention" xml:space="preserve">
+    <value>메모리를 많이 사용하고 있습니다. 앱을 더 열면 PC가 느려지기 시작할 수 있습니다.</value>
+  </data>
+  <data name="Health_Memory_Good" xml:space="preserve">
+    <value>사용 중인 앱을 위한 여유 메모리가 있습니다.</value>
+  </data>
+  <data name="Health_Area_Storage" xml:space="preserve">
+    <value>저장소</value>
+  </data>
+  <data name="Health_Storage_NotAvailable" xml:space="preserve">
+    <value>이 PC에서는 사용 가능한 공간 정보를 사용할 수 없습니다</value>
+  </data>
+  <data name="Health_Storage_Reference" xml:space="preserve">
+    <value>{0} 사용 시 경고, {1} 사용 시 위험(설정 › 상태 임계값)</value>
+  </data>
+  <data name="Health_Storage_Thresholds" xml:space="preserve">
+    <value>Windows 볼륨이 위험 수준을 넘으면 16점, 경고 수준을 넘으면 8점, 다른 볼륨은 위험 수준을 넘을 때마다 4점</value>
+  </data>
+  <data name="Health_Storage_Summary" xml:space="preserve">
+    <value>{0} {2} 중 {1} 사용 가능</value>
+  </data>
+  <data name="Count_OtherVolume_One" xml:space="preserve">
+    <value>다른 볼륨 {0}개</value>
+  </data>
+  <data name="Count_OtherVolume_Other" xml:space="preserve">
+    <value>다른 볼륨 {0}개</value>
+  </data>
+  <data name="Health_Storage_Problem" xml:space="preserve">
+    <value>Windows 볼륨이 거의 가득 찼습니다. 업데이트가 실패할 수 있으며 Windows에 페이지 파일과 임시 파일을 위한 공간이 거의 없습니다.</value>
+  </data>
+  <data name="Health_Storage_Attention" xml:space="preserve">
+    <value>볼륨이 가득 차고 있습니다. 큰 파일에서 공간을 가장 많이 차지하는 항목을 확인할 수 있습니다(Sysora는 아무것도 삭제하지 않음).</value>
+  </data>
+  <data name="Health_Storage_Good" xml:space="preserve">
+    <value>모든 볼륨에 남은 공간이 있습니다.</value>
+  </data>
+  <data name="Health_Area_Disk" xml:space="preserve">
+    <value>디스크 활동</value>
+  </data>
+  <data name="Health_Disk_NotAvailable" xml:space="preserve">
+    <value>이 PC에서는 디스크 활동을 사용할 수 없습니다</value>
+  </data>
+  <data name="Health_Disk_Busiest" xml:space="preserve">
+    <value>가장 바쁜 디스크의 활성 시간</value>
+  </data>
+  <data name="Health_Disk_Thresholds" xml:space="preserve">
+    <value>평균 40% 미만이면 감점 없음, 90%에서 최대 10점</value>
+  </data>
+  <data name="Health_Disk_Summary" xml:space="preserve">
+    <value>가장 바쁜 디스크가 평균 {0}의 시간 동안 활성 상태(최고 {1})</value>
+  </data>
+  <data name="Health_Disk_Problem" xml:space="preserve">
+    <value>디스크가 대부분의 시간 동안 바빴습니다. 파일과 앱을 열 때 디스크를 기다려야 합니다.</value>
+  </data>
+  <data name="Health_Disk_Attention" xml:space="preserve">
+    <value>디스크가 자주 바빴습니다(업데이트, 인덱싱, 복사 또는 많은 데이터를 읽는 앱).</value>
+  </data>
+  <data name="Health_Disk_Good" xml:space="preserve">
+    <value>디스크가 대부분 유휴 상태였습니다.</value>
+  </data>
+  <data name="Health_Gpu_Off" xml:space="preserve">
+    <value>설정에서 GPU 모니터링이 꺼져 있습니다</value>
+  </data>
+  <data name="Health_Gpu_NotAvailable" xml:space="preserve">
+    <value>이 PC에서는 GPU 사용률을 사용할 수 없습니다</value>
+  </data>
+  <data name="Health_Gpu_VideoMemory" xml:space="preserve">
+    <value>비디오 메모리 {1} 중 {0}</value>
+  </data>
+  <data name="Health_Gpu_Dedicated" xml:space="preserve">
+    <value>전용 비디오 메모리({0})</value>
+  </data>
+  <data name="Health_Gpu_DedicatedValue" xml:space="preserve">
+    <value>{1} 중 {0}({2})</value>
+  </data>
+  <data name="Health_Gpu_Reference" xml:space="preserve">
+    <value>95% 이상이면 5점 감점</value>
+  </data>
+  <data name="Health_Gpu_Usage" xml:space="preserve">
+    <value>평균 사용률 {0}</value>
+  </data>
+  <data name="Health_Gpu_Attention" xml:space="preserve">
+    <value>비디오 메모리가 거의 가득 찼습니다. Windows가 데이터를 시스템 메모리로 옮기는 동안 게임과 그래픽 앱이 끊길 수 있습니다.</value>
+  </data>
+  <data name="Health_Gpu_Good" xml:space="preserve">
+    <value>게임이나 동영상 재생 중에는 GPU가 바쁜 것이 정상이므로 사용률만으로는 점수가 낮아지지 않습니다. 비디오 메모리가 거의 가득 찬 경우에만 낮아집니다.</value>
+  </data>
+  <data name="Health_Area_Temperatures" xml:space="preserve">
+    <value>온도</value>
+  </data>
+  <data name="Health_Temperatures_NotAvailable" xml:space="preserve">
+    <value>사용할 수 없음: Windows에는 커널 드라이버 없이 이를 읽는 문서화된 방법이 없으며, Sysora는 커널 드라이버를 설치하지 않습니다</value>
+  </data>
+  <data name="Health_Temperatures_Good" xml:space="preserve">
+    <value>드라이버가 보고한 온도가 정상 범위입니다.</value>
+  </data>
+  <data name="Health_Temperatures_Hot" xml:space="preserve">
+    <value>구성 요소가 뜨겁습니다. 열을 식히기 위해 스스로 속도를 낮출 수 있습니다.</value>
+  </data>
+  <data name="Health_Temperature_Of" xml:space="preserve">
+    <value>{0} 온도</value>
+  </data>
+  <data name="Health_Temperature_Reference" xml:space="preserve">
+    <value>85°C에서 5점, 95°C에서 10점</value>
+  </data>
+  <data name="Health_Temperature_Source" xml:space="preserve">
+    <value>그래픽 드라이버</value>
+  </data>
+  <data name="Health_Area_Stability" xml:space="preserve">
+    <value>안정성</value>
+  </data>
+  <data name="Health_NotAnalyzedYet" xml:space="preserve">
+    <value>아직 분석되지 않음</value>
+  </data>
+  <data name="Health_Stability_None" xml:space="preserve">
+    <value>최근 {0}일 동안 반복된 문제 없음</value>
+  </data>
+  <data name="Count_RecurringProblem_One" xml:space="preserve">
+    <value>반복 문제 {0}개</value>
+  </data>
+  <data name="Count_RecurringProblem_Other" xml:space="preserve">
+    <value>반복 문제 {0}개</value>
+  </data>
+  <data name="Health_Stability_Good" xml:space="preserve">
+    <value>최근 며칠 동안 반복해서 발생한 문제가 없습니다.</value>
+  </data>
+  <data name="Health_Stability_Problems" xml:space="preserve">
+    <value>이 문제들은 여러 날에 걸쳐 다시 발생했습니다. 반복되는 문제에는 대개 찾아볼 만한 원인이 있습니다.</value>
+  </data>
+  <data name="Health_RecurringProblems" xml:space="preserve">
+    <value>반복 문제</value>
+  </data>
+  <data name="Health_Stability_Reference" xml:space="preserve">
+    <value>문제당 4점(최대 {0}점). 서로 다른 {2}일에 {1}회 발생하면 반복 문제로 봅니다.</value>
+  </data>
+  <data name="Health_Stability_Source" xml:space="preserve">
+    <value>로컬 기록의 경고 및 이벤트</value>
+  </data>
+  <data name="Health_Area_Anomalies" xml:space="preserve">
+    <value>최근 이상 징후</value>
+  </data>
+  <data name="Health_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="Health_Anomalies_None" xml:space="preserve">
+    <value>지난 24시간 동안 경고 없음</value>
+  </data>
+  <data name="Health_Anomalies_Count" xml:space="preserve">
+    <value>지난 24시간 동안 {0}</value>
+  </data>
+  <data name="Health_Anomalies_Active" xml:space="preserve">
+    <value>({0}개 아직 활성)</value>
+  </data>
+  <data name="Health_Anomalies_Good" xml:space="preserve">
+    <value>최근 오래 지속되거나 평소와 다른 문제가 감지되지 않았습니다.</value>
+  </data>
+  <data name="Health_Anomalies_Explanation" xml:space="preserve">
+    <value>경고는 오래 지속되었거나 이 PC에서 평소와 다른 문제에 대해서만 발생합니다. 이 PC에서 평소 수준으로 표시된 경고는 감점되지 않습니다.</value>
+  </data>
+  <data name="Health_Area_Usual" xml:space="preserve">
+    <value>평소 동작</value>
+  </data>
+  <data name="Health_Usual_Now" xml:space="preserve">
+    <value>현재 {0}(15분 평균)</value>
+  </data>
+  <data name="Health_Usual_Reference" xml:space="preserve">
+    <value>평소 {0}(중앙값 {1}), {2} 초과 시 평소와 다름</value>
+  </data>
+  <data name="Health_Usual_Item" xml:space="preserve">
+    <value>{0}(현재 {1}, 평소 {2})</value>
+  </data>
+  <data name="Health_Unusual" xml:space="preserve">
+    <value>평소와 다름</value>
+  </data>
+  <data name="Health_Usual" xml:space="preserve">
+    <value>평소</value>
+  </data>
+  <data name="Health_Usual_Above" xml:space="preserve">
+    <value>평소 범위보다 높음: {0}</value>
+  </data>
+  <data name="Health_Usual_Within" xml:space="preserve">
+    <value>평소 범위 내</value>
+  </data>
+  <data name="Health_Usual_Busier" xml:space="preserve">
+    <value>이 PC가 평소보다 바쁩니다. 예상된 일(게임, 빌드)일 수도 있고 백그라운드에서 무언가가 실행되고 있다는 신호일 수도 있습니다.</value>
+  </data>
+  <data name="Health_Usual_Matches" xml:space="preserve">
+    <value>활동이 이 PC의 평소 상태와 일치합니다.</value>
+  </data>
+  <data name="Health_Missing_Explanation" xml:space="preserve">
+    <value>점수에 반영되지 않음: Sysora는 누락된 측정을 추정값으로 대체하지 않습니다.</value>
+  </data>
+  <data name="Health_Status_Normal" xml:space="preserve">
+    <value>정상</value>
+  </data>
+  <data name="Health_Status_Attention" xml:space="preserve">
+    <value>주의</value>
+  </data>
+  <data name="Health_Status_Problem" xml:space="preserve">
+    <value>문제</value>
+  </data>
+  <data name="Health_ThresholdsSource" xml:space="preserve">
+    <value>Sysora의 고정 점수 임계값</value>
+  </data>
+  <data name="Health_UsualMedian" xml:space="preserve">
+    <value>{0}(중앙값 {1})</value>
+  </data>
+  <data name="AlertSeverity_Critical" xml:space="preserve">
+    <value>위험</value>
+  </data>
+  <data name="AlertSeverity_Warning" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="AlertSeverity_Info" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="Event_InternetAvailable" xml:space="preserve">
+    <value>인터넷 액세스 가능</value>
+  </data>
+  <data name="Event_InternetLimited" xml:space="preserve">
+    <value>인터넷 액세스 제한됨</value>
+  </data>
+  <data name="Event_InternetLost" xml:space="preserve">
+    <value>인터넷 액세스 끊김(로컬 네트워크만)</value>
+  </data>
+  <data name="Event_NetworkLost" xml:space="preserve">
+    <value>네트워크 연결 끊김</value>
+  </data>
+  <data name="Event_MetricUnavailable" xml:space="preserve">
+    <value>{0} 메트릭을 사용할 수 없음</value>
+  </data>
+  <data name="Event_MetricRestored" xml:space="preserve">
+    <value>{0} 메트릭을 다시 사용할 수 있음</value>
+  </data>
+  <data name="Event_AsReportedByWindows" xml:space="preserve">
+    <value>Windows에서 보고한 정보</value>
+  </data>
+  <data name="Event_VolumeConnected" xml:space="preserve">
+    <value>볼륨 {0}{1} 연결됨</value>
+  </data>
+  <data name="Event_VolumeSize" xml:space="preserve">
+    <value>{0} {1} 볼륨</value>
+  </data>
+  <data name="Event_VolumeDisconnected" xml:space="preserve">
+    <value>볼륨 {0} 연결 끊김</value>
+  </data>
+  <data name="Event_AppCpu" xml:space="preserve">
+    <value>{0} CPU가 {1}(으)로 증가</value>
+  </data>
+  <data name="Event_AppCpuDetail" xml:space="preserve">
+    <value>메모리 {0}, {1}</value>
+  </data>
+  <data name="Event_AppMemory" xml:space="preserve">
+    <value>{0}이(가) 메모리 {1} 사용</value>
+  </data>
+  <data name="Event_AppMemoryDetail" xml:space="preserve">
+    <value>물리적 메모리의 {0}</value>
+  </data>
+  <data name="Event_RanFor" xml:space="preserve">
+    <value>{0} 동안 실행되었습니다.</value>
+  </data>
+  <data name="Event_AppExited" xml:space="preserve">
+    <value>{0} 종료됨</value>
+  </data>
+  <data name="Event_AppExitedDetail" xml:space="preserve">
+    <value>CPU {0}, 메모리 {1}을(를) 사용하고 있었음</value>
+  </data>
+  <data name="Event_AppClosed" xml:space="preserve">
+    <value>{0} 닫힘</value>
+  </data>
+  <data name="Event_RanForShort" xml:space="preserve">
+    <value>{0} 동안 실행됨</value>
+  </data>
+  <data name="Event_AppStarted" xml:space="preserve">
+    <value>{0} 시작됨</value>
+  </data>
+  <data name="Event_Kind_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Event_Kind_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Event_Kind_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Event_Kind_Storage" xml:space="preserve">
+    <value>저장소</value>
+  </data>
+  <data name="Event_Kind_Disk" xml:space="preserve">
+    <value>디스크 활동</value>
+  </data>
+  <data name="Event_Kind_Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="Event_Kind_Processes" xml:space="preserve">
+    <value>프로세스</value>
+  </data>
+  <data name="Event_Kind_System" xml:space="preserve">
+    <value>시스템</value>
+  </data>
+  <data name="DriveKind_Fixed" xml:space="preserve">
+    <value>고정</value>
+  </data>
+  <data name="DriveKind_Removable" xml:space="preserve">
+    <value>이동식</value>
+  </data>
+  <data name="DriveKind_Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="DriveKind_Optical" xml:space="preserve">
+    <value>광</value>
+  </data>
+  <data name="DriveKind_Ram" xml:space="preserve">
+    <value>RAM 디스크</value>
+  </data>
+  <data name="DriveKind_Other" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="Event_Gap" xml:space="preserve">
+    <value>{0} 동안 측정 없음</value>
+  </data>
+  <data name="Event_GapDetail" xml:space="preserve">
+    <value>이 기간 동안 Sysora가 실행되지 않았거나 PC가 절전 상태였습니다.</value>
+  </data>
+  <data name="Event_MonitoringStarted" xml:space="preserve">
+    <value>모니터링 시작됨</value>
+  </data>
+  <data name="Event_MonitoringPaused" xml:space="preserve">
+    <value>모니터링 일시 중지됨</value>
+  </data>
+  <data name="Event_MonitoringResumed" xml:space="preserve">
+    <value>모니터링 다시 시작됨</value>
+  </data>
+  <data name="Indicator_CpuNotAvailable" xml:space="preserve">
+    <value>CPU 사용률을 사용할 수 없음</value>
+  </data>
+  <data name="Indicator_CpuNormal" xml:space="preserve">
+    <value>CPU 정상</value>
+  </data>
+  <data name="Indicator_MemoryNotAvailable" xml:space="preserve">
+    <value>메모리 사용률을 사용할 수 없음</value>
+  </data>
+  <data name="Indicator_MemoryNormal" xml:space="preserve">
+    <value>메모리 정상</value>
+  </data>
+  <data name="Indicator_StorageNotAvailable" xml:space="preserve">
+    <value>저장소 정보를 사용할 수 없음</value>
+  </data>
+  <data name="Indicator_Storage" xml:space="preserve">
+    <value>저장소 {0} {1}</value>
+  </data>
+  <data name="Indicator_AboveCritical" xml:space="preserve">
+    <value>위험 임계값 {0} 초과</value>
+  </data>
+  <data name="Indicator_AboveWarning" xml:space="preserve">
+    <value>경고 임계값 {0} 초과</value>
+  </data>
+  <data name="Indicator_StorageNormal" xml:space="preserve">
+    <value>저장소 정상</value>
+  </data>
+  <data name="Indicator_NetworkNotAvailable" xml:space="preserve">
+    <value>네트워크 상태를 사용할 수 없음</value>
+  </data>
+  <data name="Indicator_NetworkConnected" xml:space="preserve">
+    <value>네트워크 연결됨</value>
+  </data>
+  <data name="Indicator_NetworkRestricted" xml:space="preserve">
+    <value>Windows에서 액세스가 제한되었다고 보고합니다(예: 로그인 페이지)</value>
+  </data>
+  <data name="Indicator_NetworkNoInternet" xml:space="preserve">
+    <value>네트워크는 사용 가능하지만 인터넷을 사용할 수 없음</value>
+  </data>
+  <data name="Indicator_NetworkUnknown" xml:space="preserve">
+    <value>네트워크 상태를 알 수 없음</value>
+  </data>
+  <data name="Indicator_ProcessesNotAvailable" xml:space="preserve">
+    <value>프로세스 정보를 사용할 수 없음</value>
+  </data>
+  <data name="Indicator_AppMemory" xml:space="preserve">
+    <value>{0}이(가) 메모리 {1} 사용</value>
+  </data>
+  <data name="Indicator_AppMemoryThreshold" xml:space="preserve">
+    <value>앱당 임계값 {0} 초과</value>
+  </data>
+  <data name="Indicator_AppCpu" xml:space="preserve">
+    <value>{0}이(가) CPU를 많이 사용함</value>
+  </data>
+  <data name="Indicator_NoAbnormalProcess" xml:space="preserve">
+    <value>비정상적인 프로세스가 감지되지 않음</value>
+  </data>
+  <data name="Indicator_AboveFor" xml:space="preserve">
+    <value>{1}초 넘게 {0} 초과</value>
+  </data>
+  <data name="Intensity_Minimal_Description" xml:space="preserve">
+    <value>게임 또는 배터리용: 샘플링 빈도를 낮추고(CPU와 메모리는 2간격마다, 프로세스, GPU, 디스크는 3간격마다), 샘플당 보관하는 앱 수를 줄이며, 10초마다 경고를 평가합니다.</value>
+  </data>
+  <data name="Intensity_Detailed_Description" xml:space="preserve">
+    <value>문제 조사용: 도움이 되는 곳에서는 두 배로 자주 샘플링하고(CPU와 메모리 최소 0.5초, 프로세스 1초), 샘플당 더 많은 앱을 보관합니다.</value>
+  </data>
+  <data name="Intensity_Balanced_Description" xml:space="preserve">
+    <value>기본값: 아래에 설정된 간격을 사용하며, 정확도와 Sysora 자체 사용량 사이의 균형이 좋습니다.</value>
+  </data>
+  <data name="Intensity_Minimal" xml:space="preserve">
+    <value>최소</value>
+  </data>
+  <data name="Intensity_Detailed" xml:space="preserve">
+    <value>상세</value>
+  </data>
+  <data name="Intensity_Balanced" xml:space="preserve">
+    <value>균형</value>
+  </data>
+  <data name="Event_Sleep" xml:space="preserve">
+    <value>PC가 절전 모드로 전환 중</value>
+  </data>
+  <data name="Event_ResumedAfter" xml:space="preserve">
+    <value>PC가 절전 모드에서 다시 시작됨(절전 {0})</value>
+  </data>
+  <data name="Event_Resumed" xml:space="preserve">
+    <value>PC가 절전 모드에서 다시 시작됨</value>
+  </data>
+  <data name="Self_Measuring" xml:space="preserve">
+    <value>Sysora 영향: 측정 중…</value>
+  </data>
+  <data name="Self_OverBudget" xml:space="preserve">
+    <value>Sysora가 1분 동안 CPU 예산(전체 용량의 {0})보다 많이 사용했습니다. 가볍게 유지하기 위해 수집 간격을 ×{1:0.##} 늘립니다.</value>
+  </data>
+  <data name="Self_HighMemory" xml:space="preserve">
+    <value>Sysora가 예상보다 많은 메모리 {0}을(를) 사용합니다. 다시 시작하면 메모리가 확보됩니다. 계속 늘어나면 보고해 주세요.</value>
+  </data>
+  <data name="Self_HighAllocations" xml:space="preserve">
+    <value>Sysora가 메모리 {0}을(를) 할당합니다. 평소보다 가비지 수집 작업이 많습니다.</value>
+  </data>
+  <data name="Self_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Cpu_Note" xml:space="preserve">
+    <value>최근 {0:0}초 동안 전체 용량 대비</value>
+  </data>
+  <data name="Self_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Self_Memory_NoteManaged" xml:space="preserve">
+    <value>작업 집합, 그중 .NET 개체 {0}</value>
+  </data>
+  <data name="Self_Memory_Note" xml:space="preserve">
+    <value>작업 집합</value>
+  </data>
+  <data name="Self_Allocations" xml:space="preserve">
+    <value>할당</value>
+  </data>
+  <data name="Self_Allocations_Note" xml:space="preserve">
+    <value>최근 기간의 가비지 수집: {0} / {1} / {2}(0 / 1 / 2세대)</value>
+  </data>
+  <data name="Self_DiskWrites" xml:space="preserve">
+    <value>디스크 쓰기</value>
+  </data>
+  <data name="Self_DiskWrites_Note" xml:space="preserve">
+    <value>Sysora 자체 쓰기(기록 데이터베이스, 설정, 로그), 프로세스 목록의 항목 기준</value>
+  </data>
+  <data name="Self_Background" xml:space="preserve">
+    <value>백그라운드 활동</value>
+  </data>
+  <data name="Self_Background_Value" xml:space="preserve">
+    <value>{0} · 분당 수집 {1:0}회</value>
+  </data>
+  <data name="Self_Processes" xml:space="preserve">
+    <value>분석된 프로세스</value>
+  </data>
+  <data name="Self_Processes_Note" xml:space="preserve">
+    <value>{0}마다 한 번의 시스템 호출로</value>
+  </data>
+  <data name="Self_Threads" xml:space="preserve">
+    <value>스레드</value>
+  </data>
+  <data name="Self_Headline" xml:space="preserve">
+    <value>Sysora 영향: {0}</value>
+  </data>
+  <data name="Self_Level_Low" xml:space="preserve">
+    <value>낮음</value>
+  </data>
+  <data name="Self_Level_Moderate" xml:space="preserve">
+    <value>보통</value>
+  </data>
+  <data name="Self_Level_High" xml:space="preserve">
+    <value>높음</value>
+  </data>
+  <data name="Self_Level_Measuring" xml:space="preserve">
+    <value>측정 중…</value>
+  </data>
+  <data name="Self_Interval_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Interval_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Self_Interval_Processes" xml:space="preserve">
+    <value>프로세스</value>
+  </data>
+  <data name="Self_Interval_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Self_Interval_Disks" xml:space="preserve">
+    <value>디스크</value>
+  </data>
+  <data name="Self_Interval_Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="Self_Interval_Space" xml:space="preserve">
+    <value>사용 가능한 공간</value>
+  </data>
+  <data name="Self_Investigating" xml:space="preserve">
+    <value>조사 진행 중(상세)</value>
+  </data>
+  <data name="Self_Intensity" xml:space="preserve">
+    <value>강도 {0}</value>
+  </data>
+  <data name="Self_Hidden" xml:space="preserve">
+    <value>창 숨김: 화면에 표시되는 메트릭 갱신 속도 낮춤</value>
+  </data>
+  <data name="LargeFiles_NoExtension" xml:space="preserve">
+    <value>(확장명 없음)</value>
+  </data>
+  <data name="LargeFiles_Found" xml:space="preserve">
+    <value>{3}에서 {1} 이상인 {0}({2})</value>
+  </data>
+  <data name="Count_File_One" xml:space="preserve">
+    <value>파일 {0}개</value>
+  </data>
+  <data name="Count_File_Other" xml:space="preserve">
+    <value>파일 {0}개</value>
+  </data>
+  <data name="Count_Folder_One" xml:space="preserve">
+    <value>폴더 {0:N0}개</value>
+  </data>
+  <data name="Count_Folder_Other" xml:space="preserve">
+    <value>폴더 {0:N0}개</value>
+  </data>
+  <data name="LargeFiles_Denied_One" xml:space="preserve">
+    <value>폴더 {0}개를 읽을 수 없음(액세스 거부됨)</value>
+  </data>
+  <data name="LargeFiles_Denied_Other" xml:space="preserve">
+    <value>폴더 {0}개를 읽을 수 없음(액세스 거부됨)</value>
+  </data>
+  <data name="LargeFiles_Unavailable_One" xml:space="preserve">
+    <value>폴더 {0}개를 사용할 수 없음</value>
+  </data>
+  <data name="LargeFiles_Unavailable_Other" xml:space="preserve">
+    <value>폴더 {0}개를 사용할 수 없음</value>
+  </data>
+  <data name="LargeFiles_ProblemsSuffix" xml:space="preserve">
+    <value>{0}: 내용이 비어 있는 것이 아니라 알 수 없는 상태입니다.</value>
+  </data>
+  <data name="LargeFiles_Cancelled" xml:space="preserve">
+    <value>{0} 후 검사가 취소됨: 부분 결과, {1}{2}</value>
+  </data>
+  <data name="LargeFiles_Failed" xml:space="preserve">
+    <value>검사에 실패했습니다.</value>
+  </data>
+  <data name="LargeFiles_Completed" xml:space="preserve">
+    <value>{0} 만에 검사 완료: {1}{2}</value>
+  </data>
+  <data name="LargeFiles_WindowsNote" xml:space="preserve">
+    <value>Windows에서 관리함: 직접 삭제하지 마세요.</value>
+  </data>
+  <data name="LargeFiles_PageFile" xml:space="preserve">
+    <value>Windows 페이지 파일입니다. 크기는 시스템 › 고급 시스템 설정에서 설정합니다. 직접 삭제하지 마세요.</value>
+  </data>
+  <data name="LargeFiles_Hiberfil" xml:space="preserve">
+    <value>최대 절전 모드 파일입니다(빠른 시작에도 사용됨). Windows에서 관리함: 직접 삭제하지 마세요.</value>
+  </data>
+  <data name="LargeFiles_RecycleBinNote" xml:space="preserve">
+    <value>휴지통에 있음: 휴지통을 비우면 이 공간이 확보됩니다.</value>
+  </data>
+  <data name="LargeFiles_InstallerCache" xml:space="preserve">
+    <value>Windows Installer 캐시: 앱을 복구하거나 제거하는 데 필요합니다. 직접 삭제하지 마세요.</value>
+  </data>
+  <data name="LargeFiles_VirtualDiskNote" xml:space="preserve">
+    <value>가상 디스크: WSL, Hyper-V, Docker 또는 가상 머신에 속하며 해당 데이터를 담고 있을 수 있습니다.</value>
+  </data>
+  <data name="LargeFiles_DatabaseNote" xml:space="preserve">
+    <value>데이터베이스 파일: 앱이 데이터를 보관하는 파일입니다.</value>
+  </data>
+  <data name="LargeFiles_GameDataNote" xml:space="preserve">
+    <value>게임 데이터: 제거하면 게임이 손상됩니다. 대신 게임을 제거하세요.</value>
+  </data>
+  <data name="LargeFiles_Cat_Video" xml:space="preserve">
+    <value>동영상</value>
+  </data>
+  <data name="LargeFiles_Cat_Audio" xml:space="preserve">
+    <value>오디오</value>
+  </data>
+  <data name="LargeFiles_Cat_Image" xml:space="preserve">
+    <value>이미지</value>
+  </data>
+  <data name="LargeFiles_Cat_Archive" xml:space="preserve">
+    <value>압축 파일</value>
+  </data>
+  <data name="LargeFiles_Cat_DiskImage" xml:space="preserve">
+    <value>디스크 이미지</value>
+  </data>
+  <data name="LargeFiles_Cat_VirtualDisk" xml:space="preserve">
+    <value>가상 디스크</value>
+  </data>
+  <data name="LargeFiles_Cat_Installer" xml:space="preserve">
+    <value>설치 프로그램</value>
+  </data>
+  <data name="LargeFiles_Cat_Backup" xml:space="preserve">
+    <value>백업</value>
+  </data>
+  <data name="LargeFiles_Cat_Database" xml:space="preserve">
+    <value>데이터베이스</value>
+  </data>
+  <data name="LargeFiles_Cat_Log" xml:space="preserve">
+    <value>로그 및 덤프</value>
+  </data>
+  <data name="LargeFiles_Cat_Document" xml:space="preserve">
+    <value>문서</value>
+  </data>
+  <data name="LargeFiles_Cat_GameData" xml:space="preserve">
+    <value>게임 데이터</value>
+  </data>
+  <data name="LargeFiles_Cat_Windows" xml:space="preserve">
+    <value>Windows에서 관리함</value>
+  </data>
+  <data name="LargeFiles_Cat_RecycleBin" xml:space="preserve">
+    <value>휴지통</value>
+  </data>
+  <data name="LargeFiles_Cat_Other" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="Timeline_High" xml:space="preserve">
+    <value>{0} 높음</value>
+  </data>
+  <data name="Timeline_High_Detail" xml:space="preserve">
+    <value>1분 동안 평균 {0}(최고 {1})</value>
+  </data>
+  <data name="Timeline_Source_Minutes" xml:space="preserve">
+    <value>분당 기록</value>
+  </data>
+  <data name="Timeline_Normal" xml:space="preserve">
+    <value>{0} 정상으로 돌아옴</value>
+  </data>
+  <data name="Timeline_Normal_Detail" xml:space="preserve">
+    <value>{0} 동안의 높은 활동 후(최고 {1})</value>
+  </data>
+  <data name="Timeline_Source_Observed" xml:space="preserve">
+    <value>Sysora가 관찰함</value>
+  </data>
+  <data name="Timeline_Was" xml:space="preserve">
+    <value>이전: {0}</value>
+  </data>
+  <data name="Timeline_HappenedBetween" xml:space="preserve">
+    <value>{0}~{1} 사이에 발생했습니다.</value>
+  </data>
+  <data name="Timeline_Source_Snapshots" xml:space="preserve">
+    <value>PC 스냅숏을 비교하여 감지함</value>
+  </data>
+  <data name="Trouble_Metric_MemoryAmount" xml:space="preserve">
+    <value>사용 중인 메모리(양)</value>
+  </data>
+  <data name="Trouble_Metric_Disk" xml:space="preserve">
+    <value>디스크 활성 시간(가장 바쁜 디스크)</value>
+  </data>
+  <data name="Trouble_Likely" xml:space="preserve">
+    <value>가능성 높음</value>
+  </data>
+  <data name="Trouble_Headline_Nothing" xml:space="preserve">
+    <value>조사 완료: 비정상적인 측정 없음</value>
+  </data>
+  <data name="Trouble_Headline_One" xml:space="preserve">
+    <value>조사 완료: 이상 징후 {0}개 발견</value>
+  </data>
+  <data name="Trouble_Headline_Other" xml:space="preserve">
+    <value>조사 완료: 이상 징후 {0}개 발견</value>
+  </data>
+  <data name="Trouble_Summary_NoMeasurement" xml:space="preserve">
+    <value>조사하는 동안 측정이 이루어지지 않았습니다(모니터링 일시 중지 또는 PC 절전).</value>
+  </data>
+  <data name="Trouble_Summary_Over" xml:space="preserve">
+    <value>{1} 동안 {0}</value>
+  </data>
+  <data name="Trouble_Summary_Cpu" xml:space="preserve">
+    <value>: CPU 평균 {0}(최고 {1})</value>
+  </data>
+  <data name="Trouble_Summary_Memory" xml:space="preserve">
+    <value>, 메모리 {0}(최고 {1})</value>
+  </data>
+  <data name="Trouble_Summary_Suggests" xml:space="preserve">
+    <value>증거에 따르면: {0}</value>
+  </data>
+  <data name="Trouble_Summary_NoSingleApp" xml:space="preserve">
+    <value>이상 징후를 명확하게 설명하는 단일 앱이 없습니다.</value>
+  </data>
+  <data name="Trouble_Summary_Nothing" xml:space="preserve">
+    <value>비정상적인 측정이 없습니다.</value>
+  </data>
+  <data name="Trouble_HighLoad" xml:space="preserve">
+    <value>높은 부하</value>
+  </data>
+  <data name="Trouble_HighLoad_Text" xml:space="preserve">
+    <value>측정 {2}개 중 {1}개에서 {0}({3}의 시간)</value>
+  </data>
+  <data name="Trouble_Share_Cpu" xml:space="preserve">
+    <value>CPU {0} 이상</value>
+  </data>
+  <data name="Trouble_Share_Memory" xml:space="preserve">
+    <value>메모리 {0} 이상</value>
+  </data>
+  <data name="Trouble_Share_Disk" xml:space="preserve">
+    <value>디스크 활성 시간 {0} 이상</value>
+  </data>
+  <data name="Trouble_Alert" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Trouble_Interruption" xml:space="preserve">
+    <value>중단</value>
+  </data>
+  <data name="Trouble_DiagnosisAtEnd" xml:space="preserve">
+    <value>종료 시점의 진단</value>
+  </data>
+  <data name="Trouble_HighCpu" xml:space="preserve">
+    <value>높은 CPU</value>
+  </data>
+  <data name="Trouble_HighCpu_Text" xml:space="preserve">
+    <value>CPU가 높았던 {2}번의 순간 중 {1}번은 {0}이(가) 가장 바빴습니다(최고 {3})</value>
+  </data>
+  <data name="Trouble_BusyDisk" xml:space="preserve">
+    <value>디스크 사용 중</value>
+  </data>
+  <data name="Trouble_BusyDisk_Text" xml:space="preserve">
+    <value>디스크가 바빴던 {2}번의 순간 중 {1}번은 {0}의 I/O(파일, 장치, 네트워크 합계)가 가장 많았습니다</value>
+  </data>
+  <data name="Trouble_MemoryGrowth" xml:space="preserve">
+    <value>메모리 증가</value>
+  </data>
+  <data name="Trouble_MemoryGrowth_Text" xml:space="preserve">
+    <value>사용 중인 메모리가 {0} 증가했으며, 그중 {1}이(가) {2} 증가했습니다</value>
+  </data>
+  <data name="Trouble_Game" xml:space="preserve">
+    <value>게임</value>
+  </data>
+  <data name="Trouble_Game_Text" xml:space="preserve">
+    <value>{1}의 {0}: 그 이후의 높은 부하는 예상된 일입니다</value>
+  </data>
+  <data name="Trouble_StartedDuring" xml:space="preserve">
+    <value>조사 중에 시작됨</value>
+  </data>
+  <data name="Trouble_At" xml:space="preserve">
+    <value>{1}의 {0}</value>
+  </data>
+  <data name="Trouble_Unknown_Temperatures" xml:space="preserve">
+    <value>사용할 수 없음: Windows에는 커널 드라이버 없이 이를 읽는 문서화된 방법이 없습니다.</value>
+  </data>
+  <data name="Trouble_Unknown_Gpu" xml:space="preserve">
+    <value>이 PC에서 사용할 수 없음(또는 GPU 모니터링이 꺼져 있음).</value>
+  </data>
+  <data name="Trouble_Applications" xml:space="preserve">
+    <value>앱</value>
+  </data>
+  <data name="Trouble_Unknown_Applications" xml:space="preserve">
+    <value>사용할 수 없음: 조사 중에 프로세스 측정이 없었습니다.</value>
+  </data>
+  <data name="Trouble_NetworkPerApp" xml:space="preserve">
+    <value>앱별 네트워크</value>
+  </data>
+  <data name="Trouble_Unknown_Network" xml:space="preserve">
+    <value>사용할 수 없음: Windows는 관리자 수준의 이벤트 추적 없이 이를 보고하지 않습니다.</value>
+  </data>
+  <data name="Trouble_Fps" xml:space="preserve">
+    <value>프레임 속도(FPS)</value>
+  </data>
+  <data name="Trouble_Unknown_Fps" xml:space="preserve">
+    <value>사용할 수 없음: Windows는 다른 앱에 신뢰할 수 있는 정보를 제공하지 않습니다.</value>
+  </data>
+  <data name="Trouble_InsideApps" xml:space="preserve">
+    <value>앱 내부</value>
+  </data>
+  <data name="Trouble_Unknown_Inside" xml:space="preserve">
+    <value>앱이 내부적으로 무엇을 하는지(리소스를 사용하는 이유)는 외부에서 관찰할 수 없습니다.</value>
+  </data>
+  <data name="Trouble_Rec_Cpu" xml:space="preserve">
+    <value>느려진 시점이 {0}이(가) 바빴던 순간과 일치했다면 앱을 닫거나 작업이 끝나도록 둔 다음, 비교를 위해 다시 조사하세요.</value>
+  </data>
+  <data name="Trouble_Rec_Memory" xml:space="preserve">
+    <value>메모리가 가끔 거의 가득 찼습니다. 필요하지 않은 앱을 닫으세요. 자주 발생하면 메모리를 늘리는 것이 도움이 됩니다.</value>
+  </data>
+  <data name="Trouble_Rec_Disk" xml:space="preserve">
+    <value>디스크가 가끔 매우 바빴습니다. 업데이트나 복사가 끝나도록 두세요. 앱 영향에서 가장 많이 읽고 쓰는 앱을 확인할 수 있습니다.</value>
+  </data>
+  <data name="Trouble_Rec_Nothing" xml:space="preserve">
+    <value>비정상적인 측정이 없습니다. 조사 중에 문제가 발생했다면 이 측정에 나타나지 않는 문제일 수 있습니다(네트워크 지연, 프레임 저하, 장치 결함). 그렇지 않다면 문제가 발생하는 동안 다시 조사하세요.</value>
+  </data>
+  <data name="Trouble_Rec_Export" xml:space="preserve">
+    <value>보고서를 내보내 보관하거나 도움을 주는 사람과 공유하세요.</value>
+  </data>
+  <data name="Trouble_Event_Started" xml:space="preserve">
+    <value>문제 해결 시작됨({0})</value>
+  </data>
+  <data name="Trouble_Event_StartedDetail" xml:space="preserve">
+    <value>조사가 끝날 때까지 상세하게 수집합니다.</value>
+  </data>
+  <data name="AlertStatus_New" xml:space="preserve">
+    <value>신규</value>
+  </data>
+  <data name="AlertStatus_Seen" xml:space="preserve">
+    <value>확인함</value>
+  </data>
+  <data name="AlertStatus_Resolved" xml:space="preserve">
+    <value>해결됨</value>
+  </data>
+  <data name="Importance_High" xml:space="preserve">
+    <value>높음</value>
+  </data>
+  <data name="Importance_Medium" xml:space="preserve">
+    <value>보통</value>
+  </data>
+  <data name="Importance_Low" xml:space="preserve">
+    <value>낮음</value>
+  </data>
+  <data name="TimelineCat_Application" xml:space="preserve">
+    <value>앱</value>
+  </data>
+  <data name="TimelineCat_Game" xml:space="preserve">
+    <value>게임</value>
+  </data>
+  <data name="TimelineCat_Alert" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="TimelineCat_Anomaly" xml:space="preserve">
+    <value>이상 징후</value>
+  </data>
+  <data name="TimelineCat_Change" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="TimelineCat_System" xml:space="preserve">
+    <value>시스템</value>
+  </data>
+  <data name="TimelineCat_Investigation" xml:space="preserve">
+    <value>조사</value>
+  </data>
+  <data name="TimelineCat_Monitoring" xml:space="preserve">
+    <value>모니터링</value>
+  </data>
+  <data name="ImpactPeriod_Session" xml:space="preserve">
+    <value>이번 세션</value>
+  </data>
+  <data name="ImpactPeriod_24Hours" xml:space="preserve">
+    <value>지난 24시간</value>
+  </data>
+  <data name="ImpactPeriod_7Days" xml:space="preserve">
+    <value>최근 7일</value>
+  </data>
+  <data name="TroubleEnd_Completed" xml:space="preserve">
+    <value>완료됨</value>
+  </data>
+  <data name="TroubleEnd_Stopped" xml:space="preserve">
+    <value>사용자가 중지함</value>
+  </data>
+  <data name="TroubleEnd_Closed" xml:space="preserve">
+    <value>Sysora가 종료됨</value>
+  </data>
+  <data name="GameFinding_Anomaly" xml:space="preserve">
+    <value>이상 징후</value>
+  </data>
+  <data name="GameFinding_Analysis" xml:space="preserve">
+    <value>분석</value>
+  </data>
+  <data name="GameFinding_Comparison" xml:space="preserve">
+    <value>비교</value>
+  </data>
+  <data name="Report_Limit_Temperatures" xml:space="preserve">
+    <value>온도: 사용할 수 없음(Windows에는 커널 드라이버 없이 이를 읽는 문서화된 방법이 없음).</value>
+  </data>
+  <data name="Report_Areas" xml:space="preserve">
+    <value>영역</value>
+  </data>
+  <data name="Report_Col_Area" xml:space="preserve">
+    <value>영역</value>
+  </data>
+  <data name="Report_Col_State" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Report_Col_ImpactScore" xml:space="preserve">
+    <value>점수에 미치는 영향</value>
+  </data>
+  <data name="Report_Col_Measured" xml:space="preserve">
+    <value>측정값</value>
+  </data>
+  <data name="Report_Score" xml:space="preserve">
+    <value>점수</value>
+  </data>
+  <data name="Report_PcHealth" xml:space="preserve">
+    <value>PC 상태</value>
+  </data>
+  <data name="Report_WhatLowers" xml:space="preserve">
+    <value>점수를 낮추는 항목</value>
+  </data>
+  <data name="Report_HowComputed" xml:space="preserve">
+    <value>계산 방법</value>
+  </data>
+  <data name="Report_Problems" xml:space="preserve">
+    <value>문제</value>
+  </data>
+  <data name="Report_PointsToWatch" xml:space="preserve">
+    <value>주의할 항목</value>
+  </data>
+  <data name="Report_CheckedNormal" xml:space="preserve">
+    <value>확인 결과 정상</value>
+  </data>
+  <data name="Report_Col_Finding" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="Report_Col_Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="Report_Col_ComparedWith" xml:space="preserve">
+    <value>비교 대상</value>
+  </data>
+  <data name="Report_Col_Confidence" xml:space="preserve">
+    <value>신뢰도</value>
+  </data>
+  <data name="Report_Col_Explanation" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Report_ComparedUsual" xml:space="preserve">
+    <value>평소 활동과 비교</value>
+  </data>
+  <data name="Report_Col_Metric" xml:space="preserve">
+    <value>메트릭</value>
+  </data>
+  <data name="Report_Diagnosis" xml:space="preserve">
+    <value>진단</value>
+  </data>
+  <data name="Report_Analyzed_One" xml:space="preserve">
+    <value>측정 {0}개를 분석했습니다.</value>
+  </data>
+  <data name="Report_Analyzed_Other" xml:space="preserve">
+    <value>측정 {0}개를 분석했습니다.</value>
+  </data>
+  <data name="Report_WhyNowTitle" xml:space="preserve">
+    <value>왜 지금? {0}</value>
+  </data>
+  <data name="Report_WhatHappened" xml:space="preserve">
+    <value>발생한 일</value>
+  </data>
+  <data name="Report_Statements" xml:space="preserve">
+    <value>진술과 그 근거</value>
+  </data>
+  <data name="Report_EventsSameTime" xml:space="preserve">
+    <value>같은 시간의 이벤트</value>
+  </data>
+  <data name="Report_CoincidenceNotProof" xml:space="preserve">
+    <value>시간상의 우연은 원인의 증거가 아닙니다.</value>
+  </data>
+  <data name="Report_NotMeasured" xml:space="preserve">
+    <value>{0}: 이 기간에 측정되지 않았습니다.</value>
+  </data>
+  <data name="Report_Replay" xml:space="preserve">
+    <value>성능 다시 보기</value>
+  </data>
+  <data name="Report_Measurements" xml:space="preserve">
+    <value>측정</value>
+  </data>
+  <data name="Report_Col_Average" xml:space="preserve">
+    <value>평균</value>
+  </data>
+  <data name="Report_Col_Peak" xml:space="preserve">
+    <value>최고</value>
+  </data>
+  <data name="Report_Col_Lowest" xml:space="preserve">
+    <value>최저</value>
+  </data>
+  <data name="Report_Events" xml:space="preserve">
+    <value>이벤트</value>
+  </data>
+  <data name="Report_GameTitle" xml:space="preserve">
+    <value>게임 세션: {0}</value>
+  </data>
+  <data name="Report_Session" xml:space="preserve">
+    <value>세션</value>
+  </data>
+  <data name="Report_IdentifiedAsGame" xml:space="preserve">
+    <value>게임으로 식별된 근거</value>
+  </data>
+  <data name="Report_Coverage" xml:space="preserve">
+    <value>측정 범위</value>
+  </data>
+  <data name="Report_Col_Maximum" xml:space="preserve">
+    <value>최대</value>
+  </data>
+  <data name="Report_Col_Note" xml:space="preserve">
+    <value>참고</value>
+  </data>
+  <data name="Report_Findings" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="Report_Col_HowToRead" xml:space="preserve">
+    <value>읽는 방법</value>
+  </data>
+  <data name="Report_Col_Description" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Report_ComparedPrevious" xml:space="preserve">
+    <value>이전 세션과 비교</value>
+  </data>
+  <data name="Report_Col_ThisSession" xml:space="preserve">
+    <value>이번 세션</value>
+  </data>
+  <data name="Report_Col_Previous" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="Report_Col_Difference" xml:space="preserve">
+    <value>차이</value>
+  </data>
+  <data name="Report_AppImpact" xml:space="preserve">
+    <value>앱 영향</value>
+  </data>
+  <data name="Report_Impact_None" xml:space="preserve">
+    <value>이 기간에 기록된 앱 사용량이 없습니다.</value>
+  </data>
+  <data name="Report_Impact_Highest" xml:space="preserve">
+    <value>영향이 가장 큼: {0}({1}). {2}</value>
+  </data>
+  <data name="Report_Applications" xml:space="preserve">
+    <value>앱</value>
+  </data>
+  <data name="Report_Col_Application" xml:space="preserve">
+    <value>앱</value>
+  </data>
+  <data name="Report_Col_Impact" xml:space="preserve">
+    <value>영향</value>
+  </data>
+  <data name="Report_Col_CpuAvg" xml:space="preserve">
+    <value>CPU(평균)</value>
+  </data>
+  <data name="Report_Col_MemoryAvg" xml:space="preserve">
+    <value>메모리(평균)</value>
+  </data>
+  <data name="Report_Col_IoAvg" xml:space="preserve">
+    <value>I/O(평균)</value>
+  </data>
+  <data name="Report_Col_Running" xml:space="preserve">
+    <value>실행 시간</value>
+  </data>
+  <data name="Report_HowScoreComputed" xml:space="preserve">
+    <value>점수 계산 방법</value>
+  </data>
+  <data name="Report_Impact_IoLimit" xml:space="preserve">
+    <value>앱별 디스크 I/O는 파일, 장치, 네트워크를 합친 값입니다. Windows에서 이를 나누지 않습니다.</value>
+  </data>
+  <data name="Report_Period" xml:space="preserve">
+    <value>기간: {0}</value>
+  </data>
+  <data name="Report_Alerts" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Report_Alerts_None" xml:space="preserve">
+    <value>기록된 경고가 없습니다.</value>
+  </data>
+  <data name="Report_Alerts_Summary" xml:space="preserve">
+    <value>{0}, {1}개 아직 활성.</value>
+  </data>
+  <data name="Report_Col_Raised" xml:space="preserve">
+    <value>발생 시간</value>
+  </data>
+  <data name="Report_Col_Alert" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Report_Col_Severity" xml:space="preserve">
+    <value>심각도</value>
+  </data>
+  <data name="Report_Col_Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Report_Alerts_Note" xml:space="preserve">
+    <value>경고는 오래 지속되거나 이 PC에서 평소와 다른 문제에 대해서만 발생하며, 시간당 최대 몇 개입니다.</value>
+  </data>
+  <data name="Report_SinceYesterday" xml:space="preserve">
+    <value>어제 이후</value>
+  </data>
+  <data name="Report_Col_Change" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="Report_Col_Importance" xml:space="preserve">
+    <value>중요도</value>
+  </data>
+  <data name="Report_Col_When" xml:space="preserve">
+    <value>시기</value>
+  </data>
+  <data name="Report_Unchanged" xml:space="preserve">
+    <value>변경되지 않음: {0}</value>
+  </data>
+  <data name="Report_NotCompared" xml:space="preserve">
+    <value>비교되지 않음: {0}</value>
+  </data>
+  <data name="Report_DetectedChanges" xml:space="preserve">
+    <value>감지된 변경 내용</value>
+  </data>
+  <data name="Report_Col_Origin" xml:space="preserve">
+    <value>원인</value>
+  </data>
+  <data name="Report_Changes" xml:space="preserve">
+    <value>변경 내용</value>
+  </data>
+  <data name="Report_Changes_None" xml:space="preserve">
+    <value>기록된 변경 내용이 없습니다.</value>
+  </data>
+  <data name="Report_Changes_One" xml:space="preserve">
+    <value>PC 스냅숏을 비교하여 변경 {0}개를 감지했습니다.</value>
+  </data>
+  <data name="Report_Changes_Other" xml:space="preserve">
+    <value>PC 스냅숏을 비교하여 변경 {0}개를 감지했습니다.</value>
+  </data>
+  <data name="Report_Changes_Limit" xml:space="preserve">
+    <value>드라이버, 서비스, 예약된 작업, 개별 파일은 비교하지 않습니다.</value>
+  </data>
+  <data name="Report_Changes_Note" xml:space="preserve">
+    <value>설치 프로그램이 날짜를 기록하지 않은 변경은 두 스냅숏 사이의 시점으로 표시됩니다. 원인을 관찰할 수 없으면 그렇게 표시합니다.</value>
+  </data>
+  <data name="Report_ComparisonTitle" xml:space="preserve">
+    <value>비교: {0} → {1}</value>
+  </data>
+  <data name="Report_BeforeAfter" xml:space="preserve">
+    <value>이전 / 이후</value>
+  </data>
+  <data name="Report_Col_Evolution" xml:space="preserve">
+    <value>변화</value>
+  </data>
+  <data name="Report_Col_Relative" xml:space="preserve">
+    <value>상대 변화</value>
+  </data>
+  <data name="Report_Timeline" xml:space="preserve">
+    <value>타임라인</value>
+  </data>
+  <data name="Report_Timeline_Summary" xml:space="preserve">
+    <value>{1}~{2} 사이 {0}.</value>
+  </data>
+  <data name="Count_Entry_One" xml:space="preserve">
+    <value>항목 {0}개</value>
+  </data>
+  <data name="Count_Entry_Other" xml:space="preserve">
+    <value>항목 {0}개</value>
+  </data>
+  <data name="Report_Entries" xml:space="preserve">
+    <value>항목</value>
+  </data>
+  <data name="Report_Col_Time" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Report_Col_Category" xml:space="preserve">
+    <value>범주</value>
+  </data>
+  <data name="Report_Col_Entry" xml:space="preserve">
+    <value>항목</value>
+  </data>
+  <data name="Report_Col_Detail" xml:space="preserve">
+    <value>세부 정보</value>
+  </data>
+  <data name="Report_Col_Source" xml:space="preserve">
+    <value>원본</value>
+  </data>
+  <data name="Report_Timeline_Note" xml:space="preserve">
+    <value>시간은 Sysora가 관찰한 시간입니다. 스냅숏 비교로 찾은 변경(≈)은 늦어도 표시된 시간에 발생했습니다.</value>
+  </data>
+  <data name="Report_Troubleshooting" xml:space="preserve">
+    <value>문제 해결 조사</value>
+  </data>
+  <data name="Report_Anomalies" xml:space="preserve">
+    <value>이상 징후</value>
+  </data>
+  <data name="Report_NoneMeasured" xml:space="preserve">
+    <value>측정된 항목 없음.</value>
+  </data>
+  <data name="Report_Correlations" xml:space="preserve">
+    <value>상관관계 및 가능성 높은 설명</value>
+  </data>
+  <data name="Report_AppsInvolved" xml:space="preserve">
+    <value>관련된 앱</value>
+  </data>
+  <data name="Report_Col_CpuPeak" xml:space="preserve">
+    <value>CPU(최고)</value>
+  </data>
+  <data name="Report_Col_MemoryPeak" xml:space="preserve">
+    <value>메모리(최고)</value>
+  </data>
+  <data name="Report_Unknown" xml:space="preserve">
+    <value>알 수 없음</value>
+  </data>
+  <data name="Report_Recommendations" xml:space="preserve">
+    <value>권장 사항</value>
+  </data>
+  <data name="Report_Trouble_Ended" xml:space="preserve">
+    <value>종료: {0}. 계획된 기간 {1}.</value>
+  </data>
+  <data name="Report_Trouble_Collected" xml:space="preserve">
+    <value>상세 모니터링 강도로 수집했습니다.</value>
+  </data>
+  <data name="Report_Large_Denied" xml:space="preserve">
+    <value>{0}. 내용을 알 수 없습니다. 예: {1}</value>
+  </data>
+  <data name="Report_Large_Unavailable_One" xml:space="preserve">
+    <value>검사 중 폴더 {0}개를 사용할 수 없었습니다.</value>
+  </data>
+  <data name="Report_Large_Unavailable_Other" xml:space="preserve">
+    <value>검사 중 폴더 {0}개를 사용할 수 없었습니다.</value>
+  </data>
+  <data name="Report_Large_NotScanned" xml:space="preserve">
+    <value>검사되지 않음: {0}({1})</value>
+  </data>
+  <data name="Report_LargeFiles" xml:space="preserve">
+    <value>큰 파일</value>
+  </data>
+  <data name="Report_LargestFiles" xml:space="preserve">
+    <value>가장 큰 파일</value>
+  </data>
+  <data name="Report_Large_ReadOnly" xml:space="preserve">
+    <value>Sysora는 파일을 나열하기만 하며 이동, 수정 또는 삭제하지 않습니다.</value>
+  </data>
+  <data name="Report_Col_File" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="Report_Col_Size" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="Report_Col_Type" xml:space="preserve">
+    <value>형식</value>
+  </data>
+  <data name="Report_Col_Modified" xml:space="preserve">
+    <value>수정한 날짜</value>
+  </data>
+  <data name="Report_Col_Folder" xml:space="preserve">
+    <value>폴더</value>
+  </data>
+  <data name="Report_ByType" xml:space="preserve">
+    <value>형식별</value>
+  </data>
+  <data name="Report_ByFolder" xml:space="preserve">
+    <value>폴더별</value>
+  </data>
+  <data name="Report_Large_Scanned" xml:space="preserve">
+    <value>검사 대상: {0}, 최소 크기 {1}.</value>
+  </data>
+  <data name="Report_Large_Counts" xml:space="preserve">
+    <value>{1}에서 {0}, 따라가지 않음 {2}, 건너뜀 {3}.</value>
+  </data>
+  <data name="Count_Link_One" xml:space="preserve">
+    <value>링크 {0}개</value>
+  </data>
+  <data name="Count_Link_Other" xml:space="preserve">
+    <value>링크 {0}개</value>
+  </data>
+  <data name="Count_CloudFile_One" xml:space="preserve">
+    <value>온라인 전용 파일 {0}개</value>
+  </data>
+  <data name="Count_CloudFile_Other" xml:space="preserve">
+    <value>온라인 전용 파일 {0}개</value>
+  </data>
+  <data name="Report_Col_Group" xml:space="preserve">
+    <value>그룹</value>
+  </data>
+  <data name="Report_Col_Files" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="Report_Col_TotalSize" xml:space="preserve">
+    <value>전체 크기</value>
+  </data>
+  <data name="Report_OsVersion" xml:space="preserve">
+    <value>{0}{1}(빌드 {2}, {3})</value>
+  </data>
+  <data name="Report_Html_Generated" xml:space="preserve">
+    <value>{0}에 생성됨 · Sysora {1}</value>
+  </data>
+  <data name="Report_Html_Period" xml:space="preserve">
+    <value>분석 기간: {0} – {1}</value>
+  </data>
+  <data name="Report_Html_ThisPc" xml:space="preserve">
+    <value>이 PC</value>
+  </data>
+  <data name="Report_Html_Os" xml:space="preserve">
+    <value>운영 체제</value>
+  </data>
+  <data name="Report_Html_Processor" xml:space="preserve">
+    <value>프로세서</value>
+  </data>
+  <data name="Report_Html_Memory" xml:space="preserve">
+    <value>메모리</value>
+  </data>
+  <data name="Report_Html_Graphics" xml:space="preserve">
+    <value>그래픽</value>
+  </data>
+  <data name="Report_Html_NeverEstimates" xml:space="preserve">
+    <value>Sysora는 누락된 측정을 추정값으로 대체하지 않습니다.</value>
+  </data>
+  <data name="Report_Html_Notes" xml:space="preserve">
+    <value>참고</value>
+  </data>
+  <data name="Report_Html_Footer" xml:space="preserve">
+    <value>Sysora가 로컬에서 생성했으며 모든 값은 이 PC에서 가져온 것입니다. 관찰됨 = 측정됨, 추론됨 = 측정에서 추론됨(증명되지 않음), 알 수 없음 = 관찰할 수 없음.</value>
+  </data>
+  <data name="App_LongDescription" xml:space="preserve">
+    <value>Sysora는 성능, 프로세스, 저장소, 네트워크 활동, 시스템 상태를 실시간으로 모니터링하고 측정한 내용을 설명하는 로컬 우선 대시보드입니다. PC가 느린 이유, 변경된 내용, 부담이 가장 큰 앱을 알려 줍니다.</value>
+  </data>
+  <data name="Process_Exited" xml:space="preserve">
+    <value>프로세스가 종료되었습니다.</value>
+  </data>
+  <data name="Process_CoreWindows" xml:space="preserve">
+    <value>Windows 핵심 프로세스이므로 종료할 수 없습니다.</value>
+  </data>
+  <data name="Process_UseExit" xml:space="preserve">
+    <value>Sysora를 닫으려면 끝내기를 사용하세요.</value>
+  </data>
+  <data name="Process_AccessDeniedEnd" xml:space="preserve">
+    <value>액세스가 거부되었습니다. 이 프로세스를 종료하려면 관리자 권한이 필요합니다.</value>
+  </data>
+  <data name="Process_AlreadyExited" xml:space="preserve">
+    <value>프로세스가 이미 종료되었습니다.</value>
+  </data>
+  <data name="Process_Critical" xml:space="preserve">
+    <value>중요한 시스템 프로세스입니다. 종료하면 Windows가 중지됩니다.</value>
+  </data>
+  <data name="Process_EndFailed" xml:space="preserve">
+    <value>Windows에서 프로세스를 종료할 수 없습니다(오류 {0}).</value>
+  </data>
+  <data name="Process_AccessDeniedView" xml:space="preserve">
+    <value>액세스가 거부되었습니다. 이 정보를 보려면 관리자 권한이 필요합니다.</value>
+  </data>
+  <data name="Process_WindowsError" xml:space="preserve">
+    <value>사용할 수 없음(Windows 오류 {0}).</value>
+  </data>
+  <data name="LargeFiles_Excl_Svi" xml:space="preserve">
+    <value>Windows용으로 예약된 복원 지점 및 볼륨 데이터(읽을 수 없음).</value>
+  </data>
+  <data name="LargeFiles_Excl_WinSxS" xml:space="preserve">
+    <value>Windows 구성 요소 저장소: 파일이 Windows의 나머지 부분과 공유되는 하드 링크이므로 크기가 두 번 계산됩니다.</value>
+  </data>
+  <data name="History_InMemory" xml:space="preserve">
+    <value>메모리 내(데모 모드: 디스크에 아무것도 쓰지 않음)</value>
+  </data>
+  <data name="Game_Detect_Confirmed" xml:space="preserve">
+    <value>이 게임을 확인했습니다({0}).</value>
+  </data>
+  <data name="Game_Detect_Launcher" xml:space="preserve">
+    <value>{0}에서 {1}이(가) 이 폴더에 설치되어 있다고 보고합니다.</value>
+  </data>
+</root>
