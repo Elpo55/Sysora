@@ -267,20 +267,27 @@ public sealed partial class LocalizationTests
     }
 
     [Theory]
-    [InlineData("zh-CN", "en")]
-    [InlineData("zh-TW", "en")]
-    [InlineData("zh-HK", "en")]
-    public void TraditionalChineseWindowsKeepsEnglish(string windows, string expectedWithoutChinese)
+    [InlineData("zh-CN", "zh-Hans")]
+    [InlineData("zh-SG", "zh-Hans")]
+    [InlineData("zh-TW", "zh-Hant")]
+    [InlineData("zh-HK", "zh-Hant")]
+    [InlineData("zh-MO", "zh-Hant")]
+    public void ChineseWindowsGetsTheTranslationWrittenInItsScript(string windows, string expected)
     {
+        // Without a translation in its script, English: a reader of traditional characters never gets simplified ones.
         var resolved = AppLanguage.Resolve(AppLanguage.System, CultureInfo.GetCultureInfo(windows)).Name;
-        if (windows == "zh-CN" && AppLanguage.Find("zh") is not null)
-        {
-            Assert.Equal("zh", resolved);
-        }
-        else
-        {
-            Assert.Equal(expectedWithoutChinese, resolved);
-        }
+        Assert.Equal(AppLanguage.Find(expected) is null ? AppLanguage.Fallback : expected, resolved);
+    }
+
+    [Theory]
+    [InlineData("zh", "zh-Hans")]
+    [InlineData("ZH-hans", "zh-Hans")]
+    [InlineData("zh_CN", "zh-Hans")]
+    [InlineData("nn-NO", "nb")]
+    [InlineData("pt-PT", "pt")]
+    public void RegionsAndScriptsLeadToTheirTranslation(string preference, string expected)
+    {
+        Assert.Equal(AppLanguage.Find(expected)?.Code ?? AppLanguage.System, AppLanguage.Normalize(preference));
     }
 
     [Fact]
