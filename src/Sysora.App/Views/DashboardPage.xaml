@@ -42,7 +42,7 @@
             </Grid>
 
             <!-- Performance -->
-            <controls:AdaptiveGridPanel MinItemWidth="200">
+            <controls:AdaptiveGridPanel BalanceRows="True" MinItemWidth="200">
                 <controls:MetricCard
                     Title="{x:Bind l:UiStrings.Common_CPU}"
                     AccentBrush="{ThemeResource CpuAccentBrush}"

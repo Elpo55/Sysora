@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Brak zmian do pokazania</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora nigdy nie wymyśla zmian: wymienia tylko różnice między rzeczywistymi migawkami.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Co jest porównywane</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Lżejsze monitorowanie podczas gier</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Twoje listy gier</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Oznacz działającą aplikację jako grę, gdy Sysora jej nie rozpoznaje, albo usuń oznaczenie. Aplikacje oznaczone jako niebędące grami nigdy nie są śledzone.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Działająca aplikacja</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Czas aktywności</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Analizator magazynu</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Znajdź duże foldery — planowane</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Przyszła wersja będzie na żądanie mierzyć rozmiary folderów, aby pokazać, gdzie znika miejsce. Będzie działać tylko do odczytu: Sysora nigdy nie usuwa plików. Dyski sieciowe nie są wyświetlane, ponieważ odpytywanie odłączonego dysku może długo blokować działanie.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Pokazywane są tylko informacje faktycznie zgłaszane przez Windows</value>

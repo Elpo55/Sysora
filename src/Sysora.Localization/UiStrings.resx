@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>No change to show</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora never invents a change: only differences between real snapshots are listed.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>What is compared</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Lighter monitoring during games</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Your game lists</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Mark a running application as a game when Sysora does not recognize it, or remove a mark. Applications marked as not a game are never followed.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Running application</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Active time</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Storage analyzer</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Find large folders — planned</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>A future version will measure folder sizes on demand to show where space goes. It will be read-only: Sysora never deletes files. Network drives are not listed, because querying a disconnected drive can block for a long time.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Only information Windows actually reports is shown</value>

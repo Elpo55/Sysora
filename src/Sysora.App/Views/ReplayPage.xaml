@@ -23,6 +23,7 @@
                         <AdaptiveTrigger MinWindowWidth="1280" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="Body.ColumnSpacing" Value="16" />
                         <Setter Target="SideColumn.Width" Value="340" />
                         <Setter Target="SidePanel.(Grid.Row)" Value="3" />
                         <Setter Target="SidePanel.(Grid.Column)" Value="1" />
@@ -38,9 +39,9 @@
         </VisualStateManager.VisualStateGroups>
         <ScrollViewer>
             <Grid
+                x:Name="Body"
                 MaxWidth="{StaticResource PageMaxWidth}"
                 Padding="{StaticResource PagePadding}"
-                ColumnSpacing="16"
                 RowSpacing="12">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

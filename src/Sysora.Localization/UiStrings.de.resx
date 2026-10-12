@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Keine Änderung anzuzeigen</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora erfindet niemals eine Änderung: Aufgeführt sind nur Unterschiede zwischen echten Momentaufnahmen.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Was verglichen wird</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Leichtere Überwachung während Spielen</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Ihre Spielelisten</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Eine laufende Anwendung als Spiel markieren, wenn Sysora sie nicht erkennt, oder eine Markierung entfernen. Als „kein Spiel“ markierte Anwendungen werden nie verfolgt.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Laufende Anwendung</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Aktive Zeit</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Speicheranalyse</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Große Ordner finden — geplant</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Eine künftige Version wird Ordnergrößen auf Anfrage messen, um zu zeigen, wo der Platz hingeht. Sie wird nur lesend sein: Sysora löscht niemals Dateien. Netzlaufwerke werden nicht aufgeführt, weil die Abfrage eines getrennten Laufwerks lange blockieren kann.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Es werden nur Informationen angezeigt, die Windows tatsächlich meldet</value>

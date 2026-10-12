@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Gösterilecek değişiklik yok</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora asla değişiklik uydurmaz: yalnızca gerçek anlık görüntüler arasındaki farklar listelenir.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Neler karşılaştırılır</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Oyunlar sırasında daha hafif izleme</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Oyun listeleriniz</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Sysora tanımadığında çalışan bir uygulamayı oyun olarak işaretleyin veya bir işareti kaldırın. Oyun değil olarak işaretlenen uygulamalar asla izlenmez.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Çalışan uygulama</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Etkin süre</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Depolama çözümleyicisi</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Büyük klasörleri bul — planlandı</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Gelecekteki bir sürüm, alanın nereye gittiğini göstermek için istek üzerine klasör boyutlarını ölçecek. Salt okunur olacak: Sysora asla dosya silmez. Ağ sürücüleri listelenmez, çünkü bağlantısı kesilmiş bir sürücüyü sorgulamak uzun süre takılabilir.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Yalnızca Windows'un gerçekten bildirdiği bilgiler gösterilir</value>

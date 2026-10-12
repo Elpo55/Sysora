@@ -19,12 +19,6 @@
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                <Button AutomationProperties.Name="{x:Bind l:UiStrings.Storage_FindLargeFiles}" Grid.Column="2" VerticalAlignment="Center" Command="{x:Bind ViewModel.OpenLargeFilesCommand}" ToolTipService.ToolTip="{x:Bind l:UiStrings.Storage_FindTheFilesThatTakeTheMostSpaceReadOnly}">
-                    <StackPanel Orientation="Horizontal" Spacing="8">
-                        <FontIcon FontSize="14" Glyph="&#xE8B7;" />
-                        <TextBlock Text="{x:Bind l:UiStrings.Storage_FindLargeFiles}" />
-                    </StackPanel>
-                </Button>
                 <StackPanel>
                     <TextBlock Style="{StaticResource PageTitleTextStyle}" Text="{x:Bind l:UiStrings.Common_Storage}" />
                     <TextBlock Style="{StaticResource PageSubtitleTextStyle}" Text="{x:Bind ViewModel.Summary, Mode=OneWay}" />
@@ -36,6 +30,16 @@
                     Command="{x:Bind ViewModel.RefreshCommand}"
                     ToolTipService.ToolTip="{x:Bind l:UiStrings.Common_RefreshNow}">
                     <FontIcon FontSize="14" Glyph="&#xE72C;" />
+                </Button>
+                <Button
+                    Grid.Column="2"
+                    VerticalAlignment="Center"
+                    Command="{x:Bind ViewModel.OpenLargeFilesCommand}"
+                    ToolTipService.ToolTip="{x:Bind l:UiStrings.Storage_FindTheFilesThatTakeTheMostSpaceReadOnly}">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <FontIcon FontSize="14" Glyph="&#xE8B7;" />
+                        <TextBlock Text="{x:Bind l:UiStrings.Storage_FindLargeFiles}" />
+                    </StackPanel>
                 </Button>
             </Grid>
 
@@ -108,21 +112,6 @@
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
-
-            <TextBlock Style="{StaticResource SectionHeaderTextStyle}" Text="{x:Bind l:UiStrings.Storage_StorageAnalyzer}" />
-            <Border Style="{StaticResource CardStyle}">
-                <Grid ColumnSpacing="16">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <FontIcon FontSize="24" Glyph="&#xE8B7;" VerticalAlignment="Top" />
-                    <StackPanel Grid.Column="1" Spacing="4">
-                        <TextBlock Style="{StaticResource BodyStrongTextBlockStyle}" Text="{x:Bind l:UiStrings.Storage_FindLargeFoldersPlanned}" />
-                        <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind l:UiStrings.Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo}" />
-                    </StackPanel>
-                </Grid>
-            </Border>
         </StackPanel>
     </ScrollViewer>
 </Page>

@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Nessuna modifica da mostrare</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora non inventa mai una modifica: sono elencate solo le differenze tra snapshot reali.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Cosa viene confrontato</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Monitoraggio più leggero durante i giochi</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>I tuoi elenchi di giochi</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Contrassegna un'applicazione in esecuzione come gioco quando Sysora non la riconosce, oppure rimuovi un contrassegno. Le applicazioni contrassegnate come non giochi non vengono mai seguite.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Applicazione in esecuzione</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Tempo attivo</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Analizzatore di archiviazione</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Trova cartelle di grandi dimensioni — previsto</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Una versione futura misurerà le dimensioni delle cartelle su richiesta per mostrare dove va lo spazio. Sarà di sola lettura: Sysora non elimina mai file. Le unità di rete non sono elencate, perché interrogare un'unità disconnessa può bloccarsi a lungo.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Vengono mostrate solo le informazioni effettivamente segnalate da Windows</value>

@@ -30,7 +30,7 @@
         </DataTemplate>
     </Page.Resources>
 
-    <Grid Padding="32,24,32,24" RowSpacing="12">
+    <Grid MaxWidth="{StaticResource PageMaxWidth}" Padding="32,24,32,24" RowSpacing="12">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState x:Name="Wide">
@@ -38,6 +38,7 @@
                         <AdaptiveTrigger MinWindowWidth="1100" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="Body.ColumnSpacing" Value="12" />
                         <Setter Target="DetailsColumn.Width" Value="360" />
                         <Setter Target="DetailsRow.Height" Value="0" />
                         <Setter Target="DetailsPanel.(Grid.Row)" Value="0" />
@@ -128,7 +129,7 @@
             Title="{x:Bind ViewModel.StatusTitle, Mode=OneWay}" />
 
         <!-- List and details -->
-        <Grid x:Name="Body" Grid.Row="3" ColumnSpacing="12" RowSpacing="12">
+        <Grid x:Name="Body" Grid.Row="3" RowSpacing="12">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition x:Name="DetailsColumn" Width="0" />
@@ -152,8 +153,8 @@
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="72" />
                             <ColumnDefinition Width="72" />
-                            <ColumnDefinition Width="96" />
-                            <ColumnDefinition Width="96" />
+                            <ColumnDefinition Width="112" />
+                            <ColumnDefinition Width="112" />
                         </Grid.ColumnDefinitions>
                         <Button AutomationProperties.Name="{x:Bind l:UiStrings.Processes_SortByName}" Command="{x:Bind ViewModel.SortCommand}" CommandParameter="Name" HorizontalContentAlignment="Left" Style="{StaticResource ColumnHeaderButtonStyle}">
                             <StackPanel Orientation="Horizontal" Spacing="4">
@@ -207,8 +208,8 @@
                                         <ColumnDefinition Width="*" />
                                         <ColumnDefinition Width="72" />
                                         <ColumnDefinition Width="72" />
-                                        <ColumnDefinition Width="96" />
-                                        <ColumnDefinition Width="96" />
+                                        <ColumnDefinition Width="112" />
+                                        <ColumnDefinition Width="112" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock VerticalAlignment="Center" Text="{x:Bind Item.Name, Mode=OneWay}" TextTrimming="CharacterEllipsis" />
                                     <TextBlock Grid.Column="1" Padding="0,0,4,0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="{ThemeResource TextFillColorSecondaryBrush}" Text="{x:Bind Item.PidText, Mode=OneWay}" />
