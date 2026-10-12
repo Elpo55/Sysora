@@ -1,0 +1,3816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>Nem érhető el</value>
+  </data>
+  <data name="List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="List_LastSeparator" xml:space="preserve">
+    <value> és </value>
+  </data>
+  <data name="Sentence_End" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Sentence_Separator" xml:space="preserve">
+    <value>. </value>
+  </data>
+  <data name="Unit_Byte" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Unit_Kilobyte" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Unit_Megabyte" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Unit_Gigabyte" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="Unit_Terabyte" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="Format_PerSecond" xml:space="preserve">
+    <value>{0}/s</value>
+  </data>
+  <data name="Format_Bps" xml:space="preserve">
+    <value>{0:0} bit/s</value>
+  </data>
+  <data name="Format_Kbps" xml:space="preserve">
+    <value>{0} kbit/s</value>
+  </data>
+  <data name="Format_Mbps" xml:space="preserve">
+    <value>{0} Mbit/s</value>
+  </data>
+  <data name="Format_Gbps" xml:space="preserve">
+    <value>{0} Gbit/s</value>
+  </data>
+  <data name="Format_Percent" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Duration_DaysHoursMinutes" xml:space="preserve">
+    <value>{0} nap {1} óra {2} perc</value>
+  </data>
+  <data name="Duration_HoursMinutes" xml:space="preserve">
+    <value>{0} óra {1} perc</value>
+  </data>
+  <data name="Duration_Minutes" xml:space="preserve">
+    <value>{0} perc</value>
+  </data>
+  <data name="Duration_Seconds" xml:space="preserve">
+    <value>{0} mp</value>
+  </data>
+  <data name="Duration_DaysHours" xml:space="preserve">
+    <value>{0} nap {1} óra</value>
+  </data>
+  <data name="Duration_HoursPaddedMinutes" xml:space="preserve">
+    <value>{0} óra {1:00} perc</value>
+  </data>
+  <data name="Duration_MinutesPaddedSeconds" xml:space="preserve">
+    <value>{0} perc {1:00} mp</value>
+  </data>
+  <data name="Duration_Day_One" xml:space="preserve">
+    <value>{0} nap</value>
+  </data>
+  <data name="Duration_Day_Other" xml:space="preserve">
+    <value>{0} nap</value>
+  </data>
+  <data name="Duration_Hour_One" xml:space="preserve">
+    <value>{0} óra</value>
+  </data>
+  <data name="Duration_Hour_Other" xml:space="preserve">
+    <value>{0} óra</value>
+  </data>
+  <data name="Duration_Minute_One" xml:space="preserve">
+    <value>{0} perc</value>
+  </data>
+  <data name="Duration_Minute_Other" xml:space="preserve">
+    <value>{0} perc</value>
+  </data>
+  <data name="Diag_UsualWithMedian" xml:space="preserve">
+    <value>Általában {0} (medián: {1})</value>
+  </data>
+  <data name="Diag_UsualOf" xml:space="preserve">
+    <value>Általában {0}</value>
+  </data>
+  <data name="Diag_UsualDetail" xml:space="preserve">
+    <value>{0} (medián: {1}, a percek 95%-a ez alatt: {2})</value>
+  </data>
+  <data name="Source_HistoryMinutes7Days" xml:space="preserve">
+    <value>A helyi előzmények percenkénti átlagai (utolsó 7 nap)</value>
+  </data>
+  <data name="Diag_NotKnownYet" xml:space="preserve">
+    <value>Még nem ismert</value>
+  </data>
+  <data name="Diag_AveragePeak" xml:space="preserve">
+    <value>Átlag: {0}, csúcs: {1}</value>
+  </data>
+  <data name="Diag_AtOrAboveFor" xml:space="preserve">
+    <value>Legalább {0}, időtartam: {1} (átlag: {2}, csúcs: {3})</value>
+  </data>
+  <data name="Diag_Threshold" xml:space="preserve">
+    <value>Küszöb: {0}</value>
+  </data>
+  <data name="Diag_ReportedWhenAbove" xml:space="preserve">
+    <value>Jelentés, ha {1} ideig {0} felett van</value>
+  </data>
+  <data name="Diag_Metric_CpuUsage" xml:space="preserve">
+    <value>CPU-használat</value>
+  </data>
+  <data name="Diag_Metric_AppCpu" xml:space="preserve">
+    <value>Az alkalmazás CPU-használata</value>
+  </data>
+  <data name="Diag_Metric_MemoryUsage" xml:space="preserve">
+    <value>Memóriahasználat</value>
+  </data>
+  <data name="Diag_Metric_Commit" xml:space="preserve">
+    <value>Véglegesített memória</value>
+  </data>
+  <data name="Diag_Metric_DiskActive" xml:space="preserve">
+    <value>A lemez aktív ideje</value>
+  </data>
+  <data name="Diag_Metric_SystemDiskSpace" xml:space="preserve">
+    <value>Rendszerlemez területe</value>
+  </data>
+  <data name="Diag_Metric_VolumeSpace" xml:space="preserve">
+    <value>Kötet területe</value>
+  </data>
+  <data name="Diag_Metric_ActivityVsUsual" xml:space="preserve">
+    <value>Tevékenység a szokásoshoz képest</value>
+  </data>
+  <data name="Diag_Metric_GpuUsage" xml:space="preserve">
+    <value>GPU-használat</value>
+  </data>
+  <data name="Diag_Metric_Connectivity" xml:space="preserve">
+    <value>Kapcsolat</value>
+  </data>
+  <data name="Diag_Metric_Uptime" xml:space="preserve">
+    <value>Működési idő</value>
+  </data>
+  <data name="Diag_CpuLastMinute" xml:space="preserve">
+    <value>CPU-használat (utolsó perc)</value>
+  </data>
+  <data name="Diag_CpuLoad_Explanation" xml:space="preserve">
+    <value>Ha a processzor ennyire leterhelt marad, az alkalmazásoknak várniuk kell a processzoridőre, ezért a számítógép lassúnak tűnhet.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUnusual" xml:space="preserve">
+    <value>A processzor sokkal leterheltebb, mint ezen a számítógépen szokásos ({0}). Az alkalmazásoknak várniuk kell a processzoridőre, ezért a számítógép lassúnak tűnhet.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUsual" xml:space="preserve">
+    <value>Ez a szint magas, de ezen a számítógépen nem szokatlan (többnyire {0}).</value>
+  </data>
+  <data name="Diag_CpuLoad_SaturatedTitle" xml:space="preserve">
+    <value>A CPU telített</value>
+  </data>
+  <data name="Diag_CpuLoad_HighTitle" xml:space="preserve">
+    <value>Magas CPU-használat</value>
+  </data>
+  <data name="Diag_CpuLoad_HighDescription" xml:space="preserve">
+    <value>A CPU-használat {1} óta {0} felett van (átlag: {2}).</value>
+  </data>
+  <data name="Diag_CpuLoad_Recommendation" xml:space="preserve">
+    <value>Nyissa meg az Alkalmazások hatása lapot, hogy lássa, mely alkalmazások használják a processzort, és zárja be azokat, amelyekre most nincs szüksége.</value>
+  </data>
+  <data name="Diag_CpuSpike_Title" xml:space="preserve">
+    <value>Rövid CPU-csúcs</value>
+  </data>
+  <data name="Diag_CpuSpike_Description" xml:space="preserve">
+    <value>A CPU most {0}, de eddig csak {1} óta.</value>
+  </data>
+  <data name="Diag_CpuSpike_Explanation" xml:space="preserve">
+    <value>A rövid csúcsok normálisak (alkalmazás megnyitása, háttérfeladat). Csak akkor válnak a lassúság valószínű okává, ha tartósak.</value>
+  </data>
+  <data name="Diag_CpuNormal_Title" xml:space="preserve">
+    <value>Normál CPU-használat</value>
+  </data>
+  <data name="Diag_CpuNormal_Description" xml:space="preserve">
+    <value>A processzor átlaga az utolsó percben {0} volt (csúcs: {1}).</value>
+  </data>
+  <data name="Diag_CpuNormal_Explanation" xml:space="preserve">
+    <value>A processzornak van szabad kapacitása.</value>
+  </data>
+  <data name="Diag_AppCpu_Now" xml:space="preserve">
+    <value>A teljes CPU {0} része most ({1})</value>
+  </data>
+  <data name="Count_Process_One" xml:space="preserve">
+    <value>{0} folyamat</value>
+  </data>
+  <data name="Count_Process_Other" xml:space="preserve">
+    <value>{0} folyamat</value>
+  </data>
+  <data name="Diag_AppCpu_TotalNow" xml:space="preserve">
+    <value>Teljes CPU-használat most: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_LongTitle" xml:space="preserve">
+    <value>{0}: több perce sok CPU-t használ</value>
+  </data>
+  <data name="Diag_AppCpu_LargeShareTitle" xml:space="preserve">
+    <value>{0}: a CPU nagy részét használja</value>
+  </data>
+  <data name="Diag_AppCpu_Description" xml:space="preserve">
+    <value>{0}: átlagosan a teljes CPU-kapacitás {1} részét használta, időtartam: {2}.</value>
+  </data>
+  <data name="Diag_AppCpu_Explanation" xml:space="preserve">
+    <value>Ha egyetlen alkalmazás ennyire leterheli a processzort, minden másra kevesebb kapacitás marad. Lehet, hogy jogos munkát végez (fordítás, exportálás, játék), de az is lehet, hogy elakadt.</value>
+  </data>
+  <data name="Diag_AppCpu_Recommendation" xml:space="preserve">
+    <value>Ha most nincs szüksége erre: {0}, zárja be, vagy várja meg, amíg a feladata befejeződik. Az Alkalmazások hatása megjeleníti az előzményeit.</value>
+  </data>
+  <data name="Diag_AppCpu_MainTitle" xml:space="preserve">
+    <value>{0}: a legtöbb CPU-t használja</value>
+  </data>
+  <data name="Diag_AppCpu_MainDescription" xml:space="preserve">
+    <value>{0}: a processzor terhelésének {1} része most ({2} / {3}).</value>
+  </data>
+  <data name="Diag_AppCpu_TotalCpu" xml:space="preserve">
+    <value>Teljes CPU: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_MainExplanation" xml:space="preserve">
+    <value>Ha a processzor leterhelt marad, valószínűleg ez az alkalmazás az ok.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneTitle" xml:space="preserve">
+    <value>Egyetlen alkalmazás sem uralja a CPU-t</value>
+  </data>
+  <data name="Diag_AppCpu_NoneDescription" xml:space="preserve">
+    <value>A legnagyobb CPU-felhasználó: {0}, a teljes kapacitás {1} része.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneExplanation" xml:space="preserve">
+    <value>Egyetlen alkalmazás sem tartja leterhelten a processzort.</value>
+  </data>
+  <data name="Diag_AppCpu_EvidenceName" xml:space="preserve">
+    <value>CPU: {0}</value>
+  </data>
+  <data name="Diag_PerAppThreshold" xml:space="preserve">
+    <value>Küszöb alkalmazásonként: {0}</value>
+  </data>
+  <data name="Diag_Memory_State" xml:space="preserve">
+    <value>Használatban: {0} / {1}, elérhető: {2}</value>
+  </data>
+  <data name="Diag_Memory_Physical" xml:space="preserve">
+    <value>Fizikai memória</value>
+  </data>
+  <data name="Diag_Memory_LargestApp" xml:space="preserve">
+    <value>Legnagyobb alkalmazás</value>
+  </data>
+  <data name="Common_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Diag_Memory_FullTitle" xml:space="preserve">
+    <value>A memória majdnem megtelt</value>
+  </data>
+  <data name="Diag_Memory_LowTitle" xml:space="preserve">
+    <value>Kevés a szabad memória</value>
+  </data>
+  <data name="Diag_Memory_HighDescription" xml:space="preserve">
+    <value>A memóriahasználat {1} óta {0} felett van (elérhető: {2}).</value>
+  </data>
+  <data name="Diag_Memory_HighExplanation" xml:space="preserve">
+    <value>Ha kevés a memória, a Windows adatokat helyez át a lemezre (lapozás), ami sokkal lassabb a memóriánál: az alkalmazások szünetelhetnek vagy lassan válaszolhatnak.</value>
+  </data>
+  <data name="Diag_Memory_CloseApps" xml:space="preserve">
+    <value>Zárja be a nem használt alkalmazásokat.</value>
+  </data>
+  <data name="Diag_Memory_CloseAppsLargest" xml:space="preserve">
+    <value>Zárja be a nem használt alkalmazásokat. A legnagyobb: {0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_HighTitle" xml:space="preserve">
+    <value>Magas memóriahasználat</value>
+  </data>
+  <data name="Diag_Memory_JustReached" xml:space="preserve">
+    <value>A memóriahasználat épp elérte ezt: {0} (elérhető: {1}).</value>
+  </data>
+  <data name="Diag_Memory_JustReachedExplanation" xml:space="preserve">
+    <value>Ha ilyen magas marad, a Windows elkezdi az adatokat a lemezre áthelyezni, ami lelassítja az alkalmazásokat.</value>
+  </data>
+  <data name="Diag_Memory_EnoughTitle" xml:space="preserve">
+    <value>Elegendő szabad memória</value>
+  </data>
+  <data name="Diag_Memory_EnoughDescription" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_EnoughExplanation" xml:space="preserve">
+    <value>Az alkalmazásoknak van helyük a működéshez anélkül, hogy a Windowsnak adatokat kellene a lemezre áthelyeznie.</value>
+  </data>
+  <data name="Diag_Commit_Title" xml:space="preserve">
+    <value>A virtuális memória majdnem elfogyott</value>
+  </data>
+  <data name="Diag_Commit_Description" xml:space="preserve">
+    <value>A Windows véglegesítette a virtuálismemória-korlát {0} részét (fizikai memória + lapozófájl).</value>
+  </data>
+  <data name="Diag_Commit_Explanation" xml:space="preserve">
+    <value>Ha a véglegesített memória eléri a korlátot, az alkalmazások nem kapnak memóriát, és összeomolhatnak vagy lefagyhatnak.</value>
+  </data>
+  <data name="Diag_Commit_Recommendation" xml:space="preserve">
+    <value>Zárja be a sok memóriát igénylő alkalmazásokat. Ha ez gyakran előfordul, hagyja, hogy a Windows automatikusan kezelje a lapozófájl méretét.</value>
+  </data>
+  <data name="Diag_Growth_Trend" xml:space="preserve">
+    <value>Memóriahasználat trendje</value>
+  </data>
+  <data name="Diag_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} százalékpont, időtartam: {1} (percenként {2:0.##} százalékpont)</value>
+  </data>
+  <data name="Diag_Growth_TrendReference" xml:space="preserve">
+    <value>Robusztus trend (Theil–Sen), amelyet az elszigetelt csúcsok nem befolyásolnak</value>
+  </data>
+  <data name="Diag_Growth_AppMemory" xml:space="preserve">
+    <value>Memória: {0}</value>
+  </data>
+  <data name="Diag_Growth_AppGrowth" xml:space="preserve">
+    <value>+{0} ugyanebben az időszakban</value>
+  </data>
+  <data name="Diag_Growth_Title" xml:space="preserve">
+    <value>A memóriahasználat folyamatosan nő</value>
+  </data>
+  <data name="Diag_Growth_Description" xml:space="preserve">
+    <value>A memóriahasználat {0:0} százalékponttal nőtt, időtartam: {1}.</value>
+  </data>
+  <data name="Diag_Growth_DescriptionApp" xml:space="preserve">
+    <value>{0}: ugyanebben az időszakban {1} értékkel nőtt.</value>
+  </data>
+  <data name="Diag_Growth_Points" xml:space="preserve">
+    <value>+{0:0} százalékpont</value>
+  </data>
+  <data name="Diag_Growth_Reference" xml:space="preserve">
+    <value>Jelentés +{0:0} százalékponttól, időtartam: {1}</value>
+  </data>
+  <data name="Diag_Growth_Explanation" xml:space="preserve">
+    <value>A folyamatos növekedés lehet normális (egy alkalmazás adatokat tölt be), vagy annak jele, hogy egy alkalmazás nem szabadítja fel a memóriát (szivárgás). A Sysora pusztán ezekből a mérésekből nem tudja eldönteni, melyikről van szó.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationReplay" xml:space="preserve">
+    <value>Figyelje a memóriahasználatot a Visszajátszásban; ha tovább nő, indítsa újra a felelős alkalmazást.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationApp" xml:space="preserve">
+    <value>Ha tovább nő ({0}), az újraindítása felszabadítja a memóriát.</value>
+  </data>
+  <data name="Diag_Uptime_Reference" xml:space="preserve">
+    <value>Az alvó állapotban töltött időt is tartalmazza. Gyors rendszerindítás esetén a „Leállítás” nem nullázza, csak az „Újraindítás”.</value>
+  </data>
+  <data name="Diag_Disk_Unnamed" xml:space="preserve">
+    <value>lemez</value>
+  </data>
+  <data name="Diag_Disk_Throughput" xml:space="preserve">
+    <value>olvasás: {0}, írás: {1}</value>
+  </data>
+  <data name="Diag_Disk_ActiveTimeOf" xml:space="preserve">
+    <value>Lemez aktív ideje: {0}</value>
+  </data>
+  <data name="Diag_Disk_ThroughputAll" xml:space="preserve">
+    <value>Átviteli sebesség (összes kötet)</value>
+  </data>
+  <data name="Diag_Disk_MostIo" xml:space="preserve">
+    <value>Legtöbb I/O</value>
+  </data>
+  <data name="Diag_Disk_IoReference" xml:space="preserve">
+    <value>A folyamatonkénti I/O fájlokat, eszközöket és hálózatot is tartalmaz; lemezenként nem bontható.</value>
+  </data>
+  <data name="Diag_Disk_Explanation" xml:space="preserve">
+    <value>Ha egy lemez szinte folyamatosan foglalt, a fájlokat olvasó vagy író alkalmazásoknak várniuk kell.</value>
+  </data>
+  <data name="Diag_Disk_ExplanationPaging" xml:space="preserve">
+    <value>A memóriahasználat is magas: a tevékenység egy része lehet, hogy a Windows lemezre lapozza a memóriát (lehetőség, nem megerősített).</value>
+  </data>
+  <data name="Diag_Disk_SystemHeavyTitle" xml:space="preserve">
+    <value>A rendszerlemez erősen terhelt</value>
+  </data>
+  <data name="Diag_Disk_HeavyTitle" xml:space="preserve">
+    <value>Erősen terhelt lemez: {0}</value>
+  </data>
+  <data name="Diag_Disk_HeavyDescription" xml:space="preserve">
+    <value>Lemez: {0} – az idő {1} részében foglalt volt, időtartam: {2} ({3}).</value>
+  </data>
+  <data name="Diag_Disk_Recommendation" xml:space="preserve">
+    <value>Ezt gyakran ideiglenesen frissítések, víruskeresések és fájlindexelés okozzák. Az Alkalmazások hatása megmutatja, mely alkalmazások olvasnak és írnak a legtöbbet.</value>
+  </data>
+  <data name="Diag_Disk_RecommendationApp" xml:space="preserve">
+    <value>Jelenleg a legtöbb I/O: {0}. Ezt ideiglenesen frissítések, víruskeresések és fájlindexelés is okozhatják.</value>
+  </data>
+  <data name="Diag_Disk_NormalTitle" xml:space="preserve">
+    <value>Normál lemeztevékenység</value>
+  </data>
+  <data name="Diag_Disk_NormalDescription" xml:space="preserve">
+    <value>A legterheltebb lemez ({0}) az utolsó percben az idő {1} részében volt aktív.</value>
+  </data>
+  <data name="Diag_Disk_NormalExplanation" xml:space="preserve">
+    <value>A lemezeknek van szabad kapacitása.</value>
+  </data>
+  <data name="Diag_Disk_BusiestLastMinute" xml:space="preserve">
+    <value>A legterheltebb lemez aktív ideje (utolsó perc)</value>
+  </data>
+  <data name="Diag_Space_FreeOfUsed" xml:space="preserve">
+    <value>Szabad: {0} / {1} (használt: {2})</value>
+  </data>
+  <data name="Diag_Space_Reference" xml:space="preserve">
+    <value>Figyelmeztetés: {0}, kritikus: {1}, vagy kevesebb mint {2} szabad</value>
+  </data>
+  <data name="Diag_Space_FullTitle" xml:space="preserve">
+    <value>A rendszerlemez majdnem megtelt</value>
+  </data>
+  <data name="Diag_Space_LowTitle" xml:space="preserve">
+    <value>Kevés a szabad terület a rendszerlemezen</value>
+  </data>
+  <data name="Diag_Space_EnoughTitle" xml:space="preserve">
+    <value>Elegendő szabad terület a rendszerlemezen</value>
+  </data>
+  <data name="Diag_Space_FreeOn" xml:space="preserve">
+    <value>{1}: {0} szabad ({2} használt).</value>
+  </data>
+  <data name="Diag_Space_EnoughExplanation" xml:space="preserve">
+    <value>A Windowsnak van helye a frissítésekhez, az ideiglenes fájlokhoz és a lapozófájlhoz.</value>
+  </data>
+  <data name="Diag_Space_LowExplanation" xml:space="preserve">
+    <value>A Windowsnak szabad területre van szüksége a frissítésekhez, az ideiglenes fájlokhoz és a lapozófájlhoz. A majdnem teli rendszerlemez lelassíthatja a számítógépet, és a frissítések sikertelenek lehetnek.</value>
+  </data>
+  <data name="Diag_Space_Recommendation" xml:space="preserve">
+    <value>Távolítsa el a már nem szükséges fájlokat, vagy használja a Windows Beállítások › Rendszer › Tárhely › Tisztítási javaslatok lehetőséget.</value>
+  </data>
+  <data name="Diag_Space_VolumeFullTitle" xml:space="preserve">
+    <value>Kötet: {0} – {1} telített</value>
+  </data>
+  <data name="Diag_Space_VolumeExplanation" xml:space="preserve">
+    <value>Ez nem a rendszerlemez, ezért nem lassítja a Windowst, de az ide adatokat mentő alkalmazásoknak elfogyhat a helyük.</value>
+  </data>
+  <data name="Diag_Space_FreeOf" xml:space="preserve">
+    <value>Szabad: {0} / {1}</value>
+  </data>
+  <data name="Diag_Volume" xml:space="preserve">
+    <value>Kötet: {0}</value>
+  </data>
+  <data name="Diag_Warning" xml:space="preserve">
+    <value>Figyelmeztetés: {0}</value>
+  </data>
+  <data name="Diag_Unusual_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Diag_Unusual_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Diag_Unusual_Disk" xml:space="preserve">
+    <value>Lemeztevékenység</value>
+  </data>
+  <data name="Diag_Unusual_OverLast" xml:space="preserve">
+    <value>{0}, időtartam: {1}</value>
+  </data>
+  <data name="Diag_Unusual_Reference" xml:space="preserve">
+    <value>Általában {0}, a percek 95%-a ez alatt: {1}</value>
+  </data>
+  <data name="Diag_Unusual_NormalTitle" xml:space="preserve">
+    <value>A tevékenység a szokásos tartományban van</value>
+  </data>
+  <data name="Diag_Unusual_NormalDescription" xml:space="preserve">
+    <value>Az utolsó időszak ({0}) hasonlít a számítógép szokásos tevékenységéhez.</value>
+  </data>
+  <data name="Diag_Unusual_Usual" xml:space="preserve">
+    <value>Szokásos</value>
+  </data>
+  <data name="Diag_Unusual_NormalExplanation" xml:space="preserve">
+    <value>Az utolsó 7 nap percenkénti átlagaihoz képest.</value>
+  </data>
+  <data name="Diag_Unusual_Part" xml:space="preserve">
+    <value>{0}: {1} (általában {2})</value>
+  </data>
+  <data name="Diag_Unusual_Title" xml:space="preserve">
+    <value>A tevékenység szokatlan a legutóbbi használathoz képest</value>
+  </data>
+  <data name="Diag_Unusual_Description" xml:space="preserve">
+    <value>Az utolsó időszakban ({0}): {1}.</value>
+  </data>
+  <data name="Diag_Unusual_Usually" xml:space="preserve">
+    <value>általában {0}</value>
+  </data>
+  <data name="Diag_Unusual_Explanation" xml:space="preserve">
+    <value>Ezek az értékek magasabbak annál, amit ez a számítógép az utolsó 7 nap perceinek 95%-ában mutat: valami a szokásostól eltérő fut.</value>
+  </data>
+  <data name="Diag_Unusual_Recommendation" xml:space="preserve">
+    <value>A Visszajátszással megnézheti, mikor kezdődött, az Alkalmazások hatásával pedig azt, hogy mely alkalmazások érintettek.</value>
+  </data>
+  <data name="Diag_Gpu_FullTitle" xml:space="preserve">
+    <value>A GPU teljesen ki van használva</value>
+  </data>
+  <data name="Diag_Gpu_FullDescription" xml:space="preserve">
+    <value>A legterheltebb grafikus motor {1} óta {0} felett van.</value>
+  </data>
+  <data name="Diag_Gpu_FullExplanation" xml:space="preserve">
+    <value>Játék, renderelés vagy nagy felbontású videó lejátszása közben ez várható. Ellenkező esetben egy alkalmazás erősen használja a GPU-t, amitől a megjelenítés lomhának tűnhet.</value>
+  </data>
+  <data name="Diag_Gpu_NormalTitle" xml:space="preserve">
+    <value>Normál GPU-használat</value>
+  </data>
+  <data name="Diag_Gpu_NormalDescription" xml:space="preserve">
+    <value>A GPU átlaga az utolsó percben {0} volt.</value>
+  </data>
+  <data name="Diag_Gpu_NormalExplanation" xml:space="preserve">
+    <value>A grafikus processzornak van szabad kapacitása.</value>
+  </data>
+  <data name="Diag_Gpu_LastMinute" xml:space="preserve">
+    <value>GPU-használat (utolsó perc)</value>
+  </data>
+  <data name="Diag_Net_InternetTitle" xml:space="preserve">
+    <value>Van internet-hozzáférés</value>
+  </data>
+  <data name="Diag_Net_InternetDescription" xml:space="preserve">
+    <value>A Windows működő internetkapcsolatot jelez.</value>
+  </data>
+  <data name="Diag_Net_LimitedTitle" xml:space="preserve">
+    <value>Korlátozott internet-hozzáférés</value>
+  </data>
+  <data name="Diag_Net_LimitedDescription" xml:space="preserve">
+    <value>A Windows korlátozott internet-hozzáférést jelez (például bejelentkezési oldal).</value>
+  </data>
+  <data name="Diag_Net_LocalTitle" xml:space="preserve">
+    <value>Nincs internet-hozzáférés</value>
+  </data>
+  <data name="Diag_Net_LocalDescription" xml:space="preserve">
+    <value>A Windows helyi hálózati kapcsolatot jelez internet-hozzáférés nélkül.</value>
+  </data>
+  <data name="Diag_Net_NoneTitle" xml:space="preserve">
+    <value>Nincs hálózati kapcsolat</value>
+  </data>
+  <data name="Diag_Net_NoneDescription" xml:space="preserve">
+    <value>A Windows nem jelez hálózati kapcsolatot.</value>
+  </data>
+  <data name="Diag_Net_OkExplanation" xml:space="preserve">
+    <value>A weblapok és az online alkalmazások elérik az internetet.</value>
+  </data>
+  <data name="Diag_Net_ProblemExplanation" xml:space="preserve">
+    <value>A weblapok és az online alkalmazások lassúak lesznek vagy nem működnek. Ez kapcsolati probléma, nem a számítógép teljesítményproblémája.</value>
+  </data>
+  <data name="Diag_Net_Recommendation" xml:space="preserve">
+    <value>Ellenőrizze a Wi-Fi- vagy kábelkapcsolatot, illetve az útválasztót.</value>
+  </data>
+  <data name="Connectivity_Internet" xml:space="preserve">
+    <value>Internet-hozzáférés</value>
+  </data>
+  <data name="Connectivity_Constrained" xml:space="preserve">
+    <value>Korlátozott internet-hozzáférés</value>
+  </data>
+  <data name="Connectivity_Local" xml:space="preserve">
+    <value>Csak helyi hálózat</value>
+  </data>
+  <data name="Connectivity_None" xml:space="preserve">
+    <value>Nincs kapcsolat</value>
+  </data>
+  <data name="Connectivity_Unknown" xml:space="preserve">
+    <value>Ismeretlen</value>
+  </data>
+  <data name="Diag_Uptime_Since" xml:space="preserve">
+    <value>A Windows indítása óta eltelt idő</value>
+  </data>
+  <data name="Diag_Uptime_LongTitle" xml:space="preserve">
+    <value>A Windows {0} napja nem lett újraindítva</value>
+  </data>
+  <data name="Diag_Uptime_RecentTitle" xml:space="preserve">
+    <value>Nemrég újraindítva</value>
+  </data>
+  <data name="Diag_Uptime_Description" xml:space="preserve">
+    <value>A Windows indítása óta eltelt idő: {0}.</value>
+  </data>
+  <data name="Diag_Uptime_Reference2" xml:space="preserve">
+    <value>Javasolt {0:0} naptól</value>
+  </data>
+  <data name="Diag_Uptime_LongExplanation" xml:space="preserve">
+    <value>Egyes problémák idővel felhalmozódnak (illesztőprogramok, egyre több memóriát használó alkalmazások). Az újraindítás megszünteti őket, és telepíti a függőben lévő frissítéseket. Ez általános javaslat, nem mért ok.</value>
+  </data>
+  <data name="Diag_Uptime_RecentExplanation" xml:space="preserve">
+    <value>Nincs aggodalomra okot adó, hosszan futó munkamenet.</value>
+  </data>
+  <data name="Diag_Uptime_Recommendation" xml:space="preserve">
+    <value>Indítsa újra a Windowst (az Újraindítás, ne a Leállítás lehetőséggel), amikor alkalmas.</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_One" xml:space="preserve">
+    <value>Nem található probléma · {0} figyelendő pont</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_Other" xml:space="preserve">
+    <value>Nem található probléma · {0} figyelendő pont</value>
+  </data>
+  <data name="Diag_Headline_NoProblem" xml:space="preserve">
+    <value>Nem található probléma</value>
+  </data>
+  <data name="Diag_Headline_Problems_One" xml:space="preserve">
+    <value>{0} probléma található</value>
+  </data>
+  <data name="Diag_Headline_Problems_Other" xml:space="preserve">
+    <value>{0} probléma található</value>
+  </data>
+  <data name="Diag_Summary_MostLikely" xml:space="preserve">
+    <value>Legvalószínűbb ok: {0}</value>
+  </data>
+  <data name="Diag_Summary_Also" xml:space="preserve">
+    <value>Továbbá: {0}.</value>
+  </data>
+  <data name="Diag_Summary_WorthKnowing" xml:space="preserve">
+    <value>Jelenleg semmi sem telített. Érdemes tudni: {0}</value>
+  </data>
+  <data name="Diag_Summary_Nothing" xml:space="preserve">
+    <value>Jelenleg semmi sem telített: a processzornak, a memóriának és a lemezeknek van szabad kapacitása. Ha a számítógép az imént lassúnak tűnt, a Visszajátszás megmutatja, mi történt az utolsó percekben.</value>
+  </data>
+  <data name="Diag_Missing_Gpu" xml:space="preserve">
+    <value>GPU-használat: ezen a számítógépen nem érhető el</value>
+  </data>
+  <data name="Diag_Missing_GpuOff" xml:space="preserve">
+    <value>GPU-használat: a figyelés ki van kapcsolva a Beállításokban</value>
+  </data>
+  <data name="Diag_Missing_Disk" xml:space="preserve">
+    <value>Lemeztevékenység: ezen a számítógépen nem érhető el</value>
+  </data>
+  <data name="Diag_Missing_Network" xml:space="preserve">
+    <value>Hálózat: ezen a számítógépen nem érhető el</value>
+  </data>
+  <data name="Diag_Missing_NetworkOff" xml:space="preserve">
+    <value>Hálózat: a figyelés ki van kapcsolva a Beállításokban</value>
+  </data>
+  <data name="Diag_Missing_Temperature" xml:space="preserve">
+    <value>CPU-hőmérséklet: nem érhető el (a Windows nem kínál dokumentált módot a kiolvasására kernelillesztő nélkül)</value>
+  </data>
+  <data name="Diag_Missing_AppNetwork" xml:space="preserve">
+    <value>Alkalmazásonkénti hálózathasználat: nem érhető el (rendszergazdai szintű eseménykövetést igényel)</value>
+  </data>
+  <data name="Diag_Analyzing" xml:space="preserve">
+    <value>Elemzés…</value>
+  </data>
+  <data name="Diag_AnalyzingSummary" xml:space="preserve">
+    <value>A Sysorának néhány másodpercnyi mérésre van szüksége a számítógép diagnosztizálásához.</value>
+  </data>
+  <data name="Alert_UsualLevel" xml:space="preserve">
+    <value>Szokásos szint: {0}</value>
+  </data>
+  <data name="Alert_AveragePeak" xml:space="preserve">
+    <value>Átlagosan {0} (csúcs: {1})</value>
+  </data>
+  <data name="Alert_OnAverage" xml:space="preserve">
+    <value>Átlagosan {0}</value>
+  </data>
+  <data name="Alert_TopApp" xml:space="preserve">
+    <value>Legnagyobb alkalmazás: {0} ({1})</value>
+  </data>
+  <data name="Alert_Cpu_UnusualTitle" xml:space="preserve">
+    <value>Szokatlanul magas CPU-használat</value>
+  </data>
+  <data name="Alert_Cpu_UsualTitle" xml:space="preserve">
+    <value>Magas CPU-használat (ezen a számítógépen szokásos)</value>
+  </data>
+  <data name="Alert_Cpu_SustainedTitle" xml:space="preserve">
+    <value>Tartósan magas CPU-használat</value>
+  </data>
+  <data name="Alert_UsualNotKnown" xml:space="preserve">
+    <value>A szokásos szint még nem ismert</value>
+  </data>
+  <data name="Alert_Cpu_UnusualExplanation" xml:space="preserve">
+    <value>A CPU {1} óta {0} felett van, jóval a számítógép szokásos szintje ({2}) felett.</value>
+  </data>
+  <data name="Alert_Cpu_UsualExplanation" xml:space="preserve">
+    <value>A CPU {1} óta {0} felett van. Ez a szint ezen a számítógépen gyakori, ezért tájékoztatásként jelentjük.</value>
+  </data>
+  <data name="Alert_Cpu_SustainedExplanation" xml:space="preserve">
+    <value>A CPU {1} óta {0} felett van. A rövid csúcsokat figyelmen kívül hagyjuk; ez tartós volt.</value>
+  </data>
+  <data name="Alert_Cpu_Recommendation" xml:space="preserve">
+    <value>Az Alkalmazások hatása lapon megnézheti, mely alkalmazások használják a processzort.</value>
+  </data>
+  <data name="Alert_Memory_Title" xml:space="preserve">
+    <value>A memória majdnem megtelt</value>
+  </data>
+  <data name="Alert_LargestApp" xml:space="preserve">
+    <value>Legnagyobb alkalmazás: {0} ({1})</value>
+  </data>
+  <data name="Alert_Memory_Explanation" xml:space="preserve">
+    <value>A memóriahasználat {1} óta {0} felett van. Ilyenkor a Windows adatokat helyez át a lemezre, ami lelassítja az alkalmazásokat.</value>
+  </data>
+  <data name="Alert_Growth_Title" xml:space="preserve">
+    <value>A memóriahasználat folyamatosan nő</value>
+  </data>
+  <data name="Alert_Growth_Value" xml:space="preserve">
+    <value>+{0:0} százalékpont ({1} → {2})</value>
+  </data>
+  <data name="Alert_Growth_NoApp" xml:space="preserve">
+    <value>Egyetlen alkalmazás sem emelkedik ki</value>
+  </data>
+  <data name="Alert_Growth_AppGrew" xml:space="preserve">
+    <value>{0}: növekedés {1}</value>
+  </data>
+  <data name="Alert_Growth_Explanation" xml:space="preserve">
+    <value>A memóriahasználat {0} óta nő. Ez lehet normális (adatok betöltése), vagy egy alkalmazás nem szabadítja fel a memóriát.</value>
+  </data>
+  <data name="Alert_Growth_Recommendation" xml:space="preserve">
+    <value>Ha tovább nő ({0}), az újraindítása felszabadítja a memóriát.</value>
+  </data>
+  <data name="Alert_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} százalékpont, időtartam: {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Title" xml:space="preserve">
+    <value>{0}: {1} óta sok CPU-t használ</value>
+  </data>
+  <data name="Alert_AppCpu_Value" xml:space="preserve">
+    <value>A teljes CPU {0} része átlagosan (csúcs: {1})</value>
+  </data>
+  <data name="Alert_AppCpu_TotalNow" xml:space="preserve">
+    <value>Teljes CPU most: {0}</value>
+  </data>
+  <data name="Alert_AppCpu_Explanation" xml:space="preserve">
+    <value>{0}: {2} óta a teljes CPU-kapacitás {1} része felett van. Lehet, hogy normálisan dolgozik (fordítás, exportálás), de az is lehet, hogy elakadt.</value>
+  </data>
+  <data name="Alert_AppCpu_Recommendation" xml:space="preserve">
+    <value>Ha most nincs szüksége erre: {0}, zárja be, vagy várja meg, amíg a feladata befejeződik.</value>
+  </data>
+  <data name="Alert_Disk_Title" xml:space="preserve">
+    <value>Lemez: {0} – foglalt, időtartam: {1}</value>
+  </data>
+  <data name="Alert_Disk_TitleUnnamed" xml:space="preserve">
+    <value>A lemez foglalt, időtartam: {0}</value>
+  </data>
+  <data name="Alert_Disk_ReadWrite" xml:space="preserve">
+    <value>Olvasás: {0}, írás: {1}</value>
+  </data>
+  <data name="Alert_Disk_MostIo" xml:space="preserve">
+    <value>Legtöbb I/O: {0}</value>
+  </data>
+  <data name="Alert_Disk_Explanation" xml:space="preserve">
+    <value>A lemez {1} óta az idő több mint {0} részében aktív: a fájlokat olvasó vagy író alkalmazásoknak várniuk kell.</value>
+  </data>
+  <data name="Alert_Disk_Recommendation" xml:space="preserve">
+    <value>Ezt gyakran ideiglenesen frissítések, víruskeresések és indexelés okozzák.</value>
+  </data>
+  <data name="Alert_Unusual_Disk" xml:space="preserve">
+    <value>Lemeztevékenység</value>
+  </data>
+  <data name="Alert_Unusual_Title" xml:space="preserve">
+    <value>{0}: szokatlanul magas</value>
+  </data>
+  <data name="Alert_Unusual_Context" xml:space="preserve">
+    <value>Szokásos szint: {0} (medián: {1})</value>
+  </data>
+  <data name="Alert_Unusual_Explanation" xml:space="preserve">
+    <value>{0}: {1} óta a legutóbbi alapvonal felett van.</value>
+  </data>
+  <data name="Alert_Unusual_Recommendation" xml:space="preserve">
+    <value>A Visszajátszással megnézheti, mikor kezdődött.</value>
+  </data>
+  <data name="Alert_Baseline" xml:space="preserve">
+    <value>Alapvonal</value>
+  </data>
+  <data name="Alert_Space_Title" xml:space="preserve">
+    <value>Kevés a szabad terület: {0}</value>
+  </data>
+  <data name="Alert_Space_Metric" xml:space="preserve">
+    <value>Szabad terület</value>
+  </data>
+  <data name="Alert_Space_Value" xml:space="preserve">
+    <value>Szabad: {0} ({1})</value>
+  </data>
+  <data name="Alert_Space_Context" xml:space="preserve">
+    <value>Kötet: {0}</value>
+  </data>
+  <data name="Alert_Space_Explanation" xml:space="preserve">
+    <value>A Windowsnak szabad területre van szüksége a rendszerlemezen a frissítésekhez, az ideiglenes fájlokhoz és a lapozófájlhoz.</value>
+  </data>
+  <data name="Alert_Space_Recommendation" xml:space="preserve">
+    <value>Távolítsa el a már nem szükséges fájlokat, vagy használja a Windows Beállítások › Rendszer › Tárhely lehetőséget.</value>
+  </data>
+  <data name="Alert_Space_Reference" xml:space="preserve">
+    <value>Riasztás, ha a szabad terület kevesebb mint {0}</value>
+  </data>
+  <data name="Alert_ResolvedEvent" xml:space="preserve">
+    <value>Megoldva: {0}</value>
+  </data>
+  <data name="Source_Cpu" xml:space="preserve">
+    <value>Windows-teljesítményszámláló \Processor Information(_Total)\% Processor Utility</value>
+  </data>
+  <data name="Source_Disk" xml:space="preserve">
+    <value>Windows-teljesítményszámláló \LogicalDisk(*)\% Idle Time (aktív idő = 100 − tétlen)</value>
+  </data>
+  <data name="Source_Gpu" xml:space="preserve">
+    <value>Windows-teljesítményszámláló \GPU Engine(*)\Utilization Percentage</value>
+  </data>
+  <data name="Format_PercentRange" xml:space="preserve">
+    <value>{0:0}–{1:0}%</value>
+  </data>
+  <data name="Source_Memory" xml:space="preserve">
+    <value>GlobalMemoryStatusEx (használatban lévő fizikai memória)</value>
+  </data>
+  <data name="Source_Commit" xml:space="preserve">
+    <value>GetPerformanceInfo (véglegesített memória és korlát)</value>
+  </data>
+  <data name="Source_Network" xml:space="preserve">
+    <value>IP Helper-csatolóstatisztika (alapértelmezett átjáróval rendelkező csatolók)</value>
+  </data>
+  <data name="Source_Processes" xml:space="preserve">
+    <value>NtQuerySystemInformation (folyamatonkénti CPU-idő, privát munkakészlet és I/O-számlálók)</value>
+  </data>
+  <data name="Source_ProcessIo" xml:space="preserve">
+    <value>Folyamatonkénti I/O-számlálók (fájlok, eszközök és hálózat együtt)</value>
+  </data>
+  <data name="Source_Storage" xml:space="preserve">
+    <value>GetDiskFreeSpaceEx (kötet kapacitása)</value>
+  </data>
+  <data name="Source_Uptime" xml:space="preserve">
+    <value>GetTickCount64 (a Windows indítása óta eltelt idő, az alvó állapottal együtt)</value>
+  </data>
+  <data name="Source_Connectivity" xml:space="preserve">
+    <value>Windows hálózati kapcsolat állapotjelzője</value>
+  </data>
+  <data name="Source_Sysora" xml:space="preserve">
+    <value>Sysora-mérések</value>
+  </data>
+  <data name="Confidence_High_Lower" xml:space="preserve">
+    <value>magas</value>
+  </data>
+  <data name="Confidence_Medium_Lower" xml:space="preserve">
+    <value>közepes</value>
+  </data>
+  <data name="Confidence_Low_Lower" xml:space="preserve">
+    <value>alacsony</value>
+  </data>
+  <data name="Confidence_High" xml:space="preserve">
+    <value>Magas megbízhatóság</value>
+  </data>
+  <data name="Confidence_Medium" xml:space="preserve">
+    <value>Közepes megbízhatóság</value>
+  </data>
+  <data name="Confidence_Low" xml:space="preserve">
+    <value>Alacsony megbízhatóság</value>
+  </data>
+  <data name="Basis_Observed" xml:space="preserve">
+    <value>Megfigyelt</value>
+  </data>
+  <data name="Basis_InferredConfidence" xml:space="preserve">
+    <value>Következtetett · megbízhatóság: {0}</value>
+  </data>
+  <data name="Basis_Inferred" xml:space="preserve">
+    <value>Következtetett</value>
+  </data>
+  <data name="Basis_Unknown" xml:space="preserve">
+    <value>Ismeretlen</value>
+  </data>
+  <data name="Identity_ByPath" xml:space="preserve">
+    <value>A végrehajtható fájl elérési útja alapján azonosítva.</value>
+  </data>
+  <data name="Identity_ByName" xml:space="preserve">
+    <value>Csak a folyamat neve alapján azonosítva: a Windows nem ad hozzáférést a végrehajtható fájl elérési útjához.</value>
+  </data>
+  <data name="Impact_Resource_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Resource_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Impact_Resource_Io" xml:space="preserve">
+    <value>Lemez I/O</value>
+  </data>
+  <data name="Impact_Resource_Running" xml:space="preserve">
+    <value>Futási idő</value>
+  </data>
+  <data name="Impact_Level_VeryHigh" xml:space="preserve">
+    <value>Nagyon magas</value>
+  </data>
+  <data name="Impact_Level_High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="Impact_Level_Moderate" xml:space="preserve">
+    <value>Mérsékelt</value>
+  </data>
+  <data name="Impact_Level_Low" xml:space="preserve">
+    <value>Alacsony</value>
+  </data>
+  <data name="Impact_Formula" xml:space="preserve">
+    <value>Pontszám = 45% CPU + 40% memória + 15% lemez I/O. Mindegyik rész az alkalmazás átlagos terhelése az elemzett időszakban (használat futás közben × a futási idő aránya), egy referenciaszinthez viszonyítva: a teljes CPU 15%-a, a fizikai memória 25%-a, 5 MB/s I/O. Szintek: 10 alatt alacsony, 25 alatt mérsékelt, 50 alatt magas, 50-től nagyon magas.</value>
+  </data>
+  <data name="Impact_Note_Waiting" xml:space="preserve">
+    <value>Várakozás az első folyamatmérésekre.</value>
+  </data>
+  <data name="Impact_Note_Session" xml:space="preserve">
+    <value>A Sysora indítása óta látott összes alkalmazás, néhány másodpercenként mérve.</value>
+  </data>
+  <data name="Impact_Note_NoHistory" xml:space="preserve">
+    <value>Ehhez az időszakhoz még nincsenek alkalmazás-előzmények. Az előzmények mentése ötpercenként történik, amíg a Sysora fut.</value>
+  </data>
+  <data name="Impact_Note_History" xml:space="preserve">
+    <value>A helyi előzményekből: az egyes ötperces időszakok legjelentősebb alkalmazásai (az ez alatti alkalmazásokat nem rögzítjük). Az utolsó néhány perc akkor jelenik meg, amikor az ötperces időszaka véget ér.</value>
+  </data>
+  <data name="Replay_Source_Memory" xml:space="preserve">
+    <value>A memóriában tartott részletes mérések (CPU-mintánként egy).</value>
+  </data>
+  <data name="Replay_Source_History" xml:space="preserve">
+    <value>A helyi előzmények percenkénti átlagai.</value>
+  </data>
+  <data name="Baseline_Ready" xml:space="preserve">
+    <value>A szokásos viselkedés megtanulva ennyi előzményből: {0}</value>
+  </data>
+  <data name="Baseline_Collecting" xml:space="preserve">
+    <value>Alapvonal-adatok gyűjtése… (rögzítve: {0}; szükséges: {1}, mielőtt a Sysora összehasonlít a szokásos tevékenységgel)</value>
+  </data>
+  <data name="Impact_Ev_CpuReference" xml:space="preserve">
+    <value>A „nagyon magas” referenciája: a teljes CPU {0} része átlagosan az időszakban</value>
+  </data>
+  <data name="Impact_Ev_MemoryReference" xml:space="preserve">
+    <value>A „nagyon magas” referenciája: {0} / {1} átlagosan az időszakban</value>
+  </data>
+  <data name="Impact_Ev_IoReference" xml:space="preserve">
+    <value>A „nagyon magas” referenciája: {0} átlagosan az időszakban</value>
+  </data>
+  <data name="Impact_Cpu_Description" xml:space="preserve">
+    <value>A teljes CPU-kapacitás {0} része átlagosan az időszakban ({1} futás közben)</value>
+  </data>
+  <data name="Impact_Memory_Description" xml:space="preserve">
+    <value>A fizikai memória {0} része átlagosan az időszakban ({1} futás közben)</value>
+  </data>
+  <data name="Impact_Memory_Unknown" xml:space="preserve">
+    <value>A fizikai memória mérete ismeretlen: a memória nem számít bele a pontszámba</value>
+  </data>
+  <data name="Impact_Io_Description" xml:space="preserve">
+    <value>{0} átlagosan az időszakban (fájlok, eszközök és hálózat együtt)</value>
+  </data>
+  <data name="Impact_Running_Description" xml:space="preserve">
+    <value>Futott a figyelt idő {0} részében</value>
+  </data>
+  <data name="Impact_When_Most" xml:space="preserve">
+    <value>a figyelt idő nagy részében</value>
+  </data>
+  <data name="Impact_When_Large" xml:space="preserve">
+    <value>a figyelt idő jelentős részében</value>
+  </data>
+  <data name="Impact_When_Part" xml:space="preserve">
+    <value>a figyelt idő egy részében</value>
+  </data>
+  <data name="Impact_When_Briefly" xml:space="preserve">
+    <value>rövid ideig</value>
+  </data>
+  <data name="Impact_RunningOfMeasured" xml:space="preserve">
+    <value>futott: {0} / {1} mért idő</value>
+  </data>
+  <data name="Impact_Explain_Low" xml:space="preserve">
+    <value>Alacsony erőforrás-használat az időszakban ({0}).</value>
+  </data>
+  <data name="Impact_Explain_Peaks" xml:space="preserve">
+    <value>Rövid, legfeljebb {0} értékű CPU-csúcsokat figyeltünk meg.</value>
+  </data>
+  <data name="Impact_Explain_Used" xml:space="preserve">
+    <value>Az alkalmazás {1} használt: {0} ({2}).</value>
+  </data>
+  <data name="Impact_Amount_VeryHigh" xml:space="preserve">
+    <value>nagyon sok {0}</value>
+  </data>
+  <data name="Impact_Amount_High" xml:space="preserve">
+    <value>sok {0}</value>
+  </data>
+  <data name="Impact_Amount_Moderate" xml:space="preserve">
+    <value>mérsékelt mennyiségű {0}</value>
+  </data>
+  <data name="Impact_Noun_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Noun_Memory" xml:space="preserve">
+    <value>memória</value>
+  </data>
+  <data name="Impact_Noun_Io" xml:space="preserve">
+    <value>lemez I/O</value>
+  </data>
+  <data name="Impact_Ev_RunningTime" xml:space="preserve">
+    <value>Futási idő</value>
+  </data>
+  <data name="Impact_Ev_RunningValue" xml:space="preserve">
+    <value>{0} / {1} mért idő</value>
+  </data>
+  <data name="Impact_Ev_RunningSource" xml:space="preserve">
+    <value>Sysora-folyamatminták (a szünetek, például az alvó állapot, nem számítanak bele)</value>
+  </data>
+  <data name="Impact_Ev_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Ev_CpuValue" xml:space="preserve">
+    <value>Futás közben átlagosan a teljes CPU {0} része, csúcs: {1}</value>
+  </data>
+  <data name="Impact_Ev_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Impact_Ev_MemoryValue" xml:space="preserve">
+    <value>Futás közben átlagosan {0} privát munkakészlet, csúcs: {1}</value>
+  </data>
+  <data name="Impact_Ev_Io" xml:space="preserve">
+    <value>Lemez I/O</value>
+  </data>
+  <data name="Impact_Ev_IoValue" xml:space="preserve">
+    <value>Futás közben átlagosan {0}, csúcs: {1}</value>
+  </data>
+  <data name="Impact_Ev_Network" xml:space="preserve">
+    <value>Hálózat</value>
+  </data>
+  <data name="Impact_Ev_NetworkReference" xml:space="preserve">
+    <value>A Windows eseménykövetés nélkül nem jelenti az alkalmazásonkénti hálózathasználatot; a hálózati I/O a lemez I/O része.</value>
+  </data>
+  <data name="Impact_Ev_Launches" xml:space="preserve">
+    <value>Indítások</value>
+  </data>
+  <data name="Impact_Ev_Launches_One" xml:space="preserve">
+    <value>{0} folyamatindítás észlelve</value>
+  </data>
+  <data name="Impact_Ev_Launches_Other" xml:space="preserve">
+    <value>{0} folyamatindítás észlelve</value>
+  </data>
+  <data name="Impact_Ev_NoLaunch" xml:space="preserve">
+    <value>Nem észleltünk folyamatindítást (már futott, vagy nem indult újra)</value>
+  </data>
+  <data name="Impact_Ev_Identification" xml:space="preserve">
+    <value>Azonosítás</value>
+  </data>
+  <data name="Impact_Ev_ImageNameOnly" xml:space="preserve">
+    <value>Csak a lemezkép neve</value>
+  </data>
+  <data name="Impact_Ev_Score" xml:space="preserve">
+    <value>Pontszám</value>
+  </data>
+  <data name="Impact_Ev_ScoreValue" xml:space="preserve">
+    <value>{0}/100 ({1})</value>
+  </data>
+  <data name="Insight_Game_JustStarted" xml:space="preserve">
+    <value>most indult</value>
+  </data>
+  <data name="Insight_Game_For" xml:space="preserve">
+    <value>időtartam: {0}</value>
+  </data>
+  <data name="Insight_Game_Running" xml:space="preserve">
+    <value>Fut egy játék: {0} ({1}). Bezárásakor összefoglaló jelenik meg.</value>
+  </data>
+  <data name="Insight_LastGame" xml:space="preserve">
+    <value>Legutóbbi játék: {0} ({1}) · {2}</value>
+  </data>
+  <data name="Insight_ActiveAlertMore" xml:space="preserve">
+    <value>Aktív riasztás: {0} (+{1} további)</value>
+  </data>
+  <data name="Insight_ActiveAlert" xml:space="preserve">
+    <value>Aktív riasztás: {0}</value>
+  </data>
+  <data name="Insight_Recurring" xml:space="preserve">
+    <value>Ismétlődő: {0}</value>
+  </data>
+  <data name="Insight_Health" xml:space="preserve">
+    <value>A számítógép állapota {0}/100, főként ez csökkenti: {1}: {2}</value>
+  </data>
+  <data name="Insight_AnalyzingFirst" xml:space="preserve">
+    <value>Az első mérések elemzése…</value>
+  </data>
+  <data name="Insight_NoIssue" xml:space="preserve">
+    <value>Nem található jelentős probléma</value>
+  </data>
+  <data name="Insight_MemoryAbove" xml:space="preserve">
+    <value>A memóriahasználat {0:0} százalékponttal a szokásos szint felett van ({1}, általában {2})</value>
+  </data>
+  <data name="Insight_MemoryBelow" xml:space="preserve">
+    <value>A memóriahasználat {0:0} százalékponttal a szokásos szint alatt van ({1}, általában {2})</value>
+  </data>
+  <data name="Insight_CpuAbove" xml:space="preserve">
+    <value>A CPU-használat {0:0} százalékponttal a szokásos szint felett van ({1}, általában {2})</value>
+  </data>
+  <data name="Insight_CpuBelow" xml:space="preserve">
+    <value>A CPU-használat {0:0} százalékponttal a szokásos szint alatt van ({1}, általában {2})</value>
+  </data>
+  <data name="Insight_Recovered" xml:space="preserve">
+    <value>A számítógép helyreállt a legutóbbi probléma ({0}) után: ekkor ért véget: {1}, és azóta nem tért vissza.</value>
+  </data>
+  <data name="Insight_Kind_HighCpu" xml:space="preserve">
+    <value>magas CPU</value>
+  </data>
+  <data name="Insight_Kind_HighMemory" xml:space="preserve">
+    <value>magas memória</value>
+  </data>
+  <data name="Insight_Kind_RisingMemory" xml:space="preserve">
+    <value>növekvő memória</value>
+  </data>
+  <data name="Insight_Kind_BusyDisk" xml:space="preserve">
+    <value>foglalt lemez</value>
+  </data>
+  <data name="Insight_Kind_LowSpace" xml:space="preserve">
+    <value>kevés lemezterület</value>
+  </data>
+  <data name="Insight_Kind_Unusual" xml:space="preserve">
+    <value>szokatlan tevékenység</value>
+  </data>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} riasztás ({1}) az utolsó 24 órában (legutóbbi: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} riasztás ({1}) az utolsó 24 órában (legutóbbi: {2}).</value>
+  </data>
+  <data name="Insight_WithinUsual" xml:space="preserve">
+    <value>A CPU- és memóriahasználat a számítógép szokásos tartományán belül van.</value>
+  </data>
+  <data name="Insight_LargestConsumer" xml:space="preserve">
+    <value>Jelenleg a legtöbb erőforrást használja: {0} ({1} CPU, {2})</value>
+  </data>
+  <data name="Recurring_NotAnalyzed" xml:space="preserve">
+    <value>Még nincs elemezve.</value>
+  </data>
+  <data name="Recurring_NoHistoryYet" xml:space="preserve">
+    <value>még nincsenek előzmények</value>
+  </data>
+  <data name="Recurring_OfHistory" xml:space="preserve">
+    <value>előzmények: {0}</value>
+  </data>
+  <data name="Recurring_NotEnough" xml:space="preserve">
+    <value>Nincs elég előzményadat ({0}; az ismétlődő problémákhoz legalább ennyi kell: {1}).</value>
+  </data>
+  <data name="Recurring_None" xml:space="preserve">
+    <value>Nincs ismétlődő probléma az utolsó {0} napban.</value>
+  </data>
+  <data name="Recurring_One" xml:space="preserve">
+    <value>1 ismétlődő probléma: {0}</value>
+  </data>
+  <data name="Recurring_Many" xml:space="preserve">
+    <value>{0} ismétlődő probléma. A leggyakoribb: {1}</value>
+  </data>
+  <data name="Recurring_HighCpu" xml:space="preserve">
+    <value>Magas CPU-használat</value>
+  </data>
+  <data name="Recurring_HighMemory" xml:space="preserve">
+    <value>Magas memóriahasználat</value>
+  </data>
+  <data name="Recurring_MemoryRising" xml:space="preserve">
+    <value>Növekvő memóriahasználat</value>
+  </data>
+  <data name="Recurring_DiskBusy" xml:space="preserve">
+    <value>Foglalt lemez</value>
+  </data>
+  <data name="Recurring_AppCpu" xml:space="preserve">
+    <value>{0}: sok CPU-t használ</value>
+  </data>
+  <data name="Recurring_Connectivity" xml:space="preserve">
+    <value>Megszakadt vagy korlátozott internet-hozzáférés</value>
+  </data>
+  <data name="Recurring_Occurrences" xml:space="preserve">
+    <value>Előfordulások</value>
+  </data>
+  <data name="Recurring_OccurrencesText" xml:space="preserve">
+    <value>{0}, időszak: {1}, ettől: {2} eddig: {3}</value>
+  </data>
+  <data name="Count_Episode_One" xml:space="preserve">
+    <value>{0} epizód</value>
+  </data>
+  <data name="Count_Episode_Other" xml:space="preserve">
+    <value>{0} epizód</value>
+  </data>
+  <data name="Recurring_When" xml:space="preserve">
+    <value>Mikor</value>
+  </data>
+  <data name="Recurring_MostAssociated" xml:space="preserve">
+    <value>Leggyakrabban érintett alkalmazás</value>
+  </data>
+  <data name="Recurring_MostAssociatedText" xml:space="preserve">
+    <value>{0} ({1} / {2} epizód)</value>
+  </data>
+  <data name="Recurring_Cause" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Recurring_CauseConnectivity" xml:space="preserve">
+    <value>A Windows jelzi a hozzáférés megszakadását; az okot (útválasztó, szolgáltató, Wi-Fi-jel) a Sysora nem tudja megfigyelni.</value>
+  </data>
+  <data name="Recurring_Description" xml:space="preserve">
+    <value>„{0}”: {1} fordult elő az utolsó {2} napban.</value>
+  </data>
+  <data name="Recurring_Pattern" xml:space="preserve">
+    <value>A legtöbb esemény {0:00}:00 és {1:00}:00 között történt ({2} / {3})</value>
+  </data>
+  <data name="Times_Once" xml:space="preserve">
+    <value>egyszer</value>
+  </data>
+  <data name="Times_Twice" xml:space="preserve">
+    <value>kétszer</value>
+  </data>
+  <data name="Times_N" xml:space="preserve">
+    <value>{0} alkalommal</value>
+  </data>
+  <data name="Replay_Rose_Cpu" xml:space="preserve">
+    <value>CPU-emelkedés: {0} → {1}</value>
+  </data>
+  <data name="Replay_Rose_Memory" xml:space="preserve">
+    <value>Memória-emelkedés: {0} → {1}</value>
+  </data>
+  <data name="Replay_Rose_Disk" xml:space="preserve">
+    <value>Lemeztevékenység-emelkedés: {0} → {1}</value>
+  </data>
+  <data name="Replay_Rose_Gpu" xml:space="preserve">
+    <value>GPU-emelkedés: {0} → {1}</value>
+  </data>
+  <data name="Replay_Reached_Cpu" xml:space="preserve">
+    <value>A CPU elérte ezt: {0}</value>
+  </data>
+  <data name="Replay_Reached_Memory" xml:space="preserve">
+    <value>A memória elérte ezt: {0}</value>
+  </data>
+  <data name="Replay_Reached_Disk" xml:space="preserve">
+    <value>A lemeztevékenység elérte ezt: {0}</value>
+  </data>
+  <data name="Replay_Reached_Gpu" xml:space="preserve">
+    <value>A GPU elérte ezt: {0}</value>
+  </data>
+  <data name="Replay_Back_Cpu" xml:space="preserve">
+    <value>A CPU visszaállt: {0}</value>
+  </data>
+  <data name="Replay_Back_Memory" xml:space="preserve">
+    <value>A memória visszaállt: {0}</value>
+  </data>
+  <data name="Replay_Back_Disk" xml:space="preserve">
+    <value>A lemeztevékenység visszaállt: {0}</value>
+  </data>
+  <data name="Replay_Back_Gpu" xml:space="preserve">
+    <value>A GPU visszaállt: {0}</value>
+  </data>
+  <data name="Replay_NoMeasurements" xml:space="preserve">
+    <value>Ehhez az időszakhoz nincsenek mérések.</value>
+  </data>
+  <data name="Replay_MostIo" xml:space="preserve">
+    <value>legtöbb I/O: {0} {1}</value>
+  </data>
+  <data name="Replay_CpuAveraged" xml:space="preserve">
+    <value>CPU-átlag: {0} (csúcs: {1})</value>
+  </data>
+  <data name="Replay_MemoryLevel" xml:space="preserve">
+    <value>memória: {0}</value>
+  </data>
+  <data name="Replay_NoNotableChange" xml:space="preserve">
+    <value>Nincs jelentős változás ebben az időszakban.</value>
+  </data>
+  <data name="Replay_NoSharpRise" xml:space="preserve">
+    <value>Nincs hirtelen emelkedés vagy telítettség ebben az időszakban: {0}.</value>
+  </data>
+  <data name="Replay_SharpRise" xml:space="preserve">
+    <value>Hirtelen emelkedés: {0}{1}, időpont: {2}</value>
+  </data>
+  <data name="Replay_FollowedBy" xml:space="preserve">
+    <value>, majd {0}</value>
+  </data>
+  <data name="Replay_NounAt" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Replay_Noun_Cpu" xml:space="preserve">
+    <value>CPU-használat</value>
+  </data>
+  <data name="Replay_Noun_Memory" xml:space="preserve">
+    <value>memóriahasználat</value>
+  </data>
+  <data name="Replay_Noun_Disk" xml:space="preserve">
+    <value>lemeztevékenység</value>
+  </data>
+  <data name="Replay_Noun_Gpu" xml:space="preserve">
+    <value>GPU-használat</value>
+  </data>
+  <data name="Replay_Noun_Other" xml:space="preserve">
+    <value>tevékenység</value>
+  </data>
+  <data name="Usual_Loading" xml:space="preserve">
+    <value>Előzmények betöltése…</value>
+  </data>
+  <data name="Usual_Metric_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Usual_Metric_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Usual_Metric_Disk" xml:space="preserve">
+    <value>A lemez aktív ideje</value>
+  </data>
+  <data name="Usual_Metric_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Usual_Period_LastHour" xml:space="preserve">
+    <value>Utolsó óra</value>
+  </data>
+  <data name="Usual_Period_Today" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="Usual_Period_Yesterday" xml:space="preserve">
+    <value>Tegnap</value>
+  </data>
+  <data name="Usual_Period_7Days" xml:space="preserve">
+    <value>Utolsó 7 nap</value>
+  </data>
+  <data name="Usual_Period_30Days" xml:space="preserve">
+    <value>Utolsó 30 nap</value>
+  </data>
+  <data name="Usual_Period_AtThisHour" xml:space="preserve">
+    <value>Szokásos ebben az órában</value>
+  </data>
+  <data name="Usual_Summary_Above" xml:space="preserve">
+    <value>{0}: {1:0} százalékponttal a szokásos szint felett: most {2}, általában {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Below" xml:space="preserve">
+    <value>{0}: {1:0} százalékponttal a szokásos szint alatt: most {2}, általában {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Close" xml:space="preserve">
+    <value>A jelenlegi tevékenység közel van a szokásos szinthez (10 százalékponton belül).</value>
+  </data>
+  <data name="Usual_Summary_NotEnough" xml:space="preserve">
+    <value>Még nincs elég előzmény annak megállapításához, mi a szokásos: a 7 napos összehasonlításhoz 2 nap alatt 4 óra, a 30 naposhoz 8 nap alatt 24 óra kell.</value>
+  </data>
+  <data name="Usual_NeededOverDays" xml:space="preserve">
+    <value>{0} / {1} nap</value>
+  </data>
+  <data name="Usual_NotEnoughOverDays" xml:space="preserve">
+    <value>Nincs elég adat: rögzítve {0} ({1} alatt), szükséges: {2}</value>
+  </data>
+  <data name="Usual_NotEnough" xml:space="preserve">
+    <value>Nincs elég adat: rögzítve {0}, szükséges: {1}</value>
+  </data>
+  <data name="Usual_Hours" xml:space="preserve">
+    <value>{0:0.#} ó</value>
+  </data>
+  <data name="State_Metric_MemoryUsed" xml:space="preserve">
+    <value>Használt memória</value>
+  </data>
+  <data name="State_Metric_Download" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="State_Metric_Upload" xml:space="preserve">
+    <value>Feltöltés</value>
+  </data>
+  <data name="State_Metric_Processes" xml:space="preserve">
+    <value>Folyamatok</value>
+  </data>
+  <data name="State_Metric_SystemFree" xml:space="preserve">
+    <value>Szabad terület (Windows-kötet)</value>
+  </data>
+  <data name="State_Metric_MemoryPercent" xml:space="preserve">
+    <value>Használt memória (%)</value>
+  </data>
+  <data name="State_During" xml:space="preserve">
+    <value>Közben: {0}</value>
+  </data>
+  <data name="State_SessionSource" xml:space="preserve">
+    <value>A játékmenet során rögzített átlagok</value>
+  </data>
+  <data name="State_NotEnough" xml:space="preserve">
+    <value>Nincs elég adat az összehasonlításhoz: {0}.</value>
+  </data>
+  <data name="State_NoMeasurementFor" xml:space="preserve">
+    <value>nincs mérés ehhez: „{0}”</value>
+  </data>
+  <data name="State_NoDifference" xml:space="preserve">
+    <value>Nincs jelentős különbség a két időszak között.</value>
+  </data>
+  <data name="State_Notable_One" xml:space="preserve">
+    <value>{0} jelentős különbség: {1}.</value>
+  </data>
+  <data name="State_Notable_Other" xml:space="preserve">
+    <value>{0} jelentős különbség: {1}.</value>
+  </data>
+  <data name="State_NotCompared" xml:space="preserve">
+    <value>Nincs összehasonlítva (csak egy időszakban mérve): {0}.</value>
+  </data>
+  <data name="State_OnlyOne" xml:space="preserve">
+    <value>Csak a két időszak egyikében mérve: nincs összehasonlítva.</value>
+  </data>
+  <data name="State_NoChange" xml:space="preserve">
+    <value>Nincs változás</value>
+  </data>
+  <data name="State_Explain_Same" xml:space="preserve">
+    <value>Nagyjából ugyanannyi mindkét időszakban.</value>
+  </data>
+  <data name="State_Explain_CpuUp" xml:space="preserve">
+    <value>A processzor terheltebb volt a második időszakban.</value>
+  </data>
+  <data name="State_Explain_CpuDown" xml:space="preserve">
+    <value>A processzor kevésbé volt terhelt a második időszakban.</value>
+  </data>
+  <data name="State_Explain_MemoryUp" xml:space="preserve">
+    <value>Több memória volt használatban a második időszakban.</value>
+  </data>
+  <data name="State_Explain_MemoryDown" xml:space="preserve">
+    <value>Kevesebb memória volt használatban a második időszakban.</value>
+  </data>
+  <data name="State_Explain_DiskUp" xml:space="preserve">
+    <value>A lemezek foglaltabbak voltak a második időszakban.</value>
+  </data>
+  <data name="State_Explain_DiskDown" xml:space="preserve">
+    <value>A lemezek kevésbé voltak foglaltak a második időszakban.</value>
+  </data>
+  <data name="State_Explain_GpuUp" xml:space="preserve">
+    <value>A grafikus processzor terheltebb volt a második időszakban.</value>
+  </data>
+  <data name="State_Explain_GpuDown" xml:space="preserve">
+    <value>A grafikus processzor kevésbé volt terhelt a második időszakban.</value>
+  </data>
+  <data name="State_Explain_SpaceUsed" xml:space="preserve">
+    <value>A két időszak között terület fogyott el a Windows-köteten.</value>
+  </data>
+  <data name="State_Explain_SpaceFreed" xml:space="preserve">
+    <value>A két időszak között terület szabadult fel a Windows-köteten.</value>
+  </data>
+  <data name="State_Explain_ProcessesUp" xml:space="preserve">
+    <value>Több folyamat futott a második időszakban.</value>
+  </data>
+  <data name="State_Explain_ProcessesDown" xml:space="preserve">
+    <value>Kevesebb folyamat futott a második időszakban.</value>
+  </data>
+  <data name="State_Explain_NetworkUp" xml:space="preserve">
+    <value>Több hálózati forgalom a második időszakban.</value>
+  </data>
+  <data name="State_Explain_NetworkDown" xml:space="preserve">
+    <value>Kevesebb hálózati forgalom a második időszakban.</value>
+  </data>
+  <data name="State_Points_One" xml:space="preserve">
+    <value>{0} százalékpont</value>
+  </data>
+  <data name="State_Points_Other" xml:space="preserve">
+    <value>{0} százalékpont</value>
+  </data>
+  <data name="Count_Measurement_One" xml:space="preserve">
+    <value>{0} mérés</value>
+  </data>
+  <data name="Count_Measurement_Other" xml:space="preserve">
+    <value>{0} mérés</value>
+  </data>
+  <data name="State_NoMeasurement" xml:space="preserve">
+    <value>nincs mérés</value>
+  </data>
+  <data name="State_Label_HourAgo" xml:space="preserve">
+    <value>1 órával ezelőtt</value>
+  </data>
+  <data name="State_Label_Now" xml:space="preserve">
+    <value>Most</value>
+  </data>
+  <data name="State_Label_YesterdaySameTime" xml:space="preserve">
+    <value>Tegnap ilyenkor</value>
+  </data>
+  <data name="State_Label_Before" xml:space="preserve">
+    <value>Előtte</value>
+  </data>
+  <data name="State_Label_After" xml:space="preserve">
+    <value>Utána</value>
+  </data>
+  <data name="State_Source_Seconds" xml:space="preserve">
+    <value>A memóriában tartott másodpercenkénti mérések</value>
+  </data>
+  <data name="State_Source_Minutes" xml:space="preserve">
+    <value>A helyi előzmények percenkénti átlagai</value>
+  </data>
+  <data name="State_Source_Hours" xml:space="preserve">
+    <value>A helyi előzmények óránkénti összesítései</value>
+  </data>
+  <data name="State_NoSession" xml:space="preserve">
+    <value>Nincs játékmenet</value>
+  </data>
+  <data name="State_NoSessionRecorded" xml:space="preserve">
+    <value>Nincs rögzített játékmenet</value>
+  </data>
+  <data name="State_NoSessionYet" xml:space="preserve">
+    <value>Még nincs rögzített játékmenet: játsszon néhány percig, majd hasonlítson össze.</value>
+  </data>
+  <data name="State_BeforeGame" xml:space="preserve">
+    <value>Előtte: {0}</value>
+  </data>
+  <data name="State_AfterGame" xml:space="preserve">
+    <value>Utána: {0}</value>
+  </data>
+  <data name="State_PreviousSession" xml:space="preserve">
+    <value>Előző játékmenet</value>
+  </data>
+  <data name="State_NoEarlierSession" xml:space="preserve">
+    <value>Nincs korábbi játékmenet az összehasonlításhoz.</value>
+  </data>
+  <data name="WhyNow_Metric_Disk" xml:space="preserve">
+    <value>Lemeztevékenység</value>
+  </data>
+  <data name="WhyNow_Metric_Network" xml:space="preserve">
+    <value>Hálózati forgalom</value>
+  </data>
+  <data name="WhyNow_NotEnough_Headline" xml:space="preserve">
+    <value>{0}: még nincs elég mérés</value>
+  </data>
+  <data name="WhyNow_NotEnough_Missing" xml:space="preserve">
+    <value>{0} nincs a mérések között, ezért nem magyarázható.</value>
+  </data>
+  <data name="WhyNow_NotEnough_Summary" xml:space="preserve">
+    <value>A Sysorának körülbelül két percnyi mérésre van szüksége ahhoz, hogy megmondja, mikor kezdődött egy változás.</value>
+  </data>
+  <data name="WhyNow_Range" xml:space="preserve">
+    <value>{0}–{1}</value>
+  </data>
+  <data name="WhyNow_Quiet_Headline" xml:space="preserve">
+    <value>{0}: jelenleg nem szokatlanul magas</value>
+  </data>
+  <data name="WhyNow_Quiet_Summary" xml:space="preserve">
+    <value>{0}: az utolsó időszakban ({2}) ebben a tartományban maradt: {1}; most {3}. Nincs magyarázandó új emelkedés.</value>
+  </data>
+  <data name="WhyNow_Quiet_Contributor" xml:space="preserve">
+    <value>Nincs mihez kötni: nincs jelentős emelkedés.</value>
+  </data>
+  <data name="WhyNow_Label_Level" xml:space="preserve">
+    <value>Szint</value>
+  </data>
+  <data name="WhyNow_Quiet_Level" xml:space="preserve">
+    <value>{0}: az elemzett időszakban ebben a tartományban maradt: {1}.</value>
+  </data>
+  <data name="WhyNow_Label_UsualRange" xml:space="preserve">
+    <value>Szokásos tartomány</value>
+  </data>
+  <data name="WhyNow_Label_Change" xml:space="preserve">
+    <value>Változás</value>
+  </data>
+  <data name="WhyNow_Change" xml:space="preserve">
+    <value>{0}: emelkedés {1} → {2}.</value>
+  </data>
+  <data name="WhyNow_AlreadyHigh" xml:space="preserve">
+    <value>{0}: {1}, és már az elemzett adatok elején is magas volt ({2}).</value>
+  </data>
+  <data name="WhyNow_Label_Started" xml:space="preserve">
+    <value>Kezdete</value>
+  </data>
+  <data name="WhyNow_Started" xml:space="preserve">
+    <value>Körülbelül {0} ({1:0} másodperces pontossággal).</value>
+  </data>
+  <data name="WhyNow_StartedBefore" xml:space="preserve">
+    <value>{0} előtt: korábbi adatok nem érhetők el.</value>
+  </data>
+  <data name="WhyNow_Label_Duration" xml:space="preserve">
+    <value>Időtartam</value>
+  </data>
+  <data name="WhyNow_AtLeast" xml:space="preserve">
+    <value>Legalább {0}</value>
+  </data>
+  <data name="WhyNow_Label_Associated" xml:space="preserve">
+    <value>Kapcsolódik</value>
+  </data>
+  <data name="WhyNow_Associated" xml:space="preserve">
+    <value>{0} ({1}, ugyanakkor; nem bizonyítja az okot)</value>
+  </data>
+  <data name="WhyNow_Label_SameTime" xml:space="preserve">
+    <value>Ugyanakkor</value>
+  </data>
+  <data name="WhyNow_Label_Similar" xml:space="preserve">
+    <value>Hasonló események</value>
+  </data>
+  <data name="WhyNow_Label_WhyMore" xml:space="preserve">
+    <value>Miért igényel többet az alkalmazás</value>
+  </data>
+  <data name="WhyNow_NotObservable" xml:space="preserve">
+    <value>Hogy egy alkalmazás belül mit csinál, kívülről nem figyelhető meg.</value>
+  </data>
+  <data name="WhyNow_Headline_Increased" xml:space="preserve">
+    <value>{0}: jelentős növekedés</value>
+  </data>
+  <data name="WhyNow_Headline_High" xml:space="preserve">
+    <value>{0}: már ez előtt is magas: {1}</value>
+  </data>
+  <data name="WhyNow_Summary_WentFrom" xml:space="preserve">
+    <value>{0}: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Summary_Is" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="WhyNow_Summary_Starting" xml:space="preserve">
+    <value>, kezdete körülbelül {0} ({1} ezelőtt). </value>
+  </data>
+  <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
+    <value>Előtte {0}, most {1}</value>
+  </data>
+  <data name="WhyNow_Ev_Now" xml:space="preserve">
+    <value>Most {0}</value>
+  </data>
+  <data name="WhyNow_Ev_Reference" xml:space="preserve">
+    <value>{0:0} másodperces lépések átlaga; a változás kezdete: {1}</value>
+  </data>
+  <data name="WhyNow_Position_Above95" xml:space="preserve">
+    <value>a rögzített percek 95%-a felett</value>
+  </data>
+  <data name="WhyNow_Position_Above" xml:space="preserve">
+    <value>a szokásos tartomány felett</value>
+  </data>
+  <data name="WhyNow_Position_Below" xml:space="preserve">
+    <value>a szokásos tartomány alatt</value>
+  </data>
+  <data name="WhyNow_Position_Within" xml:space="preserve">
+    <value>a szokásos tartományon belül</value>
+  </data>
+  <data name="WhyNow_Usual" xml:space="preserve">
+    <value>Általában {0} (medián: {1}); most {2}: {3}.</value>
+  </data>
+  <data name="WhyNow_Network_NotAvailable" xml:space="preserve">
+    <value>Nem érhető el: a Windows rendszergazdai szintű eseménykövetés nélkül nem jelenti az alkalmazásonkénti hálózathasználatot.</value>
+  </data>
+  <data name="WhyNow_Network_Summary" xml:space="preserve">
+    <value>A felelős alkalmazás nem azonosítható: a Windows rendszergazdai szintű eseménykövetés nélkül nem jelenti az alkalmazásonkénti hálózathasználatot.</value>
+  </data>
+  <data name="WhyNow_Label_Contributor" xml:space="preserve">
+    <value>Hozzájáruló tényező</value>
+  </data>
+  <data name="WhyNow_Gpu_Unknown" xml:space="preserve">
+    <value>Az ok ismeretlen: az alkalmazásonkénti GPU-használat nem kerül az előzményekbe. Az egy időben történt események segíthetnek.</value>
+  </data>
+  <data name="WhyNow_NoAppData" xml:space="preserve">
+    <value>Az ok ismeretlen: ehhez az időszakhoz nincsenek alkalmazásonkénti adatok (az alkalmazások csak a memóriában tartott legutóbbi előzményekben szerepelnek).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeLargest" xml:space="preserve">
+    <value>Az ok ismeretlen: az emelkedés az elemzett adatok előtt kezdődött. Legnagyobb felhasználó most: {0} ({1}).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeData" xml:space="preserve">
+    <value>Az ok ismeretlen: az emelkedés az elemzett adatok előtt kezdődött.</value>
+  </data>
+  <data name="WhyNow_NoDataBefore" xml:space="preserve">
+    <value>Az ok ismeretlen: nincsenek alkalmazásonkénti adatok az emelkedés előttről.</value>
+  </data>
+  <data name="WhyNow_NoIncrease" xml:space="preserve">
+    <value>Az ok ismeretlen: a mért alkalmazások egyike sem növelte a használatát.</value>
+  </data>
+  <data name="WhyNow_NoSingleApp" xml:space="preserve">
+    <value>Az ok ismeretlen: egyetlen alkalmazás sem magyarázza a növekedést (legnagyobb változás: {0} {1}).</value>
+  </data>
+  <data name="WhyNow_Share" xml:space="preserve">
+    <value>, a növekedés kb. {0} része</value>
+  </data>
+  <data name="WhyNow_IoNote" xml:space="preserve">
+    <value> I/O (fájlok, eszközök és hálózat együtt)</value>
+  </data>
+  <data name="WhyNow_NewApp" xml:space="preserve">
+    <value> – korábban nem tartozott a legterheltebb alkalmazások közé</value>
+  </data>
+  <data name="WhyNow_Label_Likely" xml:space="preserve">
+    <value>Valószínű hozzájáruló tényező</value>
+  </data>
+  <data name="WhyNow_Label_Possible" xml:space="preserve">
+    <value>Lehetséges hozzájáruló tényező</value>
+  </data>
+  <data name="WhyNow_ContributorText" xml:space="preserve">
+    <value>{0}: {1} ({2}{3}{4}){5}</value>
+  </data>
+  <data name="WhyNow_Summary_Likely" xml:space="preserve">
+    <value>Az adatok alapján a fő hozzájáruló tényező: {0} ({1}{2}).</value>
+  </data>
+  <data name="WhyNow_Summary_Possible" xml:space="preserve">
+    <value>Lehet, hogy hozzájárult: {0} ({1}{2}), de a bizonyíték gyenge.</value>
+  </data>
+  <data name="WhyNow_AlsoRose" xml:space="preserve">
+    <value>Ez is emelkedett: {0}: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Similar_NotTracked" xml:space="preserve">
+    <value>Hasonló események: nincs követve (egyetlen riasztási szabály sem követi ezt a mérőszámot).</value>
+  </data>
+  <data name="WhyNow_Similar_NoHistory" xml:space="preserve">
+    <value>Hasonló események: nem érhető el (nincsenek riasztási előzmények).</value>
+  </data>
+  <data name="WhyNow_Similar_None" xml:space="preserve">
+    <value>Hasonló események: nincs az utolsó {0} napban.</value>
+  </data>
+  <data name="WhyNow_Similar_Count" xml:space="preserve">
+    <value>Hasonló események: {0} az utolsó {1} napban.</value>
+  </data>
+  <data name="Count_Alert_One" xml:space="preserve">
+    <value>{0} riasztás</value>
+  </data>
+  <data name="Count_Alert_Other" xml:space="preserve">
+    <value>{0} riasztás</value>
+  </data>
+  <data name="WhyNow_Source_Mixed" xml:space="preserve">
+    <value>A memóriában tartott másodpercenkénti mérések, előttük a helyi előzmények percenkénti átlagai</value>
+  </data>
+  <data name="Changes_UnknownOrigin" xml:space="preserve">
+    <value>Változás észlelve, ismeretlen eredetű.</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated" xml:space="preserve">
+    <value>Telepítve vagy frissítve: {0}</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated_Explanation" xml:space="preserve">
+    <value>A Windows rögzíti ezt a dátumot, amikor egy alkalmazás telepítésre kerül; sok telepítő frissítéskor is felülírja.</value>
+  </data>
+  <data name="Changes_MatchedByName" xml:space="preserve">
+    <value>Név és kiadó alapján egyeztetve a Windows telepített alkalmazásainak listájában.</value>
+  </data>
+  <data name="Changes_VersionRead" xml:space="preserve">
+    <value>A verzió a Windows telepített alkalmazásainak listájából származik.</value>
+  </data>
+  <data name="Changes_Removed" xml:space="preserve">
+    <value>Eltávolítva: {0}</value>
+  </data>
+  <data name="Changes_Removed_Explanation" xml:space="preserve">
+    <value>Az alkalmazás már nem szerepel a Windows telepített alkalmazásainak listájában.</value>
+  </data>
+  <data name="Changes_Removed_Origin" xml:space="preserve">
+    <value>Szerepelt ebben a pillanatképben: {0}, hiányzik ebből: {1}.</value>
+  </data>
+  <data name="Changes_Ev_InstalledApps" xml:space="preserve">
+    <value>Telepített alkalmazások</value>
+  </data>
+  <data name="Changes_Installed_OriginDate" xml:space="preserve">
+    <value>A telepítés dátumát ({0}) a telepítő rögzítette a Windows telepített alkalmazásainak listájában.</value>
+  </data>
+  <data name="Changes_Installed_OriginSnapshot" xml:space="preserve">
+    <value>Szerepel a Windows telepített alkalmazásainak listájában, hiányzott ebből a pillanatképből: {0}.</value>
+  </data>
+  <data name="Changes_Installed" xml:space="preserve">
+    <value>Telepítve: {0}</value>
+  </data>
+  <data name="Changes_Installed_ExplanationPublisher" xml:space="preserve">
+    <value>Új alkalmazás, kiadó: {0}. Az új szoftverek háttérfolyamatokat és indítási elemeket adhatnak hozzá.</value>
+  </data>
+  <data name="Changes_Installed_Explanation" xml:space="preserve">
+    <value>Új alkalmazás. Az új szoftverek háttérfolyamatokat és indítási elemeket adhatnak hozzá.</value>
+  </data>
+  <data name="Changes_Updated" xml:space="preserve">
+    <value>Frissítve: {0}</value>
+  </data>
+  <data name="Changes_Updated_Explanation" xml:space="preserve">
+    <value>Egy új verzió másként viselkedhet (teljesítmény, háttértevékenység).</value>
+  </data>
+  <data name="Changes_Startup_Origin" xml:space="preserve">
+    <value>Az indítási elemek összehasonlítva: {0} és {1}.</value>
+  </data>
+  <data name="Changes_Startup_New" xml:space="preserve">
+    <value>Új indítási program: {0}</value>
+  </data>
+  <data name="Changes_Startup_New_Explanation" xml:space="preserve">
+    <value>Mostantól automatikusan elindul bejelentkezéskor, ami meghosszabbíthatja az indítást, és a háttérben erőforrásokat használhat.</value>
+  </data>
+  <data name="Changes_Startup_Enabled" xml:space="preserve">
+    <value>Indítási program engedélyezve: {0}</value>
+  </data>
+  <data name="Changes_Startup_Disabled" xml:space="preserve">
+    <value>Indítási program letiltva: {0}</value>
+  </data>
+  <data name="Changes_Startup_Enabled_Explanation" xml:space="preserve">
+    <value>Bejelentkezéskor újra automatikusan elindul.</value>
+  </data>
+  <data name="Changes_Startup_Removed_Explanation" xml:space="preserve">
+    <value>Bejelentkezéskor már nem indul el automatikusan.</value>
+  </data>
+  <data name="Changes_Startup_Removed" xml:space="preserve">
+    <value>Indítási program eltávolítva: {0}</value>
+  </data>
+  <data name="Changes_Enabled" xml:space="preserve">
+    <value>Engedélyezve</value>
+  </data>
+  <data name="Changes_Disabled" xml:space="preserve">
+    <value>Letiltva</value>
+  </data>
+  <data name="Changes_Ev_StartupEntry" xml:space="preserve">
+    <value>Indítási elem</value>
+  </data>
+  <data name="Changes_Windows_Title" xml:space="preserve">
+    <value>A Windows frissült</value>
+  </data>
+  <data name="Changes_Windows_Explanation" xml:space="preserve">
+    <value>A Windows-frissítések módosíthatják az illesztőprogramokat és a háttérszolgáltatásokat; a frissítés utáni első órákban gyakran több a lemez- és CPU-tevékenység.</value>
+  </data>
+  <data name="Changes_Windows_Source" xml:space="preserve">
+    <value>A buildszám a beállításjegyzékből származik (CurrentVersion).</value>
+  </data>
+  <data name="Changes_Bios_Title" xml:space="preserve">
+    <value>A belső vezérlőprogram (BIOS) frissült</value>
+  </data>
+  <data name="Changes_Bios_Explanation" xml:space="preserve">
+    <value>A belső vezérlőprogram frissítése módosíthatja az energiagazdálkodást és a hardver viselkedését.</value>
+  </data>
+  <data name="Changes_Bios_Source" xml:space="preserve">
+    <value>A BIOS verziója a beállításjegyzékből származik (a Windows által másolt SMBIOS-adatok).</value>
+  </data>
+  <data name="Changes_Memory_Subject" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Changes_Memory_Title" xml:space="preserve">
+    <value>A telepített memória megváltozott</value>
+  </data>
+  <data name="Changes_Memory_Explanation" xml:space="preserve">
+    <value>A fizikai memória mennyisége megváltozott (modult adtak hozzá, távolítottak el, vagy nem észlelhető).</value>
+  </data>
+  <data name="Changes_Memory_Source" xml:space="preserve">
+    <value>A belső vezérlőprogram által jelentett telepített memória.</value>
+  </data>
+  <data name="Changes_System_Origin" xml:space="preserve">
+    <value>A pillanatképek összehasonlítva: {0} és {1}.</value>
+  </data>
+  <data name="Changes_Devices_Origin" xml:space="preserve">
+    <value>Az eszközök összehasonlítva: {0} és {1}.</value>
+  </data>
+  <data name="Changes_Device_New" xml:space="preserve">
+    <value>Új eszköz ({1}): {2}</value>
+  </data>
+  <data name="Changes_Device_Gone" xml:space="preserve">
+    <value>Már nem létező eszköz ({0}): {2}</value>
+  </data>
+  <data name="Changes_Device_New_Explanation" xml:space="preserve">
+    <value>Az előző pillanatkép óta megjelent egy eszköz (új hardver, illesztőprogram-változás vagy virtuális adapter).</value>
+  </data>
+  <data name="Changes_Device_Gone_Explanation" xml:space="preserve">
+    <value>Az előző pillanatképben szereplő eszköz nem található (eltávolították, letiltották, vagy megváltozott az illesztőprogramja).</value>
+  </data>
+  <data name="Changes_Space_UsedOf" xml:space="preserve">
+    <value>{0} → {1} használt / {2}</value>
+  </data>
+  <data name="Changes_Ev_InstalledSamePeriod" xml:space="preserve">
+    <value>Ugyanabban az időszakban telepítve</value>
+  </data>
+  <data name="Changes_Ev_PossibleFiles" xml:space="preserve">
+    <value>Lehetséges hozzájáruló tényezők, nem megerősítve: a Sysora nem méri az egyes fájlok méretét.</value>
+  </data>
+  <data name="Changes_Space_More" xml:space="preserve">
+    <value>{1}: {0} többlet használat</value>
+  </data>
+  <data name="Changes_Space_Freed" xml:space="preserve">
+    <value>{1}: {0} felszabadult</value>
+  </data>
+  <data name="Changes_Space_Used" xml:space="preserve">
+    <value>{0} használt</value>
+  </data>
+  <data name="Changes_Space_Grew_Explanation" xml:space="preserve">
+    <value>A kötet használt területe érezhetően nőtt a két pillanatkép között.</value>
+  </data>
+  <data name="Changes_Space_Freed_Explanation" xml:space="preserve">
+    <value>Terület szabadult fel a köteten a két pillanatkép között.</value>
+  </data>
+  <data name="Changes_Space_Origin" xml:space="preserve">
+    <value>A Sysora a szabad területet méri, nem az egyes fájlokat.</value>
+  </data>
+  <data name="Changes_Usage_AverageMemory" xml:space="preserve">
+    <value>Átlagos memóriahasználat</value>
+  </data>
+  <data name="Changes_Usage_AverageCpu" xml:space="preserve">
+    <value>Átlagos CPU-használat</value>
+  </data>
+  <data name="Changes_Usage_Reference" xml:space="preserve">
+    <value>Az egyes pillanatképek előtti 24 óra átlaga ({0} és {1} percnyi mérés)</value>
+  </data>
+  <data name="Changes_Ev_Possible" xml:space="preserve">
+    <value>Lehetséges hozzájáruló tényezők, nem megerősítve.</value>
+  </data>
+  <data name="Changes_Usage_Title" xml:space="preserve">
+    <value>{0} {1:+0;-0;0} százalékpont</value>
+  </data>
+  <data name="Changes_Usage_MoreMemory" xml:space="preserve">
+    <value>A számítógép átlagosan érezhetően több memóriát használt, mint a referencianapon.</value>
+  </data>
+  <data name="Changes_Usage_MoreCpu" xml:space="preserve">
+    <value>A számítógép átlagosan érezhetően több CPU-t használt, mint a referencianapon.</value>
+  </data>
+  <data name="Changes_Usage_LessMemory" xml:space="preserve">
+    <value>A számítógép átlagosan érezhetően kevesebb memóriát használt, mint a referencianapon.</value>
+  </data>
+  <data name="Changes_Usage_LessCpu" xml:space="preserve">
+    <value>A számítógép átlagosan érezhetően kevesebb CPU-t használt, mint a referencianapon.</value>
+  </data>
+  <data name="Changes_Ev_SourceOf" xml:space="preserve">
+    <value>A Windows telepített alkalmazásai ({0})</value>
+  </data>
+  <data name="Changes_Ev_Source" xml:space="preserve">
+    <value>A Windows telepített alkalmazásai</value>
+  </data>
+  <data name="Changes_Ev_InstallDate" xml:space="preserve">
+    <value>A telepítő által rögzített telepítési dátum: {0}</value>
+  </data>
+  <data name="Device_Graphics" xml:space="preserve">
+    <value>Grafika</value>
+  </data>
+  <data name="Device_Network" xml:space="preserve">
+    <value>Hálózat</value>
+  </data>
+  <data name="Device_Volume" xml:space="preserve">
+    <value>Kötet</value>
+  </data>
+  <data name="AppSource_Machine" xml:space="preserve">
+    <value>Gép</value>
+  </data>
+  <data name="AppSource_Machine32" xml:space="preserve">
+    <value>Gép (32 bites)</value>
+  </data>
+  <data name="AppSource_User" xml:space="preserve">
+    <value>Felhasználó</value>
+  </data>
+  <data name="AppSource_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Changes_OldestSnapshot" xml:space="preserve">
+    <value>A legrégebbi pillanatkép dátuma: {0}.</value>
+  </data>
+  <data name="Changes_NoSnapshot" xml:space="preserve">
+    <value>Még nincs rögzített pillanatkép; az első egy perccel a Sysora indítása után készül.</value>
+  </data>
+  <data name="Changes_NotEnough" xml:space="preserve">
+    <value>Még nincs elég előzmény ehhez az összehasonlításhoz. {0}</value>
+  </data>
+  <data name="Changes_Note" xml:space="preserve">
+    <value>A jelenlegi állapot összehasonlítva ezzel a pillanatképpel: {0}.</value>
+  </data>
+  <data name="Changes_Note_AppsUnreadable" xml:space="preserve">
+    <value>A telepített alkalmazásokat nem lehetett összehasonlítani (az egyik pillanatképben nem olvashatók).</value>
+  </data>
+  <data name="Changes_Frequent_Activity" xml:space="preserve">
+    <value>Fut: {0}, {1}, kezdete: {2}</value>
+  </data>
+  <data name="Count_Start_One" xml:space="preserve">
+    <value>{0} indítás</value>
+  </data>
+  <data name="Count_Start_Other" xml:space="preserve">
+    <value>{0} indítás</value>
+  </data>
+  <data name="Changes_Frequent_Title" xml:space="preserve">
+    <value>{0}: mostantól rendszeresen fut</value>
+  </data>
+  <data name="Changes_Frequent_Explanation" xml:space="preserve">
+    <value>Egy program, amelyet a Sysora korábban nem látott, rendszeresen futni kezdett. Lehet új alkalmazás, frissítési segédprogram vagy háttérfeladat.</value>
+  </data>
+  <data name="Changes_Frequent_Origin" xml:space="preserve">
+    <value>A Sysora először ekkor látta: {0}; a Sysora ekkortól rögzít: {1}.</value>
+  </data>
+  <data name="Changes_Ev_Activity" xml:space="preserve">
+    <value>Tevékenység</value>
+  </data>
+  <data name="Changes_Ev_NameOnly" xml:space="preserve">
+    <value>Csak a folyamat neve alapján azonosítva</value>
+  </data>
+  <data name="Since_Loading" xml:space="preserve">
+    <value>Összehasonlítás a tegnappal…</value>
+  </data>
+  <data name="Since_Area_Applications" xml:space="preserve">
+    <value>Alkalmazások</value>
+  </data>
+  <data name="Since_Area_Startup" xml:space="preserve">
+    <value>Indítási programok</value>
+  </data>
+  <data name="Since_Area_Windows" xml:space="preserve">
+    <value>Windows-verzió</value>
+  </data>
+  <data name="Since_Area_Firmware" xml:space="preserve">
+    <value>Belső vezérlőprogram (BIOS)</value>
+  </data>
+  <data name="Since_Area_Memory" xml:space="preserve">
+    <value>Telepített memória</value>
+  </data>
+  <data name="Since_Area_Devices" xml:space="preserve">
+    <value>Eszközök</value>
+  </data>
+  <data name="Since_Area_DiskSpace" xml:space="preserve">
+    <value>Lemezterület</value>
+  </data>
+  <data name="Since_Area_Usage" xml:space="preserve">
+    <value>Használat</value>
+  </data>
+  <data name="Since_Area_Alerts" xml:space="preserve">
+    <value>Riasztások</value>
+  </data>
+  <data name="Since_NotEnough" xml:space="preserve">
+    <value>Még nincs elég előzmény</value>
+  </data>
+  <data name="Since_Usage_Title" xml:space="preserve">
+    <value>{0}: {1} ma</value>
+  </data>
+  <data name="Since_Yesterday" xml:space="preserve">
+    <value>{0} tegnap</value>
+  </data>
+  <data name="Since_Today" xml:space="preserve">
+    <value>{0} ma</value>
+  </data>
+  <data name="Since_Usage_Explanation" xml:space="preserve">
+    <value>{0} Az egyes napok átlagai.</value>
+  </data>
+  <data name="Since_SecondPeriodPhrase" xml:space="preserve">
+    <value>a második időszakban</value>
+  </data>
+  <data name="Since_TodayPhrase" xml:space="preserve">
+    <value>ma</value>
+  </data>
+  <data name="Since_When" xml:space="preserve">
+    <value>Ma eddig, a tegnaphoz képest</value>
+  </data>
+  <data name="Since_Usage_Origin" xml:space="preserve">
+    <value>{0} (tegnap) és {1} (ma).</value>
+  </data>
+  <data name="Since_MoreAlerts" xml:space="preserve">
+    <value>Ma több a riasztás ({0})</value>
+  </data>
+  <data name="Since_FewerAlerts" xml:space="preserve">
+    <value>Ma kevesebb a riasztás ({0})</value>
+  </data>
+  <data name="Since_MoreAlerts_Explanation" xml:space="preserve">
+    <value>Ma több tartós vagy szokatlan problémát észleltünk, mint tegnap.</value>
+  </data>
+  <data name="Since_FewerAlerts_Explanation" xml:space="preserve">
+    <value>Ma kevesebb problémát észleltünk, mint tegnap.</value>
+  </data>
+  <data name="Since_AlertsOrigin" xml:space="preserve">
+    <value>A Sysora által rögzített riasztások.</value>
+  </data>
+  <data name="Since_Reason_Apps" xml:space="preserve">
+    <value>a telepített alkalmazások listája az egyik pillanatképben nem volt olvasható</value>
+  </data>
+  <data name="Since_Reason_Startup" xml:space="preserve">
+    <value>az indítási programok az egyik pillanatképben nem voltak olvashatók</value>
+  </data>
+  <data name="Since_Reason_Windows" xml:space="preserve">
+    <value>a Windows buildje nem lett rögzítve</value>
+  </data>
+  <data name="Since_Reason_Bios" xml:space="preserve">
+    <value>ez a számítógép nem jelenti a BIOS verzióját</value>
+  </data>
+  <data name="Since_Reason_Memory" xml:space="preserve">
+    <value>a belső vezérlőprogram nem jelenti a telepített memóriát</value>
+  </data>
+  <data name="Since_Reason_Volumes" xml:space="preserve">
+    <value>nem lett rögzítve kötet</value>
+  </data>
+  <data name="Since_Reason_Usage" xml:space="preserve">
+    <value>nincs elég előzmény a mai vagy a tegnapi napra</value>
+  </data>
+  <data name="Since_NoChange" xml:space="preserve">
+    <value>Nincs változás tegnap óta</value>
+  </data>
+  <data name="Count_SignificantChange_One" xml:space="preserve">
+    <value>{0} jelentős változás</value>
+  </data>
+  <data name="Count_SignificantChange_Other" xml:space="preserve">
+    <value>{0} jelentős változás</value>
+  </data>
+  <data name="Count_MinorChange_One" xml:space="preserve">
+    <value>{0} kisebb változás</value>
+  </data>
+  <data name="Count_MinorChange_Other" xml:space="preserve">
+    <value>{0} kisebb változás</value>
+  </data>
+  <data name="Since_Note" xml:space="preserve">
+    <value>Összehasonlítva ezzel a pillanatképpel: {0}. Csak a Sysora által megfigyelt eltérések szerepelnek; az eredetüket feltüntetjük, ha ismert.</value>
+  </data>
+  <data name="Since_Between" xml:space="preserve">
+    <value>{0} – {1} között</value>
+  </data>
+  <data name="Since_Before" xml:space="preserve">
+    <value>Előtte: {0}</value>
+  </data>
+  <data name="Game_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Nem érhető el. A Windows nem kínál megbízható képkockasebesség-forrást más alkalmazásoknak: a méréséhez rendszergazdai szintű eseménykövetés vagy a játékba való beavatkozás kellene, és a Sysora egyiket sem teszi.</value>
+  </data>
+  <data name="Game_NoLimit_Title" xml:space="preserve">
+    <value>Egyetlen erőforrás-korlát sem lett elérve</value>
+  </data>
+  <data name="Game_NoLimit_Description" xml:space="preserve">
+    <value>A memória, a processzor, a videomemória és a lemezek a mért idő alatt egyszer sem maradtak a korlátjukon.</value>
+  </data>
+  <data name="Game_Headline_None" xml:space="preserve">
+    <value>Nem észleltünk problémát</value>
+  </data>
+  <data name="Game_Headline_Points_One" xml:space="preserve">
+    <value>{0} figyelendő pont</value>
+  </data>
+  <data name="Game_Headline_Points_Other" xml:space="preserve">
+    <value>{0} figyelendő pont</value>
+  </data>
+  <data name="Game_Summary_DurationOf" xml:space="preserve">
+    <value>{1}: {0}.</value>
+  </data>
+  <data name="Game_Summary_Cpu" xml:space="preserve">
+    <value>CPU: {0}</value>
+  </data>
+  <data name="Game_Summary_Memory" xml:space="preserve">
+    <value>memória: {0}</value>
+  </data>
+  <data name="Game_Summary_OnAverage" xml:space="preserve">
+    <value>Átlagosan: {0}.</value>
+  </data>
+  <data name="Game_Summary_Qualified" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="Game_Summary_NoLimit" xml:space="preserve">
+    <value>Egyetlen erőforrás-korlát sem lett elérve.</value>
+  </data>
+  <data name="Game_OfTotal" xml:space="preserve">
+    <value>/ {0}</value>
+  </data>
+  <data name="Game_Fps_Note" xml:space="preserve">
+    <value>Nincs megbízható forrás a Windowsban</value>
+  </data>
+  <data name="Game_Metric_CpuPc" xml:space="preserve">
+    <value>CPU (teljes számítógép)</value>
+  </data>
+  <data name="Game_Metric_CpuGame" xml:space="preserve">
+    <value>A játék által használt CPU</value>
+  </data>
+  <data name="Game_CpuGame_Note" xml:space="preserve">
+    <value>A processzor teljes kapacitásának része</value>
+  </data>
+  <data name="Game_Metric_GpuBusiest" xml:space="preserve">
+    <value>GPU (legterheltebb adapter)</value>
+  </data>
+  <data name="Game_Metric_GpuGame" xml:space="preserve">
+    <value>A játék által használt GPU</value>
+  </data>
+  <data name="Game_GpuGame_NotReported" xml:space="preserve">
+    <value>A Windows nem jelentett folyamatonkénti GPU-használatot</value>
+  </data>
+  <data name="Game_GpuGame_Note" xml:space="preserve">
+    <value>A játék által használt legterheltebb GPU-motor</value>
+  </data>
+  <data name="Game_Metric_VideoMemory" xml:space="preserve">
+    <value>Használt videomemória</value>
+  </data>
+  <data name="Game_VideoMemory_Note" xml:space="preserve">
+    <value>dedikált memória, összes alkalmazás</value>
+  </data>
+  <data name="Game_Metric_MemoryPc" xml:space="preserve">
+    <value>Memória (teljes számítógép)</value>
+  </data>
+  <data name="Game_Metric_MemoryGame" xml:space="preserve">
+    <value>A játék által használt memória</value>
+  </data>
+  <data name="Game_MemoryGame_Note" xml:space="preserve">
+    <value>A játék folyamatainak privát munkakészlete</value>
+  </data>
+  <data name="Game_Metric_Disk" xml:space="preserve">
+    <value>A legterheltebb lemez aktív ideje</value>
+  </data>
+  <data name="Game_Metric_NetReceived" xml:space="preserve">
+    <value>Fogadott hálózati adat (teljes számítógép)</value>
+  </data>
+  <data name="Game_Metric_NetSent" xml:space="preserve">
+    <value>Küldött hálózati adat (teljes számítógép)</value>
+  </data>
+  <data name="Game_Metric_SelfCpu" xml:space="preserve">
+    <value>A Sysora saját CPU-használata</value>
+  </data>
+  <data name="Game_SelfCpu_Note" xml:space="preserve">
+    <value>A játékmenet alatt mérve</value>
+  </data>
+  <data name="Game_OverPeriods" xml:space="preserve">
+    <value>, {0} szakaszban</value>
+  </data>
+  <data name="Game_Condition_Value" xml:space="preserve">
+    <value>Legalább {0}, időtartam: {1}{2} (csúcs: {3})</value>
+  </data>
+  <data name="Game_Condition_Reference" xml:space="preserve">
+    <value>Akkor számít, ha legalább ennyi ideig tart: {0}</value>
+  </data>
+  <data name="Game_Memory_Title" xml:space="preserve">
+    <value>A memória majdnem megtelt</value>
+  </data>
+  <data name="Game_Memory_Description" xml:space="preserve">
+    <value>A fizikai memória {0} felett volt, időtartam: {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Stutters" xml:space="preserve">
+    <value>Akadozás lehetséges oka</value>
+  </data>
+  <data name="Game_Memory_RecommendationApp" xml:space="preserve">
+    <value>Játék előtt zárja be a nem szükséges alkalmazásokat. A legnagyobb másik alkalmazás: {0} ({1}).</value>
+  </data>
+  <data name="Game_Memory_Recommendation" xml:space="preserve">
+    <value>Játék előtt zárja be a nem szükséges alkalmazásokat.</value>
+  </data>
+  <data name="Game_Cpu_Title" xml:space="preserve">
+    <value>A processzor telített volt</value>
+  </data>
+  <data name="Game_Cpu_Description" xml:space="preserve">
+    <value>A teljes CPU-használat {0} felett volt, időtartam: {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Slowdowns" xml:space="preserve">
+    <value>A lassulások valószínű oka</value>
+  </data>
+  <data name="Game_Cpu_RecommendationApp" xml:space="preserve">
+    <value>A legterheltebb másik alkalmazás: {0} (átlagosan {1} CPU): ha nincs rá szüksége, zárja be játék közben.</value>
+  </data>
+  <data name="Game_Cpu_Recommendation" xml:space="preserve">
+    <value>A CPU-igényes beállítások (látótávolság, tömeg sűrűsége, fizika) csökkentése mérsékli a terhelést.</value>
+  </data>
+  <data name="Game_Video_Title" xml:space="preserve">
+    <value>A videomemória majdnem megtelt</value>
+  </data>
+  <data name="Game_Video_Description" xml:space="preserve">
+    <value>A dedikált videomemória {0} / {1} felett volt, időtartam: {2}{3}.</value>
+  </data>
+  <data name="Game_Video_Recommendation" xml:space="preserve">
+    <value>A textúraminőség vagy a felbontás csökkentése mérsékli a videomemória-használatot.</value>
+  </data>
+  <data name="Game_Disk_Title" xml:space="preserve">
+    <value>Egy lemez szinte folyamatosan foglalt volt</value>
+  </data>
+  <data name="Game_Disk_Description" xml:space="preserve">
+    <value>A legterheltebb lemez aktív ideje {0} felett volt, időtartam: {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Loading" xml:space="preserve">
+    <value>A betöltési szünetek lehetséges oka</value>
+  </data>
+  <data name="Game_Disk_Recommendation" xml:space="preserve">
+    <value>Ha a játékot gyorsabb meghajtóra (SSD) telepíti, rövidebb a betöltés; az egyidejűleg futó frissítések vagy vizsgálatok szintén leterhelik a lemezeket.</value>
+  </data>
+  <data name="Game_GpuBound_Title" xml:space="preserve">
+    <value>A grafikus kártya volt a legterheltebb összetevő</value>
+  </data>
+  <data name="Game_GpuBound_DescriptionCpu" xml:space="preserve">
+    <value>A GPU átlaga {0} volt, a processzoré {1}.</value>
+  </data>
+  <data name="Game_GpuBound_Description" xml:space="preserve">
+    <value>A GPU átlaga {0} volt.</value>
+  </data>
+  <data name="Game_Qualifier_LikelyLimit" xml:space="preserve">
+    <value>Valószínű korlátozó tényező</value>
+  </data>
+  <data name="Game_GpuBound_Recommendation" xml:space="preserve">
+    <value>Egy igényes játéknál ez várható: a GPU diktálja a tempót. A gördülékenyebb működéshez csökkentse a grafikai beállításokat vagy a felbontást.</value>
+  </data>
+  <data name="Game_Ev_GpuBusiest" xml:space="preserve">
+    <value>GPU-használat (legterheltebb adapter)</value>
+  </data>
+  <data name="Game_CpuHeavy_Title" xml:space="preserve">
+    <value>A processzor erősen terhelt volt</value>
+  </data>
+  <data name="Game_CpuHeavy_DescriptionGpu" xml:space="preserve">
+    <value>A processzor átlaga {0} volt, a GPU-é {1}.</value>
+  </data>
+  <data name="Game_CpuHeavy_Description" xml:space="preserve">
+    <value>A processzor átlaga {0} volt. A GPU-használat nem volt elérhető, ezért a Sysora nem tudja megmondani, melyik összetevő diktálta a tempót.</value>
+  </data>
+  <data name="Game_Qualifier_Potential" xml:space="preserve">
+    <value>Lehetséges hozzájáruló tényező</value>
+  </data>
+  <data name="Game_CpuHeavy_Recommendation" xml:space="preserve">
+    <value>Zárja be a háttéralkalmazásokat, és csökkentse a CPU-igényes beállításokat (látótávolság, tömeg, fizika).</value>
+  </data>
+  <data name="Game_BusyApp_Title" xml:space="preserve">
+    <value>{0}: terhelt volt a játék alatt</value>
+  </data>
+  <data name="Game_BusyApp_Description" xml:space="preserve">
+    <value>{0}: a játékmenet alatt átlagosan a teljes CPU {1} részét használta (csúcs: {2}).</value>
+  </data>
+  <data name="Game_BusyApp_Recommendation" xml:space="preserve">
+    <value>Ha játék közben nincs szüksége erre: {0}, zárja be a játék indítása előtt.</value>
+  </data>
+  <data name="Game_BusyApp_Value" xml:space="preserve">
+    <value>Átlag: {0}, csúcs: {1}, memória legfeljebb: {2}</value>
+  </data>
+  <data name="Game_BusyApp_Reference" xml:space="preserve">
+    <value>A játékmenet összes folyamatmintájának átlaga (0, amíg nem futott)</value>
+  </data>
+  <data name="Game_Gaps_Title" xml:space="preserve">
+    <value>A mérések megszakadtak</value>
+  </data>
+  <data name="Game_Gaps_Description" xml:space="preserve">
+    <value>{0} ({1} nem mérve): a számítógép alvó állapotban volt, vagy a figyelés szünetelt. Az értékek csak a mért időt fedik le.</value>
+  </data>
+  <data name="Game_Compare_First" xml:space="preserve">
+    <value>Az első rögzített játékmenet ({0}): még nincs mihez hasonlítani.</value>
+  </data>
+  <data name="Game_Compare_Previous" xml:space="preserve">
+    <value>Összehasonlítva az előző játékmenettel ({0}, {1}).</value>
+  </data>
+  <data name="Game_Compare_Average" xml:space="preserve">
+    <value>Összehasonlítva az előző {0} játékmenet átlagával ({1}, {2} óta).</value>
+  </data>
+  <data name="Game_Ref_Previous" xml:space="preserve">
+    <value>az előző játékmenet</value>
+  </data>
+  <data name="Game_Ref_PreviousN" xml:space="preserve">
+    <value>az előző {0} játékmenet</value>
+  </data>
+  <data name="Game_Compare_HigherTitle" xml:space="preserve">
+    <value>{0}: magasabb volt, mint ennél a játéknál szokásos</value>
+  </data>
+  <data name="Game_Compare_HigherDescription" xml:space="preserve">
+    <value>{0}: átlag {1}, {2} ehhez képest: {3} ({4}).</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryTitle" xml:space="preserve">
+    <value>A játék a szokásosnál több memóriát használt</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryDescription" xml:space="preserve">
+    <value>A játék átlagosan {0} memóriát használt, {1} ehhez képest: {2} ({3}).</value>
+  </data>
+  <data name="Game_Compare_NewLimitTitle" xml:space="preserve">
+    <value>{0}: új ebben a játékmenetben</value>
+  </data>
+  <data name="Game_Compare_NewLimitDescription" xml:space="preserve">
+    <value>Ez a korlát nem lett elérve ekkor: {0} ({1}).</value>
+  </data>
+  <data name="Game_Qualifier_ObservedChange" xml:space="preserve">
+    <value>Megfigyelt változás, ismeretlen ok</value>
+  </data>
+  <data name="Game_Compare_Recommendation" xml:space="preserve">
+    <value>Egy játékfrissítés, más beállítások vagy a játék más része magyarázhatja; ha ismétlődik, hasonlítsa össze a Változásokkal.</value>
+  </data>
+  <data name="Game_Compare_ThisSession" xml:space="preserve">
+    <value>Ez a játékmenet: {0} (csúcs: {1})</value>
+  </data>
+  <data name="Game_Compare_PreviousSessions" xml:space="preserve">
+    <value>Előző játékmenetek: átlagosan {0}</value>
+  </data>
+  <data name="Game_Missing_Gpu" xml:space="preserve">
+    <value>GPU-használat: Nem érhető el (egyetlen grafikus adapter sem jelentette, vagy a GPU-figyelés ki van kapcsolva a Beállításokban).</value>
+  </data>
+  <data name="Game_Missing_GpuGame" xml:space="preserve">
+    <value>A játék GPU-használata: Nem érhető el (a Windows nem jelentett folyamatonkénti GPU-használatot).</value>
+  </data>
+  <data name="Game_Missing_Video" xml:space="preserve">
+    <value>Videomemória: Nem érhető el (a grafikus illesztőprogram nem jelentette).</value>
+  </data>
+  <data name="Game_Missing_Temperatures" xml:space="preserve">
+    <value>Hőmérsékletek: Nem érhetők el (a Windows nem kínál dokumentált módot a kiolvasásukra kernelillesztő nélkül).</value>
+  </data>
+  <data name="Game_Missing_Network" xml:space="preserve">
+    <value>A játék hálózathasználata: Nem érhető el (az alkalmazásonkénti hálózathasználathoz rendszergazdai szintű eseménykövetés kell); a hálózati értékek a teljes számítógépre vonatkoznak.</value>
+  </data>
+  <data name="Game_Coverage" xml:space="preserve">
+    <value>Mérve: {0} – {1} ({2} mérés).</value>
+  </data>
+  <data name="Game_Coverage_AlreadyRunning" xml:space="preserve">
+    <value>A játék már ekkor óta futott, amikor a Sysora elindult: {0}; az előtte lévő idő nincs lefedve.</value>
+  </data>
+  <data name="Game_Coverage_Gaps" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Game_Coverage_SysoraClosed" xml:space="preserve">
+    <value>A Sysora a játék előtt bezárult: a játékmenet vége nincs lefedve.</value>
+  </data>
+  <data name="Game_Coverage_TrackingStopped" xml:space="preserve">
+    <value>A játékmenetek rögzítését kikapcsolták a játék bezárása előtt.</value>
+  </data>
+  <data name="Game_Ev_MeasuredTime" xml:space="preserve">
+    <value>Mért idő</value>
+  </data>
+  <data name="Game_Ev_Gaps" xml:space="preserve">
+    <value>{0}, {1} nem mérve</value>
+  </data>
+  <data name="Game_Ev_NoGap" xml:space="preserve">
+    <value>Nincs megszakítás</value>
+  </data>
+  <data name="Game_Ev_CpuPc" xml:space="preserve">
+    <value>CPU-használat (teljes számítógép)</value>
+  </data>
+  <data name="Game_Condition_Video" xml:space="preserve">
+    <value>Videomemória</value>
+  </data>
+  <data name="Source_VideoMemory" xml:space="preserve">
+    <value>Windows-teljesítményszámláló \GPU Adapter Memory(*)\Dedicated Usage</value>
+  </data>
+  <data name="Game_Points" xml:space="preserve">
+    <value>{0:0} százalékpont</value>
+  </data>
+  <data name="Count_Interruption_One" xml:space="preserve">
+    <value>{0} megszakítás</value>
+  </data>
+  <data name="Count_Interruption_Other" xml:space="preserve">
+    <value>{0} megszakítás</value>
+  </data>
+  <data name="Game_Detect_UserMarked" xml:space="preserve">
+    <value>Ezt az alkalmazást játékként jelölte meg.</value>
+  </data>
+  <data name="Game_Detect_Windows" xml:space="preserve">
+    <value>A Windows játékként ismeri fel ezt a végrehajtható fájlt (a játékai listája a Game Barban).</value>
+  </data>
+  <data name="Game_Detect_Library" xml:space="preserve">
+    <value>Játékkönyvtár-mappába telepítve ({0}): valószínűleg játék, a Windows nem erősítette meg.</value>
+  </data>
+  <data name="Game_Event_Started" xml:space="preserve">
+    <value>Játék elindítva: {0}</value>
+  </data>
+  <data name="Game_Event_Closed" xml:space="preserve">
+    <value>Játék bezárva: {0} ({1})</value>
+  </data>
+  <data name="Game_Event_Gap" xml:space="preserve">
+    <value>Nincsenek mérések, időtartam: {0} (alvó állapot vagy szüneteltetett figyelés)</value>
+  </data>
+  <data name="Health_NotCounted" xml:space="preserve">
+    <value>Nem számít bele</value>
+  </data>
+  <data name="Health_NoImpact" xml:space="preserve">
+    <value>Nincs hatása</value>
+  </data>
+  <data name="Count_Point_One" xml:space="preserve">
+    <value>{0} pont</value>
+  </data>
+  <data name="Count_Point_Other" xml:space="preserve">
+    <value>{0} pont</value>
+  </data>
+  <data name="Health_Collecting_Headline" xml:space="preserve">
+    <value>A számítógép állapota: adatgyűjtés…</value>
+  </data>
+  <data name="Health_Collecting_Summary" xml:space="preserve">
+    <value>A Sysorának néhány percnyi mérésre van szüksége, mielőtt pontszámot adna.</value>
+  </data>
+  <data name="Health_Grade_Good" xml:space="preserve">
+    <value>Jó</value>
+  </data>
+  <data name="Health_Grade_Fair" xml:space="preserve">
+    <value>Megfelelő</value>
+  </data>
+  <data name="Health_Grade_NeedsAttention" xml:space="preserve">
+    <value>Figyelmet igényel</value>
+  </data>
+  <data name="Health_Grade_Poor" xml:space="preserve">
+    <value>Gyenge</value>
+  </data>
+  <data name="Health_Grade_Collecting" xml:space="preserve">
+    <value>Adatgyűjtés</value>
+  </data>
+  <data name="Health_Method" xml:space="preserve">
+    <value>A pontszám 100-ról indul. Minden terület pontokat von le a mért értékek alapján, rögzített küszöbökkel, amelyek mellette láthatók. A CPU, a memória, a lemeztevékenység és a GPU az utolsó 15 perc átlagát használja, így egy rövid csúcs alig számít. Az ezen a számítógépen nem mérhető területek nem számítanak bele, és nem elérhetőként jelennek meg: semmit sem becslünk.</value>
+  </data>
+  <data name="Health_NoMeasurementYetLower" xml:space="preserve">
+    <value>még nincs mérés</value>
+  </data>
+  <data name="Health_NeedsData" xml:space="preserve">
+    <value>A Sysorának ennyi mérésre van szüksége a pontszámhoz: {0} (eddig: {1}).</value>
+  </data>
+  <data name="Health_NothingLowers" xml:space="preserve">
+    <value>Jelenleg semmi sem csökkenti a pontszámot.</value>
+  </data>
+  <data name="Health_LoweredBy" xml:space="preserve">
+    <value>Csökkentő tényező: {0}.</value>
+  </data>
+  <data name="Health_Headline" xml:space="preserve">
+    <value>A számítógép állapota: {0}/100 · {1}</value>
+  </data>
+  <data name="Health_Area_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Health_Cpu_NotAvailable" xml:space="preserve">
+    <value>A CPU-használat nem érhető el ezen a számítógépen</value>
+  </data>
+  <data name="Health_NoMeasurementYet" xml:space="preserve">
+    <value>Még nincs mérés</value>
+  </data>
+  <data name="Health_PointsTakenOff" xml:space="preserve">
+    <value>Levont pontok</value>
+  </data>
+  <data name="Health_Cpu_Thresholds" xml:space="preserve">
+    <value>Átlagosan 50% alatt nincs levonás, 100%-nál legfeljebb 15</value>
+  </data>
+  <data name="Health_Cpu_Summary" xml:space="preserve">
+    <value>Átlag {1} alatt: {0} (csúcs: {2})</value>
+  </data>
+  <data name="Health_Cpu_Problem" xml:space="preserve">
+    <value>A processzor átlagosan majdnem telített volt: az alkalmazások lassan reagálhatnak.</value>
+  </data>
+  <data name="Health_Cpu_Attention" xml:space="preserve">
+    <value>A processzor az idő nagy részében terhelt volt; még maradt némi szabad kapacitása.</value>
+  </data>
+  <data name="Health_Cpu_Good" xml:space="preserve">
+    <value>A processzornak átlagosan volt szabad kapacitása. A rövid csúcsok normálisak, és alig számítanak.</value>
+  </data>
+  <data name="Health_Area_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Health_Memory_NotAvailable" xml:space="preserve">
+    <value>A memóriahasználat nem érhető el ezen a számítógépen</value>
+  </data>
+  <data name="Health_Memory_Thresholds" xml:space="preserve">
+    <value>Átlagosan 60% alatt nincs levonás, 95%-nál legfeljebb 20; további 3, ha a véglegesített memória a korlátja 90%-a felett marad</value>
+  </data>
+  <data name="Health_CommitShare" xml:space="preserve">
+    <value>Véglegesített memória (a korlát arányában)</value>
+  </data>
+  <data name="Health_CommitNote" xml:space="preserve">
+    <value>A véglegesített memória közel van a korlátjához: a Windows megtagadhatja az új memóriafoglalásokat.</value>
+  </data>
+  <data name="Health_Memory_Amount" xml:space="preserve">
+    <value>({0} / {1})</value>
+  </data>
+  <data name="Health_Memory_Summary" xml:space="preserve">
+    <value>Átlagosan {0} használatban{1} {2} alatt, csúcs: {3}</value>
+  </data>
+  <data name="Health_Memory_Problem" xml:space="preserve">
+    <value>A memória majdnem megtelt: a Windowsnak adatokat kell a lemezre áthelyeznie, ami mindent lelassít.</value>
+  </data>
+  <data name="Health_Memory_Attention" xml:space="preserve">
+    <value>A memória jól ki van használva; több alkalmazás megnyitása lassíthatja a számítógépet.</value>
+  </data>
+  <data name="Health_Memory_Good" xml:space="preserve">
+    <value>Van szabad memória a használt alkalmazások számára.</value>
+  </data>
+  <data name="Health_Area_Storage" xml:space="preserve">
+    <value>Tárhely</value>
+  </data>
+  <data name="Health_Storage_NotAvailable" xml:space="preserve">
+    <value>A szabad terület nem érhető el ezen a számítógépen</value>
+  </data>
+  <data name="Health_Storage_Reference" xml:space="preserve">
+    <value>Figyelmeztetés {0} használatnál, kritikus {1} használatnál (Beállítások › Állapotküszöbök)</value>
+  </data>
+  <data name="Health_Storage_Thresholds" xml:space="preserve">
+    <value>16, ha a Windows kötete a kritikus szint felett van, 8 a figyelmeztetési szint felett; 4 minden más kötetért a kritikus szint felett</value>
+  </data>
+  <data name="Health_Storage_Summary" xml:space="preserve">
+    <value>{0} {1} szabad / {2}</value>
+  </data>
+  <data name="Count_OtherVolume_One" xml:space="preserve">
+    <value>{0} másik kötet</value>
+  </data>
+  <data name="Count_OtherVolume_Other" xml:space="preserve">
+    <value>{0} másik kötet</value>
+  </data>
+  <data name="Health_Storage_Problem" xml:space="preserve">
+    <value>A Windows kötete majdnem megtelt: a frissítések meghiúsulhatnak, és a Windowsnak kevés hely marad a lapozófájlnak és az ideiglenes fájloknak.</value>
+  </data>
+  <data name="Health_Storage_Attention" xml:space="preserve">
+    <value>Egy kötet kezd megtelni. A Nagy fájlok megmutathatja, mi foglalja a legtöbb helyet (a Sysora soha semmit nem töröl).</value>
+  </data>
+  <data name="Health_Storage_Good" xml:space="preserve">
+    <value>Minden köteten maradt hely.</value>
+  </data>
+  <data name="Health_Area_Disk" xml:space="preserve">
+    <value>Lemeztevékenység</value>
+  </data>
+  <data name="Health_Disk_NotAvailable" xml:space="preserve">
+    <value>A lemeztevékenység nem érhető el ezen a számítógépen</value>
+  </data>
+  <data name="Health_Disk_Busiest" xml:space="preserve">
+    <value>A legterheltebb lemez aktív ideje</value>
+  </data>
+  <data name="Health_Disk_Thresholds" xml:space="preserve">
+    <value>Átlagosan 40% alatt nincs levonás, 90%-nál legfeljebb 10</value>
+  </data>
+  <data name="Health_Disk_Summary" xml:space="preserve">
+    <value>A legterheltebb lemez átlagosan az idő {0} részében volt aktív (csúcs: {1})</value>
+  </data>
+  <data name="Health_Disk_Problem" xml:space="preserve">
+    <value>Egy lemez az idő nagy részében foglalt volt: a fájlok és alkalmazások megnyitása rá vár.</value>
+  </data>
+  <data name="Health_Disk_Attention" xml:space="preserve">
+    <value>Egy lemez gyakran foglalt volt (frissítések, indexelés, másolás vagy egy sokat olvasó alkalmazás).</value>
+  </data>
+  <data name="Health_Disk_Good" xml:space="preserve">
+    <value>A lemezek többnyire tétlenek voltak.</value>
+  </data>
+  <data name="Health_Gpu_Off" xml:space="preserve">
+    <value>A GPU-figyelés ki van kapcsolva a Beállításokban</value>
+  </data>
+  <data name="Health_Gpu_NotAvailable" xml:space="preserve">
+    <value>A GPU-használat nem érhető el ezen a számítógépen</value>
+  </data>
+  <data name="Health_Gpu_VideoMemory" xml:space="preserve">
+    <value>videomemória: {0} / {1}</value>
+  </data>
+  <data name="Health_Gpu_Dedicated" xml:space="preserve">
+    <value>Dedikált videomemória ({0})</value>
+  </data>
+  <data name="Health_Gpu_DedicatedValue" xml:space="preserve">
+    <value>{0} / {1} ({2})</value>
+  </data>
+  <data name="Health_Gpu_Reference" xml:space="preserve">
+    <value>95%-nál vagy afelett 5 pont levonás</value>
+  </data>
+  <data name="Health_Gpu_Usage" xml:space="preserve">
+    <value>Átlagos használat: {0}</value>
+  </data>
+  <data name="Health_Gpu_Attention" xml:space="preserve">
+    <value>A videomemória majdnem megtelt: a játékok és grafikus alkalmazások akadozhatnak, amíg a Windows adatokat helyez át a rendszermemóriába.</value>
+  </data>
+  <data name="Health_Gpu_Good" xml:space="preserve">
+    <value>Játék vagy videólejátszás közben a terhelt GPU normális, ezért a használat önmagában nem csökkenti a pontszámot; csak a majdnem teli videomemória.</value>
+  </data>
+  <data name="Health_Area_Temperatures" xml:space="preserve">
+    <value>Hőmérsékletek</value>
+  </data>
+  <data name="Health_Temperatures_NotAvailable" xml:space="preserve">
+    <value>Nem érhető el: a Windows nem kínál dokumentált módot a kiolvasásukra kernelillesztő nélkül, a Sysora pedig nem telepít ilyet</value>
+  </data>
+  <data name="Health_Temperatures_Good" xml:space="preserve">
+    <value>Az illesztőprogramok által jelentett hőmérsékletek a normál tartományban vannak.</value>
+  </data>
+  <data name="Health_Temperatures_Hot" xml:space="preserve">
+    <value>Egy összetevő túlmelegszik; lelassíthatja magát, hogy lehűljön.</value>
+  </data>
+  <data name="Health_Temperature_Of" xml:space="preserve">
+    <value>Hőmérséklet: {0}</value>
+  </data>
+  <data name="Health_Temperature_Reference" xml:space="preserve">
+    <value>85 °C-nál 5 pont, 95 °C-nál 10</value>
+  </data>
+  <data name="Health_Temperature_Source" xml:space="preserve">
+    <value>Grafikus illesztőprogram</value>
+  </data>
+  <data name="Health_Area_Stability" xml:space="preserve">
+    <value>Stabilitás</value>
+  </data>
+  <data name="Health_NotAnalyzedYet" xml:space="preserve">
+    <value>Még nincs elemezve</value>
+  </data>
+  <data name="Health_Stability_None" xml:space="preserve">
+    <value>Nincs visszatérő probléma az utolsó {0} napban</value>
+  </data>
+  <data name="Count_RecurringProblem_One" xml:space="preserve">
+    <value>{0} visszatérő probléma</value>
+  </data>
+  <data name="Count_RecurringProblem_Other" xml:space="preserve">
+    <value>{0} visszatérő probléma</value>
+  </data>
+  <data name="Health_Stability_Good" xml:space="preserve">
+    <value>Az elmúlt napokban egyetlen probléma sem tért vissza ismételten.</value>
+  </data>
+  <data name="Health_Stability_Problems" xml:space="preserve">
+    <value>Ezek a problémák több napon is visszatértek. Egy ismétlődő problémának általában érdemes megkeresni az okát.</value>
+  </data>
+  <data name="Health_RecurringProblems" xml:space="preserve">
+    <value>Visszatérő problémák</value>
+  </data>
+  <data name="Health_Stability_Reference" xml:space="preserve">
+    <value>Egyenként 4 pont (legfeljebb {0}). Egy probléma akkor számít visszatérőnek, ha {1} alkalommal, {2} különböző napon jelentkezik.</value>
+  </data>
+  <data name="Health_Stability_Source" xml:space="preserve">
+    <value>A helyi előzmények riasztásai és eseményei</value>
+  </data>
+  <data name="Health_Area_Anomalies" xml:space="preserve">
+    <value>Közelmúltbeli rendellenességek</value>
+  </data>
+  <data name="Health_None" xml:space="preserve">
+    <value>Nincs</value>
+  </data>
+  <data name="Health_Anomalies_None" xml:space="preserve">
+    <value>Nem volt riasztás az utolsó 24 órában</value>
+  </data>
+  <data name="Health_Anomalies_Count" xml:space="preserve">
+    <value>{0} az utolsó 24 órában</value>
+  </data>
+  <data name="Health_Anomalies_Active" xml:space="preserve">
+    <value>({0} még aktív)</value>
+  </data>
+  <data name="Health_Anomalies_Good" xml:space="preserve">
+    <value>A közelmúltban nem észleltünk tartós vagy szokatlan problémát.</value>
+  </data>
+  <data name="Health_Anomalies_Explanation" xml:space="preserve">
+    <value>Riasztás csak olyan problémáknál keletkezik, amelyek tartósak voltak, vagy szokatlanok ennél a számítógépnél. Az ennél a számítógépnél szokásosként jelölt riasztások nem vonnak le pontot.</value>
+  </data>
+  <data name="Health_Area_Usual" xml:space="preserve">
+    <value>Szokásos viselkedés</value>
+  </data>
+  <data name="Health_Usual_Now" xml:space="preserve">
+    <value>{0} most (15 perces átlag)</value>
+  </data>
+  <data name="Health_Usual_Reference" xml:space="preserve">
+    <value>Általában {0} (medián: {1}); szokatlan {2} felett</value>
+  </data>
+  <data name="Health_Usual_Item" xml:space="preserve">
+    <value>{0} ({1}, általában {2})</value>
+  </data>
+  <data name="Health_Unusual" xml:space="preserve">
+    <value>Szokatlan</value>
+  </data>
+  <data name="Health_Usual" xml:space="preserve">
+    <value>Szokásos</value>
+  </data>
+  <data name="Health_Usual_Above" xml:space="preserve">
+    <value>A szokásos tartomány felett: {0}</value>
+  </data>
+  <data name="Health_Usual_Within" xml:space="preserve">
+    <value>A szokásos tartományon belül</value>
+  </data>
+  <data name="Health_Usual_Busier" xml:space="preserve">
+    <value>A számítógép terheltebb, mint általában. Ez várható lehet (egy játék, egy fordítás), vagy jelezheti, hogy valami fut a háttérben.</value>
+  </data>
+  <data name="Health_Usual_Matches" xml:space="preserve">
+    <value>A tevékenység megfelel annak, amit ez a számítógép általában csinál.</value>
+  </data>
+  <data name="Health_Missing_Explanation" xml:space="preserve">
+    <value>Nem számít bele a pontszámba: a Sysora soha nem helyettesíti a hiányzó mérést becsléssel.</value>
+  </data>
+  <data name="Health_Status_Normal" xml:space="preserve">
+    <value>Normál</value>
+  </data>
+  <data name="Health_Status_Attention" xml:space="preserve">
+    <value>Figyelem</value>
+  </data>
+  <data name="Health_Status_Problem" xml:space="preserve">
+    <value>Probléma</value>
+  </data>
+  <data name="Health_ThresholdsSource" xml:space="preserve">
+    <value>A Sysora rögzített pontozási küszöbei</value>
+  </data>
+  <data name="Health_UsualMedian" xml:space="preserve">
+    <value>{0} (medián: {1})</value>
+  </data>
+  <data name="AlertSeverity_Critical" xml:space="preserve">
+    <value>Kritikus</value>
+  </data>
+  <data name="AlertSeverity_Warning" xml:space="preserve">
+    <value>Figyelmeztetés</value>
+  </data>
+  <data name="AlertSeverity_Info" xml:space="preserve">
+    <value>Információ</value>
+  </data>
+  <data name="Event_InternetAvailable" xml:space="preserve">
+    <value>Internet-hozzáférés elérhető</value>
+  </data>
+  <data name="Event_InternetLimited" xml:space="preserve">
+    <value>Internet-hozzáférés korlátozott</value>
+  </data>
+  <data name="Event_InternetLost" xml:space="preserve">
+    <value>Az internet-hozzáférés megszakadt (csak helyi hálózat)</value>
+  </data>
+  <data name="Event_NetworkLost" xml:space="preserve">
+    <value>A hálózati kapcsolat megszakadt</value>
+  </data>
+  <data name="Event_MetricUnavailable" xml:space="preserve">
+    <value>{0}: a mérések nem érhetők el</value>
+  </data>
+  <data name="Event_MetricRestored" xml:space="preserve">
+    <value>{0}: a mérések ismét elérhetők</value>
+  </data>
+  <data name="Event_AsReportedByWindows" xml:space="preserve">
+    <value>A Windows jelentése szerint</value>
+  </data>
+  <data name="Event_VolumeConnected" xml:space="preserve">
+    <value>Kötet csatlakoztatva: {0}{1}</value>
+  </data>
+  <data name="Event_VolumeSize" xml:space="preserve">
+    <value>{0}, {1} kötet</value>
+  </data>
+  <data name="Event_VolumeDisconnected" xml:space="preserve">
+    <value>Kötet leválasztva: {0}</value>
+  </data>
+  <data name="Event_AppCpu" xml:space="preserve">
+    <value>{0}: a CPU-használat elérte ezt: {1}</value>
+  </data>
+  <data name="Event_AppCpuDetail" xml:space="preserve">
+    <value>Memória: {0}, {1}</value>
+  </data>
+  <data name="Event_AppMemory" xml:space="preserve">
+    <value>{0} memóriahasználata: {1}</value>
+  </data>
+  <data name="Event_AppMemoryDetail" xml:space="preserve">
+    <value>a fizikai memória {0} része</value>
+  </data>
+  <data name="Event_RanFor" xml:space="preserve">
+    <value>Futási idő: {0}.</value>
+  </data>
+  <data name="Event_AppExited" xml:space="preserve">
+    <value>{0} kilépett</value>
+  </data>
+  <data name="Event_AppExitedDetail" xml:space="preserve">
+    <value>Használat volt: CPU {0}, memória {1}</value>
+  </data>
+  <data name="Event_AppClosed" xml:space="preserve">
+    <value>{0} bezárva</value>
+  </data>
+  <data name="Event_RanForShort" xml:space="preserve">
+    <value>Futási idő: {0}</value>
+  </data>
+  <data name="Event_AppStarted" xml:space="preserve">
+    <value>{0} elindult</value>
+  </data>
+  <data name="Event_Kind_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Event_Kind_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Event_Kind_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Event_Kind_Storage" xml:space="preserve">
+    <value>Tárhely</value>
+  </data>
+  <data name="Event_Kind_Disk" xml:space="preserve">
+    <value>Lemeztevékenység</value>
+  </data>
+  <data name="Event_Kind_Network" xml:space="preserve">
+    <value>Hálózat</value>
+  </data>
+  <data name="Event_Kind_Processes" xml:space="preserve">
+    <value>Folyamatok</value>
+  </data>
+  <data name="Event_Kind_System" xml:space="preserve">
+    <value>Rendszer</value>
+  </data>
+  <data name="DriveKind_Fixed" xml:space="preserve">
+    <value>rögzített</value>
+  </data>
+  <data name="DriveKind_Removable" xml:space="preserve">
+    <value>cserélhető</value>
+  </data>
+  <data name="DriveKind_Network" xml:space="preserve">
+    <value>hálózati</value>
+  </data>
+  <data name="DriveKind_Optical" xml:space="preserve">
+    <value>optikai</value>
+  </data>
+  <data name="DriveKind_Ram" xml:space="preserve">
+    <value>RAM-lemez</value>
+  </data>
+  <data name="DriveKind_Other" xml:space="preserve">
+    <value>egyéb</value>
+  </data>
+  <data name="Event_Gap" xml:space="preserve">
+    <value>Nincsenek mérések, időtartam: {0}</value>
+  </data>
+  <data name="Event_GapDetail" xml:space="preserve">
+    <value>A Sysora nem futott, vagy a számítógép alvó állapotban volt ebben az időszakban.</value>
+  </data>
+  <data name="Event_MonitoringStarted" xml:space="preserve">
+    <value>A figyelés elindult</value>
+  </data>
+  <data name="Event_MonitoringPaused" xml:space="preserve">
+    <value>A figyelés szünetel</value>
+  </data>
+  <data name="Event_MonitoringResumed" xml:space="preserve">
+    <value>A figyelés folytatódik</value>
+  </data>
+  <data name="Indicator_CpuNotAvailable" xml:space="preserve">
+    <value>A CPU-használat nem érhető el</value>
+  </data>
+  <data name="Indicator_CpuNormal" xml:space="preserve">
+    <value>CPU: normál</value>
+  </data>
+  <data name="Indicator_MemoryNotAvailable" xml:space="preserve">
+    <value>A memóriahasználat nem érhető el</value>
+  </data>
+  <data name="Indicator_MemoryNormal" xml:space="preserve">
+    <value>Memória: normál</value>
+  </data>
+  <data name="Indicator_StorageNotAvailable" xml:space="preserve">
+    <value>A tárhely nem érhető el</value>
+  </data>
+  <data name="Indicator_Storage" xml:space="preserve">
+    <value>Tárhely: {0} {1}</value>
+  </data>
+  <data name="Indicator_AboveCritical" xml:space="preserve">
+    <value>A(z) {0} kritikus küszöb felett</value>
+  </data>
+  <data name="Indicator_AboveWarning" xml:space="preserve">
+    <value>A(z) {0} figyelmeztetési küszöb felett</value>
+  </data>
+  <data name="Indicator_StorageNormal" xml:space="preserve">
+    <value>Tárhely: normál</value>
+  </data>
+  <data name="Indicator_NetworkNotAvailable" xml:space="preserve">
+    <value>A hálózat állapota nem érhető el</value>
+  </data>
+  <data name="Indicator_NetworkConnected" xml:space="preserve">
+    <value>Hálózat csatlakoztatva</value>
+  </data>
+  <data name="Indicator_NetworkRestricted" xml:space="preserve">
+    <value>A Windows korlátozott hozzáférést jelez (például egy bejelentkezési oldal miatt)</value>
+  </data>
+  <data name="Indicator_NetworkNoInternet" xml:space="preserve">
+    <value>A hálózat elérhető, de az internet nem</value>
+  </data>
+  <data name="Indicator_NetworkUnknown" xml:space="preserve">
+    <value>A hálózat állapota ismeretlen</value>
+  </data>
+  <data name="Indicator_ProcessesNotAvailable" xml:space="preserve">
+    <value>A folyamatadatok nem érhetők el</value>
+  </data>
+  <data name="Indicator_AppMemory" xml:space="preserve">
+    <value>{0} memóriahasználata: {1}</value>
+  </data>
+  <data name="Indicator_AppMemoryThreshold" xml:space="preserve">
+    <value>Az alkalmazásonkénti küszöb ({0}) felett</value>
+  </data>
+  <data name="Indicator_AppCpu" xml:space="preserve">
+    <value>{0} sok CPU-t használ</value>
+  </data>
+  <data name="Indicator_NoAbnormalProcess" xml:space="preserve">
+    <value>Nem észleltünk rendellenes folyamatot</value>
+  </data>
+  <data name="Indicator_AboveFor" xml:space="preserve">
+    <value>{0} felett több mint {1} másodpercig</value>
+  </data>
+  <data name="Intensity_Minimal_Description" xml:space="preserve">
+    <value>Játékhoz vagy akkumulátoros üzemhez: ritkábban mér (CPU és memória minden 2. intervallumban, folyamatok, GPU és lemezek minden 3.-ban), mérésenként kevesebb alkalmazást tart meg, és 10 másodpercenként értékeli a riasztásokat.</value>
+  </data>
+  <data name="Intensity_Detailed_Description" xml:space="preserve">
+    <value>Probléma kivizsgálásához: ahol hasznos, kétszer olyan gyakran mér (CPU és memória akár 0,5 másodpercenként, folyamatok másodpercenként), és mérésenként több alkalmazást tart meg.</value>
+  </data>
+  <data name="Intensity_Balanced_Description" xml:space="preserve">
+    <value>Az alapértelmezett: az alább beállított intervallumok, jó egyensúly a pontosság és a Sysora saját fogyasztása között.</value>
+  </data>
+  <data name="Intensity_Minimal" xml:space="preserve">
+    <value>Minimális</value>
+  </data>
+  <data name="Intensity_Detailed" xml:space="preserve">
+    <value>Részletes</value>
+  </data>
+  <data name="Intensity_Balanced" xml:space="preserve">
+    <value>Kiegyensúlyozott</value>
+  </data>
+  <data name="Event_Sleep" xml:space="preserve">
+    <value>A számítógép alvó állapotba lép</value>
+  </data>
+  <data name="Event_ResumedAfter" xml:space="preserve">
+    <value>A számítógép felébredt (alvás: {0})</value>
+  </data>
+  <data name="Event_Resumed" xml:space="preserve">
+    <value>A számítógép felébredt</value>
+  </data>
+  <data name="Self_Measuring" xml:space="preserve">
+    <value>A Sysora terhelése: mérés…</value>
+  </data>
+  <data name="Self_OverBudget" xml:space="preserve">
+    <value>A Sysora egy percig túllépte a CPU-keretét (a teljes kapacitás {0} része): ×{1:0.##} értékkel nyújtja a gyűjtési intervallumait, hogy könnyű maradjon.</value>
+  </data>
+  <data name="Self_HighMemory" xml:space="preserve">
+    <value>A Sysora {0} memóriát használ, többet a vártnál. Az újraindítása felszabadítja a memóriát; kérjük, jelezze, ha tovább nő.</value>
+  </data>
+  <data name="Self_HighAllocations" xml:space="preserve">
+    <value>A Sysora {0} memóriát foglal: a szokásosnál több szemétgyűjtési munka.</value>
+  </data>
+  <data name="Self_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Cpu_Note" xml:space="preserve">
+    <value>A teljes kapacitásból az utolsó {0:0} másodpercben</value>
+  </data>
+  <data name="Self_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Self_Memory_NoteManaged" xml:space="preserve">
+    <value>Munkakészlet, ebből .NET-objektumok: {0}</value>
+  </data>
+  <data name="Self_Memory_Note" xml:space="preserve">
+    <value>Munkakészlet</value>
+  </data>
+  <data name="Self_Allocations" xml:space="preserve">
+    <value>Foglalások</value>
+  </data>
+  <data name="Self_Allocations_Note" xml:space="preserve">
+    <value>Szemétgyűjtések az utolsó időszakban: {0} / {1} / {2} (0. / 1. / 2. generáció)</value>
+  </data>
+  <data name="Self_DiskWrites" xml:space="preserve">
+    <value>Lemezírások</value>
+  </data>
+  <data name="Self_DiskWrites_Note" xml:space="preserve">
+    <value>A Sysora saját írásai (előzmény-adatbázis, beállítások, naplók), a folyamatlista bejegyzése alapján</value>
+  </data>
+  <data name="Self_Background" xml:space="preserve">
+    <value>Háttértevékenység</value>
+  </data>
+  <data name="Self_Background_Value" xml:space="preserve">
+    <value>{0} · percenként {1:0} gyűjtési kör</value>
+  </data>
+  <data name="Self_Processes" xml:space="preserve">
+    <value>Elemzett folyamatok</value>
+  </data>
+  <data name="Self_Processes_Note" xml:space="preserve">
+    <value>Időköz: {0}, egyetlen rendszerhívással</value>
+  </data>
+  <data name="Self_Threads" xml:space="preserve">
+    <value>Szálak</value>
+  </data>
+  <data name="Self_Headline" xml:space="preserve">
+    <value>A Sysora terhelése: {0}</value>
+  </data>
+  <data name="Self_Level_Low" xml:space="preserve">
+    <value>Alacsony</value>
+  </data>
+  <data name="Self_Level_Moderate" xml:space="preserve">
+    <value>Mérsékelt</value>
+  </data>
+  <data name="Self_Level_High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="Self_Level_Measuring" xml:space="preserve">
+    <value>Mérés…</value>
+  </data>
+  <data name="Self_Interval_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Interval_Memory" xml:space="preserve">
+    <value>memória</value>
+  </data>
+  <data name="Self_Interval_Processes" xml:space="preserve">
+    <value>folyamatok</value>
+  </data>
+  <data name="Self_Interval_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Self_Interval_Disks" xml:space="preserve">
+    <value>lemezek</value>
+  </data>
+  <data name="Self_Interval_Network" xml:space="preserve">
+    <value>hálózat</value>
+  </data>
+  <data name="Self_Interval_Space" xml:space="preserve">
+    <value>szabad terület</value>
+  </data>
+  <data name="Self_Investigating" xml:space="preserve">
+    <value>Vizsgálat folyamatban (részletes)</value>
+  </data>
+  <data name="Self_Intensity" xml:space="preserve">
+    <value>Intenzitás: {0}</value>
+  </data>
+  <data name="Self_Hidden" xml:space="preserve">
+    <value>rejtett ablak: a képernyőn lévő értékek lassabban frissülnek</value>
+  </data>
+  <data name="LargeFiles_NoExtension" xml:space="preserve">
+    <value>(nincs kiterjesztés)</value>
+  </data>
+  <data name="LargeFiles_Found" xml:space="preserve">
+    <value>{0}, legalább {1} méretű ({2}), itt: {3}</value>
+  </data>
+  <data name="Count_File_One" xml:space="preserve">
+    <value>{0} fájl</value>
+  </data>
+  <data name="Count_File_Other" xml:space="preserve">
+    <value>{0} fájl</value>
+  </data>
+  <data name="Count_Folder_One" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+  </data>
+  <data name="Count_Folder_Other" xml:space="preserve">
+    <value>{0:N0} mappa</value>
+  </data>
+  <data name="LargeFiles_Denied_One" xml:space="preserve">
+    <value>{0} mappa nem olvasható (hozzáférés megtagadva)</value>
+  </data>
+  <data name="LargeFiles_Denied_Other" xml:space="preserve">
+    <value>{0} mappa nem olvasható (hozzáférés megtagadva)</value>
+  </data>
+  <data name="LargeFiles_Unavailable_One" xml:space="preserve">
+    <value>{0} mappa nem érhető el</value>
+  </data>
+  <data name="LargeFiles_Unavailable_Other" xml:space="preserve">
+    <value>{0} mappa nem érhető el</value>
+  </data>
+  <data name="LargeFiles_ProblemsSuffix" xml:space="preserve">
+    <value>{0}: a tartalmuk ismeretlen, nem hiányzik.</value>
+  </data>
+  <data name="LargeFiles_Cancelled" xml:space="preserve">
+    <value>A vizsgálat megszakítva ennyi idő után: {0}; részleges eredmények: {1}{2}</value>
+  </data>
+  <data name="LargeFiles_Failed" xml:space="preserve">
+    <value>A vizsgálat sikertelen.</value>
+  </data>
+  <data name="LargeFiles_Completed" xml:space="preserve">
+    <value>A vizsgálat befejeződött ({0}): {1}{2}</value>
+  </data>
+  <data name="LargeFiles_WindowsNote" xml:space="preserve">
+    <value>A Windows kezeli: ne törölje kézzel.</value>
+  </data>
+  <data name="LargeFiles_PageFile" xml:space="preserve">
+    <value>A Windows lapozófájlja. A mérete a Rendszer › Speciális rendszerbeállítások részen állítható; ne törölje kézzel.</value>
+  </data>
+  <data name="LargeFiles_Hiberfil" xml:space="preserve">
+    <value>Hibernálási fájl (a Gyors rendszerindítás is használja). A Windows kezeli: ne törölje kézzel.</value>
+  </data>
+  <data name="LargeFiles_RecycleBinNote" xml:space="preserve">
+    <value>A Lomtárban: a Lomtár ürítése felszabadítja ezt a helyet.</value>
+  </data>
+  <data name="LargeFiles_InstallerCache" xml:space="preserve">
+    <value>A Windows Installer gyorsítótára: az alkalmazások javításához vagy eltávolításához szükséges. Ne törölje kézzel.</value>
+  </data>
+  <data name="LargeFiles_VirtualDiskNote" xml:space="preserve">
+    <value>Virtuális lemez: tartozhat a WSL-hez, a Hyper-V-hez, a Dockerhez vagy egy virtuális géphez, és annak adatait tárolhatja.</value>
+  </data>
+  <data name="LargeFiles_DatabaseNote" xml:space="preserve">
+    <value>Adatbázisfájl: egy alkalmazás ebben tárolja az adatait.</value>
+  </data>
+  <data name="LargeFiles_GameDataNote" xml:space="preserve">
+    <value>Játékadatok: törlésük tönkreteszi a játékot; inkább távolítsa el a játékot.</value>
+  </data>
+  <data name="LargeFiles_Cat_Video" xml:space="preserve">
+    <value>Videók</value>
+  </data>
+  <data name="LargeFiles_Cat_Audio" xml:space="preserve">
+    <value>Hang</value>
+  </data>
+  <data name="LargeFiles_Cat_Image" xml:space="preserve">
+    <value>Képek</value>
+  </data>
+  <data name="LargeFiles_Cat_Archive" xml:space="preserve">
+    <value>Archívumok</value>
+  </data>
+  <data name="LargeFiles_Cat_DiskImage" xml:space="preserve">
+    <value>Lemezképek</value>
+  </data>
+  <data name="LargeFiles_Cat_VirtualDisk" xml:space="preserve">
+    <value>Virtuális lemezek</value>
+  </data>
+  <data name="LargeFiles_Cat_Installer" xml:space="preserve">
+    <value>Telepítők</value>
+  </data>
+  <data name="LargeFiles_Cat_Backup" xml:space="preserve">
+    <value>Biztonsági mentések</value>
+  </data>
+  <data name="LargeFiles_Cat_Database" xml:space="preserve">
+    <value>Adatbázisok</value>
+  </data>
+  <data name="LargeFiles_Cat_Log" xml:space="preserve">
+    <value>Naplók és memóriaképek</value>
+  </data>
+  <data name="LargeFiles_Cat_Document" xml:space="preserve">
+    <value>Dokumentumok</value>
+  </data>
+  <data name="LargeFiles_Cat_GameData" xml:space="preserve">
+    <value>Játékadatok</value>
+  </data>
+  <data name="LargeFiles_Cat_Windows" xml:space="preserve">
+    <value>A Windows kezeli</value>
+  </data>
+  <data name="LargeFiles_Cat_RecycleBin" xml:space="preserve">
+    <value>Lomtár</value>
+  </data>
+  <data name="LargeFiles_Cat_Other" xml:space="preserve">
+    <value>Egyéb</value>
+  </data>
+  <data name="Timeline_High" xml:space="preserve">
+    <value>{0}: magas</value>
+  </data>
+  <data name="Timeline_High_Detail" xml:space="preserve">
+    <value>{0} a perc átlagában (csúcs: {1})</value>
+  </data>
+  <data name="Timeline_Source_Minutes" xml:space="preserve">
+    <value>Percenkénti előzmények</value>
+  </data>
+  <data name="Timeline_Normal" xml:space="preserve">
+    <value>{0}: ismét normál</value>
+  </data>
+  <data name="Timeline_Normal_Detail" xml:space="preserve">
+    <value>{0} magas tevékenység után (csúcs: {1})</value>
+  </data>
+  <data name="Timeline_Source_Observed" xml:space="preserve">
+    <value>A Sysora megfigyelése</value>
+  </data>
+  <data name="Timeline_Was" xml:space="preserve">
+    <value>Korábban: {0}</value>
+  </data>
+  <data name="Timeline_HappenedBetween" xml:space="preserve">
+    <value>{0} és {1} között történt.</value>
+  </data>
+  <data name="Timeline_Source_Snapshots" xml:space="preserve">
+    <value>A számítógép pillanatképeinek összehasonlításával észlelve</value>
+  </data>
+  <data name="Trouble_Metric_MemoryAmount" xml:space="preserve">
+    <value>Használt memória (mennyiség)</value>
+  </data>
+  <data name="Trouble_Metric_Disk" xml:space="preserve">
+    <value>Lemez aktív ideje (legterheltebb lemez)</value>
+  </data>
+  <data name="Trouble_Likely" xml:space="preserve">
+    <value>Valószínű</value>
+  </data>
+  <data name="Trouble_Headline_Nothing" xml:space="preserve">
+    <value>A vizsgálat befejeződött: nem mértünk semmi rendellenest</value>
+  </data>
+  <data name="Trouble_Headline_One" xml:space="preserve">
+    <value>A vizsgálat befejeződött: {0} rendellenesség található</value>
+  </data>
+  <data name="Trouble_Headline_Other" xml:space="preserve">
+    <value>A vizsgálat befejeződött: {0} rendellenesség található</value>
+  </data>
+  <data name="Trouble_Summary_NoMeasurement" xml:space="preserve">
+    <value>A vizsgálat alatt nem történt mérés (a figyelés szünetelt, vagy a számítógép alvó állapotban volt).</value>
+  </data>
+  <data name="Trouble_Summary_Over" xml:space="preserve">
+    <value>{0}, {1} alatt</value>
+  </data>
+  <data name="Trouble_Summary_Cpu" xml:space="preserve">
+    <value>: CPU átlagosan {0} (csúcs: {1})</value>
+  </data>
+  <data name="Trouble_Summary_Memory" xml:space="preserve">
+    <value>, memória {0} (csúcs: {1})</value>
+  </data>
+  <data name="Trouble_Summary_Suggests" xml:space="preserve">
+    <value>Az adatok erre utalnak: {0}</value>
+  </data>
+  <data name="Trouble_Summary_NoSingleApp" xml:space="preserve">
+    <value>Egyetlen alkalmazás sem magyarázza egyértelműen a rendellenességeket.</value>
+  </data>
+  <data name="Trouble_Summary_Nothing" xml:space="preserve">
+    <value>Nem mértünk semmi rendellenest.</value>
+  </data>
+  <data name="Trouble_HighLoad" xml:space="preserve">
+    <value>Nagy terhelés</value>
+  </data>
+  <data name="Trouble_HighLoad_Text" xml:space="preserve">
+    <value>{0}: {2} mérésből {1} esetben (az idő {3} részében)</value>
+  </data>
+  <data name="Trouble_Share_Cpu" xml:space="preserve">
+    <value>CPU legalább {0}</value>
+  </data>
+  <data name="Trouble_Share_Memory" xml:space="preserve">
+    <value>Memória legalább {0}</value>
+  </data>
+  <data name="Trouble_Share_Disk" xml:space="preserve">
+    <value>Egy lemez az idő legalább {0} részében aktív</value>
+  </data>
+  <data name="Trouble_Alert" xml:space="preserve">
+    <value>Riasztás</value>
+  </data>
+  <data name="Trouble_Interruption" xml:space="preserve">
+    <value>Megszakítás</value>
+  </data>
+  <data name="Trouble_DiagnosisAtEnd" xml:space="preserve">
+    <value>Diagnózis a végén</value>
+  </data>
+  <data name="Trouble_HighCpu" xml:space="preserve">
+    <value>Magas CPU</value>
+  </data>
+  <data name="Trouble_HighCpu_Text" xml:space="preserve">
+    <value>{0} volt a legterheltebb alkalmazás a magas CPU-használatú pillanatok közül {2} esetből {1} alkalommal (csúcsán {3})</value>
+  </data>
+  <data name="Trouble_BusyDisk" xml:space="preserve">
+    <value>Foglalt lemez</value>
+  </data>
+  <data name="Trouble_BusyDisk_Text" xml:space="preserve">
+    <value>{0} végezte a legtöbb I/O-műveletet (fájlok, eszközök és hálózat együtt) a foglalt lemezű pillanatok közül {2} esetből {1} alkalommal</value>
+  </data>
+  <data name="Trouble_MemoryGrowth" xml:space="preserve">
+    <value>Memórianövekedés</value>
+  </data>
+  <data name="Trouble_MemoryGrowth_Text" xml:space="preserve">
+    <value>A használt memória {0} értékkel nőtt; ebből {1}: {2}</value>
+  </data>
+  <data name="Trouble_Game" xml:space="preserve">
+    <value>Játék</value>
+  </data>
+  <data name="Trouble_Game_Text" xml:space="preserve">
+    <value>{0} ({1}): az utána következő nagy terhelés várható</value>
+  </data>
+  <data name="Trouble_StartedDuring" xml:space="preserve">
+    <value>A vizsgálat alatt indult</value>
+  </data>
+  <data name="Trouble_At" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="Trouble_Unknown_Temperatures" xml:space="preserve">
+    <value>Nem érhető el: a Windows nem kínál dokumentált módot a kiolvasásukra kernelillesztő nélkül.</value>
+  </data>
+  <data name="Trouble_Unknown_Gpu" xml:space="preserve">
+    <value>Nem érhető el ezen a számítógépen (vagy a GPU-figyelés ki van kapcsolva).</value>
+  </data>
+  <data name="Trouble_Applications" xml:space="preserve">
+    <value>Alkalmazások</value>
+  </data>
+  <data name="Trouble_Unknown_Applications" xml:space="preserve">
+    <value>Nem érhető el: a vizsgálat alatt nem történt folyamatmérés.</value>
+  </data>
+  <data name="Trouble_NetworkPerApp" xml:space="preserve">
+    <value>Alkalmazásonkénti hálózathasználat</value>
+  </data>
+  <data name="Trouble_Unknown_Network" xml:space="preserve">
+    <value>Nem érhető el: a Windows rendszergazdai szintű eseménykövetés nélkül nem jelenti.</value>
+  </data>
+  <data name="Trouble_Fps" xml:space="preserve">
+    <value>Képkockasebesség (FPS)</value>
+  </data>
+  <data name="Trouble_Unknown_Fps" xml:space="preserve">
+    <value>Nem érhető el: a Windows nem kínál megbízható forrást más alkalmazásoknak.</value>
+  </data>
+  <data name="Trouble_InsideApps" xml:space="preserve">
+    <value>Az alkalmazásokon belül</value>
+  </data>
+  <data name="Trouble_Unknown_Inside" xml:space="preserve">
+    <value>Hogy egy alkalmazás belül mit csinál (miért használ erőforrásokat), kívülről nem figyelhető meg.</value>
+  </data>
+  <data name="Trouble_Rec_Cpu" xml:space="preserve">
+    <value>Ha a lassulás egybeesett azokkal a pillanatokkal, amikor ez volt terhelt: {0}, zárja be, vagy várja meg, amíg befejezi a feladatát, majd indítson egy újabb vizsgálatot az összehasonlításhoz.</value>
+  </data>
+  <data name="Trouble_Rec_Memory" xml:space="preserve">
+    <value>A memória időnként majdnem megtelt: zárja be a nem szükséges alkalmazásokat. Ha ez gyakran előfordul, több memória segítene.</value>
+  </data>
+  <data name="Trouble_Rec_Disk" xml:space="preserve">
+    <value>Egy lemez időnként nagyon foglalt volt: várja meg, amíg a frissítések vagy a másolások befejeződnek. Az Alkalmazások hatása megmutatja, mely alkalmazások olvasnak és írnak a legtöbbet.</value>
+  </data>
+  <data name="Trouble_Rec_Nothing" xml:space="preserve">
+    <value>Nem mértünk semmi rendellenest. Ha a probléma a vizsgálat alatt jelentkezett, lehet, hogy ezekben a mérésekben nem látszik (hálózati késleltetés, kihagyott képkockák, eszközhiba); különben indítson újabb vizsgálatot, amíg a probléma fennáll.</value>
+  </data>
+  <data name="Trouble_Rec_Export" xml:space="preserve">
+    <value>Exportálja a jelentést, hogy megőrizze, vagy megossza valakivel, aki segít Önnek.</value>
+  </data>
+  <data name="Trouble_Event_Started" xml:space="preserve">
+    <value>A hibaelhárítás elindult ({0})</value>
+  </data>
+  <data name="Trouble_Event_StartedDetail" xml:space="preserve">
+    <value>Részletes adatgyűjtés a vizsgálat végéig.</value>
+  </data>
+  <data name="AlertStatus_New" xml:space="preserve">
+    <value>Új</value>
+  </data>
+  <data name="AlertStatus_Seen" xml:space="preserve">
+    <value>Megtekintve</value>
+  </data>
+  <data name="AlertStatus_Resolved" xml:space="preserve">
+    <value>Megoldva</value>
+  </data>
+  <data name="Importance_High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="Importance_Medium" xml:space="preserve">
+    <value>Közepes</value>
+  </data>
+  <data name="Importance_Low" xml:space="preserve">
+    <value>Alacsony</value>
+  </data>
+  <data name="TimelineCat_Application" xml:space="preserve">
+    <value>Alkalmazás</value>
+  </data>
+  <data name="TimelineCat_Game" xml:space="preserve">
+    <value>Játék</value>
+  </data>
+  <data name="TimelineCat_Alert" xml:space="preserve">
+    <value>Riasztás</value>
+  </data>
+  <data name="TimelineCat_Anomaly" xml:space="preserve">
+    <value>Rendellenesség</value>
+  </data>
+  <data name="TimelineCat_Change" xml:space="preserve">
+    <value>Változás</value>
+  </data>
+  <data name="TimelineCat_System" xml:space="preserve">
+    <value>Rendszer</value>
+  </data>
+  <data name="TimelineCat_Investigation" xml:space="preserve">
+    <value>Vizsgálat</value>
+  </data>
+  <data name="TimelineCat_Monitoring" xml:space="preserve">
+    <value>Figyelés</value>
+  </data>
+  <data name="ImpactPeriod_Session" xml:space="preserve">
+    <value>Ez a munkamenet</value>
+  </data>
+  <data name="ImpactPeriod_24Hours" xml:space="preserve">
+    <value>Utolsó 24 óra</value>
+  </data>
+  <data name="ImpactPeriod_7Days" xml:space="preserve">
+    <value>Utolsó 7 nap</value>
+  </data>
+  <data name="TroubleEnd_Completed" xml:space="preserve">
+    <value>Befejezve</value>
+  </data>
+  <data name="TroubleEnd_Stopped" xml:space="preserve">
+    <value>Ön állította le</value>
+  </data>
+  <data name="TroubleEnd_Closed" xml:space="preserve">
+    <value>A Sysora bezárult</value>
+  </data>
+  <data name="GameFinding_Anomaly" xml:space="preserve">
+    <value>Rendellenesség</value>
+  </data>
+  <data name="GameFinding_Analysis" xml:space="preserve">
+    <value>Elemzés</value>
+  </data>
+  <data name="GameFinding_Comparison" xml:space="preserve">
+    <value>Összehasonlítás</value>
+  </data>
+  <data name="Report_Limit_Temperatures" xml:space="preserve">
+    <value>Hőmérsékletek: nem érhetők el (a Windows nem kínál dokumentált módot a kiolvasásukra kernelillesztő nélkül).</value>
+  </data>
+  <data name="Report_Areas" xml:space="preserve">
+    <value>Területek</value>
+  </data>
+  <data name="Report_Col_Area" xml:space="preserve">
+    <value>Terület</value>
+  </data>
+  <data name="Report_Col_State" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="Report_Col_ImpactScore" xml:space="preserve">
+    <value>Hatás a pontszámra</value>
+  </data>
+  <data name="Report_Col_Measured" xml:space="preserve">
+    <value>Mért érték</value>
+  </data>
+  <data name="Report_Score" xml:space="preserve">
+    <value>Pontszám</value>
+  </data>
+  <data name="Report_PcHealth" xml:space="preserve">
+    <value>A számítógép állapota</value>
+  </data>
+  <data name="Report_WhatLowers" xml:space="preserve">
+    <value>Mi csökkenti</value>
+  </data>
+  <data name="Report_HowComputed" xml:space="preserve">
+    <value>Hogyan számítjuk</value>
+  </data>
+  <data name="Report_Problems" xml:space="preserve">
+    <value>Problémák</value>
+  </data>
+  <data name="Report_PointsToWatch" xml:space="preserve">
+    <value>Figyelendő pontok</value>
+  </data>
+  <data name="Report_CheckedNormal" xml:space="preserve">
+    <value>Ellenőrizve, normál</value>
+  </data>
+  <data name="Report_Col_Finding" xml:space="preserve">
+    <value>Megállapítás</value>
+  </data>
+  <data name="Report_Col_Value" xml:space="preserve">
+    <value>Érték</value>
+  </data>
+  <data name="Report_Col_ComparedWith" xml:space="preserve">
+    <value>Összehasonlítási alap</value>
+  </data>
+  <data name="Report_Col_Confidence" xml:space="preserve">
+    <value>Megbízhatóság</value>
+  </data>
+  <data name="Report_Col_Explanation" xml:space="preserve">
+    <value>Magyarázat</value>
+  </data>
+  <data name="Report_ComparedUsual" xml:space="preserve">
+    <value>Összehasonlítás a szokásos tevékenységgel</value>
+  </data>
+  <data name="Report_Col_Metric" xml:space="preserve">
+    <value>Mérőszám</value>
+  </data>
+  <data name="Report_Diagnosis" xml:space="preserve">
+    <value>Diagnózis</value>
+  </data>
+  <data name="Report_Analyzed_One" xml:space="preserve">
+    <value>{0} mérés elemezve.</value>
+  </data>
+  <data name="Report_Analyzed_Other" xml:space="preserve">
+    <value>{0} mérés elemezve.</value>
+  </data>
+  <data name="Report_WhyNowTitle" xml:space="preserve">
+    <value>Miért most? {0}</value>
+  </data>
+  <data name="Report_WhatHappened" xml:space="preserve">
+    <value>Mi történt</value>
+  </data>
+  <data name="Report_Statements" xml:space="preserve">
+    <value>Állítások és amire épülnek</value>
+  </data>
+  <data name="Report_EventsSameTime" xml:space="preserve">
+    <value>Egy időben történt események</value>
+  </data>
+  <data name="Report_CoincidenceNotProof" xml:space="preserve">
+    <value>Az időbeli egybeesés nem bizonyítja az okozati összefüggést.</value>
+  </data>
+  <data name="Report_NotMeasured" xml:space="preserve">
+    <value>{0}: nem mértük ebben az időszakban.</value>
+  </data>
+  <data name="Report_Replay" xml:space="preserve">
+    <value>Teljesítmény-visszajátszás</value>
+  </data>
+  <data name="Report_Measurements" xml:space="preserve">
+    <value>Mérések</value>
+  </data>
+  <data name="Report_Col_Average" xml:space="preserve">
+    <value>Átlag</value>
+  </data>
+  <data name="Report_Col_Peak" xml:space="preserve">
+    <value>Csúcs</value>
+  </data>
+  <data name="Report_Col_Lowest" xml:space="preserve">
+    <value>Legalacsonyabb</value>
+  </data>
+  <data name="Report_Events" xml:space="preserve">
+    <value>Események</value>
+  </data>
+  <data name="Report_GameTitle" xml:space="preserve">
+    <value>Játékmenet: {0}</value>
+  </data>
+  <data name="Report_Session" xml:space="preserve">
+    <value>Munkamenet</value>
+  </data>
+  <data name="Report_IdentifiedAsGame" xml:space="preserve">
+    <value>Játékként azonosítva</value>
+  </data>
+  <data name="Report_Coverage" xml:space="preserve">
+    <value>Lefedettség</value>
+  </data>
+  <data name="Report_Col_Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Report_Col_Note" xml:space="preserve">
+    <value>Megjegyzés</value>
+  </data>
+  <data name="Report_Findings" xml:space="preserve">
+    <value>Megállapítások</value>
+  </data>
+  <data name="Report_Col_HowToRead" xml:space="preserve">
+    <value>Hogyan értelmezzük</value>
+  </data>
+  <data name="Report_Col_Description" xml:space="preserve">
+    <value>Leírás</value>
+  </data>
+  <data name="Report_ComparedPrevious" xml:space="preserve">
+    <value>Összehasonlítás az előző játékmenetekkel</value>
+  </data>
+  <data name="Report_Col_ThisSession" xml:space="preserve">
+    <value>Ez a játékmenet</value>
+  </data>
+  <data name="Report_Col_Previous" xml:space="preserve">
+    <value>Előző</value>
+  </data>
+  <data name="Report_Col_Difference" xml:space="preserve">
+    <value>Különbség</value>
+  </data>
+  <data name="Report_AppImpact" xml:space="preserve">
+    <value>Alkalmazások hatása</value>
+  </data>
+  <data name="Report_Impact_None" xml:space="preserve">
+    <value>Ebben az időszakban nem rögzítettünk alkalmazáshasználatot.</value>
+  </data>
+  <data name="Report_Impact_Highest" xml:space="preserve">
+    <value>Legnagyobb hatás: {0} ({1}). {2}</value>
+  </data>
+  <data name="Report_Applications" xml:space="preserve">
+    <value>Alkalmazások</value>
+  </data>
+  <data name="Report_Col_Application" xml:space="preserve">
+    <value>Alkalmazás</value>
+  </data>
+  <data name="Report_Col_Impact" xml:space="preserve">
+    <value>Hatás</value>
+  </data>
+  <data name="Report_Col_CpuAvg" xml:space="preserve">
+    <value>CPU (átlag)</value>
+  </data>
+  <data name="Report_Col_MemoryAvg" xml:space="preserve">
+    <value>Memória (átlag)</value>
+  </data>
+  <data name="Report_Col_IoAvg" xml:space="preserve">
+    <value>I/O (átlag)</value>
+  </data>
+  <data name="Report_Col_Running" xml:space="preserve">
+    <value>Futásidő</value>
+  </data>
+  <data name="Report_HowScoreComputed" xml:space="preserve">
+    <value>Hogyan számítjuk a pontszámot</value>
+  </data>
+  <data name="Report_Impact_IoLimit" xml:space="preserve">
+    <value>Az alkalmazásonkénti lemez-I/O a fájlokat, az eszközöket és a hálózatot együtt tartalmazza: a Windows nem bontja szét.</value>
+  </data>
+  <data name="Report_Period" xml:space="preserve">
+    <value>Időszak: {0}</value>
+  </data>
+  <data name="Report_Alerts" xml:space="preserve">
+    <value>Riasztások</value>
+  </data>
+  <data name="Report_Alerts_None" xml:space="preserve">
+    <value>Nincs rögzített riasztás.</value>
+  </data>
+  <data name="Report_Alerts_Summary" xml:space="preserve">
+    <value>{0}, ebből {1} még aktív.</value>
+  </data>
+  <data name="Report_Col_Raised" xml:space="preserve">
+    <value>Keletkezett</value>
+  </data>
+  <data name="Report_Col_Alert" xml:space="preserve">
+    <value>Riasztás</value>
+  </data>
+  <data name="Report_Col_Severity" xml:space="preserve">
+    <value>Súlyosság</value>
+  </data>
+  <data name="Report_Col_Status" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="Report_Alerts_Note" xml:space="preserve">
+    <value>Riasztás csak olyan problémáknál keletkezik, amelyek tartósak, vagy szokatlanok ennél a számítógépnél, óránként legfeljebb néhány.</value>
+  </data>
+  <data name="Report_SinceYesterday" xml:space="preserve">
+    <value>Tegnap óta</value>
+  </data>
+  <data name="Report_Col_Change" xml:space="preserve">
+    <value>Változás</value>
+  </data>
+  <data name="Report_Col_Importance" xml:space="preserve">
+    <value>Fontosság</value>
+  </data>
+  <data name="Report_Col_When" xml:space="preserve">
+    <value>Mikor</value>
+  </data>
+  <data name="Report_Unchanged" xml:space="preserve">
+    <value>Változatlan: {0}</value>
+  </data>
+  <data name="Report_NotCompared" xml:space="preserve">
+    <value>Nincs összehasonlítva: {0}</value>
+  </data>
+  <data name="Report_DetectedChanges" xml:space="preserve">
+    <value>Észlelt változások</value>
+  </data>
+  <data name="Report_Col_Origin" xml:space="preserve">
+    <value>Eredet</value>
+  </data>
+  <data name="Report_Changes" xml:space="preserve">
+    <value>Változások</value>
+  </data>
+  <data name="Report_Changes_None" xml:space="preserve">
+    <value>Nincs rögzített változás.</value>
+  </data>
+  <data name="Report_Changes_One" xml:space="preserve">
+    <value>{0} változás észlelve a számítógép pillanatképeinek összehasonlításával.</value>
+  </data>
+  <data name="Report_Changes_Other" xml:space="preserve">
+    <value>{0} változás észlelve a számítógép pillanatképeinek összehasonlításával.</value>
+  </data>
+  <data name="Report_Changes_Limit" xml:space="preserve">
+    <value>Az illesztőprogramokat, a szolgáltatásokat, az ütemezett feladatokat és az egyes fájlokat nem hasonlítjuk össze.</value>
+  </data>
+  <data name="Report_Changes_Note" xml:space="preserve">
+    <value>Egy változás dátuma két pillanatkép közé esik, hacsak a telepítője nem rögzített dátumot. Ha az eredete nem figyelhető meg, ezt jelezzük.</value>
+  </data>
+  <data name="Report_ComparisonTitle" xml:space="preserve">
+    <value>Összehasonlítás: {0} → {1}</value>
+  </data>
+  <data name="Report_BeforeAfter" xml:space="preserve">
+    <value>Előtte / utána</value>
+  </data>
+  <data name="Report_Col_Evolution" xml:space="preserve">
+    <value>Változás</value>
+  </data>
+  <data name="Report_Col_Relative" xml:space="preserve">
+    <value>Relatív</value>
+  </data>
+  <data name="Report_Timeline" xml:space="preserve">
+    <value>Idővonal</value>
+  </data>
+  <data name="Report_Timeline_Summary" xml:space="preserve">
+    <value>{0}, {1} és {2} között.</value>
+  </data>
+  <data name="Count_Entry_One" xml:space="preserve">
+    <value>{0} bejegyzés</value>
+  </data>
+  <data name="Count_Entry_Other" xml:space="preserve">
+    <value>{0} bejegyzés</value>
+  </data>
+  <data name="Report_Entries" xml:space="preserve">
+    <value>Bejegyzések</value>
+  </data>
+  <data name="Report_Col_Time" xml:space="preserve">
+    <value>Idő</value>
+  </data>
+  <data name="Report_Col_Category" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="Report_Col_Entry" xml:space="preserve">
+    <value>Bejegyzés</value>
+  </data>
+  <data name="Report_Col_Detail" xml:space="preserve">
+    <value>Részletek</value>
+  </data>
+  <data name="Report_Col_Source" xml:space="preserve">
+    <value>Forrás</value>
+  </data>
+  <data name="Report_Timeline_Note" xml:space="preserve">
+    <value>Az időpontok a Sysora által megfigyeltek. A pillanatképek összehasonlításával talált változás (≈) legkésőbb a feltüntetett időpontban történt.</value>
+  </data>
+  <data name="Report_Troubleshooting" xml:space="preserve">
+    <value>Hibaelhárítási vizsgálat</value>
+  </data>
+  <data name="Report_Anomalies" xml:space="preserve">
+    <value>Rendellenességek</value>
+  </data>
+  <data name="Report_NoneMeasured" xml:space="preserve">
+    <value>Egyet sem mértünk.</value>
+  </data>
+  <data name="Report_Correlations" xml:space="preserve">
+    <value>Összefüggések és valószínű magyarázatok</value>
+  </data>
+  <data name="Report_AppsInvolved" xml:space="preserve">
+    <value>Érintett alkalmazások</value>
+  </data>
+  <data name="Report_Col_CpuPeak" xml:space="preserve">
+    <value>CPU (csúcs)</value>
+  </data>
+  <data name="Report_Col_MemoryPeak" xml:space="preserve">
+    <value>Memória (csúcs)</value>
+  </data>
+  <data name="Report_Unknown" xml:space="preserve">
+    <value>Ismeretlen</value>
+  </data>
+  <data name="Report_Recommendations" xml:space="preserve">
+    <value>Javaslatok</value>
+  </data>
+  <data name="Report_Trouble_Ended" xml:space="preserve">
+    <value>Befejeződött: {0}. Tervezett időtartam: {1}.</value>
+  </data>
+  <data name="Report_Trouble_Collected" xml:space="preserve">
+    <value>Részletes figyelési intenzitással gyűjtve.</value>
+  </data>
+  <data name="Report_Large_Denied" xml:space="preserve">
+    <value>{0}; a tartalmuk ismeretlen. Példák: {1}</value>
+  </data>
+  <data name="Report_Large_Unavailable_One" xml:space="preserve">
+    <value>{0} mappa nem volt elérhető a vizsgálat alatt.</value>
+  </data>
+  <data name="Report_Large_Unavailable_Other" xml:space="preserve">
+    <value>{0} mappa nem volt elérhető a vizsgálat alatt.</value>
+  </data>
+  <data name="Report_Large_NotScanned" xml:space="preserve">
+    <value>Nincs átvizsgálva: {0} ({1})</value>
+  </data>
+  <data name="Report_LargeFiles" xml:space="preserve">
+    <value>Nagy fájlok</value>
+  </data>
+  <data name="Report_LargestFiles" xml:space="preserve">
+    <value>Legnagyobb fájlok</value>
+  </data>
+  <data name="Report_Large_ReadOnly" xml:space="preserve">
+    <value>A Sysora felsorolja a fájlokat; soha nem helyezi át, nem módosítja és nem törli őket.</value>
+  </data>
+  <data name="Report_Col_File" xml:space="preserve">
+    <value>Fájl</value>
+  </data>
+  <data name="Report_Col_Size" xml:space="preserve">
+    <value>Méret</value>
+  </data>
+  <data name="Report_Col_Type" xml:space="preserve">
+    <value>Típus</value>
+  </data>
+  <data name="Report_Col_Modified" xml:space="preserve">
+    <value>Módosítva</value>
+  </data>
+  <data name="Report_Col_Folder" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="Report_ByType" xml:space="preserve">
+    <value>Típus szerint</value>
+  </data>
+  <data name="Report_ByFolder" xml:space="preserve">
+    <value>Mappa szerint</value>
+  </data>
+  <data name="Report_Large_Scanned" xml:space="preserve">
+    <value>Átvizsgálva: {0}; minimális méret: {1}.</value>
+  </data>
+  <data name="Report_Large_Counts" xml:space="preserve">
+    <value>{0} · {1}; nem követve: {2}; kihagyva: {3}.</value>
+  </data>
+  <data name="Count_Link_One" xml:space="preserve">
+    <value>{0} hivatkozás</value>
+  </data>
+  <data name="Count_Link_Other" xml:space="preserve">
+    <value>{0} hivatkozás</value>
+  </data>
+  <data name="Count_CloudFile_One" xml:space="preserve">
+    <value>{0} csak online elérhető fájl</value>
+  </data>
+  <data name="Count_CloudFile_Other" xml:space="preserve">
+    <value>{0} csak online elérhető fájl</value>
+  </data>
+  <data name="Report_Col_Group" xml:space="preserve">
+    <value>Csoport</value>
+  </data>
+  <data name="Report_Col_Files" xml:space="preserve">
+    <value>Fájlok</value>
+  </data>
+  <data name="Report_Col_TotalSize" xml:space="preserve">
+    <value>Teljes méret</value>
+  </data>
+  <data name="Report_OsVersion" xml:space="preserve">
+    <value>{0}{1} (build {2}, {3})</value>
+  </data>
+  <data name="Report_Html_Generated" xml:space="preserve">
+    <value>Készült: {0} · Sysora {1}</value>
+  </data>
+  <data name="Report_Html_Period" xml:space="preserve">
+    <value>Elemzett időszak: {0} – {1}</value>
+  </data>
+  <data name="Report_Html_ThisPc" xml:space="preserve">
+    <value>Ez a számítógép</value>
+  </data>
+  <data name="Report_Html_Os" xml:space="preserve">
+    <value>Operációs rendszer</value>
+  </data>
+  <data name="Report_Html_Processor" xml:space="preserve">
+    <value>Processzor</value>
+  </data>
+  <data name="Report_Html_Memory" xml:space="preserve">
+    <value>Memória</value>
+  </data>
+  <data name="Report_Html_Graphics" xml:space="preserve">
+    <value>Grafika</value>
+  </data>
+  <data name="Report_Html_NeverEstimates" xml:space="preserve">
+    <value>A Sysora soha nem helyettesíti a hiányzó mérést becsléssel.</value>
+  </data>
+  <data name="Report_Html_Notes" xml:space="preserve">
+    <value>Megjegyzések</value>
+  </data>
+  <data name="Report_Html_Footer" xml:space="preserve">
+    <value>Helyben készítette a Sysora: minden érték erről a számítógépről származik. Megfigyelt = mért; Következtetett = a mérésekből levezetett (nem bizonyított); Ismeretlen = nem figyelhető meg.</value>
+  </data>
+  <data name="App_LongDescription" xml:space="preserve">
+    <value>A Sysora egy helyben működő irányítópult, amely valós időben figyeli a teljesítményt, a folyamatokat, a tárhelyet, a hálózati tevékenységet és a rendszer állapotát, és elmagyarázza, amit mér: miért lassú a számítógép, mi változott, és mely alkalmazások terhelik a legjobban.</value>
+  </data>
+  <data name="Process_Exited" xml:space="preserve">
+    <value>A folyamat kilépett.</value>
+  </data>
+  <data name="Process_CoreWindows" xml:space="preserve">
+    <value>Ez a Windows egyik alapvető folyamata, nem állítható le.</value>
+  </data>
+  <data name="Process_UseExit" xml:space="preserve">
+    <value>A Sysora bezárásához használja a Kilépés parancsot.</value>
+  </data>
+  <data name="Process_AccessDeniedEnd" xml:space="preserve">
+    <value>Hozzáférés megtagadva. A folyamat leállításához rendszergazdai jogok szükségesek.</value>
+  </data>
+  <data name="Process_AlreadyExited" xml:space="preserve">
+    <value>A folyamat már kilépett.</value>
+  </data>
+  <data name="Process_Critical" xml:space="preserve">
+    <value>Ez egy kritikus rendszerfolyamat. A leállítása a Windows leállását okozná.</value>
+  </data>
+  <data name="Process_EndFailed" xml:space="preserve">
+    <value>A Windows nem tudta leállítani a folyamatot (hiba: {0}).</value>
+  </data>
+  <data name="Process_AccessDeniedView" xml:space="preserve">
+    <value>Hozzáférés megtagadva. Ezen adatok megtekintéséhez rendszergazdai jogok szükségesek.</value>
+  </data>
+  <data name="Process_WindowsError" xml:space="preserve">
+    <value>Nem érhető el (Windows-hiba: {0}).</value>
+  </data>
+  <data name="LargeFiles_Excl_Svi" xml:space="preserve">
+    <value>Visszaállítási pontok és a Windows számára fenntartott kötetadatok (nem olvashatók).</value>
+  </data>
+  <data name="LargeFiles_Excl_WinSxS" xml:space="preserve">
+    <value>A Windows összetevőtára: a fájljai a Windows többi részével megosztott rögzített hivatkozások, így a méretük kétszer számítana bele.</value>
+  </data>
+  <data name="History_InMemory" xml:space="preserve">
+    <value>Memóriában (demó mód: semmi sem kerül a lemezre)</value>
+  </data>
+  <data name="Game_Detect_Confirmed" xml:space="preserve">
+    <value>Ön erősítette meg ezt a játékot ({0}).</value>
+  </data>
+  <data name="Game_Detect_Launcher" xml:space="preserve">
+    <value>{0} szerint {1} ebbe a mappába van telepítve.</value>
+  </data>
+</root>
