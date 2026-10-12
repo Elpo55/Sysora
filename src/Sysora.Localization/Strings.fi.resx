@@ -1,0 +1,3816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>Ei käytettävissä</value>
+  </data>
+  <data name="List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="List_LastSeparator" xml:space="preserve">
+    <value> ja </value>
+  </data>
+  <data name="Sentence_End" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Sentence_Separator" xml:space="preserve">
+    <value>. </value>
+  </data>
+  <data name="Unit_Byte" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="Unit_Kilobyte" xml:space="preserve">
+    <value>kt</value>
+  </data>
+  <data name="Unit_Megabyte" xml:space="preserve">
+    <value>Mt</value>
+  </data>
+  <data name="Unit_Gigabyte" xml:space="preserve">
+    <value>Gt</value>
+  </data>
+  <data name="Unit_Terabyte" xml:space="preserve">
+    <value>Tt</value>
+  </data>
+  <data name="Format_PerSecond" xml:space="preserve">
+    <value>{0}/s</value>
+  </data>
+  <data name="Format_Bps" xml:space="preserve">
+    <value>{0:0} bit/s</value>
+  </data>
+  <data name="Format_Kbps" xml:space="preserve">
+    <value>{0} kbit/s</value>
+  </data>
+  <data name="Format_Mbps" xml:space="preserve">
+    <value>{0} Mbit/s</value>
+  </data>
+  <data name="Format_Gbps" xml:space="preserve">
+    <value>{0} Gbit/s</value>
+  </data>
+  <data name="Format_Percent" xml:space="preserve">
+    <value>{0} %</value>
+  </data>
+  <data name="Duration_DaysHoursMinutes" xml:space="preserve">
+    <value>{0} pv {1} h {2} min</value>
+  </data>
+  <data name="Duration_HoursMinutes" xml:space="preserve">
+    <value>{0} h {1} min</value>
+  </data>
+  <data name="Duration_Minutes" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Duration_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Duration_DaysHours" xml:space="preserve">
+    <value>{0} pv {1} h</value>
+  </data>
+  <data name="Duration_HoursPaddedMinutes" xml:space="preserve">
+    <value>{0} h {1:00} min</value>
+  </data>
+  <data name="Duration_MinutesPaddedSeconds" xml:space="preserve">
+    <value>{0} min {1:00} s</value>
+  </data>
+  <data name="Duration_Day_One" xml:space="preserve">
+    <value>{0} päivä</value>
+  </data>
+  <data name="Duration_Day_Other" xml:space="preserve">
+    <value>{0} päivää</value>
+  </data>
+  <data name="Duration_Hour_One" xml:space="preserve">
+    <value>{0} tunti</value>
+  </data>
+  <data name="Duration_Hour_Other" xml:space="preserve">
+    <value>{0} tuntia</value>
+  </data>
+  <data name="Duration_Minute_One" xml:space="preserve">
+    <value>{0} minuutti</value>
+  </data>
+  <data name="Duration_Minute_Other" xml:space="preserve">
+    <value>{0} minuuttia</value>
+  </data>
+  <data name="Diag_UsualWithMedian" xml:space="preserve">
+    <value>Tavallisesti {0} (mediaani {1})</value>
+  </data>
+  <data name="Diag_UsualOf" xml:space="preserve">
+    <value>Tavallisesti {0}</value>
+  </data>
+  <data name="Diag_UsualDetail" xml:space="preserve">
+    <value>{0} (mediaani {1}, 95 % minuuteista alle {2})</value>
+  </data>
+  <data name="Source_HistoryMinutes7Days" xml:space="preserve">
+    <value>Paikallisen historian minuuttikohtaiset keskiarvot (viimeiset 7 päivää)</value>
+  </data>
+  <data name="Diag_NotKnownYet" xml:space="preserve">
+    <value>Ei vielä tiedossa</value>
+  </data>
+  <data name="Diag_AveragePeak" xml:space="preserve">
+    <value>Keskiarvo {0}, huippu {1}</value>
+  </data>
+  <data name="Diag_AtOrAboveFor" xml:space="preserve">
+    <value>Vähintään {0} {1} ajan (keskiarvo {2}, huippu {3})</value>
+  </data>
+  <data name="Diag_Threshold" xml:space="preserve">
+    <value>Kynnys {0}</value>
+  </data>
+  <data name="Diag_ReportedWhenAbove" xml:space="preserve">
+    <value>Ilmoitetaan, kun yli {0} {1} ajan</value>
+  </data>
+  <data name="Diag_Metric_CpuUsage" xml:space="preserve">
+    <value>Suorittimen käyttö</value>
+  </data>
+  <data name="Diag_Metric_AppCpu" xml:space="preserve">
+    <value>Sovelluksen suorittimen käyttö</value>
+  </data>
+  <data name="Diag_Metric_MemoryUsage" xml:space="preserve">
+    <value>Muistin käyttö</value>
+  </data>
+  <data name="Diag_Metric_Commit" xml:space="preserve">
+    <value>Varattu muisti</value>
+  </data>
+  <data name="Diag_Metric_DiskActive" xml:space="preserve">
+    <value>Levyn aktiivinen aika</value>
+  </data>
+  <data name="Diag_Metric_SystemDiskSpace" xml:space="preserve">
+    <value>Järjestelmälevyn tila</value>
+  </data>
+  <data name="Diag_Metric_VolumeSpace" xml:space="preserve">
+    <value>Aseman tila</value>
+  </data>
+  <data name="Diag_Metric_ActivityVsUsual" xml:space="preserve">
+    <value>Toiminta tavalliseen verrattuna</value>
+  </data>
+  <data name="Diag_Metric_GpuUsage" xml:space="preserve">
+    <value>Näytönohjaimen käyttö</value>
+  </data>
+  <data name="Diag_Metric_Connectivity" xml:space="preserve">
+    <value>Yhteys</value>
+  </data>
+  <data name="Diag_Metric_Uptime" xml:space="preserve">
+    <value>Käynnissäoloaika</value>
+  </data>
+  <data name="Diag_CpuLastMinute" xml:space="preserve">
+    <value>Suorittimen käyttö (viimeinen minuutti)</value>
+  </data>
+  <data name="Diag_CpuLoad_Explanation" xml:space="preserve">
+    <value>Kun suoritin on näin kuormitettu pitkään, sovellusten täytyy odottaa suoritinaikaa, joten tietokone voi tuntua hitaalta.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUnusual" xml:space="preserve">
+    <value>Suoritin on paljon kuormitetumpi kuin tällä tietokoneella tavallisesti ({0}). Sovellusten täytyy odottaa suoritinaikaa, joten tietokone voi tuntua hitaalta.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUsual" xml:space="preserve">
+    <value>Taso on korkea, mutta ei epätavallinen tälle tietokoneelle (useimmiten {0}).</value>
+  </data>
+  <data name="Diag_CpuLoad_SaturatedTitle" xml:space="preserve">
+    <value>Suoritin on kyllästetty</value>
+  </data>
+  <data name="Diag_CpuLoad_HighTitle" xml:space="preserve">
+    <value>Suorittimen käyttö on suuri</value>
+  </data>
+  <data name="Diag_CpuLoad_HighDescription" xml:space="preserve">
+    <value>Suorittimen käyttö on ollut yli {0} {1} ajan (keskiarvo {2}).</value>
+  </data>
+  <data name="Diag_CpuLoad_Recommendation" xml:space="preserve">
+    <value>Avaa Sovellusten vaikutus nähdäksesi, mitkä sovellukset käyttävät suoritinta, ja sulje ne, joita et tarvitse juuri nyt.</value>
+  </data>
+  <data name="Diag_CpuSpike_Title" xml:space="preserve">
+    <value>Lyhyt suoritinpiikki</value>
+  </data>
+  <data name="Diag_CpuSpike_Description" xml:space="preserve">
+    <value>Suoritin on nyt {0}, mutta vasta {1} ajan.</value>
+  </data>
+  <data name="Diag_CpuSpike_Explanation" xml:space="preserve">
+    <value>Lyhyet piikit ovat normaaleja (sovelluksen avaaminen, taustatehtävä). Niistä tulee todennäköinen hitauden syy vain, jos ne jatkuvat.</value>
+  </data>
+  <data name="Diag_CpuNormal_Title" xml:space="preserve">
+    <value>Suorittimen käyttö normaali</value>
+  </data>
+  <data name="Diag_CpuNormal_Description" xml:space="preserve">
+    <value>Suorittimen keskiarvo viimeisen minuutin aikana oli {0} (huippu {1}).</value>
+  </data>
+  <data name="Diag_CpuNormal_Explanation" xml:space="preserve">
+    <value>Suorittimella on vapaata kapasiteettia.</value>
+  </data>
+  <data name="Diag_AppCpu_Now" xml:space="preserve">
+    <value>{0} suorittimen kokonaiskäytöstä nyt ({1})</value>
+  </data>
+  <data name="Count_Process_One" xml:space="preserve">
+    <value>{0} prosessi</value>
+  </data>
+  <data name="Count_Process_Other" xml:space="preserve">
+    <value>{0} prosessia</value>
+  </data>
+  <data name="Diag_AppCpu_TotalNow" xml:space="preserve">
+    <value>Suorittimen kokonaiskäyttö nyt: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_LongTitle" xml:space="preserve">
+    <value>{0} on käyttänyt paljon suoritinta useiden minuuttien ajan</value>
+  </data>
+  <data name="Diag_AppCpu_LargeShareTitle" xml:space="preserve">
+    <value>{0} käyttää suuren osan suorittimesta</value>
+  </data>
+  <data name="Diag_AppCpu_Description" xml:space="preserve">
+    <value>{0} on käyttänyt keskimäärin {1} suorittimen kokonaiskapasiteetista {2} ajan.</value>
+  </data>
+  <data name="Diag_AppCpu_Explanation" xml:space="preserve">
+    <value>Kun yksittäinen sovellus pitää suorittimen näin kiireisenä, kaikelle muulle jää vähemmän kapasiteettia. Se voi tehdä oikeaa työtä (käännös, vienti, peli) tai olla jumissa.</value>
+  </data>
+  <data name="Diag_AppCpu_Recommendation" xml:space="preserve">
+    <value>Jos et tarvitse sovellusta {0} juuri nyt, sulje se tai odota, että sen tehtävä valmistuu. Sovellusten vaikutus näyttää sen historian.</value>
+  </data>
+  <data name="Diag_AppCpu_MainTitle" xml:space="preserve">
+    <value>{0} käyttää eniten suoritinta</value>
+  </data>
+  <data name="Diag_AppCpu_MainDescription" xml:space="preserve">
+    <value>{0}: {1} suorittimen kuormasta juuri nyt ({2} / {3}).</value>
+  </data>
+  <data name="Diag_AppCpu_TotalCpu" xml:space="preserve">
+    <value>Suoritin yhteensä {0}</value>
+  </data>
+  <data name="Diag_AppCpu_MainExplanation" xml:space="preserve">
+    <value>Jos suoritin pysyy kiireisenä, tämä sovellus on todennäköisin syy.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneTitle" xml:space="preserve">
+    <value>Mikään sovellus ei hallitse suoritinta</value>
+  </data>
+  <data name="Diag_AppCpu_NoneDescription" xml:space="preserve">
+    <value>Suurin suorittimen käyttäjä on {0}: {1} kokonaiskapasiteetista.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneExplanation" xml:space="preserve">
+    <value>Mikään yksittäinen sovellus ei pidä suoritinta kiireisenä.</value>
+  </data>
+  <data name="Diag_AppCpu_EvidenceName" xml:space="preserve">
+    <value>{0}: suoritin</value>
+  </data>
+  <data name="Diag_PerAppThreshold" xml:space="preserve">
+    <value>Kynnys {0} sovellusta kohden</value>
+  </data>
+  <data name="Diag_Memory_State" xml:space="preserve">
+    <value>{0} / {1} käytössä, {2} käytettävissä</value>
+  </data>
+  <data name="Diag_Memory_Physical" xml:space="preserve">
+    <value>Fyysinen muisti</value>
+  </data>
+  <data name="Diag_Memory_LargestApp" xml:space="preserve">
+    <value>Suurin sovellus</value>
+  </data>
+  <data name="Common_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Diag_Memory_FullTitle" xml:space="preserve">
+    <value>Muisti on lähes täynnä</value>
+  </data>
+  <data name="Diag_Memory_LowTitle" xml:space="preserve">
+    <value>Käytettävissä oleva muisti on vähissä</value>
+  </data>
+  <data name="Diag_Memory_HighDescription" xml:space="preserve">
+    <value>Muistin käyttö on ollut yli {0} {1} ajan ({2} käytettävissä).</value>
+  </data>
+  <data name="Diag_Memory_HighExplanation" xml:space="preserve">
+    <value>Kun muisti loppuu, Windows siirtää tietoja levylle (sivutus), joka on paljon muistia hitaampi: sovellukset voivat pysähtyä tai vastata hitaasti.</value>
+  </data>
+  <data name="Diag_Memory_CloseApps" xml:space="preserve">
+    <value>Sulje sovellukset, joita et käytä.</value>
+  </data>
+  <data name="Diag_Memory_CloseAppsLargest" xml:space="preserve">
+    <value>Sulje sovellukset, joita et käytä. Suurin on {0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_HighTitle" xml:space="preserve">
+    <value>Muistin käyttö on suuri</value>
+  </data>
+  <data name="Diag_Memory_JustReached" xml:space="preserve">
+    <value>Muistin käyttö saavutti juuri {0} ({1} käytettävissä).</value>
+  </data>
+  <data name="Diag_Memory_JustReachedExplanation" xml:space="preserve">
+    <value>Jos se pysyy näin suurena, Windows alkaa siirtää tietoja levylle, mikä hidastaa sovelluksia.</value>
+  </data>
+  <data name="Diag_Memory_EnoughTitle" xml:space="preserve">
+    <value>Muistia on riittävästi käytettävissä</value>
+  </data>
+  <data name="Diag_Memory_EnoughDescription" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_EnoughExplanation" xml:space="preserve">
+    <value>Sovelluksilla on tilaa toimia ilman, että Windowsin tarvitsee siirtää tietoja levylle.</value>
+  </data>
+  <data name="Diag_Commit_Title" xml:space="preserve">
+    <value>Näennäismuisti on lähes loppu</value>
+  </data>
+  <data name="Diag_Commit_Description" xml:space="preserve">
+    <value>Windows on varannut {0} näennäismuistinsa rajasta (fyysinen muisti + sivutustiedosto).</value>
+  </data>
+  <data name="Diag_Commit_Explanation" xml:space="preserve">
+    <value>Kun varattu muisti saavuttaa rajan, sovellukset eivät saa lisää muistia ja voivat kaatua tai jumittua.</value>
+  </data>
+  <data name="Diag_Commit_Recommendation" xml:space="preserve">
+    <value>Sulje paljon muistia vievät sovellukset. Jos tätä tapahtuu usein, anna Windowsin hallita sivutustiedoston kokoa automaattisesti.</value>
+  </data>
+  <data name="Diag_Growth_Trend" xml:space="preserve">
+    <value>Muistin käytön suuntaus</value>
+  </data>
+  <data name="Diag_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} prosenttiyksikköä ajassa {1} ({2:0.##} prosenttiyksikköä minuutissa)</value>
+  </data>
+  <data name="Diag_Growth_TrendReference" xml:space="preserve">
+    <value>Vakaa suuntaus (Theil–Sen), jota yksittäiset piikit eivät vääristä</value>
+  </data>
+  <data name="Diag_Growth_AppMemory" xml:space="preserve">
+    <value>{0}: muisti</value>
+  </data>
+  <data name="Diag_Growth_AppGrowth" xml:space="preserve">
+    <value>+{0} samana aikana</value>
+  </data>
+  <data name="Diag_Growth_Title" xml:space="preserve">
+    <value>Muistin käyttö on kasvanut tasaisesti</value>
+  </data>
+  <data name="Diag_Growth_Description" xml:space="preserve">
+    <value>Muistin käyttö kasvoi {0:0} prosenttiyksikköä ajassa {1}.</value>
+  </data>
+  <data name="Diag_Growth_DescriptionApp" xml:space="preserve">
+    <value>{0} kasvoi samana aikana {1}.</value>
+  </data>
+  <data name="Diag_Growth_Points" xml:space="preserve">
+    <value>+{0:0} prosenttiyksikköä</value>
+  </data>
+  <data name="Diag_Growth_Reference" xml:space="preserve">
+    <value>Ilmoitetaan, kun kasvu on +{0:0} prosenttiyksikköä ajassa {1}</value>
+  </data>
+  <data name="Diag_Growth_Explanation" xml:space="preserve">
+    <value>Tasainen kasvu voi olla normaalia (sovellus lataa tietoja) tai merkki siitä, että sovellus ei vapauta muistia (vuoto). Sysora ei voi päätellä kumpi pelkästään näistä mittauksista.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationReplay" xml:space="preserve">
+    <value>Seuraa muistin käyttöä Toistossa; jos se jatkaa kasvuaan, käynnistä vastuussa oleva sovellus uudelleen.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationApp" xml:space="preserve">
+    <value>Jos {0} jatkaa kasvuaan, sen uudelleenkäynnistys vapauttaa muistin.</value>
+  </data>
+  <data name="Diag_Uptime_Reference" xml:space="preserve">
+    <value>Sisältää lepotilassa vietetyn ajan. Kun nopea käynnistys on käytössä, ”Sammuta” ei nollaa sitä; ”Käynnistä uudelleen” nollaa.</value>
+  </data>
+  <data name="Diag_Disk_Unnamed" xml:space="preserve">
+    <value>levy</value>
+  </data>
+  <data name="Diag_Disk_Throughput" xml:space="preserve">
+    <value>luku {0}, kirjoitus {1}</value>
+  </data>
+  <data name="Diag_Disk_ActiveTimeOf" xml:space="preserve">
+    <value>Levyn {0} aktiivinen aika</value>
+  </data>
+  <data name="Diag_Disk_ThroughputAll" xml:space="preserve">
+    <value>Siirtonopeus (kaikki asemat)</value>
+  </data>
+  <data name="Diag_Disk_MostIo" xml:space="preserve">
+    <value>Eniten I/O-toimintoja</value>
+  </data>
+  <data name="Diag_Disk_IoReference" xml:space="preserve">
+    <value>Prosessikohtainen I/O sisältää tiedostot, laitteet ja verkon; sitä ei voi jakaa levyittäin.</value>
+  </data>
+  <data name="Diag_Disk_Explanation" xml:space="preserve">
+    <value>Kun levy on varattuna lähes koko ajan, tiedostoja lukevien tai kirjoittavien sovellusten täytyy odottaa.</value>
+  </data>
+  <data name="Diag_Disk_ExplanationPaging" xml:space="preserve">
+    <value>Myös muistin käyttö on suuri: osa tästä toiminnasta voi olla Windowsin muistin sivutusta levylle (mahdollisuus, ei vahvistettu).</value>
+  </data>
+  <data name="Diag_Disk_SystemHeavyTitle" xml:space="preserve">
+    <value>Järjestelmälevyllä on paljon toimintaa</value>
+  </data>
+  <data name="Diag_Disk_HeavyTitle" xml:space="preserve">
+    <value>Levyllä {0} on paljon toimintaa</value>
+  </data>
+  <data name="Diag_Disk_HeavyDescription" xml:space="preserve">
+    <value>Levy {0} on ollut varattuna {1} ajasta {2} ajan ({3}).</value>
+  </data>
+  <data name="Diag_Disk_Recommendation" xml:space="preserve">
+    <value>Päivitykset, virustorjuntatarkistukset ja tiedostojen indeksointi aiheuttavat tätä usein tilapäisesti. Sovellusten vaikutus näyttää, mitkä sovellukset lukevat ja kirjoittavat eniten.</value>
+  </data>
+  <data name="Diag_Disk_RecommendationApp" xml:space="preserve">
+    <value>{0}: eniten I/O-toimintoja juuri nyt. Päivitykset, virustorjuntatarkistukset ja tiedostojen indeksointi aiheuttavat tätä myös tilapäisesti.</value>
+  </data>
+  <data name="Diag_Disk_NormalTitle" xml:space="preserve">
+    <value>Levyn toiminta normaalia</value>
+  </data>
+  <data name="Diag_Disk_NormalDescription" xml:space="preserve">
+    <value>Kiireisin levy ({0}) oli aktiivinen {1} ajasta viimeisen minuutin aikana.</value>
+  </data>
+  <data name="Diag_Disk_NormalExplanation" xml:space="preserve">
+    <value>Levyillä on vapaata kapasiteettia.</value>
+  </data>
+  <data name="Diag_Disk_BusiestLastMinute" xml:space="preserve">
+    <value>Kiireisimmän levyn aktiivinen aika (viimeinen minuutti)</value>
+  </data>
+  <data name="Diag_Space_FreeOfUsed" xml:space="preserve">
+    <value>{0} vapaana / {1} ({2} käytetty)</value>
+  </data>
+  <data name="Diag_Space_Reference" xml:space="preserve">
+    <value>Varoitus {0}, kriittinen {1} tai alle {2} vapaana</value>
+  </data>
+  <data name="Diag_Space_FullTitle" xml:space="preserve">
+    <value>Järjestelmälevy on lähes täynnä</value>
+  </data>
+  <data name="Diag_Space_LowTitle" xml:space="preserve">
+    <value>Järjestelmälevyllä on vähän vapaata tilaa</value>
+  </data>
+  <data name="Diag_Space_EnoughTitle" xml:space="preserve">
+    <value>Järjestelmälevyllä on riittävästi vapaata tilaa</value>
+  </data>
+  <data name="Diag_Space_FreeOn" xml:space="preserve">
+    <value>{1}: {0} vapaana ({2} käytetty).</value>
+  </data>
+  <data name="Diag_Space_EnoughExplanation" xml:space="preserve">
+    <value>Windowsilla on tilaa päivityksille, väliaikaisille tiedostoille ja sivutustiedostolle.</value>
+  </data>
+  <data name="Diag_Space_LowExplanation" xml:space="preserve">
+    <value>Windows tarvitsee vapaata tilaa päivityksille, väliaikaisille tiedostoille ja sivutustiedostolle. Lähes täysi järjestelmälevy voi hidastaa tietokonetta ja aiheuttaa päivitysten epäonnistumisen.</value>
+  </data>
+  <data name="Diag_Space_Recommendation" xml:space="preserve">
+    <value>Poista tiedostot, joita et enää tarvitse, tai käytä kohtaa Windowsin Asetukset › Järjestelmä › Tallennustila › Siivoussuositukset.</value>
+  </data>
+  <data name="Diag_Space_VolumeFullTitle" xml:space="preserve">
+    <value>Asema {0} on {1} täynnä</value>
+  </data>
+  <data name="Diag_Space_VolumeExplanation" xml:space="preserve">
+    <value>Tämä ei ole järjestelmälevy, joten se ei hidasta Windowsia, mutta sinne tietoja tallentavilta sovelluksilta voi loppua tila.</value>
+  </data>
+  <data name="Diag_Space_FreeOf" xml:space="preserve">
+    <value>{0} vapaana / {1}</value>
+  </data>
+  <data name="Diag_Volume" xml:space="preserve">
+    <value>Asema {0}</value>
+  </data>
+  <data name="Diag_Warning" xml:space="preserve">
+    <value>Varoitus {0}</value>
+  </data>
+  <data name="Diag_Unusual_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Diag_Unusual_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Diag_Unusual_Disk" xml:space="preserve">
+    <value>Levyn toiminta</value>
+  </data>
+  <data name="Diag_Unusual_OverLast" xml:space="preserve">
+    <value>{0} viimeisen {1} aikana</value>
+  </data>
+  <data name="Diag_Unusual_Reference" xml:space="preserve">
+    <value>Tavallisesti {0}, 95 % minuuteista alle {1}</value>
+  </data>
+  <data name="Diag_Unusual_NormalTitle" xml:space="preserve">
+    <value>Toiminta tavallisissa rajoissa</value>
+  </data>
+  <data name="Diag_Unusual_NormalDescription" xml:space="preserve">
+    <value>Viimeiset {0} vastaavat tämän tietokoneen tavallista toimintaa.</value>
+  </data>
+  <data name="Diag_Unusual_Usual" xml:space="preserve">
+    <value>Tavallinen</value>
+  </data>
+  <data name="Diag_Unusual_NormalExplanation" xml:space="preserve">
+    <value>Verrattu viimeisten 7 päivän minuuttikohtaisiin keskiarvoihin.</value>
+  </data>
+  <data name="Diag_Unusual_Part" xml:space="preserve">
+    <value>{0} {1} (tavallisesti {2})</value>
+  </data>
+  <data name="Diag_Unusual_Title" xml:space="preserve">
+    <value>Toiminta on epätavallista viimeaikaiseen käyttöön verrattuna</value>
+  </data>
+  <data name="Diag_Unusual_Description" xml:space="preserve">
+    <value>Viimeisen {0} aikana: {1}.</value>
+  </data>
+  <data name="Diag_Unusual_Usually" xml:space="preserve">
+    <value>tavallisesti {0}</value>
+  </data>
+  <data name="Diag_Unusual_Explanation" xml:space="preserve">
+    <value>Nämä arvot ovat korkeammat kuin tämä tietokone näyttää 95 %:ssa viimeisten 7 päivän minuuteista: jokin tavallisesta poikkeava on käynnissä.</value>
+  </data>
+  <data name="Diag_Unusual_Recommendation" xml:space="preserve">
+    <value>Katso Toistosta, milloin se alkoi, ja Sovellusten vaikutuksesta, mitkä sovellukset liittyvät siihen.</value>
+  </data>
+  <data name="Diag_Gpu_FullTitle" xml:space="preserve">
+    <value>Näytönohjain on täysin käytössä</value>
+  </data>
+  <data name="Diag_Gpu_FullDescription" xml:space="preserve">
+    <value>Kiireisin grafiikkamoottori on ollut yli {0} {1} ajan.</value>
+  </data>
+  <data name="Diag_Gpu_FullExplanation" xml:space="preserve">
+    <value>Odotettavaa pelatessa, renderöitäessä tai toistettaessa tarkkuudeltaan suurta videota. Muuten jokin sovellus käyttää näytönohjainta paljon, mikä voi saada näytön tuntumaan hitaalta.</value>
+  </data>
+  <data name="Diag_Gpu_NormalTitle" xml:space="preserve">
+    <value>Näytönohjaimen käyttö normaali</value>
+  </data>
+  <data name="Diag_Gpu_NormalDescription" xml:space="preserve">
+    <value>Näytönohjaimen keskiarvo viimeisen minuutin aikana oli {0}.</value>
+  </data>
+  <data name="Diag_Gpu_NormalExplanation" xml:space="preserve">
+    <value>Näytönohjaimella on vapaata kapasiteettia.</value>
+  </data>
+  <data name="Diag_Gpu_LastMinute" xml:space="preserve">
+    <value>Näytönohjaimen käyttö (viimeinen minuutti)</value>
+  </data>
+  <data name="Diag_Net_InternetTitle" xml:space="preserve">
+    <value>Internet-yhteys käytettävissä</value>
+  </data>
+  <data name="Diag_Net_InternetDescription" xml:space="preserve">
+    <value>Windows ilmoittaa toimivasta Internet-yhteydestä.</value>
+  </data>
+  <data name="Diag_Net_LimitedTitle" xml:space="preserve">
+    <value>Rajoitettu Internet-yhteys</value>
+  </data>
+  <data name="Diag_Net_LimitedDescription" xml:space="preserve">
+    <value>Windows ilmoittaa rajoitetusta Internet-yhteydestä (esimerkiksi kirjautumissivu).</value>
+  </data>
+  <data name="Diag_Net_LocalTitle" xml:space="preserve">
+    <value>Ei Internet-yhteyttä</value>
+  </data>
+  <data name="Diag_Net_LocalDescription" xml:space="preserve">
+    <value>Windows ilmoittaa paikallisverkkoyhteydestä ilman Internet-yhteyttä.</value>
+  </data>
+  <data name="Diag_Net_NoneTitle" xml:space="preserve">
+    <value>Ei verkkoyhteyttä</value>
+  </data>
+  <data name="Diag_Net_NoneDescription" xml:space="preserve">
+    <value>Windows ilmoittaa, ettei verkkoyhteyttä ole.</value>
+  </data>
+  <data name="Diag_Net_OkExplanation" xml:space="preserve">
+    <value>Verkkosivut ja verkkosovellukset saavat yhteyden Internetiin.</value>
+  </data>
+  <data name="Diag_Net_ProblemExplanation" xml:space="preserve">
+    <value>Verkkosivut ja verkkosovellukset ovat hitaita tai eivät toimi. Kyseessä on yhteysongelma, ei tietokoneen suorituskykyongelma.</value>
+  </data>
+  <data name="Diag_Net_Recommendation" xml:space="preserve">
+    <value>Tarkista Wi-Fi- tai kaapeliyhteys tai reititin.</value>
+  </data>
+  <data name="Connectivity_Internet" xml:space="preserve">
+    <value>Internet-yhteys</value>
+  </data>
+  <data name="Connectivity_Constrained" xml:space="preserve">
+    <value>Rajoitettu Internet-yhteys</value>
+  </data>
+  <data name="Connectivity_Local" xml:space="preserve">
+    <value>Vain paikallisverkko</value>
+  </data>
+  <data name="Connectivity_None" xml:space="preserve">
+    <value>Ei yhteyttä</value>
+  </data>
+  <data name="Connectivity_Unknown" xml:space="preserve">
+    <value>Tuntematon</value>
+  </data>
+  <data name="Diag_Uptime_Since" xml:space="preserve">
+    <value>Aika Windowsin käynnistymisestä</value>
+  </data>
+  <data name="Diag_Uptime_LongTitle" xml:space="preserve">
+    <value>Windowsia ei ole käynnistetty uudelleen {0} päivään</value>
+  </data>
+  <data name="Diag_Uptime_RecentTitle" xml:space="preserve">
+    <value>Käynnistetty äskettäin uudelleen</value>
+  </data>
+  <data name="Diag_Uptime_Description" xml:space="preserve">
+    <value>Windows käynnistyi {0} sitten.</value>
+  </data>
+  <data name="Diag_Uptime_Reference2" xml:space="preserve">
+    <value>Suositellaan {0:0} päivästä alkaen</value>
+  </data>
+  <data name="Diag_Uptime_LongExplanation" xml:space="preserve">
+    <value>Jotkin ongelmat kertyvät ajan myötä (ohjaimet, sovellukset, jotka käyttävät hitaasti yhä enemmän muistia). Uudelleenkäynnistys poistaa ne ja asentaa odottavat päivitykset. Tämä on yleinen ehdotus, ei mitattu syy.</value>
+  </data>
+  <data name="Diag_Uptime_RecentExplanation" xml:space="preserve">
+    <value>Ei pitkään jatkunutta istuntoa, josta pitäisi huolehtia.</value>
+  </data>
+  <data name="Diag_Uptime_Recommendation" xml:space="preserve">
+    <value>Käynnistä Windows uudelleen (käytä Käynnistä uudelleen -toimintoa, älä Sammuta), kun se sopii sinulle.</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_One" xml:space="preserve">
+    <value>Ongelmia ei havaittu · {0} seurattava kohta</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_Other" xml:space="preserve">
+    <value>Ongelmia ei havaittu · {0} seurattavaa kohtaa</value>
+  </data>
+  <data name="Diag_Headline_NoProblem" xml:space="preserve">
+    <value>Ongelmia ei havaittu</value>
+  </data>
+  <data name="Diag_Headline_Problems_One" xml:space="preserve">
+    <value>{0} ongelma havaittu</value>
+  </data>
+  <data name="Diag_Headline_Problems_Other" xml:space="preserve">
+    <value>{0} ongelmaa havaittu</value>
+  </data>
+  <data name="Diag_Summary_MostLikely" xml:space="preserve">
+    <value>Todennäköisin syy: {0}</value>
+  </data>
+  <data name="Diag_Summary_Also" xml:space="preserve">
+    <value>Lisäksi: {0}.</value>
+  </data>
+  <data name="Diag_Summary_WorthKnowing" xml:space="preserve">
+    <value>Mikään ei ole kyllästetty juuri nyt. Hyvä tietää: {0}</value>
+  </data>
+  <data name="Diag_Summary_Nothing" xml:space="preserve">
+    <value>Mikään ei ole kyllästetty juuri nyt: suorittimella, muistilla ja levyillä on vapaata kapasiteettia. Jos tietokone tuntui hetki sitten hitaalta, Toisto näyttää, mitä viimeisten minuuttien aikana tapahtui.</value>
+  </data>
+  <data name="Diag_Missing_Gpu" xml:space="preserve">
+    <value>Näytönohjaimen käyttö: ei käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Diag_Missing_GpuOff" xml:space="preserve">
+    <value>Näytönohjaimen käyttö: seuranta on poistettu käytöstä asetuksissa</value>
+  </data>
+  <data name="Diag_Missing_Disk" xml:space="preserve">
+    <value>Levyn toiminta: ei käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Diag_Missing_Network" xml:space="preserve">
+    <value>Verkko: ei käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Diag_Missing_NetworkOff" xml:space="preserve">
+    <value>Verkko: seuranta on poistettu käytöstä asetuksissa</value>
+  </data>
+  <data name="Diag_Missing_Temperature" xml:space="preserve">
+    <value>Suorittimen lämpötila: ei käytettävissä (Windowsissa ei ole dokumentoitua tapaa lukea sitä ilman ydintilan ohjainta)</value>
+  </data>
+  <data name="Diag_Missing_AppNetwork" xml:space="preserve">
+    <value>Sovelluskohtainen verkon käyttö: ei käytettävissä (edellyttää järjestelmänvalvojatason tapahtumien jäljitystä)</value>
+  </data>
+  <data name="Diag_Analyzing" xml:space="preserve">
+    <value>Analysoidaan…</value>
+  </data>
+  <data name="Diag_AnalyzingSummary" xml:space="preserve">
+    <value>Sysora tarvitsee muutaman sekunnin mittauksia, ennen kuin se voi diagnosoida tietokoneen.</value>
+  </data>
+  <data name="Alert_UsualLevel" xml:space="preserve">
+    <value>Tavallinen taso {0}</value>
+  </data>
+  <data name="Alert_AveragePeak" xml:space="preserve">
+    <value>Keskimäärin {0} (huippu {1})</value>
+  </data>
+  <data name="Alert_OnAverage" xml:space="preserve">
+    <value>Keskimäärin {0}</value>
+  </data>
+  <data name="Alert_TopApp" xml:space="preserve">
+    <value>Suurin sovellus: {0} ({1})</value>
+  </data>
+  <data name="Alert_Cpu_UnusualTitle" xml:space="preserve">
+    <value>Suorittimen käyttö epätavallisen suuri</value>
+  </data>
+  <data name="Alert_Cpu_UsualTitle" xml:space="preserve">
+    <value>Suorittimen käyttö suuri (tavallista tälle tietokoneelle)</value>
+  </data>
+  <data name="Alert_Cpu_SustainedTitle" xml:space="preserve">
+    <value>Suorittimen käyttö jatkuvasti suuri</value>
+  </data>
+  <data name="Alert_UsualNotKnown" xml:space="preserve">
+    <value>Tavallista tasoa ei vielä tiedetä</value>
+  </data>
+  <data name="Alert_Cpu_UnusualExplanation" xml:space="preserve">
+    <value>Suoritin on ollut yli {0} {1} ajan, selvästi yli tämän tietokoneen tavallisen tason {2}.</value>
+  </data>
+  <data name="Alert_Cpu_UsualExplanation" xml:space="preserve">
+    <value>Suoritin on ollut yli {0} {1} ajan. Taso on tavallinen tällä tietokoneella, joten siitä ilmoitetaan tiedoksi.</value>
+  </data>
+  <data name="Alert_Cpu_SustainedExplanation" xml:space="preserve">
+    <value>Suoritin on ollut yli {0} {1} ajan. Lyhyet piikit ohitetaan; tämä jatkui.</value>
+  </data>
+  <data name="Alert_Cpu_Recommendation" xml:space="preserve">
+    <value>Katso Sovellusten vaikutuksesta, mitkä sovellukset käyttävät suoritinta.</value>
+  </data>
+  <data name="Alert_Memory_Title" xml:space="preserve">
+    <value>Muisti lähes täynnä</value>
+  </data>
+  <data name="Alert_LargestApp" xml:space="preserve">
+    <value>Suurin sovellus: {0} ({1})</value>
+  </data>
+  <data name="Alert_Memory_Explanation" xml:space="preserve">
+    <value>Muistin käyttö on ollut yli {0} {1} ajan. Windows siirtää silloin tietoja levylle, mikä hidastaa sovelluksia.</value>
+  </data>
+  <data name="Alert_Growth_Title" xml:space="preserve">
+    <value>Muistin käyttö kasvaa tasaisesti</value>
+  </data>
+  <data name="Alert_Growth_Value" xml:space="preserve">
+    <value>+{0:0} prosenttiyksikköä ({1} → {2})</value>
+  </data>
+  <data name="Alert_Growth_NoApp" xml:space="preserve">
+    <value>Mikään yksittäinen sovellus ei erotu</value>
+  </data>
+  <data name="Alert_Growth_AppGrew" xml:space="preserve">
+    <value>{0} kasvoi {1}</value>
+  </data>
+  <data name="Alert_Growth_Explanation" xml:space="preserve">
+    <value>Muistin käyttö on kasvanut {0} ajan. Se voi olla normaalia (tietoja ladataan) tai sovellus, joka ei vapauta muistia.</value>
+  </data>
+  <data name="Alert_Growth_Recommendation" xml:space="preserve">
+    <value>Jos {0} jatkaa kasvuaan, sen uudelleenkäynnistys vapauttaa muistin.</value>
+  </data>
+  <data name="Alert_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} prosenttiyksikköä ajassa {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Title" xml:space="preserve">
+    <value>{0} on käyttänyt paljon suoritinta {1} ajan</value>
+  </data>
+  <data name="Alert_AppCpu_Value" xml:space="preserve">
+    <value>Keskimäärin {0} suorittimen kokonaiskäytöstä (huippu {1})</value>
+  </data>
+  <data name="Alert_AppCpu_TotalNow" xml:space="preserve">
+    <value>Suoritin yhteensä nyt {0}</value>
+  </data>
+  <data name="Alert_AppCpu_Explanation" xml:space="preserve">
+    <value>{0} on ollut yli {1} suorittimen kokonaiskapasiteetista {2} ajan. Se voi toimia normaalisti (käännös, vienti) tai olla jumissa.</value>
+  </data>
+  <data name="Alert_AppCpu_Recommendation" xml:space="preserve">
+    <value>Jos et tarvitse sovellusta {0} juuri nyt, sulje se tai odota, että sen tehtävä valmistuu.</value>
+  </data>
+  <data name="Alert_Disk_Title" xml:space="preserve">
+    <value>Levy {0} varattuna {1} ajan</value>
+  </data>
+  <data name="Alert_Disk_TitleUnnamed" xml:space="preserve">
+    <value>Levy varattuna {0} ajan</value>
+  </data>
+  <data name="Alert_Disk_ReadWrite" xml:space="preserve">
+    <value>Luku {0}, kirjoitus {1}</value>
+  </data>
+  <data name="Alert_Disk_MostIo" xml:space="preserve">
+    <value>Eniten I/O-toimintoja: {0}</value>
+  </data>
+  <data name="Alert_Disk_Explanation" xml:space="preserve">
+    <value>Levy on ollut aktiivinen yli {0} ajasta {1} ajan: tiedostoja lukevien tai kirjoittavien sovellusten täytyy odottaa.</value>
+  </data>
+  <data name="Alert_Disk_Recommendation" xml:space="preserve">
+    <value>Päivitykset, virustorjuntatarkistukset ja indeksointi aiheuttavat tätä usein tilapäisesti.</value>
+  </data>
+  <data name="Alert_Unusual_Disk" xml:space="preserve">
+    <value>Levyn toiminta</value>
+  </data>
+  <data name="Alert_Unusual_Title" xml:space="preserve">
+    <value>{0}: epätavallisen suuri</value>
+  </data>
+  <data name="Alert_Unusual_Context" xml:space="preserve">
+    <value>Tavallinen taso {0} (mediaani {1})</value>
+  </data>
+  <data name="Alert_Unusual_Explanation" xml:space="preserve">
+    <value>{0} on pysynyt viimeaikaisen perustasosi yläpuolella {1} ajan.</value>
+  </data>
+  <data name="Alert_Unusual_Recommendation" xml:space="preserve">
+    <value>Katso Toistosta, milloin se alkoi.</value>
+  </data>
+  <data name="Alert_Baseline" xml:space="preserve">
+    <value>Perustaso</value>
+  </data>
+  <data name="Alert_Space_Title" xml:space="preserve">
+    <value>Vähän vapaata tilaa: {0}</value>
+  </data>
+  <data name="Alert_Space_Metric" xml:space="preserve">
+    <value>Vapaa tila</value>
+  </data>
+  <data name="Alert_Space_Value" xml:space="preserve">
+    <value>{0} vapaana ({1})</value>
+  </data>
+  <data name="Alert_Space_Context" xml:space="preserve">
+    <value>Asema {0}</value>
+  </data>
+  <data name="Alert_Space_Explanation" xml:space="preserve">
+    <value>Windows tarvitsee järjestelmälevylle vapaata tilaa päivityksiä, väliaikaisia tiedostoja ja sivutustiedostoa varten.</value>
+  </data>
+  <data name="Alert_Space_Recommendation" xml:space="preserve">
+    <value>Poista tiedostot, joita et enää tarvitse, tai käytä kohtaa Windowsin Asetukset › Järjestelmä › Tallennustila.</value>
+  </data>
+  <data name="Alert_Space_Reference" xml:space="preserve">
+    <value>Hälytys, kun vapaata tilaa on alle {0}</value>
+  </data>
+  <data name="Alert_ResolvedEvent" xml:space="preserve">
+    <value>Ratkaistu: {0}</value>
+  </data>
+  <data name="Source_Cpu" xml:space="preserve">
+    <value>Windowsin suorituskykylaskuri \Processor Information(_Total)\% Processor Utility</value>
+  </data>
+  <data name="Source_Disk" xml:space="preserve">
+    <value>Windowsin suorituskykylaskuri \LogicalDisk(*)\% Idle Time (aktiivinen aika = 100 − joutoaika)</value>
+  </data>
+  <data name="Source_Gpu" xml:space="preserve">
+    <value>Windowsin suorituskykylaskuri \GPU Engine(*)\Utilization Percentage</value>
+  </data>
+  <data name="Format_PercentRange" xml:space="preserve">
+    <value>{0:0}–{1:0} %</value>
+  </data>
+  <data name="Source_Memory" xml:space="preserve">
+    <value>GlobalMemoryStatusEx (käytössä oleva fyysinen muisti)</value>
+  </data>
+  <data name="Source_Commit" xml:space="preserve">
+    <value>GetPerformanceInfo (varattu muisti ja raja)</value>
+  </data>
+  <data name="Source_Network" xml:space="preserve">
+    <value>IP Helper -liitäntätilastot (liitännät, joilla on oletusyhdyskäytävä)</value>
+  </data>
+  <data name="Source_Processes" xml:space="preserve">
+    <value>NtQuerySystemInformation (prosessikohtainen suoritinaika, yksityinen työjoukko ja I/O-laskurit)</value>
+  </data>
+  <data name="Source_ProcessIo" xml:space="preserve">
+    <value>Prosessikohtaiset I/O-laskurit (tiedostot, laitteet ja verkko yhteensä)</value>
+  </data>
+  <data name="Source_Storage" xml:space="preserve">
+    <value>GetDiskFreeSpaceEx (aseman kapasiteetti)</value>
+  </data>
+  <data name="Source_Uptime" xml:space="preserve">
+    <value>GetTickCount64 (aika Windowsin käynnistymisestä, lepotila mukaan lukien)</value>
+  </data>
+  <data name="Source_Connectivity" xml:space="preserve">
+    <value>Windowsin verkkoyhteyden tilan ilmaisin</value>
+  </data>
+  <data name="Source_Sysora" xml:space="preserve">
+    <value>Sysoran mittaukset</value>
+  </data>
+  <data name="Confidence_High_Lower" xml:space="preserve">
+    <value>suuri</value>
+  </data>
+  <data name="Confidence_Medium_Lower" xml:space="preserve">
+    <value>kohtalainen</value>
+  </data>
+  <data name="Confidence_Low_Lower" xml:space="preserve">
+    <value>pieni</value>
+  </data>
+  <data name="Confidence_High" xml:space="preserve">
+    <value>Suuri varmuus</value>
+  </data>
+  <data name="Confidence_Medium" xml:space="preserve">
+    <value>Kohtalainen varmuus</value>
+  </data>
+  <data name="Confidence_Low" xml:space="preserve">
+    <value>Pieni varmuus</value>
+  </data>
+  <data name="Basis_Observed" xml:space="preserve">
+    <value>Havaittu</value>
+  </data>
+  <data name="Basis_InferredConfidence" xml:space="preserve">
+    <value>Päätelty · varmuus: {0}</value>
+  </data>
+  <data name="Basis_Inferred" xml:space="preserve">
+    <value>Päätelty</value>
+  </data>
+  <data name="Basis_Unknown" xml:space="preserve">
+    <value>Tuntematon</value>
+  </data>
+  <data name="Identity_ByPath" xml:space="preserve">
+    <value>Tunnistettu suoritettavan tiedoston polun perusteella.</value>
+  </data>
+  <data name="Identity_ByName" xml:space="preserve">
+    <value>Tunnistettu vain prosessin nimen perusteella: Windows ei anna pääsyä suoritettavan tiedoston polkuun.</value>
+  </data>
+  <data name="Impact_Resource_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Impact_Resource_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Impact_Resource_Io" xml:space="preserve">
+    <value>Levyn I/O</value>
+  </data>
+  <data name="Impact_Resource_Running" xml:space="preserve">
+    <value>Käyntiaika</value>
+  </data>
+  <data name="Impact_Level_VeryHigh" xml:space="preserve">
+    <value>Erittäin suuri</value>
+  </data>
+  <data name="Impact_Level_High" xml:space="preserve">
+    <value>Suuri</value>
+  </data>
+  <data name="Impact_Level_Moderate" xml:space="preserve">
+    <value>Kohtalainen</value>
+  </data>
+  <data name="Impact_Level_Low" xml:space="preserve">
+    <value>Pieni</value>
+  </data>
+  <data name="Impact_Formula" xml:space="preserve">
+    <value>Pisteet = 45 % suoritin + 40 % muisti + 15 % levyn I/O. Kukin osa on sovelluksen keskimääräinen kuormitus analysoidulla jaksolla (käyttö käynnissä ollessa × käynnissäoloajan osuus) suhteessa viitetasoon: 15 % suorittimen kokonaiskapasiteetista, 25 % fyysisestä muistista, 5 Mt/s I/O-toimintoja. Tasot: pieni alle 10, kohtalainen alle 25, suuri alle 50, erittäin suuri 50:stä alkaen.</value>
+  </data>
+  <data name="Impact_Note_Waiting" xml:space="preserve">
+    <value>Odotetaan ensimmäisiä prosessimittauksia.</value>
+  </data>
+  <data name="Impact_Note_Session" xml:space="preserve">
+    <value>Kaikki sovellukset, jotka on nähty Sysoran käynnistymisen jälkeen, mitattuna muutaman sekunnin välein.</value>
+  </data>
+  <data name="Impact_Note_NoHistory" xml:space="preserve">
+    <value>Tältä jaksolta ei ole vielä tallennettu sovellushistoriaa. Historia tallennetaan viiden minuutin välein Sysoran ollessa käynnissä.</value>
+  </data>
+  <data name="Impact_Note_History" xml:space="preserve">
+    <value>Paikallisesta historiasta: kunkin viiden minuutin jakson merkittävimmät sovellukset (sen alapuolella olevia sovelluksia ei tallenneta). Viimeiset minuutit näkyvät, kun niiden viiden minuutin jakso päättyy.</value>
+  </data>
+  <data name="Replay_Source_Memory" xml:space="preserve">
+    <value>Muistissa säilytettävät yksityiskohtaiset mittaukset (yksi suoritinmittausta kohden).</value>
+  </data>
+  <data name="Replay_Source_History" xml:space="preserve">
+    <value>Paikallisen historian minuuttikohtaiset keskiarvot.</value>
+  </data>
+  <data name="Baseline_Ready" xml:space="preserve">
+    <value>Tavallinen toiminta opittu {0} historian perusteella</value>
+  </data>
+  <data name="Baseline_Collecting" xml:space="preserve">
+    <value>Kerätään perustason tietoja… ({0} tallennettu, {1} tarvitaan ennen kuin Sysora vertaa tavalliseen toimintaasi)</value>
+  </data>
+  <data name="Impact_Ev_CpuReference" xml:space="preserve">
+    <value>Viite tasolle ”erittäin suuri”: keskimäärin {0} suorittimen kokonaiskäytöstä jakson aikana</value>
+  </data>
+  <data name="Impact_Ev_MemoryReference" xml:space="preserve">
+    <value>Viite tasolle ”erittäin suuri”: keskimäärin {0} / {1} jakson aikana</value>
+  </data>
+  <data name="Impact_Ev_IoReference" xml:space="preserve">
+    <value>Viite tasolle ”erittäin suuri”: keskimäärin {0} jakson aikana</value>
+  </data>
+  <data name="Impact_Cpu_Description" xml:space="preserve">
+    <value>Keskimäärin {0} suorittimen kokonaiskapasiteetista jakson aikana ({1} käynnissä ollessa)</value>
+  </data>
+  <data name="Impact_Memory_Description" xml:space="preserve">
+    <value>Keskimäärin {0} fyysisestä muistista jakson aikana ({1} käynnissä ollessa)</value>
+  </data>
+  <data name="Impact_Memory_Unknown" xml:space="preserve">
+    <value>Fyysisen muistin koko on tuntematon: muistia ei pisteytetä</value>
+  </data>
+  <data name="Impact_Io_Description" xml:space="preserve">
+    <value>Keskimäärin {0} jakson aikana (tiedostot, laitteet ja verkko yhteensä)</value>
+  </data>
+  <data name="Impact_Running_Description" xml:space="preserve">
+    <value>Käynnissä {0} seuratusta ajasta</value>
+  </data>
+  <data name="Impact_When_Most" xml:space="preserve">
+    <value>suurimman osan seuratusta ajasta</value>
+  </data>
+  <data name="Impact_When_Large" xml:space="preserve">
+    <value>suuren osan seuratusta ajasta</value>
+  </data>
+  <data name="Impact_When_Part" xml:space="preserve">
+    <value>osan seuratusta ajasta</value>
+  </data>
+  <data name="Impact_When_Briefly" xml:space="preserve">
+    <value>lyhyesti</value>
+  </data>
+  <data name="Impact_RunningOfMeasured" xml:space="preserve">
+    <value>käynnissä {0} / {1} mitatusta ajasta</value>
+  </data>
+  <data name="Impact_Explain_Low" xml:space="preserve">
+    <value>Vähäinen resurssien käyttö jakson aikana ({0}).</value>
+  </data>
+  <data name="Impact_Explain_Peaks" xml:space="preserve">
+    <value>Havaittiin lyhyitä suoritinpiikkejä, enintään {0}.</value>
+  </data>
+  <data name="Impact_Explain_Used" xml:space="preserve">
+    <value>Sovelluksen kuormitus {1}: {0} ({2}).</value>
+  </data>
+  <data name="Impact_Amount_VeryHigh" xml:space="preserve">
+    <value>{0} hyvin paljon</value>
+  </data>
+  <data name="Impact_Amount_High" xml:space="preserve">
+    <value>{0} paljon</value>
+  </data>
+  <data name="Impact_Amount_Moderate" xml:space="preserve">
+    <value>{0} kohtalaisesti</value>
+  </data>
+  <data name="Impact_Noun_Cpu" xml:space="preserve">
+    <value>suoritin</value>
+  </data>
+  <data name="Impact_Noun_Memory" xml:space="preserve">
+    <value>muisti</value>
+  </data>
+  <data name="Impact_Noun_Io" xml:space="preserve">
+    <value>levyn I/O</value>
+  </data>
+  <data name="Impact_Ev_RunningTime" xml:space="preserve">
+    <value>Käyntiaika</value>
+  </data>
+  <data name="Impact_Ev_RunningValue" xml:space="preserve">
+    <value>{0} / {1} mitatusta ajasta</value>
+  </data>
+  <data name="Impact_Ev_RunningSource" xml:space="preserve">
+    <value>Sysoran prosessimittaukset (katkokset, kuten lepotila, eivät ole mukana)</value>
+  </data>
+  <data name="Impact_Ev_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Impact_Ev_CpuValue" xml:space="preserve">
+    <value>Käynnissä ollessa keskimäärin {0} suorittimen kokonaiskäytöstä, huippu {1}</value>
+  </data>
+  <data name="Impact_Ev_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Impact_Ev_MemoryValue" xml:space="preserve">
+    <value>Käynnissä ollessa keskimäärin {0} yksityistä työjoukkoa, huippu {1}</value>
+  </data>
+  <data name="Impact_Ev_Io" xml:space="preserve">
+    <value>Levyn I/O</value>
+  </data>
+  <data name="Impact_Ev_IoValue" xml:space="preserve">
+    <value>Käynnissä ollessa keskimäärin {0}, huippu {1}</value>
+  </data>
+  <data name="Impact_Ev_Network" xml:space="preserve">
+    <value>Verkko</value>
+  </data>
+  <data name="Impact_Ev_NetworkReference" xml:space="preserve">
+    <value>Windows ei ilmoita sovelluskohtaista verkon käyttöä ilman tapahtumien jäljitystä; verkon I/O sisältyy levyn I/O:hon.</value>
+  </data>
+  <data name="Impact_Ev_Launches" xml:space="preserve">
+    <value>Käynnistykset</value>
+  </data>
+  <data name="Impact_Ev_Launches_One" xml:space="preserve">
+    <value>{0} prosessin käynnistys havaittu</value>
+  </data>
+  <data name="Impact_Ev_Launches_Other" xml:space="preserve">
+    <value>{0} prosessin käynnistystä havaittu</value>
+  </data>
+  <data name="Impact_Ev_NoLaunch" xml:space="preserve">
+    <value>Prosessin käynnistyksiä ei havaittu (oli jo käynnissä tai ei käynnistynyt uudelleen)</value>
+  </data>
+  <data name="Impact_Ev_Identification" xml:space="preserve">
+    <value>Tunnistus</value>
+  </data>
+  <data name="Impact_Ev_ImageNameOnly" xml:space="preserve">
+    <value>Vain kuvan nimi</value>
+  </data>
+  <data name="Impact_Ev_Score" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="Impact_Ev_ScoreValue" xml:space="preserve">
+    <value>{0}/100 ({1})</value>
+  </data>
+  <data name="Insight_Game_JustStarted" xml:space="preserve">
+    <value>juuri käynnistynyt</value>
+  </data>
+  <data name="Insight_Game_For" xml:space="preserve">
+    <value>{0} ajan</value>
+  </data>
+  <data name="Insight_Game_Running" xml:space="preserve">
+    <value>Peli käynnissä: {0} ({1}). Yhteenveto näytetään, kun peli suljetaan.</value>
+  </data>
+  <data name="Insight_LastGame" xml:space="preserve">
+    <value>Viimeisin peli: {0} ({1}) · {2}</value>
+  </data>
+  <data name="Insight_ActiveAlertMore" xml:space="preserve">
+    <value>Aktiivinen hälytys: {0} (+{1} muuta)</value>
+  </data>
+  <data name="Insight_ActiveAlert" xml:space="preserve">
+    <value>Aktiivinen hälytys: {0}</value>
+  </data>
+  <data name="Insight_Recurring" xml:space="preserve">
+    <value>Toistuva: {0}</value>
+  </data>
+  <data name="Insight_Health" xml:space="preserve">
+    <value>Tietokoneen kunto on {0}/100, pisteitä laskee eniten {1}: {2}</value>
+  </data>
+  <data name="Insight_AnalyzingFirst" xml:space="preserve">
+    <value>Analysoidaan ensimmäisiä mittauksia…</value>
+  </data>
+  <data name="Insight_NoIssue" xml:space="preserve">
+    <value>Merkittäviä ongelmia ei havaittu</value>
+  </data>
+  <data name="Insight_MemoryAbove" xml:space="preserve">
+    <value>Muistin käyttö on {0:0} prosenttiyksikköä tavallista tasoasi korkeampi ({1}, tavallisesti {2})</value>
+  </data>
+  <data name="Insight_MemoryBelow" xml:space="preserve">
+    <value>Muistin käyttö on {0:0} prosenttiyksikköä tavallista tasoasi matalampi ({1}, tavallisesti {2})</value>
+  </data>
+  <data name="Insight_CpuAbove" xml:space="preserve">
+    <value>Suorittimen käyttö on {0:0} prosenttiyksikköä tavallista tasoasi korkeampi ({1}, tavallisesti {2})</value>
+  </data>
+  <data name="Insight_CpuBelow" xml:space="preserve">
+    <value>Suorittimen käyttö on {0:0} prosenttiyksikköä tavallista tasoasi matalampi ({1}, tavallisesti {2})</value>
+  </data>
+  <data name="Insight_Recovered" xml:space="preserve">
+    <value>Tietokoneesi on toipunut viimeisimmästä ongelmasta ({0}): se päättyi {1} eikä ole palannut.</value>
+  </data>
+  <data name="Insight_Kind_HighCpu" xml:space="preserve">
+    <value>suuri suorittimen käyttö</value>
+  </data>
+  <data name="Insight_Kind_HighMemory" xml:space="preserve">
+    <value>suuri muistin käyttö</value>
+  </data>
+  <data name="Insight_Kind_RisingMemory" xml:space="preserve">
+    <value>kasvava muistin käyttö</value>
+  </data>
+  <data name="Insight_Kind_BusyDisk" xml:space="preserve">
+    <value>varattu levy</value>
+  </data>
+  <data name="Insight_Kind_LowSpace" xml:space="preserve">
+    <value>vähän levytilaa</value>
+  </data>
+  <data name="Insight_Kind_Unusual" xml:space="preserve">
+    <value>epätavallinen toiminta</value>
+  </data>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} hälytys (tyyppi: {1}) viimeisten 24 tunnin aikana (viimeisin: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} hälytystä (tyyppi: {1}) viimeisten 24 tunnin aikana (viimeisin: {2}).</value>
+  </data>
+  <data name="Insight_WithinUsual" xml:space="preserve">
+    <value>Suorittimen ja muistin käyttö ovat tämän tietokoneen tavallisissa rajoissa.</value>
+  </data>
+  <data name="Insight_LargestConsumer" xml:space="preserve">
+    <value>{0} käyttää tällä hetkellä eniten resursseja (suoritin {1}, {2})</value>
+  </data>
+  <data name="Recurring_NotAnalyzed" xml:space="preserve">
+    <value>Ei vielä analysoitu.</value>
+  </data>
+  <data name="Recurring_NoHistoryYet" xml:space="preserve">
+    <value>ei vielä historiaa</value>
+  </data>
+  <data name="Recurring_OfHistory" xml:space="preserve">
+    <value>{0} historiaa</value>
+  </data>
+  <data name="Recurring_NotEnough" xml:space="preserve">
+    <value>Historiatietoja ei ole tarpeeksi ({0}; toistuvat ongelmat edellyttävät vähintään {1}).</value>
+  </data>
+  <data name="Recurring_None" xml:space="preserve">
+    <value>Ei toistuvia ongelmia viimeisten {0} päivän aikana.</value>
+  </data>
+  <data name="Recurring_One" xml:space="preserve">
+    <value>1 toistuva ongelma: {0}</value>
+  </data>
+  <data name="Recurring_Many" xml:space="preserve">
+    <value>{0} toistuvaa ongelmaa. Yleisin: {1}</value>
+  </data>
+  <data name="Recurring_HighCpu" xml:space="preserve">
+    <value>Suorittimen käyttö suuri</value>
+  </data>
+  <data name="Recurring_HighMemory" xml:space="preserve">
+    <value>Muistin käyttö suuri</value>
+  </data>
+  <data name="Recurring_MemoryRising" xml:space="preserve">
+    <value>Muistin käyttö kasvaa</value>
+  </data>
+  <data name="Recurring_DiskBusy" xml:space="preserve">
+    <value>Levy varattuna</value>
+  </data>
+  <data name="Recurring_AppCpu" xml:space="preserve">
+    <value>{0} käyttää paljon suoritinta</value>
+  </data>
+  <data name="Recurring_Connectivity" xml:space="preserve">
+    <value>Internet-yhteys katkesi tai rajoittui</value>
+  </data>
+  <data name="Recurring_Occurrences" xml:space="preserve">
+    <value>Esiintymät</value>
+  </data>
+  <data name="Recurring_OccurrencesText" xml:space="preserve">
+    <value>{0} {1} aikana, {2}–{3}</value>
+  </data>
+  <data name="Count_Episode_One" xml:space="preserve">
+    <value>{0} jakso</value>
+  </data>
+  <data name="Count_Episode_Other" xml:space="preserve">
+    <value>{0} jaksoa</value>
+  </data>
+  <data name="Recurring_When" xml:space="preserve">
+    <value>Milloin</value>
+  </data>
+  <data name="Recurring_MostAssociated" xml:space="preserve">
+    <value>Useimmin mukana oleva sovellus</value>
+  </data>
+  <data name="Recurring_MostAssociatedText" xml:space="preserve">
+    <value>{0} ({1}/{2} jaksosta)</value>
+  </data>
+  <data name="Recurring_Cause" xml:space="preserve">
+    <value>Syy</value>
+  </data>
+  <data name="Recurring_CauseConnectivity" xml:space="preserve">
+    <value>Windows ilmoittaa yhteyden katkeamisesta; syytä (reititin, palveluntarjoaja, Wi-Fi-signaali) Sysora ei voi havaita.</value>
+  </data>
+  <data name="Recurring_Description" xml:space="preserve">
+    <value>{0}: esiintyi {1} viimeisten {2} päivän aikana.</value>
+  </data>
+  <data name="Recurring_Pattern" xml:space="preserve">
+    <value>Useimmat tapahtumat sattuivat klo {0:00}:00–{1:00}:00 ({2}/{3})</value>
+  </data>
+  <data name="Times_Once" xml:space="preserve">
+    <value>kerran</value>
+  </data>
+  <data name="Times_Twice" xml:space="preserve">
+    <value>kahdesti</value>
+  </data>
+  <data name="Times_N" xml:space="preserve">
+    <value>{0} kertaa</value>
+  </data>
+  <data name="Replay_Rose_Cpu" xml:space="preserve">
+    <value>Suoritin nousi: {0} → {1}</value>
+  </data>
+  <data name="Replay_Rose_Memory" xml:space="preserve">
+    <value>Muisti nousi: {0} → {1}</value>
+  </data>
+  <data name="Replay_Rose_Disk" xml:space="preserve">
+    <value>Levyn toiminta nousi: {0} → {1}</value>
+  </data>
+  <data name="Replay_Rose_Gpu" xml:space="preserve">
+    <value>Näytönohjain nousi: {0} → {1}</value>
+  </data>
+  <data name="Replay_Reached_Cpu" xml:space="preserve">
+    <value>Suoritin saavutti {0}</value>
+  </data>
+  <data name="Replay_Reached_Memory" xml:space="preserve">
+    <value>Muisti saavutti {0}</value>
+  </data>
+  <data name="Replay_Reached_Disk" xml:space="preserve">
+    <value>Levyn toiminta saavutti {0}</value>
+  </data>
+  <data name="Replay_Reached_Gpu" xml:space="preserve">
+    <value>Näytönohjain saavutti {0}</value>
+  </data>
+  <data name="Replay_Back_Cpu" xml:space="preserve">
+    <value>Suoritin palasi tasolle {0}</value>
+  </data>
+  <data name="Replay_Back_Memory" xml:space="preserve">
+    <value>Muisti palasi tasolle {0}</value>
+  </data>
+  <data name="Replay_Back_Disk" xml:space="preserve">
+    <value>Levyn toiminta palasi tasolle {0}</value>
+  </data>
+  <data name="Replay_Back_Gpu" xml:space="preserve">
+    <value>Näytönohjain palasi tasolle {0}</value>
+  </data>
+  <data name="Replay_NoMeasurements" xml:space="preserve">
+    <value>Tältä jaksolta ei ole mittauksia.</value>
+  </data>
+  <data name="Replay_MostIo" xml:space="preserve">
+    <value>eniten I/O-toimintoja: {0} {1}</value>
+  </data>
+  <data name="Replay_CpuAveraged" xml:space="preserve">
+    <value>suorittimen keskiarvo {0} (huippu {1})</value>
+  </data>
+  <data name="Replay_MemoryLevel" xml:space="preserve">
+    <value>muisti {0}</value>
+  </data>
+  <data name="Replay_NoNotableChange" xml:space="preserve">
+    <value>Ei merkittäviä muutoksia tällä jaksolla.</value>
+  </data>
+  <data name="Replay_NoSharpRise" xml:space="preserve">
+    <value>Ei jyrkkää nousua tai kyllästymistä tällä jaksolla: {0}.</value>
+  </data>
+  <data name="Replay_SharpRise" xml:space="preserve">
+    <value>Jyrkkä nousu: {0}{1} klo {2}</value>
+  </data>
+  <data name="Replay_FollowedBy" xml:space="preserve">
+    <value>, sen jälkeen {0}</value>
+  </data>
+  <data name="Replay_NounAt" xml:space="preserve">
+    <value>{0} klo {1}</value>
+  </data>
+  <data name="Replay_Noun_Cpu" xml:space="preserve">
+    <value>suorittimen käyttö</value>
+  </data>
+  <data name="Replay_Noun_Memory" xml:space="preserve">
+    <value>muistin käyttö</value>
+  </data>
+  <data name="Replay_Noun_Disk" xml:space="preserve">
+    <value>levyn toiminta</value>
+  </data>
+  <data name="Replay_Noun_Gpu" xml:space="preserve">
+    <value>näytönohjaimen käyttö</value>
+  </data>
+  <data name="Replay_Noun_Other" xml:space="preserve">
+    <value>toiminta</value>
+  </data>
+  <data name="Usual_Loading" xml:space="preserve">
+    <value>Ladataan historiaa…</value>
+  </data>
+  <data name="Usual_Metric_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Usual_Metric_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Usual_Metric_Disk" xml:space="preserve">
+    <value>Levyn aktiivinen aika</value>
+  </data>
+  <data name="Usual_Metric_Gpu" xml:space="preserve">
+    <value>Näytönohjain</value>
+  </data>
+  <data name="Usual_Period_LastHour" xml:space="preserve">
+    <value>Viimeinen tunti</value>
+  </data>
+  <data name="Usual_Period_Today" xml:space="preserve">
+    <value>Tänään</value>
+  </data>
+  <data name="Usual_Period_Yesterday" xml:space="preserve">
+    <value>Eilen</value>
+  </data>
+  <data name="Usual_Period_7Days" xml:space="preserve">
+    <value>Viimeiset 7 päivää</value>
+  </data>
+  <data name="Usual_Period_30Days" xml:space="preserve">
+    <value>Viimeiset 30 päivää</value>
+  </data>
+  <data name="Usual_Period_AtThisHour" xml:space="preserve">
+    <value>Tavallinen tähän aikaan</value>
+  </data>
+  <data name="Usual_Summary_Above" xml:space="preserve">
+    <value>{0}: {1:0} prosenttiyksikköä tavallista tasoasi korkeampi: nyt {2}, tavallisesti {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Below" xml:space="preserve">
+    <value>{0}: {1:0} prosenttiyksikköä tavallista tasoasi matalampi: nyt {2}, tavallisesti {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Close" xml:space="preserve">
+    <value>Nykyinen toiminta on lähellä tavallista tasoasi (enintään 10 prosenttiyksikön ero).</value>
+  </data>
+  <data name="Usual_Summary_NotEnough" xml:space="preserve">
+    <value>Historiaa ei ole vielä tarpeeksi sen kertomiseen, mikä on tavallista: 7 päivän vertailu edellyttää 4 tuntia 2 päivän aikana, 30 päivän vertailu 24 tuntia 8 päivän aikana.</value>
+  </data>
+  <data name="Usual_NeededOverDays" xml:space="preserve">
+    <value>{0} {1} päivän aikana</value>
+  </data>
+  <data name="Usual_NotEnoughOverDays" xml:space="preserve">
+    <value>Tietoja ei ole tarpeeksi: {0} tallennettu {1} aikana, {2} tarvitaan</value>
+  </data>
+  <data name="Usual_NotEnough" xml:space="preserve">
+    <value>Tietoja ei ole tarpeeksi: {0} tallennettu, {1} tarvitaan</value>
+  </data>
+  <data name="Usual_Hours" xml:space="preserve">
+    <value>{0:0.#} h</value>
+  </data>
+  <data name="State_Metric_MemoryUsed" xml:space="preserve">
+    <value>Käytössä oleva muisti</value>
+  </data>
+  <data name="State_Metric_Download" xml:space="preserve">
+    <value>Lataus</value>
+  </data>
+  <data name="State_Metric_Upload" xml:space="preserve">
+    <value>Lähetys</value>
+  </data>
+  <data name="State_Metric_Processes" xml:space="preserve">
+    <value>Prosessit</value>
+  </data>
+  <data name="State_Metric_SystemFree" xml:space="preserve">
+    <value>Vapaa tila (Windows-asema)</value>
+  </data>
+  <data name="State_Metric_MemoryPercent" xml:space="preserve">
+    <value>Käytössä oleva muisti (%)</value>
+  </data>
+  <data name="State_During" xml:space="preserve">
+    <value>Aikana: {0}</value>
+  </data>
+  <data name="State_SessionSource" xml:space="preserve">
+    <value>Peli-istunnon aikana tallennetut keskiarvot</value>
+  </data>
+  <data name="State_NotEnough" xml:space="preserve">
+    <value>Tietoja ei ole tarpeeksi vertailuun: {0}.</value>
+  </data>
+  <data name="State_NoMeasurementFor" xml:space="preserve">
+    <value>ei mittausta kohteelle ”{0}”</value>
+  </data>
+  <data name="State_NoDifference" xml:space="preserve">
+    <value>Jaksojen välillä ei ole merkittävää eroa.</value>
+  </data>
+  <data name="State_Notable_One" xml:space="preserve">
+    <value>{0} merkittävä ero: {1}.</value>
+  </data>
+  <data name="State_Notable_Other" xml:space="preserve">
+    <value>{0} merkittävää eroa: {1}.</value>
+  </data>
+  <data name="State_NotCompared" xml:space="preserve">
+    <value>Ei verrattu (mitattu vain yhdellä jaksolla): {0}.</value>
+  </data>
+  <data name="State_OnlyOne" xml:space="preserve">
+    <value>Mitattu vain toisella jaksoista: ei verrattu.</value>
+  </data>
+  <data name="State_NoChange" xml:space="preserve">
+    <value>Ei muutosta</value>
+  </data>
+  <data name="State_Explain_Same" xml:space="preserve">
+    <value>Suunnilleen sama molemmilla jaksoilla.</value>
+  </data>
+  <data name="State_Explain_CpuUp" xml:space="preserve">
+    <value>Suoritin oli kuormitetumpi toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_CpuDown" xml:space="preserve">
+    <value>Suoritin oli vähemmän kuormitettu toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_MemoryUp" xml:space="preserve">
+    <value>Muistia oli käytössä enemmän toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_MemoryDown" xml:space="preserve">
+    <value>Muistia oli käytössä vähemmän toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_DiskUp" xml:space="preserve">
+    <value>Levyt olivat kiireisempiä toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_DiskDown" xml:space="preserve">
+    <value>Levyt olivat vähemmän kiireisiä toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_GpuUp" xml:space="preserve">
+    <value>Näytönohjain oli kuormitetumpi toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_GpuDown" xml:space="preserve">
+    <value>Näytönohjain oli vähemmän kuormitettu toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_SpaceUsed" xml:space="preserve">
+    <value>Windows-asemalta käytettiin tilaa jaksojen välillä.</value>
+  </data>
+  <data name="State_Explain_SpaceFreed" xml:space="preserve">
+    <value>Windows-asemalta vapautui tilaa jaksojen välillä.</value>
+  </data>
+  <data name="State_Explain_ProcessesUp" xml:space="preserve">
+    <value>Prosesseja oli käynnissä enemmän toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_ProcessesDown" xml:space="preserve">
+    <value>Prosesseja oli käynnissä vähemmän toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_NetworkUp" xml:space="preserve">
+    <value>Verkkoliikennettä oli enemmän toisella jaksolla.</value>
+  </data>
+  <data name="State_Explain_NetworkDown" xml:space="preserve">
+    <value>Verkkoliikennettä oli vähemmän toisella jaksolla.</value>
+  </data>
+  <data name="State_Points_One" xml:space="preserve">
+    <value>{0} prosenttiyksikkö</value>
+  </data>
+  <data name="State_Points_Other" xml:space="preserve">
+    <value>{0} prosenttiyksikköä</value>
+  </data>
+  <data name="Count_Measurement_One" xml:space="preserve">
+    <value>{0} mittaus</value>
+  </data>
+  <data name="Count_Measurement_Other" xml:space="preserve">
+    <value>{0} mittausta</value>
+  </data>
+  <data name="State_NoMeasurement" xml:space="preserve">
+    <value>ei mittausta</value>
+  </data>
+  <data name="State_Label_HourAgo" xml:space="preserve">
+    <value>Tunti sitten</value>
+  </data>
+  <data name="State_Label_Now" xml:space="preserve">
+    <value>Nyt</value>
+  </data>
+  <data name="State_Label_YesterdaySameTime" xml:space="preserve">
+    <value>Eilen tähän aikaan</value>
+  </data>
+  <data name="State_Label_Before" xml:space="preserve">
+    <value>Ennen</value>
+  </data>
+  <data name="State_Label_After" xml:space="preserve">
+    <value>Jälkeen</value>
+  </data>
+  <data name="State_Source_Seconds" xml:space="preserve">
+    <value>Muistissa säilytettävät sekuntikohtaiset mittaukset</value>
+  </data>
+  <data name="State_Source_Minutes" xml:space="preserve">
+    <value>Paikallisen historian minuuttikohtaiset keskiarvot</value>
+  </data>
+  <data name="State_Source_Hours" xml:space="preserve">
+    <value>Paikallisen historian tuntikohtaiset yhteenvedot</value>
+  </data>
+  <data name="State_NoSession" xml:space="preserve">
+    <value>Ei peli-istuntoa</value>
+  </data>
+  <data name="State_NoSessionRecorded" xml:space="preserve">
+    <value>Peli-istuntoa ei ole tallennettu</value>
+  </data>
+  <data name="State_NoSessionYet" xml:space="preserve">
+    <value>Peli-istuntoa ei ole vielä tallennettu: pelaa peliä muutaman minuutin ajan ja vertaa sitten.</value>
+  </data>
+  <data name="State_BeforeGame" xml:space="preserve">
+    <value>Ennen: {0}</value>
+  </data>
+  <data name="State_AfterGame" xml:space="preserve">
+    <value>Jälkeen: {0}</value>
+  </data>
+  <data name="State_PreviousSession" xml:space="preserve">
+    <value>Edellinen istunto</value>
+  </data>
+  <data name="State_NoEarlierSession" xml:space="preserve">
+    <value>Aiempaa peli-istuntoa, johon verrata, ei ole.</value>
+  </data>
+  <data name="WhyNow_Metric_Disk" xml:space="preserve">
+    <value>Levyn toiminta</value>
+  </data>
+  <data name="WhyNow_Metric_Network" xml:space="preserve">
+    <value>Verkkoliikenne</value>
+  </data>
+  <data name="WhyNow_NotEnough_Headline" xml:space="preserve">
+    <value>{0}: mittauksia ei vielä ole tarpeeksi</value>
+  </data>
+  <data name="WhyNow_NotEnough_Missing" xml:space="preserve">
+    <value>{0} puuttuu mittauksista, joten sitä ei voi selittää.</value>
+  </data>
+  <data name="WhyNow_NotEnough_Summary" xml:space="preserve">
+    <value>Sysora tarvitsee noin kahden minuutin mittaukset, jotta se voi kertoa, milloin muutos alkoi.</value>
+  </data>
+  <data name="WhyNow_Range" xml:space="preserve">
+    <value>{0}–{1}</value>
+  </data>
+  <data name="WhyNow_Quiet_Headline" xml:space="preserve">
+    <value>{0} ei ole epätavallisen suuri juuri nyt</value>
+  </data>
+  <data name="WhyNow_Quiet_Summary" xml:space="preserve">
+    <value>{0} pysyi välillä {1} viimeisen {2} aikana; nyt {3}. Selitettävää viimeaikaista nousua ei ole.</value>
+  </data>
+  <data name="WhyNow_Quiet_Contributor" xml:space="preserve">
+    <value>Ei mitään, mihin syy voitaisiin yhdistää: ei merkittävää nousua.</value>
+  </data>
+  <data name="WhyNow_Label_Level" xml:space="preserve">
+    <value>Taso</value>
+  </data>
+  <data name="WhyNow_Quiet_Level" xml:space="preserve">
+    <value>{0} pysyi välillä {1} analysoidun jakson aikana.</value>
+  </data>
+  <data name="WhyNow_Label_UsualRange" xml:space="preserve">
+    <value>Tavallinen vaihteluväli</value>
+  </data>
+  <data name="WhyNow_Label_Change" xml:space="preserve">
+    <value>Muutos</value>
+  </data>
+  <data name="WhyNow_Change" xml:space="preserve">
+    <value>{0} nousi: {1} → {2}.</value>
+  </data>
+  <data name="WhyNow_AlreadyHigh" xml:space="preserve">
+    <value>{0} on {1} ja oli jo suuri analysoitujen tietojen alussa ({2}).</value>
+  </data>
+  <data name="WhyNow_Label_Started" xml:space="preserve">
+    <value>Alkoi</value>
+  </data>
+  <data name="WhyNow_Started" xml:space="preserve">
+    <value>Noin {0} ({1:0} sekunnin tarkkuudella).</value>
+  </data>
+  <data name="WhyNow_StartedBefore" xml:space="preserve">
+    <value>Ennen {0}: aiempia tietoja ei ole.</value>
+  </data>
+  <data name="WhyNow_Label_Duration" xml:space="preserve">
+    <value>Kesto</value>
+  </data>
+  <data name="WhyNow_AtLeast" xml:space="preserve">
+    <value>Vähintään {0}</value>
+  </data>
+  <data name="WhyNow_Label_Associated" xml:space="preserve">
+    <value>Liittyy</value>
+  </data>
+  <data name="WhyNow_Associated" xml:space="preserve">
+    <value>{0} klo {1} (samaan aikaan; ei todiste syystä)</value>
+  </data>
+  <data name="WhyNow_Label_SameTime" xml:space="preserve">
+    <value>Samaan aikaan</value>
+  </data>
+  <data name="WhyNow_Label_Similar" xml:space="preserve">
+    <value>Samankaltaiset tapahtumat</value>
+  </data>
+  <data name="WhyNow_Label_WhyMore" xml:space="preserve">
+    <value>Miksi sovellus tarvitsee enemmän</value>
+  </data>
+  <data name="WhyNow_NotObservable" xml:space="preserve">
+    <value>Sitä, mitä sovellus tekee sisäisesti, ei voi havaita ulkopuolelta.</value>
+  </data>
+  <data name="WhyNow_Headline_Increased" xml:space="preserve">
+    <value>{0} kasvoi merkittävästi</value>
+  </data>
+  <data name="WhyNow_Headline_High" xml:space="preserve">
+    <value>{0} on ollut suuri jo ennen hetkeä {1}</value>
+  </data>
+  <data name="WhyNow_Summary_WentFrom" xml:space="preserve">
+    <value>{0}: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Summary_Is" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="WhyNow_Summary_Starting" xml:space="preserve">
+    <value>, alkoi noin klo {0} ({1} sitten). </value>
+  </data>
+  <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
+    <value>Ennen {0}, nyt {1}</value>
+  </data>
+  <data name="WhyNow_Ev_Now" xml:space="preserve">
+    <value>Nyt {0}</value>
+  </data>
+  <data name="WhyNow_Ev_Reference" xml:space="preserve">
+    <value>Keskiarvot {0:0} sekunnin jaksoissa; muutos lasketaan ajankohdasta {1}</value>
+  </data>
+  <data name="WhyNow_Position_Above95" xml:space="preserve">
+    <value>yli 95 %:n tallennetuista minuuteistasi</value>
+  </data>
+  <data name="WhyNow_Position_Above" xml:space="preserve">
+    <value>tavallista vaihteluväliäsi korkeampi</value>
+  </data>
+  <data name="WhyNow_Position_Below" xml:space="preserve">
+    <value>tavallista vaihteluväliäsi matalampi</value>
+  </data>
+  <data name="WhyNow_Position_Within" xml:space="preserve">
+    <value>tavallisessa vaihteluvälissäsi</value>
+  </data>
+  <data name="WhyNow_Usual" xml:space="preserve">
+    <value>Tavallisesti {0} (mediaani {1}); nyt {2}: {3}.</value>
+  </data>
+  <data name="WhyNow_Network_NotAvailable" xml:space="preserve">
+    <value>Ei käytettävissä: Windows ei ilmoita sovelluskohtaista verkon käyttöä ilman järjestelmänvalvojatason tapahtumien jäljitystä.</value>
+  </data>
+  <data name="WhyNow_Network_Summary" xml:space="preserve">
+    <value>Vastuussa olevaa sovellusta ei voi tunnistaa: Windows ei ilmoita sovelluskohtaista verkon käyttöä ilman järjestelmänvalvojatason tapahtumien jäljitystä.</value>
+  </data>
+  <data name="WhyNow_Label_Contributor" xml:space="preserve">
+    <value>Vaikuttava tekijä</value>
+  </data>
+  <data name="WhyNow_Gpu_Unknown" xml:space="preserve">
+    <value>Syy tuntematon: sovelluskohtaista näytönohjaimen käyttöä ei tallenneta historiaan. Samaan aikaan tapahtuneet asiat voivat auttaa.</value>
+  </data>
+  <data name="WhyNow_NoAppData" xml:space="preserve">
+    <value>Syy tuntematon: tältä jaksolta ei ole sovelluskohtaisia tietoja (sovellukset säilytetään vain muistissa olevassa viimeaikaisessa historiassa).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeLargest" xml:space="preserve">
+    <value>Syy tuntematon: nousu alkoi ennen analysoituja tietoja. Suurin käyttäjä nyt: {0} ({1}).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeData" xml:space="preserve">
+    <value>Syy tuntematon: nousu alkoi ennen analysoituja tietoja.</value>
+  </data>
+  <data name="WhyNow_NoDataBefore" xml:space="preserve">
+    <value>Syy tuntematon: nousua edeltävältä ajalta ei ole sovelluskohtaisia tietoja.</value>
+  </data>
+  <data name="WhyNow_NoIncrease" xml:space="preserve">
+    <value>Syy tuntematon: mikään mitatuista sovelluksista ei lisännyt käyttöään.</value>
+  </data>
+  <data name="WhyNow_NoSingleApp" xml:space="preserve">
+    <value>Syy tuntematon: mikään yksittäinen sovellus ei selitä nousua (suurin muutos: {0} {1}).</value>
+  </data>
+  <data name="WhyNow_Share" xml:space="preserve">
+    <value>, noin {0} noususta</value>
+  </data>
+  <data name="WhyNow_IoNote" xml:space="preserve">
+    <value> I/O-toimintoja (tiedostot, laitteet ja verkko yhteensä)</value>
+  </data>
+  <data name="WhyNow_NewApp" xml:space="preserve">
+    <value> – ei aiemmin kiireisimpien sovellusten joukossa</value>
+  </data>
+  <data name="WhyNow_Label_Likely" xml:space="preserve">
+    <value>Todennäköinen vaikuttava tekijä</value>
+  </data>
+  <data name="WhyNow_Label_Possible" xml:space="preserve">
+    <value>Mahdollinen vaikuttava tekijä</value>
+  </data>
+  <data name="WhyNow_ContributorText" xml:space="preserve">
+    <value>{0}: {1} ({2}{3}{4}){5}</value>
+  </data>
+  <data name="WhyNow_Summary_Likely" xml:space="preserve">
+    <value>Tietojen perusteella {0} on tärkein vaikuttava tekijä ({1}{2}).</value>
+  </data>
+  <data name="WhyNow_Summary_Possible" xml:space="preserve">
+    <value>{0} on voinut vaikuttaa ({1}{2}), mutta näyttö on heikko.</value>
+  </data>
+  <data name="WhyNow_AlsoRose" xml:space="preserve">
+    <value>Myös {0} nousi: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Similar_NotTracked" xml:space="preserve">
+    <value>Samankaltaiset tapahtumat: ei seurata (mikään hälytyssääntö ei seuraa tätä mittaria).</value>
+  </data>
+  <data name="WhyNow_Similar_NoHistory" xml:space="preserve">
+    <value>Samankaltaiset tapahtumat: ei käytettävissä (ei hälytyshistoriaa).</value>
+  </data>
+  <data name="WhyNow_Similar_None" xml:space="preserve">
+    <value>Samankaltaiset tapahtumat: ei yhtään viimeisten {0} päivän aikana.</value>
+  </data>
+  <data name="WhyNow_Similar_Count" xml:space="preserve">
+    <value>Samankaltaiset tapahtumat: {0} viimeisten {1} päivän aikana.</value>
+  </data>
+  <data name="Count_Alert_One" xml:space="preserve">
+    <value>{0} hälytys</value>
+  </data>
+  <data name="Count_Alert_Other" xml:space="preserve">
+    <value>{0} hälytystä</value>
+  </data>
+  <data name="WhyNow_Source_Mixed" xml:space="preserve">
+    <value>Muistissa säilytettävät sekuntikohtaiset mittaukset, joita edeltävät paikallisen historian minuuttikohtaiset keskiarvot</value>
+  </data>
+  <data name="Changes_UnknownOrigin" xml:space="preserve">
+    <value>Muutos havaittu, alkuperä tuntematon.</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated" xml:space="preserve">
+    <value>{0} asennettu tai päivitetty</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated_Explanation" xml:space="preserve">
+    <value>Windows tallentaa tämän päivämäärän, kun sovellus asennetaan; monet asennusohjelmat kirjoittavat sen myös uudelleen, kun ne päivittävät sovelluksen.</value>
+  </data>
+  <data name="Changes_MatchedByName" xml:space="preserve">
+    <value>Täsmätty nimen ja julkaisijan perusteella Windowsin asennettujen sovellusten luettelossa.</value>
+  </data>
+  <data name="Changes_VersionRead" xml:space="preserve">
+    <value>Versio luettu Windowsin asennettujen sovellusten luettelosta.</value>
+  </data>
+  <data name="Changes_Removed" xml:space="preserve">
+    <value>{0} poistettu</value>
+  </data>
+  <data name="Changes_Removed_Explanation" xml:space="preserve">
+    <value>Sovellus ei ole enää Windowsin asennettujen sovellusten luettelossa.</value>
+  </data>
+  <data name="Changes_Removed_Origin" xml:space="preserve">
+    <value>Mukana tilannevedoksessa {0}, puuttuu tilannevedoksesta {1}.</value>
+  </data>
+  <data name="Changes_Ev_InstalledApps" xml:space="preserve">
+    <value>Asennetut sovellukset</value>
+  </data>
+  <data name="Changes_Installed_OriginDate" xml:space="preserve">
+    <value>Asennusohjelma on tallentanut asennuspäivämäärän ({0}) Windowsin asennettujen sovellusten luetteloon.</value>
+  </data>
+  <data name="Changes_Installed_OriginSnapshot" xml:space="preserve">
+    <value>Windowsin asennettujen sovellusten luettelossa, puuttui tilannevedoksesta {0}.</value>
+  </data>
+  <data name="Changes_Installed" xml:space="preserve">
+    <value>{0} asennettu</value>
+  </data>
+  <data name="Changes_Installed_ExplanationPublisher" xml:space="preserve">
+    <value>Uusi sovellus julkaisijalta {0}. Uusi ohjelmisto voi lisätä taustaprosesseja ja käynnistyskohteita.</value>
+  </data>
+  <data name="Changes_Installed_Explanation" xml:space="preserve">
+    <value>Uusi sovellus. Uusi ohjelmisto voi lisätä taustaprosesseja ja käynnistyskohteita.</value>
+  </data>
+  <data name="Changes_Updated" xml:space="preserve">
+    <value>{0} päivitetty</value>
+  </data>
+  <data name="Changes_Updated_Explanation" xml:space="preserve">
+    <value>Uusi versio voi toimia eri tavalla (suorituskyky, taustatoiminta).</value>
+  </data>
+  <data name="Changes_Startup_Origin" xml:space="preserve">
+    <value>Verrattiin käynnistyskohteita: {0} ja {1}.</value>
+  </data>
+  <data name="Changes_Startup_New" xml:space="preserve">
+    <value>Uusi käynnistysohjelma: {0}</value>
+  </data>
+  <data name="Changes_Startup_New_Explanation" xml:space="preserve">
+    <value>Se käynnistyy nyt automaattisesti, kun kirjaudut sisään, mikä voi pidentää käynnistystä ja kuluttaa resursseja taustalla.</value>
+  </data>
+  <data name="Changes_Startup_Enabled" xml:space="preserve">
+    <value>Käynnistysohjelma otettu käyttöön: {0}</value>
+  </data>
+  <data name="Changes_Startup_Disabled" xml:space="preserve">
+    <value>Käynnistysohjelma poistettu käytöstä: {0}</value>
+  </data>
+  <data name="Changes_Startup_Enabled_Explanation" xml:space="preserve">
+    <value>Se käynnistyy taas automaattisesti, kun kirjaudut sisään.</value>
+  </data>
+  <data name="Changes_Startup_Removed_Explanation" xml:space="preserve">
+    <value>Se ei enää käynnisty automaattisesti, kun kirjaudut sisään.</value>
+  </data>
+  <data name="Changes_Startup_Removed" xml:space="preserve">
+    <value>Käynnistysohjelma poistettu: {0}</value>
+  </data>
+  <data name="Changes_Enabled" xml:space="preserve">
+    <value>Käytössä</value>
+  </data>
+  <data name="Changes_Disabled" xml:space="preserve">
+    <value>Ei käytössä</value>
+  </data>
+  <data name="Changes_Ev_StartupEntry" xml:space="preserve">
+    <value>Käynnistyskohde</value>
+  </data>
+  <data name="Changes_Windows_Title" xml:space="preserve">
+    <value>Windows päivitettiin</value>
+  </data>
+  <data name="Changes_Windows_Explanation" xml:space="preserve">
+    <value>Windows-päivitykset voivat muuttaa ohjaimia ja taustapalveluita; päivityksen jälkeisinä ensimmäisinä tunteina levyn ja suorittimen toimintaa on usein tavallista enemmän.</value>
+  </data>
+  <data name="Changes_Windows_Source" xml:space="preserve">
+    <value>Koontiversion numero luettu rekisteristä (CurrentVersion).</value>
+  </data>
+  <data name="Changes_Bios_Title" xml:space="preserve">
+    <value>Laiteohjelmisto (BIOS) päivitettiin</value>
+  </data>
+  <data name="Changes_Bios_Explanation" xml:space="preserve">
+    <value>Laiteohjelmiston päivitys voi muuttaa virranhallintaa ja laitteiston toimintaa.</value>
+  </data>
+  <data name="Changes_Bios_Source" xml:space="preserve">
+    <value>BIOS-versio luettu rekisteristä (Windowsin kopioimat SMBIOS-tiedot).</value>
+  </data>
+  <data name="Changes_Memory_Subject" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Changes_Memory_Title" xml:space="preserve">
+    <value>Asennettu muisti muuttui</value>
+  </data>
+  <data name="Changes_Memory_Explanation" xml:space="preserve">
+    <value>Fyysisen muistin määrä muuttui (muistimoduuli lisätty, poistettu tai sitä ei tunnisteta).</value>
+  </data>
+  <data name="Changes_Memory_Source" xml:space="preserve">
+    <value>Laiteohjelmiston ilmoittama asennettu muisti.</value>
+  </data>
+  <data name="Changes_System_Origin" xml:space="preserve">
+    <value>Verrattiin tilannevedoksia: {0} ja {1}.</value>
+  </data>
+  <data name="Changes_Devices_Origin" xml:space="preserve">
+    <value>Verrattiin laitteita: {0} ja {1}.</value>
+  </data>
+  <data name="Changes_Device_New" xml:space="preserve">
+    <value>Uusi laite ({1}): {2}</value>
+  </data>
+  <data name="Changes_Device_Gone" xml:space="preserve">
+    <value>Laite ({0}) ei ole enää läsnä: {2}</value>
+  </data>
+  <data name="Changes_Device_New_Explanation" xml:space="preserve">
+    <value>Laite on ilmestynyt edellisen tilannevedoksen jälkeen (uusi laitteisto, ohjaimen muutos tai näennäissovitin).</value>
+  </data>
+  <data name="Changes_Device_Gone_Explanation" xml:space="preserve">
+    <value>Edellisessä tilannevedoksessa ollutta laitetta ei löytynyt (poistettu, poistettu käytöstä tai sen ohjain on muuttunut).</value>
+  </data>
+  <data name="Changes_Space_UsedOf" xml:space="preserve">
+    <value>{0} → {1} käytetty / {2}</value>
+  </data>
+  <data name="Changes_Ev_InstalledSamePeriod" xml:space="preserve">
+    <value>Asennettu samalla jaksolla</value>
+  </data>
+  <data name="Changes_Ev_PossibleFiles" xml:space="preserve">
+    <value>Mahdollisia vaikuttavia tekijöitä, ei vahvistettu: Sysora ei mittaa yksittäisten tiedostojen kokoa.</value>
+  </data>
+  <data name="Changes_Space_More" xml:space="preserve">
+    <value>{1}: {0} enemmän käytetty</value>
+  </data>
+  <data name="Changes_Space_Freed" xml:space="preserve">
+    <value>{1}: {0} vapautettu</value>
+  </data>
+  <data name="Changes_Space_Used" xml:space="preserve">
+    <value>{0} käytetty</value>
+  </data>
+  <data name="Changes_Space_Grew_Explanation" xml:space="preserve">
+    <value>Aseman käytetty tila kasvoi huomattavasti kahden tilannevedoksen välillä.</value>
+  </data>
+  <data name="Changes_Space_Freed_Explanation" xml:space="preserve">
+    <value>Asemalta vapautui tilaa kahden tilannevedoksen välillä.</value>
+  </data>
+  <data name="Changes_Space_Origin" xml:space="preserve">
+    <value>Sysora mittaa vapaata tilaa, ei yksittäisiä tiedostoja.</value>
+  </data>
+  <data name="Changes_Usage_AverageMemory" xml:space="preserve">
+    <value>Keskimääräinen muistin käyttö</value>
+  </data>
+  <data name="Changes_Usage_AverageCpu" xml:space="preserve">
+    <value>Keskimääräinen suorittimen käyttö</value>
+  </data>
+  <data name="Changes_Usage_Reference" xml:space="preserve">
+    <value>Keskiarvo kutakin tilannevedosta edeltäneiltä 24 tunnilta ({0} ja {1} minuuttia mittauksia)</value>
+  </data>
+  <data name="Changes_Ev_Possible" xml:space="preserve">
+    <value>Mahdollisia vaikuttavia tekijöitä, ei vahvistettu.</value>
+  </data>
+  <data name="Changes_Usage_Title" xml:space="preserve">
+    <value>{0} {1:+0;-0;0} prosenttiyksikköä</value>
+  </data>
+  <data name="Changes_Usage_MoreMemory" xml:space="preserve">
+    <value>Tietokone käytti keskimäärin huomattavasti enemmän muistia kuin vertailupäivänä.</value>
+  </data>
+  <data name="Changes_Usage_MoreCpu" xml:space="preserve">
+    <value>Tietokone käytti keskimäärin huomattavasti enemmän suoritinta kuin vertailupäivänä.</value>
+  </data>
+  <data name="Changes_Usage_LessMemory" xml:space="preserve">
+    <value>Tietokone käytti keskimäärin huomattavasti vähemmän muistia kuin vertailupäivänä.</value>
+  </data>
+  <data name="Changes_Usage_LessCpu" xml:space="preserve">
+    <value>Tietokone käytti keskimäärin huomattavasti vähemmän suoritinta kuin vertailupäivänä.</value>
+  </data>
+  <data name="Changes_Ev_SourceOf" xml:space="preserve">
+    <value>Windowsiin asennetut sovellukset ({0})</value>
+  </data>
+  <data name="Changes_Ev_Source" xml:space="preserve">
+    <value>Windowsiin asennetut sovellukset</value>
+  </data>
+  <data name="Changes_Ev_InstallDate" xml:space="preserve">
+    <value>Asennusohjelman tallentama asennuspäivämäärä: {0}</value>
+  </data>
+  <data name="Device_Graphics" xml:space="preserve">
+    <value>Grafiikka</value>
+  </data>
+  <data name="Device_Network" xml:space="preserve">
+    <value>Verkko</value>
+  </data>
+  <data name="Device_Volume" xml:space="preserve">
+    <value>Asema</value>
+  </data>
+  <data name="AppSource_Machine" xml:space="preserve">
+    <value>Tietokone</value>
+  </data>
+  <data name="AppSource_Machine32" xml:space="preserve">
+    <value>Tietokone (32-bittinen)</value>
+  </data>
+  <data name="AppSource_User" xml:space="preserve">
+    <value>Käyttäjä</value>
+  </data>
+  <data name="AppSource_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Changes_OldestSnapshot" xml:space="preserve">
+    <value>Vanhin tilannevedos: {0}.</value>
+  </data>
+  <data name="Changes_NoSnapshot" xml:space="preserve">
+    <value>Tilannevedosta ei ole vielä tallennettu; ensimmäinen otetaan minuutti Sysoran käynnistymisen jälkeen.</value>
+  </data>
+  <data name="Changes_NotEnough" xml:space="preserve">
+    <value>Historiaa ei ole vielä tarpeeksi tähän vertailuun. {0}</value>
+  </data>
+  <data name="Changes_Note" xml:space="preserve">
+    <value>Nykyinen tila verrattuna tilannevedokseen {0}.</value>
+  </data>
+  <data name="Changes_Note_AppsUnreadable" xml:space="preserve">
+    <value>Asennettuja sovelluksia ei voitu verrata (niitä ei voitu lukea toisesta tilannevedoksesta).</value>
+  </data>
+  <data name="Changes_Frequent_Activity" xml:space="preserve">
+    <value>Käynnissä {0}, {1} ajankohdasta {2} lähtien</value>
+  </data>
+  <data name="Count_Start_One" xml:space="preserve">
+    <value>{0} käynnistys</value>
+  </data>
+  <data name="Count_Start_Other" xml:space="preserve">
+    <value>{0} käynnistystä</value>
+  </data>
+  <data name="Changes_Frequent_Title" xml:space="preserve">
+    <value>{0} on nyt säännöllisesti käynnissä</value>
+  </data>
+  <data name="Changes_Frequent_Explanation" xml:space="preserve">
+    <value>Ohjelma, jota Sysora ei ole aiemmin nähnyt, on alkanut toimia säännöllisesti. Se voi olla uusi sovellus, päivitysapuohjelma tai taustatehtävä.</value>
+  </data>
+  <data name="Changes_Frequent_Origin" xml:space="preserve">
+    <value>Sysora havaitsi sen ensimmäisen kerran {0}; Sysora on tallentanut tietoja {1} lähtien.</value>
+  </data>
+  <data name="Changes_Ev_Activity" xml:space="preserve">
+    <value>Toiminta</value>
+  </data>
+  <data name="Changes_Ev_NameOnly" xml:space="preserve">
+    <value>Tunnistettu vain prosessin nimen perusteella</value>
+  </data>
+  <data name="Since_Loading" xml:space="preserve">
+    <value>Verrataan eiliseen…</value>
+  </data>
+  <data name="Since_Area_Applications" xml:space="preserve">
+    <value>Sovellukset</value>
+  </data>
+  <data name="Since_Area_Startup" xml:space="preserve">
+    <value>Käynnistysohjelmat</value>
+  </data>
+  <data name="Since_Area_Windows" xml:space="preserve">
+    <value>Windows-versio</value>
+  </data>
+  <data name="Since_Area_Firmware" xml:space="preserve">
+    <value>Laiteohjelmisto (BIOS)</value>
+  </data>
+  <data name="Since_Area_Memory" xml:space="preserve">
+    <value>Asennettu muisti</value>
+  </data>
+  <data name="Since_Area_Devices" xml:space="preserve">
+    <value>Laitteet</value>
+  </data>
+  <data name="Since_Area_DiskSpace" xml:space="preserve">
+    <value>Levytila</value>
+  </data>
+  <data name="Since_Area_Usage" xml:space="preserve">
+    <value>Käyttö</value>
+  </data>
+  <data name="Since_Area_Alerts" xml:space="preserve">
+    <value>Hälytykset</value>
+  </data>
+  <data name="Since_NotEnough" xml:space="preserve">
+    <value>Historiaa ei ole vielä tarpeeksi</value>
+  </data>
+  <data name="Since_Usage_Title" xml:space="preserve">
+    <value>{0} {1} tänään</value>
+  </data>
+  <data name="Since_Yesterday" xml:space="preserve">
+    <value>{0} eilen</value>
+  </data>
+  <data name="Since_Today" xml:space="preserve">
+    <value>{0} tänään</value>
+  </data>
+  <data name="Since_Usage_Explanation" xml:space="preserve">
+    <value>{0} Kunkin päivän keskiarvot.</value>
+  </data>
+  <data name="Since_SecondPeriodPhrase" xml:space="preserve">
+    <value>toisella jaksolla</value>
+  </data>
+  <data name="Since_TodayPhrase" xml:space="preserve">
+    <value>tänään</value>
+  </data>
+  <data name="Since_When" xml:space="preserve">
+    <value>Tähän mennessä tänään eiliseen verrattuna</value>
+  </data>
+  <data name="Since_Usage_Origin" xml:space="preserve">
+    <value>{0} (eilen) ja {1} (tänään).</value>
+  </data>
+  <data name="Since_MoreAlerts" xml:space="preserve">
+    <value>Enemmän hälytyksiä tänään ({0})</value>
+  </data>
+  <data name="Since_FewerAlerts" xml:space="preserve">
+    <value>Vähemmän hälytyksiä tänään ({0})</value>
+  </data>
+  <data name="Since_MoreAlerts_Explanation" xml:space="preserve">
+    <value>Tänään havaittiin enemmän pitkäkestoisia tai epätavallisia ongelmia kuin eilen.</value>
+  </data>
+  <data name="Since_FewerAlerts_Explanation" xml:space="preserve">
+    <value>Tänään havaittiin vähemmän ongelmia kuin eilen.</value>
+  </data>
+  <data name="Since_AlertsOrigin" xml:space="preserve">
+    <value>Sysoran tallentamat hälytykset.</value>
+  </data>
+  <data name="Since_Reason_Apps" xml:space="preserve">
+    <value>asennettujen sovellusten luetteloa ei voitu lukea toisesta tilannevedoksesta</value>
+  </data>
+  <data name="Since_Reason_Startup" xml:space="preserve">
+    <value>käynnistysohjelmia ei voitu lukea toisesta tilannevedoksesta</value>
+  </data>
+  <data name="Since_Reason_Windows" xml:space="preserve">
+    <value>Windowsin koontiversiota ei tallennettu</value>
+  </data>
+  <data name="Since_Reason_Bios" xml:space="preserve">
+    <value>tämä tietokone ei ilmoita BIOS-versiota</value>
+  </data>
+  <data name="Since_Reason_Memory" xml:space="preserve">
+    <value>laiteohjelmisto ei ilmoita asennettua muistia</value>
+  </data>
+  <data name="Since_Reason_Volumes" xml:space="preserve">
+    <value>asemia ei tallennettu</value>
+  </data>
+  <data name="Since_Reason_Usage" xml:space="preserve">
+    <value>historiaa ei ole tarpeeksi tältä päivältä tai eiliseltä</value>
+  </data>
+  <data name="Since_NoChange" xml:space="preserve">
+    <value>Ei muutoksia eilisen jälkeen</value>
+  </data>
+  <data name="Count_SignificantChange_One" xml:space="preserve">
+    <value>{0} merkittävä muutos</value>
+  </data>
+  <data name="Count_SignificantChange_Other" xml:space="preserve">
+    <value>{0} merkittävää muutosta</value>
+  </data>
+  <data name="Count_MinorChange_One" xml:space="preserve">
+    <value>{0} pieni muutos</value>
+  </data>
+  <data name="Count_MinorChange_Other" xml:space="preserve">
+    <value>{0} pientä muutosta</value>
+  </data>
+  <data name="Since_Note" xml:space="preserve">
+    <value>Verrattu tilannevedokseen {0}. Vain Sysoran havaitsemat erot luetellaan; niiden alkuperä mainitaan, kun se tiedetään.</value>
+  </data>
+  <data name="Since_Between" xml:space="preserve">
+    <value>Välillä {0} – {1}</value>
+  </data>
+  <data name="Since_Before" xml:space="preserve">
+    <value>Ennen {0}</value>
+  </data>
+  <data name="Game_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Ei käytettävissä. Windows ei tarjoa muille sovelluksille luotettavaa kuvataajuuden lähdettä: sen mittaaminen edellyttää järjestelmänvalvojatason tapahtumien jäljitystä tai peliin kytkeytymistä, eikä Sysora tee kumpaakaan.</value>
+  </data>
+  <data name="Game_NoLimit_Title" xml:space="preserve">
+    <value>Mikään resurssiraja ei täyttynyt</value>
+  </data>
+  <data name="Game_NoLimit_Description" xml:space="preserve">
+    <value>Muisti, suoritin, videomuisti ja levyt eivät koskaan pysyneet rajallaan mitatun ajan aikana.</value>
+  </data>
+  <data name="Game_Headline_None" xml:space="preserve">
+    <value>Ongelmia ei havaittu</value>
+  </data>
+  <data name="Game_Headline_Points_One" xml:space="preserve">
+    <value>{0} seurattava kohta</value>
+  </data>
+  <data name="Game_Headline_Points_Other" xml:space="preserve">
+    <value>{0} seurattavaa kohtaa</value>
+  </data>
+  <data name="Game_Summary_DurationOf" xml:space="preserve">
+    <value>{1}: {0}.</value>
+  </data>
+  <data name="Game_Summary_Cpu" xml:space="preserve">
+    <value>Suoritin {0}</value>
+  </data>
+  <data name="Game_Summary_Memory" xml:space="preserve">
+    <value>muisti {0}</value>
+  </data>
+  <data name="Game_Summary_OnAverage" xml:space="preserve">
+    <value>Keskimäärin: {0}.</value>
+  </data>
+  <data name="Game_Summary_Qualified" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="Game_Summary_NoLimit" xml:space="preserve">
+    <value>Mikään resurssiraja ei täyttynyt.</value>
+  </data>
+  <data name="Game_OfTotal" xml:space="preserve">
+    <value>/ {0}</value>
+  </data>
+  <data name="Game_Fps_Note" xml:space="preserve">
+    <value>Windowsissa ei ole luotettavaa lähdettä</value>
+  </data>
+  <data name="Game_Metric_CpuPc" xml:space="preserve">
+    <value>Suoritin (koko tietokone)</value>
+  </data>
+  <data name="Game_Metric_CpuGame" xml:space="preserve">
+    <value>Pelin käyttämä suoritin</value>
+  </data>
+  <data name="Game_CpuGame_Note" xml:space="preserve">
+    <value>Osuus suorittimen kokonaiskapasiteetista</value>
+  </data>
+  <data name="Game_Metric_GpuBusiest" xml:space="preserve">
+    <value>Näytönohjain (kiireisin sovitin)</value>
+  </data>
+  <data name="Game_Metric_GpuGame" xml:space="preserve">
+    <value>Pelin käyttämä näytönohjain</value>
+  </data>
+  <data name="Game_GpuGame_NotReported" xml:space="preserve">
+    <value>Windows ei ilmoittanut prosessikohtaista näytönohjaimen käyttöä</value>
+  </data>
+  <data name="Game_GpuGame_Note" xml:space="preserve">
+    <value>Pelin käyttämä kiireisin näytönohjaimen moottori</value>
+  </data>
+  <data name="Game_Metric_VideoMemory" xml:space="preserve">
+    <value>Käytössä oleva videomuisti</value>
+  </data>
+  <data name="Game_VideoMemory_Note" xml:space="preserve">
+    <value>erillinen muisti, kaikki sovellukset</value>
+  </data>
+  <data name="Game_Metric_MemoryPc" xml:space="preserve">
+    <value>Muisti (koko tietokone)</value>
+  </data>
+  <data name="Game_Metric_MemoryGame" xml:space="preserve">
+    <value>Pelin käyttämä muisti</value>
+  </data>
+  <data name="Game_MemoryGame_Note" xml:space="preserve">
+    <value>Pelin prosessien yksityinen työjoukko</value>
+  </data>
+  <data name="Game_Metric_Disk" xml:space="preserve">
+    <value>Kiireisimmän levyn aktiivinen aika</value>
+  </data>
+  <data name="Game_Metric_NetReceived" xml:space="preserve">
+    <value>Verkosta vastaanotettu (koko tietokone)</value>
+  </data>
+  <data name="Game_Metric_NetSent" xml:space="preserve">
+    <value>Verkkoon lähetetty (koko tietokone)</value>
+  </data>
+  <data name="Game_Metric_SelfCpu" xml:space="preserve">
+    <value>Sysoran oma suorittimen käyttö</value>
+  </data>
+  <data name="Game_SelfCpu_Note" xml:space="preserve">
+    <value>Mitattu istunnon aikana</value>
+  </data>
+  <data name="Game_OverPeriods" xml:space="preserve">
+    <value> {0} jaksossa</value>
+  </data>
+  <data name="Game_Condition_Value" xml:space="preserve">
+    <value>Vähintään {0} {1}{2} ajan (huippu {3})</value>
+  </data>
+  <data name="Game_Condition_Reference" xml:space="preserve">
+    <value>Lasketaan, kun kestää vähintään {0}</value>
+  </data>
+  <data name="Game_Memory_Title" xml:space="preserve">
+    <value>Muisti oli lähes täynnä</value>
+  </data>
+  <data name="Game_Memory_Description" xml:space="preserve">
+    <value>Fyysinen muisti oli yli {0} {1}{2} ajan.</value>
+  </data>
+  <data name="Game_Qualifier_Stutters" xml:space="preserve">
+    <value>Mahdollinen syy nykimiseen</value>
+  </data>
+  <data name="Game_Memory_RecommendationApp" xml:space="preserve">
+    <value>Sulje tarpeettomat sovellukset ennen pelaamista. Suurin muu sovellus oli {0} ({1}).</value>
+  </data>
+  <data name="Game_Memory_Recommendation" xml:space="preserve">
+    <value>Sulje tarpeettomat sovellukset ennen pelaamista.</value>
+  </data>
+  <data name="Game_Cpu_Title" xml:space="preserve">
+    <value>Suoritin oli kyllästetty</value>
+  </data>
+  <data name="Game_Cpu_Description" xml:space="preserve">
+    <value>Suorittimen kokonaiskäyttö oli yli {0} {1}{2} ajan.</value>
+  </data>
+  <data name="Game_Qualifier_Slowdowns" xml:space="preserve">
+    <value>Todennäköinen hidastusten syy</value>
+  </data>
+  <data name="Game_Cpu_RecommendationApp" xml:space="preserve">
+    <value>Kiireisin muu sovellus oli {0} (keskimäärin {1} suoritinta): sulje se pelaamisen ajaksi, jos et tarvitse sitä.</value>
+  </data>
+  <data name="Game_Cpu_Recommendation" xml:space="preserve">
+    <value>Suoritinta kuormittavien asetusten (näkymäetäisyys, väkijoukkojen tiheys, fysiikka) pienentäminen keventää kuormitusta.</value>
+  </data>
+  <data name="Game_Video_Title" xml:space="preserve">
+    <value>Videomuisti oli lähes täynnä</value>
+  </data>
+  <data name="Game_Video_Description" xml:space="preserve">
+    <value>Erillinen videomuisti oli yli {0} / {1} {2}{3} ajan.</value>
+  </data>
+  <data name="Game_Video_Recommendation" xml:space="preserve">
+    <value>Tekstuurien laadun tai tarkkuuden pienentäminen vähentää videomuistin käyttöä.</value>
+  </data>
+  <data name="Game_Disk_Title" xml:space="preserve">
+    <value>Levy oli varattuna lähes koko ajan</value>
+  </data>
+  <data name="Game_Disk_Description" xml:space="preserve">
+    <value>Kiireisimmän levyn aktiivinen aika oli yli {0} {1}{2} ajan.</value>
+  </data>
+  <data name="Game_Qualifier_Loading" xml:space="preserve">
+    <value>Mahdollinen syy latauskatkoksiin</value>
+  </data>
+  <data name="Game_Disk_Recommendation" xml:space="preserve">
+    <value>Pelin asentaminen nopeammalle asemalle (SSD) lyhentää latauksia; samaan aikaan käynnissä olevat päivitykset tai tarkistukset pitävät myös levyt varattuina.</value>
+  </data>
+  <data name="Game_GpuBound_Title" xml:space="preserve">
+    <value>Näytönohjain oli kuormitetuin osa</value>
+  </data>
+  <data name="Game_GpuBound_DescriptionCpu" xml:space="preserve">
+    <value>Näytönohjaimen keskiarvo oli {0}, suorittimen {1}.</value>
+  </data>
+  <data name="Game_GpuBound_Description" xml:space="preserve">
+    <value>Näytönohjaimen keskiarvo oli {0}.</value>
+  </data>
+  <data name="Game_Qualifier_LikelyLimit" xml:space="preserve">
+    <value>Todennäköinen rajoittava tekijä</value>
+  </data>
+  <data name="Game_GpuBound_Recommendation" xml:space="preserve">
+    <value>Tämä on odotettavaa vaativassa pelissä: näytönohjain määrää tahdin. Pienennä grafiikka-asetuksia tai tarkkuutta, niin peli toimii sujuvammin.</value>
+  </data>
+  <data name="Game_Ev_GpuBusiest" xml:space="preserve">
+    <value>Näytönohjaimen käyttö (kiireisin sovitin)</value>
+  </data>
+  <data name="Game_CpuHeavy_Title" xml:space="preserve">
+    <value>Suoritin oli raskaasti kuormitettu</value>
+  </data>
+  <data name="Game_CpuHeavy_DescriptionGpu" xml:space="preserve">
+    <value>Suorittimen keskiarvo oli {0}, näytönohjaimen {1}.</value>
+  </data>
+  <data name="Game_CpuHeavy_Description" xml:space="preserve">
+    <value>Suorittimen keskiarvo oli {0}. Näytönohjaimen käyttö ei ollut käytettävissä, joten Sysora ei voi kertoa, mikä osa määräsi tahdin.</value>
+  </data>
+  <data name="Game_Qualifier_Potential" xml:space="preserve">
+    <value>Mahdollinen vaikuttava tekijä</value>
+  </data>
+  <data name="Game_CpuHeavy_Recommendation" xml:space="preserve">
+    <value>Sulje taustasovellukset ja pienennä suoritinta kuormittavia asetuksia (näkymäetäisyys, väkijoukot, fysiikka).</value>
+  </data>
+  <data name="Game_BusyApp_Title" xml:space="preserve">
+    <value>{0} oli kiireinen pelin aikana</value>
+  </data>
+  <data name="Game_BusyApp_Description" xml:space="preserve">
+    <value>{0} käytti istunnon aikana keskimäärin {1} suorittimen kokonaiskäytöstä (huippu {2}).</value>
+  </data>
+  <data name="Game_BusyApp_Recommendation" xml:space="preserve">
+    <value>Jos et tarvitse sovellusta {0} pelatessasi, sulje se ennen pelin käynnistämistä.</value>
+  </data>
+  <data name="Game_BusyApp_Value" xml:space="preserve">
+    <value>Keskiarvo {0}, huippu {1}, muistia enintään {2}</value>
+  </data>
+  <data name="Game_BusyApp_Reference" xml:space="preserve">
+    <value>Keskiarvo istunnon kaikista prosessimittauksista (0, kun se ei ollut käynnissä)</value>
+  </data>
+  <data name="Game_Gaps_Title" xml:space="preserve">
+    <value>Mittaukset keskeytyivät</value>
+  </data>
+  <data name="Game_Gaps_Description" xml:space="preserve">
+    <value>{0} ({1} mittaamatta): tietokone oli lepotilassa tai seuranta oli keskeytetty. Arvot kattavat vain mitatun ajan.</value>
+  </data>
+  <data name="Game_Compare_First" xml:space="preserve">
+    <value>Pelin {0} ensimmäinen tallennettu istunto: vielä ei ole mihin verrata.</value>
+  </data>
+  <data name="Game_Compare_Previous" xml:space="preserve">
+    <value>Verrattu edelliseen istuntoosi pelissä {0} ({1}).</value>
+  </data>
+  <data name="Game_Compare_Average" xml:space="preserve">
+    <value>Verrattu {0} edellisen istuntosi keskiarvoon pelissä {1} ({2} lähtien).</value>
+  </data>
+  <data name="Game_Ref_Previous" xml:space="preserve">
+    <value>edellinen istuntosi</value>
+  </data>
+  <data name="Game_Ref_PreviousN" xml:space="preserve">
+    <value>{0} edellistä istuntoasi</value>
+  </data>
+  <data name="Game_Compare_HigherTitle" xml:space="preserve">
+    <value>{0} oli tälle pelille tavallista korkeampi</value>
+  </data>
+  <data name="Game_Compare_HigherDescription" xml:space="preserve">
+    <value>{0}: keskiarvo {1}, {2} verrattuna kohteeseen {3} ({4}).</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryTitle" xml:space="preserve">
+    <value>Peli käytti tavallista enemmän muistia</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryDescription" xml:space="preserve">
+    <value>Peli käytti keskimäärin {0}, {1} verrattuna kohteeseen {2} ({3}).</value>
+  </data>
+  <data name="Game_Compare_NewLimitTitle" xml:space="preserve">
+    <value>{0}: uutta tässä istunnossa</value>
+  </data>
+  <data name="Game_Compare_NewLimitDescription" xml:space="preserve">
+    <value>Tätä rajaa ei saavutettu: {0}, {1}.</value>
+  </data>
+  <data name="Game_Qualifier_ObservedChange" xml:space="preserve">
+    <value>Havaittu muutos, syy tuntematon</value>
+  </data>
+  <data name="Game_Compare_Recommendation" xml:space="preserve">
+    <value>Pelin päivitys, eri asetukset tai pelin eri osa voi selittää sen; jos tätä tapahtuu jatkuvasti, vertaa Muutoksiin.</value>
+  </data>
+  <data name="Game_Compare_ThisSession" xml:space="preserve">
+    <value>Tämä istunto: {0} (huippu {1})</value>
+  </data>
+  <data name="Game_Compare_PreviousSessions" xml:space="preserve">
+    <value>Edelliset istunnot: keskimäärin {0}</value>
+  </data>
+  <data name="Game_Missing_Gpu" xml:space="preserve">
+    <value>Näytönohjaimen käyttö: Ei käytettävissä (mikään näytönohjain ei ilmoittanut sitä, tai näytönohjaimen seuranta on poistettu käytöstä asetuksissa).</value>
+  </data>
+  <data name="Game_Missing_GpuGame" xml:space="preserve">
+    <value>Pelin näytönohjaimen käyttö: Ei käytettävissä (Windows ei ilmoittanut prosessikohtaista näytönohjaimen käyttöä).</value>
+  </data>
+  <data name="Game_Missing_Video" xml:space="preserve">
+    <value>Videomuisti: Ei käytettävissä (näytönohjaimen ohjain ei ilmoittanut sitä).</value>
+  </data>
+  <data name="Game_Missing_Temperatures" xml:space="preserve">
+    <value>Lämpötilat: Ei käytettävissä (Windowsissa ei ole dokumentoitua tapaa lukea niitä ilman ydintilan ohjainta).</value>
+  </data>
+  <data name="Game_Missing_Network" xml:space="preserve">
+    <value>Pelin verkon käyttö: Ei käytettävissä (sovelluskohtainen verkon käyttö edellyttää järjestelmänvalvojatason tapahtumien jäljitystä); verkkoarvot koskevat koko tietokonetta.</value>
+  </data>
+  <data name="Game_Coverage" xml:space="preserve">
+    <value>Mitattu {0}–{1} ({2} mittauksia).</value>
+  </data>
+  <data name="Game_Coverage_AlreadyRunning" xml:space="preserve">
+    <value>Peli oli jo käynnissä ajankohdasta {0} lähtien, kun Sysora käynnistyi: sitä edeltävää aikaa ei ole katettu.</value>
+  </data>
+  <data name="Game_Coverage_Gaps" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Game_Coverage_SysoraClosed" xml:space="preserve">
+    <value>Sysora suljettiin ennen peliä: istunnon loppua ei ole katettu.</value>
+  </data>
+  <data name="Game_Coverage_TrackingStopped" xml:space="preserve">
+    <value>Peli-istunnot poistettiin käytöstä ennen pelin sulkemista.</value>
+  </data>
+  <data name="Game_Ev_MeasuredTime" xml:space="preserve">
+    <value>Mitattu aika</value>
+  </data>
+  <data name="Game_Ev_Gaps" xml:space="preserve">
+    <value>{0}, {1} mittaamatta</value>
+  </data>
+  <data name="Game_Ev_NoGap" xml:space="preserve">
+    <value>Ei keskeytyksiä</value>
+  </data>
+  <data name="Game_Ev_CpuPc" xml:space="preserve">
+    <value>Suorittimen käyttö (koko tietokone)</value>
+  </data>
+  <data name="Game_Condition_Video" xml:space="preserve">
+    <value>Videomuisti</value>
+  </data>
+  <data name="Source_VideoMemory" xml:space="preserve">
+    <value>Windowsin suorituskykylaskuri \GPU Adapter Memory(*)\Dedicated Usage</value>
+  </data>
+  <data name="Game_Points" xml:space="preserve">
+    <value>{0:0} prosenttiyksikköä</value>
+  </data>
+  <data name="Count_Interruption_One" xml:space="preserve">
+    <value>{0} keskeytys</value>
+  </data>
+  <data name="Count_Interruption_Other" xml:space="preserve">
+    <value>{0} keskeytystä</value>
+  </data>
+  <data name="Game_Detect_UserMarked" xml:space="preserve">
+    <value>Merkitsit tämän sovelluksen peliksi.</value>
+  </data>
+  <data name="Game_Detect_Windows" xml:space="preserve">
+    <value>Windows tunnistaa tämän suoritettavan tiedoston peliksi (Game Barin pelien luettelo).</value>
+  </data>
+  <data name="Game_Detect_Library" xml:space="preserve">
+    <value>Asennettu pelikirjaston kansioon ({0}): todennäköisesti peli, Windows ei ole vahvistanut.</value>
+  </data>
+  <data name="Game_Event_Started" xml:space="preserve">
+    <value>Peli käynnistyi: {0}</value>
+  </data>
+  <data name="Game_Event_Closed" xml:space="preserve">
+    <value>Peli suljettiin: {0} ({1})</value>
+  </data>
+  <data name="Game_Event_Gap" xml:space="preserve">
+    <value>Ei mittauksia {0} ajan (tietokone lepotilassa tai seuranta keskeytetty)</value>
+  </data>
+  <data name="Health_NotCounted" xml:space="preserve">
+    <value>Ei lasketa</value>
+  </data>
+  <data name="Health_NoImpact" xml:space="preserve">
+    <value>Ei vaikutusta</value>
+  </data>
+  <data name="Count_Point_One" xml:space="preserve">
+    <value>{0} piste</value>
+  </data>
+  <data name="Count_Point_Other" xml:space="preserve">
+    <value>{0} pistettä</value>
+  </data>
+  <data name="Health_Collecting_Headline" xml:space="preserve">
+    <value>Tietokoneen kunto: kerätään tietoja…</value>
+  </data>
+  <data name="Health_Collecting_Summary" xml:space="preserve">
+    <value>Sysora tarvitsee muutaman minuutin mittaukset ennen kuin se antaa pisteet.</value>
+  </data>
+  <data name="Health_Grade_Good" xml:space="preserve">
+    <value>Hyvä</value>
+  </data>
+  <data name="Health_Grade_Fair" xml:space="preserve">
+    <value>Kohtalainen</value>
+  </data>
+  <data name="Health_Grade_NeedsAttention" xml:space="preserve">
+    <value>Vaatii huomiota</value>
+  </data>
+  <data name="Health_Grade_Poor" xml:space="preserve">
+    <value>Heikko</value>
+  </data>
+  <data name="Health_Grade_Collecting" xml:space="preserve">
+    <value>Kerätään tietoja</value>
+  </data>
+  <data name="Health_Method" xml:space="preserve">
+    <value>Pisteet alkavat sadasta. Kukin osa-alue vähentää pisteitä mitatun perusteella, ja kiinteät kynnykset näytetään vieressä. Suoritin, muisti, levyn toiminta ja näytönohjain käyttävät viimeisten 15 minuutin keskiarvoja, joten lyhyt piikki tuskin vaikuttaa. Osa-alueita, joita ei voi mitata tässä tietokoneessa, ei lasketa, ja ne näytetään ei käytettävissä olevina: mitään ei arvioida.</value>
+  </data>
+  <data name="Health_NoMeasurementYetLower" xml:space="preserve">
+    <value>ei vielä mittausta</value>
+  </data>
+  <data name="Health_NeedsData" xml:space="preserve">
+    <value>Sysora tarvitsee {0} mittauksia ennen kuin se antaa pisteet (tähän mennessä {1}).</value>
+  </data>
+  <data name="Health_NothingLowers" xml:space="preserve">
+    <value>Mikään ei laske pisteitä juuri nyt.</value>
+  </data>
+  <data name="Health_LoweredBy" xml:space="preserve">
+    <value>Pisteitä laskee: {0}.</value>
+  </data>
+  <data name="Health_Headline" xml:space="preserve">
+    <value>Tietokoneen kunto: {0}/100 · {1}</value>
+  </data>
+  <data name="Health_Area_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Health_Cpu_NotAvailable" xml:space="preserve">
+    <value>Suorittimen käyttö ei ole käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Health_NoMeasurementYet" xml:space="preserve">
+    <value>Ei vielä mittausta</value>
+  </data>
+  <data name="Health_PointsTakenOff" xml:space="preserve">
+    <value>Vähennetyt pisteet</value>
+  </data>
+  <data name="Health_Cpu_Thresholds" xml:space="preserve">
+    <value>Ei yhtään alle 50 %:n keskiarvolla, enintään 15 100 %:ssa</value>
+  </data>
+  <data name="Health_Cpu_Summary" xml:space="preserve">
+    <value>Keskiarvo {0} ajalta {1} (huippu {2})</value>
+  </data>
+  <data name="Health_Cpu_Problem" xml:space="preserve">
+    <value>Suoritin oli keskimäärin lähes kyllästetty: sovellukset voivat vastata hitaasti.</value>
+  </data>
+  <data name="Health_Cpu_Attention" xml:space="preserve">
+    <value>Suoritin oli kiireinen suurimman osan ajasta; sillä oli silti jonkin verran vapaata kapasiteettia.</value>
+  </data>
+  <data name="Health_Cpu_Good" xml:space="preserve">
+    <value>Suorittimella oli keskimäärin vapaata kapasiteettia. Lyhyet piikit ovat normaaleja ja vaikuttavat tuskin lainkaan.</value>
+  </data>
+  <data name="Health_Area_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Health_Memory_NotAvailable" xml:space="preserve">
+    <value>Muistin käyttö ei ole käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Health_Memory_Thresholds" xml:space="preserve">
+    <value>Ei yhtään alle 60 %:n keskiarvolla, enintään 20 95 %:ssa; 3 lisää, kun varattu muisti pysyy yli 90 %:ssa rajastaan</value>
+  </data>
+  <data name="Health_CommitShare" xml:space="preserve">
+    <value>Varattu muisti (osuus rajasta)</value>
+  </data>
+  <data name="Health_CommitNote" xml:space="preserve">
+    <value>Varattu muisti on lähellä rajaansa: Windows voi hylätä uusia muistinvarauksia.</value>
+  </data>
+  <data name="Health_Memory_Amount" xml:space="preserve">
+    <value>({0} / {1})</value>
+  </data>
+  <data name="Health_Memory_Summary" xml:space="preserve">
+    <value>Keskimäärin {0} käytössä{1} ajalta {2}, huippu {3}</value>
+  </data>
+  <data name="Health_Memory_Problem" xml:space="preserve">
+    <value>Muisti on lähes täynnä: Windowsin täytyy siirtää tietoja levylle, mikä hidastaa kaikkea.</value>
+  </data>
+  <data name="Health_Memory_Attention" xml:space="preserve">
+    <value>Muistia käytetään paljon; useampien sovellusten avaaminen voi alkaa hidastaa tietokonetta.</value>
+  </data>
+  <data name="Health_Memory_Good" xml:space="preserve">
+    <value>Käytössä oleville sovelluksille on vapaata muistia.</value>
+  </data>
+  <data name="Health_Area_Storage" xml:space="preserve">
+    <value>Tallennustila</value>
+  </data>
+  <data name="Health_Storage_NotAvailable" xml:space="preserve">
+    <value>Vapaa tila ei ole käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Health_Storage_Reference" xml:space="preserve">
+    <value>Varoitus, kun {0} käytetty, kriittinen, kun {1} (Asetukset › Kunnon kynnykset)</value>
+  </data>
+  <data name="Health_Storage_Thresholds" xml:space="preserve">
+    <value>16, kun Windows-asema on yli kriittisen tason, 8 yli varoitustason; 4 kustakin muusta asemasta yli kriittisen tason</value>
+  </data>
+  <data name="Health_Storage_Summary" xml:space="preserve">
+    <value>{0}: {1} vapaana / {2}</value>
+  </data>
+  <data name="Count_OtherVolume_One" xml:space="preserve">
+    <value>{0} muu asema</value>
+  </data>
+  <data name="Count_OtherVolume_Other" xml:space="preserve">
+    <value>{0} muuta asemaa</value>
+  </data>
+  <data name="Health_Storage_Problem" xml:space="preserve">
+    <value>Windows-asema on lähes täynnä: päivitykset voivat epäonnistua, eikä Windowsilla ole juuri tilaa sivutustiedostolle ja väliaikaisille tiedostoille.</value>
+  </data>
+  <data name="Health_Storage_Attention" xml:space="preserve">
+    <value>Asema on täyttymässä. Suuret tiedostot voi näyttää, mikä vie eniten tilaa (Sysora ei koskaan poista mitään).</value>
+  </data>
+  <data name="Health_Storage_Good" xml:space="preserve">
+    <value>Kaikilla asemilla on tilaa jäljellä.</value>
+  </data>
+  <data name="Health_Area_Disk" xml:space="preserve">
+    <value>Levyn toiminta</value>
+  </data>
+  <data name="Health_Disk_NotAvailable" xml:space="preserve">
+    <value>Levyn toiminta ei ole käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Health_Disk_Busiest" xml:space="preserve">
+    <value>Kiireisimmän levyn aktiivinen aika</value>
+  </data>
+  <data name="Health_Disk_Thresholds" xml:space="preserve">
+    <value>Ei yhtään alle 40 %:n keskiarvolla, enintään 10 90 %:ssa</value>
+  </data>
+  <data name="Health_Disk_Summary" xml:space="preserve">
+    <value>Kiireisin levy oli aktiivinen keskimäärin {0} ajasta (huippu {1})</value>
+  </data>
+  <data name="Health_Disk_Problem" xml:space="preserve">
+    <value>Levy oli varattuna suurimman osan ajasta: tiedostojen ja sovellusten avaaminen joutuu odottamaan sitä.</value>
+  </data>
+  <data name="Health_Disk_Attention" xml:space="preserve">
+    <value>Levy oli usein varattuna (päivitykset, indeksointi, kopiointi tai paljon lukeva sovellus).</value>
+  </data>
+  <data name="Health_Disk_Good" xml:space="preserve">
+    <value>Levyt olivat enimmäkseen joutilaina.</value>
+  </data>
+  <data name="Health_Gpu_Off" xml:space="preserve">
+    <value>Näytönohjaimen seuranta on poistettu käytöstä asetuksissa</value>
+  </data>
+  <data name="Health_Gpu_NotAvailable" xml:space="preserve">
+    <value>Näytönohjaimen käyttö ei ole käytettävissä tässä tietokoneessa</value>
+  </data>
+  <data name="Health_Gpu_VideoMemory" xml:space="preserve">
+    <value>videomuisti {0} / {1}</value>
+  </data>
+  <data name="Health_Gpu_Dedicated" xml:space="preserve">
+    <value>Erillinen videomuisti ({0})</value>
+  </data>
+  <data name="Health_Gpu_DedicatedValue" xml:space="preserve">
+    <value>{0} / {1} ({2})</value>
+  </data>
+  <data name="Health_Gpu_Reference" xml:space="preserve">
+    <value>5 pistettä vähennetään 95 %:ssa tai enemmässä</value>
+  </data>
+  <data name="Health_Gpu_Usage" xml:space="preserve">
+    <value>Käyttö keskimäärin {0}</value>
+  </data>
+  <data name="Health_Gpu_Attention" xml:space="preserve">
+    <value>Videomuisti on lähes täynnä: pelit ja grafiikkasovellukset voivat nykiä, kun Windows siirtää tietoja järjestelmämuistiin.</value>
+  </data>
+  <data name="Health_Gpu_Good" xml:space="preserve">
+    <value>Kiireinen näytönohjain on normaali pelatessa tai videota toistettaessa, joten pelkkä käyttö ei laske pisteitä; vain lähes täysi videomuisti laskee.</value>
+  </data>
+  <data name="Health_Area_Temperatures" xml:space="preserve">
+    <value>Lämpötilat</value>
+  </data>
+  <data name="Health_Temperatures_NotAvailable" xml:space="preserve">
+    <value>Ei käytettävissä: Windowsissa ei ole dokumentoitua tapaa lukea niitä ilman ydintilan ohjainta, eikä Sysora asenna sellaista</value>
+  </data>
+  <data name="Health_Temperatures_Good" xml:space="preserve">
+    <value>Ohjainten ilmoittamat lämpötilat ovat normaalialueella.</value>
+  </data>
+  <data name="Health_Temperatures_Hot" xml:space="preserve">
+    <value>Jokin osa on kuuma; se voi hidastaa itseään jäähtyäkseen.</value>
+  </data>
+  <data name="Health_Temperature_Of" xml:space="preserve">
+    <value>Lämpötila: {0}</value>
+  </data>
+  <data name="Health_Temperature_Reference" xml:space="preserve">
+    <value>5 pistettä 85 °C:ssa, 10 95 °C:ssa</value>
+  </data>
+  <data name="Health_Temperature_Source" xml:space="preserve">
+    <value>Näytönohjaimen ohjain</value>
+  </data>
+  <data name="Health_Area_Stability" xml:space="preserve">
+    <value>Vakaus</value>
+  </data>
+  <data name="Health_NotAnalyzedYet" xml:space="preserve">
+    <value>Ei vielä analysoitu</value>
+  </data>
+  <data name="Health_Stability_None" xml:space="preserve">
+    <value>Ei toistuvia ongelmia viimeisten {0} päivän aikana</value>
+  </data>
+  <data name="Count_RecurringProblem_One" xml:space="preserve">
+    <value>{0} toistuva ongelma</value>
+  </data>
+  <data name="Count_RecurringProblem_Other" xml:space="preserve">
+    <value>{0} toistuvaa ongelmaa</value>
+  </data>
+  <data name="Health_Stability_Good" xml:space="preserve">
+    <value>Mikään ongelma ei ole toistunut viime päivinä.</value>
+  </data>
+  <data name="Health_Stability_Problems" xml:space="preserve">
+    <value>Nämä ongelmat palasivat useana päivänä. Toistuvalla ongelmalla on yleensä syy, jota kannattaa etsiä.</value>
+  </data>
+  <data name="Health_RecurringProblems" xml:space="preserve">
+    <value>Toistuvat ongelmat</value>
+  </data>
+  <data name="Health_Stability_Reference" xml:space="preserve">
+    <value>4 pistettä kustakin (enintään {0}). Ongelma on toistuva, kun siitä on {1} jaksoa {2} eri päivänä.</value>
+  </data>
+  <data name="Health_Stability_Source" xml:space="preserve">
+    <value>Paikallisen historian hälytykset ja tapahtumat</value>
+  </data>
+  <data name="Health_Area_Anomalies" xml:space="preserve">
+    <value>Viimeaikaiset poikkeamat</value>
+  </data>
+  <data name="Health_None" xml:space="preserve">
+    <value>Ei mitään</value>
+  </data>
+  <data name="Health_Anomalies_None" xml:space="preserve">
+    <value>Ei hälytyksiä viimeisten 24 tunnin aikana</value>
+  </data>
+  <data name="Health_Anomalies_Count" xml:space="preserve">
+    <value>{0} viimeisten 24 tunnin aikana</value>
+  </data>
+  <data name="Health_Anomalies_Active" xml:space="preserve">
+    <value>({0} edelleen aktiivisena)</value>
+  </data>
+  <data name="Health_Anomalies_Good" xml:space="preserve">
+    <value>Pitkäkestoisia tai epätavallisia ongelmia ei ole havaittu viime aikoina.</value>
+  </data>
+  <data name="Health_Anomalies_Explanation" xml:space="preserve">
+    <value>Hälytyksiä annetaan vain ongelmista, jotka kestivät tai olivat epätavallisia tälle tietokoneelle. Tälle tietokoneelle tavallisiksi merkityt hälytykset eivät vähennä pisteitä.</value>
+  </data>
+  <data name="Health_Area_Usual" xml:space="preserve">
+    <value>Tavallinen toiminta</value>
+  </data>
+  <data name="Health_Usual_Now" xml:space="preserve">
+    <value>{0} nyt (15 minuutin keskiarvo)</value>
+  </data>
+  <data name="Health_Usual_Reference" xml:space="preserve">
+    <value>Tavallisesti {0} (mediaani {1}); epätavallinen yli {2}</value>
+  </data>
+  <data name="Health_Usual_Item" xml:space="preserve">
+    <value>{0} ({1}, tavallisesti {2})</value>
+  </data>
+  <data name="Health_Unusual" xml:space="preserve">
+    <value>Epätavallinen</value>
+  </data>
+  <data name="Health_Usual" xml:space="preserve">
+    <value>Tavallinen</value>
+  </data>
+  <data name="Health_Usual_Above" xml:space="preserve">
+    <value>Tavallista vaihteluväliäsi korkeampi: {0}</value>
+  </data>
+  <data name="Health_Usual_Within" xml:space="preserve">
+    <value>Tavallisessa vaihteluvälissäsi</value>
+  </data>
+  <data name="Health_Usual_Busier" xml:space="preserve">
+    <value>Tämä tietokone on tavallista kiireisempi. Se voi olla odotettavaa (peli, käännös) tai merkki siitä, että jokin on käynnissä taustalla.</value>
+  </data>
+  <data name="Health_Usual_Matches" xml:space="preserve">
+    <value>Toiminta vastaa sitä, mitä tämä tietokone tavallisesti tekee.</value>
+  </data>
+  <data name="Health_Missing_Explanation" xml:space="preserve">
+    <value>Ei lasketa pisteisiin: Sysora ei koskaan korvaa puuttuvaa mittausta arviolla.</value>
+  </data>
+  <data name="Health_Status_Normal" xml:space="preserve">
+    <value>Normaali</value>
+  </data>
+  <data name="Health_Status_Attention" xml:space="preserve">
+    <value>Huomio</value>
+  </data>
+  <data name="Health_Status_Problem" xml:space="preserve">
+    <value>Ongelma</value>
+  </data>
+  <data name="Health_ThresholdsSource" xml:space="preserve">
+    <value>Sysoran kiinteät pisteytyskynnykset</value>
+  </data>
+  <data name="Health_UsualMedian" xml:space="preserve">
+    <value>{0} (mediaani {1})</value>
+  </data>
+  <data name="AlertSeverity_Critical" xml:space="preserve">
+    <value>Kriittinen</value>
+  </data>
+  <data name="AlertSeverity_Warning" xml:space="preserve">
+    <value>Varoitus</value>
+  </data>
+  <data name="AlertSeverity_Info" xml:space="preserve">
+    <value>Tiedoksi</value>
+  </data>
+  <data name="Event_InternetAvailable" xml:space="preserve">
+    <value>Internet-yhteys käytettävissä</value>
+  </data>
+  <data name="Event_InternetLimited" xml:space="preserve">
+    <value>Internet-yhteys rajoitettu</value>
+  </data>
+  <data name="Event_InternetLost" xml:space="preserve">
+    <value>Internet-yhteys katkesi (vain paikallisverkko)</value>
+  </data>
+  <data name="Event_NetworkLost" xml:space="preserve">
+    <value>Verkkoyhteys katkesi</value>
+  </data>
+  <data name="Event_MetricUnavailable" xml:space="preserve">
+    <value>{0}: mittaukset eivät ole käytettävissä</value>
+  </data>
+  <data name="Event_MetricRestored" xml:space="preserve">
+    <value>{0}: mittaukset ovat taas käytettävissä</value>
+  </data>
+  <data name="Event_AsReportedByWindows" xml:space="preserve">
+    <value>Windowsin ilmoittama</value>
+  </data>
+  <data name="Event_VolumeConnected" xml:space="preserve">
+    <value>Asema {0}{1} liitetty</value>
+  </data>
+  <data name="Event_VolumeSize" xml:space="preserve">
+    <value>{0}, {1} asema</value>
+  </data>
+  <data name="Event_VolumeDisconnected" xml:space="preserve">
+    <value>Asema {0} irrotettu</value>
+  </data>
+  <data name="Event_AppCpu" xml:space="preserve">
+    <value>{0}: suorittimen käyttö nousi tasolle {1}</value>
+  </data>
+  <data name="Event_AppCpuDetail" xml:space="preserve">
+    <value>{0} muistia, {1}</value>
+  </data>
+  <data name="Event_AppMemory" xml:space="preserve">
+    <value>{0} käyttää {1} muistia</value>
+  </data>
+  <data name="Event_AppMemoryDetail" xml:space="preserve">
+    <value>{0} fyysisestä muistista</value>
+  </data>
+  <data name="Event_RanFor" xml:space="preserve">
+    <value>Käynnissä {0}.</value>
+  </data>
+  <data name="Event_AppExited" xml:space="preserve">
+    <value>{0} sulkeutui</value>
+  </data>
+  <data name="Event_AppExitedDetail" xml:space="preserve">
+    <value>Käytti {0} suoritinta ja {1} muistia</value>
+  </data>
+  <data name="Event_AppClosed" xml:space="preserve">
+    <value>{0} suljettu</value>
+  </data>
+  <data name="Event_RanForShort" xml:space="preserve">
+    <value>Käynnissä {0}</value>
+  </data>
+  <data name="Event_AppStarted" xml:space="preserve">
+    <value>{0} käynnistyi</value>
+  </data>
+  <data name="Event_Kind_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Event_Kind_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Event_Kind_Gpu" xml:space="preserve">
+    <value>Näytönohjain</value>
+  </data>
+  <data name="Event_Kind_Storage" xml:space="preserve">
+    <value>Tallennustila</value>
+  </data>
+  <data name="Event_Kind_Disk" xml:space="preserve">
+    <value>Levyn toiminta</value>
+  </data>
+  <data name="Event_Kind_Network" xml:space="preserve">
+    <value>Verkko</value>
+  </data>
+  <data name="Event_Kind_Processes" xml:space="preserve">
+    <value>Prosessit</value>
+  </data>
+  <data name="Event_Kind_System" xml:space="preserve">
+    <value>Järjestelmä</value>
+  </data>
+  <data name="DriveKind_Fixed" xml:space="preserve">
+    <value>kiinteä</value>
+  </data>
+  <data name="DriveKind_Removable" xml:space="preserve">
+    <value>siirrettävä</value>
+  </data>
+  <data name="DriveKind_Network" xml:space="preserve">
+    <value>verkko</value>
+  </data>
+  <data name="DriveKind_Optical" xml:space="preserve">
+    <value>optinen</value>
+  </data>
+  <data name="DriveKind_Ram" xml:space="preserve">
+    <value>RAM-levy</value>
+  </data>
+  <data name="DriveKind_Other" xml:space="preserve">
+    <value>muu</value>
+  </data>
+  <data name="Event_Gap" xml:space="preserve">
+    <value>Ei mittauksia {0} ajalta</value>
+  </data>
+  <data name="Event_GapDetail" xml:space="preserve">
+    <value>Sysora ei ollut käynnissä tai tietokone oli lepotilassa tämän jakson aikana.</value>
+  </data>
+  <data name="Event_MonitoringStarted" xml:space="preserve">
+    <value>Seuranta aloitettu</value>
+  </data>
+  <data name="Event_MonitoringPaused" xml:space="preserve">
+    <value>Seuranta keskeytetty</value>
+  </data>
+  <data name="Event_MonitoringResumed" xml:space="preserve">
+    <value>Seurantaa jatkettu</value>
+  </data>
+  <data name="Indicator_CpuNotAvailable" xml:space="preserve">
+    <value>Suorittimen käyttö ei ole käytettävissä</value>
+  </data>
+  <data name="Indicator_CpuNormal" xml:space="preserve">
+    <value>Suoritin normaali</value>
+  </data>
+  <data name="Indicator_MemoryNotAvailable" xml:space="preserve">
+    <value>Muistin käyttö ei ole käytettävissä</value>
+  </data>
+  <data name="Indicator_MemoryNormal" xml:space="preserve">
+    <value>Muisti normaali</value>
+  </data>
+  <data name="Indicator_StorageNotAvailable" xml:space="preserve">
+    <value>Tallennustila ei ole käytettävissä</value>
+  </data>
+  <data name="Indicator_Storage" xml:space="preserve">
+    <value>Tallennustila {0} {1}</value>
+  </data>
+  <data name="Indicator_AboveCritical" xml:space="preserve">
+    <value>Yli kriittisen kynnyksen {0}</value>
+  </data>
+  <data name="Indicator_AboveWarning" xml:space="preserve">
+    <value>Yli varoituskynnyksen {0}</value>
+  </data>
+  <data name="Indicator_StorageNormal" xml:space="preserve">
+    <value>Tallennustila normaali</value>
+  </data>
+  <data name="Indicator_NetworkNotAvailable" xml:space="preserve">
+    <value>Verkon tila ei ole käytettävissä</value>
+  </data>
+  <data name="Indicator_NetworkConnected" xml:space="preserve">
+    <value>Verkko yhdistetty</value>
+  </data>
+  <data name="Indicator_NetworkRestricted" xml:space="preserve">
+    <value>Windows ilmoittaa rajoitetusta yhteydestä (esimerkiksi kirjautumissivu)</value>
+  </data>
+  <data name="Indicator_NetworkNoInternet" xml:space="preserve">
+    <value>Verkko on käytettävissä, mutta Internet ei</value>
+  </data>
+  <data name="Indicator_NetworkUnknown" xml:space="preserve">
+    <value>Verkon tila tuntematon</value>
+  </data>
+  <data name="Indicator_ProcessesNotAvailable" xml:space="preserve">
+    <value>Prosessitiedot eivät ole käytettävissä</value>
+  </data>
+  <data name="Indicator_AppMemory" xml:space="preserve">
+    <value>{0} käyttää {1} muistia</value>
+  </data>
+  <data name="Indicator_AppMemoryThreshold" xml:space="preserve">
+    <value>Yli sovelluskohtaisen kynnyksen {0}</value>
+  </data>
+  <data name="Indicator_AppCpu" xml:space="preserve">
+    <value>{0} käyttää paljon suoritinta</value>
+  </data>
+  <data name="Indicator_NoAbnormalProcess" xml:space="preserve">
+    <value>Poikkeavia prosesseja ei havaittu</value>
+  </data>
+  <data name="Indicator_AboveFor" xml:space="preserve">
+    <value>Yli {0} yli {1} s ajan</value>
+  </data>
+  <data name="Intensity_Minimal_Description" xml:space="preserve">
+    <value>Pelaamiseen tai akkukäyttöön: mittaa harvemmin (suoritin ja muisti joka toisella välillä, prosessit, näytönohjain ja levyt joka kolmannella), säilyttää vähemmän sovelluksia mittausta kohden ja arvioi hälytykset 10 sekunnin välein.</value>
+  </data>
+  <data name="Intensity_Detailed_Description" xml:space="preserve">
+    <value>Ongelman tutkimiseen: mittaa kaksi kertaa useammin siellä, missä siitä on hyötyä (suoritin ja muisti jopa 0,5 s:n välein, prosessit 1 s:n välein), ja säilyttää enemmän sovelluksia mittausta kohden.</value>
+  </data>
+  <data name="Intensity_Balanced_Description" xml:space="preserve">
+    <value>Oletus: alla määritetyt välit, hyvä tasapaino tarkkuuden ja Sysoran oman kulutuksen välillä.</value>
+  </data>
+  <data name="Intensity_Minimal" xml:space="preserve">
+    <value>Vähäinen</value>
+  </data>
+  <data name="Intensity_Detailed" xml:space="preserve">
+    <value>Yksityiskohtainen</value>
+  </data>
+  <data name="Intensity_Balanced" xml:space="preserve">
+    <value>Tasapainoinen</value>
+  </data>
+  <data name="Event_Sleep" xml:space="preserve">
+    <value>Tietokone siirtyy lepotilaan</value>
+  </data>
+  <data name="Event_ResumedAfter" xml:space="preserve">
+    <value>Tietokone palasi lepotilasta (lepotilassa {0})</value>
+  </data>
+  <data name="Event_Resumed" xml:space="preserve">
+    <value>Tietokone palasi lepotilasta</value>
+  </data>
+  <data name="Self_Measuring" xml:space="preserve">
+    <value>Sysoran vaikutus: mitataan…</value>
+  </data>
+  <data name="Self_OverBudget" xml:space="preserve">
+    <value>Sysora on käyttänyt suoritinbudjettiaan ({0} kokonaiskapasiteetista) enemmän minuutin ajan: se pidentää keräysvälejään ×{1:0.##} pysyäkseen kevyenä.</value>
+  </data>
+  <data name="Self_HighMemory" xml:space="preserve">
+    <value>Sysora käyttää {0} muistia, enemmän kuin odotettiin. Uudelleenkäynnistys vapauttaa muistin; ilmoita asiasta, jos käyttö kasvaa edelleen.</value>
+  </data>
+  <data name="Self_HighAllocations" xml:space="preserve">
+    <value>Sysora varaa {0} muistia: roskienkeruuta on tavallista enemmän.</value>
+  </data>
+  <data name="Self_Cpu" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Self_Cpu_Note" xml:space="preserve">
+    <value>Kokonaiskapasiteetista viimeisten {0:0} sekunnin aikana</value>
+  </data>
+  <data name="Self_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Self_Memory_NoteManaged" xml:space="preserve">
+    <value>Työjoukko, josta .NET-objekteja {0}</value>
+  </data>
+  <data name="Self_Memory_Note" xml:space="preserve">
+    <value>Työjoukko</value>
+  </data>
+  <data name="Self_Allocations" xml:space="preserve">
+    <value>Varaukset</value>
+  </data>
+  <data name="Self_Allocations_Note" xml:space="preserve">
+    <value>Roskienkeruut viimeisimmällä jaksolla: {0} / {1} / {2} (sukupolvi 0 / 1 / 2)</value>
+  </data>
+  <data name="Self_DiskWrites" xml:space="preserve">
+    <value>Levylle kirjoitukset</value>
+  </data>
+  <data name="Self_DiskWrites_Note" xml:space="preserve">
+    <value>Sysoran omat kirjoitukset (historiatietokanta, asetukset, lokit) sen prosessiluettelon merkinnän mukaan</value>
+  </data>
+  <data name="Self_Background" xml:space="preserve">
+    <value>Taustatoiminta</value>
+  </data>
+  <data name="Self_Background_Value" xml:space="preserve">
+    <value>{0} · {1:0} keräyskierrosta minuutissa</value>
+  </data>
+  <data name="Self_Processes" xml:space="preserve">
+    <value>Analysoidut prosessit</value>
+  </data>
+  <data name="Self_Processes_Note" xml:space="preserve">
+    <value>{0} välein yhdellä järjestelmäkutsulla</value>
+  </data>
+  <data name="Self_Threads" xml:space="preserve">
+    <value>Säikeet</value>
+  </data>
+  <data name="Self_Headline" xml:space="preserve">
+    <value>Sysoran vaikutus: {0}</value>
+  </data>
+  <data name="Self_Level_Low" xml:space="preserve">
+    <value>Pieni</value>
+  </data>
+  <data name="Self_Level_Moderate" xml:space="preserve">
+    <value>Kohtalainen</value>
+  </data>
+  <data name="Self_Level_High" xml:space="preserve">
+    <value>Suuri</value>
+  </data>
+  <data name="Self_Level_Measuring" xml:space="preserve">
+    <value>Mitataan…</value>
+  </data>
+  <data name="Self_Interval_Cpu" xml:space="preserve">
+    <value>suoritin</value>
+  </data>
+  <data name="Self_Interval_Memory" xml:space="preserve">
+    <value>muisti</value>
+  </data>
+  <data name="Self_Interval_Processes" xml:space="preserve">
+    <value>prosessit</value>
+  </data>
+  <data name="Self_Interval_Gpu" xml:space="preserve">
+    <value>näytönohjain</value>
+  </data>
+  <data name="Self_Interval_Disks" xml:space="preserve">
+    <value>levyt</value>
+  </data>
+  <data name="Self_Interval_Network" xml:space="preserve">
+    <value>verkko</value>
+  </data>
+  <data name="Self_Interval_Space" xml:space="preserve">
+    <value>vapaa tila</value>
+  </data>
+  <data name="Self_Investigating" xml:space="preserve">
+    <value>Tutkimus käynnissä (yksityiskohtainen)</value>
+  </data>
+  <data name="Self_Intensity" xml:space="preserve">
+    <value>Tehokkuus {0}</value>
+  </data>
+  <data name="Self_Hidden" xml:space="preserve">
+    <value>ikkuna piilotettu: näytöllä näkyvien mittausten päivitys harvennettu</value>
+  </data>
+  <data name="LargeFiles_NoExtension" xml:space="preserve">
+    <value>(ei tiedostotunnistetta)</value>
+  </data>
+  <data name="LargeFiles_Found" xml:space="preserve">
+    <value>{0}, vähintään {1} ({2}), kohteessa {3}</value>
+  </data>
+  <data name="Count_File_One" xml:space="preserve">
+    <value>{0} tiedosto</value>
+  </data>
+  <data name="Count_File_Other" xml:space="preserve">
+    <value>{0} tiedostoa</value>
+  </data>
+  <data name="Count_Folder_One" xml:space="preserve">
+    <value>{0:N0} kansio</value>
+  </data>
+  <data name="Count_Folder_Other" xml:space="preserve">
+    <value>{0:N0} kansiota</value>
+  </data>
+  <data name="LargeFiles_Denied_One" xml:space="preserve">
+    <value>{0} kansiota ei voitu lukea (käyttö estetty)</value>
+  </data>
+  <data name="LargeFiles_Denied_Other" xml:space="preserve">
+    <value>{0} kansiota ei voitu lukea (käyttö estetty)</value>
+  </data>
+  <data name="LargeFiles_Unavailable_One" xml:space="preserve">
+    <value>{0} kansio ei ollut käytettävissä</value>
+  </data>
+  <data name="LargeFiles_Unavailable_Other" xml:space="preserve">
+    <value>{0} kansiota ei ollut käytettävissä</value>
+  </data>
+  <data name="LargeFiles_ProblemsSuffix" xml:space="preserve">
+    <value>{0}: niiden sisältö on tuntematon, ei puuttuva.</value>
+  </data>
+  <data name="LargeFiles_Cancelled" xml:space="preserve">
+    <value>Tarkistus peruutettiin {0} jälkeen: osittaiset tulokset, {1}{2}</value>
+  </data>
+  <data name="LargeFiles_Failed" xml:space="preserve">
+    <value>Tarkistus epäonnistui.</value>
+  </data>
+  <data name="LargeFiles_Completed" xml:space="preserve">
+    <value>Tarkistus valmistui ajassa {0}: {1}{2}</value>
+  </data>
+  <data name="LargeFiles_WindowsNote" xml:space="preserve">
+    <value>Windowsin hallinnoima: älä poista sitä manuaalisesti.</value>
+  </data>
+  <data name="LargeFiles_PageFile" xml:space="preserve">
+    <value>Windowsin sivutustiedosto. Sen koko asetetaan kohdassa Järjestelmä › Järjestelmän lisäasetukset; älä poista sitä manuaalisesti.</value>
+  </data>
+  <data name="LargeFiles_Hiberfil" xml:space="preserve">
+    <value>Horrostilatiedosto (myös nopean käynnistyksen käyttämä). Windowsin hallinnoima: älä poista sitä manuaalisesti.</value>
+  </data>
+  <data name="LargeFiles_RecycleBinNote" xml:space="preserve">
+    <value>Roskakorissa: roskakorin tyhjentäminen vapauttaa tämän tilan.</value>
+  </data>
+  <data name="LargeFiles_InstallerCache" xml:space="preserve">
+    <value>Windows Installerin välimuisti: tarvitaan sovellusten korjaamiseen tai poistamiseen. Älä poista sitä manuaalisesti.</value>
+  </data>
+  <data name="LargeFiles_VirtualDiskNote" xml:space="preserve">
+    <value>Näennäislevy: se voi kuulua WSL:lle, Hyper-V:lle, Dockerille tai näennäiskoneelle ja sisältää sen tiedot.</value>
+  </data>
+  <data name="LargeFiles_DatabaseNote" xml:space="preserve">
+    <value>Tietokantatiedosto: sovellus säilyttää tietonsa siinä.</value>
+  </data>
+  <data name="LargeFiles_GameDataNote" xml:space="preserve">
+    <value>Pelin tiedot: niiden poistaminen rikkoo pelin; poista sen sijaan pelin asennus.</value>
+  </data>
+  <data name="LargeFiles_Cat_Video" xml:space="preserve">
+    <value>Videot</value>
+  </data>
+  <data name="LargeFiles_Cat_Audio" xml:space="preserve">
+    <value>Ääni</value>
+  </data>
+  <data name="LargeFiles_Cat_Image" xml:space="preserve">
+    <value>Kuvat</value>
+  </data>
+  <data name="LargeFiles_Cat_Archive" xml:space="preserve">
+    <value>Arkistot</value>
+  </data>
+  <data name="LargeFiles_Cat_DiskImage" xml:space="preserve">
+    <value>Levykuvat</value>
+  </data>
+  <data name="LargeFiles_Cat_VirtualDisk" xml:space="preserve">
+    <value>Näennäislevyt</value>
+  </data>
+  <data name="LargeFiles_Cat_Installer" xml:space="preserve">
+    <value>Asennusohjelmat</value>
+  </data>
+  <data name="LargeFiles_Cat_Backup" xml:space="preserve">
+    <value>Varmuuskopiot</value>
+  </data>
+  <data name="LargeFiles_Cat_Database" xml:space="preserve">
+    <value>Tietokannat</value>
+  </data>
+  <data name="LargeFiles_Cat_Log" xml:space="preserve">
+    <value>Lokit ja vedokset</value>
+  </data>
+  <data name="LargeFiles_Cat_Document" xml:space="preserve">
+    <value>Asiakirjat</value>
+  </data>
+  <data name="LargeFiles_Cat_GameData" xml:space="preserve">
+    <value>Pelin tiedot</value>
+  </data>
+  <data name="LargeFiles_Cat_Windows" xml:space="preserve">
+    <value>Windowsin hallinnoima</value>
+  </data>
+  <data name="LargeFiles_Cat_RecycleBin" xml:space="preserve">
+    <value>Roskakori</value>
+  </data>
+  <data name="LargeFiles_Cat_Other" xml:space="preserve">
+    <value>Muu</value>
+  </data>
+  <data name="Timeline_High" xml:space="preserve">
+    <value>{0}: suuri</value>
+  </data>
+  <data name="Timeline_High_Detail" xml:space="preserve">
+    <value>Minuutin keskiarvo {0} (huippu {1})</value>
+  </data>
+  <data name="Timeline_Source_Minutes" xml:space="preserve">
+    <value>Minuuttikohtainen historia</value>
+  </data>
+  <data name="Timeline_Normal" xml:space="preserve">
+    <value>{0}: palasi normaaliksi</value>
+  </data>
+  <data name="Timeline_Normal_Detail" xml:space="preserve">
+    <value>{0} kestäneen suuren toiminnan jälkeen (huippu {1})</value>
+  </data>
+  <data name="Timeline_Source_Observed" xml:space="preserve">
+    <value>Sysoran havaitsema</value>
+  </data>
+  <data name="Timeline_Was" xml:space="preserve">
+    <value>Aiemmin: {0}</value>
+  </data>
+  <data name="Timeline_HappenedBetween" xml:space="preserve">
+    <value>Tapahtui välillä {0} – {1}.</value>
+  </data>
+  <data name="Timeline_Source_Snapshots" xml:space="preserve">
+    <value>Havaittu vertaamalla tietokoneen tilannevedoksia</value>
+  </data>
+  <data name="Trouble_Metric_MemoryAmount" xml:space="preserve">
+    <value>Käytössä oleva muisti (määrä)</value>
+  </data>
+  <data name="Trouble_Metric_Disk" xml:space="preserve">
+    <value>Levyn aktiivinen aika (kiireisin levy)</value>
+  </data>
+  <data name="Trouble_Likely" xml:space="preserve">
+    <value>Todennäköinen</value>
+  </data>
+  <data name="Trouble_Headline_Nothing" xml:space="preserve">
+    <value>Tutkimus valmis: mitään poikkeavaa ei mitattu</value>
+  </data>
+  <data name="Trouble_Headline_One" xml:space="preserve">
+    <value>Tutkimus valmis: {0} poikkeama löytyi</value>
+  </data>
+  <data name="Trouble_Headline_Other" xml:space="preserve">
+    <value>Tutkimus valmis: {0} poikkeamaa löytyi</value>
+  </data>
+  <data name="Trouble_Summary_NoMeasurement" xml:space="preserve">
+    <value>Tutkimuksen aikana ei tehty mittauksia (seuranta keskeytetty tai tietokone lepotilassa).</value>
+  </data>
+  <data name="Trouble_Summary_Over" xml:space="preserve">
+    <value>{0} ajalta {1}</value>
+  </data>
+  <data name="Trouble_Summary_Cpu" xml:space="preserve">
+    <value>: suoritin keskimäärin {0} (huippu {1})</value>
+  </data>
+  <data name="Trouble_Summary_Memory" xml:space="preserve">
+    <value>, muisti {0} (huippu {1})</value>
+  </data>
+  <data name="Trouble_Summary_Suggests" xml:space="preserve">
+    <value>Tietojen perusteella: {0}</value>
+  </data>
+  <data name="Trouble_Summary_NoSingleApp" xml:space="preserve">
+    <value>Mikään yksittäinen sovellus ei selitä poikkeamia selvästi.</value>
+  </data>
+  <data name="Trouble_Summary_Nothing" xml:space="preserve">
+    <value>Mitään poikkeavaa ei mitattu.</value>
+  </data>
+  <data name="Trouble_HighLoad" xml:space="preserve">
+    <value>Suuri kuormitus</value>
+  </data>
+  <data name="Trouble_HighLoad_Text" xml:space="preserve">
+    <value>{0} {1}/{2} mittauksessa ({3} ajasta)</value>
+  </data>
+  <data name="Trouble_Share_Cpu" xml:space="preserve">
+    <value>Suoritin vähintään {0}</value>
+  </data>
+  <data name="Trouble_Share_Memory" xml:space="preserve">
+    <value>Muisti vähintään {0}</value>
+  </data>
+  <data name="Trouble_Share_Disk" xml:space="preserve">
+    <value>Levy aktiivinen vähintään {0} ajasta</value>
+  </data>
+  <data name="Trouble_Alert" xml:space="preserve">
+    <value>Hälytys</value>
+  </data>
+  <data name="Trouble_Interruption" xml:space="preserve">
+    <value>Keskeytys</value>
+  </data>
+  <data name="Trouble_DiagnosisAtEnd" xml:space="preserve">
+    <value>Diagnoosi lopussa</value>
+  </data>
+  <data name="Trouble_HighCpu" xml:space="preserve">
+    <value>Suuri suorittimen käyttö</value>
+  </data>
+  <data name="Trouble_HighCpu_Text" xml:space="preserve">
+    <value>{0} oli kiireisin sovellus {1}/{2} hetkessä, jolloin suorittimen käyttö oli suuri ({3} huipussaan)</value>
+  </data>
+  <data name="Trouble_BusyDisk" xml:space="preserve">
+    <value>Levy varattuna</value>
+  </data>
+  <data name="Trouble_BusyDisk_Text" xml:space="preserve">
+    <value>{0}: eniten I/O-toimintoja (tiedostot, laitteet ja verkko yhteensä) {1}/{2} hetkessä, jolloin levy oli varattuna</value>
+  </data>
+  <data name="Trouble_MemoryGrowth" xml:space="preserve">
+    <value>Muistin kasvu</value>
+  </data>
+  <data name="Trouble_MemoryGrowth_Text" xml:space="preserve">
+    <value>Käytössä oleva muisti kasvoi {0}; {1} kasvoi siitä {2}</value>
+  </data>
+  <data name="Trouble_Game" xml:space="preserve">
+    <value>Peli</value>
+  </data>
+  <data name="Trouble_Game_Text" xml:space="preserve">
+    <value>{0} klo {1}: sen jälkeinen suuri kuormitus on odotettavaa</value>
+  </data>
+  <data name="Trouble_StartedDuring" xml:space="preserve">
+    <value>Käynnistyi tutkimuksen aikana</value>
+  </data>
+  <data name="Trouble_At" xml:space="preserve">
+    <value>{0} klo {1}</value>
+  </data>
+  <data name="Trouble_Unknown_Temperatures" xml:space="preserve">
+    <value>Ei käytettävissä: Windowsissa ei ole dokumentoitua tapaa lukea niitä ilman ydintilan ohjainta.</value>
+  </data>
+  <data name="Trouble_Unknown_Gpu" xml:space="preserve">
+    <value>Ei käytettävissä tässä tietokoneessa (tai näytönohjaimen seuranta on poistettu käytöstä).</value>
+  </data>
+  <data name="Trouble_Applications" xml:space="preserve">
+    <value>Sovellukset</value>
+  </data>
+  <data name="Trouble_Unknown_Applications" xml:space="preserve">
+    <value>Ei käytettävissä: tutkimuksen aikana ei tehty prosessimittauksia.</value>
+  </data>
+  <data name="Trouble_NetworkPerApp" xml:space="preserve">
+    <value>Sovelluskohtainen verkko</value>
+  </data>
+  <data name="Trouble_Unknown_Network" xml:space="preserve">
+    <value>Ei käytettävissä: Windows ei ilmoita sitä ilman järjestelmänvalvojatason tapahtumien jäljitystä.</value>
+  </data>
+  <data name="Trouble_Fps" xml:space="preserve">
+    <value>Kuvataajuus (FPS)</value>
+  </data>
+  <data name="Trouble_Unknown_Fps" xml:space="preserve">
+    <value>Ei käytettävissä: Windows ei tarjoa muille sovelluksille luotettavaa lähdettä.</value>
+  </data>
+  <data name="Trouble_InsideApps" xml:space="preserve">
+    <value>Sovellusten sisällä</value>
+  </data>
+  <data name="Trouble_Unknown_Inside" xml:space="preserve">
+    <value>Sitä, mitä sovellus tekee sisäisesti (miksi se käyttää resursseja), ei voi havaita ulkopuolelta.</value>
+  </data>
+  <data name="Trouble_Rec_Cpu" xml:space="preserve">
+    <value>Jos hidastus osui hetkiin, jolloin {0} oli kiireinen, sulje se tai anna sen tehtävän valmistua ja tee sitten uusi tutkimus vertailua varten.</value>
+  </data>
+  <data name="Trouble_Rec_Memory" xml:space="preserve">
+    <value>Muisti oli ajoittain lähes täynnä: sulje tarpeettomat sovellukset. Jos tätä tapahtuu usein, lisämuisti auttaisi.</value>
+  </data>
+  <data name="Trouble_Rec_Disk" xml:space="preserve">
+    <value>Levy oli ajoittain hyvin kiireinen: anna päivitysten tai kopiointien valmistua. Sovellusten vaikutus näyttää, mitkä sovellukset lukevat ja kirjoittavat eniten.</value>
+  </data>
+  <data name="Trouble_Rec_Nothing" xml:space="preserve">
+    <value>Mitään poikkeavaa ei mitattu. Jos ongelma ilmeni tutkimuksen aikana, se ei välttämättä näy näissä mittauksissa (verkon viive, pudonneet kuvat, laitevika); muuten tee uusi tutkimus, kun ongelma ilmenee.</value>
+  </data>
+  <data name="Trouble_Rec_Export" xml:space="preserve">
+    <value>Vie raportti, jotta voit säilyttää sen tai jakaa sen jollekulle, joka auttaa sinua.</value>
+  </data>
+  <data name="Trouble_Event_Started" xml:space="preserve">
+    <value>Vianmääritys aloitettu ({0})</value>
+  </data>
+  <data name="Trouble_Event_StartedDetail" xml:space="preserve">
+    <value>Yksityiskohtainen keräys tutkimuksen loppuun asti.</value>
+  </data>
+  <data name="AlertStatus_New" xml:space="preserve">
+    <value>Uusi</value>
+  </data>
+  <data name="AlertStatus_Seen" xml:space="preserve">
+    <value>Nähty</value>
+  </data>
+  <data name="AlertStatus_Resolved" xml:space="preserve">
+    <value>Ratkaistu</value>
+  </data>
+  <data name="Importance_High" xml:space="preserve">
+    <value>Suuri</value>
+  </data>
+  <data name="Importance_Medium" xml:space="preserve">
+    <value>Keskitaso</value>
+  </data>
+  <data name="Importance_Low" xml:space="preserve">
+    <value>Pieni</value>
+  </data>
+  <data name="TimelineCat_Application" xml:space="preserve">
+    <value>Sovellus</value>
+  </data>
+  <data name="TimelineCat_Game" xml:space="preserve">
+    <value>Peli</value>
+  </data>
+  <data name="TimelineCat_Alert" xml:space="preserve">
+    <value>Hälytys</value>
+  </data>
+  <data name="TimelineCat_Anomaly" xml:space="preserve">
+    <value>Poikkeama</value>
+  </data>
+  <data name="TimelineCat_Change" xml:space="preserve">
+    <value>Muutos</value>
+  </data>
+  <data name="TimelineCat_System" xml:space="preserve">
+    <value>Järjestelmä</value>
+  </data>
+  <data name="TimelineCat_Investigation" xml:space="preserve">
+    <value>Tutkimus</value>
+  </data>
+  <data name="TimelineCat_Monitoring" xml:space="preserve">
+    <value>Seuranta</value>
+  </data>
+  <data name="ImpactPeriod_Session" xml:space="preserve">
+    <value>Tämä istunto</value>
+  </data>
+  <data name="ImpactPeriod_24Hours" xml:space="preserve">
+    <value>Viimeiset 24 tuntia</value>
+  </data>
+  <data name="ImpactPeriod_7Days" xml:space="preserve">
+    <value>Viimeiset 7 päivää</value>
+  </data>
+  <data name="TroubleEnd_Completed" xml:space="preserve">
+    <value>Valmis</value>
+  </data>
+  <data name="TroubleEnd_Stopped" xml:space="preserve">
+    <value>Pysäytit sen</value>
+  </data>
+  <data name="TroubleEnd_Closed" xml:space="preserve">
+    <value>Sysora suljettiin</value>
+  </data>
+  <data name="GameFinding_Anomaly" xml:space="preserve">
+    <value>Poikkeama</value>
+  </data>
+  <data name="GameFinding_Analysis" xml:space="preserve">
+    <value>Analyysi</value>
+  </data>
+  <data name="GameFinding_Comparison" xml:space="preserve">
+    <value>Vertailu</value>
+  </data>
+  <data name="Report_Limit_Temperatures" xml:space="preserve">
+    <value>Lämpötilat: ei käytettävissä (Windowsissa ei ole dokumentoitua tapaa lukea niitä ilman ydintilan ohjainta).</value>
+  </data>
+  <data name="Report_Areas" xml:space="preserve">
+    <value>Osa-alueet</value>
+  </data>
+  <data name="Report_Col_Area" xml:space="preserve">
+    <value>Osa-alue</value>
+  </data>
+  <data name="Report_Col_State" xml:space="preserve">
+    <value>Tila</value>
+  </data>
+  <data name="Report_Col_ImpactScore" xml:space="preserve">
+    <value>Vaikutus pisteisiin</value>
+  </data>
+  <data name="Report_Col_Measured" xml:space="preserve">
+    <value>Mitattu</value>
+  </data>
+  <data name="Report_Score" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="Report_PcHealth" xml:space="preserve">
+    <value>Tietokoneen kunto</value>
+  </data>
+  <data name="Report_WhatLowers" xml:space="preserve">
+    <value>Mikä laskee sitä</value>
+  </data>
+  <data name="Report_HowComputed" xml:space="preserve">
+    <value>Miten se lasketaan</value>
+  </data>
+  <data name="Report_Problems" xml:space="preserve">
+    <value>Ongelmat</value>
+  </data>
+  <data name="Report_PointsToWatch" xml:space="preserve">
+    <value>Seurattavat kohdat</value>
+  </data>
+  <data name="Report_CheckedNormal" xml:space="preserve">
+    <value>Tarkistettu ja normaali</value>
+  </data>
+  <data name="Report_Col_Finding" xml:space="preserve">
+    <value>Havainto</value>
+  </data>
+  <data name="Report_Col_Value" xml:space="preserve">
+    <value>Arvo</value>
+  </data>
+  <data name="Report_Col_ComparedWith" xml:space="preserve">
+    <value>Verrattu</value>
+  </data>
+  <data name="Report_Col_Confidence" xml:space="preserve">
+    <value>Varmuus</value>
+  </data>
+  <data name="Report_Col_Explanation" xml:space="preserve">
+    <value>Selitys</value>
+  </data>
+  <data name="Report_ComparedUsual" xml:space="preserve">
+    <value>Verrattuna tavalliseen toimintaasi</value>
+  </data>
+  <data name="Report_Col_Metric" xml:space="preserve">
+    <value>Mittari</value>
+  </data>
+  <data name="Report_Diagnosis" xml:space="preserve">
+    <value>Diagnoosi</value>
+  </data>
+  <data name="Report_Analyzed_One" xml:space="preserve">
+    <value>{0} mittaus analysoitu.</value>
+  </data>
+  <data name="Report_Analyzed_Other" xml:space="preserve">
+    <value>{0} mittausta analysoitu.</value>
+  </data>
+  <data name="Report_WhyNowTitle" xml:space="preserve">
+    <value>Miksi nyt? {0}</value>
+  </data>
+  <data name="Report_WhatHappened" xml:space="preserve">
+    <value>Mitä tapahtui</value>
+  </data>
+  <data name="Report_Statements" xml:space="preserve">
+    <value>Väitteet ja mihin ne perustuvat</value>
+  </data>
+  <data name="Report_EventsSameTime" xml:space="preserve">
+    <value>Samaan aikaan tapahtunutta</value>
+  </data>
+  <data name="Report_CoincidenceNotProof" xml:space="preserve">
+    <value>Ajallinen sattuma ei ole todiste syystä.</value>
+  </data>
+  <data name="Report_NotMeasured" xml:space="preserve">
+    <value>{0}: ei mitattu tällä jaksolla.</value>
+  </data>
+  <data name="Report_Replay" xml:space="preserve">
+    <value>Suorituskyvyn toisto</value>
+  </data>
+  <data name="Report_Measurements" xml:space="preserve">
+    <value>Mittaukset</value>
+  </data>
+  <data name="Report_Col_Average" xml:space="preserve">
+    <value>Keskiarvo</value>
+  </data>
+  <data name="Report_Col_Peak" xml:space="preserve">
+    <value>Huippu</value>
+  </data>
+  <data name="Report_Col_Lowest" xml:space="preserve">
+    <value>Pienin</value>
+  </data>
+  <data name="Report_Events" xml:space="preserve">
+    <value>Tapahtumat</value>
+  </data>
+  <data name="Report_GameTitle" xml:space="preserve">
+    <value>Peli-istunto: {0}</value>
+  </data>
+  <data name="Report_Session" xml:space="preserve">
+    <value>Istunto</value>
+  </data>
+  <data name="Report_IdentifiedAsGame" xml:space="preserve">
+    <value>Tunnistettu peliksi</value>
+  </data>
+  <data name="Report_Coverage" xml:space="preserve">
+    <value>Kattavuus</value>
+  </data>
+  <data name="Report_Col_Maximum" xml:space="preserve">
+    <value>Enimmäisarvo</value>
+  </data>
+  <data name="Report_Col_Note" xml:space="preserve">
+    <value>Huomautus</value>
+  </data>
+  <data name="Report_Findings" xml:space="preserve">
+    <value>Havainnot</value>
+  </data>
+  <data name="Report_Col_HowToRead" xml:space="preserve">
+    <value>Miten tulkita</value>
+  </data>
+  <data name="Report_Col_Description" xml:space="preserve">
+    <value>Kuvaus</value>
+  </data>
+  <data name="Report_ComparedPrevious" xml:space="preserve">
+    <value>Verrattuna aiempiin istuntoihin</value>
+  </data>
+  <data name="Report_Col_ThisSession" xml:space="preserve">
+    <value>Tämä istunto</value>
+  </data>
+  <data name="Report_Col_Previous" xml:space="preserve">
+    <value>Aiemmat</value>
+  </data>
+  <data name="Report_Col_Difference" xml:space="preserve">
+    <value>Ero</value>
+  </data>
+  <data name="Report_AppImpact" xml:space="preserve">
+    <value>Sovellusten vaikutus</value>
+  </data>
+  <data name="Report_Impact_None" xml:space="preserve">
+    <value>Tältä jaksolta ei ole tallennettu sovellusten käyttöä.</value>
+  </data>
+  <data name="Report_Impact_Highest" xml:space="preserve">
+    <value>Suurin vaikutus: {0} ({1}). {2}</value>
+  </data>
+  <data name="Report_Applications" xml:space="preserve">
+    <value>Sovellukset</value>
+  </data>
+  <data name="Report_Col_Application" xml:space="preserve">
+    <value>Sovellus</value>
+  </data>
+  <data name="Report_Col_Impact" xml:space="preserve">
+    <value>Vaikutus</value>
+  </data>
+  <data name="Report_Col_CpuAvg" xml:space="preserve">
+    <value>Suoritin (ka.)</value>
+  </data>
+  <data name="Report_Col_MemoryAvg" xml:space="preserve">
+    <value>Muisti (ka.)</value>
+  </data>
+  <data name="Report_Col_IoAvg" xml:space="preserve">
+    <value>I/O (ka.)</value>
+  </data>
+  <data name="Report_Col_Running" xml:space="preserve">
+    <value>Käyntiaika</value>
+  </data>
+  <data name="Report_HowScoreComputed" xml:space="preserve">
+    <value>Miten pisteet lasketaan</value>
+  </data>
+  <data name="Report_Impact_IoLimit" xml:space="preserve">
+    <value>Sovelluskohtainen levyn I/O sisältää tiedostot, laitteet ja verkon: Windows ei erittele niitä.</value>
+  </data>
+  <data name="Report_Period" xml:space="preserve">
+    <value>Jakso: {0}</value>
+  </data>
+  <data name="Report_Alerts" xml:space="preserve">
+    <value>Hälytykset</value>
+  </data>
+  <data name="Report_Alerts_None" xml:space="preserve">
+    <value>Hälytyksiä ei ole tallennettu.</value>
+  </data>
+  <data name="Report_Alerts_Summary" xml:space="preserve">
+    <value>{0}, {1} edelleen aktiivisena.</value>
+  </data>
+  <data name="Report_Col_Raised" xml:space="preserve">
+    <value>Annettu</value>
+  </data>
+  <data name="Report_Col_Alert" xml:space="preserve">
+    <value>Hälytys</value>
+  </data>
+  <data name="Report_Col_Severity" xml:space="preserve">
+    <value>Vakavuus</value>
+  </data>
+  <data name="Report_Col_Status" xml:space="preserve">
+    <value>Tila</value>
+  </data>
+  <data name="Report_Alerts_Note" xml:space="preserve">
+    <value>Hälytyksiä annetaan vain ongelmista, jotka kestävät tai ovat epätavallisia tälle tietokoneelle, enintään muutama tunnissa.</value>
+  </data>
+  <data name="Report_SinceYesterday" xml:space="preserve">
+    <value>Eilisen jälkeen</value>
+  </data>
+  <data name="Report_Col_Change" xml:space="preserve">
+    <value>Muutos</value>
+  </data>
+  <data name="Report_Col_Importance" xml:space="preserve">
+    <value>Tärkeys</value>
+  </data>
+  <data name="Report_Col_When" xml:space="preserve">
+    <value>Milloin</value>
+  </data>
+  <data name="Report_Unchanged" xml:space="preserve">
+    <value>Ennallaan: {0}</value>
+  </data>
+  <data name="Report_NotCompared" xml:space="preserve">
+    <value>Ei verrattu: {0}</value>
+  </data>
+  <data name="Report_DetectedChanges" xml:space="preserve">
+    <value>Havaitut muutokset</value>
+  </data>
+  <data name="Report_Col_Origin" xml:space="preserve">
+    <value>Alkuperä</value>
+  </data>
+  <data name="Report_Changes" xml:space="preserve">
+    <value>Muutokset</value>
+  </data>
+  <data name="Report_Changes_None" xml:space="preserve">
+    <value>Muutoksia ei ole tallennettu.</value>
+  </data>
+  <data name="Report_Changes_One" xml:space="preserve">
+    <value>{0} muutos havaittu vertaamalla tietokoneen tilannevedoksia.</value>
+  </data>
+  <data name="Report_Changes_Other" xml:space="preserve">
+    <value>{0} muutosta havaittu vertaamalla tietokoneen tilannevedoksia.</value>
+  </data>
+  <data name="Report_Changes_Limit" xml:space="preserve">
+    <value>Ohjaimia, palveluita, ajoitettuja tehtäviä ja yksittäisiä tiedostoja ei verrata.</value>
+  </data>
+  <data name="Report_Changes_Note" xml:space="preserve">
+    <value>Muutos ajoitetaan kahden tilannevedoksen välille, ellei sen asennusohjelma tallentanut päivämäärää. Kun alkuperää ei voi havaita, se mainitaan.</value>
+  </data>
+  <data name="Report_ComparisonTitle" xml:space="preserve">
+    <value>Vertailu: {0} → {1}</value>
+  </data>
+  <data name="Report_BeforeAfter" xml:space="preserve">
+    <value>Ennen / jälkeen</value>
+  </data>
+  <data name="Report_Col_Evolution" xml:space="preserve">
+    <value>Muutos</value>
+  </data>
+  <data name="Report_Col_Relative" xml:space="preserve">
+    <value>Suhteellinen</value>
+  </data>
+  <data name="Report_Timeline" xml:space="preserve">
+    <value>Aikajana</value>
+  </data>
+  <data name="Report_Timeline_Summary" xml:space="preserve">
+    <value>{0} välillä {1} – {2}.</value>
+  </data>
+  <data name="Count_Entry_One" xml:space="preserve">
+    <value>{0} merkintä</value>
+  </data>
+  <data name="Count_Entry_Other" xml:space="preserve">
+    <value>{0} merkintää</value>
+  </data>
+  <data name="Report_Entries" xml:space="preserve">
+    <value>Merkinnät</value>
+  </data>
+  <data name="Report_Col_Time" xml:space="preserve">
+    <value>Aika</value>
+  </data>
+  <data name="Report_Col_Category" xml:space="preserve">
+    <value>Luokka</value>
+  </data>
+  <data name="Report_Col_Entry" xml:space="preserve">
+    <value>Merkintä</value>
+  </data>
+  <data name="Report_Col_Detail" xml:space="preserve">
+    <value>Tiedot</value>
+  </data>
+  <data name="Report_Col_Source" xml:space="preserve">
+    <value>Lähde</value>
+  </data>
+  <data name="Report_Timeline_Note" xml:space="preserve">
+    <value>Ajat ovat Sysoran havaitsemia. Tilannevedoksia vertaamalla löydetty muutos (≈) tapahtui viimeistään näytettynä aikana.</value>
+  </data>
+  <data name="Report_Troubleshooting" xml:space="preserve">
+    <value>Vianmääritystutkimus</value>
+  </data>
+  <data name="Report_Anomalies" xml:space="preserve">
+    <value>Poikkeamat</value>
+  </data>
+  <data name="Report_NoneMeasured" xml:space="preserve">
+    <value>Ei mitattuja.</value>
+  </data>
+  <data name="Report_Correlations" xml:space="preserve">
+    <value>Korrelaatiot ja todennäköiset selitykset</value>
+  </data>
+  <data name="Report_AppsInvolved" xml:space="preserve">
+    <value>Mukana olevat sovellukset</value>
+  </data>
+  <data name="Report_Col_CpuPeak" xml:space="preserve">
+    <value>Suoritin (huippu)</value>
+  </data>
+  <data name="Report_Col_MemoryPeak" xml:space="preserve">
+    <value>Muisti (huippu)</value>
+  </data>
+  <data name="Report_Unknown" xml:space="preserve">
+    <value>Tuntematon</value>
+  </data>
+  <data name="Report_Recommendations" xml:space="preserve">
+    <value>Suositukset</value>
+  </data>
+  <data name="Report_Trouble_Ended" xml:space="preserve">
+    <value>Päättyi: {0}. Suunniteltu kesto {1}.</value>
+  </data>
+  <data name="Report_Trouble_Collected" xml:space="preserve">
+    <value>Kerätty yksityiskohtaisella seurannan tehokkuudella.</value>
+  </data>
+  <data name="Report_Large_Denied" xml:space="preserve">
+    <value>{0}; niiden sisältö on tuntematon. Esimerkkejä: {1}</value>
+  </data>
+  <data name="Report_Large_Unavailable_One" xml:space="preserve">
+    <value>{0} kansio ei ollut käytettävissä tarkistuksen aikana.</value>
+  </data>
+  <data name="Report_Large_Unavailable_Other" xml:space="preserve">
+    <value>{0} kansiota ei ollut käytettävissä tarkistuksen aikana.</value>
+  </data>
+  <data name="Report_Large_NotScanned" xml:space="preserve">
+    <value>Ei tarkistettu: {0} ({1})</value>
+  </data>
+  <data name="Report_LargeFiles" xml:space="preserve">
+    <value>Suuret tiedostot</value>
+  </data>
+  <data name="Report_LargestFiles" xml:space="preserve">
+    <value>Suurimmat tiedostot</value>
+  </data>
+  <data name="Report_Large_ReadOnly" xml:space="preserve">
+    <value>Sysora luettelee tiedostoja; se ei koskaan siirrä, muokkaa tai poista niitä.</value>
+  </data>
+  <data name="Report_Col_File" xml:space="preserve">
+    <value>Tiedosto</value>
+  </data>
+  <data name="Report_Col_Size" xml:space="preserve">
+    <value>Koko</value>
+  </data>
+  <data name="Report_Col_Type" xml:space="preserve">
+    <value>Tyyppi</value>
+  </data>
+  <data name="Report_Col_Modified" xml:space="preserve">
+    <value>Muokattu</value>
+  </data>
+  <data name="Report_Col_Folder" xml:space="preserve">
+    <value>Kansio</value>
+  </data>
+  <data name="Report_ByType" xml:space="preserve">
+    <value>Tyypin mukaan</value>
+  </data>
+  <data name="Report_ByFolder" xml:space="preserve">
+    <value>Kansion mukaan</value>
+  </data>
+  <data name="Report_Large_Scanned" xml:space="preserve">
+    <value>Tarkistettu: {0}; vähimmäiskoko {1}.</value>
+  </data>
+  <data name="Report_Large_Counts" xml:space="preserve">
+    <value>{0} kohteessa {1}; {2} ei seurattu; {3} ohitettu.</value>
+  </data>
+  <data name="Count_Link_One" xml:space="preserve">
+    <value>{0} linkki</value>
+  </data>
+  <data name="Count_Link_Other" xml:space="preserve">
+    <value>{0} linkkiä</value>
+  </data>
+  <data name="Count_CloudFile_One" xml:space="preserve">
+    <value>{0} vain verkossa oleva tiedosto</value>
+  </data>
+  <data name="Count_CloudFile_Other" xml:space="preserve">
+    <value>{0} vain verkossa olevaa tiedostoa</value>
+  </data>
+  <data name="Report_Col_Group" xml:space="preserve">
+    <value>Ryhmä</value>
+  </data>
+  <data name="Report_Col_Files" xml:space="preserve">
+    <value>Tiedostot</value>
+  </data>
+  <data name="Report_Col_TotalSize" xml:space="preserve">
+    <value>Kokonaiskoko</value>
+  </data>
+  <data name="Report_OsVersion" xml:space="preserve">
+    <value>{0}{1} (koontiversio {2}, {3})</value>
+  </data>
+  <data name="Report_Html_Generated" xml:space="preserve">
+    <value>Luotu {0} · Sysora {1}</value>
+  </data>
+  <data name="Report_Html_Period" xml:space="preserve">
+    <value>Analysoitu jakso: {0} – {1}</value>
+  </data>
+  <data name="Report_Html_ThisPc" xml:space="preserve">
+    <value>Tämä tietokone</value>
+  </data>
+  <data name="Report_Html_Os" xml:space="preserve">
+    <value>Käyttöjärjestelmä</value>
+  </data>
+  <data name="Report_Html_Processor" xml:space="preserve">
+    <value>Suoritin</value>
+  </data>
+  <data name="Report_Html_Memory" xml:space="preserve">
+    <value>Muisti</value>
+  </data>
+  <data name="Report_Html_Graphics" xml:space="preserve">
+    <value>Grafiikka</value>
+  </data>
+  <data name="Report_Html_NeverEstimates" xml:space="preserve">
+    <value>Sysora ei koskaan korvaa puuttuvaa mittausta arviolla.</value>
+  </data>
+  <data name="Report_Html_Notes" xml:space="preserve">
+    <value>Huomautukset</value>
+  </data>
+  <data name="Report_Html_Footer" xml:space="preserve">
+    <value>Sysoran paikallisesti luoma: kaikki arvot ovat peräisin tästä tietokoneesta. Havaittu = mitattu; Päätelty = päätelty mittauksista (ei todistettu); Tuntematon = ei havaittavissa.</value>
+  </data>
+  <data name="App_LongDescription" xml:space="preserve">
+    <value>Sysora on paikallinen koontinäyttö, joka seuraa suorituskykyä, prosesseja, tallennustilaa, verkon toimintaa ja järjestelmän kuntoa reaaliajassa ja selittää, mitä se mittaa: miksi tietokone on hidas, mikä on muuttunut ja mitkä sovellukset kuormittavat eniten.</value>
+  </data>
+  <data name="Process_Exited" xml:space="preserve">
+    <value>Prosessi on päättynyt.</value>
+  </data>
+  <data name="Process_CoreWindows" xml:space="preserve">
+    <value>Tämä on Windowsin ydinprosessi, eikä sitä voi lopettaa.</value>
+  </data>
+  <data name="Process_UseExit" xml:space="preserve">
+    <value>Sulje Sysora Lopeta-toiminnolla.</value>
+  </data>
+  <data name="Process_AccessDeniedEnd" xml:space="preserve">
+    <value>Käyttö estetty. Tämän prosessin lopettaminen edellyttää järjestelmänvalvojan oikeuksia.</value>
+  </data>
+  <data name="Process_AlreadyExited" xml:space="preserve">
+    <value>Prosessi on jo päättynyt.</value>
+  </data>
+  <data name="Process_Critical" xml:space="preserve">
+    <value>Tämä on kriittinen järjestelmäprosessi. Sen lopettaminen pysäyttäisi Windowsin.</value>
+  </data>
+  <data name="Process_EndFailed" xml:space="preserve">
+    <value>Windows ei voinut lopettaa prosessia (virhe {0}).</value>
+  </data>
+  <data name="Process_AccessDeniedView" xml:space="preserve">
+    <value>Käyttö estetty. Näiden tietojen tarkasteleminen edellyttää järjestelmänvalvojan oikeuksia.</value>
+  </data>
+  <data name="Process_WindowsError" xml:space="preserve">
+    <value>Ei käytettävissä (Windows-virhe {0}).</value>
+  </data>
+  <data name="LargeFiles_Excl_Svi" xml:space="preserve">
+    <value>Palautuspisteet ja Windowsille varatut asematiedot (ei luettavissa).</value>
+  </data>
+  <data name="LargeFiles_Excl_WinSxS" xml:space="preserve">
+    <value>Windowsin osavarasto: sen tiedostot ovat kovia linkkejä, jotka jaetaan muun Windowsin kanssa, joten niiden koko laskettaisiin kahdesti.</value>
+  </data>
+  <data name="History_InMemory" xml:space="preserve">
+    <value>Muistissa (esittelytila: mitään ei kirjoiteta levylle)</value>
+  </data>
+  <data name="Game_Detect_Confirmed" xml:space="preserve">
+    <value>Vahvistit tämän pelin ({0}).</value>
+  </data>
+  <data name="Game_Detect_Launcher" xml:space="preserve">
+    <value>{0} ilmoittaa, että {1} on asennettu tähän kansioon.</value>
+  </data>
+</root>
