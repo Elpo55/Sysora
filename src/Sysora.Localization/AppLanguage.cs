@@ -3,7 +3,7 @@ using System.Globalization;
 namespace Sysora.Localization;
 
 /// <summary>A language Sysora is translated into.</summary>
-/// <param name="Code">Two-letter language code stored in the settings ("en", "fr").</param>
+/// <param name="Code">Language code stored in the settings: two letters ("en", "fr"), with the script when it matters ("zh-Hant").</param>
 /// <param name="NativeName">Name of the language in that language ("English", "Français"), so anyone can find their own.</param>
 public sealed record LanguageInfo(string Code, string NativeName)
 {
@@ -51,8 +51,9 @@ public static class AppLanguage
     public static CultureInfo Current { get; private set; } = CultureInfo.GetCultureInfo(Fallback);
 
     /// <summary>
-    /// Brings a stored preference back to a supported value: a supported language code (any case, region ignored, so
-    /// "FR-ca" becomes "fr"), or <see cref="System"/> for anything else.
+    /// Brings a stored preference back to a supported value: a supported language code (any case; a region or script
+    /// leads to the translation written for it, so "FR-ca" becomes "fr" and "zh-TW" becomes "zh-Hant"), or
+    /// <see cref="System"/> for anything else.
     /// </summary>
     public static string Normalize(string? preference)
     {
@@ -61,14 +62,24 @@ public static class AppLanguage
             return System;
         }
 
-        var code = preference.Trim();
-        var separator = code.IndexOfAny(['-', '_']);
-        if (separator > 0)
+        var tag = preference.Trim().Replace('_', '-');
+        if (Find(tag) is { } exact)
         {
-            code = code[..separator];
+            return exact.Code;
         }
 
-        return Find(code)?.Code ?? System;
+        CultureInfo culture;
+        try
+        {
+            culture = CultureInfo.GetCultureInfo(tag, predefinedOnly: true);
+        }
+        catch (CultureNotFoundException)
+        {
+            var separator = tag.IndexOf('-', StringComparison.Ordinal);
+            return Find(separator > 0 ? tag[..separator] : tag)?.Code ?? System;
+        }
+
+        return ForCulture(culture)?.Code ?? System;
     }
 
     /// <summary>
@@ -83,8 +94,7 @@ public static class AppLanguage
         var code = Normalize(preference);
         if (code == System)
         {
-            // The Chinese translation is in simplified characters: Windows in traditional Chinese keeps English.
-            code = IsTraditionalChinese(systemUiCulture) ? Fallback : Find(systemUiCulture.TwoLetterISOLanguageName)?.Code ?? Fallback;
+            code = ForCulture(systemUiCulture)?.Code ?? Fallback;
         }
 
         return CultureInfo.GetCultureInfo(code);
@@ -97,23 +107,28 @@ public static class AppLanguage
         return Find(culture.Name)?.WindowsTag ?? culture.Name;
     }
 
-    private static bool IsTraditionalChinese(CultureInfo culture)
+    /// <summary>
+    /// The translation written for <paramref name="culture"/>: its own language, or the one of a parent culture
+    /// ("de-AT" → "de", "zh-HK" → "zh-Hant"). Chinese without a script means simplified characters, and Norwegian means
+    /// Bokmål.
+    /// </summary>
+    private static LanguageInfo? ForCulture(CultureInfo culture)
     {
         for (var current = culture; !string.IsNullOrEmpty(current.Name); current = current.Parent)
         {
-            if (current.Name.Equals("zh-Hant", StringComparison.OrdinalIgnoreCase)
-                || current.Name is "zh-TW" or "zh-HK" or "zh-MO")
+            var name = current.Name switch
             {
-                return true;
-            }
-
-            if (current.Name.Equals("zh-Hans", StringComparison.OrdinalIgnoreCase))
+                "zh" => "zh-Hans",
+                "no" or "nn" => "nb",
+                _ => current.Name,
+            };
+            if (Find(name) is { } found)
             {
-                return false;
+                return found;
             }
         }
 
-        return false;
+        return null;
     }
 
     /// <summary>
@@ -130,7 +145,7 @@ public static class AppLanguage
         UiStrings.Culture = culture;
     }
 
-    /// <summary>The supported language with this two-letter code, or null.</summary>
+    /// <summary>The supported language with this code ("fr", "zh-Hant"), or null.</summary>
     public static LanguageInfo? Find(string? code) =>
         Supported.FirstOrDefault(l => string.Equals(l.Code, code, StringComparison.OrdinalIgnoreCase));
 }

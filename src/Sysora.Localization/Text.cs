@@ -8,7 +8,7 @@ public enum PluralCategory
     /// <summary>The singular form ("1 alert"; also 21, 31... in Russian and Ukrainian).</summary>
     One,
 
-    /// <summary>The form of 2 to 4 (and 22–24...) in Czech, Polish, Russian and Ukrainian.</summary>
+    /// <summary>The form of 2 to 4 (and 22–24...) in Czech, Polish, Russian, Slovak and Ukrainian, of 0 and 2 to 19 in Romanian.</summary>
     Few,
 
     /// <summary>Every other count: the plural form ("5 alerts").</summary>
@@ -93,11 +93,11 @@ public static class Text
         switch (language.TwoLetterISOLanguageName)
         {
             // Singular for 0 and 1.
-            case "fr" or "pt":
+            case "fr" or "pt" or "hi":
                 return n is 0 or 1 ? PluralCategory.One : PluralCategory.Other;
 
             // No grammatical plural: the same text for every count.
-            case "ja" or "ko" or "zh":
+            case "ja" or "ko" or "zh" or "id" or "th" or "vi":
                 return PluralCategory.Other;
 
             case "ru" or "uk":
@@ -110,8 +110,12 @@ public static class Text
                     : lastDigit is >= 2 and <= 4 && lastTwoDigits is < 12 or > 14 ? PluralCategory.Few
                     : PluralCategory.Other;
 
-            case "cs":
+            case "cs" or "sk":
                 return n == 1 ? PluralCategory.One : n is >= 2 and <= 4 ? PluralCategory.Few : PluralCategory.Other;
+
+            // "Few" for 0 and 2 to 19 (also 101–119...); "other" from 20, with "de" ("20 de fișiere").
+            case "ro":
+                return n == 1 ? PluralCategory.One : n == 0 || lastTwoDigits is >= 1 and <= 19 ? PluralCategory.Few : PluralCategory.Other;
 
             default:
                 return n == 1 ? PluralCategory.One : PluralCategory.Other;

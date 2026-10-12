@@ -223,6 +223,18 @@ public sealed partial class LocalizationTests
     [InlineData("cs", 2, PluralCategory.Few)]
     [InlineData("cs", 5, PluralCategory.Other)]
     [InlineData("cs", 22, PluralCategory.Other)]
+    [InlineData("sk", 3, PluralCategory.Few)]
+    [InlineData("sk", 5, PluralCategory.Other)]
+    [InlineData("ro", 0, PluralCategory.Few)]
+    [InlineData("ro", 1, PluralCategory.One)]
+    [InlineData("ro", 19, PluralCategory.Few)]
+    [InlineData("ro", 20, PluralCategory.Other)]
+    [InlineData("ro", 101, PluralCategory.Few)]
+    [InlineData("ro", 120, PluralCategory.Other)]
+    [InlineData("hi", 0, PluralCategory.One)]
+    [InlineData("vi", 1, PluralCategory.Other)]
+    [InlineData("sv", 1, PluralCategory.One)]
+    [InlineData("sv", 0, PluralCategory.Other)]
     public void PluralCategoriesFollowTheRulesOfEachLanguage(string language, long count, PluralCategory expected)
     {
         Assert.Equal(expected, Text.Category(count, CultureInfo.GetCultureInfo(language)));
