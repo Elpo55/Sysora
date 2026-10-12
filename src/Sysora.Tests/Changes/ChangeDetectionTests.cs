@@ -1,7 +1,9 @@
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Time.Testing;
+using Sysora.Core.Alerts;
 using Sysora.Core.Analysis;
 using Sysora.Core.Changes;
+using Sysora.Core.History;
 using Sysora.Core.Interfaces;
 using Sysora.Core.Models;
 using Sysora.Core.Simulation;
@@ -231,6 +233,40 @@ public sealed class ChangeDetectionTests
         var timeline = await service.GetTimelineAsync(Day1.AddDays(-1), token);
         Assert.Single(timeline, c => c.Title == "Photo Studio installed");
         Assert.Single(await service.GetSnapshotsAsync(token));
+    }
+
+    [Fact]
+    public async Task SinceYesterday_IsComputedAgainOnceASnapshotIsRecorded()
+    {
+        // The summary is kept for half an hour; one computed before the first snapshot must not keep saying that there
+        // is none.
+        var token = TestContext.Current.CancellationToken;
+        var time = new FakeTimeProvider(Day1);
+        await using var repository = HistoryRepository.InMemory(NullLogger<HistoryRepository>.Instance);
+        await repository.InitializeAsync(token);
+        var settings = NullSettingsStore.Create(time: time);
+        var monitor = new StubMonitor();
+        var history = new PerformanceHistory(TimeSpan.FromMinutes(15), time);
+        var changes = new ChangeDetectionService(
+            new MutableInventory(Inventory(Apps())),
+            new FakeSystemInfoProvider(new SimulatedMachine(time)),
+            monitor,
+            repository,
+            settings,
+            NullLogger<ChangeDetectionService>.Instance,
+            time);
+        var baseline = new BaselineService(repository, NullLogger<BaselineService>.Instance, time);
+        var alerts = new AlertService(new AlertEngine(), history, monitor, baseline, settings, repository, NullLogger<AlertService>.Instance, time);
+        var since = new SinceYesterdayService(changes, new StateComparisonService(history, repository, settings, time), alerts, time);
+
+        var before = await since.GetAsync(force: false, token);
+        time.Advance(TimeSpan.FromMinutes(1));
+        await changes.RecordAsync(token);
+        var after = await since.GetAsync(force: false, token);
+
+        Assert.Contains("No snapshot has been recorded yet", before.Note, StringComparison.Ordinal);
+        Assert.Contains("The oldest snapshot is from", after.Note, StringComparison.Ordinal);
+        Assert.Same(after, await since.GetAsync(force: false, token));
     }
 
     private static IReadOnlyList<InstalledApp> Apps() =>

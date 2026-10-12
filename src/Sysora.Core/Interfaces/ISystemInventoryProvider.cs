@@ -14,6 +14,9 @@ public interface ISystemInventoryProvider
 /// <summary>Detects what changed on the PC by comparing snapshots of its state over time.</summary>
 public interface IChangeDetectionService
 {
+    /// <summary>Raised, possibly on a background thread, after a snapshot of the PC is recorded.</summary>
+    event EventHandler? Changed;
+
     /// <summary>Changes recorded since <paramref name="since"/>, most recent first.</summary>
     Task<IReadOnlyList<DetectedChange>> GetTimelineAsync(DateTimeOffset since, CancellationToken cancellationToken);
 

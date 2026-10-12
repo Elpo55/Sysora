@@ -9,7 +9,7 @@
 
     <ScrollViewer>
         <StackPanel
-            MaxWidth="1100"
+            MaxWidth="{StaticResource PageMaxWidth}"
             Padding="{StaticResource PagePadding}"
             Spacing="12">
             <Grid ColumnSpacing="12">
@@ -45,7 +45,7 @@
             <Border Padding="18" Style="{StaticResource CardStyle}">
                 <StackPanel Spacing="8">
                     <TextBlock Style="{StaticResource LabelTextStyle}" Text="{x:Bind l:UiStrings.Common_SINCEYESTERDAY}" />
-                    <StackPanel Orientation="Horizontal" Spacing="18">
+                    <StackPanel Orientation="Horizontal" Spacing="18" Visibility="{x:Bind ViewModel.HasSinceCounts, Mode=OneWay}">
                         <StackPanel Orientation="Horizontal" Spacing="6" Visibility="{x:Bind ViewModel.HasSignificant, Mode=OneWay}">
                             <controls:StatusIcon BrushKey="StatusCriticalBrush" Glyph="&#xEA39;" GlyphSize="14" />
                             <TextBlock><Run Text="{x:Bind ViewModel.SignificantCount, Mode=OneWay}" /><Run Text="{x:Bind l:UiStrings.Common_Significant}" /></TextBlock>
@@ -87,14 +87,14 @@
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
-                    <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind ViewModel.SinceUnchanged, Mode=OneWay}" />
+                    <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind ViewModel.SinceUnchanged, Mode=OneWay}" Visibility="{x:Bind ViewModel.HasSinceUnchanged, Mode=OneWay}" />
                     <TextBlock Style="{StaticResource LabelTextStyle}" Text="{x:Bind ViewModel.SinceNotCompared, Mode=OneWay}" TextWrapping="Wrap" Visibility="{x:Bind ViewModel.HasSinceNotCompared, Mode=OneWay}" />
                     <TextBlock Style="{StaticResource LabelTextStyle}" Text="{x:Bind ViewModel.SinceNote, Mode=OneWay}" TextWrapping="Wrap" />
                 </StackPanel>
             </Border>
 
             <StackPanel Spacing="2">
-                <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind ViewModel.Note, Mode=OneWay}" />
+                <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind ViewModel.Note, Mode=OneWay}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay, Converter={StaticResource InverseBoolToVisibilityConverter}}" />
                 <TextBlock Style="{StaticResource LabelTextStyle}" Text="{x:Bind ViewModel.SnapshotText, Mode=OneWay}" TextWrapping="Wrap" />
                 <ProgressBar Margin="0,4,0,0" IsIndeterminate="True" Visibility="{x:Bind ViewModel.IsLoading, Mode=OneWay}" />
             </StackPanel>
@@ -166,7 +166,7 @@
                 <StackPanel HorizontalAlignment="Center" Spacing="8">
                     <FontIcon FontSize="32" Foreground="{ThemeResource TextFillColorSecondaryBrush}" Glyph="&#xE8AB;" />
                     <TextBlock HorizontalAlignment="Center" Style="{StaticResource BodyStrongTextBlockStyle}" Text="{x:Bind l:UiStrings.Changes_NoChangeToShow}" />
-                    <TextBlock HorizontalAlignment="Center" Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind l:UiStrings.Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween}" TextAlignment="Center" />
+                    <TextBlock MaxWidth="640" HorizontalAlignment="Center" Style="{StaticResource SecondaryTextStyle}" Text="{x:Bind ViewModel.Note, Mode=OneWay}" TextAlignment="Center" />
                 </StackPanel>
             </Border>
 

@@ -83,6 +83,13 @@ public sealed partial class ChangesViewModel : PageViewModel
     [ObservableProperty]
     public partial bool HasSinceNotCompared { get; set; }
 
+    /// <summary>Whether the summary counts anything (significant, minor or mostly unchanged).</summary>
+    [ObservableProperty]
+    public partial bool HasSinceCounts { get; set; }
+
+    [ObservableProperty]
+    public partial bool HasSinceUnchanged { get; set; }
+
     [ObservableProperty]
     public partial int ViewIndex { get; set; }
 
@@ -137,7 +144,9 @@ public sealed partial class ChangesViewModel : PageViewModel
             HasSignificant = summary.Significant > 0;
             HasMinor = summary.Minor > 0;
             IsMostlyUnchanged = summary.HasReference && summary.MostlyUnchanged;
+            HasSinceCounts = HasSignificant || HasMinor || IsMostlyUnchanged;
             SinceUnchanged = summary.UnchangedAreas.Count > 0 ? Text.Format(Strings.Report_Unchanged, string.Join(Strings.List_Separator, summary.UnchangedAreas)) + "." : string.Empty;
+            HasSinceUnchanged = SinceUnchanged.Length > 0;
             SinceNotCompared = string.Join(Environment.NewLine, summary.NotCompared.Select(n => Text.Format(Strings.Report_NotCompared, n)));
             HasSinceNotCompared = summary.NotCompared.Count > 0;
             SinceItems.Clear();
@@ -156,7 +165,11 @@ public sealed partial class ChangesViewModel : PageViewModel
     protected override void OnDeactivated() => _changes.Changed -= OnSnapshotRecorded;
 
     /// <summary>A snapshot was just taken in the background (for example the first one after start): reload.</summary>
-    private void OnSnapshotRecorded(object? sender, EventArgs e) => _dispatcher.TryEnqueue(() => _ = LoadAsync());
+    private void OnSnapshotRecorded(object? sender, EventArgs e) => _dispatcher.TryEnqueue(() =>
+    {
+        _ = LoadAsync();
+        _ = LoadSinceYesterdayAsync(force: false);
+    });
 
     protected override void Update(SystemSnapshot snapshot, MetricKind updated)
     {

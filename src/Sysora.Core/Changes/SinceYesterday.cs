@@ -305,19 +305,35 @@ public static class SinceYesterdayBuilder
 
 /// <summary>
 /// Computes the "since yesterday" summary on demand and keeps it for half an hour: it compares snapshots of the PC
-/// (installed applications, Store packages…), which are worth reading again only rarely. "Check now" forces it.
+/// (installed applications, Store packages…), which are worth reading again only rarely. "Check now" forces it, and a new
+/// snapshot (the first one, a minute after Sysora starts, then every six hours) makes the next request compute it again.
 /// </summary>
-public sealed class SinceYesterdayService(
-    IChangeDetectionService changes,
-    StateComparisonService comparisons,
-    AlertService alerts,
-    TimeProvider? timeProvider = null)
+public sealed class SinceYesterdayService
 {
     public static readonly TimeSpan CacheDuration = TimeSpan.FromMinutes(30);
 
-    private readonly TimeProvider _time = timeProvider ?? TimeProvider.System;
+    private readonly IChangeDetectionService _changes;
+    private readonly StateComparisonService _comparisons;
+    private readonly AlertService _alerts;
+    private readonly TimeProvider _time;
     private readonly SemaphoreSlim _gate = new(1, 1);
     private SinceYesterdaySummary _latest = SinceYesterdaySummary.Loading;
+    private volatile bool _snapshotRecorded;
+
+    public SinceYesterdayService(
+        IChangeDetectionService changes,
+        StateComparisonService comparisons,
+        AlertService alerts,
+        TimeProvider? timeProvider = null)
+    {
+        _changes = changes;
+        _comparisons = comparisons;
+        _alerts = alerts;
+        _time = timeProvider ?? TimeProvider.System;
+
+        // Both services live as long as the application: no need to unsubscribe.
+        changes.Changed += (_, _) => _snapshotRecorded = true;
+    }
 
     public SinceYesterdaySummary Latest => Volatile.Read(ref _latest);
 
@@ -327,23 +343,25 @@ public sealed class SinceYesterdayService(
         try
         {
             var now = _time.GetUtcNow();
-            if (!force && Latest is { } cached && cached.Time != DateTimeOffset.MinValue && now - cached.Time < CacheDuration)
+            if (!force && !_snapshotRecorded && Latest is { } cached && cached.Time != DateTimeOffset.MinValue && now - cached.Time < CacheDuration)
             {
                 return cached;
             }
 
-            var inventory = await changes.CompareAsync(BaselineReference.Yesterday, cancellationToken).ConfigureAwait(false);
+            // Cleared before reading, so a snapshot taken while this summary is computed still triggers the next one.
+            _snapshotRecorded = false;
+            var inventory = await _changes.CompareAsync(BaselineReference.Yesterday, cancellationToken).ConfigureAwait(false);
             StateComparisonResult? behavior = null;
             try
             {
-                behavior = await comparisons.CompareAsync(new ComparisonRequest(ComparisonPreset.TodayVsYesterday), cancellationToken).ConfigureAwait(false);
+                behavior = await _comparisons.CompareAsync(new ComparisonRequest(ComparisonPreset.TodayVsYesterday), cancellationToken).ConfigureAwait(false);
             }
             catch (Exception ex) when (ex is not OperationCanceledException and not OutOfMemoryException)
             {
                 // Without the stored history, the inventory changes are still listed.
             }
 
-            var summary = SinceYesterdayBuilder.Build(inventory, behavior, alerts.Alerts, now, TimeZoneInfo.Local);
+            var summary = SinceYesterdayBuilder.Build(inventory, behavior, _alerts.Alerts, now, TimeZoneInfo.Local);
             Volatile.Write(ref _latest, summary);
             return summary;
         }
