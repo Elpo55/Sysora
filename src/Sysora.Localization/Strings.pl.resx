@@ -21,6 +21,12 @@
   <data name="List_LastSeparator" xml:space="preserve">
     <value> i </value>
   </data>
+  <data name="Sentence_End" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Sentence_Separator" xml:space="preserve">
+    <value>. </value>
+  </data>
   <data name="Unit_Byte" xml:space="preserve">
     <value>B</value>
   </data>
@@ -1562,9 +1568,6 @@
   </data>
   <data name="WhyNow_Summary_Starting" xml:space="preserve">
     <value>, od około {0} ({1} temu). </value>
-  </data>
-  <data name="WhyNow_Summary_End" xml:space="preserve">
-    <value>. </value>
   </data>
   <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
     <value>przedtem {0}, teraz {1}</value>

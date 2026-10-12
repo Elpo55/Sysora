@@ -364,8 +364,8 @@ public sealed class LargeFileScanEngine(IDirectoryReader reader, TimeProvider? t
         }
 
         var suffix = problems.Count > 0
-            ? ". " + Text.Format(Strings.LargeFiles_ProblemsSuffix, string.Join(Strings.List_Separator, problems))
-            : ".";
+            ? Strings.Sentence_Separator + Text.Format(Strings.LargeFiles_ProblemsSuffix, string.Join(Strings.List_Separator, problems))
+            : Strings.Sentence_End;
         return outcome switch
         {
             LargeFileScanOutcome.Cancelled => Text.Format(Strings.LargeFiles_Cancelled, MetricFormatter.DurationPrecise(duration), found, suffix),

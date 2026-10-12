@@ -317,7 +317,7 @@ public sealed class TroubleshootingRecorder(DateTimeOffset start)
             : Text.Format(Strings.Trouble_Summary_Over, Text.Plural(SampleCount, Strings.Count_Measurement_One, Strings.Count_Measurement_Other), MetricFormatter.DurationPrecise(end - Start))
               + (_cpu.Count > 0 ? Text.Format(Strings.Trouble_Summary_Cpu, MetricFormatter.Percent(_cpu.Average), MetricFormatter.Percent(_cpu.Peak)) : string.Empty)
               + (_memory.Count > 0 ? Text.Format(Strings.Trouble_Summary_Memory, MetricFormatter.Percent(_memory.Average), MetricFormatter.Percent(_memory.Peak)) : string.Empty)
-              + ". "
+              + Strings.Sentence_Separator
               + (likely.Length > 0
                 ? Text.Format(Strings.Trouble_Summary_Suggests, likely[0].Text)
                 : anomalies.Count > 0
