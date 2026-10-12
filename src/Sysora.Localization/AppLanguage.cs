@@ -46,6 +46,7 @@ public static class AppLanguage
         new("cs", "Čeština"),
         new("tr", "Türkçe"),
         new("ja", "日本語"),
+        new("zh-Hans", "中文（简体）") { WindowsTag = "zh-CN" },
     ];
 
     /// <summary>The language of this process, as applied by <see cref="Apply"/> (English until then).</summary>
@@ -111,21 +112,25 @@ public static class AppLanguage
     /// <summary>
     /// The translation written for <paramref name="culture"/>: its own language, or the one of a parent culture
     /// ("de-AT" → "de", "zh-HK" → "zh-Hant"). Chinese without a script means simplified characters, and Norwegian means
-    /// Bokmål.
+    /// Bokmål. A reader of traditional characters is never given the simplified translation.
     /// </summary>
     private static LanguageInfo? ForCulture(CultureInfo culture)
     {
         for (var current = culture; !string.IsNullOrEmpty(current.Name); current = current.Parent)
         {
-            var name = current.Name switch
-            {
-                "zh" => "zh-Hans",
-                "no" or "nn" => "nb",
-                _ => current.Name,
-            };
-            if (Find(name) is { } found)
+            if (Find(current.Name) is { } found)
             {
                 return found;
+            }
+
+            switch (current.Name)
+            {
+                case "zh-Hant":
+                    return null;
+                case "zh":
+                    return Find("zh-Hans");
+                case "no" or "nn":
+                    return Find("nb");
             }
         }
 
