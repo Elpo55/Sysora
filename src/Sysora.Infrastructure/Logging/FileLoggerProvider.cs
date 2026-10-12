@@ -24,12 +24,22 @@ public sealed class LogLevelSwitch
 /// <see cref="Retention"/> are deleted and each file is capped at <see cref="MaxFileBytes"/>.
 /// Logs stay on this machine; Sysora never uploads them.
 /// </summary>
+/// <remarks>
+/// Another process may write the same file (an instance that is still closing while the next one starts), so every
+/// batch of lines is written at the current end of the file rather than where this writer last stopped.
+/// </remarks>
 [ProviderAlias("File")]
 public sealed class FileLoggerProvider : ILoggerProvider
 {
     public const long MaxFileBytes = 10 * 1024 * 1024;
+
+    /// <summary>Start of the name of the daily files: <c>sysora-20261012.log</c>.</summary>
+    public const string DefaultFilePrefix = "sysora-";
+
+    /// <summary>Start of the name of the files of demo mode, which runs next to the normal instance.</summary>
+    public const string DemoFilePrefix = "sysora-demo-";
+
     public static readonly TimeSpan Retention = TimeSpan.FromDays(14);
-    private const string FilePrefix = "sysora-";
 
     /// <summary>Prefix of the log files written before the application was renamed; they expire like the others.</summary>
     private const string LegacyFilePrefix = "pulsedesk-";
@@ -45,12 +55,21 @@ public sealed class FileLoggerProvider : ILoggerProvider
     private readonly ConcurrentDictionary<string, FileLogger> _loggers = new(StringComparer.Ordinal);
     private readonly LogLevelSwitch _levelSwitch;
     private readonly string _directory;
+    private readonly string _filePrefix;
     private readonly Task _writer;
 
-    public FileLoggerProvider(SysoraPaths paths, LogLevelSwitch levelSwitch)
+    /// <param name="paths">Folders of Sysora.</param>
+    /// <param name="levelSwitch">Minimum level written.</param>
+    /// <param name="filePrefix">
+    /// Start of the file names: <see cref="DefaultFilePrefix"/>, or <see cref="DemoFilePrefix"/> so that demo mode keeps
+    /// its simulated session out of the real log.
+    /// </param>
+    public FileLoggerProvider(SysoraPaths paths, LogLevelSwitch levelSwitch, string filePrefix = DefaultFilePrefix)
     {
+        ArgumentException.ThrowIfNullOrWhiteSpace(filePrefix);
         _directory = paths.LogsDirectory;
         _levelSwitch = levelSwitch;
+        _filePrefix = filePrefix;
         DeleteExpiredFiles();
         _writer = Task.Run(WriteLoopAsync);
     }
@@ -82,6 +101,7 @@ public sealed class FileLoggerProvider : ILoggerProvider
     {
         StreamWriter? writer = null;
         DateOnly? day = null;
+        var batchStart = true;
         try
         {
             await foreach (var line in _queue.Reader.ReadAllAsync().ConfigureAwait(false))
@@ -92,6 +112,7 @@ public sealed class FileLoggerProvider : ILoggerProvider
                     writer?.Dispose();
                     writer = TryOpen(today);
                     day = today;
+                    batchStart = true;
                 }
 
                 if (writer is null || writer.BaseStream.Length >= MaxFileBytes)
@@ -99,10 +120,19 @@ public sealed class FileLoggerProvider : ILoggerProvider
                     continue;
                 }
 
+                if (batchStart)
+                {
+                    // FileMode.Append only finds the end of the file when it is opened: lines written since by another
+                    // process would otherwise be overwritten. The writer's buffer is empty here (just opened or flushed).
+                    writer.BaseStream.Seek(0, SeekOrigin.End);
+                    batchStart = false;
+                }
+
                 await writer.WriteLineAsync(line).ConfigureAwait(false);
                 if (_queue.Reader.Count == 0)
                 {
                     await writer.FlushAsync().ConfigureAwait(false);
+                    batchStart = true;
                 }
             }
         }
@@ -121,7 +151,7 @@ public sealed class FileLoggerProvider : ILoggerProvider
         try
         {
             System.IO.Directory.CreateDirectory(_directory);
-            var path = Path.Combine(_directory, $"{FilePrefix}{day.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}.log");
+            var path = Path.Combine(_directory, $"{_filePrefix}{day.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}.log");
             var stream = new FileStream(path, FileMode.Append, FileAccess.Write, FileShare.ReadWrite | FileShare.Delete);
             return new StreamWriter(stream, Utf8NoBom);
         }
@@ -141,7 +171,8 @@ public sealed class FileLoggerProvider : ILoggerProvider
             }
 
             var limit = DateTime.Now - Retention;
-            var files = System.IO.Directory.EnumerateFiles(_directory, FilePrefix + "*.log")
+            // The default prefix also matches the files of demo mode.
+            var files = System.IO.Directory.EnumerateFiles(_directory, DefaultFilePrefix + "*.log")
                 .Concat(System.IO.Directory.EnumerateFiles(_directory, LegacyFilePrefix + "*.log"));
             foreach (var file in files)
             {
