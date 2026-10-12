@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Нет изменений для показа</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora никогда не придумывает изменения: перечислены только различия между реальными снимками.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Что сравнивается</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Облегченный мониторинг во время игр</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Ваши списки игр</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Отметьте запущенное приложение как игру, если Sysora его не распознает, или снимите отметку. Приложения, отмеченные как «не игра», никогда не отслеживаются.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Запущенное приложение</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Активное время</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Анализатор дисков</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Поиск больших папок — запланировано</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Будущая версия будет по запросу измерять размер папок, чтобы показать, куда уходит место. Она будет работать только на чтение: Sysora никогда не удаляет файлы. Сетевые диски не показываются, потому что обращение к отключенному диску может надолго зависнуть.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Показываются только сведения, которые действительно сообщает Windows</value>

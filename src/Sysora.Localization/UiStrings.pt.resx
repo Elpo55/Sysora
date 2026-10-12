@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Nenhuma alteração para mostrar</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>O Sysora nunca inventa uma alteração: apenas diferenças entre instantâneos reais são listadas.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>O que é comparado</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Monitoramento mais leve durante os jogos</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Suas listas de jogos</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Marque um aplicativo em execução como jogo quando o Sysora não o reconhecer, ou remova uma marcação. Aplicativos marcados como não jogos nunca são acompanhados.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Aplicativo em execução</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Tempo ativo</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Analisador de armazenamento</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Encontrar pastas grandes — planejado</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Uma versão futura vai medir o tamanho das pastas sob demanda para mostrar para onde vai o espaço. Será somente leitura: o Sysora nunca exclui arquivos. Unidades de rede não são listadas, porque consultar uma unidade desconectada pode travar por muito tempo.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Apenas as informações que o Windows realmente informa são mostradas</value>

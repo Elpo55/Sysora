@@ -14,7 +14,7 @@
         </Style>
     </Page.Resources>
 
-    <Grid Padding="32,24,32,24" RowSpacing="12">
+    <Grid MaxWidth="{StaticResource PageMaxWidth}" Padding="32,24,32,24" RowSpacing="12">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState x:Name="Wide">
@@ -22,6 +22,7 @@
                         <AdaptiveTrigger MinWindowWidth="1100" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="Body.ColumnSpacing" Value="12" />
                         <Setter Target="ListColumn.Width" Value="300" />
                         <Setter Target="RecapColumn.Width" Value="*" />
                         <Setter Target="ListRow.Height" Value="*" />
@@ -114,7 +115,7 @@
         </Border>
 
         <!-- Sessions and recap -->
-        <Grid Grid.Row="3" ColumnSpacing="12" RowSpacing="12">
+        <Grid x:Name="Body" Grid.Row="3" RowSpacing="12">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition x:Name="ListColumn" Width="*" />
                 <ColumnDefinition x:Name="RecapColumn" Width="0" />
@@ -151,7 +152,7 @@
             </Border>
 
             <!-- Empty state -->
-            <Border Grid.ColumnSpan="2" Padding="24" Style="{StaticResource CardStyle}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
+            <Border Grid.ColumnSpan="2" Padding="24" VerticalAlignment="Top" Style="{StaticResource CardStyle}" Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
                 <StackPanel HorizontalAlignment="Center" MaxWidth="640" Spacing="8">
                     <FontIcon FontSize="32" Foreground="{ThemeResource TextFillColorSecondaryBrush}" Glyph="&#xE7FC;" />
                     <TextBlock HorizontalAlignment="Center" Style="{StaticResource BodyStrongTextBlockStyle}" Text="{x:Bind l:UiStrings.Gaming_NoGameSessionYet}" />

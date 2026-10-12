@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>No hay cambios que mostrar</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora nunca inventa un cambio: solo se muestran diferencias entre instantáneas reales.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Qué se compara</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Supervisión más ligera durante los juegos</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Sus listas de juegos</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Marque una aplicación en ejecución como juego cuando Sysora no la reconozca, o quite una marca. Las aplicaciones marcadas como no juegos nunca se siguen.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Aplicación en ejecución</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Tiempo activo</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Analizador de almacenamiento</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Buscar carpetas grandes: previsto</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Una versión futura medirá el tamaño de las carpetas bajo demanda para mostrar adónde va el espacio. Será de solo lectura: Sysora nunca elimina archivos. Las unidades de red no se muestran, porque consultar una unidad desconectada puede bloquearse mucho tiempo.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Solo se muestra la información que Windows realmente proporciona</value>

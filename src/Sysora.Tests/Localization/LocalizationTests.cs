@@ -310,6 +310,38 @@ public sealed partial class LocalizationTests
         Assert.True(offenders.Count == 0, "Text to translate in XAML:" + Environment.NewLine + string.Join(Environment.NewLine, offenders));
     }
 
+    [Theory]
+    [InlineData(nameof(Strings))]
+    [InlineData(nameof(UiStrings))]
+    public void EveryTextIsUsed(string set)
+    {
+        // A text no code shows would still have to be translated into every language: remove it instead.
+        var used = new HashSet<string>(StringComparer.Ordinal);
+        var source = Path.Combine(RepositoryRoot(), "src");
+        var tests = Path.Combine(source, "Sysora.Tests") + Path.DirectorySeparatorChar;
+        foreach (var file in Directory.EnumerateFiles(source, "*", SearchOption.AllDirectories))
+        {
+            if (file.StartsWith(tests, StringComparison.Ordinal)
+                || IsBuildOutput(file)
+                || !(file.EndsWith(".cs", StringComparison.Ordinal) || file.EndsWith(".xaml", StringComparison.Ordinal)))
+            {
+                continue;
+            }
+
+            foreach (Match match in TextReference().Matches(File.ReadAllText(file)))
+            {
+                used.Add(match.Value);
+            }
+        }
+
+        var unused = Read(Manager(set), CultureInfo.InvariantCulture).Keys.Where(k => !used.Contains($"{set}.{k}")).Order().ToArray();
+        Assert.True(unused.Length == 0, $"{set}: texts no code uses: {string.Join(", ", unused)}");
+    }
+
+    private static bool IsBuildOutput(string file) =>
+        file.Contains($"{Path.DirectorySeparatorChar}obj{Path.DirectorySeparatorChar}", StringComparison.Ordinal)
+        || file.Contains($"{Path.DirectorySeparatorChar}bin{Path.DirectorySeparatorChar}", StringComparison.Ordinal);
+
     private static ResourceManager Manager(string set) => set == nameof(Strings) ? Strings.ResourceManager : UiStrings.ResourceManager;
 
     /// <summary>The texts of one language only (no fallback to the parent language).</summary>
@@ -342,6 +374,9 @@ public sealed partial class LocalizationTests
 
     [GeneratedRegex(@"\{(\d+)[^}]*\}")]
     private static partial Regex PlaceholderPattern();
+
+    [GeneratedRegex(@"\b(?:Strings|UiStrings)\.\w+")]
+    private static partial Regex TextReference();
 
     [GeneratedRegex(@"[A-Za-z]{3,}")]
     private static partial Regex LetterPattern();

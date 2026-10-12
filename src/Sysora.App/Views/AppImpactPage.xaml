@@ -15,7 +15,7 @@
         </Style>
     </Page.Resources>
 
-    <Grid Padding="32,24,32,24" RowSpacing="12">
+    <Grid MaxWidth="{StaticResource PageMaxWidth}" Padding="32,24,32,24" RowSpacing="12">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState x:Name="Wide">
@@ -23,6 +23,7 @@
                         <AdaptiveTrigger MinWindowWidth="1500" />
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
+                        <Setter Target="Body.ColumnSpacing" Value="12" />
                         <Setter Target="DetailsColumn.Width" Value="380" />
                         <Setter Target="DetailsRow.Height" Value="0" />
                         <Setter Target="DetailsPanel.(Grid.Row)" Value="0" />
@@ -86,7 +87,7 @@
         </StackPanel>
 
         <!-- Ranking and details -->
-        <Grid Grid.Row="2" ColumnSpacing="12" RowSpacing="12">
+        <Grid x:Name="Body" Grid.Row="2" RowSpacing="12">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition x:Name="DetailsColumn" Width="0" />
@@ -110,9 +111,9 @@
                             <ColumnDefinition Width="*" MinWidth="160" />
                             <ColumnDefinition Width="100" />
                             <ColumnDefinition Width="56" />
-                            <ColumnDefinition Width="72" />
+                            <ColumnDefinition Width="96" />
+                            <ColumnDefinition Width="104" />
                             <ColumnDefinition Width="80" />
-                            <ColumnDefinition Width="64" />
                             <ColumnDefinition Width="64" />
                         </Grid.ColumnDefinitions>
                         <TextBlock Style="{StaticResource ColumnHeaderTextStyle}" Text="#" />
@@ -139,9 +140,9 @@
                                         <ColumnDefinition Width="*" MinWidth="160" />
                                         <ColumnDefinition Width="100" />
                                         <ColumnDefinition Width="56" />
-                                        <ColumnDefinition Width="72" />
+                                        <ColumnDefinition Width="96" />
+                                        <ColumnDefinition Width="104" />
                                         <ColumnDefinition Width="80" />
-                                        <ColumnDefinition Width="64" />
                                         <ColumnDefinition Width="64" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock VerticalAlignment="Center" Foreground="{ThemeResource TextFillColorSecondaryBrush}" Text="{x:Bind RankText, Mode=OneWay}" />

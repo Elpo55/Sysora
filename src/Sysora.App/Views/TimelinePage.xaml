@@ -7,7 +7,7 @@
     xmlns:vm="using:Sysora.App.ViewModels"
     NavigationCacheMode="Required">
 
-    <Grid MaxWidth="1100" Padding="{StaticResource PagePadding}" RowSpacing="12">
+    <Grid MaxWidth="{StaticResource PageMaxWidth}" Padding="{StaticResource PagePadding}" RowSpacing="12">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />

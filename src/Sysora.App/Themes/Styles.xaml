@@ -3,7 +3,8 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <x:Double x:Key="PageMaxWidth">1400</x:Double>
+    <!-- Every page shares this width, so titles and cards stay in place when moving between pages. -->
+    <x:Double x:Key="PageMaxWidth">1200</x:Double>
     <Thickness x:Key="PagePadding">32,24,32,32</Thickness>
 
     <!-- A Fluent card: subtle filled surface with a thin border. -->

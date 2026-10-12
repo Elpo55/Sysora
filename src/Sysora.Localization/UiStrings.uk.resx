@@ -273,9 +273,6 @@
   <data name="Changes_NoChangeToShow" xml:space="preserve">
     <value>Немає змін для показу</value>
   </data>
-  <data name="Changes_SysoraNeverInventsAChangeOnlyDifferencesBetween" xml:space="preserve">
-    <value>Sysora ніколи не вигадує змін: наводяться лише відмінності між справжніми знімками.</value>
-  </data>
   <data name="Common_WhatIsCompared" xml:space="preserve">
     <value>Що порівнюється</value>
   </data>
@@ -1281,12 +1278,6 @@
   <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
     <value>Легший моніторинг під час ігор</value>
   </data>
-  <data name="Settings_YourGameLists" xml:space="preserve">
-    <value>Ваші списки ігор</value>
-  </data>
-  <data name="Settings_MarkARunningApplicationAsAGameWhenSysoraDoesNot" xml:space="preserve">
-    <value>Позначте запущену програму як гру, якщо Sysora її не розпізнає, або зніміть позначку. Програми, позначені як не ігри, ніколи не відстежуються.</value>
-  </data>
   <data name="Settings_RunningApplication" xml:space="preserve">
     <value>Запущена програма</value>
   </data>
@@ -1376,15 +1367,6 @@
   </data>
   <data name="Storage_ActiveTime" xml:space="preserve">
     <value>Активний час</value>
-  </data>
-  <data name="Storage_StorageAnalyzer" xml:space="preserve">
-    <value>Аналізатор сховища</value>
-  </data>
-  <data name="Storage_FindLargeFoldersPlanned" xml:space="preserve">
-    <value>Пошук великих папок — заплановано</value>
-  </data>
-  <data name="Storage_AFutureVersionWillMeasureFolderSizesOnDemandTo" xml:space="preserve">
-    <value>Майбутня версія вимірюватиме розміри папок на запит, щоб показати, куди йде місце. Вона працюватиме лише на читання: Sysora ніколи не видаляє файли. Мережеві диски не показуються, бо запит до відключеного диска може надовго зависнути.</value>
   </data>
   <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
     <value>Показуються лише відомості, які справді повідомляє Windows</value>
