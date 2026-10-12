@@ -73,7 +73,7 @@ public static class ReportBuilder
             System = system,
             From = report.From,
             To = report.To,
-            Summary = $"{report.Headline}. {report.Summary}",
+            Summary = report.Headline + Strings.Sentence_Separator + report.Summary,
             Sections = sections,
             MissingData = report.NotAvailable,
             Data = ReportWriter.ToElement(report, ReportJsonContext.Default.PcHealthReport),
@@ -125,7 +125,7 @@ public static class ReportBuilder
             System = system,
             From = report.From,
             To = report.To,
-            Summary = $"{report.Headline}. {report.Summary}",
+            Summary = report.Headline + Strings.Sentence_Separator + report.Summary,
             Sections = sections,
             MissingData = report.NotAnalyzed,
             Notes = [report.BaselineDescription, Text.Plural(report.SampleCount, Strings.Report_Analyzed_One, Strings.Report_Analyzed_Other)],
@@ -167,7 +167,7 @@ public static class ReportBuilder
             System = system,
             From = explanation.From,
             To = explanation.Time,
-            Summary = $"{explanation.Headline}. {explanation.Summary}",
+            Summary = explanation.Headline + Strings.Sentence_Separator + explanation.Summary,
             Sections =
             [
                 new ReportSection(Strings.Report_WhatHappened) { Facts = facts, Items = explanation.Simultaneous },
@@ -224,7 +224,7 @@ public static class ReportBuilder
                 new ReportSection(Strings.Report_Events) { Items = data.Events.Select(e => $"{Local(e.Timestamp)} · {e.Title}" + (e.Detail is { } d ? $" ({d})" : string.Empty)).ToArray() },
             ],
             MissingData = [.. missing, .. CommonLimits],
-            Notes = [data.Source, Text.Plural(data.Points.Count, Strings.Count_Measurement_One, Strings.Count_Measurement_Other) + "."],
+            Notes = [data.Source, Text.Plural(data.Points.Count, Strings.Count_Measurement_One, Strings.Count_Measurement_Other) + Strings.Sentence_End],
             Data = ReportWriter.ToElement(export, ReportJsonContext.Default.ReplayExport),
         };
     }
@@ -463,7 +463,7 @@ public static class ReportBuilder
             System = system,
             From = report.Start,
             To = report.End,
-            Summary = $"{report.Headline}. {report.Summary}",
+            Summary = report.Headline + Strings.Sentence_Separator + report.Summary,
             Sections =
             [
                 new ReportSection(Strings.Report_Measurements)

@@ -208,7 +208,7 @@ public static class GameRecapBuilder
 
         if (findings.FirstOrDefault(f => f.Severity >= DiagnosisSeverity.Info) is { } first)
         {
-            parts.Add(first.Qualifier is { } qualifier ? Text.Format(Strings.Game_Summary_Qualified, qualifier, Text.InSentence(first.Title)) : $"{first.Title}.");
+            parts.Add(first.Qualifier is { } qualifier ? Text.Format(Strings.Game_Summary_Qualified, qualifier, Text.InSentence(first.Title)) : first.Title + Strings.Sentence_End);
         }
         else
         {

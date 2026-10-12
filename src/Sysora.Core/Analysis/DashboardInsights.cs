@@ -128,7 +128,7 @@ public static class DashboardInsights
 
         if (recurring is { Problems: [var problem, ..] })
         {
-            insights.Add(new Insight(Text.Format(Strings.Insight_Recurring, problem.Description) + (problem.TimePattern is { } pattern ? $" {pattern}." : string.Empty), DiagnosisSeverity.Info, DiagnosisAction.PcHealth)
+            insights.Add(new Insight(Text.Format(Strings.Insight_Recurring, problem.Description) + (problem.TimePattern is { } pattern ? " " + pattern + Strings.Sentence_End : string.Empty), DiagnosisSeverity.Info, DiagnosisAction.PcHealth)
             {
                 AppKey = problem.AssociatedAppKey,
             });

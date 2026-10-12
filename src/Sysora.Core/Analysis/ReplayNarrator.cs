@@ -227,7 +227,7 @@ public static class ReplayNarrator
                 Text.List(firsts.Skip(1).Select(r => Text.Format(Strings.Replay_NounAt, Noun(r.Metric), Clock(r.Time)))));
         }
 
-        return sentence + ".";
+        return sentence + Strings.Sentence_End;
     }
 
     private static string Culprit(string text)

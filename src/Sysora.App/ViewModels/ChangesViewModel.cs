@@ -145,7 +145,7 @@ public sealed partial class ChangesViewModel : PageViewModel
             HasMinor = summary.Minor > 0;
             IsMostlyUnchanged = summary.HasReference && summary.MostlyUnchanged;
             HasSinceCounts = HasSignificant || HasMinor || IsMostlyUnchanged;
-            SinceUnchanged = summary.UnchangedAreas.Count > 0 ? Text.Format(Strings.Report_Unchanged, string.Join(Strings.List_Separator, summary.UnchangedAreas)) + "." : string.Empty;
+            SinceUnchanged = summary.UnchangedAreas.Count > 0 ? Text.Format(Strings.Report_Unchanged, string.Join(Strings.List_Separator, summary.UnchangedAreas)) + Strings.Sentence_End : string.Empty;
             HasSinceUnchanged = SinceUnchanged.Length > 0;
             SinceNotCompared = string.Join(Environment.NewLine, summary.NotCompared.Select(n => Text.Format(Strings.Report_NotCompared, n)));
             HasSinceNotCompared = summary.NotCompared.Count > 0;
