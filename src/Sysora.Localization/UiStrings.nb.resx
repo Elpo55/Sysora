@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Shell_SysoraWasStartedWithDemoEveryValueOnScreenIs" xml:space="preserve">
+    <value>Sysora ble startet med --demo: alle verdiene på skjermen er simulerte.</value>
+  </data>
+  <data name="Shell_DEMOMODESimulatedData" xml:space="preserve">
+    <value>DEMOMODUS · simulerte data</value>
+  </data>
+  <data name="Shell_MonitoringPaused" xml:space="preserve">
+    <value>Overvåking satt på pause</value>
+  </data>
+  <data name="Common_Dashboard" xml:space="preserve">
+    <value>Oversikt</value>
+  </data>
+  <data name="Common_PCHealth" xml:space="preserve">
+    <value>PC-helse</value>
+  </data>
+  <data name="Common_Timeline" xml:space="preserve">
+    <value>Tidslinje</value>
+  </data>
+  <data name="Shell_Investigate" xml:space="preserve">
+    <value>Undersøk</value>
+  </data>
+  <data name="Common_Diagnosis" xml:space="preserve">
+    <value>Diagnose</value>
+  </data>
+  <data name="Common_Troubleshooting" xml:space="preserve">
+    <value>Feilsøking</value>
+  </data>
+  <data name="Shell_InvestigationInProgress" xml:space="preserve">
+    <value>Undersøkelse pågår</value>
+  </data>
+  <data name="Common_Replay" xml:space="preserve">
+    <value>Tilbakeblikk</value>
+  </data>
+  <data name="Common_Compare" xml:space="preserve">
+    <value>Sammenlign</value>
+  </data>
+  <data name="Common_AppImpact" xml:space="preserve">
+    <value>App-påvirkning</value>
+  </data>
+  <data name="Common_Changes" xml:space="preserve">
+    <value>Endringer</value>
+  </data>
+  <data name="Common_Alerts" xml:space="preserve">
+    <value>Varsler</value>
+  </data>
+  <data name="Shell_NewAlerts" xml:space="preserve">
+    <value>Nye varsler</value>
+  </data>
+  <data name="Common_Gaming" xml:space="preserve">
+    <value>Spill</value>
+  </data>
+  <data name="Shell_GameRunning" xml:space="preserve">
+    <value>Spill kjører</value>
+  </data>
+  <data name="Common_Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Common_Performance" xml:space="preserve">
+    <value>Ytelse</value>
+  </data>
+  <data name="Common_Processes" xml:space="preserve">
+    <value>Prosesser</value>
+  </data>
+  <data name="Common_Storage" xml:space="preserve">
+    <value>Lagring</value>
+  </data>
+  <data name="Common_LargeFiles" xml:space="preserve">
+    <value>Store filer</value>
+  </data>
+  <data name="Common_Network" xml:space="preserve">
+    <value>Nettverk</value>
+  </data>
+  <data name="Common_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Shell_OpenFolder" xml:space="preserve">
+    <value>Åpne mappe</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>Eksporter</value>
+  </data>
+  <data name="Alerts_SaveTheAlertsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre varslene som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Alerts_ProblemsThatLastOrAreUnusualForThisPCShortSpikes" xml:space="preserve">
+    <value>Problemer som varer eller er uvanlige for denne PC-en. Korte topper rapporteres aldri.</value>
+  </data>
+  <data name="Common_Show" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="Alerts_MarkAllAsSeen" xml:space="preserve">
+    <value>Merk alle som sett</value>
+  </data>
+  <data name="Alerts_AlertsAreTurnedOffInSettings" xml:space="preserve">
+    <value>Varsler er slått av i Innstillinger.</value>
+  </data>
+  <data name="Common_OpenSettings" xml:space="preserve">
+    <value>Åpne Innstillinger</value>
+  </data>
+  <data name="Alerts_Context" xml:space="preserve">
+    <value>Sammenheng</value>
+  </data>
+  <data name="Alerts_WhyThisAlert" xml:space="preserve">
+    <value>Hvorfor dette varselet</value>
+  </data>
+  <data name="Common_WhatYouCanDo" xml:space="preserve">
+    <value>Hva du kan gjøre</value>
+  </data>
+  <data name="Common_DataUsed" xml:space="preserve">
+    <value>Data som ble brukt</value>
+  </data>
+  <data name="Alerts_ShowInReplay" xml:space="preserve">
+    <value>Vis i Tilbakeblikk</value>
+  </data>
+  <data name="Alerts_WhatHappenedAroundThisAlert" xml:space="preserve">
+    <value>Hva som skjedde rundt dette varselet</value>
+  </data>
+  <data name="Common_WhyNow" xml:space="preserve">
+    <value>Hvorfor nå?</value>
+  </data>
+  <data name="Alerts_NothingToReport" xml:space="preserve">
+    <value>Ingenting å rapportere</value>
+  </data>
+  <data name="Alerts_SysoraRaisesAnAlertOnlyWhenAProblemLastsOrIs" xml:space="preserve">
+    <value>Sysora gir bare et varsel når et problem varer eller er uvanlig for denne PC-en.</value>
+  </data>
+  <data name="Alerts_ActiveRules" xml:space="preserve">
+    <value>Aktive regler</value>
+  </data>
+  <data name="Alerts_AConditionMustLastBeforeItIsReportedWhileItLasts" xml:space="preserve">
+    <value>En tilstand må vare før den rapporteres; så lenge den varer, oppdateres ett enkelt varsel, som løses ett minutt etter at tilstanden er over. Hvis den kommer tilbake kort tid etter, åpnes det samme varselet igjen. Det gis høyst noen få nye varsler i timen.</value>
+  </data>
+  <data name="Alerts_ChangeTheRulesInSettings" xml:space="preserve">
+    <value>Endre reglene i Innstillinger</value>
+  </data>
+  <data name="AppImpact_SaveTheRankingAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre rangeringen som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="AppImpact_WhichApplicationsWeighTheMostOnYourPC" xml:space="preserve">
+    <value>Hvilke apper som belaster PC-en mest</value>
+  </data>
+  <data name="Common_Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Common_Refresh" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="Common_RefreshNow" xml:space="preserve">
+    <value>Oppdater nå</value>
+  </data>
+  <data name="AppImpact_Application" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="AppImpact_Impact" xml:space="preserve">
+    <value>Påvirkning</value>
+  </data>
+  <data name="Common_CPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="AppImpact_AverageCPUWhileRunningShareOfTotalCapacity" xml:space="preserve">
+    <value>Gjennomsnittlig CPU under kjøring, andel av total kapasitet</value>
+  </data>
+  <data name="Common_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="AppImpact_AveragePrivateWorkingSetWhileRunning" xml:space="preserve">
+    <value>Gjennomsnittlig privat arbeidssett under kjøring</value>
+  </data>
+  <data name="Common_DiskIO" xml:space="preserve">
+    <value>Disk-I/U</value>
+  </data>
+  <data name="AppImpact_AverageReadAndWriteIOWhileRunningFilesDevicesAnd" xml:space="preserve">
+    <value>Gjennomsnittlig lese- og skrive-I/U under kjøring (filer, enheter og nettverk)</value>
+  </data>
+  <data name="AppImpact_Running" xml:space="preserve">
+    <value>Kjøretid</value>
+  </data>
+  <data name="AppImpact_MeasuredTimeTheApplicationWasRunning" xml:space="preserve">
+    <value>Målt tid som appen kjørte</value>
+  </data>
+  <data name="AppImpact_Trend" xml:space="preserve">
+    <value>Trend</value>
+  </data>
+  <data name="AppImpact_SecondHalfOfThePeriodComparedWithTheFirstHalf" xml:space="preserve">
+    <value>Periodens andre halvdel sammenlignet med den første</value>
+  </data>
+  <data name="AppImpact_ApplicationsByImpact" xml:space="preserve">
+    <value>Apper etter påvirkning</value>
+  </data>
+  <data name="AppImpact_Running2" xml:space="preserve">
+    <value>kjører</value>
+  </data>
+  <data name="AppImpact_NoApplicationUsageRecordedForThisPeriodYet" xml:space="preserve">
+    <value>Det er ikke registrert appbruk for denne perioden ennå.</value>
+  </data>
+  <data name="AppImpact_ApplicationsAreIdentifiedByExecutablePath" xml:space="preserve">
+    <value>Apper identifiseres ut fra banen til den kjørbare filen; prosesser som bare deler navn, holdes adskilt. Nettverksbruk per app er ikke tilgjengelig.</value>
+  </data>
+  <data name="AppImpact_SelectAnApplicationToSeeWhyItRanksThereAndIts" xml:space="preserve">
+    <value>Velg en app for å se hvorfor den havner der, og historikken dens.</value>
+  </data>
+  <data name="AppImpact_WhenDidThePCsCPUOrMemoryRiseAndWhatChangedAtThe" xml:space="preserve">
+    <value>Når økte PC-ens CPU eller minne, og hva endret seg samtidig</value>
+  </data>
+  <data name="AppImpact_WhatDrivesTheScore" xml:space="preserve">
+    <value>Hva som styrer poengsummen</value>
+  </data>
+  <data name="Common_History" xml:space="preserve">
+    <value>Historikk</value>
+  </data>
+  <data name="AppImpact_CPUShareOfTotalCapacity" xml:space="preserve">
+    <value>CPU (andel av total kapasitet)</value>
+  </data>
+  <data name="AppImpact_ApplicationCPUHistory" xml:space="preserve">
+    <value>Appens CPU-historikk</value>
+  </data>
+  <data name="AppImpact_MemoryPrivateWorkingSet" xml:space="preserve">
+    <value>Minne (privat arbeidssett)</value>
+  </data>
+  <data name="AppImpact_ApplicationMemoryHistory" xml:space="preserve">
+    <value>Appens minnehistorikk</value>
+  </data>
+  <data name="AppImpact_WhyThisResultDataUsed" xml:space="preserve">
+    <value>Hvorfor dette resultatet? (data som ble brukt)</value>
+  </data>
+  <data name="Changes_WhatChangedOnThisPCRecently" xml:space="preserve">
+    <value>Hva som er endret på denne PC-en nylig</value>
+  </data>
+  <data name="Common_View" xml:space="preserve">
+    <value>Visning</value>
+  </data>
+  <data name="Changes_TakeASnapshotOfThePCNowAndCompareIt" xml:space="preserve">
+    <value>Ta et øyeblikksbilde av PC-en nå og sammenlign det</value>
+  </data>
+  <data name="Changes_CheckNow" xml:space="preserve">
+    <value>Kontroller nå</value>
+  </data>
+  <data name="Changes_SaveTheChangesAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre endringene som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Common_SINCEYESTERDAY" xml:space="preserve">
+    <value>SIDEN I GÅR</value>
+  </data>
+  <data name="Common_Significant" xml:space="preserve">
+    <value> betydelige</value>
+  </data>
+  <data name="Common_Minor" xml:space="preserve">
+    <value> mindre</value>
+  </data>
+  <data name="Common_MostOfYourSystemIsUnchanged" xml:space="preserve">
+    <value>Det meste av systemet er uendret</value>
+  </data>
+  <data name="Changes_WhatItMeans" xml:space="preserve">
+    <value>Hva det betyr</value>
+  </data>
+  <data name="Changes_Origin" xml:space="preserve">
+    <value>Opprinnelse</value>
+  </data>
+  <data name="Changes_NoChangeToShow" xml:space="preserve">
+    <value>Ingen endringer å vise</value>
+  </data>
+  <data name="Common_WhatIsCompared" xml:space="preserve">
+    <value>Hva som sammenlignes</value>
+  </data>
+  <data name="Changes_InstalledApplicationsAppsAmpFeaturesAndStoreApps" xml:space="preserve">
+    <value>Installerte apper (Apper og funksjoner samt Store-apper), oppstartsprogrammer (Run-nøkler og Oppstart-mapper), Windows-bygg, BIOS-versjon, installert minne, grafikk- og nettverkskort, faste volumer og den brukte plassen deres, gjennomsnittlig CPU- og minnebruk samt programmer som har begynt å kjøre regelmessig. Øyeblikksbildene er skrivebeskyttede og blir på denne PC-en.</value>
+  </data>
+  <data name="Changes_NotCoveredDriversServicesScheduledTasksAnd" xml:space="preserve">
+    <value>Ikke omfattet: drivere, tjenester, planlagte oppgaver og enkeltfiler.</value>
+  </data>
+  <data name="Compare_BeforeAfterHowThePCBehavedInTwoPeriods" xml:space="preserve">
+    <value>Før / etter: hvordan PC-en oppførte seg i to perioder</value>
+  </data>
+  <data name="Compare_SaveThisComparisonAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre sammenligningen som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Compare_GameSession" xml:space="preserve">
+    <value>Spilløkt</value>
+  </data>
+  <data name="Compare_NoGameSessionRecorded" xml:space="preserve">
+    <value>Ingen spilløkt registrert</value>
+  </data>
+  <data name="Compare_MomentDate" xml:space="preserve">
+    <value>Tidspunkt (dato)</value>
+  </data>
+  <data name="Compare_Time" xml:space="preserve">
+    <value>Klokkeslett</value>
+  </data>
+  <data name="Compare_SecondMomentDate" xml:space="preserve">
+    <value>Andre tidspunkt (dato)</value>
+  </data>
+  <data name="Compare_AMomentIsComparedOverThe10MinutesBeforeItQuot" xml:space="preserve">
+    <value>Et tidspunkt sammenlignes over de 10 minuttene før det; «før og etter et tidspunkt» bruker 15 minutter på hver side. Nylige perioder bruker målinger per sekund, eldre historikken per minutt eller time.</value>
+  </data>
+  <data name="Common_Metric" xml:space="preserve">
+    <value>Måling</value>
+  </data>
+  <data name="Compare_Change" xml:space="preserve">
+    <value>Endring</value>
+  </data>
+  <data name="Compare_Importance" xml:space="preserve">
+    <value>Viktighet</value>
+  </data>
+  <data name="Compare_AveragesOfCPUMemoryDiskActivityGPUNetwork" xml:space="preserve">
+    <value>Gjennomsnitt av CPU, minne, diskaktivitet, GPU, nettverk, prosesser og ledig plass på Windows-volumet i hver periode. En måling som bare ble målt i én periode, vises som ikke tilgjengelig og sammenlignes ikke. Prosenter skiller seg i prosentpoeng; mengder viser også den relative endringen.</value>
+  </data>
+  <data name="Dashboard_PCStatusOpenTheDiagnosis" xml:space="preserve">
+    <value>PC-ens status, åpne diagnosen</value>
+  </data>
+  <data name="Dashboard_OpenTheDiagnosis" xml:space="preserve">
+    <value>Åpne diagnosen</value>
+  </data>
+  <data name="Dashboard_MEMORY" xml:space="preserve">
+    <value>MINNE</value>
+  </data>
+  <data name="Common_GPU" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Dashboard_SYSTEMDISK" xml:space="preserve">
+    <value>SYSTEMDISK</value>
+  </data>
+  <data name="Dashboard_NETWORK" xml:space="preserve">
+    <value>NETTVERK</value>
+  </data>
+  <data name="Dashboard_PCHealthOpenTheDetails" xml:space="preserve">
+    <value>PC-helse, åpne detaljene</value>
+  </data>
+  <data name="Dashboard_PCHEALTH" xml:space="preserve">
+    <value>PC-HELSE</value>
+  </data>
+  <data name="Dashboard_SinceYesterdayOpenChanges" xml:space="preserve">
+    <value>Siden i går, åpne Endringer</value>
+  </data>
+  <data name="Dashboard_Insights" xml:space="preserve">
+    <value>Innsikt</value>
+  </data>
+  <data name="Dashboard_QuickActions" xml:space="preserve">
+    <value>Hurtighandlinger</value>
+  </data>
+  <data name="Dashboard_WhyIsMyPCSlow" xml:space="preserve">
+    <value>Hvorfor er PC-en treg?</value>
+  </data>
+  <data name="Dashboard_Diagnose" xml:space="preserve">
+    <value>Diagnostiser</value>
+  </data>
+  <data name="Dashboard_InvestigateAProblemForAFewMinutesWithDetailed" xml:space="preserve">
+    <value>Undersøk et problem i noen minutter med detaljert innsamling</value>
+  </data>
+  <data name="Dashboard_Troubleshoot" xml:space="preserve">
+    <value>Feilsøk</value>
+  </data>
+  <data name="Dashboard_EverythingThatHappenedInOrder" xml:space="preserve">
+    <value>Alt som har skjedd, i rekkefølge</value>
+  </data>
+  <data name="Dashboard_WhatHappenedInTheLastMinutes" xml:space="preserve">
+    <value>Hva skjedde de siste minuttene?</value>
+  </data>
+  <data name="Dashboard_WhatChangedRecently" xml:space="preserve">
+    <value>Hva er endret nylig?</value>
+  </data>
+  <data name="Dashboard_ViewChanges" xml:space="preserve">
+    <value>Vis endringer</value>
+  </data>
+  <data name="Dashboard_WhichApplicationWeighsTheMost" xml:space="preserve">
+    <value>Hvilken app belaster mest?</value>
+  </data>
+  <data name="Dashboard_AppImpact" xml:space="preserve">
+    <value>App-påvirkning</value>
+  </data>
+  <data name="Dashboard_RecapsOfYourGameSessions" xml:space="preserve">
+    <value>Sammendrag av spilløktene dine</value>
+  </data>
+  <data name="Common_CPUUsage" xml:space="preserve">
+    <value>CPU-bruk</value>
+  </data>
+  <data name="Common_ChartTimeSpan" xml:space="preserve">
+    <value>Diagrammets tidsrom</value>
+  </data>
+  <data name="Common_CPUUsageHistory" xml:space="preserve">
+    <value>Historikk for CPU-bruk</value>
+  </data>
+  <data name="Common_MemoryUsageHistory" xml:space="preserve">
+    <value>Historikk for minnebruk</value>
+  </data>
+  <data name="Dashboard_TopApplications" xml:space="preserve">
+    <value>Mest krevende apper</value>
+  </data>
+  <data name="Dashboard_SortTopApplicationsBy" xml:space="preserve">
+    <value>Sorter de mest krevende appene etter</value>
+  </data>
+  <data name="Dashboard_ViewAllProcesses" xml:space="preserve">
+    <value>Vis alle prosesser</value>
+  </data>
+  <data name="Dashboard_SystemHealth" xml:space="preserve">
+    <value>Systemhelse</value>
+  </data>
+  <data name="Dashboard_InstantIndicatorsBasedOnYourHealthThresholds" xml:space="preserve">
+    <value>Umiddelbare indikatorer basert på helsetersklene dine (Innstillinger)</value>
+  </data>
+  <data name="Dashboard_OpenPerformanceDetails" xml:space="preserve">
+    <value>Åpne ytelsesdetaljer</value>
+  </data>
+  <data name="Diagnosis_WhyItMatters" xml:space="preserve">
+    <value>Hvorfor det er viktig</value>
+  </data>
+  <data name="Diagnosis_WhenDidItStartWhatChangedAtTheSameTimeAndHow" xml:space="preserve">
+    <value>Når begynte det, hva endret seg samtidig, og hvor ofte har det skjedd før</value>
+  </data>
+  <data name="Diagnosis_WhyIsMyPCSlowSysoraChecksWhatItMeasuresAnd" xml:space="preserve">
+    <value>Hvorfor er PC-en treg? Sysora kontrollerer det som måles, og forklarer hva den finner.</value>
+  </data>
+  <data name="Diagnosis_AnalyzeAgain" xml:space="preserve">
+    <value>Analyser på nytt</value>
+  </data>
+  <data name="Diagnosis_SaveTheDiagnosisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre diagnosen som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Diagnosis_WhenAProblemStartedFromWhatLevelWhatChangedAtThe" xml:space="preserve">
+    <value>Når et problem begynte, fra hvilket nivå, hva som endret seg samtidig, og hvor ofte det har skjedd før.</value>
+  </data>
+  <data name="Diagnosis_MetricToExplain" xml:space="preserve">
+    <value>Måling som skal forklares</value>
+  </data>
+  <data name="Diagnosis_Explain" xml:space="preserve">
+    <value>Forklar</value>
+  </data>
+  <data name="Diagnosis_ExportThisExplanation" xml:space="preserve">
+    <value>Eksporter denne forklaringen</value>
+  </data>
+  <data name="Common_Started" xml:space="preserve">
+    <value>Startet</value>
+  </data>
+  <data name="Diagnosis_BeforeNow" xml:space="preserve">
+    <value>Før → nå</value>
+  </data>
+  <data name="Common_Duration" xml:space="preserve">
+    <value>Varighet</value>
+  </data>
+  <data name="Diagnosis_MainContributor" xml:space="preserve">
+    <value>Viktigste medvirkende faktor</value>
+  </data>
+  <data name="Diagnosis_AtTheSameTimeACoincidenceInTimeIsNotProofOfCause" xml:space="preserve">
+    <value>Samtidig (et sammenfall i tid er ikke bevis for årsak)</value>
+  </data>
+  <data name="Diagnosis_SeeEverythingThatHappenedAroundItInTheTimeline" xml:space="preserve">
+    <value>Se alt som skjedde rundt det, i tidslinjen</value>
+  </data>
+  <data name="Diagnosis_EveryStatementAndWhatItRestsOn" xml:space="preserve">
+    <value>Hvert utsagn og hva det bygger på</value>
+  </data>
+  <data name="Common_RecurringProblems" xml:space="preserve">
+    <value>Gjentakende problemer</value>
+  </data>
+  <data name="Diagnosis_OpenPCHealth" xml:space="preserve">
+    <value>Åpne PC-helse</value>
+  </data>
+  <data name="Diagnosis_ComparedWithYourUsualActivity" xml:space="preserve">
+    <value>Sammenlignet med den vanlige aktiviteten din</value>
+  </data>
+  <data name="Common_Now" xml:space="preserve">
+    <value>Nå</value>
+  </data>
+  <data name="Diagnosis_AverageOfTheLast15Minutes" xml:space="preserve">
+    <value>Gjennomsnitt for de siste 15 minuttene</value>
+  </data>
+  <data name="Diagnosis_LastHour" xml:space="preserve">
+    <value>Siste time</value>
+  </data>
+  <data name="Diagnosis_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="Diagnosis_Yesterday" xml:space="preserve">
+    <value>I går</value>
+  </data>
+  <data name="Diagnosis_7Days" xml:space="preserve">
+    <value>7 dager</value>
+  </data>
+  <data name="Diagnosis_30Days" xml:space="preserve">
+    <value>30 dager</value>
+  </data>
+  <data name="Diagnosis_UsualAtThisHour" xml:space="preserve">
+    <value>Vanlig på dette tidspunktet</value>
+  </data>
+  <data name="Diagnosis_SameHourOfTheDayOverTheLast30DaysTodayExcluded" xml:space="preserve">
+    <value>Samme time på døgnet de siste 30 dagene (unntatt i dag)</value>
+  </data>
+  <data name="Diagnosis_AveragesOfTheLocalHistoryAPeriodWithoutEnough" xml:space="preserve">
+    <value>Gjennomsnitt fra den lokale historikken. En periode uten nok målt tid vises med en strek (hold pekeren over den for å se hvor mye data som finnes): Sysora fyller aldri hullet med et anslag.</value>
+  </data>
+  <data name="Diagnosis_ProblemsDetected" xml:space="preserve">
+    <value>Oppdagede problemer</value>
+  </data>
+  <data name="Common_Recommendations" xml:space="preserve">
+    <value>Anbefalinger</value>
+  </data>
+  <data name="Diagnosis_PointsToWatch" xml:space="preserve">
+    <value>Punkter å følge med på</value>
+  </data>
+  <data name="Diagnosis_CheckedAndNormal" xml:space="preserve">
+    <value>Kontrollert og normalt</value>
+  </data>
+  <data name="Diagnosis_NotAnalyzed" xml:space="preserve">
+    <value>Ikke analysert</value>
+  </data>
+  <data name="Diagnosis_SysoraOnlyReportsWhatItMeasuresRulesAre" xml:space="preserve">
+    <value>Sysora rapporterer bare det som måles. Reglene er deterministiske: de samme målingene gir alltid den samme diagnosen.</value>
+  </data>
+  <data name="Gaming_ARecapOfEachGameSessionWhatYourPCTheGameAndOther" xml:space="preserve">
+    <value>Et sammendrag av hver spilløkt: hva PC-en, spillet og andre apper brukte. FPS anslås aldri.</value>
+  </data>
+  <data name="Gaming_GameSessionsAreTurnedOffInSettingsNoNewSessionIs" xml:space="preserve">
+    <value>Spilløkter er slått av i Innstillinger: ingen nye økter registreres.</value>
+  </data>
+  <data name="Gaming_GAMERUNNINGRECORDINGWITHMINIMALIMPACT" xml:space="preserve">
+    <value>SPILL KJØRER · REGISTRERER MED MINIMAL PÅVIRKNING</value>
+  </data>
+  <data name="Gaming_NotAGame" xml:space="preserve">
+    <value>Ikke et spill</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGameSettings" xml:space="preserve">
+    <value>Slutt å følge denne appen som et spill (Innstillinger › Spill for å angre)</value>
+  </data>
+  <data name="Common_GameSessions" xml:space="preserve">
+    <value>Spilløkter</value>
+  </data>
+  <data name="Gaming_NoGameSessionYet" xml:space="preserve">
+    <value>Ingen spilløkt ennå</value>
+  </data>
+  <data name="Gaming_StartAGameSysoraFollowsItAutomaticallyWhen" xml:space="preserve">
+    <value>Start et spill: Sysora følger det automatisk når Windows gjenkjenner det som et spill (Game Bar-listen), når en spillplattform rapporterer det som installert (Steam, Epic, Riot, GOG), eller når det er installert i en spillbibliotekmappe. Når spillet lukkes, vises et sammendrag her. Økter som er kortere enn minimum i Innstillinger, lagres ikke.</value>
+  </data>
+  <data name="Gaming_MarkAnApplicationAsAGameInSettings" xml:space="preserve">
+    <value>Legg til et spill i Innstillinger</value>
+  </data>
+  <data name="Gaming_BeforeVsDuringTheGame" xml:space="preserve">
+    <value>Før og under spillet</value>
+  </data>
+  <data name="Gaming_BeforeVsAfterTheGame" xml:space="preserve">
+    <value>Før og etter spillet</value>
+  </data>
+  <data name="Gaming_WithThePreviousSession" xml:space="preserve">
+    <value>Med forrige økt</value>
+  </data>
+  <data name="Gaming_ExportRecap" xml:space="preserve">
+    <value>Eksporter sammendrag</value>
+  </data>
+  <data name="Gaming_SaveThisRecapAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre sammendraget som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGamePastSessions" xml:space="preserve">
+    <value>Slutt å følge denne appen som et spill (tidligere økter beholdes)</value>
+  </data>
+  <data name="Common_Measurements" xml:space="preserve">
+    <value>Målinger</value>
+  </data>
+  <data name="Common_Average" xml:space="preserve">
+    <value>Gjennomsnitt</value>
+  </data>
+  <data name="Gaming_Maximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="Gaming_Scope" xml:space="preserve">
+    <value>Omfang</value>
+  </data>
+  <data name="Gaming_CPUDuringTheSession" xml:space="preserve">
+    <value>CPU under økten</value>
+  </data>
+  <data name="Gaming_GPUDuringTheSession" xml:space="preserve">
+    <value>GPU under økten</value>
+  </data>
+  <data name="Common_WhatHappened" xml:space="preserve">
+    <value>Hva som skjedde</value>
+  </data>
+  <data name="Gaming_ComparedWithPreviousSessions" xml:space="preserve">
+    <value>Sammenlignet med tidligere økter</value>
+  </data>
+  <data name="Gaming_NotableDifference" xml:space="preserve">
+    <value>Betydelig forskjell</value>
+  </data>
+  <data name="Gaming_OtherApplicationsDuringTheGame" xml:space="preserve">
+    <value>Andre apper under spillet</value>
+  </data>
+  <data name="Gaming_NoOtherApplicationUsedAMeasurableShareOfThe" xml:space="preserve">
+    <value>Ingen annen app brukte en målbar andel av prosessoren.</value>
+  </data>
+  <data name="Gaming_OtherProcessesOfTheGame" xml:space="preserve">
+    <value>Spillets andre prosesser</value>
+  </data>
+  <data name="Gaming_StartedByTheGameOrInstalledInItsFolderLaunchers" xml:space="preserve">
+    <value>Startet av spillet eller installert i mappen dets (spillplattformer, juksebeskyttelse, krasjrapportering …).</value>
+  </data>
+  <data name="Gaming_EventsDuringTheSession" xml:space="preserve">
+    <value>Hendelser under økten</value>
+  </data>
+  <data name="Gaming_NotMeasured" xml:space="preserve">
+    <value>Ikke målt</value>
+  </data>
+  <data name="LargeFiles_WhatTakesTheMostSpaceSysoraOnlyListsFilesItNever" xml:space="preserve">
+    <value>Det som tar mest plass. Sysora viser bare filer: den flytter, endrer eller sletter dem aldri.</value>
+  </data>
+  <data name="LargeFiles_SaveTheResultsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre resultatene som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="LargeFiles_Where" xml:space="preserve">
+    <value>Hvor</value>
+  </data>
+  <data name="LargeFiles_ChooseAFolder" xml:space="preserve">
+    <value>Velg en mappe …</value>
+  </data>
+  <data name="LargeFiles_FilesOf" xml:space="preserve">
+    <value>Filer på</value>
+  </data>
+  <data name="LargeFiles_Scan" xml:space="preserve">
+    <value>Skann</value>
+  </data>
+  <data name="LargeFiles_Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="LargeFiles_TheScanRunsOnlyWhenYouAskAtLowPriorityAndCanBe" xml:space="preserve">
+    <value>Skanningen kjører bare når du ber om det, med lav prioritet, og kan avbrytes når som helst. Den leser bare mappelister (ingen fil åpnes), følger ikke koblinger, hopper over skyfiler som bare finnes på nettet, og rapporterer mapper som Windows nekter å vise, i stedet for å telle dem som tomme.</value>
+  </data>
+  <data name="LargeFiles_FoldersNotReadLinksAndExclusions" xml:space="preserve">
+    <value>Mapper som ikke ble lest, koblinger og unntak</value>
+  </data>
+  <data name="LargeFiles_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="LargeFiles_Search" xml:space="preserve">
+    <value>Søk</value>
+  </data>
+  <data name="LargeFiles_SearchByNameOrFolder" xml:space="preserve">
+    <value>Søk etter navn eller mappe</value>
+  </data>
+  <data name="LargeFiles_Modified" xml:space="preserve">
+    <value> · endret </value>
+  </data>
+  <data name="LargeFiles_ShowInFileExplorer" xml:space="preserve">
+    <value>Vis i Filutforsker</value>
+  </data>
+  <data name="LargeFiles_CopyThePath" xml:space="preserve">
+    <value>Kopier banen</value>
+  </data>
+  <data name="Network_LocalStatisticsOnlySysoraSendsNoNetworkTrafficTo" xml:space="preserve">
+    <value>Bare lokal statistikk – Sysora sender ingen nettverkstrafikk for å måle den</value>
+  </data>
+  <data name="Common_TimeSpan" xml:space="preserve">
+    <value>Tidsrom</value>
+  </data>
+  <data name="Network_NetworkMonitoringIsTurnedOffInSettings" xml:space="preserve">
+    <value>Nettverksovervåkingen er slått av i Innstillinger.</value>
+  </data>
+  <data name="Network_CONNECTION" xml:space="preserve">
+    <value>TILKOBLING</value>
+  </data>
+  <data name="Network_ACTIVEINTERFACE" xml:space="preserve">
+    <value>AKTIVT GRENSESNITT</value>
+  </data>
+  <data name="Network_Throughput" xml:space="preserve">
+    <value>Gjennomstrømning</value>
+  </data>
+  <data name="Network_Download" xml:space="preserve">
+    <value>Nedlasting</value>
+  </data>
+  <data name="Network_Upload" xml:space="preserve">
+    <value>Opplasting</value>
+  </data>
+  <data name="Network_NetworkThroughputHistory" xml:space="preserve">
+    <value>Historikk for nettverksgjennomstrømning</value>
+  </data>
+  <data name="Network_Interfaces" xml:space="preserve">
+    <value>Grensesnitt</value>
+  </data>
+  <data name="Network_LinkSpeed" xml:space="preserve">
+    <value>Koblingshastighet</value>
+  </data>
+  <data name="Network_Received" xml:space="preserve">
+    <value>Mottatt</value>
+  </data>
+  <data name="Network_SinceTheInterfaceCameUp" xml:space="preserve">
+    <value>Siden grensesnittet ble aktivert</value>
+  </data>
+  <data name="Network_Sent" xml:space="preserve">
+    <value>Sendt</value>
+  </data>
+  <data name="Network_IPv4" xml:space="preserve">
+    <value>IPv4</value>
+  </data>
+  <data name="Network_IPv6" xml:space="preserve">
+    <value>IPv6</value>
+  </data>
+  <data name="Network_LatencyIsNotMeasuredItWouldRequireContactingA" xml:space="preserve">
+    <value>Forsinkelsen måles ikke: det ville kreve kontakt med en ekstern server. Internett-tilgjengeligheten kommer fra Windows' egne tilkoblingskontroller.</value>
+  </data>
+  <data name="PcHealth_InWhatStateIsMyPCAScoreOutOf100ExplainedAreaBy" xml:space="preserve">
+    <value>Hvilken tilstand er PC-en i? En poengsum av 100, forklart område for område.</value>
+  </data>
+  <data name="PcHealth_SaveThisAnalysisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre analysen som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="PcHealth_PCHealthScore" xml:space="preserve">
+    <value>Poengsum for PC-helse</value>
+  </data>
+  <data name="PcHealth_OutOf100" xml:space="preserve">
+    <value>av 100</value>
+  </data>
+  <data name="PcHealth_Areas" xml:space="preserve">
+    <value>Områder</value>
+  </data>
+  <data name="PcHealth_WhyThisImpact" xml:space="preserve">
+    <value>Hvorfor denne påvirkningen</value>
+  </data>
+  <data name="PcHealth_AProblemIsCalledRecurringAfter3EpisodesOn2" xml:space="preserve">
+    <value>Et problem kalles gjentakende etter 3 episoder på 2 forskjellige dager de siste 7 dagene, ut fra varslene og hendelsene Sysora har registrert. Med mindre historikk sier Sysora det i stedet for å gjette.</value>
+  </data>
+  <data name="PcHealth_DetailsAndIntensity" xml:space="preserve">
+    <value>Detaljer og intensitet</value>
+  </data>
+  <data name="PcHealth_HowTheScoreIsComputed" xml:space="preserve">
+    <value>Hvordan poengsummen beregnes</value>
+  </data>
+  <data name="PcHealth_NotCounted" xml:space="preserve">
+    <value>Telles ikke med</value>
+  </data>
+  <data name="Performance_RealTimeUsageAndRecentHistory" xml:space="preserve">
+    <value>Bruk i sanntid og nylig historikk</value>
+  </data>
+  <data name="Performance_DiskActivity" xml:space="preserve">
+    <value>Diskaktivitet</value>
+  </data>
+  <data name="Performance_Speed" xml:space="preserve">
+    <value>Hastighet</value>
+  </data>
+  <data name="Performance_EffectiveClockRatedFrequencyCurrentProcessor" xml:space="preserve">
+    <value>Effektiv klokkefrekvens: nominell frekvens × gjeldende prosessorytelse, beregnet som i Oppgavebehandling.</value>
+  </data>
+  <data name="Performance_BaseSpeed" xml:space="preserve">
+    <value>Basishastighet</value>
+  </data>
+  <data name="Performance_PeakSpeedThisSession" xml:space="preserve">
+    <value>Topphastighet (denne økten)</value>
+  </data>
+  <data name="Performance_Temperature" xml:space="preserve">
+    <value>Temperatur</value>
+  </data>
+  <data name="Performance_Cores" xml:space="preserve">
+    <value>Kjerner</value>
+  </data>
+  <data name="Performance_LogicalProcessors" xml:space="preserve">
+    <value>Logiske prosessorer</value>
+  </data>
+  <data name="Performance_Sockets" xml:space="preserve">
+    <value>Sokler</value>
+  </data>
+  <data name="Performance_L2Cache" xml:space="preserve">
+    <value>L2-hurtigbuffer</value>
+  </data>
+  <data name="Performance_L3Cache" xml:space="preserve">
+    <value>L3-hurtigbuffer</value>
+  </data>
+  <data name="Common_Threads" xml:space="preserve">
+    <value>Tråder</value>
+  </data>
+  <data name="Common_Handles" xml:space="preserve">
+    <value>Referanser</value>
+  </data>
+  <data name="Performance_UpTime" xml:space="preserve">
+    <value>Oppetid</value>
+  </data>
+  <data name="Performance_UsagePerLogicalProcessor" xml:space="preserve">
+    <value>Bruk per logisk prosessor</value>
+  </data>
+  <data name="Common_MemoryInUse" xml:space="preserve">
+    <value>Minne i bruk</value>
+  </data>
+  <data name="Performance_InUse" xml:space="preserve">
+    <value>I bruk</value>
+  </data>
+  <data name="Performance_Available" xml:space="preserve">
+    <value>Tilgjengelig</value>
+  </data>
+  <data name="Performance_UsableByWindows" xml:space="preserve">
+    <value>Kan brukes av Windows</value>
+  </data>
+  <data name="Performance_Installed" xml:space="preserve">
+    <value>Installert</value>
+  </data>
+  <data name="Common_Committed" xml:space="preserve">
+    <value>Tilordnet</value>
+  </data>
+  <data name="Performance_CommitChargeCommitLimitPhysicalMemoryPlusPage" xml:space="preserve">
+    <value>Tilordnet minne / tilordningsgrense (fysisk minne pluss sidevekslingsfiler).</value>
+  </data>
+  <data name="Performance_SystemCache" xml:space="preserve">
+    <value>Systemhurtigbuffer</value>
+  </data>
+  <data name="Performance_StandbyListPlusSystemWorkingSetAsReportedBy" xml:space="preserve">
+    <value>Ventelisten pluss systemets arbeidssett, som rapportert av GetPerformanceInfo.</value>
+  </data>
+  <data name="Performance_PagedPool" xml:space="preserve">
+    <value>Sidevekslet utvalg</value>
+  </data>
+  <data name="Performance_NonPagedPool" xml:space="preserve">
+    <value>Ikke-sidevekslet utvalg</value>
+  </data>
+  <data name="Performance_NoGraphicsAdapterDataIsAvailableGPUMonitoringMay" xml:space="preserve">
+    <value>Det finnes ingen data om grafikkort. GPU-overvåkingen kan være slått av i Innstillinger, eller så gjør ikke systemet GPU-ytelsestellere tilgjengelige.</value>
+  </data>
+  <data name="Performance_DedicatedMemory" xml:space="preserve">
+    <value>Dedikert minne</value>
+  </data>
+  <data name="Performance_SharedMemory" xml:space="preserve">
+    <value>Delt minne</value>
+  </data>
+  <data name="Performance_NotExposedByTheWindowsGPUPerformanceCounters" xml:space="preserve">
+    <value>Gjøres ikke tilgjengelig av Windows' GPU-ytelsestellere.</value>
+  </data>
+  <data name="Performance_ClockSpeed" xml:space="preserve">
+    <value>Klokkefrekvens</value>
+  </data>
+  <data name="Performance_BusiestEngines" xml:space="preserve">
+    <value>Mest belastede motorer</value>
+  </data>
+  <data name="Performance_DiskActivityCountersAreNotAvailableOnThisSystem" xml:space="preserve">
+    <value>Tellere for diskaktivitet er ikke tilgjengelige på dette systemet.</value>
+  </data>
+  <data name="Common_Read" xml:space="preserve">
+    <value>Lesing</value>
+  </data>
+  <data name="Common_Write" xml:space="preserve">
+    <value>Skriving</value>
+  </data>
+  <data name="Processes_SearchProcesses" xml:space="preserve">
+    <value>Søk i prosesser</value>
+  </data>
+  <data name="Processes_SearchByNameOrPID" xml:space="preserve">
+    <value>Søk etter navn eller PID</value>
+  </data>
+  <data name="Processes_HIGHESTCPUUSAGE" xml:space="preserve">
+    <value>HØYESTE CPU-BRUK</value>
+  </data>
+  <data name="Processes_HIGHESTMEMORYUSAGE" xml:space="preserve">
+    <value>HØYESTE MINNEBRUK</value>
+  </data>
+  <data name="Processes_HIGHESTIOACTIVITY" xml:space="preserve">
+    <value>MEST I/U-AKTIVITET</value>
+  </data>
+  <data name="Processes_SortByName" xml:space="preserve">
+    <value>Sorter etter navn</value>
+  </data>
+  <data name="Processes_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Processes_SortByPID" xml:space="preserve">
+    <value>Sorter etter PID</value>
+  </data>
+  <data name="Processes_PID" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="Processes_SortByCPU" xml:space="preserve">
+    <value>Sorter etter CPU</value>
+  </data>
+  <data name="Processes_SortByMemory" xml:space="preserve">
+    <value>Sorter etter minne</value>
+  </data>
+  <data name="Processes_PrivateWorkingSetPhysicalMemoryUsedOnlyByThis" xml:space="preserve">
+    <value>Privat arbeidssett: fysisk minne som bare denne prosessen bruker</value>
+  </data>
+  <data name="Processes_SortByDiskIO" xml:space="preserve">
+    <value>Sorter etter disk-I/U</value>
+  </data>
+  <data name="Processes_ReadAndWriteIOFilesDevicesAndNetwork" xml:space="preserve">
+    <value>Lese- og skrive-I/U (filer, enheter og nettverk)</value>
+  </data>
+  <data name="Processes_CPUIsAShareOfTotalCapacityMemoryIsThePrivate" xml:space="preserve">
+    <value>CPU er en andel av total kapasitet. Minne er det private arbeidssettet. Nettverksbruk per prosess måles ikke (det krever sporing på administratornivå).</value>
+  </data>
+  <data name="Processes_SelectAProcessToSeeItsDetails" xml:space="preserve">
+    <value>Velg en prosess for å se detaljene.</value>
+  </data>
+  <data name="Processes_ThisProcessHasExited" xml:space="preserve">
+    <value>Prosessen er avsluttet.</value>
+  </data>
+  <data name="Processes_CriticalWindowsProcessEndingItWouldStopTheSystem" xml:space="preserve">
+    <value>Kritisk Windows-prosess: hvis den avsluttes, stopper systemet.</value>
+  </data>
+  <data name="Processes_ParentPID" xml:space="preserve">
+    <value>Overordnet PID</value>
+  </data>
+  <data name="Processes_Session" xml:space="preserve">
+    <value>Økt</value>
+  </data>
+  <data name="Processes_PrivateWorkingSet" xml:space="preserve">
+    <value>Privat arbeidssett</value>
+  </data>
+  <data name="Processes_WorkingSet" xml:space="preserve">
+    <value>Arbeidssett</value>
+  </data>
+  <data name="Processes_IncludesMemorySharedWithOtherProcesses" xml:space="preserve">
+    <value>Inkluderer minne som deles med andre prosesser</value>
+  </data>
+  <data name="Processes_PrivateBytes" xml:space="preserve">
+    <value>Private byte</value>
+  </data>
+  <data name="Processes_IORead" xml:space="preserve">
+    <value>I/U-lesing</value>
+  </data>
+  <data name="Processes_IOWrite" xml:space="preserve">
+    <value>I/U-skriving</value>
+  </data>
+  <data name="Processes_Path" xml:space="preserve">
+    <value>Bane</value>
+  </data>
+  <data name="Processes_Company" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="Common_Version" xml:space="preserve">
+    <value>Versjon</value>
+  </data>
+  <data name="Processes_EndProcess" xml:space="preserve">
+    <value>Avslutt prosess …</value>
+  </data>
+  <data name="Replay_WhatHappenedOnYourPCInTheLastMinutesOrHours" xml:space="preserve">
+    <value>Hva som skjedde på PC-en de siste minuttene eller timene</value>
+  </data>
+  <data name="Replay_BackToNow" xml:space="preserve">
+    <value>Tilbake til nå</value>
+  </data>
+  <data name="Replay_ZoomIn" xml:space="preserve">
+    <value>Zoom inn</value>
+  </data>
+  <data name="Replay_ZoomInShorterPeriodAroundTheCursor" xml:space="preserve">
+    <value>Zoom inn (kortere periode rundt markøren)</value>
+  </data>
+  <data name="Replay_ZoomOut" xml:space="preserve">
+    <value>Zoom ut</value>
+  </data>
+  <data name="Replay_ZoomOutLongerPeriod" xml:space="preserve">
+    <value>Zoom ut (lengre periode)</value>
+  </data>
+  <data name="Replay_CompareBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>Sammenlign før og etter markøren</value>
+  </data>
+  <data name="Replay_CompareThe15MinutesBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>Sammenlign de 15 minuttene før og etter markøren</value>
+  </data>
+  <data name="Replay_SaveThisPeriodAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre denne perioden som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Replay_MoveTheCursorToThisMoment" xml:space="preserve">
+    <value>Flytt markøren til dette tidspunktet</value>
+  </data>
+  <data name="Replay_ReplayPosition" xml:space="preserve">
+    <value>Posisjon i tilbakeblikket</value>
+  </data>
+  <data name="Replay_CPUUsageReplay" xml:space="preserve">
+    <value>Tilbakeblikk på CPU-bruk</value>
+  </data>
+  <data name="Replay_MemoryUsageReplay" xml:space="preserve">
+    <value>Tilbakeblikk på minnebruk</value>
+  </data>
+  <data name="Replay_DiskBusiestVolumeActiveTime" xml:space="preserve">
+    <value>Disk (mest opptatte volum, aktiv tid)</value>
+  </data>
+  <data name="Replay_DiskActivityReplay" xml:space="preserve">
+    <value>Tilbakeblikk på diskaktivitet</value>
+  </data>
+  <data name="Replay_NetworkDownloadAndUpload" xml:space="preserve">
+    <value>Nettverk (nedlasting og opplasting)</value>
+  </data>
+  <data name="Replay_NetworkReplay" xml:space="preserve">
+    <value>Tilbakeblikk på nettverk</value>
+  </data>
+  <data name="Replay_GPUBusiestAdapter" xml:space="preserve">
+    <value>GPU (mest belastede kort)</value>
+  </data>
+  <data name="Replay_GPUUsageReplay" xml:space="preserve">
+    <value>Tilbakeblikk på GPU-bruk</value>
+  </data>
+  <data name="Replay_AtTheCursor" xml:space="preserve">
+    <value>Ved markøren</value>
+  </data>
+  <data name="Replay_Disk" xml:space="preserve">
+    <value>Disk</value>
+  </data>
+  <data name="Replay_Applications" xml:space="preserve">
+    <value>Apper</value>
+  </data>
+  <data name="Replay_EventsAroundThisTime" xml:space="preserve">
+    <value>Hendelser rundt dette tidspunktet</value>
+  </data>
+  <data name="Replay_NoMeasurementsForThisPeriodLongerPeriodsUseThe" xml:space="preserve">
+    <value>Ingen målinger for denne perioden. Lengre perioder bruker den lokale historikken, som fylles opp mens Sysora kjører.</value>
+  </data>
+  <data name="Settings_Settings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="Settings_ChangesAreAppliedAndSavedImmediately" xml:space="preserve">
+    <value>Endringer tas i bruk og lagres med en gang.</value>
+  </data>
+  <data name="Settings_General" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="Settings_FollowWindowsOrAlwaysUseLightOrDarkColors" xml:space="preserve">
+    <value>Følg Windows, eller bruk alltid lyse eller mørke farger</value>
+  </data>
+  <data name="Settings_Theme" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_WhatHappensWhenYouCloseTheSysoraWindow" xml:space="preserve">
+    <value>Hva som skjer når du lukker Sysora-vinduet</value>
+  </data>
+  <data name="Settings_CloseWindow" xml:space="preserve">
+    <value>Lukk vindu</value>
+  </data>
+  <data name="Settings_Startup" xml:space="preserve">
+    <value>Oppstart</value>
+  </data>
+  <data name="Settings_StartSysoraWithWindows" xml:space="preserve">
+    <value>Start Sysora med Windows</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsOpenTheWindowMinimizedTo" xml:space="preserve">
+    <value>Ved oppstart med Windows åpnes vinduet minimert på oppgavelinjen</value>
+  </data>
+  <data name="Settings_StartMinimized" xml:space="preserve">
+    <value>Start minimert</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsStayInTheNotificationArea" xml:space="preserve">
+    <value>Ved oppstart med Windows blir Sysora i varslingsområdet uten å åpne vinduet</value>
+  </data>
+  <data name="Settings_StartInTray" xml:space="preserve">
+    <value>Start i varslingsområdet</value>
+  </data>
+  <data name="Settings_Monitoring" xml:space="preserve">
+    <value>Overvåking</value>
+  </data>
+  <data name="Settings_StopCollectingMetricsUntilYouResumeAlsoAvailable" xml:space="preserve">
+    <value>Stopp innsamlingen av målinger til du gjenopptar (også tilgjengelig fra tittellinjen og ikonet i varslingsområdet)</value>
+  </data>
+  <data name="Settings_PauseMonitoring" xml:space="preserve">
+    <value>Sett overvåking på pause</value>
+  </data>
+  <data name="Settings_MonitoringIntensity" xml:space="preserve">
+    <value>Overvåkingsintensitet</value>
+  </data>
+  <data name="Settings_CPUMemoryAndNetworkSamplingInterval" xml:space="preserve">
+    <value>Måleintervall for CPU, minne og nettverk</value>
+  </data>
+  <data name="Settings_RealTimeMetrics" xml:space="preserve">
+    <value>Målinger i sanntid</value>
+  </data>
+  <data name="Settings_RealTimeMetricsInterval" xml:space="preserve">
+    <value>Intervall for målinger i sanntid</value>
+  </data>
+  <data name="Settings_ProcessesGPUAndDiskActivitySamplingInterval" xml:space="preserve">
+    <value>Måleintervall for prosesser, GPU og diskaktivitet</value>
+  </data>
+  <data name="Settings_DetailedMetrics" xml:space="preserve">
+    <value>Detaljerte målinger</value>
+  </data>
+  <data name="Settings_DetailedMetricsInterval" xml:space="preserve">
+    <value>Intervall for detaljerte målinger</value>
+  </data>
+  <data name="Settings_HowOftenFreeSpaceIsChecked" xml:space="preserve">
+    <value>Hvor ofte ledig plass kontrolleres</value>
+  </data>
+  <data name="Settings_StorageCapacity" xml:space="preserve">
+    <value>Lagringskapasitet</value>
+  </data>
+  <data name="Settings_StorageCapacityInterval" xml:space="preserve">
+    <value>Intervall for lagringskapasitet</value>
+  </data>
+  <data name="Settings_DefaultTimeSpanOfChartsHistoryIsKeptInMemoryOnly" xml:space="preserve">
+    <value>Standard tidsrom for diagrammer (historikken holdes bare i minnet)</value>
+  </data>
+  <data name="Settings_ChartHistory" xml:space="preserve">
+    <value>Diagramhistorikk</value>
+  </data>
+  <data name="Settings_GraphicsAdapterUsageAndMemory" xml:space="preserve">
+    <value>Grafikkortets bruk og minne</value>
+  </data>
+  <data name="Settings_MonitorGPU" xml:space="preserve">
+    <value>Overvåk GPU</value>
+  </data>
+  <data name="Settings_InterfaceThroughputAndConnectivityReportedBy" xml:space="preserve">
+    <value>Grensesnittenes gjennomstrømning og tilkobling, som rapportert av Windows</value>
+  </data>
+  <data name="Settings_MonitorNetwork" xml:space="preserve">
+    <value>Overvåk nettverk</value>
+  </data>
+  <data name="Settings_WhileTheWindowIsHiddenOrMinimizedSampleProcesses" xml:space="preserve">
+    <value>Når vinduet er skjult eller minimert, måles prosesser, GPU, disk og nettverk sjeldnere</value>
+  </data>
+  <data name="Settings_ReduceActivityInTheBackground" xml:space="preserve">
+    <value>Reduser aktiviteten i bakgrunnen</value>
+  </data>
+  <data name="Settings_MaximumCPUSysoraMayUseInOfTotalCapacityAboveIt" xml:space="preserve">
+    <value>Maksimal CPU Sysora kan bruke, i % av total kapasitet. Over den forlenges intervallene automatisk. 0 = ingen grense.</value>
+  </data>
+  <data name="Settings_CPUBudgetForSysora" xml:space="preserve">
+    <value>CPU-budsjett for Sysora</value>
+  </data>
+  <data name="Settings_HealthThresholds" xml:space="preserve">
+    <value>Helseterskler</value>
+  </data>
+  <data name="Settings_UsedByTheSystemHealthPanelCPUAndMemoryMustStay" xml:space="preserve">
+    <value>Brukes av panelet Systemhelse. CPU og minne må ligge over en terskel i den angitte tiden før de rapporteres, noe som unngår varsler for korte topper.</value>
+  </data>
+  <data name="Settings_CPUWarning" xml:space="preserve">
+    <value>CPU-advarsel (%)</value>
+  </data>
+  <data name="Settings_CPUCritical" xml:space="preserve">
+    <value>CPU kritisk (%)</value>
+  </data>
+  <data name="Settings_CPUDurationS" xml:space="preserve">
+    <value>CPU-varighet (s)</value>
+  </data>
+  <data name="Settings_MemoryWarning" xml:space="preserve">
+    <value>Minneadvarsel (%)</value>
+  </data>
+  <data name="Settings_MemoryCritical" xml:space="preserve">
+    <value>Minne kritisk (%)</value>
+  </data>
+  <data name="Settings_MemoryDurationS" xml:space="preserve">
+    <value>Minnevarighet (s)</value>
+  </data>
+  <data name="Settings_DiskWarning" xml:space="preserve">
+    <value>Diskadvarsel (%)</value>
+  </data>
+  <data name="Settings_DiskCritical" xml:space="preserve">
+    <value>Disk kritisk (%)</value>
+  </data>
+  <data name="Settings_AppMemoryOfRAM" xml:space="preserve">
+    <value>Appminne (% av RAM)</value>
+  </data>
+  <data name="Settings_AppCPU" xml:space="preserve">
+    <value>App-CPU (%)</value>
+  </data>
+  <data name="Settings_RestoreDefaultThresholds" xml:space="preserve">
+    <value>Gjenopprett standardterskler</value>
+  </data>
+  <data name="Settings_RaiseAlertsForProblemsThatLastOrAreUnusualFor" xml:space="preserve">
+    <value>Gi varsler for problemer som varer eller er uvanlige for denne PC-en (vises i Varsler)</value>
+  </data>
+  <data name="Settings_SmartAlerts" xml:space="preserve">
+    <value>Smarte varsler</value>
+  </data>
+  <data name="Settings_AlsoShowAWindowsNotificationForNewWarningsAnd" xml:space="preserve">
+    <value>Vis også et Windows-varsel for nye advarsler og kritiske varsler</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Varslinger</value>
+  </data>
+  <data name="Settings_AlertNotifications" xml:space="preserve">
+    <value>Varslinger om varsler</value>
+  </data>
+  <data name="Settings_EachConditionMustLastForTheGivenDurationBeforeAn" xml:space="preserve">
+    <value>Hver tilstand må vare i den angitte tiden før et varsel gis. Så lenge den varer, oppdateres ett enkelt varsel; det løses ett minutt etter at tilstanden er over.</value>
+  </data>
+  <data name="Settings_CPUAbove" xml:space="preserve">
+    <value>CPU over (%)</value>
+  </data>
+  <data name="Settings_ForMinutes" xml:space="preserve">
+    <value>i (minutter)</value>
+  </data>
+  <data name="Settings_MemoryAbove" xml:space="preserve">
+    <value>Minne over (%)</value>
+  </data>
+  <data name="Settings_DiskBusyAbove" xml:space="preserve">
+    <value>Disk opptatt over (%)</value>
+  </data>
+  <data name="Settings_OneAppAboveCPU" xml:space="preserve">
+    <value>Én app over (% CPU)</value>
+  </data>
+  <data name="Settings_MemoryRisingByPoints" xml:space="preserve">
+    <value>Minne øker med (prosentpoeng)</value>
+  </data>
+  <data name="Settings_WithinMinutes" xml:space="preserve">
+    <value>innen (minutter)</value>
+  </data>
+  <data name="Settings_SystemDiskFreeBelow" xml:space="preserve">
+    <value>Ledig plass på systemdisken under (%)</value>
+  </data>
+  <data name="Settings_ReopenInsteadOfNewWithinMin" xml:space="preserve">
+    <value>Åpne på nytt i stedet for nytt innen (min)</value>
+  </data>
+  <data name="Settings_NewAlertsPerHourMax" xml:space="preserve">
+    <value>Nye varsler per time (maks.)</value>
+  </data>
+  <data name="Settings_UnusualActivity" xml:space="preserve">
+    <value>Uvanlig aktivitet</value>
+  </data>
+  <data name="Settings_AlertWhenCPUMemoryOrDiskStayAboveYourUsualRange" xml:space="preserve">
+    <value>Varsle når CPU, minne eller disk ligger over det vanlige intervallet ditt (lært ut fra minst 4 timers historikk) i den angitte tiden.</value>
+  </data>
+  <data name="Settings_UnusualActivityDurationMinutes" xml:space="preserve">
+    <value>Varighet for uvanlig aktivitet (minutter)</value>
+  </data>
+  <data name="Settings_UnusualActivityAlerts" xml:space="preserve">
+    <value>Varsler om uvanlig aktivitet</value>
+  </data>
+  <data name="Settings_RestoreDefaultAlertRules" xml:space="preserve">
+    <value>Gjenopprett standardregler for varsler</value>
+  </data>
+  <data name="Settings_SaveAggregatedPerformanceApplicationUsageEvents" xml:space="preserve">
+    <value>Lagre samlet ytelse, appbruk, hendelser, varsler, endringer og spilløkter i en lokal database. Trengs for App-påvirkning over flere dager, Endringer, sammendrag av spill og grunnlinjen for vanlig atferd.</value>
+  </data>
+  <data name="Settings_RecordHistory" xml:space="preserve">
+    <value>Registrer historikk</value>
+  </data>
+  <data name="Settings_DetailedDataEverySecondKeptInMemoryForReplay" xml:space="preserve">
+    <value>Detaljerte data (hvert sekund) som holdes i minnet for Tilbakeblikk. Skrives aldri til disken.</value>
+  </data>
+  <data name="Settings_ReplayBuffer" xml:space="preserve">
+    <value>Buffer for tilbakeblikk</value>
+  </data>
+  <data name="Settings_MinuteLevelSystemDataAndFiveMinuteApplication" xml:space="preserve">
+    <value>Systemdata per minutt og appdata per fem minutter (1–31 dager)</value>
+  </data>
+  <data name="Settings_KeepDetailedHistoryDays" xml:space="preserve">
+    <value>Behold detaljert historikk (dager)</value>
+  </data>
+  <data name="Settings_HourlySummariesEventsAlertsChangesAndGame" xml:space="preserve">
+    <value>Sammendrag per time, hendelser, varsler, endringer og spilløkter (7–365 dager). Eldre data slettes automatisk.</value>
+  </data>
+  <data name="Settings_KeepSummariesDays" xml:space="preserve">
+    <value>Behold sammendrag (dager)</value>
+  </data>
+  <data name="Settings_DeleteHistory" xml:space="preserve">
+    <value>Slett historikk</value>
+  </data>
+  <data name="Settings_Delete" xml:space="preserve">
+    <value>Slett …</value>
+  </data>
+  <data name="Settings_FollowGameSessionsAutomaticallyAndShowARecapWhen" xml:space="preserve">
+    <value>Følg spilløkter automatisk, og vis et sammendrag når spillet lukkes. FPS anslås aldri.</value>
+  </data>
+  <data name="Settings_ExecutablesThatWindowsItselfRecognizesAsGames" xml:space="preserve">
+    <value>Kjørbare filer som Windows selv gjenkjenner som spill (Game Bar-listen for kontoen din)</value>
+  </data>
+  <data name="Settings_GamesRecognizedByWindows" xml:space="preserve">
+    <value>Spill som Windows gjenkjenner</value>
+  </data>
+  <data name="Settings_ExecutablesInstalledInAGameLibraryFolderSteam" xml:space="preserve">
+    <value>Kjørbare filer som er installert i en spillbibliotekmappe (Steam, Epic, Xbox, GOG, Riot, EA, Ubisoft …); spillplattformer, juksebeskyttelse og krasjrapportering utelates</value>
+  </data>
+  <data name="Settings_GamesInLibraryFolders" xml:space="preserve">
+    <value>Spill i bibliotekmapper</value>
+  </data>
+  <data name="Settings_ShorterSessionsAreNotKept130Minutes" xml:space="preserve">
+    <value>Kortere økter lagres ikke (1–30 minutter)</value>
+  </data>
+  <data name="Settings_MinimumSessionLengthMinutes" xml:space="preserve">
+    <value>Minste øktlengde (minutter)</value>
+  </data>
+  <data name="Settings_ShowAWindowsNotificationWhenAGameRecapIsReady" xml:space="preserve">
+    <value>Vis et Windows-varsel når et spillsammendrag er klart</value>
+  </data>
+  <data name="Settings_RecapNotification" xml:space="preserve">
+    <value>Varsel om sammendrag</value>
+  </data>
+  <data name="Settings_WhileAGameIsInFrontPauseTheWindowsLiveUpdatesAnd" xml:space="preserve">
+    <value>Når et spill er i forgrunnen, settes vinduets direkteoppdateringer på pause, og detaljerte målinger tas sjeldnere. Registreringen fortsetter.</value>
+  </data>
+  <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
+    <value>Lettere overvåking under spilling</value>
+  </data>
+  <data name="Settings_RunningApplication" xml:space="preserve">
+    <value>App som kjører</value>
+  </data>
+  <data name="Settings_ChooseARunningApplication" xml:space="preserve">
+    <value>Velg en app som kjører</value>
+  </data>
+  <data name="Settings_RefreshTheListOfRunningApplications" xml:space="preserve">
+    <value>Oppdater listen over apper som kjører</value>
+  </data>
+  <data name="Settings_MarkAsAGame" xml:space="preserve">
+    <value>Merk som spill</value>
+  </data>
+  <data name="Settings_MarkedAsGames" xml:space="preserve">
+    <value>Merket som spill</value>
+  </data>
+  <data name="Settings_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Settings_Remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="Settings_MarkedAsNotGames" xml:space="preserve">
+    <value>Merket som ikke spill</value>
+  </data>
+  <data name="Settings_Privacy" xml:space="preserve">
+    <value>Personvern</value>
+  </data>
+  <data name="Settings_SysoraIsLocalFirst" xml:space="preserve">
+    <value>Sysora er lokalt først.</value>
+  </data>
+  <data name="Settings_NoTelemetryIsEnabledByDefault" xml:space="preserve">
+    <value>Ingen telemetri er aktivert som standard.</value>
+  </data>
+  <data name="Settings_NoAccountIsRequired" xml:space="preserve">
+    <value>Ingen konto kreves.</value>
+  </data>
+  <data name="Settings_NoSystemMetricsAreUploaded" xml:space="preserve">
+    <value>Ingen systemmålinger lastes opp.</value>
+  </data>
+  <data name="Settings_SysoraWorksOfflineAndNeverContactsAServer" xml:space="preserve">
+    <value>Sysora fungerer uten nett og kontakter aldri en server. Innstillinger, logger og den lokale historikken (ytelse, appnavn, varsler, oppdagede endringer, spilløkter) blir i mappen nedenfor, på denne PC-en.</value>
+  </data>
+  <data name="Settings_OpenDataFolder" xml:space="preserve">
+    <value>Åpne datamappen</value>
+  </data>
+  <data name="Settings_OpenLogsFolder" xml:space="preserve">
+    <value>Åpne loggmappen</value>
+  </data>
+  <data name="Settings_Diagnostics" xml:space="preserve">
+    <value>Diagnostikk</value>
+  </data>
+  <data name="Settings_SysoraMeasuresItsOwnProcessEveryTenSecondsAFew" xml:space="preserve">
+    <value>Sysora måler sin egen prosess hvert tiende sekund (noen få telleravlesninger, ingen ekstra innsamling), slik at du kan kontrollere at den aldri blir det problemet den leter etter.</value>
+  </data>
+  <data name="Settings_DetailLevelOfTheLocalLogFilesKept14Days" xml:space="preserve">
+    <value>Detaljnivå for de lokale loggfilene (lagres i 14 dager)</value>
+  </data>
+  <data name="Settings_LogLevel" xml:space="preserve">
+    <value>Loggnivå</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Settings_RunningInDemoModeAllMetricsAreSimulated" xml:space="preserve">
+    <value>Kjører i demomodus: alle målinger er simulerte.</value>
+  </data>
+  <data name="Storage_FindLargeFiles" xml:space="preserve">
+    <value>Finn store filer</value>
+  </data>
+  <data name="Storage_FindTheFilesThatTakeTheMostSpaceReadOnly" xml:space="preserve">
+    <value>Finn filene som tar mest plass (skrivebeskyttet)</value>
+  </data>
+  <data name="Storage_VolumeInformationCouldNotBeReadDetailsAreInThe" xml:space="preserve">
+    <value>Volumopplysningene kunne ikke leses. Detaljer finnes i loggfilen.</value>
+  </data>
+  <data name="Storage_Windows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="Storage_Used" xml:space="preserve">
+    <value>Brukt</value>
+  </data>
+  <data name="Storage_Free" xml:space="preserve">
+    <value>Ledig</value>
+  </data>
+  <data name="Storage_Total" xml:space="preserve">
+    <value>Totalt</value>
+  </data>
+  <data name="Storage_ActiveTime" xml:space="preserve">
+    <value>Aktiv tid</value>
+  </data>
+  <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
+    <value>Bare informasjon som Windows faktisk rapporterer, vises</value>
+  </data>
+  <data name="System_ReadHardwareInformationAgain" xml:space="preserve">
+    <value>Les maskinvareinformasjonen på nytt</value>
+  </data>
+  <data name="System_SYSTEMUPTIME" xml:space="preserve">
+    <value>SYSTEMETS OPPETID</value>
+  </data>
+  <data name="System_LastStart" xml:space="preserve">
+    <value>Siste oppstart</value>
+  </data>
+  <data name="System_WithFastStartupShuttingDownAndTurningOnAgainDoes" xml:space="preserve">
+    <value>Med Rask oppstart nullstilles ikke telleren når du slår av og på igjen: det gjør bare Start på nytt.</value>
+  </data>
+  <data name="System_WINDOWS" xml:space="preserve">
+    <value>WINDOWS</value>
+  </data>
+  <data name="System_Edition" xml:space="preserve">
+    <value>Utgave</value>
+  </data>
+  <data name="System_InstalledOn" xml:space="preserve">
+    <value>Installert</value>
+  </data>
+  <data name="System_Architecture" xml:space="preserve">
+    <value>Arkitektur</value>
+  </data>
+  <data name="System_ComputerName" xml:space="preserve">
+    <value>Datamaskinnavn</value>
+  </data>
+  <data name="System_HARDWARE" xml:space="preserve">
+    <value>MASKINVARE</value>
+  </data>
+  <data name="System_Processor" xml:space="preserve">
+    <value>Prosessor</value>
+  </data>
+  <data name="System_Graphics" xml:space="preserve">
+    <value>Grafikk</value>
+  </data>
+  <data name="System_FIRMWARE" xml:space="preserve">
+    <value>FASTVARE</value>
+  </data>
+  <data name="System_SystemModel" xml:space="preserve">
+    <value>Systemmodell</value>
+  </data>
+  <data name="System_Motherboard" xml:space="preserve">
+    <value>Hovedkort</value>
+  </data>
+  <data name="System_BIOS" xml:space="preserve">
+    <value>BIOS</value>
+  </data>
+  <data name="System_BIOSDate" xml:space="preserve">
+    <value>BIOS-dato</value>
+  </data>
+  <data name="Timeline_WhatHappenedOnThisPCInOrder" xml:space="preserve">
+    <value>Hva som har skjedd på denne PC-en, i rekkefølge</value>
+  </data>
+  <data name="Timeline_ApplicationsStartedAndClosed" xml:space="preserve">
+    <value>Apper som er startet og lukket</value>
+  </data>
+  <data name="Timeline_Games" xml:space="preserve">
+    <value>Spill</value>
+  </data>
+  <data name="Timeline_SpikesAndAnomalies" xml:space="preserve">
+    <value>Topper og avvik</value>
+  </data>
+  <data name="Timeline_DetectedChanges" xml:space="preserve">
+    <value>Oppdagede endringer</value>
+  </data>
+  <data name="Timeline_SleepNetworkAndDevices" xml:space="preserve">
+    <value>Hvilemodus, nettverk og enheter</value>
+  </data>
+  <data name="Timeline_TroubleshootingInvestigations" xml:space="preserve">
+    <value>Feilsøkingsundersøkelser</value>
+  </data>
+  <data name="Timeline_SysorasOwnEventsMonitoringStartedGaps" xml:space="preserve">
+    <value>Sysoras egne hendelser (overvåking startet, hull)</value>
+  </data>
+  <data name="Timeline_Order" xml:space="preserve">
+    <value>Rekkefølge</value>
+  </data>
+  <data name="Timeline_OldestFirst" xml:space="preserve">
+    <value>Eldste først</value>
+  </data>
+  <data name="Timeline_NewestFirst" xml:space="preserve">
+    <value>Nyeste først</value>
+  </data>
+  <data name="Timeline_SaveTheEntriesShownAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Lagre oppføringene som vises, som en HTML-rapport eller JSON-data</value>
+  </data>
+  <data name="Timeline_ShowThisMomentInReplay" xml:space="preserve">
+    <value>Vis dette tidspunktet i Tilbakeblikk</value>
+  </data>
+  <data name="Timeline_CompareBeforeAndAfter" xml:space="preserve">
+    <value>Sammenlign før og etter</value>
+  </data>
+  <data name="Timeline_CompareThe15MinutesBeforeAndAfter" xml:space="preserve">
+    <value>Sammenlign de 15 minuttene før og etter</value>
+  </data>
+  <data name="Timeline_NoEntryToShow" xml:space="preserve">
+    <value>Ingen oppføringer å vise</value>
+  </data>
+  <data name="Timeline_ChooseALongerPeriodOrShowMoreKindsOfEntries" xml:space="preserve">
+    <value>Velg en lengre periode, eller vis flere typer oppføringer. Sysora legger aldri til en oppføring den ikke har observert.</value>
+  </data>
+  <data name="Troubleshooting_InvestigateAProblemForALimitedTimeSysoraCollects" xml:space="preserve">
+    <value>Undersøk et problem i en begrenset periode: Sysora samler inn mer sammenheng og forklarer deretter hva som ble målt.</value>
+  </data>
+  <data name="Troubleshooting_StartInvestigation" xml:space="preserve">
+    <value>Start undersøkelsen</value>
+  </data>
+  <data name="Troubleshooting_StopNow" xml:space="preserve">
+    <value>Stopp nå</value>
+  </data>
+  <data name="Troubleshooting_DuringTheInvestigationSysoraSamplesWithThe" xml:space="preserve">
+    <value>Under undersøkelsen måler Sysora med den detaljerte intensiteten (CPU og minne hvert 0,5 s, prosesser, GPU og disker hvert sekund), også mens vinduet er skjult, og beholder alle hendelser. Den holder seg likevel innenfor CPU-budsjettet sitt og går selv tilbake til den vanlige intensiteten din til slutt. Ingenting forlater denne PC-en.</value>
+  </data>
+  <data name="Troubleshooting_Investigation" xml:space="preserve">
+    <value>Undersøkelse</value>
+  </data>
+  <data name="Troubleshooting_OpenInReplay" xml:space="preserve">
+    <value>Åpne i Tilbakeblikk</value>
+  </data>
+  <data name="Troubleshooting_ShowTheInvestigatedPeriodInReplay" xml:space="preserve">
+    <value>Vis den undersøkte perioden i Tilbakeblikk</value>
+  </data>
+  <data name="Troubleshooting_SaveTheReportAsAnHTMLPageOrJSONData" xml:space="preserve">
+    <value>Lagre rapporten som en HTML-side eller JSON-data</value>
+  </data>
+  <data name="Troubleshooting_CPUUsageDuringTheInvestigation" xml:space="preserve">
+    <value>CPU-bruk under undersøkelsen</value>
+  </data>
+  <data name="Troubleshooting_MemoryUsageDuringTheInvestigation" xml:space="preserve">
+    <value>Minnebruk under undersøkelsen</value>
+  </data>
+  <data name="Troubleshooting_Peak" xml:space="preserve">
+    <value>Topp</value>
+  </data>
+  <data name="Troubleshooting_ColumnsAverageThenPeak" xml:space="preserve">
+    <value>Kolonner: gjennomsnitt, deretter topp.</value>
+  </data>
+  <data name="Troubleshooting_Anomalies" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="Troubleshooting_CorrelationsAndLikelyExplanations" xml:space="preserve">
+    <value>Sammenhenger og sannsynlige forklaringer</value>
+  </data>
+  <data name="Troubleshooting_ObservedMeasuredInferredACoincidenceInThe" xml:space="preserve">
+    <value>Observert = målt. Utledet = et sammenfall i målingene: dataene tyder på det, men det er ikke bevist.</value>
+  </data>
+  <data name="Troubleshooting_ApplicationsInvolved" xml:space="preserve">
+    <value>Involverte apper</value>
+  </data>
+  <data name="Troubleshooting_Events" xml:space="preserve">
+    <value>Hendelser</value>
+  </data>
+  <data name="Troubleshooting_WhatCouldNotBeKnown" xml:space="preserve">
+    <value>Hva som ikke kunne fastslås</value>
+  </data>
+  <data name="Network_DownloadHeader" xml:space="preserve">
+    <value>NEDLASTING</value>
+  </data>
+  <data name="Network_UploadHeader" xml:space="preserve">
+    <value>OPPLASTING</value>
+  </data>
+  <data name="Common_Checking" xml:space="preserve">
+    <value>Kontrollerer …</value>
+  </data>
+  <data name="Dashboard_NoIssue" xml:space="preserve">
+    <value>Ingen problemer funnet</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_One" xml:space="preserve">
+    <value>{0} punkt trenger oppmerksomhet</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_Other" xml:space="preserve">
+    <value>{0} punkter trenger oppmerksomhet</value>
+  </data>
+  <data name="Dashboard_DiagnosisNotAvailable" xml:space="preserve">
+    <value>Diagnosen er ikke tilgjengelig</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_NoReference" xml:space="preserve">
+    <value>Sysora sammenligner med et øyeblikksbilde fra i går; det første tas ett minutt etter at Sysora har startet.</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_Nothing" xml:space="preserve">
+    <value>Ingenting er endret i de sammenlignede områdene ({0}).</value>
+  </data>
+  <data name="Dashboard_AlertsNew" xml:space="preserve">
+    <value>Varsler ({0} nye)</value>
+  </data>
+  <data name="Dashboard_AlertsActive" xml:space="preserve">
+    <value>Varsler ({0} aktive)</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="Dashboard_NetworkOff" xml:space="preserve">
+    <value>Nettverksovervåkingen er slått av</value>
+  </data>
+  <data name="Dashboard_NotConnected" xml:space="preserve">
+    <value>Ikke tilkoblet</value>
+  </data>
+  <data name="Dashboard_ConnectivityUnknown" xml:space="preserve">
+    <value>Ukjent tilkobling</value>
+  </data>
+  <data name="Dashboard_SpeedNotAvailable" xml:space="preserve">
+    <value>Hastigheten er ikke tilgjengelig</value>
+  </data>
+  <data name="Count_Thread_One" xml:space="preserve">
+    <value>{0} tråd</value>
+  </data>
+  <data name="Count_Thread_Other" xml:space="preserve">
+    <value>{0} tråder</value>
+  </data>
+  <data name="Dashboard_Temperature" xml:space="preserve">
+    <value>Temperatur: {0}</value>
+  </data>
+  <data name="Dashboard_MemoryOf" xml:space="preserve">
+    <value>av {0} · {1}</value>
+  </data>
+  <data name="Dashboard_MemoryAvailable" xml:space="preserve">
+    <value>{0} tilgjengelig</value>
+  </data>
+  <data name="Dashboard_GpuOff" xml:space="preserve">
+    <value>GPU-overvåkingen er slått av</value>
+  </data>
+  <data name="Dashboard_GpuMemory" xml:space="preserve">
+    <value>Minne {0} / {1}</value>
+  </data>
+  <data name="Dashboard_DiskFree" xml:space="preserve">
+    <value>{0} · {1} ledig av {2}</value>
+  </data>
+  <data name="Dashboard_ActiveTime" xml:space="preserve">
+    <value>Aktiv tid {0}</value>
+  </data>
+  <data name="Dashboard_ActiveTimeNotAvailable" xml:space="preserve">
+    <value>Aktiv tid er ikke tilgjengelig</value>
+  </data>
+  <data name="LargeFiles_View_Files" xml:space="preserve">
+    <value>Filer</value>
+  </data>
+  <data name="LargeFiles_View_ByType" xml:space="preserve">
+    <value>Etter type</value>
+  </data>
+  <data name="LargeFiles_View_ByExtension" xml:space="preserve">
+    <value>Etter filtype</value>
+  </data>
+  <data name="LargeFiles_View_ByFolder" xml:space="preserve">
+    <value>Etter mappe</value>
+  </data>
+  <data name="LargeFiles_AllTypes" xml:space="preserve">
+    <value>Alle typer</value>
+  </data>
+  <data name="LargeFiles_OrMore" xml:space="preserve">
+    <value>{0} eller mer</value>
+  </data>
+  <data name="LargeFiles_Starting" xml:space="preserve">
+    <value>Starter …</value>
+  </data>
+  <data name="LargeFiles_ScanFailed" xml:space="preserve">
+    <value>Skanningen mislyktes: {0}</value>
+  </data>
+  <data name="LargeFiles_FolderTarget" xml:space="preserve">
+    <value>Mappe: {0}</value>
+  </data>
+  <data name="LargeFiles_VolumeTarget" xml:space="preserve">
+    <value>{0}{1}{2} · {3} ledig av {4}</value>
+  </data>
+  <data name="LargeFiles_AllFixed" xml:space="preserve">
+    <value>Alle faste volumer</value>
+  </data>
+  <data name="LargeFiles_Progress" xml:space="preserve">
+    <value>{0} · {1} · {2} gjennomgått · {3} så langt</value>
+  </data>
+  <data name="Count_FileN0_One" xml:space="preserve">
+    <value>{0:N0} fil</value>
+  </data>
+  <data name="Count_FileN0_Other" xml:space="preserve">
+    <value>{0:N0} filer</value>
+  </data>
+  <data name="Count_LargeFile_One" xml:space="preserve">
+    <value>{0} stor fil</value>
+  </data>
+  <data name="Count_LargeFile_Other" xml:space="preserve">
+    <value>{0} store filer</value>
+  </data>
+  <data name="LargeFiles_LastScan" xml:space="preserve">
+    <value>Skannet {0}: {1} · {2} på minst {3}</value>
+  </data>
+  <data name="LargeFiles_Truncated" xml:space="preserve">
+    <value>(de {0} største vises)</value>
+  </data>
+  <data name="LargeFiles_Problem_Denied" xml:space="preserve">
+    <value>Tilgang nektet: {0} kunne ikke leses, så innholdet deres er ukjent (ikke tomt). For eksempel: {1}.</value>
+  </data>
+  <data name="LargeFiles_Problem_Unavailable" xml:space="preserve">
+    <value>Ikke tilgjengelig: {0} kunne ikke leses (fjernet under skanningen, enhetsfeil eller for lang bane).</value>
+  </data>
+  <data name="LargeFiles_Problem_Cloud" xml:space="preserve">
+    <value>{0} hoppet over: de ligger i skyen, ikke på denne PC-en.</value>
+  </data>
+  <data name="LargeFiles_Problem_Links" xml:space="preserve">
+    <value>{0} ikke fulgt (koblingspunkter og symbolske koblinger peker på data som telles et annet sted).</value>
+  </data>
+  <data name="LargeFiles_Problem_Excluded" xml:space="preserve">
+    <value>Ikke skannet: {0} – {1}</value>
+  </data>
+  <data name="Diagnosis_WhyNowFailed" xml:space="preserve">
+    <value>Analysen kunne ikke fullføres. Se loggen for detaljer.</value>
+  </data>
+  <data name="Diagnosis_BeforeData" xml:space="preserve">
+    <value>Før de analyserte dataene</value>
+  </data>
+  <data name="Diagnosis_UsualNotKnown" xml:space="preserve">
+    <value>Det vanlige intervallet er ikke kjent ennå.</value>
+  </data>
+  <data name="Diagnosis_Failed" xml:space="preserve">
+    <value>Diagnosen kunne ikke fullføres. Se loggen for detaljer.</value>
+  </data>
+  <data name="Diagnosis_Analyzed" xml:space="preserve">
+    <value>Analysert: siste {0} · {1} · oppdatert {2}</value>
+  </data>
+  <data name="Diagnosis_ObservedFor" xml:space="preserve">
+    <value>{0}: {1} i {2}</value>
+  </data>
+  <data name="Diagnosis_Reference" xml:space="preserve">
+    <value>Referanse: {0}</value>
+  </data>
+  <data name="Diagnosis_ObservedAt" xml:space="preserve">
+    <value>Observert {0}</value>
+  </data>
+  <data name="State_ProblemDetected" xml:space="preserve">
+    <value>Problem oppdaget</value>
+  </data>
+  <data name="State_Healthy" xml:space="preserve">
+    <value>Sunn</value>
+  </data>
+  <data name="Alerts_Filter_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Alerts_Filter_Active" xml:space="preserve">
+    <value>Aktive</value>
+  </data>
+  <data name="Alerts_Filter_Resolved" xml:space="preserve">
+    <value>Løste</value>
+  </data>
+  <data name="Alerts_NoneIn7Days" xml:space="preserve">
+    <value>Ingen varsler er registrert de siste 7 dagene.</value>
+  </data>
+  <data name="Alerts_Summary" xml:space="preserve">
+    <value>{0} · {1} nye · {2} de siste 7 dagene</value>
+  </data>
+  <data name="Count_ActiveAlert_One" xml:space="preserve">
+    <value>{0} aktivt varsel</value>
+  </data>
+  <data name="Count_ActiveAlert_Other" xml:space="preserve">
+    <value>{0} aktive varsler</value>
+  </data>
+  <data name="Alerts_Rule_Cpu" xml:space="preserve">
+    <value>CPU over {0} i {1}</value>
+  </data>
+  <data name="Alerts_Rule_Memory" xml:space="preserve">
+    <value>minne over {0} i {1}</value>
+  </data>
+  <data name="Alerts_Rule_Disk" xml:space="preserve">
+    <value>disk opptatt over {0} i {1}</value>
+  </data>
+  <data name="Alerts_Rule_App" xml:space="preserve">
+    <value>én app over {0} CPU i {1}</value>
+  </data>
+  <data name="Alerts_Rule_Growth" xml:space="preserve">
+    <value>minne øker {0:0} prosentpoeng på {1}</value>
+  </data>
+  <data name="Alerts_Rule_Unusual" xml:space="preserve">
+    <value>aktivitet over det vanlige intervallet ditt i {0}</value>
+  </data>
+  <data name="Alerts_Rule_UnusualOff" xml:space="preserve">
+    <value>uvanlig aktivitet av</value>
+  </data>
+  <data name="Alerts_Rule_Space" xml:space="preserve">
+    <value>mindre enn {0} ledig på systemdisken</value>
+  </data>
+  <data name="Alerts_Lasted" xml:space="preserve">
+    <value>varte {0}</value>
+  </data>
+  <data name="Alerts_SinceOngoing" xml:space="preserve">
+    <value>Siden {0} · pågår{1}</value>
+  </data>
+  <data name="Count_Occurrence_One" xml:space="preserve">
+    <value>{0} forekomst</value>
+  </data>
+  <data name="Count_Occurrence_Other" xml:space="preserve">
+    <value>{0} forekomster</value>
+  </data>
+  <data name="Changes_View_Timeline" xml:space="preserve">
+    <value>Tidslinje (siste 30 dager)</value>
+  </data>
+  <data name="Changes_View_Morning" xml:space="preserve">
+    <value>Siden i morges</value>
+  </data>
+  <data name="Changes_View_Yesterday" xml:space="preserve">
+    <value>Siden i går</value>
+  </data>
+  <data name="Changes_View_7Days" xml:space="preserve">
+    <value>Siden for 7 dager siden</value>
+  </data>
+  <data name="Changes_View_30Days" xml:space="preserve">
+    <value>Siden for 30 dager siden</value>
+  </data>
+  <data name="Changes_SinceFailed" xml:space="preserve">
+    <value>Sammenligningen med i går kunne ikke gjøres.</value>
+  </data>
+  <data name="Changes_NoSnapshotYet" xml:space="preserve">
+    <value>Det er ikke registrert noe øyeblikksbilde ennå. Sysora tar ett ett minutt etter oppstart og deretter hver sjette time.</value>
+  </data>
+  <data name="Changes_Snapshots" xml:space="preserve">
+    <value>{0} siden {1} · siste {2}</value>
+  </data>
+  <data name="Count_DailySnapshot_One" xml:space="preserve">
+    <value>{0} daglig øyeblikksbilde</value>
+  </data>
+  <data name="Count_DailySnapshot_Other" xml:space="preserve">
+    <value>{0} daglige øyeblikksbilder</value>
+  </data>
+  <data name="Changes_NoChangeYet" xml:space="preserve">
+    <value>Det er ikke registrert noen endringer ennå. Endringer vises her når Sysora sammenligner daglige øyeblikksbilder av PC-en (apper, oppstartsprogrammer, Windows-versjon, enheter, diskplass og gjennomsnittlig bruk).</value>
+  </data>
+  <data name="Changes_DetectedNote" xml:space="preserve">
+    <value>Oppdaget ved å sammenligne øyeblikksbilder av PC-en. Skrivebordsapper som er installert eller oppdatert de siste 30 dagene, vises også ut fra datoene Windows har registrert.</value>
+  </data>
+  <data name="Changes_LoadFailed" xml:space="preserve">
+    <value>Endringene kunne ikke lastes inn. Se loggen for detaljer.</value>
+  </data>
+  <data name="Changes_Group_ThisWeek" xml:space="preserve">
+    <value>Denne uken</value>
+  </data>
+  <data name="Changes_Group_Earlier" xml:space="preserve">
+    <value>Tidligere</value>
+  </data>
+  <data name="Importance_HighLong" xml:space="preserve">
+    <value>Høy viktighet</value>
+  </data>
+  <data name="Changes_On" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Changes_Between" xml:space="preserve">
+    <value>Mellom {0} og {1}</value>
+  </data>
+  <data name="Changes_SameDayBetween" xml:space="preserve">
+    <value>{0}, mellom {1} og {2}</value>
+  </data>
+  <data name="Changes_BeforeTime" xml:space="preserve">
+    <value>Før {0}</value>
+  </data>
+  <data name="Recurring_OccurrencesShort" xml:space="preserve">
+    <value>{0}× på {1} dager</value>
+  </data>
+  <data name="AppImpact_Failed" xml:space="preserve">
+    <value>App-påvirkning kunne ikke beregnes. Se loggen for detaljer.</value>
+  </data>
+  <data name="AppImpact_Summary" xml:space="preserve">
+    <value>{0} · {1} målt</value>
+  </data>
+  <data name="AppImpact_SummaryApps" xml:space="preserve">
+    <value>{0} · {1} målt · {2}</value>
+  </data>
+  <data name="Count_Application_One" xml:space="preserve">
+    <value>{0} app</value>
+  </data>
+  <data name="Count_Application_Other" xml:space="preserve">
+    <value>{0} apper</value>
+  </data>
+  <data name="AppImpact_LastHourPerMinute" xml:space="preserve">
+    <value>Siste time, per minutt</value>
+  </data>
+  <data name="AppImpact_PathNotAccessible" xml:space="preserve">
+    <value>Banen er ikke tilgjengelig: bare identifisert ut fra navnet</value>
+  </data>
+  <data name="AppImpact_PathProtected" xml:space="preserve">
+    <value>Banen til den kjørbare filen er ikke tilgjengelig (beskyttet prosess): bare identifisert ut fra navnet.</value>
+  </data>
+  <data name="AppImpact_RelativeScore" xml:space="preserve">
+    <value>Relativ poengsum {0}/100</value>
+  </data>
+  <data name="AppImpact_Peaks" xml:space="preserve">
+    <value>Topp-CPU {0} · toppminne {1} · topp-I/U {2}</value>
+  </data>
+  <data name="AppImpact_Starts_One" xml:space="preserve">
+    <value>{0} oppstart observert</value>
+  </data>
+  <data name="AppImpact_Starts_Other" xml:space="preserve">
+    <value>{0} oppstarter observert</value>
+  </data>
+  <data name="AppImpact_NoStart" xml:space="preserve">
+    <value>Ingen oppstart observert i denne perioden</value>
+  </data>
+  <data name="AppImpact_RunningNow" xml:space="preserve">
+    <value>Kjører nå · {0}</value>
+  </data>
+  <data name="AppImpact_LastSeen" xml:space="preserve">
+    <value>Sist sett {0}</value>
+  </data>
+  <data name="AppImpact_NoHistory" xml:space="preserve">
+    <value>Ingen historikk for denne appen i perioden.</value>
+  </data>
+  <data name="AppImpact_ChartPerHour" xml:space="preserve">
+    <value>Gjennomsnitt under kjøring per time. Hull: kjørte ikke eller ble ikke målt.</value>
+  </data>
+  <data name="AppImpact_ChartPerMinutes" xml:space="preserve">
+    <value>Gjennomsnitt under kjøring per {0}. Hull: kjørte ikke eller ble ikke målt.</value>
+  </data>
+  <data name="AppImpact_MostOfTheTime" xml:space="preserve">
+    <value>Mesteparten av tiden</value>
+  </data>
+  <data name="AppImpact_PartOfTheTime" xml:space="preserve">
+    <value>En del av tiden</value>
+  </data>
+  <data name="AppImpact_Briefly" xml:space="preserve">
+    <value>Kortvarig</value>
+  </data>
+  <data name="Replay_LoadFailed" xml:space="preserve">
+    <value>Data for tilbakeblikk kunne ikke lastes inn. Se loggen for detaljer.</value>
+  </data>
+  <data name="Replay_Live" xml:space="preserve">
+    <value>Direkte · {0}</value>
+  </data>
+  <data name="Replay_Paused" xml:space="preserve">
+    <value>På pause · {0}</value>
+  </data>
+  <data name="Replay_NoMeasurementAtTime" xml:space="preserve">
+    <value>Ingen måling på dette tidspunktet</value>
+  </data>
+  <data name="Replay_NowAt" xml:space="preserve">
+    <value>Nå ({0})</value>
+  </data>
+  <data name="Replay_DiskActive" xml:space="preserve">
+    <value>{0} aktiv{1}</value>
+  </data>
+  <data name="Replay_AppsNotAvailable" xml:space="preserve">
+    <value>Appdata er ikke tilgjengelige for dette tidspunktet.</value>
+  </data>
+  <data name="Replay_AppAverage" xml:space="preserve">
+    <value>{0} – {1} CPU, {2} (gjennomsnitt over 5 minutter)</value>
+  </data>
+  <data name="Replay_NoAppRecorded" xml:space="preserve">
+    <value>Ingen app registrert i denne femminuttersperioden.</value>
+  </data>
+  <data name="Replay_AppNow" xml:space="preserve">
+    <value>{0}{1} – {2} CPU, {3}</value>
+  </data>
+  <data name="Trend_MemoryRisingBy" xml:space="preserve">
+    <value>Minnet øker (+{0})</value>
+  </data>
+  <data name="Trend_MemoryRising" xml:space="preserve">
+    <value>Minnet øker</value>
+  </data>
+  <data name="Trend_CpuRisingBy" xml:space="preserve">
+    <value>CPU øker (+{0})</value>
+  </data>
+  <data name="Trend_CpuRising" xml:space="preserve">
+    <value>CPU øker</value>
+  </data>
+  <data name="Trend_MemoryFallingBy" xml:space="preserve">
+    <value>Minnet synker ({0})</value>
+  </data>
+  <data name="Trend_MemoryFalling" xml:space="preserve">
+    <value>Minnet synker</value>
+  </data>
+  <data name="Trend_CpuFallingBy" xml:space="preserve">
+    <value>CPU synker ({0})</value>
+  </data>
+  <data name="Trend_CpuFalling" xml:space="preserve">
+    <value>CPU synker</value>
+  </data>
+  <data name="Trend_NotEnoughData" xml:space="preserve">
+    <value>Ikke nok data</value>
+  </data>
+  <data name="Trend_Stable" xml:space="preserve">
+    <value>Stabil</value>
+  </data>
+  <data name="Count_MeasurementN0_One" xml:space="preserve">
+    <value>{0:N0} måling</value>
+  </data>
+  <data name="Count_MeasurementN0_Other" xml:space="preserve">
+    <value>{0:N0} målinger</value>
+  </data>
+  <data name="Evidence_Source" xml:space="preserve">
+    <value>Kilde: {0}</value>
+  </data>
+  <data name="Action_Compare" xml:space="preserve">
+    <value>Sammenlign før / etter</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Åpne {0}</value>
+  </data>
+  <data name="Gaming_NotFollowed" xml:space="preserve">
+    <value>{0} følges ikke lenger som et spill. Du kan angre dette i Innstillinger › Spill.</value>
+  </data>
+  <data name="Gaming_LiveTitle" xml:space="preserve">
+    <value>{0} · har kjørt i {1}</value>
+  </data>
+  <data name="Gaming_LiveCpu" xml:space="preserve">
+    <value>CPU {0} i gj.sn. ({1} topp)</value>
+  </data>
+  <data name="Gaming_LiveGpu" xml:space="preserve">
+    <value>GPU {0} i gj.sn. ({1} topp)</value>
+  </data>
+  <data name="Gaming_LiveMemory" xml:space="preserve">
+    <value>minne {0} i gj.sn.</value>
+  </data>
+  <data name="Gaming_LiveGameMemory" xml:space="preserve">
+    <value>spillet {0} i gj.sn.</value>
+  </data>
+  <data name="Gaming_Collecting" xml:space="preserve">
+    <value>Samler inn de første målingene …</value>
+  </data>
+  <data name="Gaming_SelfCpu" xml:space="preserve">
+    <value>Sysora selv: {0} CPU i gjennomsnitt i denne økten. FPS: Ikke tilgjengelig.</value>
+  </data>
+  <data name="Gaming_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Ikke tilgjengelig.</value>
+  </data>
+  <data name="Gaming_NoSessionYet" xml:space="preserve">
+    <value>Ingen spilløkt er registrert ennå.</value>
+  </data>
+  <data name="Gaming_Summary" xml:space="preserve">
+    <value>{0} de siste 90 dagene · {1} spilletid målt</value>
+  </data>
+  <data name="Count_Session_One" xml:space="preserve">
+    <value>{0} økt</value>
+  </data>
+  <data name="Count_Session_Other" xml:space="preserve">
+    <value>{0} økter</value>
+  </data>
+  <data name="Gaming_LoadFailed" xml:space="preserve">
+    <value>Spilløktene kunne ikke lastes inn: {0}</value>
+  </data>
+  <data name="Gaming_Detection" xml:space="preserve">
+    <value>Identifisert som spill: {0} ({1})</value>
+  </data>
+  <data name="Gaming_CpuLegend" xml:space="preserve">
+    <value>Hele PC-en (fylt) og spillet (linje), {0}</value>
+  </data>
+  <data name="Gaming_GpuLegendNoGame" xml:space="preserve">
+    <value>Mest belastede grafikkort, {0} (spillets GPU-bruk: ikke tilgjengelig)</value>
+  </data>
+  <data name="Gaming_GpuLegend" xml:space="preserve">
+    <value>Mest belastede grafikkort (fylt) og spillet (linje), {0}</value>
+  </data>
+  <data name="Gaming_StepMinute" xml:space="preserve">
+    <value>gjennomsnitt per minutt</value>
+  </data>
+  <data name="Gaming_StepOther" xml:space="preserve">
+    <value>gjennomsnitt per {0}</value>
+  </data>
+  <data name="Gaming_AppLine" xml:space="preserve">
+    <value>{0}: {1} CPU i gjennomsnitt (topp {2}), opptil {3}</value>
+  </data>
+  <data name="Timeline_LoadFailed" xml:space="preserve">
+    <value>Tidslinjen kunne ikke lastes inn. Se loggen for detaljer.</value>
+  </data>
+  <data name="Timeline_Empty" xml:space="preserve">
+    <value>Ingenting er registrert i denne perioden ennå. Oppføringene kommer fra det Sysora observerer mens den kjører: apper, spill, varsler, topper, endringer, hvilemodus og undersøkelser.</value>
+  </data>
+  <data name="Timeline_Shown" xml:space="preserve">
+    <value>{0} vist av {1}. Tidspunktene er de som Sysora har observert; ≈ markerer en endring som er funnet ved å sammenligne øyeblikksbilder (den skjedde senest på det tidspunktet).</value>
+  </data>
+  <data name="Network_Connected" xml:space="preserve">
+    <value>Koblet til Internett</value>
+  </data>
+  <data name="Network_RestrictedDetail" xml:space="preserve">
+    <value>Windows rapporterer begrenset tilgang, for eksempel en påloggingsside</value>
+  </data>
+  <data name="Network_LocalOnly" xml:space="preserve">
+    <value>Bare koblet til et lokalt nettverk</value>
+  </data>
+  <data name="Network_NoInterface" xml:space="preserve">
+    <value>Ingen aktive nettverksgrensesnitt</value>
+  </data>
+  <data name="Network_StatusUnknown" xml:space="preserve">
+    <value>Ukjent tilkoblingsstatus</value>
+  </data>
+  <data name="Network_NoLevel" xml:space="preserve">
+    <value>Windows rapporterte ikke noe tilkoblingsnivå</value>
+  </data>
+  <data name="Network_Cellular" xml:space="preserve">
+    <value>Mobilnett</value>
+  </data>
+  <data name="Network_DefaultRoute" xml:space="preserve">
+    <value>Standardrute</value>
+  </data>
+  <data name="Network_NoAddress" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Compare_Preset_HourAgo" xml:space="preserve">
+    <value>Nå og for 1 time siden</value>
+  </data>
+  <data name="Compare_Preset_Yesterday" xml:space="preserve">
+    <value>Nå og i går på denne tiden</value>
+  </data>
+  <data name="Compare_Preset_TodayYesterday" xml:space="preserve">
+    <value>I dag og i går</value>
+  </data>
+  <data name="Compare_Preset_GameDuring" xml:space="preserve">
+    <value>Spilløkt: før og under</value>
+  </data>
+  <data name="Compare_Preset_GameAfter" xml:space="preserve">
+    <value>Spilløkt: før og etter</value>
+  </data>
+  <data name="Compare_Preset_GamePrevious" xml:space="preserve">
+    <value>Spilløkt og den forrige</value>
+  </data>
+  <data name="Compare_Preset_Moment" xml:space="preserve">
+    <value>Før og etter et tidspunkt</value>
+  </data>
+  <data name="Compare_Preset_TwoMoments" xml:space="preserve">
+    <value>To tidspunkter</value>
+  </data>
+  <data name="Compare_Failed" xml:space="preserve">
+    <value>Sammenligningen kunne ikke gjøres. Se loggen for detaljer.</value>
+  </data>
+  <data name="Compare_NotCompared" xml:space="preserve">
+    <value>Ikke sammenlignet</value>
+  </data>
+  <data name="Troubleshooting_Idle" xml:space="preserve">
+    <value>Velg hvor lenge undersøkelsen skal vare, og start mens problemet oppstår (eller like før).</value>
+  </data>
+  <data name="Troubleshooting_Active" xml:space="preserve">
+    <value>Feilsøkingsmodus aktiv · Samler inn ekstra sammenheng …</value>
+  </data>
+  <data name="Troubleshooting_Elapsed" xml:space="preserve">
+    <value>{0} av {1} · avsluttes av seg selv, deretter går innsamlingen tilbake til normalt</value>
+  </data>
+  <data name="Count_Event_One" xml:space="preserve">
+    <value>{0} hendelse</value>
+  </data>
+  <data name="Count_Event_Other" xml:space="preserve">
+    <value>{0} hendelser</value>
+  </data>
+  <data name="Troubleshooting_Period" xml:space="preserve">
+    <value>{0} · {1} · detaljert innsamling</value>
+  </data>
+  <data name="Troubleshooting_EndedByItself" xml:space="preserve">
+    <value>avsluttet av seg selv</value>
+  </data>
+  <data name="Troubleshooting_Stopped" xml:space="preserve">
+    <value>stoppet</value>
+  </data>
+  <data name="Troubleshooting_EndedOnClose" xml:space="preserve">
+    <value>avsluttet da Sysora ble lukket</value>
+  </data>
+  <data name="Troubleshooting_AppCpu" xml:space="preserve">
+    <value>{0} gj.sn. · {1} topp</value>
+  </data>
+  <data name="Troubleshooting_AppMemory" xml:space="preserve">
+    <value>{0} topp</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_One" xml:space="preserve">
+    <value>Mest belastende i {0} øyeblikk med høy CPU</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_Other" xml:space="preserve">
+    <value>Mest belastende i {0} øyeblikk med høy CPU</value>
+  </data>
+  <data name="Troubleshooting_MostIo_One" xml:space="preserve">
+    <value>Mest I/U i {0} øyeblikk med opptatt disk</value>
+  </data>
+  <data name="Troubleshooting_MostIo_Other" xml:space="preserve">
+    <value>Mest I/U i {0} øyeblikk med opptatt disk</value>
+  </data>
+  <data name="Storage_Summary" xml:space="preserve">
+    <value>{0} · {1} ledig av {2}</value>
+  </data>
+  <data name="Count_Volume_One" xml:space="preserve">
+    <value>{0} volum</value>
+  </data>
+  <data name="Count_Volume_Other" xml:space="preserve">
+    <value>{0} volumer</value>
+  </data>
+  <data name="Storage_UsedPercent" xml:space="preserve">
+    <value>{0} brukt</value>
+  </data>
+  <data name="Storage_RemovableDisk" xml:space="preserve">
+    <value>Flyttbar disk</value>
+  </data>
+  <data name="Storage_OpticalDrive" xml:space="preserve">
+    <value>Optisk stasjon</value>
+  </data>
+  <data name="Storage_RamDisk" xml:space="preserve">
+    <value>RAM-disk</value>
+  </data>
+  <data name="Storage_LocalDisk" xml:space="preserve">
+    <value>Lokal disk</value>
+  </data>
+  <data name="Storage_Kind_Fixed" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="Storage_Kind_Removable" xml:space="preserve">
+    <value>Flyttbar</value>
+  </data>
+  <data name="Storage_Kind_Optical" xml:space="preserve">
+    <value>Optisk</value>
+  </data>
+  <data name="Processes_EndTitle" xml:space="preserve">
+    <value>Avslutte {0}?</value>
+  </data>
+  <data name="Processes_EndMessage" xml:space="preserve">
+    <value>Sysora avslutter {0} (PID {1}). Arbeid som ikke er lagret i denne appen, går tapt.</value>
+  </data>
+  <data name="Processes_EndButton" xml:space="preserve">
+    <value>Avslutt prosess</value>
+  </data>
+  <data name="Processes_Ended" xml:space="preserve">
+    <value>Prosessen ble avsluttet</value>
+  </data>
+  <data name="Processes_EndedMessage" xml:space="preserve">
+    <value>{0} (PID {1}) ble avsluttet.</value>
+  </data>
+  <data name="Processes_NotEnded" xml:space="preserve">
+    <value>{0} ble ikke avsluttet</value>
+  </data>
+  <data name="Processes_UnknownError" xml:space="preserve">
+    <value>Ukjent feil.</value>
+  </data>
+  <data name="Processes_Filtered" xml:space="preserve">
+    <value>{0} av {1}</value>
+  </data>
+  <data name="Common_Loading" xml:space="preserve">
+    <value>Laster inn …</value>
+  </data>
+  <data name="System_VersionBuild" xml:space="preserve">
+    <value>Versjon {0} (bygg {1})</value>
+  </data>
+  <data name="System_Build" xml:space="preserve">
+    <value>Bygg {0}</value>
+  </data>
+  <data name="System_RunsAs" xml:space="preserve">
+    <value>{0} (Sysora kjører som {1})</value>
+  </data>
+  <data name="Count_Core_One" xml:space="preserve">
+    <value>{0} kjerne</value>
+  </data>
+  <data name="Count_Core_Other" xml:space="preserve">
+    <value>{0} kjerner</value>
+  </data>
+  <data name="System_Base" xml:space="preserve">
+    <value>basis {0}</value>
+  </data>
+  <data name="System_Usable" xml:space="preserve">
+    <value>{0} kan brukes</value>
+  </data>
+  <data name="System_Bits64x64" xml:space="preserve">
+    <value>64-biters (x64)</value>
+  </data>
+  <data name="System_Bits64Arm" xml:space="preserve">
+    <value>64-biters (ARM64)</value>
+  </data>
+  <data name="System_Bits32" xml:space="preserve">
+    <value>32-biters (x86)</value>
+  </data>
+  <data name="PcHealth_Failed" xml:space="preserve">
+    <value>Poengsummen kunne ikke beregnes. Se loggen for detaljer.</value>
+  </data>
+  <data name="PcHealth_BasedOn" xml:space="preserve">
+    <value>Basert på {0} · {1} · oppdatert {2}</value>
+  </data>
+  <data name="PcHealth_SelfMeasures" xml:space="preserve">
+    <value>Sysora måler sin egen bruk hvert tiende sekund.</value>
+  </data>
+  <data name="Performance_TemperatureHint" xml:space="preserve">
+    <value>Windows gjør ikke CPU-temperaturen tilgjengelig via noe dokumentert API. Å lese den krever en kjernedriver, som Sysora bevisst ikke installerer.</value>
+  </data>
+  <data name="Performance_CoreN" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Performance_DiskN" xml:space="preserve">
+    <value>Disk {0}</value>
+  </data>
+  <data name="Usual_CurrentAverage" xml:space="preserve">
+    <value>Gjennomsnitt for de siste {0:0} minuttene</value>
+  </data>
+  <data name="Usual_NotMeasuredRecently" xml:space="preserve">
+    <value>Ikke målt de siste minuttene</value>
+  </data>
+  <data name="Usual_PeriodAverage" xml:space="preserve">
+    <value>{0}: gjennomsnitt over {1} målinger ({2})</value>
+  </data>
+  <data name="Duration_Second_One" xml:space="preserve">
+    <value>{0} sekund</value>
+  </data>
+  <data name="Duration_Second_Other" xml:space="preserve">
+    <value>{0} sekunder</value>
+  </data>
+  <data name="Chart_Rising" xml:space="preserve">
+    <value>Økende</value>
+  </data>
+  <data name="Chart_Falling" xml:space="preserve">
+    <value>Synkende</value>
+  </data>
+  <data name="Chart_Stats" xml:space="preserve">
+    <value>Gjennomsnitt {0} · Topp {1}{2}</value>
+  </data>
+  <data name="Shell_ResumeMonitoring" xml:space="preserve">
+    <value>Gjenoppta overvåking</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Åpne Sysora</value>
+  </data>
+  <data name="Tray_Exit" xml:space="preserve">
+    <value>Avslutt</value>
+  </data>
+  <data name="Tray_StillRunning" xml:space="preserve">
+    <value>Sysora kjører fortsatt</value>
+  </data>
+  <data name="Tray_StillRunningText" xml:space="preserve">
+    <value>Overvåkingen fortsetter i varslingsområdet. Høyreklikk på ikonet for å avslutte.</value>
+  </data>
+  <data name="Tray_GameRecap" xml:space="preserve">
+    <value>Spillsammendrag: {0}</value>
+  </data>
+  <data name="Tray_GameRecapText" xml:space="preserve">
+    <value>{0} · {1}. Klikk for å åpne sammendraget.</value>
+  </data>
+  <data name="Tray_InvestigationComplete" xml:space="preserve">
+    <value>Undersøkelsen er ferdig</value>
+  </data>
+  <data name="Tray_InvestigationText" xml:space="preserve">
+    <value>{0}. Klikk for å åpne rapporten.</value>
+  </data>
+  <data name="Tray_AlertText" xml:space="preserve">
+    <value>{0}. Klikk for å åpne Varsler.</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>(på pause)</value>
+  </data>
+  <data name="Tray_Tooltip" xml:space="preserve">
+    <value>CPU {0} · Minne {1}</value>
+  </data>
+  <data name="Export_PrepareFailed" xml:space="preserve">
+    <value>Rapporten kunne ikke klargjøres. Se loggen for detaljer.</value>
+  </data>
+  <data name="Export_Html" xml:space="preserve">
+    <value>Rapport (HTML-side)</value>
+  </data>
+  <data name="Export_Json" xml:space="preserve">
+    <value>Strukturerte data (JSON)</value>
+  </data>
+  <data name="Export_Saved" xml:space="preserve">
+    <value>Rapporten ble lagret: {0}</value>
+  </data>
+  <data name="Export_SaveFailed" xml:space="preserve">
+    <value>Rapporten kunne ikke lagres: {0}</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Settings_Language_Description" xml:space="preserve">
+    <value>Språk for grensesnittet, analyser, varsler og rapporter</value>
+  </data>
+  <data name="Settings_Language_Restart" xml:space="preserve">
+    <value>Det nye språket tas i bruk når Sysora startes på nytt. Historikken og innstillingene dine beholdes.</value>
+  </data>
+  <data name="Settings_Language_RestartNow" xml:space="preserve">
+    <value>Start på nytt nå</value>
+  </data>
+  <data name="Settings_Log_Debug" xml:space="preserve">
+    <value>Feilsøking</value>
+  </data>
+  <data name="Settings_Log_Information" xml:space="preserve">
+    <value>Informasjon</value>
+  </data>
+  <data name="Settings_Log_Warning" xml:space="preserve">
+    <value>Advarsel</value>
+  </data>
+  <data name="Settings_Log_Error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="Settings_Language_System" xml:space="preserve">
+    <value>Windows-språket ({0})</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Lyst</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Mørkt</value>
+  </data>
+  <data name="Settings_Close_Quit" xml:space="preserve">
+    <value>Avslutt appen</value>
+  </data>
+  <data name="Settings_Close_Tray" xml:space="preserve">
+    <value>Minimer til varslingsområdet</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Versjon {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>{0}-lisens · {1}</value>
+  </data>
+  <data name="Settings_DeleteHistory_Title" xml:space="preserve">
+    <value>Slette den lokale historikken?</value>
+  </data>
+  <data name="Settings_DeleteHistory_Message" xml:space="preserve">
+    <value>Sysora sletter den registrerte ytelseshistorikken, appbruken, hendelsene, varslene, de oppdagede endringene og spilløktene fra denne PC-en. Grunnlinjen for vanlig atferd læres på nytt. Dette kan ikke angres.</value>
+  </data>
+  <data name="Settings_DeleteHistory_Failed" xml:space="preserve">
+    <value>Historikken kunne ikke slettes: {0}</value>
+  </data>
+  <data name="Settings_Startup_Enabled" xml:space="preserve">
+    <value>Sysora starter når du logger på.</value>
+  </data>
+  <data name="Settings_Startup_DisabledByUser" xml:space="preserve">
+    <value>Registrert, men slått av i Windows Innstillinger › Apper › Oppstart.</value>
+  </data>
+  <data name="Settings_Startup_Unknown" xml:space="preserve">
+    <value>Oppstartsregistreringen kunne ikke leses.</value>
+  </data>
+  <data name="Settings_Startup_Off" xml:space="preserve">
+    <value>Bruker den vanlige Run-nøkkelen per bruker; synlig i Innstillinger › Apper › Oppstart.</value>
+  </data>
+  <data name="Settings_Stretched" xml:space="preserve">
+    <value>forlenget ×{0:0.##} for å holde seg innenfor CPU-budsjettet</value>
+  </data>
+  <data name="Settings_History_Since" xml:space="preserve">
+    <value>data siden {0}</value>
+  </data>
+  <data name="Settings_History_NoData" xml:space="preserve">
+    <value>ingen data ennå</value>
+  </data>
+  <data name="Settings_History_OnDisk" xml:space="preserve">
+    <value>{0} på disken</value>
+  </data>
+  <data name="Settings_History_NotAvailable" xml:space="preserve">
+    <value>Historikken er ikke tilgjengelig: {0}</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="Dashboard_SortByCpu" xml:space="preserve">
+    <value>Etter CPU</value>
+  </data>
+  <data name="Dashboard_SortByMemory" xml:space="preserve">
+    <value>Etter minne</value>
+  </data>
+  <data name="Dashboard_TopCpu" xml:space="preserve">
+    <value>{0} CPU</value>
+  </data>
+  <data name="Dashboard_TopMemory" xml:space="preserve">
+    <value>{0} minne</value>
+  </data>
+  <data name="Dashboard_Uptime" xml:space="preserve">
+    <value>{0} · Oppe i {1}</value>
+  </data>
+  <data name="AppImpact_LevelImpact" xml:space="preserve">
+    <value>Påvirkning {0}</value>
+  </data>
+  <data name="Changes_NoneFound" xml:space="preserve">
+    <value>Ingen endringer funnet.</value>
+  </data>
+  <data name="Replay_PerMinute" xml:space="preserve">
+    <value>{0} (per minutt)</value>
+  </data>
+  <data name="Replay_SourceHint" xml:space="preserve">
+    <value>Klikk på et diagram, eller flytt glidebryteren for å lese verdiene på et bestemt tidspunkt.</value>
+  </data>
+  <data name="Replay_SourceOlder" xml:space="preserve">
+    <value>Eldre enn {0}: apper vises per fem minutter.</value>
+  </data>
+  <data name="Settings_Games_LauncherToggle" xml:space="preserve">
+    <value>Spill installert med en spillplattform</value>
+  </data>
+  <data name="Settings_Games_LauncherToggleDescription" xml:space="preserve">
+    <value>Spill som Steam, Epic Games, Riot eller GOG rapporterer som installert, lest fra plattformenes filer på denne PC-en</value>
+  </data>
+  <data name="Settings_Games_LaunchersTitle" xml:space="preserve">
+    <value>Spill funnet i spillplattformene dine</value>
+  </data>
+  <data name="Settings_Games_LaunchersDescription" xml:space="preserve">
+    <value>Sysora leser plattformenes egne filer på denne PC-en: det fungerer uten nett, sender ingenting, starter aldri et spill og endrer aldri filene. Bekreft et spill for å fortsette å følge det også uten plattformen, eller ignorer det.</value>
+  </data>
+  <data name="Settings_Games_ScanAgain" xml:space="preserve">
+    <value>Søk på nytt</value>
+  </data>
+  <data name="Settings_Games_Confirm" xml:space="preserve">
+    <value>Bekreft</value>
+  </data>
+  <data name="Settings_Games_ConfirmHint" xml:space="preserve">
+    <value>Fortsett å følge dette spillet selv om plattformgjenkjenningen slås av eller plattformen avinstalleres</value>
+  </data>
+  <data name="Settings_Games_Ignore" xml:space="preserve">
+    <value>Ignorer</value>
+  </data>
+  <data name="Settings_Games_YourGames" xml:space="preserve">
+    <value>Spillene dine</value>
+  </data>
+  <data name="Settings_Games_YourGamesDescription" xml:space="preserve">
+    <value>Legg til et spill som Sysora ikke gjenkjenner, ved å velge programmet (.exe). Sysora følger det neste gang det kjører; det starter det aldri. Apper som er merket som ikke spill, følges aldri.</value>
+  </data>
+  <data name="Settings_Games_Browse" xml:space="preserve">
+    <value>Legg til et spill …</value>
+  </data>
+  <data name="Settings_Games_OrRunning" xml:space="preserve">
+    <value>Eller velg en app som kjører nå</value>
+  </data>
+  <data name="Settings_Games_ChangeLocation" xml:space="preserve">
+    <value>Endre plassering …</value>
+  </data>
+  <data name="Settings_Games_AlreadyAdded" xml:space="preserve">
+    <value>{0} er allerede blant spillene dine.</value>
+  </data>
+  <data name="Settings_Games_Added" xml:space="preserve">
+    <value>{0} er lagt til: Sysora følger det fra neste gang det starter.</value>
+  </data>
+  <data name="Settings_Games_Moved" xml:space="preserve">
+    <value>{0} peker nå på den nye plasseringen. Tidligere økter beholdes.</value>
+  </data>
+  <data name="Settings_Games_NotAProgram" xml:space="preserve">
+    <value>Velg spillets program (en fil som slutter på .exe).</value>
+  </data>
+  <data name="Settings_Games_NotFound" xml:space="preserve">
+    <value>{0} ble ikke funnet. Det kan være flyttet eller slettet.</value>
+  </data>
+  <data name="Settings_Games_Unreadable" xml:space="preserve">
+    <value>{0} kan ikke kontrolleres: banen er ugyldig, eller tilgang er nektet.</value>
+  </data>
+  <data name="Settings_Games_SystemProgram" xml:space="preserve">
+    <value>Windows-programmer følges aldri som spill.</value>
+  </data>
+  <data name="Settings_Games_NoLauncherGame" xml:space="preserve">
+    <value>Ingen spill ble funnet i plattformenes filer (Steam, Epic Games, Riot, GOG).</value>
+  </data>
+  <data name="Settings_Games_LauncherSummary" xml:space="preserve">
+    <value>{0}: {1}. Spill med mapper som ikke lenger finnes, utelates.</value>
+  </data>
+  <data name="Count_GameFound_One" xml:space="preserve">
+    <value>{0} spill funnet</value>
+  </data>
+  <data name="Count_GameFound_Other" xml:space="preserve">
+    <value>{0} spill funnet</value>
+  </data>
+  <data name="Settings_Games_Missing" xml:space="preserve">
+    <value>Ikke funnet på denne plasseringen: spillet kan være flyttet. Velg den nye plasseringen, eller fjern det.</value>
+  </data>
+  <data name="Settings_Games_State_Confirmed" xml:space="preserve">
+    <value>Bekreftet</value>
+  </data>
+  <data name="Settings_Games_State_ConfirmedGone" xml:space="preserve">
+    <value>Bekreftet (vises ikke lenger av plattformen)</value>
+  </data>
+  <data name="Settings_Games_State_Ignored" xml:space="preserve">
+    <value>Ignorert: følges ikke</value>
+  </data>
+  <data name="Settings_Games_State_Auto" xml:space="preserve">
+    <value>Følges automatisk</value>
+  </data>
+  <data name="Settings_Games_State_Off" xml:space="preserve">
+    <value>Følges ikke (plattformgjenkjenning er av)</value>
+  </data>
+  <data name="Settings_Games_FollowAgain" xml:space="preserve">
+    <value>Følg igjen</value>
+  </data>
+  <data name="Settings_Games_Unconfirm" xml:space="preserve">
+    <value>Fjern bekreftelsen</value>
+  </data>
+</root>

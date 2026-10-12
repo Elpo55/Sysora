@@ -1,0 +1,3816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>Ikke tilgjengelig</value>
+  </data>
+  <data name="List_Separator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="List_LastSeparator" xml:space="preserve">
+    <value> og </value>
+  </data>
+  <data name="Sentence_End" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Sentence_Separator" xml:space="preserve">
+    <value>. </value>
+  </data>
+  <data name="Unit_Byte" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Unit_Kilobyte" xml:space="preserve">
+    <value>kB</value>
+  </data>
+  <data name="Unit_Megabyte" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Unit_Gigabyte" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="Unit_Terabyte" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="Format_PerSecond" xml:space="preserve">
+    <value>{0}/s</value>
+  </data>
+  <data name="Format_Bps" xml:space="preserve">
+    <value>{0:0} bit/s</value>
+  </data>
+  <data name="Format_Kbps" xml:space="preserve">
+    <value>{0} kbit/s</value>
+  </data>
+  <data name="Format_Mbps" xml:space="preserve">
+    <value>{0} Mbit/s</value>
+  </data>
+  <data name="Format_Gbps" xml:space="preserve">
+    <value>{0} Gbit/s</value>
+  </data>
+  <data name="Format_Percent" xml:space="preserve">
+    <value>{0} %</value>
+  </data>
+  <data name="Duration_DaysHoursMinutes" xml:space="preserve">
+    <value>{0} d {1} t {2} min</value>
+  </data>
+  <data name="Duration_HoursMinutes" xml:space="preserve">
+    <value>{0} t {1} min</value>
+  </data>
+  <data name="Duration_Minutes" xml:space="preserve">
+    <value>{0} min</value>
+  </data>
+  <data name="Duration_Seconds" xml:space="preserve">
+    <value>{0} s</value>
+  </data>
+  <data name="Duration_DaysHours" xml:space="preserve">
+    <value>{0} d {1} t</value>
+  </data>
+  <data name="Duration_HoursPaddedMinutes" xml:space="preserve">
+    <value>{0} t {1:00} min</value>
+  </data>
+  <data name="Duration_MinutesPaddedSeconds" xml:space="preserve">
+    <value>{0} min {1:00} s</value>
+  </data>
+  <data name="Duration_Day_One" xml:space="preserve">
+    <value>{0} dag</value>
+  </data>
+  <data name="Duration_Day_Other" xml:space="preserve">
+    <value>{0} dager</value>
+  </data>
+  <data name="Duration_Hour_One" xml:space="preserve">
+    <value>{0} time</value>
+  </data>
+  <data name="Duration_Hour_Other" xml:space="preserve">
+    <value>{0} timer</value>
+  </data>
+  <data name="Duration_Minute_One" xml:space="preserve">
+    <value>{0} minutt</value>
+  </data>
+  <data name="Duration_Minute_Other" xml:space="preserve">
+    <value>{0} minutter</value>
+  </data>
+  <data name="Diag_UsualWithMedian" xml:space="preserve">
+    <value>Vanligvis {0} (median {1})</value>
+  </data>
+  <data name="Diag_UsualOf" xml:space="preserve">
+    <value>Vanligvis {0}</value>
+  </data>
+  <data name="Diag_UsualDetail" xml:space="preserve">
+    <value>{0} (median {1}, 95 % av minuttene under {2})</value>
+  </data>
+  <data name="Source_HistoryMinutes7Days" xml:space="preserve">
+    <value>Gjennomsnitt per minutt fra den lokale historikken (siste 7 dager)</value>
+  </data>
+  <data name="Diag_NotKnownYet" xml:space="preserve">
+    <value>Ikke kjent ennå</value>
+  </data>
+  <data name="Diag_AveragePeak" xml:space="preserve">
+    <value>Gjennomsnitt {0}, topp {1}</value>
+  </data>
+  <data name="Diag_AtOrAboveFor" xml:space="preserve">
+    <value>Minst {0} i {1} (gjennomsnitt {2}, topp {3})</value>
+  </data>
+  <data name="Diag_Threshold" xml:space="preserve">
+    <value>Terskel {0}</value>
+  </data>
+  <data name="Diag_ReportedWhenAbove" xml:space="preserve">
+    <value>Rapporteres når over {0} i {1}</value>
+  </data>
+  <data name="Diag_Metric_CpuUsage" xml:space="preserve">
+    <value>CPU-bruk</value>
+  </data>
+  <data name="Diag_Metric_AppCpu" xml:space="preserve">
+    <value>Appens CPU-bruk</value>
+  </data>
+  <data name="Diag_Metric_MemoryUsage" xml:space="preserve">
+    <value>Minnebruk</value>
+  </data>
+  <data name="Diag_Metric_Commit" xml:space="preserve">
+    <value>Tilordnet minne</value>
+  </data>
+  <data name="Diag_Metric_DiskActive" xml:space="preserve">
+    <value>Diskens aktive tid</value>
+  </data>
+  <data name="Diag_Metric_SystemDiskSpace" xml:space="preserve">
+    <value>Plass på systemdisken</value>
+  </data>
+  <data name="Diag_Metric_VolumeSpace" xml:space="preserve">
+    <value>Plass på volumet</value>
+  </data>
+  <data name="Diag_Metric_ActivityVsUsual" xml:space="preserve">
+    <value>Aktivitet sammenlignet med det vanlige</value>
+  </data>
+  <data name="Diag_Metric_GpuUsage" xml:space="preserve">
+    <value>GPU-bruk</value>
+  </data>
+  <data name="Diag_Metric_Connectivity" xml:space="preserve">
+    <value>Tilkobling</value>
+  </data>
+  <data name="Diag_Metric_Uptime" xml:space="preserve">
+    <value>Oppetid</value>
+  </data>
+  <data name="Diag_CpuLastMinute" xml:space="preserve">
+    <value>CPU-bruk (siste minutt)</value>
+  </data>
+  <data name="Diag_CpuLoad_Explanation" xml:space="preserve">
+    <value>Når prosessoren er så opptatt over tid, må apper vente på prosessortid, så PC-en kan føles treg.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUnusual" xml:space="preserve">
+    <value>Prosessoren er mye mer belastet enn vanlig for denne PC-en ({0}). Apper må vente på prosessortid, så PC-en kan føles treg.</value>
+  </data>
+  <data name="Diag_CpuLoad_ExplanationUsual" xml:space="preserve">
+    <value>Nivået er høyt, men ikke uvanlig for denne PC-en ({0} mesteparten av tiden).</value>
+  </data>
+  <data name="Diag_CpuLoad_SaturatedTitle" xml:space="preserve">
+    <value>Prosessoren er mettet</value>
+  </data>
+  <data name="Diag_CpuLoad_HighTitle" xml:space="preserve">
+    <value>Høy CPU-bruk</value>
+  </data>
+  <data name="Diag_CpuLoad_HighDescription" xml:space="preserve">
+    <value>CPU-bruken har ligget over {0} i {1} (gjennomsnitt {2}).</value>
+  </data>
+  <data name="Diag_CpuLoad_Recommendation" xml:space="preserve">
+    <value>Åpne App-påvirkning for å se hvilke apper som bruker prosessoren, og lukk dem du ikke trenger nå.</value>
+  </data>
+  <data name="Diag_CpuSpike_Title" xml:space="preserve">
+    <value>Kort CPU-topp</value>
+  </data>
+  <data name="Diag_CpuSpike_Description" xml:space="preserve">
+    <value>Prosessoren ligger på {0} akkurat nå, men bare i {1} så langt.</value>
+  </data>
+  <data name="Diag_CpuSpike_Explanation" xml:space="preserve">
+    <value>Korte topper er normale (en app som åpnes, en bakgrunnsoppgave). De blir en sannsynlig årsak til treghet først hvis de varer.</value>
+  </data>
+  <data name="Diag_CpuNormal_Title" xml:space="preserve">
+    <value>Normal CPU-bruk</value>
+  </data>
+  <data name="Diag_CpuNormal_Description" xml:space="preserve">
+    <value>Prosessoren lå i gjennomsnitt på {0} det siste minuttet (topp {1}).</value>
+  </data>
+  <data name="Diag_CpuNormal_Explanation" xml:space="preserve">
+    <value>Prosessoren har ledig kapasitet.</value>
+  </data>
+  <data name="Diag_AppCpu_Now" xml:space="preserve">
+    <value>{0} av total CPU nå ({1})</value>
+  </data>
+  <data name="Count_Process_One" xml:space="preserve">
+    <value>{0} prosess</value>
+  </data>
+  <data name="Count_Process_Other" xml:space="preserve">
+    <value>{0} prosesser</value>
+  </data>
+  <data name="Diag_AppCpu_TotalNow" xml:space="preserve">
+    <value>Total CPU-bruk nå: {0}</value>
+  </data>
+  <data name="Diag_AppCpu_LongTitle" xml:space="preserve">
+    <value>{0} har brukt mye CPU i flere minutter</value>
+  </data>
+  <data name="Diag_AppCpu_LargeShareTitle" xml:space="preserve">
+    <value>{0} bruker en stor del av prosessoren</value>
+  </data>
+  <data name="Diag_AppCpu_Description" xml:space="preserve">
+    <value>{0} har i gjennomsnitt brukt {1} av total CPU-kapasitet i {2}.</value>
+  </data>
+  <data name="Diag_AppCpu_Explanation" xml:space="preserve">
+    <value>Når én enkelt app holder prosessoren så opptatt, blir det mindre kapasitet igjen til alt annet. Den kan gjøre legitimt arbeid (en kompilering, en eksport, et spill) eller ha hengt seg.</value>
+  </data>
+  <data name="Diag_AppCpu_Recommendation" xml:space="preserve">
+    <value>Hvis du ikke trenger {0} nå, kan du lukke den eller vente til oppgaven er ferdig. App-påvirkning viser historikken.</value>
+  </data>
+  <data name="Diag_AppCpu_MainTitle" xml:space="preserve">
+    <value>{0} bruker mest CPU</value>
+  </data>
+  <data name="Diag_AppCpu_MainDescription" xml:space="preserve">
+    <value>{0} står for {1} av prosessorbelastningen akkurat nå ({2} av {3}).</value>
+  </data>
+  <data name="Diag_AppCpu_TotalCpu" xml:space="preserve">
+    <value>Total CPU {0}</value>
+  </data>
+  <data name="Diag_AppCpu_MainExplanation" xml:space="preserve">
+    <value>Hvis prosessoren forblir opptatt, er denne appen den mest sannsynlige årsaken.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneTitle" xml:space="preserve">
+    <value>Ingen app dominerer prosessoren</value>
+  </data>
+  <data name="Diag_AppCpu_NoneDescription" xml:space="preserve">
+    <value>Den største CPU-brukeren er {0} med {1} av total kapasitet.</value>
+  </data>
+  <data name="Diag_AppCpu_NoneExplanation" xml:space="preserve">
+    <value>Ingen enkelt app holder prosessoren opptatt.</value>
+  </data>
+  <data name="Diag_AppCpu_EvidenceName" xml:space="preserve">
+    <value>{0} CPU</value>
+  </data>
+  <data name="Diag_PerAppThreshold" xml:space="preserve">
+    <value>Terskel {0} per app</value>
+  </data>
+  <data name="Diag_Memory_State" xml:space="preserve">
+    <value>{0} av {1} i bruk, {2} tilgjengelig</value>
+  </data>
+  <data name="Diag_Memory_Physical" xml:space="preserve">
+    <value>Fysisk minne</value>
+  </data>
+  <data name="Diag_Memory_LargestApp" xml:space="preserve">
+    <value>Største app</value>
+  </data>
+  <data name="Common_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Diag_Memory_FullTitle" xml:space="preserve">
+    <value>Minnet er nesten fullt</value>
+  </data>
+  <data name="Diag_Memory_LowTitle" xml:space="preserve">
+    <value>Lite tilgjengelig minne</value>
+  </data>
+  <data name="Diag_Memory_HighDescription" xml:space="preserve">
+    <value>Minnebruken har ligget over {0} i {1} ({2} tilgjengelig).</value>
+  </data>
+  <data name="Diag_Memory_HighExplanation" xml:space="preserve">
+    <value>Når minnet blir knapt, flytter Windows data til disken (sideveksling), som er mye tregere enn minnet: apper kan stoppe opp eller svare tregt.</value>
+  </data>
+  <data name="Diag_Memory_CloseApps" xml:space="preserve">
+    <value>Lukk apper du ikke bruker.</value>
+  </data>
+  <data name="Diag_Memory_CloseAppsLargest" xml:space="preserve">
+    <value>Lukk apper du ikke bruker. Den største er {0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_HighTitle" xml:space="preserve">
+    <value>Høy minnebruk</value>
+  </data>
+  <data name="Diag_Memory_JustReached" xml:space="preserve">
+    <value>Minnebruken har akkurat nådd {0} ({1} tilgjengelig).</value>
+  </data>
+  <data name="Diag_Memory_JustReachedExplanation" xml:space="preserve">
+    <value>Hvis den forblir så høy, begynner Windows å flytte data til disken, noe som gjør appene tregere.</value>
+  </data>
+  <data name="Diag_Memory_EnoughTitle" xml:space="preserve">
+    <value>Nok tilgjengelig minne</value>
+  </data>
+  <data name="Diag_Memory_EnoughDescription" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Diag_Memory_EnoughExplanation" xml:space="preserve">
+    <value>Appene har plass til å arbeide uten at Windows må flytte data til disken.</value>
+  </data>
+  <data name="Diag_Commit_Title" xml:space="preserve">
+    <value>Det virtuelle minnet er nesten oppbrukt</value>
+  </data>
+  <data name="Diag_Commit_Description" xml:space="preserve">
+    <value>Windows har tilordnet {0} av grensen for virtuelt minne (fysisk minne + sidevekslingsfil).</value>
+  </data>
+  <data name="Diag_Commit_Explanation" xml:space="preserve">
+    <value>Når tilordningen når grensen, kan ikke apper få mer minne og kan krasje eller fryse.</value>
+  </data>
+  <data name="Diag_Commit_Recommendation" xml:space="preserve">
+    <value>Lukk minnekrevende apper. Hvis det skjer ofte, kan du la Windows styre størrelsen på sidevekslingsfilen automatisk.</value>
+  </data>
+  <data name="Diag_Growth_Trend" xml:space="preserve">
+    <value>Trend for minnebruk</value>
+  </data>
+  <data name="Diag_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} prosentpoeng på {1} ({2:0.##} prosentpoeng per minutt)</value>
+  </data>
+  <data name="Diag_Growth_TrendReference" xml:space="preserve">
+    <value>Robust trend (Theil–Sen), upåvirket av enkeltstående topper</value>
+  </data>
+  <data name="Diag_Growth_AppMemory" xml:space="preserve">
+    <value>Minne for {0}</value>
+  </data>
+  <data name="Diag_Growth_AppGrowth" xml:space="preserve">
+    <value>+{0} i samme periode</value>
+  </data>
+  <data name="Diag_Growth_Title" xml:space="preserve">
+    <value>Minnebruken har økt jevnt</value>
+  </data>
+  <data name="Diag_Growth_Description" xml:space="preserve">
+    <value>Minnebruken økte med {0:0} prosentpoeng på {1}.</value>
+  </data>
+  <data name="Diag_Growth_DescriptionApp" xml:space="preserve">
+    <value>{0} vokste med {1} i samme periode.</value>
+  </data>
+  <data name="Diag_Growth_Points" xml:space="preserve">
+    <value>+{0:0} prosentpoeng</value>
+  </data>
+  <data name="Diag_Growth_Reference" xml:space="preserve">
+    <value>Rapporteres fra +{0:0} prosentpoeng på {1}</value>
+  </data>
+  <data name="Diag_Growth_Explanation" xml:space="preserve">
+    <value>En jevn økning kan være normal (en app som laster inn data) eller et tegn på at en app ikke frigjør minne (en lekkasje). Sysora kan ikke avgjøre hva det er ut fra disse målingene alene.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationReplay" xml:space="preserve">
+    <value>Følg minnebruken i Tilbakeblikk; hvis den fortsetter å øke, start den ansvarlige appen på nytt.</value>
+  </data>
+  <data name="Diag_Growth_RecommendationApp" xml:space="preserve">
+    <value>Hvis {0} fortsetter å vokse, frigjøres minnet når du starter den på nytt.</value>
+  </data>
+  <data name="Diag_Uptime_Reference" xml:space="preserve">
+    <value>Inkluderer tid i hvilemodus. Med Rask oppstart nullstilles den ikke av «Slå av», bare av «Start på nytt».</value>
+  </data>
+  <data name="Diag_Disk_Unnamed" xml:space="preserve">
+    <value>disk</value>
+  </data>
+  <data name="Diag_Disk_Throughput" xml:space="preserve">
+    <value>lesing {0}, skriving {1}</value>
+  </data>
+  <data name="Diag_Disk_ActiveTimeOf" xml:space="preserve">
+    <value>Aktiv tid for disk {0}</value>
+  </data>
+  <data name="Diag_Disk_ThroughputAll" xml:space="preserve">
+    <value>Gjennomstrømning (alle volumer)</value>
+  </data>
+  <data name="Diag_Disk_MostIo" xml:space="preserve">
+    <value>Mest I/U</value>
+  </data>
+  <data name="Diag_Disk_IoReference" xml:space="preserve">
+    <value>I/U per prosess omfatter filer, enheter og nettverk; det kan ikke deles opp per disk.</value>
+  </data>
+  <data name="Diag_Disk_Explanation" xml:space="preserve">
+    <value>Når en disk er opptatt nesten hele tiden, må apper som skal lese eller skrive filer, vente.</value>
+  </data>
+  <data name="Diag_Disk_ExplanationPaging" xml:space="preserve">
+    <value>Minnebruken er også høy: en del av aktiviteten kan være Windows som veksler minne ut til disken (en mulighet, ikke bekreftet).</value>
+  </data>
+  <data name="Diag_Disk_SystemHeavyTitle" xml:space="preserve">
+    <value>Systemdisken har høy aktivitet</value>
+  </data>
+  <data name="Diag_Disk_HeavyTitle" xml:space="preserve">
+    <value>Disk {0} har høy aktivitet</value>
+  </data>
+  <data name="Diag_Disk_HeavyDescription" xml:space="preserve">
+    <value>Disk {0} har vært opptatt {1} av tiden i {2} ({3}).</value>
+  </data>
+  <data name="Diag_Disk_Recommendation" xml:space="preserve">
+    <value>Oppdateringer, antivirusskanninger og filindeksering forårsaker ofte dette midlertidig. App-påvirkning viser hvilke apper som leser og skriver mest.</value>
+  </data>
+  <data name="Diag_Disk_RecommendationApp" xml:space="preserve">
+    <value>{0} har for øyeblikket mest I/U. Oppdateringer, antivirusskanninger og filindeksering forårsaker også dette midlertidig.</value>
+  </data>
+  <data name="Diag_Disk_NormalTitle" xml:space="preserve">
+    <value>Normal diskaktivitet</value>
+  </data>
+  <data name="Diag_Disk_NormalDescription" xml:space="preserve">
+    <value>Den mest opptatte disken ({0}) var aktiv {1} av tiden det siste minuttet.</value>
+  </data>
+  <data name="Diag_Disk_NormalExplanation" xml:space="preserve">
+    <value>Diskene har ledig kapasitet.</value>
+  </data>
+  <data name="Diag_Disk_BusiestLastMinute" xml:space="preserve">
+    <value>Aktiv tid for den mest opptatte disken (siste minutt)</value>
+  </data>
+  <data name="Diag_Space_FreeOfUsed" xml:space="preserve">
+    <value>{0} ledig av {1} ({2} brukt)</value>
+  </data>
+  <data name="Diag_Space_Reference" xml:space="preserve">
+    <value>Advarsel {0}, kritisk {1} eller mindre enn {2} ledig</value>
+  </data>
+  <data name="Diag_Space_FullTitle" xml:space="preserve">
+    <value>Systemdisken er nesten full</value>
+  </data>
+  <data name="Diag_Space_LowTitle" xml:space="preserve">
+    <value>Lite ledig plass på systemdisken</value>
+  </data>
+  <data name="Diag_Space_EnoughTitle" xml:space="preserve">
+    <value>Nok ledig plass på systemdisken</value>
+  </data>
+  <data name="Diag_Space_FreeOn" xml:space="preserve">
+    <value>{0} ledig på {1} ({2} brukt).</value>
+  </data>
+  <data name="Diag_Space_EnoughExplanation" xml:space="preserve">
+    <value>Windows har plass til oppdateringer, midlertidige filer og sidevekslingsfilen.</value>
+  </data>
+  <data name="Diag_Space_LowExplanation" xml:space="preserve">
+    <value>Windows trenger ledig plass til oppdateringer, midlertidige filer og sidevekslingsfilen. En nesten full systemdisk kan gjøre PC-en tregere og få oppdateringer til å mislykkes.</value>
+  </data>
+  <data name="Diag_Space_Recommendation" xml:space="preserve">
+    <value>Fjern filer du ikke lenger trenger, eller bruk Windows Innstillinger › System › Lagring › Anbefalinger for opprydding.</value>
+  </data>
+  <data name="Diag_Space_VolumeFullTitle" xml:space="preserve">
+    <value>Volum {0} er {1} fullt</value>
+  </data>
+  <data name="Diag_Space_VolumeExplanation" xml:space="preserve">
+    <value>Dette er ikke systemdisken, så den gjør ikke Windows tregere, men apper som lagrer data her, kan gå tom for plass.</value>
+  </data>
+  <data name="Diag_Space_FreeOf" xml:space="preserve">
+    <value>{0} ledig av {1}</value>
+  </data>
+  <data name="Diag_Volume" xml:space="preserve">
+    <value>Volum {0}</value>
+  </data>
+  <data name="Diag_Warning" xml:space="preserve">
+    <value>Advarsel {0}</value>
+  </data>
+  <data name="Diag_Unusual_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Diag_Unusual_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Diag_Unusual_Disk" xml:space="preserve">
+    <value>Diskaktivitet</value>
+  </data>
+  <data name="Diag_Unusual_OverLast" xml:space="preserve">
+    <value>{0} de siste {1}</value>
+  </data>
+  <data name="Diag_Unusual_Reference" xml:space="preserve">
+    <value>Vanligvis {0}, 95 % av minuttene under {1}</value>
+  </data>
+  <data name="Diag_Unusual_NormalTitle" xml:space="preserve">
+    <value>Aktivitet innenfor det vanlige intervallet ditt</value>
+  </data>
+  <data name="Diag_Unusual_NormalDescription" xml:space="preserve">
+    <value>De siste {0} ligner på den vanlige aktiviteten til denne PC-en.</value>
+  </data>
+  <data name="Diag_Unusual_Usual" xml:space="preserve">
+    <value>Vanlig</value>
+  </data>
+  <data name="Diag_Unusual_NormalExplanation" xml:space="preserve">
+    <value>Sammenlignet med gjennomsnitt per minutt fra de siste 7 dagene.</value>
+  </data>
+  <data name="Diag_Unusual_Part" xml:space="preserve">
+    <value>{0} {1} (vanligvis {2})</value>
+  </data>
+  <data name="Diag_Unusual_Title" xml:space="preserve">
+    <value>Aktiviteten er uvanlig sammenlignet med den siste bruken din</value>
+  </data>
+  <data name="Diag_Unusual_Description" xml:space="preserve">
+    <value>De siste {0}: {1}.</value>
+  </data>
+  <data name="Diag_Unusual_Usually" xml:space="preserve">
+    <value>vanligvis {0}</value>
+  </data>
+  <data name="Diag_Unusual_Explanation" xml:space="preserve">
+    <value>Verdiene ligger over det denne PC-en viser i 95 % av minuttene de siste 7 dagene: noe annet enn vanlig kjører.</value>
+  </data>
+  <data name="Diag_Unusual_Recommendation" xml:space="preserve">
+    <value>Bruk Tilbakeblikk for å se når det begynte, og App-påvirkning for å se hvilke apper som er involvert.</value>
+  </data>
+  <data name="Diag_Gpu_FullTitle" xml:space="preserve">
+    <value>GPU-en er fullt utnyttet</value>
+  </data>
+  <data name="Diag_Gpu_FullDescription" xml:space="preserve">
+    <value>Den mest belastede grafikkmotoren har ligget over {0} i {1}.</value>
+  </data>
+  <data name="Diag_Gpu_FullExplanation" xml:space="preserve">
+    <value>Forventet ved spilling, gjengivelse eller avspilling av video med høy oppløsning. Ellers bruker en app grafikkprosessoren intensivt, noe som kan gjøre at skjermen føles treg.</value>
+  </data>
+  <data name="Diag_Gpu_NormalTitle" xml:space="preserve">
+    <value>Normal GPU-bruk</value>
+  </data>
+  <data name="Diag_Gpu_NormalDescription" xml:space="preserve">
+    <value>GPU-en lå i gjennomsnitt på {0} det siste minuttet.</value>
+  </data>
+  <data name="Diag_Gpu_NormalExplanation" xml:space="preserve">
+    <value>Grafikkprosessoren har ledig kapasitet.</value>
+  </data>
+  <data name="Diag_Gpu_LastMinute" xml:space="preserve">
+    <value>GPU-bruk (siste minutt)</value>
+  </data>
+  <data name="Diag_Net_InternetTitle" xml:space="preserve">
+    <value>Internett-tilgang er tilgjengelig</value>
+  </data>
+  <data name="Diag_Net_InternetDescription" xml:space="preserve">
+    <value>Windows rapporterer en fungerende Internett-tilkobling.</value>
+  </data>
+  <data name="Diag_Net_LimitedTitle" xml:space="preserve">
+    <value>Begrenset Internett-tilgang</value>
+  </data>
+  <data name="Diag_Net_LimitedDescription" xml:space="preserve">
+    <value>Windows rapporterer begrenset Internett-tilgang (for eksempel en påloggingsside).</value>
+  </data>
+  <data name="Diag_Net_LocalTitle" xml:space="preserve">
+    <value>Ingen Internett-tilgang</value>
+  </data>
+  <data name="Diag_Net_LocalDescription" xml:space="preserve">
+    <value>Windows rapporterer en lokal nettverkstilkobling uten Internett-tilgang.</value>
+  </data>
+  <data name="Diag_Net_NoneTitle" xml:space="preserve">
+    <value>Ingen nettverkstilkobling</value>
+  </data>
+  <data name="Diag_Net_NoneDescription" xml:space="preserve">
+    <value>Windows rapporterer ingen nettverkstilkobling.</value>
+  </data>
+  <data name="Diag_Net_OkExplanation" xml:space="preserve">
+    <value>Nettsider og nettbaserte apper kan nå Internett.</value>
+  </data>
+  <data name="Diag_Net_ProblemExplanation" xml:space="preserve">
+    <value>Nettsider og nettbaserte apper blir trege eller virker ikke. Det er et tilkoblingsproblem, ikke et ytelsesproblem i PC-en.</value>
+  </data>
+  <data name="Diag_Net_Recommendation" xml:space="preserve">
+    <value>Kontroller Wi-Fi- eller kabeltilkoblingen, eller ruteren.</value>
+  </data>
+  <data name="Connectivity_Internet" xml:space="preserve">
+    <value>Internett-tilgang</value>
+  </data>
+  <data name="Connectivity_Constrained" xml:space="preserve">
+    <value>Begrenset Internett-tilgang</value>
+  </data>
+  <data name="Connectivity_Local" xml:space="preserve">
+    <value>Bare lokalt nettverk</value>
+  </data>
+  <data name="Connectivity_None" xml:space="preserve">
+    <value>Ingen tilkobling</value>
+  </data>
+  <data name="Connectivity_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="Diag_Uptime_Since" xml:space="preserve">
+    <value>Tid siden Windows startet</value>
+  </data>
+  <data name="Diag_Uptime_LongTitle" xml:space="preserve">
+    <value>Windows har ikke blitt startet på nytt på {0} dager</value>
+  </data>
+  <data name="Diag_Uptime_RecentTitle" xml:space="preserve">
+    <value>Nylig startet på nytt</value>
+  </data>
+  <data name="Diag_Uptime_Description" xml:space="preserve">
+    <value>Windows startet for {0} siden.</value>
+  </data>
+  <data name="Diag_Uptime_Reference2" xml:space="preserve">
+    <value>Foreslås fra {0:0} dager</value>
+  </data>
+  <data name="Diag_Uptime_LongExplanation" xml:space="preserve">
+    <value>Noen problemer bygger seg opp over tid (drivere, apper som sakte bruker mer minne). En omstart rydder dem bort og installerer ventende oppdateringer. Dette er et generelt forslag, ikke en målt årsak.</value>
+  </data>
+  <data name="Diag_Uptime_RecentExplanation" xml:space="preserve">
+    <value>Ingen langvarig økt å bekymre seg for.</value>
+  </data>
+  <data name="Diag_Uptime_Recommendation" xml:space="preserve">
+    <value>Start Windows på nytt (bruk Start på nytt, ikke Slå av) når det passer.</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_One" xml:space="preserve">
+    <value>Ingen problemer funnet · {0} punkt å følge med på</value>
+  </data>
+  <data name="Diag_Headline_NoProblemPoints_Other" xml:space="preserve">
+    <value>Ingen problemer funnet · {0} punkter å følge med på</value>
+  </data>
+  <data name="Diag_Headline_NoProblem" xml:space="preserve">
+    <value>Ingen problemer funnet</value>
+  </data>
+  <data name="Diag_Headline_Problems_One" xml:space="preserve">
+    <value>{0} problem funnet</value>
+  </data>
+  <data name="Diag_Headline_Problems_Other" xml:space="preserve">
+    <value>{0} problemer funnet</value>
+  </data>
+  <data name="Diag_Summary_MostLikely" xml:space="preserve">
+    <value>Mest sannsynlige årsak: {0}</value>
+  </data>
+  <data name="Diag_Summary_Also" xml:space="preserve">
+    <value>I tillegg: {0}.</value>
+  </data>
+  <data name="Diag_Summary_WorthKnowing" xml:space="preserve">
+    <value>Ingenting er mettet akkurat nå. Greit å vite: {0}</value>
+  </data>
+  <data name="Diag_Summary_Nothing" xml:space="preserve">
+    <value>Ingenting er mettet akkurat nå: prosessor, minne og disker har ledig kapasitet. Hvis PC-en føltes treg for et øyeblikk siden, viser Tilbakeblikk hva som skjedde de siste minuttene.</value>
+  </data>
+  <data name="Diag_Missing_Gpu" xml:space="preserve">
+    <value>GPU-bruk: ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Diag_Missing_GpuOff" xml:space="preserve">
+    <value>GPU-bruk: overvåking slått av i Innstillinger</value>
+  </data>
+  <data name="Diag_Missing_Disk" xml:space="preserve">
+    <value>Diskaktivitet: ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Diag_Missing_Network" xml:space="preserve">
+    <value>Nettverk: ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Diag_Missing_NetworkOff" xml:space="preserve">
+    <value>Nettverk: overvåking slått av i Innstillinger</value>
+  </data>
+  <data name="Diag_Missing_Temperature" xml:space="preserve">
+    <value>CPU-temperatur: ikke tilgjengelig (Windows har ingen dokumentert måte å lese den på uten en kjernedriver)</value>
+  </data>
+  <data name="Diag_Missing_AppNetwork" xml:space="preserve">
+    <value>Nettverksbruk per app: ikke tilgjengelig (krever hendelsessporing på administratornivå)</value>
+  </data>
+  <data name="Diag_Analyzing" xml:space="preserve">
+    <value>Analyserer …</value>
+  </data>
+  <data name="Diag_AnalyzingSummary" xml:space="preserve">
+    <value>Sysora trenger noen sekunders målinger før PC-en kan diagnostiseres.</value>
+  </data>
+  <data name="Alert_UsualLevel" xml:space="preserve">
+    <value>Vanlig nivå {0}</value>
+  </data>
+  <data name="Alert_AveragePeak" xml:space="preserve">
+    <value>{0} i gjennomsnitt (topp {1})</value>
+  </data>
+  <data name="Alert_OnAverage" xml:space="preserve">
+    <value>{0} i gjennomsnitt</value>
+  </data>
+  <data name="Alert_TopApp" xml:space="preserve">
+    <value>Største app: {0} ({1})</value>
+  </data>
+  <data name="Alert_Cpu_UnusualTitle" xml:space="preserve">
+    <value>Uvanlig høy CPU-bruk</value>
+  </data>
+  <data name="Alert_Cpu_UsualTitle" xml:space="preserve">
+    <value>Høy CPU-bruk (vanlig for denne PC-en)</value>
+  </data>
+  <data name="Alert_Cpu_SustainedTitle" xml:space="preserve">
+    <value>Vedvarende høy CPU-bruk</value>
+  </data>
+  <data name="Alert_UsualNotKnown" xml:space="preserve">
+    <value>Det vanlige nivået er ikke kjent ennå</value>
+  </data>
+  <data name="Alert_Cpu_UnusualExplanation" xml:space="preserve">
+    <value>Prosessoren har ligget over {0} i {1}, langt over det vanlige nivået på {2} for denne PC-en.</value>
+  </data>
+  <data name="Alert_Cpu_UsualExplanation" xml:space="preserve">
+    <value>Prosessoren har ligget over {0} i {1}. Nivået er vanlig på denne PC-en, så det rapporteres til informasjon.</value>
+  </data>
+  <data name="Alert_Cpu_SustainedExplanation" xml:space="preserve">
+    <value>Prosessoren har ligget over {0} i {1}. Korte topper ignoreres; denne varte.</value>
+  </data>
+  <data name="Alert_Cpu_Recommendation" xml:space="preserve">
+    <value>Se App-påvirkning for å finne ut hvilke apper som bruker prosessoren.</value>
+  </data>
+  <data name="Alert_Memory_Title" xml:space="preserve">
+    <value>Minnet er nesten fullt</value>
+  </data>
+  <data name="Alert_LargestApp" xml:space="preserve">
+    <value>Største app: {0} ({1})</value>
+  </data>
+  <data name="Alert_Memory_Explanation" xml:space="preserve">
+    <value>Minnebruken har ligget over {0} i {1}. Windows flytter da data til disken, noe som gjør appene tregere.</value>
+  </data>
+  <data name="Alert_Growth_Title" xml:space="preserve">
+    <value>Minnebruken øker jevnt</value>
+  </data>
+  <data name="Alert_Growth_Value" xml:space="preserve">
+    <value>+{0:0} prosentpoeng ({1} → {2})</value>
+  </data>
+  <data name="Alert_Growth_NoApp" xml:space="preserve">
+    <value>Ingen enkelt app skiller seg ut</value>
+  </data>
+  <data name="Alert_Growth_AppGrew" xml:space="preserve">
+    <value>{0} vokste med {1}</value>
+  </data>
+  <data name="Alert_Growth_Explanation" xml:space="preserve">
+    <value>Minnebruken har økt i {0}. Det kan være normalt (data som lastes inn) eller en app som ikke frigjør minne.</value>
+  </data>
+  <data name="Alert_Growth_Recommendation" xml:space="preserve">
+    <value>Hvis {0} fortsetter å vokse, frigjøres minnet når du starter den på nytt.</value>
+  </data>
+  <data name="Alert_Growth_TrendValue" xml:space="preserve">
+    <value>+{0:0.#} prosentpoeng på {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Title" xml:space="preserve">
+    <value>{0} har brukt mye CPU i {1}</value>
+  </data>
+  <data name="Alert_AppCpu_Value" xml:space="preserve">
+    <value>{0} av total CPU i gjennomsnitt (topp {1})</value>
+  </data>
+  <data name="Alert_AppCpu_TotalNow" xml:space="preserve">
+    <value>Total CPU nå {0}</value>
+  </data>
+  <data name="Alert_AppCpu_Explanation" xml:space="preserve">
+    <value>{0} har ligget over {1} av total CPU-kapasitet i {2}. Den kan arbeide normalt (en kompilering, en eksport) eller ha hengt seg.</value>
+  </data>
+  <data name="Alert_AppCpu_Recommendation" xml:space="preserve">
+    <value>Hvis du ikke trenger {0} nå, kan du lukke den eller vente til oppgaven er ferdig.</value>
+  </data>
+  <data name="Alert_Disk_Title" xml:space="preserve">
+    <value>Disk {0} opptatt i {1}</value>
+  </data>
+  <data name="Alert_Disk_TitleUnnamed" xml:space="preserve">
+    <value>Disken opptatt i {0}</value>
+  </data>
+  <data name="Alert_Disk_ReadWrite" xml:space="preserve">
+    <value>Lesing {0}, skriving {1}</value>
+  </data>
+  <data name="Alert_Disk_MostIo" xml:space="preserve">
+    <value>Mest I/U: {0}</value>
+  </data>
+  <data name="Alert_Disk_Explanation" xml:space="preserve">
+    <value>Disken har vært aktiv mer enn {0} av tiden i {1}: apper som leser eller skriver filer, må vente.</value>
+  </data>
+  <data name="Alert_Disk_Recommendation" xml:space="preserve">
+    <value>Oppdateringer, antivirusskanninger og indeksering forårsaker ofte dette midlertidig.</value>
+  </data>
+  <data name="Alert_Unusual_Disk" xml:space="preserve">
+    <value>Diskaktivitet</value>
+  </data>
+  <data name="Alert_Unusual_Title" xml:space="preserve">
+    <value>{0}: uvanlig høy</value>
+  </data>
+  <data name="Alert_Unusual_Context" xml:space="preserve">
+    <value>Vanlig nivå {0} (median {1})</value>
+  </data>
+  <data name="Alert_Unusual_Explanation" xml:space="preserve">
+    <value>{0} har ligget over den siste grunnlinjen din i {1}.</value>
+  </data>
+  <data name="Alert_Unusual_Recommendation" xml:space="preserve">
+    <value>Bruk Tilbakeblikk for å se når det begynte.</value>
+  </data>
+  <data name="Alert_Baseline" xml:space="preserve">
+    <value>Grunnlinje</value>
+  </data>
+  <data name="Alert_Space_Title" xml:space="preserve">
+    <value>Lite ledig plass på {0}</value>
+  </data>
+  <data name="Alert_Space_Metric" xml:space="preserve">
+    <value>Ledig plass</value>
+  </data>
+  <data name="Alert_Space_Value" xml:space="preserve">
+    <value>{0} ledig ({1})</value>
+  </data>
+  <data name="Alert_Space_Context" xml:space="preserve">
+    <value>Volum {0}</value>
+  </data>
+  <data name="Alert_Space_Explanation" xml:space="preserve">
+    <value>Windows trenger ledig plass på systemdisken til oppdateringer, midlertidige filer og sidevekslingsfilen.</value>
+  </data>
+  <data name="Alert_Space_Recommendation" xml:space="preserve">
+    <value>Fjern filer du ikke lenger trenger, eller bruk Windows Innstillinger › System › Lagring.</value>
+  </data>
+  <data name="Alert_Space_Reference" xml:space="preserve">
+    <value>Varsel under {0} ledig</value>
+  </data>
+  <data name="Alert_ResolvedEvent" xml:space="preserve">
+    <value>Løst: {0}</value>
+  </data>
+  <data name="Source_Cpu" xml:space="preserve">
+    <value>Windows-ytelsesteller \Processor Information(_Total)\% Processor Utility</value>
+  </data>
+  <data name="Source_Disk" xml:space="preserve">
+    <value>Windows-ytelsesteller \LogicalDisk(*)\% Idle Time (aktiv tid = 100 − inaktiv)</value>
+  </data>
+  <data name="Source_Gpu" xml:space="preserve">
+    <value>Windows-ytelsesteller \GPU Engine(*)\Utilization Percentage</value>
+  </data>
+  <data name="Format_PercentRange" xml:space="preserve">
+    <value>{0:0}–{1:0} %</value>
+  </data>
+  <data name="Source_Memory" xml:space="preserve">
+    <value>GlobalMemoryStatusEx (fysisk minne i bruk)</value>
+  </data>
+  <data name="Source_Commit" xml:space="preserve">
+    <value>GetPerformanceInfo (tilordnet minne og grense)</value>
+  </data>
+  <data name="Source_Network" xml:space="preserve">
+    <value>IP Helper-grensesnittstatistikk (grensesnitt med standard gateway)</value>
+  </data>
+  <data name="Source_Processes" xml:space="preserve">
+    <value>NtQuerySystemInformation (CPU-tid, privat arbeidssett og I/U-tellere per prosess)</value>
+  </data>
+  <data name="Source_ProcessIo" xml:space="preserve">
+    <value>I/U-tellere per prosess (filer, enheter og nettverk samlet)</value>
+  </data>
+  <data name="Source_Storage" xml:space="preserve">
+    <value>GetDiskFreeSpaceEx (volumets kapasitet)</value>
+  </data>
+  <data name="Source_Uptime" xml:space="preserve">
+    <value>GetTickCount64 (tid siden Windows startet, inkludert hvilemodus)</value>
+  </data>
+  <data name="Source_Connectivity" xml:space="preserve">
+    <value>Windows-indikator for nettverkstilkoblingsstatus</value>
+  </data>
+  <data name="Source_Sysora" xml:space="preserve">
+    <value>Sysoras målinger</value>
+  </data>
+  <data name="Confidence_High_Lower" xml:space="preserve">
+    <value>høy</value>
+  </data>
+  <data name="Confidence_Medium_Lower" xml:space="preserve">
+    <value>middels</value>
+  </data>
+  <data name="Confidence_Low_Lower" xml:space="preserve">
+    <value>lav</value>
+  </data>
+  <data name="Confidence_High" xml:space="preserve">
+    <value>Høy sikkerhet</value>
+  </data>
+  <data name="Confidence_Medium" xml:space="preserve">
+    <value>Middels sikkerhet</value>
+  </data>
+  <data name="Confidence_Low" xml:space="preserve">
+    <value>Lav sikkerhet</value>
+  </data>
+  <data name="Basis_Observed" xml:space="preserve">
+    <value>Observert</value>
+  </data>
+  <data name="Basis_InferredConfidence" xml:space="preserve">
+    <value>Utledet · {0} sikkerhet</value>
+  </data>
+  <data name="Basis_Inferred" xml:space="preserve">
+    <value>Utledet</value>
+  </data>
+  <data name="Basis_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="Identity_ByPath" xml:space="preserve">
+    <value>Identifisert ut fra banen til den kjørbare filen.</value>
+  </data>
+  <data name="Identity_ByName" xml:space="preserve">
+    <value>Bare identifisert ut fra prosessnavnet: Windows gir ikke tilgang til banen til den kjørbare filen.</value>
+  </data>
+  <data name="Impact_Resource_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Resource_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Impact_Resource_Io" xml:space="preserve">
+    <value>Disk-I/U</value>
+  </data>
+  <data name="Impact_Resource_Running" xml:space="preserve">
+    <value>Kjøretid</value>
+  </data>
+  <data name="Impact_Level_VeryHigh" xml:space="preserve">
+    <value>Svært høy</value>
+  </data>
+  <data name="Impact_Level_High" xml:space="preserve">
+    <value>Høy</value>
+  </data>
+  <data name="Impact_Level_Moderate" xml:space="preserve">
+    <value>Moderat</value>
+  </data>
+  <data name="Impact_Level_Low" xml:space="preserve">
+    <value>Lav</value>
+  </data>
+  <data name="Impact_Formula" xml:space="preserve">
+    <value>Poengsum = 45 % CPU + 40 % minne + 15 % disk-I/U. Hver del er appens gjennomsnittlige belastning i den analyserte perioden (bruk under kjøring × andel av tiden den kjørte), sammenlignet med et referansenivå: 15 % av total CPU, 25 % av det fysiske minnet, 5 MB/s I/U. Nivåer: lav under 10, moderat under 25, høy under 50, svært høy fra 50.</value>
+  </data>
+  <data name="Impact_Note_Waiting" xml:space="preserve">
+    <value>Venter på de første prosessmålingene.</value>
+  </data>
+  <data name="Impact_Note_Session" xml:space="preserve">
+    <value>Alle apper som er sett siden Sysora startet, målt med noen sekunders mellomrom.</value>
+  </data>
+  <data name="Impact_Note_NoHistory" xml:space="preserve">
+    <value>Det er ikke registrert apphistorikk for denne perioden ennå. Historikken lagres hvert femte minutt mens Sysora kjører.</value>
+  </data>
+  <data name="Impact_Note_History" xml:space="preserve">
+    <value>Fra den lokale historikken: de mest betydningsfulle appene i hver femminuttersperiode (apper under det nivået registreres ikke). De siste minuttene vises når femminuttersperioden deres er over.</value>
+  </data>
+  <data name="Replay_Source_Memory" xml:space="preserve">
+    <value>Detaljerte målinger som holdes i minnet (én per CPU-måling).</value>
+  </data>
+  <data name="Replay_Source_History" xml:space="preserve">
+    <value>Gjennomsnitt per minutt fra den lokale historikken.</value>
+  </data>
+  <data name="Baseline_Ready" xml:space="preserve">
+    <value>Vanlig atferd lært ut fra {0} historikk</value>
+  </data>
+  <data name="Baseline_Collecting" xml:space="preserve">
+    <value>Samler inn grunnlinjedata … ({0} registrert av de {1} som trengs før Sysora sammenligner med den vanlige aktiviteten din)</value>
+  </data>
+  <data name="Impact_Ev_CpuReference" xml:space="preserve">
+    <value>Referanse for «svært høy»: {0} av total CPU i gjennomsnitt i perioden</value>
+  </data>
+  <data name="Impact_Ev_MemoryReference" xml:space="preserve">
+    <value>Referanse for «svært høy»: {0} av {1} i gjennomsnitt i perioden</value>
+  </data>
+  <data name="Impact_Ev_IoReference" xml:space="preserve">
+    <value>Referanse for «svært høy»: {0} i gjennomsnitt i perioden</value>
+  </data>
+  <data name="Impact_Cpu_Description" xml:space="preserve">
+    <value>{0} av total CPU-kapasitet i gjennomsnitt i perioden ({1} under kjøring)</value>
+  </data>
+  <data name="Impact_Memory_Description" xml:space="preserve">
+    <value>{0} av det fysiske minnet i gjennomsnitt i perioden ({1} under kjøring)</value>
+  </data>
+  <data name="Impact_Memory_Unknown" xml:space="preserve">
+    <value>Størrelsen på det fysiske minnet er ukjent: minnet er ikke med i poengsummen</value>
+  </data>
+  <data name="Impact_Io_Description" xml:space="preserve">
+    <value>{0} i gjennomsnitt i perioden (filer, enheter og nettverk samlet)</value>
+  </data>
+  <data name="Impact_Running_Description" xml:space="preserve">
+    <value>Kjørte {0} av den overvåkede tiden</value>
+  </data>
+  <data name="Impact_When_Most" xml:space="preserve">
+    <value>mesteparten av den overvåkede tiden</value>
+  </data>
+  <data name="Impact_When_Large" xml:space="preserve">
+    <value>en stor del av den overvåkede tiden</value>
+  </data>
+  <data name="Impact_When_Part" xml:space="preserve">
+    <value>en del av den overvåkede tiden</value>
+  </data>
+  <data name="Impact_When_Briefly" xml:space="preserve">
+    <value>kortvarig</value>
+  </data>
+  <data name="Impact_RunningOfMeasured" xml:space="preserve">
+    <value>kjørte {0} av {1} målt</value>
+  </data>
+  <data name="Impact_Explain_Low" xml:space="preserve">
+    <value>Lav ressursbruk i perioden ({0}).</value>
+  </data>
+  <data name="Impact_Explain_Peaks" xml:space="preserve">
+    <value>Korte CPU-topper på opptil {0} ble observert.</value>
+  </data>
+  <data name="Impact_Explain_Used" xml:space="preserve">
+    <value>Appen brukte {0} {1} ({2}).</value>
+  </data>
+  <data name="Impact_Amount_VeryHigh" xml:space="preserve">
+    <value>svært mye {0}</value>
+  </data>
+  <data name="Impact_Amount_High" xml:space="preserve">
+    <value>mye {0}</value>
+  </data>
+  <data name="Impact_Amount_Moderate" xml:space="preserve">
+    <value>en moderat mengde {0}</value>
+  </data>
+  <data name="Impact_Noun_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Noun_Memory" xml:space="preserve">
+    <value>minne</value>
+  </data>
+  <data name="Impact_Noun_Io" xml:space="preserve">
+    <value>disk-I/U</value>
+  </data>
+  <data name="Impact_Ev_RunningTime" xml:space="preserve">
+    <value>Kjøretid</value>
+  </data>
+  <data name="Impact_Ev_RunningValue" xml:space="preserve">
+    <value>{0} av {1} målt</value>
+  </data>
+  <data name="Impact_Ev_RunningSource" xml:space="preserve">
+    <value>Sysoras prosessmålinger (avbrudd som hvilemodus telles ikke med)</value>
+  </data>
+  <data name="Impact_Ev_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Impact_Ev_CpuValue" xml:space="preserve">
+    <value>I gjennomsnitt {0} av total CPU under kjøring, topp {1}</value>
+  </data>
+  <data name="Impact_Ev_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Impact_Ev_MemoryValue" xml:space="preserve">
+    <value>I gjennomsnitt {0} privat arbeidssett under kjøring, topp {1}</value>
+  </data>
+  <data name="Impact_Ev_Io" xml:space="preserve">
+    <value>Disk-I/U</value>
+  </data>
+  <data name="Impact_Ev_IoValue" xml:space="preserve">
+    <value>I gjennomsnitt {0} under kjøring, topp {1}</value>
+  </data>
+  <data name="Impact_Ev_Network" xml:space="preserve">
+    <value>Nettverk</value>
+  </data>
+  <data name="Impact_Ev_NetworkReference" xml:space="preserve">
+    <value>Windows rapporterer ikke nettverksbruk per app uten hendelsessporing; nettverks-I/U er med i disk-I/U.</value>
+  </data>
+  <data name="Impact_Ev_Launches" xml:space="preserve">
+    <value>Oppstarter</value>
+  </data>
+  <data name="Impact_Ev_Launches_One" xml:space="preserve">
+    <value>{0} prosessoppstart observert</value>
+  </data>
+  <data name="Impact_Ev_Launches_Other" xml:space="preserve">
+    <value>{0} prosessoppstarter observert</value>
+  </data>
+  <data name="Impact_Ev_NoLaunch" xml:space="preserve">
+    <value>Ingen prosessoppstart observert (kjørte allerede eller ble ikke startet på nytt)</value>
+  </data>
+  <data name="Impact_Ev_Identification" xml:space="preserve">
+    <value>Identifisering</value>
+  </data>
+  <data name="Impact_Ev_ImageNameOnly" xml:space="preserve">
+    <value>Bare bildenavn</value>
+  </data>
+  <data name="Impact_Ev_Score" xml:space="preserve">
+    <value>Poengsum</value>
+  </data>
+  <data name="Impact_Ev_ScoreValue" xml:space="preserve">
+    <value>{0}/100 ({1})</value>
+  </data>
+  <data name="Insight_Game_JustStarted" xml:space="preserve">
+    <value>har akkurat startet</value>
+  </data>
+  <data name="Insight_Game_For" xml:space="preserve">
+    <value>i {0}</value>
+  </data>
+  <data name="Insight_Game_Running" xml:space="preserve">
+    <value>Spill kjører: {0} ({1}). Et sammendrag vises når det lukkes.</value>
+  </data>
+  <data name="Insight_LastGame" xml:space="preserve">
+    <value>Siste spill: {0} ({1}) · {2}</value>
+  </data>
+  <data name="Insight_ActiveAlertMore" xml:space="preserve">
+    <value>Aktivt varsel: {0} (+{1} til)</value>
+  </data>
+  <data name="Insight_ActiveAlert" xml:space="preserve">
+    <value>Aktivt varsel: {0}</value>
+  </data>
+  <data name="Insight_Recurring" xml:space="preserve">
+    <value>Gjentakende: {0}</value>
+  </data>
+  <data name="Insight_Health" xml:space="preserve">
+    <value>PC-helsen er {0}/100, senket mest av {1}: {2}</value>
+  </data>
+  <data name="Insight_AnalyzingFirst" xml:space="preserve">
+    <value>Analyserer de første målingene …</value>
+  </data>
+  <data name="Insight_NoIssue" xml:space="preserve">
+    <value>Ingen betydelige problemer funnet</value>
+  </data>
+  <data name="Insight_MemoryAbove" xml:space="preserve">
+    <value>Minnebruken ligger {0:0} prosentpoeng over det vanlige nivået ditt ({1} mot vanligvis {2})</value>
+  </data>
+  <data name="Insight_MemoryBelow" xml:space="preserve">
+    <value>Minnebruken ligger {0:0} prosentpoeng under det vanlige nivået ditt ({1} mot vanligvis {2})</value>
+  </data>
+  <data name="Insight_CpuAbove" xml:space="preserve">
+    <value>CPU-bruken ligger {0:0} prosentpoeng over det vanlige nivået ditt ({1} mot vanligvis {2})</value>
+  </data>
+  <data name="Insight_CpuBelow" xml:space="preserve">
+    <value>CPU-bruken ligger {0:0} prosentpoeng under det vanlige nivået ditt ({1} mot vanligvis {2})</value>
+  </data>
+  <data name="Insight_Recovered" xml:space="preserve">
+    <value>PC-en har kommet seg etter det siste problemet ({0}): det sluttet {1} og har ikke kommet tilbake.</value>
+  </data>
+  <data name="Insight_Kind_HighCpu" xml:space="preserve">
+    <value>høy CPU</value>
+  </data>
+  <data name="Insight_Kind_HighMemory" xml:space="preserve">
+    <value>høyt minne</value>
+  </data>
+  <data name="Insight_Kind_RisingMemory" xml:space="preserve">
+    <value>økende minne</value>
+  </data>
+  <data name="Insight_Kind_BusyDisk" xml:space="preserve">
+    <value>opptatt disk</value>
+  </data>
+  <data name="Insight_Kind_LowSpace" xml:space="preserve">
+    <value>lite diskplass</value>
+  </data>
+  <data name="Insight_Kind_Unusual" xml:space="preserve">
+    <value>uvanlig aktivitet</value>
+  </data>
+  <data name="Insight_Repeated_One" xml:space="preserve">
+    <value>{0} varsel om {1} de siste 24 timene (sist: {2}).</value>
+  </data>
+  <data name="Insight_Repeated_Other" xml:space="preserve">
+    <value>{0} varsler om {1} de siste 24 timene (sist: {2}).</value>
+  </data>
+  <data name="Insight_WithinUsual" xml:space="preserve">
+    <value>CPU- og minnebruken ligger innenfor det vanlige intervallet for denne PC-en.</value>
+  </data>
+  <data name="Insight_LargestConsumer" xml:space="preserve">
+    <value>{0} bruker for øyeblikket mest ressurser ({1} CPU, {2})</value>
+  </data>
+  <data name="Recurring_NotAnalyzed" xml:space="preserve">
+    <value>Ikke analysert ennå.</value>
+  </data>
+  <data name="Recurring_NoHistoryYet" xml:space="preserve">
+    <value>ingen historikk ennå</value>
+  </data>
+  <data name="Recurring_OfHistory" xml:space="preserve">
+    <value>{0} historikk</value>
+  </data>
+  <data name="Recurring_NotEnough" xml:space="preserve">
+    <value>Ikke nok historiske data ({0}; gjentakende problemer krever minst {1}).</value>
+  </data>
+  <data name="Recurring_None" xml:space="preserve">
+    <value>Ingen gjentakende problemer de siste {0} dagene.</value>
+  </data>
+  <data name="Recurring_One" xml:space="preserve">
+    <value>1 gjentakende problem: {0}</value>
+  </data>
+  <data name="Recurring_Many" xml:space="preserve">
+    <value>{0} gjentakende problemer. Hyppigst: {1}</value>
+  </data>
+  <data name="Recurring_HighCpu" xml:space="preserve">
+    <value>Høy CPU-bruk</value>
+  </data>
+  <data name="Recurring_HighMemory" xml:space="preserve">
+    <value>Høy minnebruk</value>
+  </data>
+  <data name="Recurring_MemoryRising" xml:space="preserve">
+    <value>Økende minnebruk</value>
+  </data>
+  <data name="Recurring_DiskBusy" xml:space="preserve">
+    <value>Opptatt disk</value>
+  </data>
+  <data name="Recurring_AppCpu" xml:space="preserve">
+    <value>{0} bruker mye CPU</value>
+  </data>
+  <data name="Recurring_Connectivity" xml:space="preserve">
+    <value>Internett-tilgang mistet eller begrenset</value>
+  </data>
+  <data name="Recurring_Occurrences" xml:space="preserve">
+    <value>Forekomster</value>
+  </data>
+  <data name="Recurring_OccurrencesText" xml:space="preserve">
+    <value>{0} på {1}, fra {2} til {3}</value>
+  </data>
+  <data name="Count_Episode_One" xml:space="preserve">
+    <value>{0} episode</value>
+  </data>
+  <data name="Count_Episode_Other" xml:space="preserve">
+    <value>{0} episoder</value>
+  </data>
+  <data name="Recurring_When" xml:space="preserve">
+    <value>Når</value>
+  </data>
+  <data name="Recurring_MostAssociated" xml:space="preserve">
+    <value>Oftest involverte app</value>
+  </data>
+  <data name="Recurring_MostAssociatedText" xml:space="preserve">
+    <value>{0} ({1} av {2} episoder)</value>
+  </data>
+  <data name="Recurring_Cause" xml:space="preserve">
+    <value>Årsak</value>
+  </data>
+  <data name="Recurring_CauseConnectivity" xml:space="preserve">
+    <value>Windows rapporterer tapet av tilgang; årsaken (ruter, leverandør, Wi-Fi-signal) kan ikke observeres av Sysora.</value>
+  </data>
+  <data name="Recurring_Description" xml:space="preserve">
+    <value>{0} forekom {1} de siste {2} dagene.</value>
+  </data>
+  <data name="Recurring_Pattern" xml:space="preserve">
+    <value>De fleste hendelsene skjedde mellom kl. {0:00}:00 og {1:00}:00 ({2} av {3})</value>
+  </data>
+  <data name="Times_Once" xml:space="preserve">
+    <value>én gang</value>
+  </data>
+  <data name="Times_Twice" xml:space="preserve">
+    <value>to ganger</value>
+  </data>
+  <data name="Times_N" xml:space="preserve">
+    <value>{0} ganger</value>
+  </data>
+  <data name="Replay_Rose_Cpu" xml:space="preserve">
+    <value>CPU økte fra {0} til {1}</value>
+  </data>
+  <data name="Replay_Rose_Memory" xml:space="preserve">
+    <value>Minnet økte fra {0} til {1}</value>
+  </data>
+  <data name="Replay_Rose_Disk" xml:space="preserve">
+    <value>Diskaktiviteten økte fra {0} til {1}</value>
+  </data>
+  <data name="Replay_Rose_Gpu" xml:space="preserve">
+    <value>GPU økte fra {0} til {1}</value>
+  </data>
+  <data name="Replay_Reached_Cpu" xml:space="preserve">
+    <value>CPU nådde {0}</value>
+  </data>
+  <data name="Replay_Reached_Memory" xml:space="preserve">
+    <value>Minnet nådde {0}</value>
+  </data>
+  <data name="Replay_Reached_Disk" xml:space="preserve">
+    <value>Diskaktiviteten nådde {0}</value>
+  </data>
+  <data name="Replay_Reached_Gpu" xml:space="preserve">
+    <value>GPU nådde {0}</value>
+  </data>
+  <data name="Replay_Back_Cpu" xml:space="preserve">
+    <value>CPU tilbake på {0}</value>
+  </data>
+  <data name="Replay_Back_Memory" xml:space="preserve">
+    <value>Minnet tilbake på {0}</value>
+  </data>
+  <data name="Replay_Back_Disk" xml:space="preserve">
+    <value>Diskaktiviteten tilbake på {0}</value>
+  </data>
+  <data name="Replay_Back_Gpu" xml:space="preserve">
+    <value>GPU tilbake på {0}</value>
+  </data>
+  <data name="Replay_NoMeasurements" xml:space="preserve">
+    <value>Ingen målinger for denne perioden.</value>
+  </data>
+  <data name="Replay_MostIo" xml:space="preserve">
+    <value>mest I/U: {0} {1}</value>
+  </data>
+  <data name="Replay_CpuAveraged" xml:space="preserve">
+    <value>CPU lå i gjennomsnitt på {0} (topp {1})</value>
+  </data>
+  <data name="Replay_MemoryLevel" xml:space="preserve">
+    <value>minne {0}</value>
+  </data>
+  <data name="Replay_NoNotableChange" xml:space="preserve">
+    <value>Ingen betydelig endring i perioden.</value>
+  </data>
+  <data name="Replay_NoSharpRise" xml:space="preserve">
+    <value>Ingen kraftig økning eller metning i perioden: {0}.</value>
+  </data>
+  <data name="Replay_SharpRise" xml:space="preserve">
+    <value>En kraftig økning i {0}{1} viste seg kl. {2}</value>
+  </data>
+  <data name="Replay_FollowedBy" xml:space="preserve">
+    <value>, etterfulgt av {0}</value>
+  </data>
+  <data name="Replay_NounAt" xml:space="preserve">
+    <value>{0} kl. {1}</value>
+  </data>
+  <data name="Replay_Noun_Cpu" xml:space="preserve">
+    <value>CPU-bruk</value>
+  </data>
+  <data name="Replay_Noun_Memory" xml:space="preserve">
+    <value>minnebruk</value>
+  </data>
+  <data name="Replay_Noun_Disk" xml:space="preserve">
+    <value>diskaktivitet</value>
+  </data>
+  <data name="Replay_Noun_Gpu" xml:space="preserve">
+    <value>GPU-bruk</value>
+  </data>
+  <data name="Replay_Noun_Other" xml:space="preserve">
+    <value>aktivitet</value>
+  </data>
+  <data name="Usual_Loading" xml:space="preserve">
+    <value>Laster inn historikken …</value>
+  </data>
+  <data name="Usual_Metric_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Usual_Metric_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Usual_Metric_Disk" xml:space="preserve">
+    <value>Diskens aktive tid</value>
+  </data>
+  <data name="Usual_Metric_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Usual_Period_LastHour" xml:space="preserve">
+    <value>Siste time</value>
+  </data>
+  <data name="Usual_Period_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="Usual_Period_Yesterday" xml:space="preserve">
+    <value>I går</value>
+  </data>
+  <data name="Usual_Period_7Days" xml:space="preserve">
+    <value>Siste 7 dager</value>
+  </data>
+  <data name="Usual_Period_30Days" xml:space="preserve">
+    <value>Siste 30 dager</value>
+  </data>
+  <data name="Usual_Period_AtThisHour" xml:space="preserve">
+    <value>Vanlig på dette tidspunktet</value>
+  </data>
+  <data name="Usual_Summary_Above" xml:space="preserve">
+    <value>{0} ligger {1:0} prosentpoeng over det vanlige nivået ditt: {2} nå mot {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Below" xml:space="preserve">
+    <value>{0} ligger {1:0} prosentpoeng under det vanlige nivået ditt: {2} nå mot {3} ({4}).</value>
+  </data>
+  <data name="Usual_Summary_Close" xml:space="preserve">
+    <value>Den gjeldende aktiviteten ligger nær det vanlige nivået ditt (innenfor 10 prosentpoeng).</value>
+  </data>
+  <data name="Usual_Summary_NotEnough" xml:space="preserve">
+    <value>Det er ikke nok historikk ennå til å si hva som er vanlig: sammenligningen over 7 dager krever 4 timer fordelt på 2 dager, den over 30 dager 24 timer fordelt på 8 dager.</value>
+  </data>
+  <data name="Usual_NeededOverDays" xml:space="preserve">
+    <value>{0} fordelt på {1} dager</value>
+  </data>
+  <data name="Usual_NotEnoughOverDays" xml:space="preserve">
+    <value>Ikke nok data: {0} registrert over {1}, {2} kreves</value>
+  </data>
+  <data name="Usual_NotEnough" xml:space="preserve">
+    <value>Ikke nok data: {0} registrert, {1} kreves</value>
+  </data>
+  <data name="Usual_Hours" xml:space="preserve">
+    <value>{0:0.#} t</value>
+  </data>
+  <data name="State_Metric_MemoryUsed" xml:space="preserve">
+    <value>Minne i bruk</value>
+  </data>
+  <data name="State_Metric_Download" xml:space="preserve">
+    <value>Nedlasting</value>
+  </data>
+  <data name="State_Metric_Upload" xml:space="preserve">
+    <value>Opplasting</value>
+  </data>
+  <data name="State_Metric_Processes" xml:space="preserve">
+    <value>Prosesser</value>
+  </data>
+  <data name="State_Metric_SystemFree" xml:space="preserve">
+    <value>Ledig plass (Windows-volumet)</value>
+  </data>
+  <data name="State_Metric_MemoryPercent" xml:space="preserve">
+    <value>Minne i bruk (%)</value>
+  </data>
+  <data name="State_During" xml:space="preserve">
+    <value>Under {0}</value>
+  </data>
+  <data name="State_SessionSource" xml:space="preserve">
+    <value>Gjennomsnitt registrert under spilløkten</value>
+  </data>
+  <data name="State_NotEnough" xml:space="preserve">
+    <value>Ikke nok data til å sammenligne: {0}.</value>
+  </data>
+  <data name="State_NoMeasurementFor" xml:space="preserve">
+    <value>ingen måling for «{0}»</value>
+  </data>
+  <data name="State_NoDifference" xml:space="preserve">
+    <value>Ingen betydelig forskjell mellom de to periodene.</value>
+  </data>
+  <data name="State_Notable_One" xml:space="preserve">
+    <value>{0} betydelig forskjell: {1}.</value>
+  </data>
+  <data name="State_Notable_Other" xml:space="preserve">
+    <value>{0} betydelige forskjeller: {1}.</value>
+  </data>
+  <data name="State_NotCompared" xml:space="preserve">
+    <value>Ikke sammenlignet (målt i bare én periode): {0}.</value>
+  </data>
+  <data name="State_OnlyOne" xml:space="preserve">
+    <value>Målt i bare én av de to periodene: ikke sammenlignet.</value>
+  </data>
+  <data name="State_NoChange" xml:space="preserve">
+    <value>Ingen endring</value>
+  </data>
+  <data name="State_Explain_Same" xml:space="preserve">
+    <value>Omtrent det samme i begge periodene.</value>
+  </data>
+  <data name="State_Explain_CpuUp" xml:space="preserve">
+    <value>Prosessoren var mer belastet i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_CpuDown" xml:space="preserve">
+    <value>Prosessoren var mindre belastet i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_MemoryUp" xml:space="preserve">
+    <value>Mer minne ble brukt i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_MemoryDown" xml:space="preserve">
+    <value>Mindre minne ble brukt i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_DiskUp" xml:space="preserve">
+    <value>Diskene var mer opptatt i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_DiskDown" xml:space="preserve">
+    <value>Diskene var mindre opptatt i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_GpuUp" xml:space="preserve">
+    <value>Grafikkprosessoren var mer belastet i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_GpuDown" xml:space="preserve">
+    <value>Grafikkprosessoren var mindre belastet i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_SpaceUsed" xml:space="preserve">
+    <value>Det ble brukt plass på Windows-volumet mellom de to periodene.</value>
+  </data>
+  <data name="State_Explain_SpaceFreed" xml:space="preserve">
+    <value>Det ble frigjort plass på Windows-volumet mellom de to periodene.</value>
+  </data>
+  <data name="State_Explain_ProcessesUp" xml:space="preserve">
+    <value>Flere prosesser kjørte i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_ProcessesDown" xml:space="preserve">
+    <value>Færre prosesser kjørte i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_NetworkUp" xml:space="preserve">
+    <value>Mer nettverkstrafikk i den andre perioden.</value>
+  </data>
+  <data name="State_Explain_NetworkDown" xml:space="preserve">
+    <value>Mindre nettverkstrafikk i den andre perioden.</value>
+  </data>
+  <data name="State_Points_One" xml:space="preserve">
+    <value>{0} prosentpoeng</value>
+  </data>
+  <data name="State_Points_Other" xml:space="preserve">
+    <value>{0} prosentpoeng</value>
+  </data>
+  <data name="Count_Measurement_One" xml:space="preserve">
+    <value>{0} måling</value>
+  </data>
+  <data name="Count_Measurement_Other" xml:space="preserve">
+    <value>{0} målinger</value>
+  </data>
+  <data name="State_NoMeasurement" xml:space="preserve">
+    <value>ingen måling</value>
+  </data>
+  <data name="State_Label_HourAgo" xml:space="preserve">
+    <value>For 1 time siden</value>
+  </data>
+  <data name="State_Label_Now" xml:space="preserve">
+    <value>Nå</value>
+  </data>
+  <data name="State_Label_YesterdaySameTime" xml:space="preserve">
+    <value>I går på denne tiden</value>
+  </data>
+  <data name="State_Label_Before" xml:space="preserve">
+    <value>Før</value>
+  </data>
+  <data name="State_Label_After" xml:space="preserve">
+    <value>Etter</value>
+  </data>
+  <data name="State_Source_Seconds" xml:space="preserve">
+    <value>Målinger per sekund som holdes i minnet</value>
+  </data>
+  <data name="State_Source_Minutes" xml:space="preserve">
+    <value>Gjennomsnitt per minutt fra den lokale historikken</value>
+  </data>
+  <data name="State_Source_Hours" xml:space="preserve">
+    <value>Sammendrag per time fra den lokale historikken</value>
+  </data>
+  <data name="State_NoSession" xml:space="preserve">
+    <value>Ingen spilløkt</value>
+  </data>
+  <data name="State_NoSessionRecorded" xml:space="preserve">
+    <value>Ingen spilløkt registrert</value>
+  </data>
+  <data name="State_NoSessionYet" xml:space="preserve">
+    <value>Ingen spilløkt er registrert ennå: spill et spill i noen minutter, og sammenlign deretter.</value>
+  </data>
+  <data name="State_BeforeGame" xml:space="preserve">
+    <value>Før {0}</value>
+  </data>
+  <data name="State_AfterGame" xml:space="preserve">
+    <value>Etter {0}</value>
+  </data>
+  <data name="State_PreviousSession" xml:space="preserve">
+    <value>Forrige økt</value>
+  </data>
+  <data name="State_NoEarlierSession" xml:space="preserve">
+    <value>Det finnes ingen tidligere spilløkt å sammenligne med.</value>
+  </data>
+  <data name="WhyNow_Metric_Disk" xml:space="preserve">
+    <value>Diskaktivitet</value>
+  </data>
+  <data name="WhyNow_Metric_Network" xml:space="preserve">
+    <value>Nettverkstrafikk</value>
+  </data>
+  <data name="WhyNow_NotEnough_Headline" xml:space="preserve">
+    <value>{0}: ikke nok målinger ennå</value>
+  </data>
+  <data name="WhyNow_NotEnough_Missing" xml:space="preserve">
+    <value>{0} finnes ikke i målingene, så det kan ikke forklares.</value>
+  </data>
+  <data name="WhyNow_NotEnough_Summary" xml:space="preserve">
+    <value>Sysora trenger omtrent to minutters målinger for å kunne si når en endring begynte.</value>
+  </data>
+  <data name="WhyNow_Range" xml:space="preserve">
+    <value>{0}–{1}</value>
+  </data>
+  <data name="WhyNow_Quiet_Headline" xml:space="preserve">
+    <value>{0} er ikke uvanlig høy akkurat nå</value>
+  </data>
+  <data name="WhyNow_Quiet_Summary" xml:space="preserve">
+    <value>{0} lå mellom {1} de siste {2}; nå er den {3}. Det finnes ingen ny økning å forklare.</value>
+  </data>
+  <data name="WhyNow_Quiet_Contributor" xml:space="preserve">
+    <value>Ingenting å tilskrive: ingen betydelig økning.</value>
+  </data>
+  <data name="WhyNow_Label_Level" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="WhyNow_Quiet_Level" xml:space="preserve">
+    <value>{0} lå mellom {1} i den analyserte perioden.</value>
+  </data>
+  <data name="WhyNow_Label_UsualRange" xml:space="preserve">
+    <value>Vanlig intervall</value>
+  </data>
+  <data name="WhyNow_Label_Change" xml:space="preserve">
+    <value>Endring</value>
+  </data>
+  <data name="WhyNow_Change" xml:space="preserve">
+    <value>{0} økte fra {1} til {2}.</value>
+  </data>
+  <data name="WhyNow_AlreadyHigh" xml:space="preserve">
+    <value>{0} er {1} og var allerede høy i begynnelsen av de analyserte dataene ({2}).</value>
+  </data>
+  <data name="WhyNow_Label_Started" xml:space="preserve">
+    <value>Begynte</value>
+  </data>
+  <data name="WhyNow_Started" xml:space="preserve">
+    <value>Rundt {0} (innenfor {1:0} sekunder).</value>
+  </data>
+  <data name="WhyNow_StartedBefore" xml:space="preserve">
+    <value>Før {0}: tidligere data finnes ikke.</value>
+  </data>
+  <data name="WhyNow_Label_Duration" xml:space="preserve">
+    <value>Varighet</value>
+  </data>
+  <data name="WhyNow_AtLeast" xml:space="preserve">
+    <value>Minst {0}</value>
+  </data>
+  <data name="WhyNow_Label_Associated" xml:space="preserve">
+    <value>Sammenheng med</value>
+  </data>
+  <data name="WhyNow_Associated" xml:space="preserve">
+    <value>{0} kl. {1} (samtidig; ikke bevis for årsak)</value>
+  </data>
+  <data name="WhyNow_Label_SameTime" xml:space="preserve">
+    <value>Samtidig</value>
+  </data>
+  <data name="WhyNow_Label_Similar" xml:space="preserve">
+    <value>Lignende hendelser</value>
+  </data>
+  <data name="WhyNow_Label_WhyMore" xml:space="preserve">
+    <value>Hvorfor appen trenger mer</value>
+  </data>
+  <data name="WhyNow_NotObservable" xml:space="preserve">
+    <value>Hva en app gjør internt, kan ikke observeres utenfra.</value>
+  </data>
+  <data name="WhyNow_Headline_Increased" xml:space="preserve">
+    <value>{0} økte betydelig</value>
+  </data>
+  <data name="WhyNow_Headline_High" xml:space="preserve">
+    <value>{0} har vært høy siden før {1}</value>
+  </data>
+  <data name="WhyNow_Summary_WentFrom" xml:space="preserve">
+    <value>{0} gikk fra {1} til {2}</value>
+  </data>
+  <data name="WhyNow_Summary_Is" xml:space="preserve">
+    <value>{0} er {1}</value>
+  </data>
+  <data name="WhyNow_Summary_Starting" xml:space="preserve">
+    <value>, med start rundt {0} (for {1} siden). </value>
+  </data>
+  <data name="WhyNow_Ev_BeforeNow" xml:space="preserve">
+    <value>{0} før, {1} nå</value>
+  </data>
+  <data name="WhyNow_Ev_Now" xml:space="preserve">
+    <value>{0} nå</value>
+  </data>
+  <data name="WhyNow_Ev_Reference" xml:space="preserve">
+    <value>Gjennomsnitt over trinn på {0:0} sekunder; en endring telles fra {1}</value>
+  </data>
+  <data name="WhyNow_Position_Above95" xml:space="preserve">
+    <value>over 95 % av de registrerte minuttene dine</value>
+  </data>
+  <data name="WhyNow_Position_Above" xml:space="preserve">
+    <value>over det vanlige intervallet ditt</value>
+  </data>
+  <data name="WhyNow_Position_Below" xml:space="preserve">
+    <value>under det vanlige intervallet ditt</value>
+  </data>
+  <data name="WhyNow_Position_Within" xml:space="preserve">
+    <value>innenfor det vanlige intervallet ditt</value>
+  </data>
+  <data name="WhyNow_Usual" xml:space="preserve">
+    <value>Vanligvis {0} (median {1}); nå {2}: {3}.</value>
+  </data>
+  <data name="WhyNow_Network_NotAvailable" xml:space="preserve">
+    <value>Ikke tilgjengelig: Windows rapporterer ikke nettverksbruk per app uten hendelsessporing på administratornivå.</value>
+  </data>
+  <data name="WhyNow_Network_Summary" xml:space="preserve">
+    <value>Appen som er ansvarlig, kan ikke identifiseres: Windows rapporterer ikke nettverksbruk per app uten hendelsessporing på administratornivå.</value>
+  </data>
+  <data name="WhyNow_Label_Contributor" xml:space="preserve">
+    <value>Medvirkende faktor</value>
+  </data>
+  <data name="WhyNow_Gpu_Unknown" xml:space="preserve">
+    <value>Ukjent årsak: GPU-bruk per app lagres ikke i historikken. Hendelsene på samme tidspunkt kan hjelpe.</value>
+  </data>
+  <data name="WhyNow_NoAppData" xml:space="preserve">
+    <value>Ukjent årsak: ingen data per app for denne perioden (apper lagres bare i den siste historikken i minnet).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeLargest" xml:space="preserve">
+    <value>Ukjent årsak: økningen begynte før de analyserte dataene. Største bruker nå: {0} ({1}).</value>
+  </data>
+  <data name="WhyNow_StartedBeforeData" xml:space="preserve">
+    <value>Ukjent årsak: økningen begynte før de analyserte dataene.</value>
+  </data>
+  <data name="WhyNow_NoDataBefore" xml:space="preserve">
+    <value>Ukjent årsak: ingen data per app fra før økningen.</value>
+  </data>
+  <data name="WhyNow_NoIncrease" xml:space="preserve">
+    <value>Ukjent årsak: ingen av de målte appene økte bruken sin.</value>
+  </data>
+  <data name="WhyNow_NoSingleApp" xml:space="preserve">
+    <value>Ukjent årsak: ingen enkelt app forklarer økningen (største endring: {0} {1}).</value>
+  </data>
+  <data name="WhyNow_Share" xml:space="preserve">
+    <value>, omtrent {0} av økningen</value>
+  </data>
+  <data name="WhyNow_IoNote" xml:space="preserve">
+    <value> I/U (filer, enheter og nettverk samlet)</value>
+  </data>
+  <data name="WhyNow_NewApp" xml:space="preserve">
+    <value> – var ikke blant de mest belastende appene tidligere</value>
+  </data>
+  <data name="WhyNow_Label_Likely" xml:space="preserve">
+    <value>Sannsynlig medvirkende faktor</value>
+  </data>
+  <data name="WhyNow_Label_Possible" xml:space="preserve">
+    <value>Mulig medvirkende faktor</value>
+  </data>
+  <data name="WhyNow_ContributorText" xml:space="preserve">
+    <value>{0}: {1} ({2}{3}{4}){5}</value>
+  </data>
+  <data name="WhyNow_Summary_Likely" xml:space="preserve">
+    <value>Dataene tyder på at {0} er den viktigste medvirkende faktoren ({1}{2}).</value>
+  </data>
+  <data name="WhyNow_Summary_Possible" xml:space="preserve">
+    <value>{0} kan ha bidratt ({1}{2}), men grunnlaget er svakt.</value>
+  </data>
+  <data name="WhyNow_AlsoRose" xml:space="preserve">
+    <value>{0} økte også: {1} → {2}</value>
+  </data>
+  <data name="WhyNow_Similar_NotTracked" xml:space="preserve">
+    <value>Lignende hendelser: følges ikke (ingen varselsregel følger denne målingen).</value>
+  </data>
+  <data name="WhyNow_Similar_NoHistory" xml:space="preserve">
+    <value>Lignende hendelser: ikke tilgjengelig (ingen varselshistorikk).</value>
+  </data>
+  <data name="WhyNow_Similar_None" xml:space="preserve">
+    <value>Lignende hendelser: ingen de siste {0} dagene.</value>
+  </data>
+  <data name="WhyNow_Similar_Count" xml:space="preserve">
+    <value>Lignende hendelser: {0} de siste {1} dagene.</value>
+  </data>
+  <data name="Count_Alert_One" xml:space="preserve">
+    <value>{0} varsel</value>
+  </data>
+  <data name="Count_Alert_Other" xml:space="preserve">
+    <value>{0} varsler</value>
+  </data>
+  <data name="WhyNow_Source_Mixed" xml:space="preserve">
+    <value>Målinger per sekund som holdes i minnet, etter gjennomsnitt per minutt fra den lokale historikken</value>
+  </data>
+  <data name="Changes_UnknownOrigin" xml:space="preserve">
+    <value>Endring oppdaget, ukjent opprinnelse.</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated" xml:space="preserve">
+    <value>{0} installert eller oppdatert</value>
+  </data>
+  <data name="Changes_InstalledOrUpdated_Explanation" xml:space="preserve">
+    <value>Windows registrerer denne datoen når en app installeres; mange installasjonsprogrammer skriver den også om når de oppdaterer appen.</value>
+  </data>
+  <data name="Changes_MatchedByName" xml:space="preserve">
+    <value>Samsvart etter navn og utgiver i Windows-listen over installerte apper.</value>
+  </data>
+  <data name="Changes_VersionRead" xml:space="preserve">
+    <value>Versjonen er lest fra Windows-listen over installerte apper.</value>
+  </data>
+  <data name="Changes_Removed" xml:space="preserve">
+    <value>{0} fjernet</value>
+  </data>
+  <data name="Changes_Removed_Explanation" xml:space="preserve">
+    <value>Appen er ikke lenger i Windows-listen over installerte apper.</value>
+  </data>
+  <data name="Changes_Removed_Origin" xml:space="preserve">
+    <value>Til stede i øyeblikksbildet fra {0}, fraværende i øyeblikksbildet fra {1}.</value>
+  </data>
+  <data name="Changes_Ev_InstalledApps" xml:space="preserve">
+    <value>Installerte apper</value>
+  </data>
+  <data name="Changes_Installed_OriginDate" xml:space="preserve">
+    <value>Installasjonsdatoen ({0}) er registrert av installasjonsprogrammet i Windows-listen over installerte apper.</value>
+  </data>
+  <data name="Changes_Installed_OriginSnapshot" xml:space="preserve">
+    <value>I Windows-listen over installerte apper, fraværende i øyeblikksbildet fra {0}.</value>
+  </data>
+  <data name="Changes_Installed" xml:space="preserve">
+    <value>{0} installert</value>
+  </data>
+  <data name="Changes_Installed_ExplanationPublisher" xml:space="preserve">
+    <value>Ny app fra {0}. Ny programvare kan legge til bakgrunnsprosesser og oppstartselementer.</value>
+  </data>
+  <data name="Changes_Installed_Explanation" xml:space="preserve">
+    <value>Ny app. Ny programvare kan legge til bakgrunnsprosesser og oppstartselementer.</value>
+  </data>
+  <data name="Changes_Updated" xml:space="preserve">
+    <value>{0} oppdatert</value>
+  </data>
+  <data name="Changes_Updated_Explanation" xml:space="preserve">
+    <value>En ny versjon kan oppføre seg annerledes (ytelse, bakgrunnsaktivitet).</value>
+  </data>
+  <data name="Changes_Startup_Origin" xml:space="preserve">
+    <value>Sammenlignet oppstartselementene fra {0} og {1}.</value>
+  </data>
+  <data name="Changes_Startup_New" xml:space="preserve">
+    <value>Nytt oppstartsprogram: {0}</value>
+  </data>
+  <data name="Changes_Startup_New_Explanation" xml:space="preserve">
+    <value>Det starter nå automatisk når du logger på, noe som kan gjøre oppstarten lengre og bruke ressurser i bakgrunnen.</value>
+  </data>
+  <data name="Changes_Startup_Enabled" xml:space="preserve">
+    <value>Oppstartsprogram aktivert: {0}</value>
+  </data>
+  <data name="Changes_Startup_Disabled" xml:space="preserve">
+    <value>Oppstartsprogram deaktivert: {0}</value>
+  </data>
+  <data name="Changes_Startup_Enabled_Explanation" xml:space="preserve">
+    <value>Det starter automatisk igjen når du logger på.</value>
+  </data>
+  <data name="Changes_Startup_Removed_Explanation" xml:space="preserve">
+    <value>Det starter ikke lenger automatisk når du logger på.</value>
+  </data>
+  <data name="Changes_Startup_Removed" xml:space="preserve">
+    <value>Oppstartsprogram fjernet: {0}</value>
+  </data>
+  <data name="Changes_Enabled" xml:space="preserve">
+    <value>Aktivert</value>
+  </data>
+  <data name="Changes_Disabled" xml:space="preserve">
+    <value>Deaktivert</value>
+  </data>
+  <data name="Changes_Ev_StartupEntry" xml:space="preserve">
+    <value>Oppstartselement</value>
+  </data>
+  <data name="Changes_Windows_Title" xml:space="preserve">
+    <value>Windows ble oppdatert</value>
+  </data>
+  <data name="Changes_Windows_Explanation" xml:space="preserve">
+    <value>Windows-oppdateringer kan endre drivere og bakgrunnstjenester; de første timene etter en oppdatering viser ofte ekstra disk- og CPU-aktivitet.</value>
+  </data>
+  <data name="Changes_Windows_Source" xml:space="preserve">
+    <value>Byggnummeret er lest fra registeret (CurrentVersion).</value>
+  </data>
+  <data name="Changes_Bios_Title" xml:space="preserve">
+    <value>Fastvaren (BIOS) ble oppdatert</value>
+  </data>
+  <data name="Changes_Bios_Explanation" xml:space="preserve">
+    <value>En fastvareoppdatering kan endre strømstyringen og maskinvarens oppførsel.</value>
+  </data>
+  <data name="Changes_Bios_Source" xml:space="preserve">
+    <value>BIOS-versjonen er lest fra registeret (SMBIOS-data kopiert av Windows).</value>
+  </data>
+  <data name="Changes_Memory_Subject" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Changes_Memory_Title" xml:space="preserve">
+    <value>Det installerte minnet er endret</value>
+  </data>
+  <data name="Changes_Memory_Explanation" xml:space="preserve">
+    <value>Mengden fysisk minne er endret (en minnebrikke er lagt til, fjernet eller blir ikke oppdaget).</value>
+  </data>
+  <data name="Changes_Memory_Source" xml:space="preserve">
+    <value>Installert minne rapportert av fastvaren.</value>
+  </data>
+  <data name="Changes_System_Origin" xml:space="preserve">
+    <value>Sammenlignet øyeblikksbildene fra {0} og {1}.</value>
+  </data>
+  <data name="Changes_Devices_Origin" xml:space="preserve">
+    <value>Sammenlignet enhetene fra {0} og {1}.</value>
+  </data>
+  <data name="Changes_Device_New" xml:space="preserve">
+    <value>Ny enhet ({1}): {2}</value>
+  </data>
+  <data name="Changes_Device_Gone" xml:space="preserve">
+    <value>Enhet ({0}) finnes ikke lenger: {2}</value>
+  </data>
+  <data name="Changes_Device_New_Explanation" xml:space="preserve">
+    <value>En enhet har dukket opp siden forrige øyeblikksbilde (ny maskinvare, en endret driver eller et virtuelt kort).</value>
+  </data>
+  <data name="Changes_Device_Gone_Explanation" xml:space="preserve">
+    <value>En enhet fra forrige øyeblikksbilde ble ikke funnet (fjernet, deaktivert eller med endret driver).</value>
+  </data>
+  <data name="Changes_Space_UsedOf" xml:space="preserve">
+    <value>{0} → {1} brukt av {2}</value>
+  </data>
+  <data name="Changes_Ev_InstalledSamePeriod" xml:space="preserve">
+    <value>Installert i samme periode</value>
+  </data>
+  <data name="Changes_Ev_PossibleFiles" xml:space="preserve">
+    <value>Mulige medvirkende faktorer, ikke bekreftet: Sysora måler ikke størrelsen på enkeltfiler.</value>
+  </data>
+  <data name="Changes_Space_More" xml:space="preserve">
+    <value>{0} mer brukt på {1}</value>
+  </data>
+  <data name="Changes_Space_Freed" xml:space="preserve">
+    <value>{0} frigjort på {1}</value>
+  </data>
+  <data name="Changes_Space_Used" xml:space="preserve">
+    <value>{0} brukt</value>
+  </data>
+  <data name="Changes_Space_Grew_Explanation" xml:space="preserve">
+    <value>Den brukte plassen på volumet økte merkbart mellom de to øyeblikksbildene.</value>
+  </data>
+  <data name="Changes_Space_Freed_Explanation" xml:space="preserve">
+    <value>Det ble frigjort plass på volumet mellom de to øyeblikksbildene.</value>
+  </data>
+  <data name="Changes_Space_Origin" xml:space="preserve">
+    <value>Sysora måler ledig plass, ikke enkeltfiler.</value>
+  </data>
+  <data name="Changes_Usage_AverageMemory" xml:space="preserve">
+    <value>Gjennomsnittlig minnebruk</value>
+  </data>
+  <data name="Changes_Usage_AverageCpu" xml:space="preserve">
+    <value>Gjennomsnittlig CPU-bruk</value>
+  </data>
+  <data name="Changes_Usage_Reference" xml:space="preserve">
+    <value>Gjennomsnitt over de 24 timene før hvert øyeblikksbilde ({0} og {1} minutters målinger)</value>
+  </data>
+  <data name="Changes_Ev_Possible" xml:space="preserve">
+    <value>Mulige medvirkende faktorer, ikke bekreftet.</value>
+  </data>
+  <data name="Changes_Usage_Title" xml:space="preserve">
+    <value>{0} {1:+0;-0;0} prosentpoeng</value>
+  </data>
+  <data name="Changes_Usage_MoreMemory" xml:space="preserve">
+    <value>PC-en brukte i gjennomsnitt merkbart mer minne enn på referansedagen.</value>
+  </data>
+  <data name="Changes_Usage_MoreCpu" xml:space="preserve">
+    <value>PC-en brukte i gjennomsnitt merkbart mer CPU enn på referansedagen.</value>
+  </data>
+  <data name="Changes_Usage_LessMemory" xml:space="preserve">
+    <value>PC-en brukte i gjennomsnitt merkbart mindre minne enn på referansedagen.</value>
+  </data>
+  <data name="Changes_Usage_LessCpu" xml:space="preserve">
+    <value>PC-en brukte i gjennomsnitt merkbart mindre CPU enn på referansedagen.</value>
+  </data>
+  <data name="Changes_Ev_SourceOf" xml:space="preserve">
+    <value>Installerte apper i Windows ({0})</value>
+  </data>
+  <data name="Changes_Ev_Source" xml:space="preserve">
+    <value>Installerte apper i Windows</value>
+  </data>
+  <data name="Changes_Ev_InstallDate" xml:space="preserve">
+    <value>Installasjonsdato registrert av installasjonsprogrammet: {0}</value>
+  </data>
+  <data name="Device_Graphics" xml:space="preserve">
+    <value>Grafikk</value>
+  </data>
+  <data name="Device_Network" xml:space="preserve">
+    <value>Nettverk</value>
+  </data>
+  <data name="Device_Volume" xml:space="preserve">
+    <value>Volum</value>
+  </data>
+  <data name="AppSource_Machine" xml:space="preserve">
+    <value>Maskin</value>
+  </data>
+  <data name="AppSource_Machine32" xml:space="preserve">
+    <value>Maskin (32-biters)</value>
+  </data>
+  <data name="AppSource_User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="AppSource_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Changes_OldestSnapshot" xml:space="preserve">
+    <value>Det eldste øyeblikksbildet er fra {0}.</value>
+  </data>
+  <data name="Changes_NoSnapshot" xml:space="preserve">
+    <value>Det er ikke registrert noe øyeblikksbilde ennå; det første tas ett minutt etter at Sysora har startet.</value>
+  </data>
+  <data name="Changes_NotEnough" xml:space="preserve">
+    <value>Ikke nok historikk for denne sammenligningen ennå. {0}</value>
+  </data>
+  <data name="Changes_Note" xml:space="preserve">
+    <value>Gjeldende tilstand sammenlignet med øyeblikksbildet fra {0}.</value>
+  </data>
+  <data name="Changes_Note_AppsUnreadable" xml:space="preserve">
+    <value>Installerte apper kunne ikke sammenlignes (kunne ikke leses i ett av øyeblikksbildene).</value>
+  </data>
+  <data name="Changes_Frequent_Activity" xml:space="preserve">
+    <value>Kjører {0}, {1} siden {2}</value>
+  </data>
+  <data name="Count_Start_One" xml:space="preserve">
+    <value>{0} oppstart</value>
+  </data>
+  <data name="Count_Start_Other" xml:space="preserve">
+    <value>{0} oppstarter</value>
+  </data>
+  <data name="Changes_Frequent_Title" xml:space="preserve">
+    <value>{0} kjører nå regelmessig</value>
+  </data>
+  <data name="Changes_Frequent_Explanation" xml:space="preserve">
+    <value>Et program som Sysora ikke har sett før, har begynt å kjøre regelmessig. Det kan være en ny app, en oppdateringshjelper eller en bakgrunnsoppgave.</value>
+  </data>
+  <data name="Changes_Frequent_Origin" xml:space="preserve">
+    <value>Første gang sett av Sysora {0}; Sysora har registrert siden {1}.</value>
+  </data>
+  <data name="Changes_Ev_Activity" xml:space="preserve">
+    <value>Aktivitet</value>
+  </data>
+  <data name="Changes_Ev_NameOnly" xml:space="preserve">
+    <value>Bare identifisert ut fra prosessnavnet</value>
+  </data>
+  <data name="Since_Loading" xml:space="preserve">
+    <value>Sammenligner med i går …</value>
+  </data>
+  <data name="Since_Area_Applications" xml:space="preserve">
+    <value>Apper</value>
+  </data>
+  <data name="Since_Area_Startup" xml:space="preserve">
+    <value>Oppstartsprogrammer</value>
+  </data>
+  <data name="Since_Area_Windows" xml:space="preserve">
+    <value>Windows-versjon</value>
+  </data>
+  <data name="Since_Area_Firmware" xml:space="preserve">
+    <value>Fastvare (BIOS)</value>
+  </data>
+  <data name="Since_Area_Memory" xml:space="preserve">
+    <value>Installert minne</value>
+  </data>
+  <data name="Since_Area_Devices" xml:space="preserve">
+    <value>Enheter</value>
+  </data>
+  <data name="Since_Area_DiskSpace" xml:space="preserve">
+    <value>Diskplass</value>
+  </data>
+  <data name="Since_Area_Usage" xml:space="preserve">
+    <value>Bruk</value>
+  </data>
+  <data name="Since_Area_Alerts" xml:space="preserve">
+    <value>Varsler</value>
+  </data>
+  <data name="Since_NotEnough" xml:space="preserve">
+    <value>Ikke nok historikk ennå</value>
+  </data>
+  <data name="Since_Usage_Title" xml:space="preserve">
+    <value>{0} {1} i dag</value>
+  </data>
+  <data name="Since_Yesterday" xml:space="preserve">
+    <value>{0} i går</value>
+  </data>
+  <data name="Since_Today" xml:space="preserve">
+    <value>{0} i dag</value>
+  </data>
+  <data name="Since_Usage_Explanation" xml:space="preserve">
+    <value>{0} Gjennomsnitt over hver dag.</value>
+  </data>
+  <data name="Since_SecondPeriodPhrase" xml:space="preserve">
+    <value>i den andre perioden</value>
+  </data>
+  <data name="Since_TodayPhrase" xml:space="preserve">
+    <value>i dag</value>
+  </data>
+  <data name="Since_When" xml:space="preserve">
+    <value>I dag så langt sammenlignet med i går</value>
+  </data>
+  <data name="Since_Usage_Origin" xml:space="preserve">
+    <value>{0} (i går) og {1} (i dag).</value>
+  </data>
+  <data name="Since_MoreAlerts" xml:space="preserve">
+    <value>Flere varsler i dag ({0})</value>
+  </data>
+  <data name="Since_FewerAlerts" xml:space="preserve">
+    <value>Færre varsler i dag ({0})</value>
+  </data>
+  <data name="Since_MoreAlerts_Explanation" xml:space="preserve">
+    <value>Det ble oppdaget flere vedvarende eller uvanlige problemer i dag enn i går.</value>
+  </data>
+  <data name="Since_FewerAlerts_Explanation" xml:space="preserve">
+    <value>Det ble oppdaget færre problemer i dag enn i går.</value>
+  </data>
+  <data name="Since_AlertsOrigin" xml:space="preserve">
+    <value>Varsler registrert av Sysora.</value>
+  </data>
+  <data name="Since_Reason_Apps" xml:space="preserve">
+    <value>listen over installerte apper kunne ikke leses i ett av øyeblikksbildene</value>
+  </data>
+  <data name="Since_Reason_Startup" xml:space="preserve">
+    <value>oppstartsprogrammene kunne ikke leses i ett av øyeblikksbildene</value>
+  </data>
+  <data name="Since_Reason_Windows" xml:space="preserve">
+    <value>Windows-bygget ble ikke registrert</value>
+  </data>
+  <data name="Since_Reason_Bios" xml:space="preserve">
+    <value>denne PC-en rapporterer ikke BIOS-versjonen</value>
+  </data>
+  <data name="Since_Reason_Memory" xml:space="preserve">
+    <value>det installerte minnet rapporteres ikke av fastvaren</value>
+  </data>
+  <data name="Since_Reason_Volumes" xml:space="preserve">
+    <value>ingen volumer ble registrert</value>
+  </data>
+  <data name="Since_Reason_Usage" xml:space="preserve">
+    <value>ikke nok historikk for i dag eller i går</value>
+  </data>
+  <data name="Since_NoChange" xml:space="preserve">
+    <value>Ingen endringer siden i går</value>
+  </data>
+  <data name="Count_SignificantChange_One" xml:space="preserve">
+    <value>{0} betydelig endring</value>
+  </data>
+  <data name="Count_SignificantChange_Other" xml:space="preserve">
+    <value>{0} betydelige endringer</value>
+  </data>
+  <data name="Count_MinorChange_One" xml:space="preserve">
+    <value>{0} mindre endring</value>
+  </data>
+  <data name="Count_MinorChange_Other" xml:space="preserve">
+    <value>{0} mindre endringer</value>
+  </data>
+  <data name="Since_Note" xml:space="preserve">
+    <value>Sammenlignet med øyeblikksbildet fra {0}. Bare forskjeller som Sysora har observert, vises; opprinnelsen oppgis når den er kjent.</value>
+  </data>
+  <data name="Since_Between" xml:space="preserve">
+    <value>Mellom {0} og {1}</value>
+  </data>
+  <data name="Since_Before" xml:space="preserve">
+    <value>Før {0}</value>
+  </data>
+  <data name="Game_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Ikke tilgjengelig. Windows gir ikke andre apper noen pålitelig kilde for bildefrekvensen: å måle den krever hendelsessporing på administratornivå eller inngrep i spillet, og Sysora gjør ingen av delene.</value>
+  </data>
+  <data name="Game_NoLimit_Title" xml:space="preserve">
+    <value>Ingen ressursgrense nådd</value>
+  </data>
+  <data name="Game_NoLimit_Description" xml:space="preserve">
+    <value>Minne, prosessor, videominne og disker lå aldri ved grensen sin i den målte tiden.</value>
+  </data>
+  <data name="Game_Headline_None" xml:space="preserve">
+    <value>Ingen problemer observert</value>
+  </data>
+  <data name="Game_Headline_Points_One" xml:space="preserve">
+    <value>{0} punkt å følge med på</value>
+  </data>
+  <data name="Game_Headline_Points_Other" xml:space="preserve">
+    <value>{0} punkter å følge med på</value>
+  </data>
+  <data name="Game_Summary_DurationOf" xml:space="preserve">
+    <value>{0} med {1}.</value>
+  </data>
+  <data name="Game_Summary_Cpu" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Game_Summary_Memory" xml:space="preserve">
+    <value>minne {0}</value>
+  </data>
+  <data name="Game_Summary_OnAverage" xml:space="preserve">
+    <value>I gjennomsnitt: {0}.</value>
+  </data>
+  <data name="Game_Summary_Qualified" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="Game_Summary_NoLimit" xml:space="preserve">
+    <value>Ingen ressursgrense ble nådd.</value>
+  </data>
+  <data name="Game_OfTotal" xml:space="preserve">
+    <value>av {0}</value>
+  </data>
+  <data name="Game_Fps_Note" xml:space="preserve">
+    <value>Ingen pålitelig kilde i Windows</value>
+  </data>
+  <data name="Game_Metric_CpuPc" xml:space="preserve">
+    <value>CPU (hele PC-en)</value>
+  </data>
+  <data name="Game_Metric_CpuGame" xml:space="preserve">
+    <value>CPU brukt av spillet</value>
+  </data>
+  <data name="Game_CpuGame_Note" xml:space="preserve">
+    <value>Andel av prosessorens totale kapasitet</value>
+  </data>
+  <data name="Game_Metric_GpuBusiest" xml:space="preserve">
+    <value>GPU (mest belastede kort)</value>
+  </data>
+  <data name="Game_Metric_GpuGame" xml:space="preserve">
+    <value>GPU brukt av spillet</value>
+  </data>
+  <data name="Game_GpuGame_NotReported" xml:space="preserve">
+    <value>Windows rapporterte ikke GPU-bruk per prosess</value>
+  </data>
+  <data name="Game_GpuGame_Note" xml:space="preserve">
+    <value>Den mest belastede GPU-motoren som spillet bruker</value>
+  </data>
+  <data name="Game_Metric_VideoMemory" xml:space="preserve">
+    <value>Videominne i bruk</value>
+  </data>
+  <data name="Game_VideoMemory_Note" xml:space="preserve">
+    <value>dedikert minne, alle apper</value>
+  </data>
+  <data name="Game_Metric_MemoryPc" xml:space="preserve">
+    <value>Minne (hele PC-en)</value>
+  </data>
+  <data name="Game_Metric_MemoryGame" xml:space="preserve">
+    <value>Minne brukt av spillet</value>
+  </data>
+  <data name="Game_MemoryGame_Note" xml:space="preserve">
+    <value>Privat arbeidssett for spillets prosesser</value>
+  </data>
+  <data name="Game_Metric_Disk" xml:space="preserve">
+    <value>Aktiv tid for den mest opptatte disken</value>
+  </data>
+  <data name="Game_Metric_NetReceived" xml:space="preserve">
+    <value>Mottatt over nettverket (hele PC-en)</value>
+  </data>
+  <data name="Game_Metric_NetSent" xml:space="preserve">
+    <value>Sendt over nettverket (hele PC-en)</value>
+  </data>
+  <data name="Game_Metric_SelfCpu" xml:space="preserve">
+    <value>Sysoras egen CPU</value>
+  </data>
+  <data name="Game_SelfCpu_Note" xml:space="preserve">
+    <value>Målt under økten</value>
+  </data>
+  <data name="Game_OverPeriods" xml:space="preserve">
+    <value> fordelt på {0} perioder</value>
+  </data>
+  <data name="Game_Condition_Value" xml:space="preserve">
+    <value>Minst {0} i {1}{2} (topp {3})</value>
+  </data>
+  <data name="Game_Condition_Reference" xml:space="preserve">
+    <value>Telles når det varer minst {0}</value>
+  </data>
+  <data name="Game_Memory_Title" xml:space="preserve">
+    <value>Minnet var nesten fullt</value>
+  </data>
+  <data name="Game_Memory_Description" xml:space="preserve">
+    <value>Det fysiske minnet lå over {0} i {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Stutters" xml:space="preserve">
+    <value>Mulig årsak til hakking</value>
+  </data>
+  <data name="Game_Memory_RecommendationApp" xml:space="preserve">
+    <value>Lukk apper du ikke trenger før du spiller. Den største andre appen var {0} ({1}).</value>
+  </data>
+  <data name="Game_Memory_Recommendation" xml:space="preserve">
+    <value>Lukk apper du ikke trenger før du spiller.</value>
+  </data>
+  <data name="Game_Cpu_Title" xml:space="preserve">
+    <value>Prosessoren var mettet</value>
+  </data>
+  <data name="Game_Cpu_Description" xml:space="preserve">
+    <value>Den totale CPU-bruken lå over {0} i {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Slowdowns" xml:space="preserve">
+    <value>Sannsynlig medvirkende faktor til treghet</value>
+  </data>
+  <data name="Game_Cpu_RecommendationApp" xml:space="preserve">
+    <value>Den mest belastende andre appen var {0} ({1} CPU i gjennomsnitt): lukk den mens du spiller hvis du ikke trenger den.</value>
+  </data>
+  <data name="Game_Cpu_Recommendation" xml:space="preserve">
+    <value>Lavere innstillinger som krever mye CPU (siktavstand, folkemengder, fysikk), reduserer belastningen.</value>
+  </data>
+  <data name="Game_Video_Title" xml:space="preserve">
+    <value>Videominnet var nesten fullt</value>
+  </data>
+  <data name="Game_Video_Description" xml:space="preserve">
+    <value>Det dedikerte videominnet lå over {0} av {1} i {2}{3}.</value>
+  </data>
+  <data name="Game_Video_Recommendation" xml:space="preserve">
+    <value>Lavere teksturkvalitet eller oppløsning reduserer bruken av videominne.</value>
+  </data>
+  <data name="Game_Disk_Title" xml:space="preserve">
+    <value>En disk var opptatt nesten hele tiden</value>
+  </data>
+  <data name="Game_Disk_Description" xml:space="preserve">
+    <value>Den mest opptatte disken lå over {0} aktiv tid i {1}{2}.</value>
+  </data>
+  <data name="Game_Qualifier_Loading" xml:space="preserve">
+    <value>Mulig årsak til pauser under innlasting</value>
+  </data>
+  <data name="Game_Disk_Recommendation" xml:space="preserve">
+    <value>Å installere spillet på en raskere stasjon (SSD) gir kortere innlasting; oppdateringer eller skanninger som kjører samtidig, holder også diskene opptatt.</value>
+  </data>
+  <data name="Game_GpuBound_Title" xml:space="preserve">
+    <value>Grafikkortet var den mest belastede komponenten</value>
+  </data>
+  <data name="Game_GpuBound_DescriptionCpu" xml:space="preserve">
+    <value>GPU-en lå i gjennomsnitt på {0}, mens prosessoren lå i gjennomsnitt på {1}.</value>
+  </data>
+  <data name="Game_GpuBound_Description" xml:space="preserve">
+    <value>GPU-en lå i gjennomsnitt på {0}.</value>
+  </data>
+  <data name="Game_Qualifier_LikelyLimit" xml:space="preserve">
+    <value>Sannsynlig begrensende faktor</value>
+  </data>
+  <data name="Game_GpuBound_Recommendation" xml:space="preserve">
+    <value>Det er forventet i et krevende spill: grafikkprosessoren bestemmer tempoet. Senk grafikkinnstillingene eller oppløsningen for jevnere spilling.</value>
+  </data>
+  <data name="Game_Ev_GpuBusiest" xml:space="preserve">
+    <value>GPU-bruk (mest belastede kort)</value>
+  </data>
+  <data name="Game_CpuHeavy_Title" xml:space="preserve">
+    <value>Prosessoren var hardt belastet</value>
+  </data>
+  <data name="Game_CpuHeavy_DescriptionGpu" xml:space="preserve">
+    <value>Prosessoren lå i gjennomsnitt på {0}, mens GPU-en lå i gjennomsnitt på {1}.</value>
+  </data>
+  <data name="Game_CpuHeavy_Description" xml:space="preserve">
+    <value>Prosessoren lå i gjennomsnitt på {0}. GPU-bruken var ikke tilgjengelig, så Sysora kan ikke avgjøre hvilken komponent som bestemte tempoet.</value>
+  </data>
+  <data name="Game_Qualifier_Potential" xml:space="preserve">
+    <value>Potensiell medvirkende faktor</value>
+  </data>
+  <data name="Game_CpuHeavy_Recommendation" xml:space="preserve">
+    <value>Lukk bakgrunnsapper, og senk innstillinger som krever mye CPU (siktavstand, folkemengder, fysikk).</value>
+  </data>
+  <data name="Game_BusyApp_Title" xml:space="preserve">
+    <value>{0} var belastende under spillet</value>
+  </data>
+  <data name="Game_BusyApp_Description" xml:space="preserve">
+    <value>{0} brukte i gjennomsnitt {1} av total CPU under økten (topp {2}).</value>
+  </data>
+  <data name="Game_BusyApp_Recommendation" xml:space="preserve">
+    <value>Hvis du ikke trenger {0} mens du spiller, kan du lukke den før du starter spillet.</value>
+  </data>
+  <data name="Game_BusyApp_Value" xml:space="preserve">
+    <value>Gjennomsnitt {0}, topp {1}, opptil {2} minne</value>
+  </data>
+  <data name="Game_BusyApp_Reference" xml:space="preserve">
+    <value>Gjennomsnitt over alle prosessmålinger i økten (0 når den ikke kjørte)</value>
+  </data>
+  <data name="Game_Gaps_Title" xml:space="preserve">
+    <value>Målingene ble avbrutt</value>
+  </data>
+  <data name="Game_Gaps_Description" xml:space="preserve">
+    <value>{0} ({1} ikke målt): PC-en var i hvilemodus eller overvåkingen var satt på pause. Verdiene dekker bare den målte tiden.</value>
+  </data>
+  <data name="Game_Compare_First" xml:space="preserve">
+    <value>Første registrerte økt med {0}: ingenting å sammenligne med ennå.</value>
+  </data>
+  <data name="Game_Compare_Previous" xml:space="preserve">
+    <value>Sammenlignet med den forrige økten din med {0} ({1}).</value>
+  </data>
+  <data name="Game_Compare_Average" xml:space="preserve">
+    <value>Sammenlignet med gjennomsnittet av de {0} forrige øktene dine med {1} (siden {2}).</value>
+  </data>
+  <data name="Game_Ref_Previous" xml:space="preserve">
+    <value>den forrige økten din</value>
+  </data>
+  <data name="Game_Ref_PreviousN" xml:space="preserve">
+    <value>de {0} forrige øktene dine</value>
+  </data>
+  <data name="Game_Compare_HigherTitle" xml:space="preserve">
+    <value>{0} var høyere enn vanlig for dette spillet</value>
+  </data>
+  <data name="Game_Compare_HigherDescription" xml:space="preserve">
+    <value>{0} lå i gjennomsnitt på {1}, {2} sammenlignet med {3} ({4}).</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryTitle" xml:space="preserve">
+    <value>Spillet brukte mer minne enn vanlig</value>
+  </data>
+  <data name="Game_Compare_MoreMemoryDescription" xml:space="preserve">
+    <value>Spillet brukte {0} i gjennomsnitt, {1} sammenlignet med {2} ({3}).</value>
+  </data>
+  <data name="Game_Compare_NewLimitTitle" xml:space="preserve">
+    <value>{0}: nytt i denne økten</value>
+  </data>
+  <data name="Game_Compare_NewLimitDescription" xml:space="preserve">
+    <value>Grensen ble ikke nådd i {0} med {1}.</value>
+  </data>
+  <data name="Game_Qualifier_ObservedChange" xml:space="preserve">
+    <value>Observert endring, ukjent årsak</value>
+  </data>
+  <data name="Game_Compare_Recommendation" xml:space="preserve">
+    <value>En spilloppdatering, andre innstillinger eller en annen del av spillet kan forklare det; hvis det fortsetter å skje, sammenlign med Endringer.</value>
+  </data>
+  <data name="Game_Compare_ThisSession" xml:space="preserve">
+    <value>Denne økten: {0} (topp {1})</value>
+  </data>
+  <data name="Game_Compare_PreviousSessions" xml:space="preserve">
+    <value>Forrige økter: {0} i gjennomsnitt</value>
+  </data>
+  <data name="Game_Missing_Gpu" xml:space="preserve">
+    <value>GPU-bruk: Ikke tilgjengelig (ingen grafikkort rapporterte den, eller GPU-overvåkingen er slått av i Innstillinger).</value>
+  </data>
+  <data name="Game_Missing_GpuGame" xml:space="preserve">
+    <value>Spillets GPU-bruk: Ikke tilgjengelig (Windows rapporterte ikke GPU-bruk per prosess).</value>
+  </data>
+  <data name="Game_Missing_Video" xml:space="preserve">
+    <value>Videominne: Ikke tilgjengelig (grafikkdriveren rapporterte det ikke).</value>
+  </data>
+  <data name="Game_Missing_Temperatures" xml:space="preserve">
+    <value>Temperaturer: Ikke tilgjengelig (Windows har ingen dokumentert måte å lese dem på uten en kjernedriver).</value>
+  </data>
+  <data name="Game_Missing_Network" xml:space="preserve">
+    <value>Spillets nettverksbruk: Ikke tilgjengelig (nettverksbruk per app krever hendelsessporing på administratornivå); nettverksverdiene gjelder hele PC-en.</value>
+  </data>
+  <data name="Game_Coverage" xml:space="preserve">
+    <value>Målt fra {0} til {1} ({2} målinger).</value>
+  </data>
+  <data name="Game_Coverage_AlreadyRunning" xml:space="preserve">
+    <value>Spillet kjørte allerede siden {0} da Sysora startet: tiden før er ikke dekket.</value>
+  </data>
+  <data name="Game_Coverage_Gaps" xml:space="preserve">
+    <value>{0} ({1}).</value>
+  </data>
+  <data name="Game_Coverage_SysoraClosed" xml:space="preserve">
+    <value>Sysora ble lukket før spillet: slutten av økten er ikke dekket.</value>
+  </data>
+  <data name="Game_Coverage_TrackingStopped" xml:space="preserve">
+    <value>Spilløkter ble slått av før spillet ble lukket.</value>
+  </data>
+  <data name="Game_Ev_MeasuredTime" xml:space="preserve">
+    <value>Målt tid</value>
+  </data>
+  <data name="Game_Ev_Gaps" xml:space="preserve">
+    <value>{0}, {1} ikke målt</value>
+  </data>
+  <data name="Game_Ev_NoGap" xml:space="preserve">
+    <value>Ingen avbrudd</value>
+  </data>
+  <data name="Game_Ev_CpuPc" xml:space="preserve">
+    <value>CPU-bruk (hele PC-en)</value>
+  </data>
+  <data name="Game_Condition_Video" xml:space="preserve">
+    <value>Videominne</value>
+  </data>
+  <data name="Source_VideoMemory" xml:space="preserve">
+    <value>Windows-ytelsesteller \GPU Adapter Memory(*)\Dedicated Usage</value>
+  </data>
+  <data name="Game_Points" xml:space="preserve">
+    <value>{0:0} prosentpoeng</value>
+  </data>
+  <data name="Count_Interruption_One" xml:space="preserve">
+    <value>{0} avbrudd</value>
+  </data>
+  <data name="Count_Interruption_Other" xml:space="preserve">
+    <value>{0} avbrudd</value>
+  </data>
+  <data name="Game_Detect_UserMarked" xml:space="preserve">
+    <value>Du har merket denne appen som et spill.</value>
+  </data>
+  <data name="Game_Detect_Windows" xml:space="preserve">
+    <value>Windows gjenkjenner denne kjørbare filen som et spill (Game Bar-listen over spillene dine).</value>
+  </data>
+  <data name="Game_Detect_Library" xml:space="preserve">
+    <value>Installert i en spillbibliotekmappe for {0}: sannsynligvis et spill, ikke bekreftet av Windows.</value>
+  </data>
+  <data name="Game_Event_Started" xml:space="preserve">
+    <value>Spill startet: {0}</value>
+  </data>
+  <data name="Game_Event_Closed" xml:space="preserve">
+    <value>Spill lukket: {0} ({1})</value>
+  </data>
+  <data name="Game_Event_Gap" xml:space="preserve">
+    <value>Ingen målinger i {0} (PC-en i hvilemodus eller overvåking satt på pause)</value>
+  </data>
+  <data name="Health_NotCounted" xml:space="preserve">
+    <value>Telles ikke med</value>
+  </data>
+  <data name="Health_NoImpact" xml:space="preserve">
+    <value>Ingen påvirkning</value>
+  </data>
+  <data name="Count_Point_One" xml:space="preserve">
+    <value>{0} poeng</value>
+  </data>
+  <data name="Count_Point_Other" xml:space="preserve">
+    <value>{0} poeng</value>
+  </data>
+  <data name="Health_Collecting_Headline" xml:space="preserve">
+    <value>PC-helse: samler inn data …</value>
+  </data>
+  <data name="Health_Collecting_Summary" xml:space="preserve">
+    <value>Sysora trenger et par minutters målinger før en poengsum kan gis.</value>
+  </data>
+  <data name="Health_Grade_Good" xml:space="preserve">
+    <value>God</value>
+  </data>
+  <data name="Health_Grade_Fair" xml:space="preserve">
+    <value>Grei</value>
+  </data>
+  <data name="Health_Grade_NeedsAttention" xml:space="preserve">
+    <value>Trenger oppmerksomhet</value>
+  </data>
+  <data name="Health_Grade_Poor" xml:space="preserve">
+    <value>Dårlig</value>
+  </data>
+  <data name="Health_Grade_Collecting" xml:space="preserve">
+    <value>Samler inn data</value>
+  </data>
+  <data name="Health_Method" xml:space="preserve">
+    <value>Poengsummen starter på 100. Hvert område trekker fra poeng ut fra det som ble målt, med faste terskler som vises ved siden av. CPU, minne, diskaktivitet og GPU bruker gjennomsnitt over de siste 15 minuttene, så en kort topp teller knapt. Områder som ikke kan måles på denne PC-en, telles ikke med og vises som ikke tilgjengelige: ingenting anslås.</value>
+  </data>
+  <data name="Health_NoMeasurementYetLower" xml:space="preserve">
+    <value>ingen måling ennå</value>
+  </data>
+  <data name="Health_NeedsData" xml:space="preserve">
+    <value>Sysora trenger {0} målinger før en poengsum kan gis ({1} så langt).</value>
+  </data>
+  <data name="Health_NothingLowers" xml:space="preserve">
+    <value>Ingenting senker poengsummen akkurat nå.</value>
+  </data>
+  <data name="Health_LoweredBy" xml:space="preserve">
+    <value>Senket av {0}.</value>
+  </data>
+  <data name="Health_Headline" xml:space="preserve">
+    <value>PC-helse: {0}/100 · {1}</value>
+  </data>
+  <data name="Health_Area_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Health_Cpu_NotAvailable" xml:space="preserve">
+    <value>CPU-bruk er ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Health_NoMeasurementYet" xml:space="preserve">
+    <value>Ingen måling ennå</value>
+  </data>
+  <data name="Health_PointsTakenOff" xml:space="preserve">
+    <value>Fratrukne poeng</value>
+  </data>
+  <data name="Health_Cpu_Thresholds" xml:space="preserve">
+    <value>Ingen under 50 % i gjennomsnitt, opptil 15 ved 100 %</value>
+  </data>
+  <data name="Health_Cpu_Summary" xml:space="preserve">
+    <value>Gjennomsnitt {0} over {1} (topp {2})</value>
+  </data>
+  <data name="Health_Cpu_Problem" xml:space="preserve">
+    <value>Prosessoren var i gjennomsnitt nesten mettet: apper kan svare tregt.</value>
+  </data>
+  <data name="Health_Cpu_Attention" xml:space="preserve">
+    <value>Prosessoren var opptatt mesteparten av tiden; den hadde fortsatt litt ledig kapasitet.</value>
+  </data>
+  <data name="Health_Cpu_Good" xml:space="preserve">
+    <value>Prosessoren hadde i gjennomsnitt ledig kapasitet. Korte topper er normale og teller knapt.</value>
+  </data>
+  <data name="Health_Area_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Health_Memory_NotAvailable" xml:space="preserve">
+    <value>Minnebruk er ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Health_Memory_Thresholds" xml:space="preserve">
+    <value>Ingen under 60 % i gjennomsnitt, opptil 20 ved 95 %; 3 til når det tilordnede minnet ligger over 90 % av grensen</value>
+  </data>
+  <data name="Health_CommitShare" xml:space="preserve">
+    <value>Tilordnet minne (andel av grensen)</value>
+  </data>
+  <data name="Health_CommitNote" xml:space="preserve">
+    <value>Det tilordnede minnet er nær grensen: Windows kan avvise nye minnetildelinger.</value>
+  </data>
+  <data name="Health_Memory_Amount" xml:space="preserve">
+    <value>({0} av {1})</value>
+  </data>
+  <data name="Health_Memory_Summary" xml:space="preserve">
+    <value>Gjennomsnitt {0} i bruk{1} over {2}, topp {3}</value>
+  </data>
+  <data name="Health_Memory_Problem" xml:space="preserve">
+    <value>Minnet er nesten fullt: Windows må flytte data til disken, noe som gjør alt tregere.</value>
+  </data>
+  <data name="Health_Memory_Attention" xml:space="preserve">
+    <value>Minnet er godt utnyttet; flere åpne apper kan begynne å gjøre PC-en tregere.</value>
+  </data>
+  <data name="Health_Memory_Good" xml:space="preserve">
+    <value>Det er ledig minne til appene som er i bruk.</value>
+  </data>
+  <data name="Health_Area_Storage" xml:space="preserve">
+    <value>Lagring</value>
+  </data>
+  <data name="Health_Storage_NotAvailable" xml:space="preserve">
+    <value>Ledig plass er ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Health_Storage_Reference" xml:space="preserve">
+    <value>Advarsel ved {0} brukt, kritisk ved {1} (Innstillinger › Helseterskler)</value>
+  </data>
+  <data name="Health_Storage_Thresholds" xml:space="preserve">
+    <value>16 når Windows-volumet ligger over det kritiske nivået, 8 over advarselsnivået; 4 for hvert annet volum over det kritiske nivået</value>
+  </data>
+  <data name="Health_Storage_Summary" xml:space="preserve">
+    <value>{0} {1} ledig av {2}</value>
+  </data>
+  <data name="Count_OtherVolume_One" xml:space="preserve">
+    <value>{0} annet volum</value>
+  </data>
+  <data name="Count_OtherVolume_Other" xml:space="preserve">
+    <value>{0} andre volumer</value>
+  </data>
+  <data name="Health_Storage_Problem" xml:space="preserve">
+    <value>Windows-volumet er nesten fullt: oppdateringer kan mislykkes, og Windows har lite plass til sidevekslingsfilen og midlertidige filer.</value>
+  </data>
+  <data name="Health_Storage_Attention" xml:space="preserve">
+    <value>Et volum begynner å bli fullt. Store filer kan vise hva som tar mest plass (Sysora sletter aldri noe).</value>
+  </data>
+  <data name="Health_Storage_Good" xml:space="preserve">
+    <value>Alle volumer har plass igjen.</value>
+  </data>
+  <data name="Health_Area_Disk" xml:space="preserve">
+    <value>Diskaktivitet</value>
+  </data>
+  <data name="Health_Disk_NotAvailable" xml:space="preserve">
+    <value>Diskaktivitet er ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Health_Disk_Busiest" xml:space="preserve">
+    <value>Aktiv tid for den mest opptatte disken</value>
+  </data>
+  <data name="Health_Disk_Thresholds" xml:space="preserve">
+    <value>Ingen under 40 % i gjennomsnitt, opptil 10 ved 90 %</value>
+  </data>
+  <data name="Health_Disk_Summary" xml:space="preserve">
+    <value>Den mest opptatte disken var aktiv {0} av tiden i gjennomsnitt (topp {1})</value>
+  </data>
+  <data name="Health_Disk_Problem" xml:space="preserve">
+    <value>En disk var opptatt mesteparten av tiden: åpning av filer og apper må vente på den.</value>
+  </data>
+  <data name="Health_Disk_Attention" xml:space="preserve">
+    <value>En disk var ofte opptatt (oppdateringer, indeksering, kopiering eller en app som leser mye).</value>
+  </data>
+  <data name="Health_Disk_Good" xml:space="preserve">
+    <value>Diskene var for det meste inaktive.</value>
+  </data>
+  <data name="Health_Gpu_Off" xml:space="preserve">
+    <value>GPU-overvåkingen er slått av i Innstillinger</value>
+  </data>
+  <data name="Health_Gpu_NotAvailable" xml:space="preserve">
+    <value>GPU-bruk er ikke tilgjengelig på denne PC-en</value>
+  </data>
+  <data name="Health_Gpu_VideoMemory" xml:space="preserve">
+    <value>videominne {0} av {1}</value>
+  </data>
+  <data name="Health_Gpu_Dedicated" xml:space="preserve">
+    <value>Dedikert videominne ({0})</value>
+  </data>
+  <data name="Health_Gpu_DedicatedValue" xml:space="preserve">
+    <value>{0} av {1} ({2})</value>
+  </data>
+  <data name="Health_Gpu_Reference" xml:space="preserve">
+    <value>5 poeng trekkes fra ved 95 % eller mer</value>
+  </data>
+  <data name="Health_Gpu_Usage" xml:space="preserve">
+    <value>Bruk {0} i gjennomsnitt</value>
+  </data>
+  <data name="Health_Gpu_Attention" xml:space="preserve">
+    <value>Videominnet er nesten fullt: spill og grafikkapper kan hakke mens Windows flytter data til systemminnet.</value>
+  </data>
+  <data name="Health_Gpu_Good" xml:space="preserve">
+    <value>En opptatt GPU er normal under spilling eller videoavspilling, så bruken alene senker ikke poengsummen; det gjør bare et nesten fullt videominne.</value>
+  </data>
+  <data name="Health_Area_Temperatures" xml:space="preserve">
+    <value>Temperaturer</value>
+  </data>
+  <data name="Health_Temperatures_NotAvailable" xml:space="preserve">
+    <value>Ikke tilgjengelig: Windows har ingen dokumentert måte å lese dem på uten en kjernedriver, og Sysora installerer ingen slik driver</value>
+  </data>
+  <data name="Health_Temperatures_Good" xml:space="preserve">
+    <value>Temperaturene som driverne rapporterer, ligger innenfor et normalt intervall.</value>
+  </data>
+  <data name="Health_Temperatures_Hot" xml:space="preserve">
+    <value>En komponent er varm; den kan senke hastigheten sin for å kjøle seg ned.</value>
+  </data>
+  <data name="Health_Temperature_Of" xml:space="preserve">
+    <value>Temperatur for {0}</value>
+  </data>
+  <data name="Health_Temperature_Reference" xml:space="preserve">
+    <value>5 poeng ved 85 °C, 10 ved 95 °C</value>
+  </data>
+  <data name="Health_Temperature_Source" xml:space="preserve">
+    <value>Grafikkdriver</value>
+  </data>
+  <data name="Health_Area_Stability" xml:space="preserve">
+    <value>Stabilitet</value>
+  </data>
+  <data name="Health_NotAnalyzedYet" xml:space="preserve">
+    <value>Ikke analysert ennå</value>
+  </data>
+  <data name="Health_Stability_None" xml:space="preserve">
+    <value>Ingen gjentakende problemer de siste {0} dagene</value>
+  </data>
+  <data name="Count_RecurringProblem_One" xml:space="preserve">
+    <value>{0} gjentakende problem</value>
+  </data>
+  <data name="Count_RecurringProblem_Other" xml:space="preserve">
+    <value>{0} gjentakende problemer</value>
+  </data>
+  <data name="Health_Stability_Good" xml:space="preserve">
+    <value>Ingen problemer har kommet tilbake gjentatte ganger de siste dagene.</value>
+  </data>
+  <data name="Health_Stability_Problems" xml:space="preserve">
+    <value>Disse problemene har kommet tilbake på flere dager. Et problem som gjentar seg, har som regel en årsak som er verdt å finne.</value>
+  </data>
+  <data name="Health_RecurringProblems" xml:space="preserve">
+    <value>Gjentakende problemer</value>
+  </data>
+  <data name="Health_Stability_Reference" xml:space="preserve">
+    <value>4 poeng hver (høyst {0}). Et problem er gjentakende etter {1} episoder på {2} forskjellige dager.</value>
+  </data>
+  <data name="Health_Stability_Source" xml:space="preserve">
+    <value>Varsler og hendelser i den lokale historikken</value>
+  </data>
+  <data name="Health_Area_Anomalies" xml:space="preserve">
+    <value>Nylige avvik</value>
+  </data>
+  <data name="Health_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Health_Anomalies_None" xml:space="preserve">
+    <value>Ingen varsler de siste 24 timene</value>
+  </data>
+  <data name="Health_Anomalies_Count" xml:space="preserve">
+    <value>{0} de siste 24 timene</value>
+  </data>
+  <data name="Health_Anomalies_Active" xml:space="preserve">
+    <value>({0} fortsatt aktive)</value>
+  </data>
+  <data name="Health_Anomalies_Good" xml:space="preserve">
+    <value>Ingen vedvarende eller uvanlige problemer er oppdaget nylig.</value>
+  </data>
+  <data name="Health_Anomalies_Explanation" xml:space="preserve">
+    <value>Varsler gis bare for problemer som varte eller var uvanlige for denne PC-en. Varsler som er merket som vanlige for denne PC-en, trekker ikke fra noe.</value>
+  </data>
+  <data name="Health_Area_Usual" xml:space="preserve">
+    <value>Vanlig atferd</value>
+  </data>
+  <data name="Health_Usual_Now" xml:space="preserve">
+    <value>{0} nå (gjennomsnitt over 15 minutter)</value>
+  </data>
+  <data name="Health_Usual_Reference" xml:space="preserve">
+    <value>Vanligvis {0} (median {1}); uvanlig over {2}</value>
+  </data>
+  <data name="Health_Usual_Item" xml:space="preserve">
+    <value>{0} ({1} mot vanligvis {2})</value>
+  </data>
+  <data name="Health_Unusual" xml:space="preserve">
+    <value>Uvanlig</value>
+  </data>
+  <data name="Health_Usual" xml:space="preserve">
+    <value>Vanlig</value>
+  </data>
+  <data name="Health_Usual_Above" xml:space="preserve">
+    <value>Over det vanlige intervallet ditt: {0}</value>
+  </data>
+  <data name="Health_Usual_Within" xml:space="preserve">
+    <value>Innenfor det vanlige intervallet ditt</value>
+  </data>
+  <data name="Health_Usual_Busier" xml:space="preserve">
+    <value>Denne PC-en er mer belastet enn den pleier å være. Det kan være forventet (et spill, en kompilering) eller et tegn på at noe kjører i bakgrunnen.</value>
+  </data>
+  <data name="Health_Usual_Matches" xml:space="preserve">
+    <value>Aktiviteten samsvarer med det denne PC-en pleier å gjøre.</value>
+  </data>
+  <data name="Health_Missing_Explanation" xml:space="preserve">
+    <value>Telles ikke med i poengsummen: Sysora erstatter aldri en manglende måling med et anslag.</value>
+  </data>
+  <data name="Health_Status_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Health_Status_Attention" xml:space="preserve">
+    <value>Oppmerksomhet</value>
+  </data>
+  <data name="Health_Status_Problem" xml:space="preserve">
+    <value>Problem</value>
+  </data>
+  <data name="Health_ThresholdsSource" xml:space="preserve">
+    <value>Sysoras faste terskler for poengsetting</value>
+  </data>
+  <data name="Health_UsualMedian" xml:space="preserve">
+    <value>{0} (median {1})</value>
+  </data>
+  <data name="AlertSeverity_Critical" xml:space="preserve">
+    <value>Kritisk</value>
+  </data>
+  <data name="AlertSeverity_Warning" xml:space="preserve">
+    <value>Advarsel</value>
+  </data>
+  <data name="AlertSeverity_Info" xml:space="preserve">
+    <value>Informasjon</value>
+  </data>
+  <data name="Event_InternetAvailable" xml:space="preserve">
+    <value>Internett-tilgang tilgjengelig</value>
+  </data>
+  <data name="Event_InternetLimited" xml:space="preserve">
+    <value>Begrenset Internett-tilgang</value>
+  </data>
+  <data name="Event_InternetLost" xml:space="preserve">
+    <value>Internett-tilgangen mistet (bare lokalt nettverk)</value>
+  </data>
+  <data name="Event_NetworkLost" xml:space="preserve">
+    <value>Nettverkstilkoblingen mistet</value>
+  </data>
+  <data name="Event_MetricUnavailable" xml:space="preserve">
+    <value>Målinger for {0} er ikke tilgjengelige</value>
+  </data>
+  <data name="Event_MetricRestored" xml:space="preserve">
+    <value>Målinger for {0} er tilgjengelige igjen</value>
+  </data>
+  <data name="Event_AsReportedByWindows" xml:space="preserve">
+    <value>Ifølge Windows</value>
+  </data>
+  <data name="Event_VolumeConnected" xml:space="preserve">
+    <value>Volum {0}{1} koblet til</value>
+  </data>
+  <data name="Event_VolumeSize" xml:space="preserve">
+    <value>{0} {1} volum</value>
+  </data>
+  <data name="Event_VolumeDisconnected" xml:space="preserve">
+    <value>Volum {0} koblet fra</value>
+  </data>
+  <data name="Event_AppCpu" xml:space="preserve">
+    <value>CPU for {0} økte til {1}</value>
+  </data>
+  <data name="Event_AppCpuDetail" xml:space="preserve">
+    <value>{0} minne, {1}</value>
+  </data>
+  <data name="Event_AppMemory" xml:space="preserve">
+    <value>{0} bruker {1} minne</value>
+  </data>
+  <data name="Event_AppMemoryDetail" xml:space="preserve">
+    <value>{0} av det fysiske minnet</value>
+  </data>
+  <data name="Event_RanFor" xml:space="preserve">
+    <value>Kjørte i {0}.</value>
+  </data>
+  <data name="Event_AppExited" xml:space="preserve">
+    <value>{0} avsluttet</value>
+  </data>
+  <data name="Event_AppExitedDetail" xml:space="preserve">
+    <value>Brukte {0} CPU og {1} minne</value>
+  </data>
+  <data name="Event_AppClosed" xml:space="preserve">
+    <value>{0} lukket</value>
+  </data>
+  <data name="Event_RanForShort" xml:space="preserve">
+    <value>Kjørte i {0}</value>
+  </data>
+  <data name="Event_AppStarted" xml:space="preserve">
+    <value>{0} startet</value>
+  </data>
+  <data name="Event_Kind_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Event_Kind_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Event_Kind_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Event_Kind_Storage" xml:space="preserve">
+    <value>Lagring</value>
+  </data>
+  <data name="Event_Kind_Disk" xml:space="preserve">
+    <value>Diskaktivitet</value>
+  </data>
+  <data name="Event_Kind_Network" xml:space="preserve">
+    <value>Nettverk</value>
+  </data>
+  <data name="Event_Kind_Processes" xml:space="preserve">
+    <value>Prosesser</value>
+  </data>
+  <data name="Event_Kind_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="DriveKind_Fixed" xml:space="preserve">
+    <value>fast</value>
+  </data>
+  <data name="DriveKind_Removable" xml:space="preserve">
+    <value>flyttbart</value>
+  </data>
+  <data name="DriveKind_Network" xml:space="preserve">
+    <value>nettverkstilkoblet</value>
+  </data>
+  <data name="DriveKind_Optical" xml:space="preserve">
+    <value>optisk</value>
+  </data>
+  <data name="DriveKind_Ram" xml:space="preserve">
+    <value>RAM-disk</value>
+  </data>
+  <data name="DriveKind_Other" xml:space="preserve">
+    <value>annet</value>
+  </data>
+  <data name="Event_Gap" xml:space="preserve">
+    <value>Ingen målinger i {0}</value>
+  </data>
+  <data name="Event_GapDetail" xml:space="preserve">
+    <value>Sysora kjørte ikke, eller PC-en var i hvilemodus i denne perioden.</value>
+  </data>
+  <data name="Event_MonitoringStarted" xml:space="preserve">
+    <value>Overvåking startet</value>
+  </data>
+  <data name="Event_MonitoringPaused" xml:space="preserve">
+    <value>Overvåking satt på pause</value>
+  </data>
+  <data name="Event_MonitoringResumed" xml:space="preserve">
+    <value>Overvåking gjenopptatt</value>
+  </data>
+  <data name="Indicator_CpuNotAvailable" xml:space="preserve">
+    <value>CPU-bruk er ikke tilgjengelig</value>
+  </data>
+  <data name="Indicator_CpuNormal" xml:space="preserve">
+    <value>CPU normal</value>
+  </data>
+  <data name="Indicator_MemoryNotAvailable" xml:space="preserve">
+    <value>Minnebruk er ikke tilgjengelig</value>
+  </data>
+  <data name="Indicator_MemoryNormal" xml:space="preserve">
+    <value>Minne normalt</value>
+  </data>
+  <data name="Indicator_StorageNotAvailable" xml:space="preserve">
+    <value>Lagring er ikke tilgjengelig</value>
+  </data>
+  <data name="Indicator_Storage" xml:space="preserve">
+    <value>Lagring {0} {1}</value>
+  </data>
+  <data name="Indicator_AboveCritical" xml:space="preserve">
+    <value>Over den kritiske terskelen {0}</value>
+  </data>
+  <data name="Indicator_AboveWarning" xml:space="preserve">
+    <value>Over advarselsterskelen {0}</value>
+  </data>
+  <data name="Indicator_StorageNormal" xml:space="preserve">
+    <value>Lagring normal</value>
+  </data>
+  <data name="Indicator_NetworkNotAvailable" xml:space="preserve">
+    <value>Nettverksstatus er ikke tilgjengelig</value>
+  </data>
+  <data name="Indicator_NetworkConnected" xml:space="preserve">
+    <value>Nettverk tilkoblet</value>
+  </data>
+  <data name="Indicator_NetworkRestricted" xml:space="preserve">
+    <value>Windows rapporterer begrenset tilgang (for eksempel en påloggingsside)</value>
+  </data>
+  <data name="Indicator_NetworkNoInternet" xml:space="preserve">
+    <value>Nettverket er tilgjengelig, men Internett er ikke tilgjengelig</value>
+  </data>
+  <data name="Indicator_NetworkUnknown" xml:space="preserve">
+    <value>Ukjent nettverksstatus</value>
+  </data>
+  <data name="Indicator_ProcessesNotAvailable" xml:space="preserve">
+    <value>Prosessinformasjon er ikke tilgjengelig</value>
+  </data>
+  <data name="Indicator_AppMemory" xml:space="preserve">
+    <value>{0} bruker {1} minne</value>
+  </data>
+  <data name="Indicator_AppMemoryThreshold" xml:space="preserve">
+    <value>Over terskelen {0} per app</value>
+  </data>
+  <data name="Indicator_AppCpu" xml:space="preserve">
+    <value>{0} bruker mye CPU</value>
+  </data>
+  <data name="Indicator_NoAbnormalProcess" xml:space="preserve">
+    <value>Ingen unormal prosess oppdaget</value>
+  </data>
+  <data name="Indicator_AboveFor" xml:space="preserve">
+    <value>Over {0} i mer enn {1} s</value>
+  </data>
+  <data name="Intensity_Minimal_Description" xml:space="preserve">
+    <value>For spilling eller batteri: måler sjeldnere (CPU og minne annethvert intervall, prosesser, GPU og disker hvert tredje), beholder færre apper per måling og vurderer varsler hvert tiende sekund.</value>
+  </data>
+  <data name="Intensity_Detailed_Description" xml:space="preserve">
+    <value>For å undersøke et problem: måler dobbelt så ofte der det hjelper (ned til 0,5 s for CPU og minne, 1 s for prosesser) og beholder flere apper per måling.</value>
+  </data>
+  <data name="Intensity_Balanced_Description" xml:space="preserve">
+    <value>Standard: intervallene som er angitt nedenfor, en god balanse mellom presisjon og Sysoras eget forbruk.</value>
+  </data>
+  <data name="Intensity_Minimal" xml:space="preserve">
+    <value>Minimal</value>
+  </data>
+  <data name="Intensity_Detailed" xml:space="preserve">
+    <value>Detaljert</value>
+  </data>
+  <data name="Intensity_Balanced" xml:space="preserve">
+    <value>Balansert</value>
+  </data>
+  <data name="Event_Sleep" xml:space="preserve">
+    <value>PC-en går i hvilemodus</value>
+  </data>
+  <data name="Event_ResumedAfter" xml:space="preserve">
+    <value>PC-en våknet fra hvilemodus (i hvilemodus {0})</value>
+  </data>
+  <data name="Event_Resumed" xml:space="preserve">
+    <value>PC-en våknet fra hvilemodus</value>
+  </data>
+  <data name="Self_Measuring" xml:space="preserve">
+    <value>Sysoras påvirkning: måler …</value>
+  </data>
+  <data name="Self_OverBudget" xml:space="preserve">
+    <value>Sysora har brukt mer enn CPU-budsjettet sitt ({0} av total kapasitet) i ett minutt: innsamlingsintervallene forlenges ×{1:0.##} for å holde det lett.</value>
+  </data>
+  <data name="Self_HighMemory" xml:space="preserve">
+    <value>Sysora bruker {0} minne, mer enn forventet. En omstart frigjør minnet; rapporter det hvis det fortsetter å vokse.</value>
+  </data>
+  <data name="Self_HighAllocations" xml:space="preserve">
+    <value>Sysora tildeler {0} minne: mer søppelinnsamling enn vanlig.</value>
+  </data>
+  <data name="Self_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Cpu_Note" xml:space="preserve">
+    <value>Av total kapasitet de siste {0:0} sekundene</value>
+  </data>
+  <data name="Self_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Self_Memory_NoteManaged" xml:space="preserve">
+    <value>Arbeidssett, hvorav {0} .NET-objekter</value>
+  </data>
+  <data name="Self_Memory_Note" xml:space="preserve">
+    <value>Arbeidssett</value>
+  </data>
+  <data name="Self_Allocations" xml:space="preserve">
+    <value>Tildelinger</value>
+  </data>
+  <data name="Self_Allocations_Note" xml:space="preserve">
+    <value>Søppelinnsamlinger i den siste perioden: {0} / {1} / {2} (generasjon 0 / 1 / 2)</value>
+  </data>
+  <data name="Self_DiskWrites" xml:space="preserve">
+    <value>Diskskrivinger</value>
+  </data>
+  <data name="Self_DiskWrites_Note" xml:space="preserve">
+    <value>Sysoras egne skrivinger (historikkdatabase, innstillinger, logger), fra oppføringen i prosesslisten</value>
+  </data>
+  <data name="Self_Background" xml:space="preserve">
+    <value>Bakgrunnsaktivitet</value>
+  </data>
+  <data name="Self_Background_Value" xml:space="preserve">
+    <value>{0} · {1:0} innsamlingsrunder per minutt</value>
+  </data>
+  <data name="Self_Processes" xml:space="preserve">
+    <value>Analyserte prosesser</value>
+  </data>
+  <data name="Self_Processes_Note" xml:space="preserve">
+    <value>Hver {0}, i ett enkelt systemkall</value>
+  </data>
+  <data name="Self_Threads" xml:space="preserve">
+    <value>Tråder</value>
+  </data>
+  <data name="Self_Headline" xml:space="preserve">
+    <value>Sysoras påvirkning: {0}</value>
+  </data>
+  <data name="Self_Level_Low" xml:space="preserve">
+    <value>Lav</value>
+  </data>
+  <data name="Self_Level_Moderate" xml:space="preserve">
+    <value>Moderat</value>
+  </data>
+  <data name="Self_Level_High" xml:space="preserve">
+    <value>Høy</value>
+  </data>
+  <data name="Self_Level_Measuring" xml:space="preserve">
+    <value>Måler …</value>
+  </data>
+  <data name="Self_Interval_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Self_Interval_Memory" xml:space="preserve">
+    <value>minne</value>
+  </data>
+  <data name="Self_Interval_Processes" xml:space="preserve">
+    <value>prosesser</value>
+  </data>
+  <data name="Self_Interval_Gpu" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Self_Interval_Disks" xml:space="preserve">
+    <value>disker</value>
+  </data>
+  <data name="Self_Interval_Network" xml:space="preserve">
+    <value>nettverk</value>
+  </data>
+  <data name="Self_Interval_Space" xml:space="preserve">
+    <value>ledig plass</value>
+  </data>
+  <data name="Self_Investigating" xml:space="preserve">
+    <value>Undersøkelse pågår (detaljert)</value>
+  </data>
+  <data name="Self_Intensity" xml:space="preserve">
+    <value>Intensitet {0}</value>
+  </data>
+  <data name="Self_Hidden" xml:space="preserve">
+    <value>vinduet skjult: målinger på skjermen oppdateres sjeldnere</value>
+  </data>
+  <data name="LargeFiles_NoExtension" xml:space="preserve">
+    <value>(ingen filtype)</value>
+  </data>
+  <data name="LargeFiles_Found" xml:space="preserve">
+    <value>{0} på minst {1} ({2}) i {3}</value>
+  </data>
+  <data name="Count_File_One" xml:space="preserve">
+    <value>{0} fil</value>
+  </data>
+  <data name="Count_File_Other" xml:space="preserve">
+    <value>{0} filer</value>
+  </data>
+  <data name="Count_Folder_One" xml:space="preserve">
+    <value>{0:N0} mappe</value>
+  </data>
+  <data name="Count_Folder_Other" xml:space="preserve">
+    <value>{0:N0} mapper</value>
+  </data>
+  <data name="LargeFiles_Denied_One" xml:space="preserve">
+    <value>{0} mappe kunne ikke leses (tilgang nektet)</value>
+  </data>
+  <data name="LargeFiles_Denied_Other" xml:space="preserve">
+    <value>{0} mapper kunne ikke leses (tilgang nektet)</value>
+  </data>
+  <data name="LargeFiles_Unavailable_One" xml:space="preserve">
+    <value>{0} mappe var ikke tilgjengelig</value>
+  </data>
+  <data name="LargeFiles_Unavailable_Other" xml:space="preserve">
+    <value>{0} mapper var ikke tilgjengelige</value>
+  </data>
+  <data name="LargeFiles_ProblemsSuffix" xml:space="preserve">
+    <value>{0}: innholdet deres er ukjent, ikke fraværende.</value>
+  </data>
+  <data name="LargeFiles_Cancelled" xml:space="preserve">
+    <value>Skanningen ble avbrutt etter {0}: delvise resultater, {1}{2}</value>
+  </data>
+  <data name="LargeFiles_Failed" xml:space="preserve">
+    <value>Skanningen mislyktes.</value>
+  </data>
+  <data name="LargeFiles_Completed" xml:space="preserve">
+    <value>Skanningen ble fullført på {0}: {1}{2}</value>
+  </data>
+  <data name="LargeFiles_WindowsNote" xml:space="preserve">
+    <value>Administreres av Windows: ikke slett den manuelt.</value>
+  </data>
+  <data name="LargeFiles_PageFile" xml:space="preserve">
+    <value>Windows-sidevekslingsfil. Størrelsen angis i System › Avanserte systeminnstillinger; ikke slett den manuelt.</value>
+  </data>
+  <data name="LargeFiles_Hiberfil" xml:space="preserve">
+    <value>Dvalefil (brukes også av Rask oppstart). Administreres av Windows: ikke slett den manuelt.</value>
+  </data>
+  <data name="LargeFiles_RecycleBinNote" xml:space="preserve">
+    <value>I papirkurven: når du tømmer papirkurven, frigjøres denne plassen.</value>
+  </data>
+  <data name="LargeFiles_InstallerCache" xml:space="preserve">
+    <value>Windows Installer-hurtigbuffer: trengs for å reparere eller fjerne apper. Ikke slett den manuelt.</value>
+  </data>
+  <data name="LargeFiles_VirtualDiskNote" xml:space="preserve">
+    <value>Virtuell disk: den kan tilhøre WSL, Hyper-V, Docker eller en virtuell maskin og inneholde dataene dens.</value>
+  </data>
+  <data name="LargeFiles_DatabaseNote" xml:space="preserve">
+    <value>Databasefil: en app lagrer dataene sine i den.</value>
+  </data>
+  <data name="LargeFiles_GameDataNote" xml:space="preserve">
+    <value>Spilldata: hvis du fjerner dem, slutter spillet å virke; avinstaller spillet i stedet.</value>
+  </data>
+  <data name="LargeFiles_Cat_Video" xml:space="preserve">
+    <value>Videoer</value>
+  </data>
+  <data name="LargeFiles_Cat_Audio" xml:space="preserve">
+    <value>Lyd</value>
+  </data>
+  <data name="LargeFiles_Cat_Image" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="LargeFiles_Cat_Archive" xml:space="preserve">
+    <value>Arkiver</value>
+  </data>
+  <data name="LargeFiles_Cat_DiskImage" xml:space="preserve">
+    <value>Diskbilder</value>
+  </data>
+  <data name="LargeFiles_Cat_VirtualDisk" xml:space="preserve">
+    <value>Virtuelle disker</value>
+  </data>
+  <data name="LargeFiles_Cat_Installer" xml:space="preserve">
+    <value>Installasjonsprogrammer</value>
+  </data>
+  <data name="LargeFiles_Cat_Backup" xml:space="preserve">
+    <value>Sikkerhetskopier</value>
+  </data>
+  <data name="LargeFiles_Cat_Database" xml:space="preserve">
+    <value>Databaser</value>
+  </data>
+  <data name="LargeFiles_Cat_Log" xml:space="preserve">
+    <value>Logger og dumper</value>
+  </data>
+  <data name="LargeFiles_Cat_Document" xml:space="preserve">
+    <value>Dokumenter</value>
+  </data>
+  <data name="LargeFiles_Cat_GameData" xml:space="preserve">
+    <value>Spilldata</value>
+  </data>
+  <data name="LargeFiles_Cat_Windows" xml:space="preserve">
+    <value>Administreres av Windows</value>
+  </data>
+  <data name="LargeFiles_Cat_RecycleBin" xml:space="preserve">
+    <value>Papirkurv</value>
+  </data>
+  <data name="LargeFiles_Cat_Other" xml:space="preserve">
+    <value>Annet</value>
+  </data>
+  <data name="Timeline_High" xml:space="preserve">
+    <value>Høy {0}</value>
+  </data>
+  <data name="Timeline_High_Detail" xml:space="preserve">
+    <value>{0} i gjennomsnitt i minuttet (topp {1})</value>
+  </data>
+  <data name="Timeline_Source_Minutes" xml:space="preserve">
+    <value>Historikk per minutt</value>
+  </data>
+  <data name="Timeline_Normal" xml:space="preserve">
+    <value>{0} tilbake til normalt</value>
+  </data>
+  <data name="Timeline_Normal_Detail" xml:space="preserve">
+    <value>Etter {0} med høy aktivitet (topp {1})</value>
+  </data>
+  <data name="Timeline_Source_Observed" xml:space="preserve">
+    <value>Observert av Sysora</value>
+  </data>
+  <data name="Timeline_Was" xml:space="preserve">
+    <value>Var: {0}</value>
+  </data>
+  <data name="Timeline_HappenedBetween" xml:space="preserve">
+    <value>Skjedde mellom {0} og {1}.</value>
+  </data>
+  <data name="Timeline_Source_Snapshots" xml:space="preserve">
+    <value>Oppdaget ved å sammenligne øyeblikksbilder av PC-en</value>
+  </data>
+  <data name="Trouble_Metric_MemoryAmount" xml:space="preserve">
+    <value>Minne i bruk (mengde)</value>
+  </data>
+  <data name="Trouble_Metric_Disk" xml:space="preserve">
+    <value>Diskens aktive tid (mest opptatte disk)</value>
+  </data>
+  <data name="Trouble_Likely" xml:space="preserve">
+    <value>Sannsynlig</value>
+  </data>
+  <data name="Trouble_Headline_Nothing" xml:space="preserve">
+    <value>Undersøkelsen er ferdig: ingenting unormalt målt</value>
+  </data>
+  <data name="Trouble_Headline_One" xml:space="preserve">
+    <value>Undersøkelsen er ferdig: {0} avvik funnet</value>
+  </data>
+  <data name="Trouble_Headline_Other" xml:space="preserve">
+    <value>Undersøkelsen er ferdig: {0} avvik funnet</value>
+  </data>
+  <data name="Trouble_Summary_NoMeasurement" xml:space="preserve">
+    <value>Det ble ikke tatt noen målinger under undersøkelsen (overvåking satt på pause eller PC-en i hvilemodus).</value>
+  </data>
+  <data name="Trouble_Summary_Over" xml:space="preserve">
+    <value>{0} over {1}</value>
+  </data>
+  <data name="Trouble_Summary_Cpu" xml:space="preserve">
+    <value>: CPU {0} i gjennomsnitt (topp {1})</value>
+  </data>
+  <data name="Trouble_Summary_Memory" xml:space="preserve">
+    <value>, minne {0} (topp {1})</value>
+  </data>
+  <data name="Trouble_Summary_Suggests" xml:space="preserve">
+    <value>Dataene tyder på: {0}</value>
+  </data>
+  <data name="Trouble_Summary_NoSingleApp" xml:space="preserve">
+    <value>Ingen enkelt app forklarer tydelig avvikene.</value>
+  </data>
+  <data name="Trouble_Summary_Nothing" xml:space="preserve">
+    <value>Ingenting unormalt ble målt.</value>
+  </data>
+  <data name="Trouble_HighLoad" xml:space="preserve">
+    <value>Høy belastning</value>
+  </data>
+  <data name="Trouble_HighLoad_Text" xml:space="preserve">
+    <value>{0} i {1} av {2} målinger ({3} av tiden)</value>
+  </data>
+  <data name="Trouble_Share_Cpu" xml:space="preserve">
+    <value>CPU på minst {0}</value>
+  </data>
+  <data name="Trouble_Share_Memory" xml:space="preserve">
+    <value>Minne på minst {0}</value>
+  </data>
+  <data name="Trouble_Share_Disk" xml:space="preserve">
+    <value>En disk aktiv minst {0} av tiden</value>
+  </data>
+  <data name="Trouble_Alert" xml:space="preserve">
+    <value>Varsel</value>
+  </data>
+  <data name="Trouble_Interruption" xml:space="preserve">
+    <value>Avbrudd</value>
+  </data>
+  <data name="Trouble_DiagnosisAtEnd" xml:space="preserve">
+    <value>Diagnose ved slutten</value>
+  </data>
+  <data name="Trouble_HighCpu" xml:space="preserve">
+    <value>Høy CPU</value>
+  </data>
+  <data name="Trouble_HighCpu_Text" xml:space="preserve">
+    <value>{0} var den mest belastende appen i {1} av de {2} øyeblikkene med høy CPU ({3} på det høyeste)</value>
+  </data>
+  <data name="Trouble_BusyDisk" xml:space="preserve">
+    <value>Opptatt disk</value>
+  </data>
+  <data name="Trouble_BusyDisk_Text" xml:space="preserve">
+    <value>{0} hadde mest I/U (filer, enheter og nettverk samlet) i {1} av de {2} øyeblikkene med opptatt disk</value>
+  </data>
+  <data name="Trouble_MemoryGrowth" xml:space="preserve">
+    <value>Minnevekst</value>
+  </data>
+  <data name="Trouble_MemoryGrowth_Text" xml:space="preserve">
+    <value>Minnet i bruk vokste med {0}; {1} sto for {2} av det</value>
+  </data>
+  <data name="Trouble_Game" xml:space="preserve">
+    <value>Spill</value>
+  </data>
+  <data name="Trouble_Game_Text" xml:space="preserve">
+    <value>{0} kl. {1}: høy belastning etter det er forventet</value>
+  </data>
+  <data name="Trouble_StartedDuring" xml:space="preserve">
+    <value>Startet under undersøkelsen</value>
+  </data>
+  <data name="Trouble_At" xml:space="preserve">
+    <value>{0} kl. {1}</value>
+  </data>
+  <data name="Trouble_Unknown_Temperatures" xml:space="preserve">
+    <value>Ikke tilgjengelig: Windows har ingen dokumentert måte å lese dem på uten en kjernedriver.</value>
+  </data>
+  <data name="Trouble_Unknown_Gpu" xml:space="preserve">
+    <value>Ikke tilgjengelig på denne PC-en (eller GPU-overvåkingen er slått av).</value>
+  </data>
+  <data name="Trouble_Applications" xml:space="preserve">
+    <value>Apper</value>
+  </data>
+  <data name="Trouble_Unknown_Applications" xml:space="preserve">
+    <value>Ikke tilgjengelig: ingen prosessmålinger under undersøkelsen.</value>
+  </data>
+  <data name="Trouble_NetworkPerApp" xml:space="preserve">
+    <value>Nettverk per app</value>
+  </data>
+  <data name="Trouble_Unknown_Network" xml:space="preserve">
+    <value>Ikke tilgjengelig: Windows rapporterer det ikke uten hendelsessporing på administratornivå.</value>
+  </data>
+  <data name="Trouble_Fps" xml:space="preserve">
+    <value>Bildefrekvens (FPS)</value>
+  </data>
+  <data name="Trouble_Unknown_Fps" xml:space="preserve">
+    <value>Ikke tilgjengelig: Windows gir ikke andre apper noen pålitelig kilde.</value>
+  </data>
+  <data name="Trouble_InsideApps" xml:space="preserve">
+    <value>Inne i appene</value>
+  </data>
+  <data name="Trouble_Unknown_Inside" xml:space="preserve">
+    <value>Hva en app gjør internt (hvorfor den bruker ressurser), kan ikke observeres utenfra.</value>
+  </data>
+  <data name="Trouble_Rec_Cpu" xml:space="preserve">
+    <value>Hvis tregheten falt sammen med øyeblikkene da {0} var belastende, kan du lukke den eller la oppgaven bli ferdig og deretter kjøre en ny undersøkelse for å sammenligne.</value>
+  </data>
+  <data name="Trouble_Rec_Memory" xml:space="preserve">
+    <value>Minnet var tidvis nesten fullt: lukk appene du ikke trenger. Hvis det skjer ofte, vil mer minne hjelpe.</value>
+  </data>
+  <data name="Trouble_Rec_Disk" xml:space="preserve">
+    <value>En disk var tidvis svært opptatt: la oppdateringer eller kopieringer bli ferdige. App-påvirkning viser hvilke apper som leser og skriver mest.</value>
+  </data>
+  <data name="Trouble_Rec_Nothing" xml:space="preserve">
+    <value>Ingenting unormalt ble målt. Hvis problemet oppstod under undersøkelsen, vises det kanskje ikke i disse målingene (nettverksforsinkelse, tapte bilder, en enhetsfeil); ellers kan du kjøre en ny undersøkelse mens det skjer.</value>
+  </data>
+  <data name="Trouble_Rec_Export" xml:space="preserve">
+    <value>Eksporter rapporten for å lagre den eller dele den med noen som hjelper deg.</value>
+  </data>
+  <data name="Trouble_Event_Started" xml:space="preserve">
+    <value>Feilsøking startet ({0})</value>
+  </data>
+  <data name="Trouble_Event_StartedDetail" xml:space="preserve">
+    <value>Detaljert innsamling til slutten av undersøkelsen.</value>
+  </data>
+  <data name="AlertStatus_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="AlertStatus_Seen" xml:space="preserve">
+    <value>Sett</value>
+  </data>
+  <data name="AlertStatus_Resolved" xml:space="preserve">
+    <value>Løst</value>
+  </data>
+  <data name="Importance_High" xml:space="preserve">
+    <value>Høy</value>
+  </data>
+  <data name="Importance_Medium" xml:space="preserve">
+    <value>Middels</value>
+  </data>
+  <data name="Importance_Low" xml:space="preserve">
+    <value>Lav</value>
+  </data>
+  <data name="TimelineCat_Application" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="TimelineCat_Game" xml:space="preserve">
+    <value>Spill</value>
+  </data>
+  <data name="TimelineCat_Alert" xml:space="preserve">
+    <value>Varsel</value>
+  </data>
+  <data name="TimelineCat_Anomaly" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="TimelineCat_Change" xml:space="preserve">
+    <value>Endring</value>
+  </data>
+  <data name="TimelineCat_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="TimelineCat_Investigation" xml:space="preserve">
+    <value>Undersøkelse</value>
+  </data>
+  <data name="TimelineCat_Monitoring" xml:space="preserve">
+    <value>Overvåking</value>
+  </data>
+  <data name="ImpactPeriod_Session" xml:space="preserve">
+    <value>Denne økten</value>
+  </data>
+  <data name="ImpactPeriod_24Hours" xml:space="preserve">
+    <value>Siste 24 timer</value>
+  </data>
+  <data name="ImpactPeriod_7Days" xml:space="preserve">
+    <value>Siste 7 dager</value>
+  </data>
+  <data name="TroubleEnd_Completed" xml:space="preserve">
+    <value>Fullført</value>
+  </data>
+  <data name="TroubleEnd_Stopped" xml:space="preserve">
+    <value>Stoppet av deg</value>
+  </data>
+  <data name="TroubleEnd_Closed" xml:space="preserve">
+    <value>Sysora ble lukket</value>
+  </data>
+  <data name="GameFinding_Anomaly" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="GameFinding_Analysis" xml:space="preserve">
+    <value>Analyse</value>
+  </data>
+  <data name="GameFinding_Comparison" xml:space="preserve">
+    <value>Sammenligning</value>
+  </data>
+  <data name="Report_Limit_Temperatures" xml:space="preserve">
+    <value>Temperaturer: ikke tilgjengelig (Windows har ingen dokumentert måte å lese dem på uten en kjernedriver).</value>
+  </data>
+  <data name="Report_Areas" xml:space="preserve">
+    <value>Områder</value>
+  </data>
+  <data name="Report_Col_Area" xml:space="preserve">
+    <value>Område</value>
+  </data>
+  <data name="Report_Col_State" xml:space="preserve">
+    <value>Tilstand</value>
+  </data>
+  <data name="Report_Col_ImpactScore" xml:space="preserve">
+    <value>Påvirkning på poengsummen</value>
+  </data>
+  <data name="Report_Col_Measured" xml:space="preserve">
+    <value>Målt</value>
+  </data>
+  <data name="Report_Score" xml:space="preserve">
+    <value>Poengsum</value>
+  </data>
+  <data name="Report_PcHealth" xml:space="preserve">
+    <value>PC-helse</value>
+  </data>
+  <data name="Report_WhatLowers" xml:space="preserve">
+    <value>Hva som senker den</value>
+  </data>
+  <data name="Report_HowComputed" xml:space="preserve">
+    <value>Hvordan den beregnes</value>
+  </data>
+  <data name="Report_Problems" xml:space="preserve">
+    <value>Problemer</value>
+  </data>
+  <data name="Report_PointsToWatch" xml:space="preserve">
+    <value>Punkter å følge med på</value>
+  </data>
+  <data name="Report_CheckedNormal" xml:space="preserve">
+    <value>Kontrollert og normalt</value>
+  </data>
+  <data name="Report_Col_Finding" xml:space="preserve">
+    <value>Funn</value>
+  </data>
+  <data name="Report_Col_Value" xml:space="preserve">
+    <value>Verdi</value>
+  </data>
+  <data name="Report_Col_ComparedWith" xml:space="preserve">
+    <value>Sammenlignet med</value>
+  </data>
+  <data name="Report_Col_Confidence" xml:space="preserve">
+    <value>Sikkerhet</value>
+  </data>
+  <data name="Report_Col_Explanation" xml:space="preserve">
+    <value>Forklaring</value>
+  </data>
+  <data name="Report_ComparedUsual" xml:space="preserve">
+    <value>Sammenlignet med den vanlige aktiviteten din</value>
+  </data>
+  <data name="Report_Col_Metric" xml:space="preserve">
+    <value>Måling</value>
+  </data>
+  <data name="Report_Diagnosis" xml:space="preserve">
+    <value>Diagnose</value>
+  </data>
+  <data name="Report_Analyzed_One" xml:space="preserve">
+    <value>{0} måling analysert.</value>
+  </data>
+  <data name="Report_Analyzed_Other" xml:space="preserve">
+    <value>{0} målinger analysert.</value>
+  </data>
+  <data name="Report_WhyNowTitle" xml:space="preserve">
+    <value>Hvorfor nå? {0}</value>
+  </data>
+  <data name="Report_WhatHappened" xml:space="preserve">
+    <value>Hva som skjedde</value>
+  </data>
+  <data name="Report_Statements" xml:space="preserve">
+    <value>Utsagn og hva de bygger på</value>
+  </data>
+  <data name="Report_EventsSameTime" xml:space="preserve">
+    <value>Hendelser på samme tidspunkt</value>
+  </data>
+  <data name="Report_CoincidenceNotProof" xml:space="preserve">
+    <value>Et sammenfall i tid er ikke bevis for årsak.</value>
+  </data>
+  <data name="Report_NotMeasured" xml:space="preserve">
+    <value>{0}: ikke målt i denne perioden.</value>
+  </data>
+  <data name="Report_Replay" xml:space="preserve">
+    <value>Tilbakeblikk på ytelse</value>
+  </data>
+  <data name="Report_Measurements" xml:space="preserve">
+    <value>Målinger</value>
+  </data>
+  <data name="Report_Col_Average" xml:space="preserve">
+    <value>Gjennomsnitt</value>
+  </data>
+  <data name="Report_Col_Peak" xml:space="preserve">
+    <value>Topp</value>
+  </data>
+  <data name="Report_Col_Lowest" xml:space="preserve">
+    <value>Laveste</value>
+  </data>
+  <data name="Report_Events" xml:space="preserve">
+    <value>Hendelser</value>
+  </data>
+  <data name="Report_GameTitle" xml:space="preserve">
+    <value>Spilløkt: {0}</value>
+  </data>
+  <data name="Report_Session" xml:space="preserve">
+    <value>Økt</value>
+  </data>
+  <data name="Report_IdentifiedAsGame" xml:space="preserve">
+    <value>Identifisert som spill</value>
+  </data>
+  <data name="Report_Coverage" xml:space="preserve">
+    <value>Dekning</value>
+  </data>
+  <data name="Report_Col_Maximum" xml:space="preserve">
+    <value>Maksimum</value>
+  </data>
+  <data name="Report_Col_Note" xml:space="preserve">
+    <value>Merknad</value>
+  </data>
+  <data name="Report_Findings" xml:space="preserve">
+    <value>Funn</value>
+  </data>
+  <data name="Report_Col_HowToRead" xml:space="preserve">
+    <value>Slik leses det</value>
+  </data>
+  <data name="Report_Col_Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Report_ComparedPrevious" xml:space="preserve">
+    <value>Sammenlignet med tidligere økter</value>
+  </data>
+  <data name="Report_Col_ThisSession" xml:space="preserve">
+    <value>Denne økten</value>
+  </data>
+  <data name="Report_Col_Previous" xml:space="preserve">
+    <value>Tidligere</value>
+  </data>
+  <data name="Report_Col_Difference" xml:space="preserve">
+    <value>Forskjell</value>
+  </data>
+  <data name="Report_AppImpact" xml:space="preserve">
+    <value>App-påvirkning</value>
+  </data>
+  <data name="Report_Impact_None" xml:space="preserve">
+    <value>Det er ikke registrert appbruk for denne perioden.</value>
+  </data>
+  <data name="Report_Impact_Highest" xml:space="preserve">
+    <value>Størst påvirkning: {0} ({1}). {2}</value>
+  </data>
+  <data name="Report_Applications" xml:space="preserve">
+    <value>Apper</value>
+  </data>
+  <data name="Report_Col_Application" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="Report_Col_Impact" xml:space="preserve">
+    <value>Påvirkning</value>
+  </data>
+  <data name="Report_Col_CpuAvg" xml:space="preserve">
+    <value>CPU (gj.sn.)</value>
+  </data>
+  <data name="Report_Col_MemoryAvg" xml:space="preserve">
+    <value>Minne (gj.sn.)</value>
+  </data>
+  <data name="Report_Col_IoAvg" xml:space="preserve">
+    <value>I/U (gj.sn.)</value>
+  </data>
+  <data name="Report_Col_Running" xml:space="preserve">
+    <value>Kjøretid</value>
+  </data>
+  <data name="Report_HowScoreComputed" xml:space="preserve">
+    <value>Hvordan poengsummen beregnes</value>
+  </data>
+  <data name="Report_Impact_IoLimit" xml:space="preserve">
+    <value>Disk-I/U per app omfatter filer, enheter og nettverk: Windows deler det ikke opp.</value>
+  </data>
+  <data name="Report_Period" xml:space="preserve">
+    <value>Periode: {0}</value>
+  </data>
+  <data name="Report_Alerts" xml:space="preserve">
+    <value>Varsler</value>
+  </data>
+  <data name="Report_Alerts_None" xml:space="preserve">
+    <value>Det er ikke registrert noen varsler.</value>
+  </data>
+  <data name="Report_Alerts_Summary" xml:space="preserve">
+    <value>{0}, {1} fortsatt aktive.</value>
+  </data>
+  <data name="Report_Col_Raised" xml:space="preserve">
+    <value>Utløst</value>
+  </data>
+  <data name="Report_Col_Alert" xml:space="preserve">
+    <value>Varsel</value>
+  </data>
+  <data name="Report_Col_Severity" xml:space="preserve">
+    <value>Alvorlighetsgrad</value>
+  </data>
+  <data name="Report_Col_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Report_Alerts_Note" xml:space="preserve">
+    <value>Varsler gis bare for problemer som varer eller er uvanlige for denne PC-en, høyst noen få i timen.</value>
+  </data>
+  <data name="Report_SinceYesterday" xml:space="preserve">
+    <value>Siden i går</value>
+  </data>
+  <data name="Report_Col_Change" xml:space="preserve">
+    <value>Endring</value>
+  </data>
+  <data name="Report_Col_Importance" xml:space="preserve">
+    <value>Viktighet</value>
+  </data>
+  <data name="Report_Col_When" xml:space="preserve">
+    <value>Når</value>
+  </data>
+  <data name="Report_Unchanged" xml:space="preserve">
+    <value>Uendret: {0}</value>
+  </data>
+  <data name="Report_NotCompared" xml:space="preserve">
+    <value>Ikke sammenlignet: {0}</value>
+  </data>
+  <data name="Report_DetectedChanges" xml:space="preserve">
+    <value>Oppdagede endringer</value>
+  </data>
+  <data name="Report_Col_Origin" xml:space="preserve">
+    <value>Opprinnelse</value>
+  </data>
+  <data name="Report_Changes" xml:space="preserve">
+    <value>Endringer</value>
+  </data>
+  <data name="Report_Changes_None" xml:space="preserve">
+    <value>Det er ikke registrert noen endringer.</value>
+  </data>
+  <data name="Report_Changes_One" xml:space="preserve">
+    <value>{0} endring oppdaget ved å sammenligne øyeblikksbilder av PC-en.</value>
+  </data>
+  <data name="Report_Changes_Other" xml:space="preserve">
+    <value>{0} endringer oppdaget ved å sammenligne øyeblikksbilder av PC-en.</value>
+  </data>
+  <data name="Report_Changes_Limit" xml:space="preserve">
+    <value>Drivere, tjenester, planlagte oppgaver og enkeltfiler sammenlignes ikke.</value>
+  </data>
+  <data name="Report_Changes_Note" xml:space="preserve">
+    <value>En endring dateres mellom to øyeblikksbilder med mindre installasjonsprogrammet registrerte en dato. Når opprinnelsen ikke kan observeres, oppgis det.</value>
+  </data>
+  <data name="Report_ComparisonTitle" xml:space="preserve">
+    <value>Sammenligning: {0} → {1}</value>
+  </data>
+  <data name="Report_BeforeAfter" xml:space="preserve">
+    <value>Før / etter</value>
+  </data>
+  <data name="Report_Col_Evolution" xml:space="preserve">
+    <value>Endring</value>
+  </data>
+  <data name="Report_Col_Relative" xml:space="preserve">
+    <value>Relativ</value>
+  </data>
+  <data name="Report_Timeline" xml:space="preserve">
+    <value>Tidslinje</value>
+  </data>
+  <data name="Report_Timeline_Summary" xml:space="preserve">
+    <value>{0} mellom {1} og {2}.</value>
+  </data>
+  <data name="Count_Entry_One" xml:space="preserve">
+    <value>{0} oppføring</value>
+  </data>
+  <data name="Count_Entry_Other" xml:space="preserve">
+    <value>{0} oppføringer</value>
+  </data>
+  <data name="Report_Entries" xml:space="preserve">
+    <value>Oppføringer</value>
+  </data>
+  <data name="Report_Col_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Report_Col_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Report_Col_Entry" xml:space="preserve">
+    <value>Oppføring</value>
+  </data>
+  <data name="Report_Col_Detail" xml:space="preserve">
+    <value>Detalj</value>
+  </data>
+  <data name="Report_Col_Source" xml:space="preserve">
+    <value>Kilde</value>
+  </data>
+  <data name="Report_Timeline_Note" xml:space="preserve">
+    <value>Tidspunktene er de som Sysora har observert. En endring som er funnet ved å sammenligne øyeblikksbilder (≈), skjedde senest på det viste tidspunktet.</value>
+  </data>
+  <data name="Report_Troubleshooting" xml:space="preserve">
+    <value>Feilsøkingsundersøkelse</value>
+  </data>
+  <data name="Report_Anomalies" xml:space="preserve">
+    <value>Avvik</value>
+  </data>
+  <data name="Report_NoneMeasured" xml:space="preserve">
+    <value>Ingen målt.</value>
+  </data>
+  <data name="Report_Correlations" xml:space="preserve">
+    <value>Sammenhenger og sannsynlige forklaringer</value>
+  </data>
+  <data name="Report_AppsInvolved" xml:space="preserve">
+    <value>Involverte apper</value>
+  </data>
+  <data name="Report_Col_CpuPeak" xml:space="preserve">
+    <value>CPU (topp)</value>
+  </data>
+  <data name="Report_Col_MemoryPeak" xml:space="preserve">
+    <value>Minne (topp)</value>
+  </data>
+  <data name="Report_Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="Report_Recommendations" xml:space="preserve">
+    <value>Anbefalinger</value>
+  </data>
+  <data name="Report_Trouble_Ended" xml:space="preserve">
+    <value>Avsluttet: {0}. Planlagt varighet {1}.</value>
+  </data>
+  <data name="Report_Trouble_Collected" xml:space="preserve">
+    <value>Samlet inn med den detaljerte overvåkingsintensiteten.</value>
+  </data>
+  <data name="Report_Large_Denied" xml:space="preserve">
+    <value>{0}; innholdet deres er ukjent. Eksempler: {1}</value>
+  </data>
+  <data name="Report_Large_Unavailable_One" xml:space="preserve">
+    <value>{0} mappe var ikke tilgjengelig under skanningen.</value>
+  </data>
+  <data name="Report_Large_Unavailable_Other" xml:space="preserve">
+    <value>{0} mapper var ikke tilgjengelige under skanningen.</value>
+  </data>
+  <data name="Report_Large_NotScanned" xml:space="preserve">
+    <value>Ikke skannet: {0} ({1})</value>
+  </data>
+  <data name="Report_LargeFiles" xml:space="preserve">
+    <value>Store filer</value>
+  </data>
+  <data name="Report_LargestFiles" xml:space="preserve">
+    <value>Største filer</value>
+  </data>
+  <data name="Report_Large_ReadOnly" xml:space="preserve">
+    <value>Sysora viser filer; den flytter, endrer eller sletter dem aldri.</value>
+  </data>
+  <data name="Report_Col_File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="Report_Col_Size" xml:space="preserve">
+    <value>Størrelse</value>
+  </data>
+  <data name="Report_Col_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Report_Col_Modified" xml:space="preserve">
+    <value>Endret</value>
+  </data>
+  <data name="Report_Col_Folder" xml:space="preserve">
+    <value>Mappe</value>
+  </data>
+  <data name="Report_ByType" xml:space="preserve">
+    <value>Etter type</value>
+  </data>
+  <data name="Report_ByFolder" xml:space="preserve">
+    <value>Etter mappe</value>
+  </data>
+  <data name="Report_Large_Scanned" xml:space="preserve">
+    <value>Skannet: {0}; minimumsstørrelse {1}.</value>
+  </data>
+  <data name="Report_Large_Counts" xml:space="preserve">
+    <value>{0} i {1}; {2} ikke fulgt; {3} hoppet over.</value>
+  </data>
+  <data name="Count_Link_One" xml:space="preserve">
+    <value>{0} kobling</value>
+  </data>
+  <data name="Count_Link_Other" xml:space="preserve">
+    <value>{0} koblinger</value>
+  </data>
+  <data name="Count_CloudFile_One" xml:space="preserve">
+    <value>{0} fil som bare finnes på nettet</value>
+  </data>
+  <data name="Count_CloudFile_Other" xml:space="preserve">
+    <value>{0} filer som bare finnes på nettet</value>
+  </data>
+  <data name="Report_Col_Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="Report_Col_Files" xml:space="preserve">
+    <value>Filer</value>
+  </data>
+  <data name="Report_Col_TotalSize" xml:space="preserve">
+    <value>Total størrelse</value>
+  </data>
+  <data name="Report_OsVersion" xml:space="preserve">
+    <value>{0}{1} (bygg {2}, {3})</value>
+  </data>
+  <data name="Report_Html_Generated" xml:space="preserve">
+    <value>Opprettet {0} · Sysora {1}</value>
+  </data>
+  <data name="Report_Html_Period" xml:space="preserve">
+    <value>Analysert periode: {0} – {1}</value>
+  </data>
+  <data name="Report_Html_ThisPc" xml:space="preserve">
+    <value>Denne PC-en</value>
+  </data>
+  <data name="Report_Html_Os" xml:space="preserve">
+    <value>Operativsystem</value>
+  </data>
+  <data name="Report_Html_Processor" xml:space="preserve">
+    <value>Prosessor</value>
+  </data>
+  <data name="Report_Html_Memory" xml:space="preserve">
+    <value>Minne</value>
+  </data>
+  <data name="Report_Html_Graphics" xml:space="preserve">
+    <value>Grafikk</value>
+  </data>
+  <data name="Report_Html_NeverEstimates" xml:space="preserve">
+    <value>Sysora erstatter aldri en manglende måling med et anslag.</value>
+  </data>
+  <data name="Report_Html_Notes" xml:space="preserve">
+    <value>Merknader</value>
+  </data>
+  <data name="Report_Html_Footer" xml:space="preserve">
+    <value>Laget lokalt av Sysora: alle verdier kommer fra denne PC-en. Observert = målt; Utledet = utledet fra målinger (ikke bevist); Ukjent = kan ikke observeres.</value>
+  </data>
+  <data name="App_LongDescription" xml:space="preserve">
+    <value>Sysora er en lokal oversikt som overvåker ytelse, prosesser, lagring, nettverksaktivitet og systemhelse i sanntid og forklarer hva den måler: hvorfor PC-en er treg, hva som er endret og hvilke apper som belaster mest.</value>
+  </data>
+  <data name="Process_Exited" xml:space="preserve">
+    <value>Prosessen er avsluttet.</value>
+  </data>
+  <data name="Process_CoreWindows" xml:space="preserve">
+    <value>Dette er en sentral Windows-prosess som ikke kan avsluttes.</value>
+  </data>
+  <data name="Process_UseExit" xml:space="preserve">
+    <value>Bruk Avslutt for å lukke Sysora.</value>
+  </data>
+  <data name="Process_AccessDeniedEnd" xml:space="preserve">
+    <value>Tilgang nektet. Det kreves administratorrettigheter for å avslutte denne prosessen.</value>
+  </data>
+  <data name="Process_AlreadyExited" xml:space="preserve">
+    <value>Prosessen er allerede avsluttet.</value>
+  </data>
+  <data name="Process_Critical" xml:space="preserve">
+    <value>Dette er en kritisk systemprosess. Hvis den avsluttes, stopper Windows.</value>
+  </data>
+  <data name="Process_EndFailed" xml:space="preserve">
+    <value>Windows kunne ikke avslutte prosessen (feil {0}).</value>
+  </data>
+  <data name="Process_AccessDeniedView" xml:space="preserve">
+    <value>Tilgang nektet. Det kreves administratorrettigheter for å se denne informasjonen.</value>
+  </data>
+  <data name="Process_WindowsError" xml:space="preserve">
+    <value>Ikke tilgjengelig (Windows-feil {0}).</value>
+  </data>
+  <data name="LargeFiles_Excl_Svi" xml:space="preserve">
+    <value>Gjenopprettingspunkter og volumdata som er reservert for Windows (kan ikke leses).</value>
+  </data>
+  <data name="LargeFiles_Excl_WinSxS" xml:space="preserve">
+    <value>Windows-komponentlageret: filene er harde koblinger som deles med resten av Windows, så størrelsen deres ville blitt telt to ganger.</value>
+  </data>
+  <data name="History_InMemory" xml:space="preserve">
+    <value>I minnet (demomodus: ingenting skrives til disken)</value>
+  </data>
+  <data name="Game_Detect_Confirmed" xml:space="preserve">
+    <value>Du har bekreftet dette spillet ({0}).</value>
+  </data>
+  <data name="Game_Detect_Launcher" xml:space="preserve">
+    <value>{0} rapporterer {1} som installert i denne mappen.</value>
+  </data>
+</root>
