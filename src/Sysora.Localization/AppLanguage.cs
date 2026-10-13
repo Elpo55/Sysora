@@ -3,16 +3,9 @@ using System.Globalization;
 namespace Sysora.Localization;
 
 /// <summary>A language Sysora is translated into.</summary>
-/// <param name="Code">Language code stored in the settings: two letters ("en", "fr"), with the script when it matters ("zh-Hant").</param>
+/// <param name="Code">Two-letter language code stored in the settings ("en", "fr").</param>
 /// <param name="NativeName">Name of the language in that language ("English", "Français"), so anyone can find their own.</param>
-public sealed record LanguageInfo(string Code, string NativeName)
-{
-    /// <summary>
-    /// The language tag given to Windows for its own controls (date pickers, context menus): the code, or the script or
-    /// region the translation is written for when the code alone is ambiguous ("zh-Hans", "pt-BR").
-    /// </summary>
-    public string WindowsTag { get; init; } = Code;
-}
+public sealed record LanguageInfo(string Code, string NativeName);
 
 /// <summary>
 /// The languages Sysora is translated into, and the language this process uses. The language is chosen once, at
@@ -35,36 +28,16 @@ public static class AppLanguage
     [
         new("en", "English"),
         new("fr", "Français"),
-        new("de", "Deutsch"),
         new("es", "Español"),
-        new("it", "Italiano"),
-        new("pt", "Português (Brasil)") { WindowsTag = "pt-BR" },
-        new("nl", "Nederlands"),
-        new("pl", "Polski"),
-        new("ru", "Русский"),
-        new("uk", "Українська"),
-        new("cs", "Čeština"),
-        new("tr", "Türkçe"),
-        new("sv", "Svenska"),
-        new("da", "Dansk"),
-        new("nb", "Norsk bokmål"),
-        new("fi", "Suomi"),
-        new("el", "Ελληνικά"),
-        new("hu", "Magyar"),
-        new("ro", "Română"),
-        new("ja", "日本語"),
-        new("zh-Hans", "中文（简体）") { WindowsTag = "zh-CN" },
-        new("zh-Hant", "中文（繁體）") { WindowsTag = "zh-TW" },
-        new("ko", "한국어"),
     ];
 
     /// <summary>The language of this process, as applied by <see cref="Apply"/> (English until then).</summary>
     public static CultureInfo Current { get; private set; } = CultureInfo.GetCultureInfo(Fallback);
 
     /// <summary>
-    /// Brings a stored preference back to a supported value: a supported language code (any case; a region or script
-    /// leads to the translation written for it, so "FR-ca" becomes "fr" and "zh-TW" becomes "zh-Hant"), or
-    /// <see cref="System"/> for anything else.
+    /// Brings a stored preference back to a supported value: a supported language code (any case; a region leads to the
+    /// translation of its language, so "FR-ca" becomes "fr" and "es-419" becomes "es"), or <see cref="System"/> for
+    /// anything else.
     /// </summary>
     public static string Normalize(string? preference)
     {
@@ -111,17 +84,9 @@ public static class AppLanguage
         return CultureInfo.GetCultureInfo(code);
     }
 
-    /// <summary>The language tag to give Windows for <paramref name="culture"/> (see <see cref="LanguageInfo.WindowsTag"/>).</summary>
-    public static string WindowsTag(CultureInfo culture)
-    {
-        ArgumentNullException.ThrowIfNull(culture);
-        return Find(culture.Name)?.WindowsTag ?? culture.Name;
-    }
-
     /// <summary>
     /// The translation written for <paramref name="culture"/>: its own language, or the one of a parent culture
-    /// ("de-AT" → "de", "zh-HK" → "zh-Hant"). Chinese without a script means simplified characters, and Norwegian means
-    /// Bokmål. A reader of traditional characters is never given the simplified translation.
+    /// ("fr-CA" → "fr", "es-419" → "es").
     /// </summary>
     private static LanguageInfo? ForCulture(CultureInfo culture)
     {
@@ -130,16 +95,6 @@ public static class AppLanguage
             if (Find(current.Name) is { } found)
             {
                 return found;
-            }
-
-            switch (current.Name)
-            {
-                case "zh-Hant":
-                    return null;
-                case "zh":
-                    return Find("zh-Hans");
-                case "no" or "nn":
-                    return Find("nb");
             }
         }
 
@@ -160,7 +115,7 @@ public static class AppLanguage
         UiStrings.Culture = culture;
     }
 
-    /// <summary>The supported language with this code ("fr", "zh-Hant"), or null.</summary>
+    /// <summary>The supported language with this two-letter code, or null.</summary>
     public static LanguageInfo? Find(string? code) =>
         Supported.FirstOrDefault(l => string.Equals(l.Code, code, StringComparison.OrdinalIgnoreCase));
 }

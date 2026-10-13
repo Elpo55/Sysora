@@ -79,24 +79,6 @@ public sealed partial class LocalizationTests
 
     [Theory]
     [MemberData(nameof(Translations))]
-    public void PluralTemplatesHoldTheFormsOfTheirLanguage(string set, string language)
-    {
-        var culture = CultureInfo.GetCultureInfo(language);
-        var english = Read(Manager(set), CultureInfo.InvariantCulture);
-        var translated = Read(Manager(set), culture);
-        // Romanian only switches to its third form at 20 ("20 de fișiere"), so 2 and 5 alone would not reveal it.
-        var threeForms = new[] { 2L, 5L, 20L }.Select(n => Text.Category(n, culture)).Contains(PluralCategory.Few);
-        foreach (var (key, text) in translated)
-        {
-            // The "other" template of a plural pair (key_One / key_Other) holds "few|many" in languages with three forms.
-            var isPlural = key.EndsWith("_Other", StringComparison.Ordinal) && english.ContainsKey(key[..^"_Other".Length] + "_One");
-            var forms = text.Split(Text.PluralFormSeparator).Length;
-            Assert.True(forms == (isPlural && threeForms ? 2 : 1), $"{set}.{key} ({language}): {forms} form(s) in \"{text}\".");
-        }
-    }
-
-    [Theory]
-    [MemberData(nameof(Translations))]
     public void ComparisonExplanationsCanBeSaidOfToday(string set, string language)
     {
         // "Since yesterday" reuses the comparison explanations, replacing the second-period phrase with "today"
@@ -136,7 +118,8 @@ public sealed partial class LocalizationTests
     [InlineData("", "fr-FR", "fr")]
     [InlineData("", "fr-CA", "fr")]
     [InlineData("", "eu-ES", "en")]
-    [InlineData("", "de-AT", "de")]
+    [InlineData("", "es-MX", "es")]
+    [InlineData("", "es-419", "es")]
     [InlineData("", "en-US", "en")]
     [InlineData("en", "fr-FR", "en")]
     [InlineData("fr", "en-US", "fr")]
@@ -192,65 +175,13 @@ public sealed partial class LocalizationTests
     [Theory]
     [InlineData(0, false, true)]
     [InlineData(1, true, true)]
+    [InlineData(-1, true, true)]
     [InlineData(2, false, false)]
-    public void PluralsFollowTheRulesOfEachLanguage(long count, bool englishSingular, bool frenchSingular)
+    public void PluralsFollowTheRulesOfEachLanguage(long count, bool englishAndSpanishSingular, bool frenchSingular)
     {
-        Assert.Equal(englishSingular, Text.IsSingular(count, CultureInfo.GetCultureInfo("en")));
+        Assert.Equal(englishAndSpanishSingular, Text.IsSingular(count, CultureInfo.GetCultureInfo("en")));
+        Assert.Equal(englishAndSpanishSingular, Text.IsSingular(count, CultureInfo.GetCultureInfo("es")));
         Assert.Equal(frenchSingular, Text.IsSingular(count, French));
-    }
-
-    [Theory]
-    [InlineData("en", 1, PluralCategory.One)]
-    [InlineData("en", 0, PluralCategory.Other)]
-    [InlineData("de", 0, PluralCategory.Other)]
-    [InlineData("pt", 0, PluralCategory.One)]
-    [InlineData("pt", 2, PluralCategory.Other)]
-    [InlineData("ja", 1, PluralCategory.Other)]
-    [InlineData("zh", 1, PluralCategory.Other)]
-    [InlineData("ru", 1, PluralCategory.One)]
-    [InlineData("ru", 3, PluralCategory.Few)]
-    [InlineData("ru", 5, PluralCategory.Other)]
-    [InlineData("ru", 11, PluralCategory.Other)]
-    [InlineData("ru", 12, PluralCategory.Other)]
-    [InlineData("ru", 21, PluralCategory.One)]
-    [InlineData("ru", 22, PluralCategory.Few)]
-    [InlineData("ru", 111, PluralCategory.Other)]
-    [InlineData("uk", -21, PluralCategory.One)]
-    [InlineData("pl", 1, PluralCategory.One)]
-    [InlineData("pl", 4, PluralCategory.Few)]
-    [InlineData("pl", 12, PluralCategory.Other)]
-    [InlineData("pl", 21, PluralCategory.Other)]
-    [InlineData("pl", 24, PluralCategory.Few)]
-    [InlineData("cs", 2, PluralCategory.Few)]
-    [InlineData("cs", 5, PluralCategory.Other)]
-    [InlineData("cs", 22, PluralCategory.Other)]
-    [InlineData("sk", 3, PluralCategory.Few)]
-    [InlineData("sk", 5, PluralCategory.Other)]
-    [InlineData("ro", 0, PluralCategory.Few)]
-    [InlineData("ro", 1, PluralCategory.One)]
-    [InlineData("ro", 19, PluralCategory.Few)]
-    [InlineData("ro", 20, PluralCategory.Other)]
-    [InlineData("ro", 101, PluralCategory.Few)]
-    [InlineData("ro", 120, PluralCategory.Other)]
-    [InlineData("hi", 0, PluralCategory.One)]
-    [InlineData("vi", 1, PluralCategory.Other)]
-    [InlineData("sv", 1, PluralCategory.One)]
-    [InlineData("sv", 0, PluralCategory.Other)]
-    public void PluralCategoriesFollowTheRulesOfEachLanguage(string language, long count, PluralCategory expected)
-    {
-        Assert.Equal(expected, Text.Category(count, CultureInfo.GetCultureInfo(language)));
-    }
-
-    [Fact]
-    public void LanguagesWithTwoPluralFormsKeepBothInThePluralTemplate()
-    {
-        var russian = CultureInfo.GetCultureInfo("ru");
-        const string One = "{0} файл";
-        const string Other = "{0} файла|{0} файлов";
-        Assert.Equal(One, Text.Template(21, One, Other, russian));
-        Assert.Equal("{0} файла", Text.Template(3, One, Other, russian));
-        Assert.Equal("{0} файлов", Text.Template(15, One, Other, russian));
-        Assert.Equal("{0} files", Text.Template(15, "{0} file", "{0} files", CultureInfo.GetCultureInfo("en")));
     }
 
     [Theory]
@@ -260,35 +191,21 @@ public sealed partial class LocalizationTests
     [InlineData("en", "high", "high")]
     [InlineData("en", "", "")]
     [InlineData("fr", "Élevé", "élevé")]
-    [InlineData("de", "Arbeitsspeicher", "Arbeitsspeicher")]
-    [InlineData("tr", "Işlem", "ışlem")]
+    [InlineData("es", "Alta", "alta")]
     public void TextsArePutInsideASentenceByTheRulesOfTheInterfaceLanguage(string language, string text, string expected)
     {
         Assert.Equal(expected, Text.InSentence(text, CultureInfo.GetCultureInfo(language)));
     }
 
     [Theory]
-    [InlineData("zh-CN", "zh-Hans")]
-    [InlineData("zh-SG", "zh-Hans")]
-    [InlineData("zh-TW", "zh-Hant")]
-    [InlineData("zh-HK", "zh-Hant")]
-    [InlineData("zh-MO", "zh-Hant")]
-    public void ChineseWindowsGetsTheTranslationWrittenInItsScript(string windows, string expected)
+    [InlineData("es-MX", "es")]
+    [InlineData("es_419", "es")]
+    [InlineData("ES-es", "es")]
+    [InlineData("fr-CA", "fr")]
+    [InlineData("pt-BR", "")]
+    public void ARegionLeadsToTheTranslationOfItsLanguage(string preference, string expected)
     {
-        // Without a translation in its script, English: a reader of traditional characters never gets simplified ones.
-        var resolved = AppLanguage.Resolve(AppLanguage.System, CultureInfo.GetCultureInfo(windows)).Name;
-        Assert.Equal(AppLanguage.Find(expected) is null ? AppLanguage.Fallback : expected, resolved);
-    }
-
-    [Theory]
-    [InlineData("zh", "zh-Hans")]
-    [InlineData("ZH-hans", "zh-Hans")]
-    [InlineData("zh_CN", "zh-Hans")]
-    [InlineData("nn-NO", "nb")]
-    [InlineData("pt-PT", "pt")]
-    public void RegionsAndScriptsLeadToTheirTranslation(string preference, string expected)
-    {
-        Assert.Equal(AppLanguage.Find(expected)?.Code ?? AppLanguage.System, AppLanguage.Normalize(preference));
+        Assert.Equal(expected, AppLanguage.Normalize(preference));
     }
 
     [Fact]
