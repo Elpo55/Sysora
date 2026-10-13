@@ -82,10 +82,12 @@ OutputBaseFilename={#AppName}-{#AppVersion}-setup-{#Arch}
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "french"; MessagesFile: "compiler:Languages\French.isl"
+Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 
 [CustomMessages]
 english.DeleteUserData=Do you also want to delete your Sysora data (settings, local history and logs)?%n%nChoose No to keep it for a later installation.
 french.DeleteUserData=Voulez-vous aussi supprimer vos données Sysora (paramètres, historique local et journaux) ?%n%nChoisissez Non pour les conserver en vue d'une réinstallation.
+spanish.DeleteUserData=¿Desea eliminar también sus datos de Sysora (configuración, historial local y registros)?%n%nElija No para conservarlos para una instalación posterior.
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked

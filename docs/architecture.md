@@ -8,7 +8,7 @@ flowchart TB
     Win["Sysora.Infrastructure.Windows<br/>Windows adapters: counters · native APIs · registry · games"]
     Infra["Sysora.Infrastructure<br/>settings file · SQLite history · logs · large files · Linux and macOS adapters"]
     Core["Sysora.Core<br/>models · interfaces · monitoring · history · analysis · diagnosis · alerts · changes · games · settings"]
-    Loc["Sysora.Localization<br/>English and French texts · language · plurals"]
+    Loc["Sysora.Localization<br/>English, French and Spanish texts · language · plurals"]
     Tests["Sysora.Tests"]
     App --> Win
     App --> Infra
@@ -23,7 +23,7 @@ flowchart TB
 - **Core** depends on nothing Windows-specific (it targets plain `net10.0`): no WinUI, no P/Invoke, no registry.
   It defines the interfaces (`ICpuMetricProvider`, `IMetricsMonitor`, `IProcessManager`...) and contains
   all logic that can be tested without hardware.
-- **Localization** holds every text shown to the user, in English and French (see [Languages](#languages)).
+- **Localization** holds every text shown to the user, in English, French and Spanish (see [Languages](#languages)).
 - **Infrastructure** targets plain `net10.0` too: what works on every system (settings file, SQLite history, logs,
   large-file scan, data folders) and the first Linux and macOS adapters. It never references WinUI.
 - **Infrastructure.Windows** implements the Core interfaces with Windows APIs. Its types keep the
@@ -326,18 +326,18 @@ program file, that exists, outside the Windows folder) and is never started.
 ## Languages
 
 Every text shown to the user lives in `Sysora.Localization`: `Strings.resx` (texts produced by Core and Infrastructure:
-analyses, diagnoses, alerts, events, reports) and `UiStrings.resx` (the interface), each with a `.fr.resx` French
-version. The generated classes are used from C# (`Strings.Diagnosis_...`) and from XAML (`{x:Bind l:UiStrings....}`);
+analyses, diagnoses, alerts, events, reports) and `UiStrings.resx` (the interface), each with a French (`.fr.resx`)
+and a Spanish (`.es.resx`) version. The generated classes are used from C# (`Strings.Diagnosis_...`) and from XAML (`{x:Bind l:UiStrings....}`);
 they are in their own project because the XAML compiler runs before resources of the App project are generated.
 
 - `AppLanguage` picks the language: the setting (`GeneralSettings.Language`, empty for "Windows language"), else the
-  Windows display language when it is supported, else English. `Program.Main` applies it before anything else, for
+  Windows display language when it is supported (a region leads to its language: "es-MX" to Spanish), else English. `Program.Main` applies it before anything else, for
   the whole process; changing it in Settings offers to restart Sysora.
 - `Text.Format` and `Text.Plural` format texts with the current culture; French plural rules (0 and 1 are singular)
   and French typography (a non-breaking space before `: ; ? !` and inside « ») are applied by the texts themselves.
 - Dates and numbers follow the Windows regional format (`CurrentCulture`), not the display language.
-- Missing translations fall back to English, and tests check that both languages define the same texts with the same
-  placeholders.
+- Missing translations fall back to English, and tests check that every language defines the same texts with
+  placeholders the code provides, and that every text is still used.
 - Texts already saved in the history (events, alerts, detected changes) stay in the language they were recorded in.
   Logic never reads translated text back: identities are stored separately (`Alert.AppName`, application keys,
   language-neutral change IDs).
