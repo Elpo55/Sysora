@@ -29,6 +29,7 @@ body:
       options:
         - English
         - Français
+        - Español
     validations:
       required: true
   - type: textarea

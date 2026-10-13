@@ -32,7 +32,7 @@ In Visual Studio, open `Sysora.slnx`, set **Sysora.App** as the startup project 
 | `--demo` | Use `SimulatedMachine` instead of the Windows providers. The title bar shows "DEMO MODE". |
 | `--tray` | Start hidden in the notification area. |
 | `--startup` | Added by the Run key: applies "Start minimized" / "Start in tray". |
-| `--language=fr` | Use a language for this run only (`en` or `fr`), without changing the setting. |
+| `--language=fr` | Use a language for this run only (`en`, `fr` or `es`), without changing the setting. |
 | `--page=Name` | Open on a page (`Dashboard`, `PcHealth`, `Timeline`, `Diagnosis`, `Troubleshooting`, `Replay`, `Compare`, `AppImpact`, `Changes`, `Alerts`, `Gaming`, `Performance`, `Processes`, `Storage`, `LargeFiles`, `Network`, `System`, `Settings`). `History` opens Replay. |
 
 Demo mode uses its own single-instance key, so it can run next to a normal instance. Its history is kept in
@@ -45,7 +45,7 @@ Windows") last only for that session.
 | What | Where |
 | --- | --- |
 | Settings | `%LOCALAPPDATA%\Sysora\settings.json` (delete it to reset) |
-| Logs | `%LOCALAPPDATA%\Sysora\Logs\sysora-YYYYMMDD.log` |
+| Logs | `%LOCALAPPDATA%\Sysora\Logs\sysora-YYYYMMDD.log` (`sysora-demo-YYYYMMDD.log` in demo mode) |
 | History (performance, application usage, events, alerts, snapshots, changes, game sessions, investigations) | `%LOCALAPPDATA%\Sysora\history.db` (SQLite; delete it, or use Settings › History › Delete, to reset) |
 | Start with Windows | `HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Sysora` (only when enabled) |
 
@@ -110,17 +110,22 @@ Texts are in `src/Sysora.Localization`:
 
 | File | Contents |
 | --- | --- |
-| `Strings.resx` / `Strings.fr.resx` | Texts produced by the analysis: diagnoses, alerts, events, reports, units |
-| `UiStrings.resx` / `UiStrings.fr.resx` | The interface: pages, buttons, settings, messages |
+| `Strings.resx`, `Strings.fr.resx`, `Strings.es.resx` | Texts produced by the analysis: diagnoses, alerts, events, reports, units |
+| `UiStrings.resx`, `UiStrings.fr.resx`, `UiStrings.es.resx` | The interface: pages, buttons, settings, messages |
 
 - Edit a text in Visual Studio's resource editor or in any text editor (they are XML). Keep the placeholders (`{0}`,
   `{1:N0}`...): the tests fail when a translation uses a placeholder the English text does not have.
 - A French text may reorder the placeholders, and must use French typography: a space before `: ; ? !` (it becomes
   non-breaking automatically), « » quotes, and a decimal comma comes from the regional format, not from the text.
 - Plurals: texts used with `Text.Plural` have a singular and a plural version (`..._One` and `..._Other`). In French,
-  0 and 1 are singular.
+  0 and 1 are singular; in English and Spanish, only 1.
+- Some texts are assembled into sentences: `List_Separator` and `List_LastSeparator` join lists, `Sentence_End` and
+  `Sentence_Separator` end and separate sentences. Keep the spaces around them.
+- The comparison explanations that mention the second period must contain the text of `Since_SecondPeriodPhrase`
+  exactly ("in the second period"), or start with it: "Since yesterday" replaces it with `Since_TodayPhrase`.
 - To add a language: add `Strings.<code>.resx` and `UiStrings.<code>.resx` with every text, add the language to
-  `AppLanguage.Supported`, and run the tests, which check that every text is translated.
+  `AppLanguage.Supported` and its plural rule to `Text.IsSingular` if it differs, and run the tests. They fail when a
+  text is missing or empty, uses a placeholder the code does not provide, or is no longer used by any code.
 - Run `dotnet run --project src/Sysora.App -- --demo --language=fr` to see the result without changing your settings.
 
 Texts saved in the history (events, alerts, detected changes) keep the language they were recorded in.

@@ -67,7 +67,7 @@ but version 1.3 has not been tried on it.
 | Project | Target | Contents |
 | --- | --- | --- |
 | `Sysora.Core` | `net10.0` (any system) | Models, interfaces, monitoring loop, analysis, diagnosis, alerts, games, settings |
-| `Sysora.Localization` | `net10.0` | English and French texts (`.resx`), language selection, plural rules |
+| `Sysora.Localization` | `net10.0` | English, French and Spanish texts (`.resx`), language selection, plural rules |
 | `Sysora.Infrastructure` | `net10.0` | Settings file, SQLite history, logs, large-file scan, data folders; Linux and macOS adapters (`Linux/`, `MacOS/`), launcher folders for Linux and macOS |
 | `Sysora.Infrastructure.Windows` | `net10.0-windows` | Windows adapters: performance counters, native APIs, registry, Game Bar and launchers |
 | `Sysora.App` | `net10.0-windows` | WinUI 3 application |

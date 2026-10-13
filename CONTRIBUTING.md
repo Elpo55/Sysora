@@ -32,8 +32,8 @@ Localization, Infrastructure) with `dotnet test --project src/Sysora.Tests`; see
 
 - **One topic per pull request**, with a clear title and a description of what changes for the user.
 - **Tests** for new logic: Core logic is tested with simulated data and fake clocks, never with the real hardware.
-- **Both languages**: every text shown to the user goes in `src/Sysora.Localization`, in English and in French
-  (see [Translating Sysora](docs/development.md#translating-sysora)). If you cannot write the French text, say so in the
+- **Every language**: every text shown to the user goes in `src/Sysora.Localization`, in English, French and Spanish
+  (see [Translating Sysora](docs/development.md#translating-sysora)). If you cannot write a translation, say so in the
   pull request and it will be added before merging.
 - **No invented values**: a metric that cannot be read is shown as "Not available", never estimated.
 - **Privacy**: no network access, no telemetry, no account. Sysora never changes, moves or deletes the user's files.
@@ -47,7 +47,8 @@ reason in the body when it is not obvious. Keep unrelated changes in separate co
 
 ## Translations
 
-Corrections to the French texts are very welcome, as are new languages. The steps are in
+Corrections to the French and Spanish texts are very welcome; the Spanish translation has not yet been reviewed by a
+native speaker. The steps are in
 [Translating Sysora](docs/development.md#translating-sysora); the tests check that every text is translated and that
 placeholders match.
 

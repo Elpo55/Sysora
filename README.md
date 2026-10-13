@@ -19,7 +19,7 @@
 
 Sysora monitors your PC's performance, processes, storage, network and health in real time, and tells you what it
 means: why the PC is slow, what changed, which application weighs the most, what happened while you were away. It is a
-native WinUI 3 application, in English and French: no account, no server, no telemetry, and it works offline.
+native WinUI 3 application, in English, French and Spanish: no account, no server, no telemetry, and it works offline.
 
 ![Sysora dashboard](docs/images/dashboard.png)
 
@@ -27,8 +27,11 @@ native WinUI 3 application, in English and French: no account, no server, no tel
 
 ## What's new in 1.3
 
-- **Sysora in French**: the interface, analyses, diagnoses, alerts and reports, with French formats. Choose the language
-  in Settings (Windows language, English or Français).
+- **Sysora in French and Spanish**: the interface, analyses, diagnoses, alerts and reports. Choose the language in
+  Settings (Windows language, English, Français or Español). The Spanish translation has not yet been reviewed by a
+  native speaker: corrections are welcome.
+- **Clearer pages**: one width for every page, balanced dashboard cards, wider columns, and fixes for "Since yesterday",
+  the log file and several small display bugs.
 - **Games installed with a launcher**: games installed with Steam, Epic Games, Riot Client or GOG Galaxy are found from
   the launchers' own files on your PC, offline, and followed automatically. Confirm them or ignore them in Settings.
 - **Add a game**: pick any game's program with the Windows file picker, even when it is not running.
@@ -112,7 +115,7 @@ Full details in the [release notes](docs/release-notes/v1.3.0.md). Earlier versi
 - **Notification area**: close to the tray, pause and resume, start with Windows; pending history is saved before the
   PC sleeps and every value is refreshed when it wakes up
 - **Light, dark and system themes** with the Windows 11 look (Mica, Fluent controls)
-- **English and French**, with dates and numbers in your Windows regional format
+- **English, French and Spanish**, with dates and numbers in your Windows regional format
 - **No account, no telemetry**: nothing is ever uploaded
 
 ## Screenshots
@@ -194,7 +197,7 @@ needed. Useful options:
 | --- | --- |
 | `--demo` | Simulated metrics (clearly labeled), for UI work and screenshots; settings changes last only for the session |
 | `--tray` | Start hidden in the notification area |
-| `--language=fr` | Use a language for this run only (`en` or `fr`), without changing the setting |
+| `--language=fr` | Use a language for this run only (`en`, `fr` or `es`), without changing the setting |
 | `--page=Processes` | Open on a given page (`Dashboard`, `PcHealth`, `Timeline`, `Diagnosis`, `Troubleshooting`, `Replay`, `Compare`, `AppImpact`, `Changes`, `Alerts`, `Gaming`, `Performance`, `Processes`, `Storage`, `LargeFiles`, `Network`, `System`, `Settings`) |
 
 Pass them after `--` with `dotnet run`, for example `dotnet run --project src/Sysora.App -- --demo`.
@@ -220,7 +223,7 @@ src/
   Sysora.App/                     WinUI 3 application: views, view models, controls, UI services
   Sysora.Core/                    Models, interfaces, monitoring loop, health, history, analysis, diagnosis,
                                   alerts, change detection, games, settings (any system)
-  Sysora.Localization/            English and French texts, language selection (any system)
+  Sysora.Localization/            English, French and Spanish texts, language selection (any system)
   Sysora.Infrastructure/          Settings file, SQLite history, logs, large-file scan (any system);
                                   Linux and macOS adapters
   Sysora.Infrastructure.Windows/  Windows adapters: performance counters, native APIs, registry, games
@@ -230,8 +233,8 @@ installer/                        Inno Setup script of the Windows installer
 ```
 
 Read [docs/architecture.md](docs/architecture.md) for the design, [docs/development.md](docs/development.md) for
-the commands and conventions, and [CONTRIBUTING.md](CONTRIBUTING.md) to contribute. Corrections to the French texts
-and new translations are welcome.
+the commands and conventions, and [CONTRIBUTING.md](CONTRIBUTING.md) to contribute. Corrections to the French and Spanish
+texts are welcome.
 
 ## Roadmap
 
