@@ -2,29 +2,9 @@ using System.Globalization;
 
 namespace Sysora.Localization;
 
-/// <summary>Plural categories a count can take, following the rules of the Unicode CLDR.</summary>
-public enum PluralCategory
-{
-    /// <summary>The singular form ("1 alert"; also 21, 31... in Russian and Ukrainian).</summary>
-    One,
-
-    /// <summary>The form of 2 to 4 (and 22–24...) in Czech, Polish, Russian, Slovak and Ukrainian, of 0 and 2 to 19 in Romanian.</summary>
-    Few,
-
-    /// <summary>Every other count: the plural form ("5 alerts").</summary>
-    Other,
-}
-
 /// <summary>Builds sentences from translated templates.</summary>
 public static class Text
 {
-    /// <summary>
-    /// Separates the forms of a plural template in languages with more than one plural form: the "other" template of
-    /// <see cref="Plural"/> then holds the form of <see cref="PluralCategory.Few"/>, this character, and the form of
-    /// <see cref="PluralCategory.Other"/> ("{0} файла|{0} файлов").
-    /// </summary>
-    public const char PluralFormSeparator = '|';
-
     /// <summary>
     /// Fills a translated template ("{0} started using a lot of CPU") with values formatted for the regional format
     /// chosen in Windows.
@@ -33,19 +13,18 @@ public static class Text
         string.Format(CultureInfo.CurrentCulture, template, args);
 
     /// <summary>
-    /// Picks the singular or plural template for <paramref name="count"/>, following the rules of the interface language,
-    /// and fills <c>{0}</c> with the count.
+    /// Picks the singular or plural template for <paramref name="count"/>, following the rules of the interface language
+    /// (English and Spanish: singular for 1 only; French: singular for 0 and 1), and fills <c>{0}</c> with the count.
     /// </summary>
     /// <param name="count">The number of items.</param>
     /// <param name="one">Singular template, e.g. "{0} alert".</param>
-    /// <param name="other">
-    /// Plural template, e.g. "{0} alerts". In languages with two plural forms it holds both, separated by
-    /// <see cref="PluralFormSeparator"/>.
-    /// </param>
+    /// <param name="other">Plural template, e.g. "{0} alerts".</param>
     /// <param name="args">Values for <c>{1}</c> and later placeholders.</param>
     public static string Plural(long count, string one, string other, params object?[] args)
     {
-        var template = Template(count, one, other, AppLanguage.Current);
+        ArgumentNullException.ThrowIfNull(one);
+        ArgumentNullException.ThrowIfNull(other);
+        var template = IsSingular(count) ? one : other;
         if (args.Length == 0)
         {
             return string.Format(CultureInfo.CurrentCulture, template, count);
@@ -57,75 +36,20 @@ public static class Text
         return string.Format(CultureInfo.CurrentCulture, template, all);
     }
 
-    /// <summary>The template of <paramref name="count"/> among the singular and plural forms, in <paramref name="language"/>.</summary>
-    public static string Template(long count, string one, string other, CultureInfo language)
-    {
-        ArgumentNullException.ThrowIfNull(one);
-        ArgumentNullException.ThrowIfNull(other);
-        var category = Category(count, language);
-        if (category == PluralCategory.One)
-        {
-            return one;
-        }
-
-        var separator = other.IndexOf(PluralFormSeparator, StringComparison.Ordinal);
-        if (separator < 0)
-        {
-            return other;
-        }
-
-        return category == PluralCategory.Few ? other[..separator] : other[(separator + 1)..];
-    }
-
     /// <summary>Whether <paramref name="count"/> takes the singular in the interface language.</summary>
     public static bool IsSingular(long count) => IsSingular(count, AppLanguage.Current);
 
     /// <summary>Whether <paramref name="count"/> takes the singular in <paramref name="language"/>.</summary>
-    public static bool IsSingular(long count, CultureInfo language) => Category(count, language) == PluralCategory.One;
-
-    /// <summary>The plural category of a whole number in <paramref name="language"/> (CLDR rules for integers).</summary>
-    public static PluralCategory Category(long count, CultureInfo language)
+    public static bool IsSingular(long count, CultureInfo language)
     {
         ArgumentNullException.ThrowIfNull(language);
-        var n = count == long.MinValue ? long.MaxValue : Math.Abs(count);
-        var lastDigit = n % 10;
-        var lastTwoDigits = n % 100;
-        switch (language.TwoLetterISOLanguageName)
-        {
-            // Singular for 0 and 1.
-            case "fr" or "pt" or "hi":
-                return n is 0 or 1 ? PluralCategory.One : PluralCategory.Other;
-
-            // No grammatical plural: the same text for every count.
-            case "ja" or "ko" or "zh" or "id" or "th" or "vi":
-                return PluralCategory.Other;
-
-            case "ru" or "uk":
-                return lastDigit == 1 && lastTwoDigits != 11 ? PluralCategory.One
-                    : lastDigit is >= 2 and <= 4 && lastTwoDigits is < 12 or > 14 ? PluralCategory.Few
-                    : PluralCategory.Other;
-
-            case "pl":
-                return n == 1 ? PluralCategory.One
-                    : lastDigit is >= 2 and <= 4 && lastTwoDigits is < 12 or > 14 ? PluralCategory.Few
-                    : PluralCategory.Other;
-
-            case "cs" or "sk":
-                return n == 1 ? PluralCategory.One : n is >= 2 and <= 4 ? PluralCategory.Few : PluralCategory.Other;
-
-            // "Few" for 0 and 2 to 19 (also 101–119...); "other" from 20, with "de" ("20 de fișiere").
-            case "ro":
-                return n == 1 ? PluralCategory.One : n == 0 || lastTwoDigits is >= 1 and <= 19 ? PluralCategory.Few : PluralCategory.Other;
-
-            default:
-                return n == 1 ? PluralCategory.One : PluralCategory.Other;
-        }
+        return language.TwoLetterISOLanguageName == "fr" ? count is 0 or 1 or -1 : count is 1 or -1;
     }
 
     /// <summary>
     /// Puts a text written to stand alone ("Memory", "High confidence", "The processor was saturated") inside a
     /// sentence: its first letter in lowercase, by the rules of the interface language. Texts that start with an acronym
-    /// ("CPU usage", "GPU") are kept as they are, and so is every text in German, where nouns keep their capital.
+    /// ("CPU usage", "GPU") are kept as they are.
     /// </summary>
     public static string InSentence(string text) => InSentence(text, AppLanguage.Current);
 
@@ -136,8 +60,7 @@ public static class Text
         ArgumentNullException.ThrowIfNull(language);
         if (text.Length == 0
             || !char.IsUpper(text[0])
-            || (text.Length > 1 && char.IsUpper(text[1]))
-            || language.TwoLetterISOLanguageName == "de")
+            || (text.Length > 1 && char.IsUpper(text[1])))
         {
             return text;
         }
