@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Shell_SysoraWasStartedWithDemoEveryValueOnScreenIs" xml:space="preserve">
+    <value>Sysora a fost pornit cu --demo: toate valorile de pe ecran sunt simulate.</value>
+  </data>
+  <data name="Shell_DEMOMODESimulatedData" xml:space="preserve">
+    <value>MOD DEMO · date simulate</value>
+  </data>
+  <data name="Shell_MonitoringPaused" xml:space="preserve">
+    <value>Monitorizare întreruptă</value>
+  </data>
+  <data name="Common_Dashboard" xml:space="preserve">
+    <value>Tablou de bord</value>
+  </data>
+  <data name="Common_PCHealth" xml:space="preserve">
+    <value>Starea PC-ului</value>
+  </data>
+  <data name="Common_Timeline" xml:space="preserve">
+    <value>Cronologie</value>
+  </data>
+  <data name="Shell_Investigate" xml:space="preserve">
+    <value>Investigare</value>
+  </data>
+  <data name="Common_Diagnosis" xml:space="preserve">
+    <value>Diagnostic</value>
+  </data>
+  <data name="Common_Troubleshooting" xml:space="preserve">
+    <value>Depanare</value>
+  </data>
+  <data name="Shell_InvestigationInProgress" xml:space="preserve">
+    <value>Investigație în curs</value>
+  </data>
+  <data name="Common_Replay" xml:space="preserve">
+    <value>Reluare</value>
+  </data>
+  <data name="Common_Compare" xml:space="preserve">
+    <value>Comparare</value>
+  </data>
+  <data name="Common_AppImpact" xml:space="preserve">
+    <value>Impactul aplicațiilor</value>
+  </data>
+  <data name="Common_Changes" xml:space="preserve">
+    <value>Modificări</value>
+  </data>
+  <data name="Common_Alerts" xml:space="preserve">
+    <value>Alerte</value>
+  </data>
+  <data name="Shell_NewAlerts" xml:space="preserve">
+    <value>Alerte noi</value>
+  </data>
+  <data name="Common_Gaming" xml:space="preserve">
+    <value>Jocuri</value>
+  </data>
+  <data name="Shell_GameRunning" xml:space="preserve">
+    <value>Joc în desfășurare</value>
+  </data>
+  <data name="Common_Details" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="Common_Performance" xml:space="preserve">
+    <value>Performanță</value>
+  </data>
+  <data name="Common_Processes" xml:space="preserve">
+    <value>Procese</value>
+  </data>
+  <data name="Common_Storage" xml:space="preserve">
+    <value>Stocare</value>
+  </data>
+  <data name="Common_LargeFiles" xml:space="preserve">
+    <value>Fișiere mari</value>
+  </data>
+  <data name="Common_Network" xml:space="preserve">
+    <value>Rețea</value>
+  </data>
+  <data name="Common_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Shell_OpenFolder" xml:space="preserve">
+    <value>Deschide folderul</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Alerts_SaveTheAlertsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați alertele ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Alerts_ProblemsThatLastOrAreUnusualForThisPCShortSpikes" xml:space="preserve">
+    <value>Probleme care durează sau sunt neobișnuite pentru acest PC. Vârfurile scurte nu sunt niciodată semnalate.</value>
+  </data>
+  <data name="Common_Show" xml:space="preserve">
+    <value>Afișare</value>
+  </data>
+  <data name="Alerts_MarkAllAsSeen" xml:space="preserve">
+    <value>Marchează toate ca văzute</value>
+  </data>
+  <data name="Alerts_AlertsAreTurnedOffInSettings" xml:space="preserve">
+    <value>Alertele sunt dezactivate în Setări.</value>
+  </data>
+  <data name="Common_OpenSettings" xml:space="preserve">
+    <value>Deschide Setări</value>
+  </data>
+  <data name="Alerts_Context" xml:space="preserve">
+    <value>Context</value>
+  </data>
+  <data name="Alerts_WhyThisAlert" xml:space="preserve">
+    <value>De ce această alertă</value>
+  </data>
+  <data name="Common_WhatYouCanDo" xml:space="preserve">
+    <value>Ce puteți face</value>
+  </data>
+  <data name="Common_DataUsed" xml:space="preserve">
+    <value>Date folosite</value>
+  </data>
+  <data name="Alerts_ShowInReplay" xml:space="preserve">
+    <value>Afișează în Reluare</value>
+  </data>
+  <data name="Alerts_WhatHappenedAroundThisAlert" xml:space="preserve">
+    <value>Ce s-a întâmplat în jurul acestei alerte</value>
+  </data>
+  <data name="Common_WhyNow" xml:space="preserve">
+    <value>De ce acum?</value>
+  </data>
+  <data name="Alerts_NothingToReport" xml:space="preserve">
+    <value>Nimic de semnalat</value>
+  </data>
+  <data name="Alerts_SysoraRaisesAnAlertOnlyWhenAProblemLastsOrIs" xml:space="preserve">
+    <value>Sysora emite o alertă doar când o problemă durează sau este neobișnuită pentru acest PC.</value>
+  </data>
+  <data name="Alerts_ActiveRules" xml:space="preserve">
+    <value>Reguli active</value>
+  </data>
+  <data name="Alerts_AConditionMustLastBeforeItIsReportedWhileItLasts" xml:space="preserve">
+    <value>O condiție trebuie să dureze înainte de a fi semnalată; cât timp durează, actualizează o singură alertă, care se rezolvă la un minut după încheierea condiției. Dacă revine curând, aceeași alertă se redeschide. Se emit cel mult câteva alerte noi pe oră.</value>
+  </data>
+  <data name="Alerts_ChangeTheRulesInSettings" xml:space="preserve">
+    <value>Modificați regulile în Setări</value>
+  </data>
+  <data name="AppImpact_SaveTheRankingAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați clasamentul ca raport HTML sau date JSON</value>
+  </data>
+  <data name="AppImpact_WhichApplicationsWeighTheMostOnYourPC" xml:space="preserve">
+    <value>Ce aplicații încarcă cel mai mult PC-ul</value>
+  </data>
+  <data name="Common_Period" xml:space="preserve">
+    <value>Perioadă</value>
+  </data>
+  <data name="Common_Refresh" xml:space="preserve">
+    <value>Reîmprospătare</value>
+  </data>
+  <data name="Common_RefreshNow" xml:space="preserve">
+    <value>Reîmprospătează acum</value>
+  </data>
+  <data name="AppImpact_Application" xml:space="preserve">
+    <value>Aplicație</value>
+  </data>
+  <data name="AppImpact_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Common_CPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="AppImpact_AverageCPUWhileRunningShareOfTotalCapacity" xml:space="preserve">
+    <value>CPU mediu în timpul rulării, proporție din capacitatea totală</value>
+  </data>
+  <data name="Common_Memory" xml:space="preserve">
+    <value>Memorie</value>
+  </data>
+  <data name="AppImpact_AveragePrivateWorkingSetWhileRunning" xml:space="preserve">
+    <value>Set de lucru privat mediu în timpul rulării</value>
+  </data>
+  <data name="Common_DiskIO" xml:space="preserve">
+    <value>I/O disc</value>
+  </data>
+  <data name="AppImpact_AverageReadAndWriteIOWhileRunningFilesDevicesAnd" xml:space="preserve">
+    <value>I/O mediu de citire și scriere în timpul rulării (fișiere, dispozitive și rețea)</value>
+  </data>
+  <data name="AppImpact_Running" xml:space="preserve">
+    <value>Rulare</value>
+  </data>
+  <data name="AppImpact_MeasuredTimeTheApplicationWasRunning" xml:space="preserve">
+    <value>Timpul măsurat în care aplicația a rulat</value>
+  </data>
+  <data name="AppImpact_Trend" xml:space="preserve">
+    <value>Tendință</value>
+  </data>
+  <data name="AppImpact_SecondHalfOfThePeriodComparedWithTheFirstHalf" xml:space="preserve">
+    <value>A doua jumătate a perioadei comparată cu prima jumătate</value>
+  </data>
+  <data name="AppImpact_ApplicationsByImpact" xml:space="preserve">
+    <value>Aplicații după impact</value>
+  </data>
+  <data name="AppImpact_Running2" xml:space="preserve">
+    <value>rulează</value>
+  </data>
+  <data name="AppImpact_NoApplicationUsageRecordedForThisPeriodYet" xml:space="preserve">
+    <value>Încă nu a fost înregistrată nicio utilizare a aplicațiilor pentru această perioadă.</value>
+  </data>
+  <data name="AppImpact_ApplicationsAreIdentifiedByExecutablePath" xml:space="preserve">
+    <value>Aplicațiile sunt identificate după calea fișierului executabil; procesele care au doar numele în comun sunt ținute separat. Utilizarea rețelei per aplicație nu este disponibilă.</value>
+  </data>
+  <data name="AppImpact_SelectAnApplicationToSeeWhyItRanksThereAndIts" xml:space="preserve">
+    <value>Selectați o aplicație pentru a vedea de ce se află pe această poziție și istoricul ei.</value>
+  </data>
+  <data name="AppImpact_WhenDidThePCsCPUOrMemoryRiseAndWhatChangedAtThe" xml:space="preserve">
+    <value>Când au crescut CPU-ul sau memoria PC-ului și ce s-a schimbat în același timp</value>
+  </data>
+  <data name="AppImpact_WhatDrivesTheScore" xml:space="preserve">
+    <value>Ce determină scorul</value>
+  </data>
+  <data name="Common_History" xml:space="preserve">
+    <value>Istoric</value>
+  </data>
+  <data name="AppImpact_CPUShareOfTotalCapacity" xml:space="preserve">
+    <value>CPU (proporție din capacitatea totală)</value>
+  </data>
+  <data name="AppImpact_ApplicationCPUHistory" xml:space="preserve">
+    <value>Istoricul CPU al aplicației</value>
+  </data>
+  <data name="AppImpact_MemoryPrivateWorkingSet" xml:space="preserve">
+    <value>Memorie (set de lucru privat)</value>
+  </data>
+  <data name="AppImpact_ApplicationMemoryHistory" xml:space="preserve">
+    <value>Istoricul memoriei aplicației</value>
+  </data>
+  <data name="AppImpact_WhyThisResultDataUsed" xml:space="preserve">
+    <value>De ce acest rezultat? (date folosite)</value>
+  </data>
+  <data name="Changes_WhatChangedOnThisPCRecently" xml:space="preserve">
+    <value>Ce s-a schimbat recent pe acest PC</value>
+  </data>
+  <data name="Common_View" xml:space="preserve">
+    <value>Vizualizare</value>
+  </data>
+  <data name="Changes_TakeASnapshotOfThePCNowAndCompareIt" xml:space="preserve">
+    <value>Realizați acum un instantaneu al PC-ului și comparați-l</value>
+  </data>
+  <data name="Changes_CheckNow" xml:space="preserve">
+    <value>Verifică acum</value>
+  </data>
+  <data name="Changes_SaveTheChangesAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați modificările ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Common_SINCEYESTERDAY" xml:space="preserve">
+    <value>DE IERI</value>
+  </data>
+  <data name="Common_Significant" xml:space="preserve">
+    <value> cu impact major</value>
+  </data>
+  <data name="Common_Minor" xml:space="preserve">
+    <value> cu impact minor</value>
+  </data>
+  <data name="Common_MostOfYourSystemIsUnchanged" xml:space="preserve">
+    <value>Cea mai mare parte a sistemului este neschimbată</value>
+  </data>
+  <data name="Changes_WhatItMeans" xml:space="preserve">
+    <value>Ce înseamnă</value>
+  </data>
+  <data name="Changes_Origin" xml:space="preserve">
+    <value>Origine</value>
+  </data>
+  <data name="Changes_NoChangeToShow" xml:space="preserve">
+    <value>Nicio schimbare de afișat</value>
+  </data>
+  <data name="Common_WhatIsCompared" xml:space="preserve">
+    <value>Ce se compară</value>
+  </data>
+  <data name="Changes_InstalledApplicationsAppsAmpFeaturesAndStoreApps" xml:space="preserve">
+    <value>Aplicații instalate (Aplicații și caracteristici și aplicații Store), programe de pornire (chei Run și foldere Pornire), build-ul Windows, versiunea BIOS, memoria instalată, adaptoarele grafice și de rețea, volumele fixe și spațiul lor utilizat, utilizarea medie a CPU și a memoriei și programele care au început să ruleze regulat. Instantaneele sunt doar pentru citire și rămân pe acest PC.</value>
+  </data>
+  <data name="Changes_NotCoveredDriversServicesScheduledTasksAnd" xml:space="preserve">
+    <value>Nu sunt acoperite: drivere, servicii, activități programate și fișiere individuale.</value>
+  </data>
+  <data name="Compare_BeforeAfterHowThePCBehavedInTwoPeriods" xml:space="preserve">
+    <value>Înainte / după: cum s-a comportat PC-ul în două perioade</value>
+  </data>
+  <data name="Compare_SaveThisComparisonAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați această comparație ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Compare_GameSession" xml:space="preserve">
+    <value>Sesiune de joc</value>
+  </data>
+  <data name="Compare_NoGameSessionRecorded" xml:space="preserve">
+    <value>Nicio sesiune de joc înregistrată</value>
+  </data>
+  <data name="Compare_MomentDate" xml:space="preserve">
+    <value>Moment (dată)</value>
+  </data>
+  <data name="Compare_Time" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Compare_SecondMomentDate" xml:space="preserve">
+    <value>Al doilea moment (dată)</value>
+  </data>
+  <data name="Compare_AMomentIsComparedOverThe10MinutesBeforeItQuot" xml:space="preserve">
+    <value>Un moment este comparat cu cele 10 minute dinaintea lui; „înainte și după un moment” folosește 15 minute de fiecare parte. Perioadele recente folosesc măsurători pe secundă, cele mai vechi istoricul pe minut sau pe oră.</value>
+  </data>
+  <data name="Common_Metric" xml:space="preserve">
+    <value>Măsură</value>
+  </data>
+  <data name="Compare_Change" xml:space="preserve">
+    <value>Schimbare</value>
+  </data>
+  <data name="Compare_Importance" xml:space="preserve">
+    <value>Importanță</value>
+  </data>
+  <data name="Compare_AveragesOfCPUMemoryDiskActivityGPUNetwork" xml:space="preserve">
+    <value>Mediile CPU, memoriei, activității discului, GPU, rețelei, proceselor și spațiului liber pe volumul Windows, pe fiecare perioadă. O măsură înregistrată într-o singură perioadă este afișată ca indisponibilă și nu este comparată. Procentele diferă în puncte procentuale; cantitățile arată și schimbarea relativă.</value>
+  </data>
+  <data name="Dashboard_PCStatusOpenTheDiagnosis" xml:space="preserve">
+    <value>Starea PC-ului, deschide diagnosticul</value>
+  </data>
+  <data name="Dashboard_OpenTheDiagnosis" xml:space="preserve">
+    <value>Deschide diagnosticul</value>
+  </data>
+  <data name="Dashboard_MEMORY" xml:space="preserve">
+    <value>MEMORIE</value>
+  </data>
+  <data name="Common_GPU" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Dashboard_SYSTEMDISK" xml:space="preserve">
+    <value>DISC DE SISTEM</value>
+  </data>
+  <data name="Dashboard_NETWORK" xml:space="preserve">
+    <value>REȚEA</value>
+  </data>
+  <data name="Dashboard_PCHealthOpenTheDetails" xml:space="preserve">
+    <value>Starea PC-ului, deschide detaliile</value>
+  </data>
+  <data name="Dashboard_PCHEALTH" xml:space="preserve">
+    <value>STAREA PC-ULUI</value>
+  </data>
+  <data name="Dashboard_SinceYesterdayOpenChanges" xml:space="preserve">
+    <value>De ieri, deschide Modificări</value>
+  </data>
+  <data name="Dashboard_Insights" xml:space="preserve">
+    <value>Observații</value>
+  </data>
+  <data name="Dashboard_QuickActions" xml:space="preserve">
+    <value>Acțiuni rapide</value>
+  </data>
+  <data name="Dashboard_WhyIsMyPCSlow" xml:space="preserve">
+    <value>De ce este lent PC-ul meu?</value>
+  </data>
+  <data name="Dashboard_Diagnose" xml:space="preserve">
+    <value>Diagnosticare</value>
+  </data>
+  <data name="Dashboard_InvestigateAProblemForAFewMinutesWithDetailed" xml:space="preserve">
+    <value>Investigați o problemă timp de câteva minute cu colectare detaliată</value>
+  </data>
+  <data name="Dashboard_Troubleshoot" xml:space="preserve">
+    <value>Depanare</value>
+  </data>
+  <data name="Dashboard_EverythingThatHappenedInOrder" xml:space="preserve">
+    <value>Tot ce s-a întâmplat, în ordine</value>
+  </data>
+  <data name="Dashboard_WhatHappenedInTheLastMinutes" xml:space="preserve">
+    <value>Ce s-a întâmplat în ultimele minute?</value>
+  </data>
+  <data name="Dashboard_WhatChangedRecently" xml:space="preserve">
+    <value>Ce s-a schimbat recent?</value>
+  </data>
+  <data name="Dashboard_ViewChanges" xml:space="preserve">
+    <value>Vezi modificările</value>
+  </data>
+  <data name="Dashboard_WhichApplicationWeighsTheMost" xml:space="preserve">
+    <value>Ce aplicație încarcă cel mai mult?</value>
+  </data>
+  <data name="Dashboard_AppImpact" xml:space="preserve">
+    <value>Impactul aplicațiilor</value>
+  </data>
+  <data name="Dashboard_RecapsOfYourGameSessions" xml:space="preserve">
+    <value>Rezumatele sesiunilor de joc</value>
+  </data>
+  <data name="Common_CPUUsage" xml:space="preserve">
+    <value>Utilizare CPU</value>
+  </data>
+  <data name="Common_ChartTimeSpan" xml:space="preserve">
+    <value>Intervalul graficului</value>
+  </data>
+  <data name="Common_CPUUsageHistory" xml:space="preserve">
+    <value>Istoricul utilizării CPU</value>
+  </data>
+  <data name="Common_MemoryUsageHistory" xml:space="preserve">
+    <value>Istoricul utilizării memoriei</value>
+  </data>
+  <data name="Dashboard_TopApplications" xml:space="preserve">
+    <value>Aplicații principale</value>
+  </data>
+  <data name="Dashboard_SortTopApplicationsBy" xml:space="preserve">
+    <value>Sortați aplicațiile principale după</value>
+  </data>
+  <data name="Dashboard_ViewAllProcesses" xml:space="preserve">
+    <value>Vezi toate procesele</value>
+  </data>
+  <data name="Dashboard_SystemHealth" xml:space="preserve">
+    <value>Starea sistemului</value>
+  </data>
+  <data name="Dashboard_InstantIndicatorsBasedOnYourHealthThresholds" xml:space="preserve">
+    <value>Indicatori instantanei bazați pe pragurile de stare (Setări)</value>
+  </data>
+  <data name="Dashboard_OpenPerformanceDetails" xml:space="preserve">
+    <value>Deschide detaliile de performanță</value>
+  </data>
+  <data name="Diagnosis_WhyItMatters" xml:space="preserve">
+    <value>De ce contează</value>
+  </data>
+  <data name="Diagnosis_WhenDidItStartWhatChangedAtTheSameTimeAndHow" xml:space="preserve">
+    <value>Când a început, ce s-a schimbat în același timp și cât de des s-a întâmplat înainte</value>
+  </data>
+  <data name="Diagnosis_WhyIsMyPCSlowSysoraChecksWhatItMeasuresAnd" xml:space="preserve">
+    <value>De ce este lent PC-ul meu? Sysora verifică ce măsoară și explică ce găsește.</value>
+  </data>
+  <data name="Diagnosis_AnalyzeAgain" xml:space="preserve">
+    <value>Analizează din nou</value>
+  </data>
+  <data name="Diagnosis_SaveTheDiagnosisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați diagnosticul ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Diagnosis_WhenAProblemStartedFromWhatLevelWhatChangedAtThe" xml:space="preserve">
+    <value>Când a început o problemă, de la ce nivel, ce s-a schimbat în același timp și cât de des s-a întâmplat înainte.</value>
+  </data>
+  <data name="Diagnosis_MetricToExplain" xml:space="preserve">
+    <value>Măsura de explicat</value>
+  </data>
+  <data name="Diagnosis_Explain" xml:space="preserve">
+    <value>Explică</value>
+  </data>
+  <data name="Diagnosis_ExportThisExplanation" xml:space="preserve">
+    <value>Exportă această explicație</value>
+  </data>
+  <data name="Common_Started" xml:space="preserve">
+    <value>Început</value>
+  </data>
+  <data name="Diagnosis_BeforeNow" xml:space="preserve">
+    <value>Înainte → acum</value>
+  </data>
+  <data name="Common_Duration" xml:space="preserve">
+    <value>Durată</value>
+  </data>
+  <data name="Diagnosis_MainContributor" xml:space="preserve">
+    <value>Factor principal</value>
+  </data>
+  <data name="Diagnosis_AtTheSameTimeACoincidenceInTimeIsNotProofOfCause" xml:space="preserve">
+    <value>În același timp (o coincidență în timp nu dovedește cauza)</value>
+  </data>
+  <data name="Diagnosis_SeeEverythingThatHappenedAroundItInTheTimeline" xml:space="preserve">
+    <value>Vedeți în Cronologie tot ce s-a întâmplat în jur</value>
+  </data>
+  <data name="Diagnosis_EveryStatementAndWhatItRestsOn" xml:space="preserve">
+    <value>Fiecare afirmație și pe ce se bazează</value>
+  </data>
+  <data name="Common_RecurringProblems" xml:space="preserve">
+    <value>Probleme recurente</value>
+  </data>
+  <data name="Diagnosis_OpenPCHealth" xml:space="preserve">
+    <value>Deschide Starea PC-ului</value>
+  </data>
+  <data name="Diagnosis_ComparedWithYourUsualActivity" xml:space="preserve">
+    <value>Comparat cu activitatea obișnuită</value>
+  </data>
+  <data name="Common_Now" xml:space="preserve">
+    <value>Acum</value>
+  </data>
+  <data name="Diagnosis_AverageOfTheLast15Minutes" xml:space="preserve">
+    <value>Media ultimelor 15 minute</value>
+  </data>
+  <data name="Diagnosis_LastHour" xml:space="preserve">
+    <value>Ultima oră</value>
+  </data>
+  <data name="Diagnosis_Today" xml:space="preserve">
+    <value>Astăzi</value>
+  </data>
+  <data name="Diagnosis_Yesterday" xml:space="preserve">
+    <value>Ieri</value>
+  </data>
+  <data name="Diagnosis_7Days" xml:space="preserve">
+    <value>7 zile</value>
+  </data>
+  <data name="Diagnosis_30Days" xml:space="preserve">
+    <value>30 de zile</value>
+  </data>
+  <data name="Diagnosis_UsualAtThisHour" xml:space="preserve">
+    <value>Obișnuit la această oră</value>
+  </data>
+  <data name="Diagnosis_SameHourOfTheDayOverTheLast30DaysTodayExcluded" xml:space="preserve">
+    <value>Aceeași oră din zi în ultimele 30 de zile (fără ziua de azi)</value>
+  </data>
+  <data name="Diagnosis_AveragesOfTheLocalHistoryAPeriodWithoutEnough" xml:space="preserve">
+    <value>Medii din istoricul local. O perioadă fără suficient timp măsurat afișează o liniuță (treceți cu mouse-ul peste ea pentru a vedea câte date există): Sysora nu umple niciodată golul cu o estimare.</value>
+  </data>
+  <data name="Diagnosis_ProblemsDetected" xml:space="preserve">
+    <value>Probleme detectate</value>
+  </data>
+  <data name="Common_Recommendations" xml:space="preserve">
+    <value>Recomandări</value>
+  </data>
+  <data name="Diagnosis_PointsToWatch" xml:space="preserve">
+    <value>Puncte de urmărit</value>
+  </data>
+  <data name="Diagnosis_CheckedAndNormal" xml:space="preserve">
+    <value>Verificat și normal</value>
+  </data>
+  <data name="Diagnosis_NotAnalyzed" xml:space="preserve">
+    <value>Neanalizat</value>
+  </data>
+  <data name="Diagnosis_SysoraOnlyReportsWhatItMeasuresRulesAre" xml:space="preserve">
+    <value>Sysora raportează doar ce măsoară. Regulile sunt deterministe: aceleași măsurători dau întotdeauna același diagnostic.</value>
+  </data>
+  <data name="Gaming_ARecapOfEachGameSessionWhatYourPCTheGameAndOther" xml:space="preserve">
+    <value>Un rezumat al fiecărei sesiuni de joc: ce au folosit PC-ul, jocul și celelalte aplicații. FPS nu este estimat niciodată.</value>
+  </data>
+  <data name="Gaming_GameSessionsAreTurnedOffInSettingsNoNewSessionIs" xml:space="preserve">
+    <value>Sesiunile de joc sunt dezactivate în Setări: nu se înregistrează nicio sesiune nouă.</value>
+  </data>
+  <data name="Gaming_GAMERUNNINGRECORDINGWITHMINIMALIMPACT" xml:space="preserve">
+    <value>JOC ÎN DESFĂȘURARE · ÎNREGISTRARE CU IMPACT MINIM</value>
+  </data>
+  <data name="Gaming_NotAGame" xml:space="preserve">
+    <value>Nu este un joc</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGameSettings" xml:space="preserve">
+    <value>Nu mai urmări această aplicație ca joc (Setări › Jocuri pentru a anula)</value>
+  </data>
+  <data name="Common_GameSessions" xml:space="preserve">
+    <value>Sesiuni de joc</value>
+  </data>
+  <data name="Gaming_NoGameSessionYet" xml:space="preserve">
+    <value>Încă nicio sesiune de joc</value>
+  </data>
+  <data name="Gaming_StartAGameSysoraFollowsItAutomaticallyWhen" xml:space="preserve">
+    <value>Porniți un joc: Sysora îl urmărește automat când Windows îl recunoaște ca joc (lista din Game Bar), când un lansator îl raportează ca instalat (Steam, Epic, Riot, GOG) sau când este instalat într-un folder de bibliotecă de jocuri. Când jocul se închide, aici apare un rezumat. Sesiunile mai scurte decât minimul setat în Setări nu sunt păstrate.</value>
+  </data>
+  <data name="Gaming_MarkAnApplicationAsAGameInSettings" xml:space="preserve">
+    <value>Adăugați un joc în Setări</value>
+  </data>
+  <data name="Gaming_BeforeVsDuringTheGame" xml:space="preserve">
+    <value>Înainte și în timpul jocului</value>
+  </data>
+  <data name="Gaming_BeforeVsAfterTheGame" xml:space="preserve">
+    <value>Înainte și după joc</value>
+  </data>
+  <data name="Gaming_WithThePreviousSession" xml:space="preserve">
+    <value>Cu sesiunea anterioară</value>
+  </data>
+  <data name="Gaming_ExportRecap" xml:space="preserve">
+    <value>Exportă rezumatul</value>
+  </data>
+  <data name="Gaming_SaveThisRecapAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați acest rezumat ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Gaming_StopFollowingThisApplicationAsAGamePastSessions" xml:space="preserve">
+    <value>Nu mai urmări această aplicație ca joc (sesiunile anterioare sunt păstrate)</value>
+  </data>
+  <data name="Common_Measurements" xml:space="preserve">
+    <value>Măsurători</value>
+  </data>
+  <data name="Common_Average" xml:space="preserve">
+    <value>Medie</value>
+  </data>
+  <data name="Gaming_Maximum" xml:space="preserve">
+    <value>Maxim</value>
+  </data>
+  <data name="Gaming_Scope" xml:space="preserve">
+    <value>Domeniu</value>
+  </data>
+  <data name="Gaming_CPUDuringTheSession" xml:space="preserve">
+    <value>CPU în timpul sesiunii</value>
+  </data>
+  <data name="Gaming_GPUDuringTheSession" xml:space="preserve">
+    <value>GPU în timpul sesiunii</value>
+  </data>
+  <data name="Common_WhatHappened" xml:space="preserve">
+    <value>Ce s-a întâmplat</value>
+  </data>
+  <data name="Gaming_ComparedWithPreviousSessions" xml:space="preserve">
+    <value>Comparat cu sesiunile anterioare</value>
+  </data>
+  <data name="Gaming_NotableDifference" xml:space="preserve">
+    <value>Diferență notabilă</value>
+  </data>
+  <data name="Gaming_OtherApplicationsDuringTheGame" xml:space="preserve">
+    <value>Alte aplicații în timpul jocului</value>
+  </data>
+  <data name="Gaming_NoOtherApplicationUsedAMeasurableShareOfThe" xml:space="preserve">
+    <value>Nicio altă aplicație nu a folosit o parte măsurabilă din procesor.</value>
+  </data>
+  <data name="Gaming_OtherProcessesOfTheGame" xml:space="preserve">
+    <value>Alte procese ale jocului</value>
+  </data>
+  <data name="Gaming_StartedByTheGameOrInstalledInItsFolderLaunchers" xml:space="preserve">
+    <value>Pornite de joc sau instalate în folderul său (lansatoare, anti-cheat, raportoare de erori…).</value>
+  </data>
+  <data name="Gaming_EventsDuringTheSession" xml:space="preserve">
+    <value>Evenimente în timpul sesiunii</value>
+  </data>
+  <data name="Gaming_NotMeasured" xml:space="preserve">
+    <value>Nemăsurat</value>
+  </data>
+  <data name="LargeFiles_WhatTakesTheMostSpaceSysoraOnlyListsFilesItNever" xml:space="preserve">
+    <value>Ce ocupă cel mai mult spațiu. Sysora doar listează fișierele: nu le mută, nu le modifică și nu le șterge niciodată.</value>
+  </data>
+  <data name="LargeFiles_SaveTheResultsAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați rezultatele ca raport HTML sau date JSON</value>
+  </data>
+  <data name="LargeFiles_Where" xml:space="preserve">
+    <value>Unde</value>
+  </data>
+  <data name="LargeFiles_ChooseAFolder" xml:space="preserve">
+    <value>Alegeți un folder…</value>
+  </data>
+  <data name="LargeFiles_FilesOf" xml:space="preserve">
+    <value>Fișiere de</value>
+  </data>
+  <data name="LargeFiles_Scan" xml:space="preserve">
+    <value>Scanează</value>
+  </data>
+  <data name="LargeFiles_Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="LargeFiles_TheScanRunsOnlyWhenYouAskAtLowPriorityAndCanBe" xml:space="preserve">
+    <value>Scanarea rulează doar când cereți, cu prioritate scăzută, și poate fi anulată oricând. Citește doar listele folderelor (niciun fișier nu este deschis), nu urmărește legăturile, omite fișierele cloud disponibile doar online și raportează folderele pe care Windows refuză să le listeze, în loc să le numere ca goale.</value>
+  </data>
+  <data name="LargeFiles_FoldersNotReadLinksAndExclusions" xml:space="preserve">
+    <value>Foldere necitite, legături și excluderi</value>
+  </data>
+  <data name="LargeFiles_Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="LargeFiles_Search" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="LargeFiles_SearchByNameOrFolder" xml:space="preserve">
+    <value>Căutați după nume sau folder</value>
+  </data>
+  <data name="LargeFiles_Modified" xml:space="preserve">
+    <value> · modificat </value>
+  </data>
+  <data name="LargeFiles_ShowInFileExplorer" xml:space="preserve">
+    <value>Afișează în Explorer</value>
+  </data>
+  <data name="LargeFiles_CopyThePath" xml:space="preserve">
+    <value>Copiază calea</value>
+  </data>
+  <data name="Network_LocalStatisticsOnlySysoraSendsNoNetworkTrafficTo" xml:space="preserve">
+    <value>Doar statistici locale — Sysora nu trimite trafic de rețea pentru a le măsura</value>
+  </data>
+  <data name="Common_TimeSpan" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Network_NetworkMonitoringIsTurnedOffInSettings" xml:space="preserve">
+    <value>Monitorizarea rețelei este dezactivată în Setări.</value>
+  </data>
+  <data name="Network_CONNECTION" xml:space="preserve">
+    <value>CONEXIUNE</value>
+  </data>
+  <data name="Network_ACTIVEINTERFACE" xml:space="preserve">
+    <value>INTERFAȚĂ ACTIVĂ</value>
+  </data>
+  <data name="Network_Throughput" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="Network_Download" xml:space="preserve">
+    <value>Descărcare</value>
+  </data>
+  <data name="Network_Upload" xml:space="preserve">
+    <value>Încărcare</value>
+  </data>
+  <data name="Network_NetworkThroughputHistory" xml:space="preserve">
+    <value>Istoricul debitului de rețea</value>
+  </data>
+  <data name="Network_Interfaces" xml:space="preserve">
+    <value>Interfețe</value>
+  </data>
+  <data name="Network_LinkSpeed" xml:space="preserve">
+    <value>Viteza legăturii</value>
+  </data>
+  <data name="Network_Received" xml:space="preserve">
+    <value>Primit</value>
+  </data>
+  <data name="Network_SinceTheInterfaceCameUp" xml:space="preserve">
+    <value>De la activarea interfeței</value>
+  </data>
+  <data name="Network_Sent" xml:space="preserve">
+    <value>Trimis</value>
+  </data>
+  <data name="Network_IPv4" xml:space="preserve">
+    <value>IPv4</value>
+  </data>
+  <data name="Network_IPv6" xml:space="preserve">
+    <value>IPv6</value>
+  </data>
+  <data name="Network_LatencyIsNotMeasuredItWouldRequireContactingA" xml:space="preserve">
+    <value>Latența nu este măsurată: ar necesita contactarea unui server la distanță. Disponibilitatea internetului provine din verificările de conectivitate proprii ale Windows.</value>
+  </data>
+  <data name="PcHealth_InWhatStateIsMyPCAScoreOutOf100ExplainedAreaBy" xml:space="preserve">
+    <value>În ce stare este PC-ul meu? Un scor din 100, explicat pe fiecare zonă.</value>
+  </data>
+  <data name="PcHealth_SaveThisAnalysisAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați această analiză ca raport HTML sau date JSON</value>
+  </data>
+  <data name="PcHealth_PCHealthScore" xml:space="preserve">
+    <value>Scorul stării PC-ului</value>
+  </data>
+  <data name="PcHealth_OutOf100" xml:space="preserve">
+    <value>din 100</value>
+  </data>
+  <data name="PcHealth_Areas" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="PcHealth_WhyThisImpact" xml:space="preserve">
+    <value>De ce acest impact</value>
+  </data>
+  <data name="PcHealth_AProblemIsCalledRecurringAfter3EpisodesOn2" xml:space="preserve">
+    <value>O problemă este considerată recurentă după 3 episoade în 2 zile diferite din ultimele 7 zile, pe baza alertelor și evenimentelor înregistrate de Sysora. Cu mai puțin istoric, Sysora spune acest lucru în loc să ghicească.</value>
+  </data>
+  <data name="PcHealth_DetailsAndIntensity" xml:space="preserve">
+    <value>Detalii și intensitate</value>
+  </data>
+  <data name="PcHealth_HowTheScoreIsComputed" xml:space="preserve">
+    <value>Cum este calculat scorul</value>
+  </data>
+  <data name="PcHealth_NotCounted" xml:space="preserve">
+    <value>Nu se ia în calcul</value>
+  </data>
+  <data name="Performance_RealTimeUsageAndRecentHistory" xml:space="preserve">
+    <value>Utilizare în timp real și istoric recent</value>
+  </data>
+  <data name="Performance_DiskActivity" xml:space="preserve">
+    <value>Activitatea discului</value>
+  </data>
+  <data name="Performance_Speed" xml:space="preserve">
+    <value>Viteză</value>
+  </data>
+  <data name="Performance_EffectiveClockRatedFrequencyCurrentProcessor" xml:space="preserve">
+    <value>Frecvență efectivă: frecvența nominală × performanța actuală a procesorului, așa cum o calculează Managerul de activități.</value>
+  </data>
+  <data name="Performance_BaseSpeed" xml:space="preserve">
+    <value>Viteză de bază</value>
+  </data>
+  <data name="Performance_PeakSpeedThisSession" xml:space="preserve">
+    <value>Viteză maximă (această sesiune)</value>
+  </data>
+  <data name="Performance_Temperature" xml:space="preserve">
+    <value>Temperatură</value>
+  </data>
+  <data name="Performance_Cores" xml:space="preserve">
+    <value>Nuclee</value>
+  </data>
+  <data name="Performance_LogicalProcessors" xml:space="preserve">
+    <value>Procesoare logice</value>
+  </data>
+  <data name="Performance_Sockets" xml:space="preserve">
+    <value>Socluri</value>
+  </data>
+  <data name="Performance_L2Cache" xml:space="preserve">
+    <value>Memorie cache L2</value>
+  </data>
+  <data name="Performance_L3Cache" xml:space="preserve">
+    <value>Memorie cache L3</value>
+  </data>
+  <data name="Common_Threads" xml:space="preserve">
+    <value>Fire de execuție</value>
+  </data>
+  <data name="Common_Handles" xml:space="preserve">
+    <value>Handle-uri</value>
+  </data>
+  <data name="Performance_UpTime" xml:space="preserve">
+    <value>Timp de funcționare</value>
+  </data>
+  <data name="Performance_UsagePerLogicalProcessor" xml:space="preserve">
+    <value>Utilizare per procesor logic</value>
+  </data>
+  <data name="Common_MemoryInUse" xml:space="preserve">
+    <value>Memorie în uz</value>
+  </data>
+  <data name="Performance_InUse" xml:space="preserve">
+    <value>În uz</value>
+  </data>
+  <data name="Performance_Available" xml:space="preserve">
+    <value>Disponibilă</value>
+  </data>
+  <data name="Performance_UsableByWindows" xml:space="preserve">
+    <value>Utilizabilă de Windows</value>
+  </data>
+  <data name="Performance_Installed" xml:space="preserve">
+    <value>Instalată</value>
+  </data>
+  <data name="Common_Committed" xml:space="preserve">
+    <value>Alocată</value>
+  </data>
+  <data name="Performance_CommitChargeCommitLimitPhysicalMemoryPlusPage" xml:space="preserve">
+    <value>Memorie alocată / limită de alocare (memorie fizică plus fișiere de paginare).</value>
+  </data>
+  <data name="Performance_SystemCache" xml:space="preserve">
+    <value>Memorie cache de sistem</value>
+  </data>
+  <data name="Performance_StandbyListPlusSystemWorkingSetAsReportedBy" xml:space="preserve">
+    <value>Lista de așteptare plus setul de lucru al sistemului, conform GetPerformanceInfo.</value>
+  </data>
+  <data name="Performance_PagedPool" xml:space="preserve">
+    <value>Pool paginat</value>
+  </data>
+  <data name="Performance_NonPagedPool" xml:space="preserve">
+    <value>Pool nepaginat</value>
+  </data>
+  <data name="Performance_NoGraphicsAdapterDataIsAvailableGPUMonitoringMay" xml:space="preserve">
+    <value>Nu sunt disponibile date despre adaptorul grafic. Monitorizarea GPU poate fi dezactivată în Setări sau acest sistem nu expune contoare de performanță GPU.</value>
+  </data>
+  <data name="Performance_DedicatedMemory" xml:space="preserve">
+    <value>Memorie dedicată</value>
+  </data>
+  <data name="Performance_SharedMemory" xml:space="preserve">
+    <value>Memorie partajată</value>
+  </data>
+  <data name="Performance_NotExposedByTheWindowsGPUPerformanceCounters" xml:space="preserve">
+    <value>Nu este expusă de contoarele de performanță GPU ale Windows.</value>
+  </data>
+  <data name="Performance_ClockSpeed" xml:space="preserve">
+    <value>Frecvență</value>
+  </data>
+  <data name="Performance_BusiestEngines" xml:space="preserve">
+    <value>Cele mai ocupate motoare</value>
+  </data>
+  <data name="Performance_DiskActivityCountersAreNotAvailableOnThisSystem" xml:space="preserve">
+    <value>Contoarele de activitate a discului nu sunt disponibile pe acest sistem.</value>
+  </data>
+  <data name="Common_Read" xml:space="preserve">
+    <value>Citire</value>
+  </data>
+  <data name="Common_Write" xml:space="preserve">
+    <value>Scriere</value>
+  </data>
+  <data name="Processes_SearchProcesses" xml:space="preserve">
+    <value>Căutare procese</value>
+  </data>
+  <data name="Processes_SearchByNameOrPID" xml:space="preserve">
+    <value>Căutați după nume sau PID</value>
+  </data>
+  <data name="Processes_HIGHESTCPUUSAGE" xml:space="preserve">
+    <value>CEA MAI MARE UTILIZARE CPU</value>
+  </data>
+  <data name="Processes_HIGHESTMEMORYUSAGE" xml:space="preserve">
+    <value>CEA MAI MARE UTILIZARE A MEMORIEI</value>
+  </data>
+  <data name="Processes_HIGHESTIOACTIVITY" xml:space="preserve">
+    <value>CEA MAI MARE ACTIVITATE I/O</value>
+  </data>
+  <data name="Processes_SortByName" xml:space="preserve">
+    <value>Sortare după nume</value>
+  </data>
+  <data name="Processes_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Processes_SortByPID" xml:space="preserve">
+    <value>Sortare după PID</value>
+  </data>
+  <data name="Processes_PID" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="Processes_SortByCPU" xml:space="preserve">
+    <value>Sortare după CPU</value>
+  </data>
+  <data name="Processes_SortByMemory" xml:space="preserve">
+    <value>Sortare după memorie</value>
+  </data>
+  <data name="Processes_PrivateWorkingSetPhysicalMemoryUsedOnlyByThis" xml:space="preserve">
+    <value>Set de lucru privat: memoria fizică folosită doar de acest proces</value>
+  </data>
+  <data name="Processes_SortByDiskIO" xml:space="preserve">
+    <value>Sortare după I/O disc</value>
+  </data>
+  <data name="Processes_ReadAndWriteIOFilesDevicesAndNetwork" xml:space="preserve">
+    <value>I/O de citire și scriere (fișiere, dispozitive și rețea)</value>
+  </data>
+  <data name="Processes_CPUIsAShareOfTotalCapacityMemoryIsThePrivate" xml:space="preserve">
+    <value>CPU este o proporție din capacitatea totală. Memoria este setul de lucru privat. Utilizarea rețelei per proces nu este măsurată (necesită urmărire la nivel de administrator).</value>
+  </data>
+  <data name="Processes_SelectAProcessToSeeItsDetails" xml:space="preserve">
+    <value>Selectați un proces pentru a vedea detaliile.</value>
+  </data>
+  <data name="Processes_ThisProcessHasExited" xml:space="preserve">
+    <value>Acest proces s-a oprit.</value>
+  </data>
+  <data name="Processes_CriticalWindowsProcessEndingItWouldStopTheSystem" xml:space="preserve">
+    <value>Proces Windows critic: oprirea lui ar opri sistemul.</value>
+  </data>
+  <data name="Processes_ParentPID" xml:space="preserve">
+    <value>PID părinte</value>
+  </data>
+  <data name="Processes_Session" xml:space="preserve">
+    <value>Sesiune</value>
+  </data>
+  <data name="Processes_PrivateWorkingSet" xml:space="preserve">
+    <value>Set de lucru privat</value>
+  </data>
+  <data name="Processes_WorkingSet" xml:space="preserve">
+    <value>Set de lucru</value>
+  </data>
+  <data name="Processes_IncludesMemorySharedWithOtherProcesses" xml:space="preserve">
+    <value>Include memoria partajată cu alte procese</value>
+  </data>
+  <data name="Processes_PrivateBytes" xml:space="preserve">
+    <value>Octeți privați</value>
+  </data>
+  <data name="Processes_IORead" xml:space="preserve">
+    <value>Citire I/O</value>
+  </data>
+  <data name="Processes_IOWrite" xml:space="preserve">
+    <value>Scriere I/O</value>
+  </data>
+  <data name="Processes_Path" xml:space="preserve">
+    <value>Cale</value>
+  </data>
+  <data name="Processes_Company" xml:space="preserve">
+    <value>Companie</value>
+  </data>
+  <data name="Common_Version" xml:space="preserve">
+    <value>Versiune</value>
+  </data>
+  <data name="Processes_EndProcess" xml:space="preserve">
+    <value>Oprire proces…</value>
+  </data>
+  <data name="Replay_WhatHappenedOnYourPCInTheLastMinutesOrHours" xml:space="preserve">
+    <value>Ce s-a întâmplat pe PC în ultimele minute sau ore</value>
+  </data>
+  <data name="Replay_BackToNow" xml:space="preserve">
+    <value>Înapoi la acum</value>
+  </data>
+  <data name="Replay_ZoomIn" xml:space="preserve">
+    <value>Mărire</value>
+  </data>
+  <data name="Replay_ZoomInShorterPeriodAroundTheCursor" xml:space="preserve">
+    <value>Mărire (perioadă mai scurtă în jurul cursorului)</value>
+  </data>
+  <data name="Replay_ZoomOut" xml:space="preserve">
+    <value>Micșorare</value>
+  </data>
+  <data name="Replay_ZoomOutLongerPeriod" xml:space="preserve">
+    <value>Micșorare (perioadă mai lungă)</value>
+  </data>
+  <data name="Replay_CompareBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>Comparați înainte și după cursor</value>
+  </data>
+  <data name="Replay_CompareThe15MinutesBeforeAndAfterTheCursor" xml:space="preserve">
+    <value>Comparați cele 15 minute dinainte și de după cursor</value>
+  </data>
+  <data name="Replay_SaveThisPeriodAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați această perioadă ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Replay_MoveTheCursorToThisMoment" xml:space="preserve">
+    <value>Mutați cursorul la acest moment</value>
+  </data>
+  <data name="Replay_ReplayPosition" xml:space="preserve">
+    <value>Poziția reluării</value>
+  </data>
+  <data name="Replay_CPUUsageReplay" xml:space="preserve">
+    <value>Reluarea utilizării CPU</value>
+  </data>
+  <data name="Replay_MemoryUsageReplay" xml:space="preserve">
+    <value>Reluarea utilizării memoriei</value>
+  </data>
+  <data name="Replay_DiskBusiestVolumeActiveTime" xml:space="preserve">
+    <value>Disc (cel mai ocupat volum, timp activ)</value>
+  </data>
+  <data name="Replay_DiskActivityReplay" xml:space="preserve">
+    <value>Reluarea activității discului</value>
+  </data>
+  <data name="Replay_NetworkDownloadAndUpload" xml:space="preserve">
+    <value>Rețea (descărcare și încărcare)</value>
+  </data>
+  <data name="Replay_NetworkReplay" xml:space="preserve">
+    <value>Reluarea rețelei</value>
+  </data>
+  <data name="Replay_GPUBusiestAdapter" xml:space="preserve">
+    <value>GPU (cel mai ocupat adaptor)</value>
+  </data>
+  <data name="Replay_GPUUsageReplay" xml:space="preserve">
+    <value>Reluarea utilizării GPU</value>
+  </data>
+  <data name="Replay_AtTheCursor" xml:space="preserve">
+    <value>La cursor</value>
+  </data>
+  <data name="Replay_Disk" xml:space="preserve">
+    <value>Disc</value>
+  </data>
+  <data name="Replay_Applications" xml:space="preserve">
+    <value>Aplicații</value>
+  </data>
+  <data name="Replay_EventsAroundThisTime" xml:space="preserve">
+    <value>Evenimente în jurul acestui moment</value>
+  </data>
+  <data name="Replay_NoMeasurementsForThisPeriodLongerPeriodsUseThe" xml:space="preserve">
+    <value>Nicio măsurătoare pentru această perioadă. Perioadele mai lungi folosesc istoricul local, care se completează cât timp rulează Sysora.</value>
+  </data>
+  <data name="Settings_Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="Settings_ChangesAreAppliedAndSavedImmediately" xml:space="preserve">
+    <value>Modificările sunt aplicate și salvate imediat.</value>
+  </data>
+  <data name="Settings_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_FollowWindowsOrAlwaysUseLightOrDarkColors" xml:space="preserve">
+    <value>Urmați Windows sau folosiți mereu culori deschise ori închise</value>
+  </data>
+  <data name="Settings_Theme" xml:space="preserve">
+    <value>Temă</value>
+  </data>
+  <data name="Settings_WhatHappensWhenYouCloseTheSysoraWindow" xml:space="preserve">
+    <value>Ce se întâmplă când închideți fereastra Sysora</value>
+  </data>
+  <data name="Settings_CloseWindow" xml:space="preserve">
+    <value>Închiderea ferestrei</value>
+  </data>
+  <data name="Settings_Startup" xml:space="preserve">
+    <value>Pornire</value>
+  </data>
+  <data name="Settings_StartSysoraWithWindows" xml:space="preserve">
+    <value>Pornește Sysora odată cu Windows</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsOpenTheWindowMinimizedTo" xml:space="preserve">
+    <value>La pornirea cu Windows, deschide fereastra minimizată în bara de activități</value>
+  </data>
+  <data name="Settings_StartMinimized" xml:space="preserve">
+    <value>Pornire minimizată</value>
+  </data>
+  <data name="Settings_WhenStartedWithWindowsStayInTheNotificationArea" xml:space="preserve">
+    <value>La pornirea cu Windows, rămâne în zona de notificare fără a deschide fereastra</value>
+  </data>
+  <data name="Settings_StartInTray" xml:space="preserve">
+    <value>Pornire în zona de notificare</value>
+  </data>
+  <data name="Settings_Monitoring" xml:space="preserve">
+    <value>Monitorizare</value>
+  </data>
+  <data name="Settings_StopCollectingMetricsUntilYouResumeAlsoAvailable" xml:space="preserve">
+    <value>Opriți colectarea măsurătorilor până la reluare (disponibil și din bara de titlu și din pictograma din zona de notificare)</value>
+  </data>
+  <data name="Settings_PauseMonitoring" xml:space="preserve">
+    <value>Întrerupe monitorizarea</value>
+  </data>
+  <data name="Settings_MonitoringIntensity" xml:space="preserve">
+    <value>Intensitatea monitorizării</value>
+  </data>
+  <data name="Settings_CPUMemoryAndNetworkSamplingInterval" xml:space="preserve">
+    <value>Intervalul de eșantionare pentru CPU, memorie și rețea</value>
+  </data>
+  <data name="Settings_RealTimeMetrics" xml:space="preserve">
+    <value>Măsurători în timp real</value>
+  </data>
+  <data name="Settings_RealTimeMetricsInterval" xml:space="preserve">
+    <value>Intervalul măsurătorilor în timp real</value>
+  </data>
+  <data name="Settings_ProcessesGPUAndDiskActivitySamplingInterval" xml:space="preserve">
+    <value>Intervalul de eșantionare pentru procese, GPU și activitatea discului</value>
+  </data>
+  <data name="Settings_DetailedMetrics" xml:space="preserve">
+    <value>Măsurători detaliate</value>
+  </data>
+  <data name="Settings_DetailedMetricsInterval" xml:space="preserve">
+    <value>Intervalul măsurătorilor detaliate</value>
+  </data>
+  <data name="Settings_HowOftenFreeSpaceIsChecked" xml:space="preserve">
+    <value>Cât de des se verifică spațiul liber</value>
+  </data>
+  <data name="Settings_StorageCapacity" xml:space="preserve">
+    <value>Capacitatea de stocare</value>
+  </data>
+  <data name="Settings_StorageCapacityInterval" xml:space="preserve">
+    <value>Intervalul capacității de stocare</value>
+  </data>
+  <data name="Settings_DefaultTimeSpanOfChartsHistoryIsKeptInMemoryOnly" xml:space="preserve">
+    <value>Intervalul implicit al graficelor (istoricul este păstrat doar în memorie)</value>
+  </data>
+  <data name="Settings_ChartHistory" xml:space="preserve">
+    <value>Istoricul graficelor</value>
+  </data>
+  <data name="Settings_GraphicsAdapterUsageAndMemory" xml:space="preserve">
+    <value>Utilizarea și memoria adaptorului grafic</value>
+  </data>
+  <data name="Settings_MonitorGPU" xml:space="preserve">
+    <value>Monitorizează GPU</value>
+  </data>
+  <data name="Settings_InterfaceThroughputAndConnectivityReportedBy" xml:space="preserve">
+    <value>Debitul interfețelor și conectivitatea raportate de Windows</value>
+  </data>
+  <data name="Settings_MonitorNetwork" xml:space="preserve">
+    <value>Monitorizează rețeaua</value>
+  </data>
+  <data name="Settings_WhileTheWindowIsHiddenOrMinimizedSampleProcesses" xml:space="preserve">
+    <value>Cât timp fereastra este ascunsă sau minimizată, eșantionează mai rar procesele, GPU, discul și rețeaua</value>
+  </data>
+  <data name="Settings_ReduceActivityInTheBackground" xml:space="preserve">
+    <value>Reduce activitatea în fundal</value>
+  </data>
+  <data name="Settings_MaximumCPUSysoraMayUseInOfTotalCapacityAboveIt" xml:space="preserve">
+    <value>CPU maxim pe care îl poate folosi Sysora, în % din capacitatea totală. Peste această valoare, intervalele sunt prelungite automat. 0 = fără limită.</value>
+  </data>
+  <data name="Settings_CPUBudgetForSysora" xml:space="preserve">
+    <value>Bugetul de CPU pentru Sysora</value>
+  </data>
+  <data name="Settings_HealthThresholds" xml:space="preserve">
+    <value>Praguri de stare</value>
+  </data>
+  <data name="Settings_UsedByTheSystemHealthPanelCPUAndMemoryMustStay" xml:space="preserve">
+    <value>Folosite de panoul Starea sistemului. CPU-ul și memoria trebuie să rămână peste un prag pe durata indicată înainte de a fi semnalate, ceea ce evită alertele pentru vârfuri scurte.</value>
+  </data>
+  <data name="Settings_CPUWarning" xml:space="preserve">
+    <value>Avertizare CPU (%)</value>
+  </data>
+  <data name="Settings_CPUCritical" xml:space="preserve">
+    <value>CPU critic (%)</value>
+  </data>
+  <data name="Settings_CPUDurationS" xml:space="preserve">
+    <value>Durată CPU (s)</value>
+  </data>
+  <data name="Settings_MemoryWarning" xml:space="preserve">
+    <value>Avertizare memorie (%)</value>
+  </data>
+  <data name="Settings_MemoryCritical" xml:space="preserve">
+    <value>Memorie critică (%)</value>
+  </data>
+  <data name="Settings_MemoryDurationS" xml:space="preserve">
+    <value>Durată memorie (s)</value>
+  </data>
+  <data name="Settings_DiskWarning" xml:space="preserve">
+    <value>Avertizare disc (%)</value>
+  </data>
+  <data name="Settings_DiskCritical" xml:space="preserve">
+    <value>Disc critic (%)</value>
+  </data>
+  <data name="Settings_AppMemoryOfRAM" xml:space="preserve">
+    <value>Memorie aplicație (% din RAM)</value>
+  </data>
+  <data name="Settings_AppCPU" xml:space="preserve">
+    <value>CPU aplicație (%)</value>
+  </data>
+  <data name="Settings_RestoreDefaultThresholds" xml:space="preserve">
+    <value>Restabilește pragurile implicite</value>
+  </data>
+  <data name="Settings_RaiseAlertsForProblemsThatLastOrAreUnusualFor" xml:space="preserve">
+    <value>Emite alerte pentru problemele care durează sau sunt neobișnuite pentru acest PC (afișate în Alerte)</value>
+  </data>
+  <data name="Settings_SmartAlerts" xml:space="preserve">
+    <value>Alerte inteligente</value>
+  </data>
+  <data name="Settings_AlsoShowAWindowsNotificationForNewWarningsAnd" xml:space="preserve">
+    <value>Afișează și o notificare Windows pentru avertizările noi și alertele critice</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Notificări</value>
+  </data>
+  <data name="Settings_AlertNotifications" xml:space="preserve">
+    <value>Notificări pentru alerte</value>
+  </data>
+  <data name="Settings_EachConditionMustLastForTheGivenDurationBeforeAn" xml:space="preserve">
+    <value>Fiecare condiție trebuie să dureze pe durata indicată înainte de emiterea unei alerte. Cât timp durează, se actualizează o singură alertă; aceasta se rezolvă la un minut după încheierea condiției.</value>
+  </data>
+  <data name="Settings_CPUAbove" xml:space="preserve">
+    <value>CPU peste (%)</value>
+  </data>
+  <data name="Settings_ForMinutes" xml:space="preserve">
+    <value>timp de (minute)</value>
+  </data>
+  <data name="Settings_MemoryAbove" xml:space="preserve">
+    <value>Memorie peste (%)</value>
+  </data>
+  <data name="Settings_DiskBusyAbove" xml:space="preserve">
+    <value>Disc ocupat peste (%)</value>
+  </data>
+  <data name="Settings_OneAppAboveCPU" xml:space="preserve">
+    <value>O aplicație peste (% CPU)</value>
+  </data>
+  <data name="Settings_MemoryRisingByPoints" xml:space="preserve">
+    <value>Memoria crește cu (puncte)</value>
+  </data>
+  <data name="Settings_WithinMinutes" xml:space="preserve">
+    <value>în (minute)</value>
+  </data>
+  <data name="Settings_SystemDiskFreeBelow" xml:space="preserve">
+    <value>Spațiu liber pe discul de sistem sub (%)</value>
+  </data>
+  <data name="Settings_ReopenInsteadOfNewWithinMin" xml:space="preserve">
+    <value>Redeschide în loc de nouă în (min)</value>
+  </data>
+  <data name="Settings_NewAlertsPerHourMax" xml:space="preserve">
+    <value>Alerte noi pe oră (max.)</value>
+  </data>
+  <data name="Settings_UnusualActivity" xml:space="preserve">
+    <value>Activitate neobișnuită</value>
+  </data>
+  <data name="Settings_AlertWhenCPUMemoryOrDiskStayAboveYourUsualRange" xml:space="preserve">
+    <value>Alertă când CPU, memoria sau discul rămân peste intervalul obișnuit (învățat din cel puțin 4 ore de istoric) pe durata indicată.</value>
+  </data>
+  <data name="Settings_UnusualActivityDurationMinutes" xml:space="preserve">
+    <value>Durata activității neobișnuite (minute)</value>
+  </data>
+  <data name="Settings_UnusualActivityAlerts" xml:space="preserve">
+    <value>Alerte pentru activitate neobișnuită</value>
+  </data>
+  <data name="Settings_RestoreDefaultAlertRules" xml:space="preserve">
+    <value>Restabilește regulile de alertă implicite</value>
+  </data>
+  <data name="Settings_SaveAggregatedPerformanceApplicationUsageEvents" xml:space="preserve">
+    <value>Salvează performanța agregată, utilizarea aplicațiilor, evenimentele, alertele, modificările și sesiunile de joc într-o bază de date locală. Necesar pentru Impactul aplicațiilor pe mai multe zile, Modificări, rezumatele jocurilor și referința comportamentului obișnuit.</value>
+  </data>
+  <data name="Settings_RecordHistory" xml:space="preserve">
+    <value>Înregistrează istoricul</value>
+  </data>
+  <data name="Settings_DetailedDataEverySecondKeptInMemoryForReplay" xml:space="preserve">
+    <value>Date detaliate (în fiecare secundă) păstrate în memorie pentru Reluare. Nu sunt scrise niciodată pe disc.</value>
+  </data>
+  <data name="Settings_ReplayBuffer" xml:space="preserve">
+    <value>Memoria tampon a reluării</value>
+  </data>
+  <data name="Settings_MinuteLevelSystemDataAndFiveMinuteApplication" xml:space="preserve">
+    <value>Date de sistem la nivel de minut și date ale aplicațiilor la cinci minute (1–31 de zile)</value>
+  </data>
+  <data name="Settings_KeepDetailedHistoryDays" xml:space="preserve">
+    <value>Păstrează istoricul detaliat (zile)</value>
+  </data>
+  <data name="Settings_HourlySummariesEventsAlertsChangesAndGame" xml:space="preserve">
+    <value>Rezumate orare, evenimente, alerte, modificări și sesiuni de joc (7–365 de zile). Datele mai vechi sunt șterse automat.</value>
+  </data>
+  <data name="Settings_KeepSummariesDays" xml:space="preserve">
+    <value>Păstrează rezumatele (zile)</value>
+  </data>
+  <data name="Settings_DeleteHistory" xml:space="preserve">
+    <value>Șterge istoricul</value>
+  </data>
+  <data name="Settings_Delete" xml:space="preserve">
+    <value>Șterge…</value>
+  </data>
+  <data name="Settings_FollowGameSessionsAutomaticallyAndShowARecapWhen" xml:space="preserve">
+    <value>Urmărește automat sesiunile de joc și afișează un rezumat la închiderea jocului. FPS nu este estimat niciodată.</value>
+  </data>
+  <data name="Settings_ExecutablesThatWindowsItselfRecognizesAsGames" xml:space="preserve">
+    <value>Executabile pe care Windows însuși le recunoaște ca jocuri (lista din Game Bar pentru contul dvs.)</value>
+  </data>
+  <data name="Settings_GamesRecognizedByWindows" xml:space="preserve">
+    <value>Jocuri recunoscute de Windows</value>
+  </data>
+  <data name="Settings_ExecutablesInstalledInAGameLibraryFolderSteam" xml:space="preserve">
+    <value>Executabile instalate într-un folder de bibliotecă de jocuri (Steam, Epic, Xbox, GOG, Riot, EA, Ubisoft…); lansatoarele, anti-cheat-urile și raportoarele de erori sunt excluse</value>
+  </data>
+  <data name="Settings_GamesInLibraryFolders" xml:space="preserve">
+    <value>Jocuri din folderele de bibliotecă</value>
+  </data>
+  <data name="Settings_ShorterSessionsAreNotKept130Minutes" xml:space="preserve">
+    <value>Sesiunile mai scurte nu sunt păstrate (1–30 de minute)</value>
+  </data>
+  <data name="Settings_MinimumSessionLengthMinutes" xml:space="preserve">
+    <value>Durata minimă a sesiunii (minute)</value>
+  </data>
+  <data name="Settings_ShowAWindowsNotificationWhenAGameRecapIsReady" xml:space="preserve">
+    <value>Afișează o notificare Windows când un rezumat de joc este gata</value>
+  </data>
+  <data name="Settings_RecapNotification" xml:space="preserve">
+    <value>Notificare pentru rezumat</value>
+  </data>
+  <data name="Settings_WhileAGameIsInFrontPauseTheWindowsLiveUpdatesAnd" xml:space="preserve">
+    <value>Cât timp un joc este în prim-plan, întrerupe actualizările live ale ferestrei și eșantionează mai rar măsurătorile detaliate. Înregistrarea continuă.</value>
+  </data>
+  <data name="Settings_LighterMonitoringDuringGames" xml:space="preserve">
+    <value>Monitorizare mai ușoară în timpul jocurilor</value>
+  </data>
+  <data name="Settings_RunningApplication" xml:space="preserve">
+    <value>Aplicație în rulare</value>
+  </data>
+  <data name="Settings_ChooseARunningApplication" xml:space="preserve">
+    <value>Alegeți o aplicație în rulare</value>
+  </data>
+  <data name="Settings_RefreshTheListOfRunningApplications" xml:space="preserve">
+    <value>Reîmprospătează lista aplicațiilor în rulare</value>
+  </data>
+  <data name="Settings_MarkAsAGame" xml:space="preserve">
+    <value>Marchează ca joc</value>
+  </data>
+  <data name="Settings_MarkedAsGames" xml:space="preserve">
+    <value>Marcate ca jocuri</value>
+  </data>
+  <data name="Settings_None" xml:space="preserve">
+    <value>Niciuna</value>
+  </data>
+  <data name="Settings_Remove" xml:space="preserve">
+    <value>Elimină</value>
+  </data>
+  <data name="Settings_MarkedAsNotGames" xml:space="preserve">
+    <value>Marcate ca non-jocuri</value>
+  </data>
+  <data name="Settings_Privacy" xml:space="preserve">
+    <value>Confidențialitate</value>
+  </data>
+  <data name="Settings_SysoraIsLocalFirst" xml:space="preserve">
+    <value>Sysora funcționează local.</value>
+  </data>
+  <data name="Settings_NoTelemetryIsEnabledByDefault" xml:space="preserve">
+    <value>Nicio telemetrie nu este activată implicit.</value>
+  </data>
+  <data name="Settings_NoAccountIsRequired" xml:space="preserve">
+    <value>Nu este necesar niciun cont.</value>
+  </data>
+  <data name="Settings_NoSystemMetricsAreUploaded" xml:space="preserve">
+    <value>Nicio măsurătoare a sistemului nu este încărcată.</value>
+  </data>
+  <data name="Settings_SysoraWorksOfflineAndNeverContactsAServer" xml:space="preserve">
+    <value>Sysora funcționează offline și nu contactează niciodată un server. Setările, jurnalele și istoricul local (performanță, nume de aplicații, alerte, modificări detectate, sesiuni de joc) rămân în folderul de mai jos, pe acest PC.</value>
+  </data>
+  <data name="Settings_OpenDataFolder" xml:space="preserve">
+    <value>Deschide folderul de date</value>
+  </data>
+  <data name="Settings_OpenLogsFolder" xml:space="preserve">
+    <value>Deschide folderul de jurnale</value>
+  </data>
+  <data name="Settings_Diagnostics" xml:space="preserve">
+    <value>Diagnosticare</value>
+  </data>
+  <data name="Settings_SysoraMeasuresItsOwnProcessEveryTenSecondsAFew" xml:space="preserve">
+    <value>Sysora își măsoară propriul proces la fiecare zece secunde (câteva citiri de contoare, fără colectare suplimentară), astfel încât să puteți verifica faptul că nu devine niciodată problema pe care o caută.</value>
+  </data>
+  <data name="Settings_DetailLevelOfTheLocalLogFilesKept14Days" xml:space="preserve">
+    <value>Nivelul de detaliu al fișierelor jurnal locale (păstrate 14 zile)</value>
+  </data>
+  <data name="Settings_LogLevel" xml:space="preserve">
+    <value>Nivel de jurnalizare</value>
+  </data>
+  <data name="Settings_About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Settings_RunningInDemoModeAllMetricsAreSimulated" xml:space="preserve">
+    <value>Rulează în mod demo: toate măsurătorile sunt simulate.</value>
+  </data>
+  <data name="Storage_FindLargeFiles" xml:space="preserve">
+    <value>Găsește fișierele mari</value>
+  </data>
+  <data name="Storage_FindTheFilesThatTakeTheMostSpaceReadOnly" xml:space="preserve">
+    <value>Găsiți fișierele care ocupă cel mai mult spațiu (doar citire)</value>
+  </data>
+  <data name="Storage_VolumeInformationCouldNotBeReadDetailsAreInThe" xml:space="preserve">
+    <value>Informațiile despre volume nu au putut fi citite. Detaliile se află în fișierul jurnal.</value>
+  </data>
+  <data name="Storage_Windows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="Storage_Used" xml:space="preserve">
+    <value>Utilizat</value>
+  </data>
+  <data name="Storage_Free" xml:space="preserve">
+    <value>Liber</value>
+  </data>
+  <data name="Storage_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Storage_ActiveTime" xml:space="preserve">
+    <value>Timp activ</value>
+  </data>
+  <data name="System_OnlyInformationWindowsActuallyReportsIsShown" xml:space="preserve">
+    <value>Sunt afișate doar informațiile raportate efectiv de Windows</value>
+  </data>
+  <data name="System_ReadHardwareInformationAgain" xml:space="preserve">
+    <value>Citește din nou informațiile hardware</value>
+  </data>
+  <data name="System_SYSTEMUPTIME" xml:space="preserve">
+    <value>TIMP DE FUNCȚIONARE AL SISTEMULUI</value>
+  </data>
+  <data name="System_LastStart" xml:space="preserve">
+    <value>Ultima pornire</value>
+  </data>
+  <data name="System_WithFastStartupShuttingDownAndTurningOnAgainDoes" xml:space="preserve">
+    <value>Cu Pornirea rapidă, închiderea și repornirea din buton nu resetează acest contor: doar Repornire o face.</value>
+  </data>
+  <data name="System_WINDOWS" xml:space="preserve">
+    <value>WINDOWS</value>
+  </data>
+  <data name="System_Edition" xml:space="preserve">
+    <value>Ediție</value>
+  </data>
+  <data name="System_InstalledOn" xml:space="preserve">
+    <value>Instalat pe</value>
+  </data>
+  <data name="System_Architecture" xml:space="preserve">
+    <value>Arhitectură</value>
+  </data>
+  <data name="System_ComputerName" xml:space="preserve">
+    <value>Numele computerului</value>
+  </data>
+  <data name="System_HARDWARE" xml:space="preserve">
+    <value>HARDWARE</value>
+  </data>
+  <data name="System_Processor" xml:space="preserve">
+    <value>Procesor</value>
+  </data>
+  <data name="System_Graphics" xml:space="preserve">
+    <value>Grafică</value>
+  </data>
+  <data name="System_FIRMWARE" xml:space="preserve">
+    <value>FIRMWARE</value>
+  </data>
+  <data name="System_SystemModel" xml:space="preserve">
+    <value>Model de sistem</value>
+  </data>
+  <data name="System_Motherboard" xml:space="preserve">
+    <value>Placă de bază</value>
+  </data>
+  <data name="System_BIOS" xml:space="preserve">
+    <value>BIOS</value>
+  </data>
+  <data name="System_BIOSDate" xml:space="preserve">
+    <value>Data BIOS</value>
+  </data>
+  <data name="Timeline_WhatHappenedOnThisPCInOrder" xml:space="preserve">
+    <value>Ce s-a întâmplat pe acest PC, în ordine</value>
+  </data>
+  <data name="Timeline_ApplicationsStartedAndClosed" xml:space="preserve">
+    <value>Aplicații pornite și închise</value>
+  </data>
+  <data name="Timeline_Games" xml:space="preserve">
+    <value>Jocuri</value>
+  </data>
+  <data name="Timeline_SpikesAndAnomalies" xml:space="preserve">
+    <value>Vârfuri și anomalii</value>
+  </data>
+  <data name="Timeline_DetectedChanges" xml:space="preserve">
+    <value>Schimbări detectate</value>
+  </data>
+  <data name="Timeline_SleepNetworkAndDevices" xml:space="preserve">
+    <value>Repaus, rețea și dispozitive</value>
+  </data>
+  <data name="Timeline_TroubleshootingInvestigations" xml:space="preserve">
+    <value>Investigații de depanare</value>
+  </data>
+  <data name="Timeline_SysorasOwnEventsMonitoringStartedGaps" xml:space="preserve">
+    <value>Evenimentele proprii ale Sysora (monitorizare pornită, întreruperi)</value>
+  </data>
+  <data name="Timeline_Order" xml:space="preserve">
+    <value>Ordine</value>
+  </data>
+  <data name="Timeline_OldestFirst" xml:space="preserve">
+    <value>Cele mai vechi primele</value>
+  </data>
+  <data name="Timeline_NewestFirst" xml:space="preserve">
+    <value>Cele mai noi primele</value>
+  </data>
+  <data name="Timeline_SaveTheEntriesShownAsAnHTMLReportOrJSONData" xml:space="preserve">
+    <value>Salvați intrările afișate ca raport HTML sau date JSON</value>
+  </data>
+  <data name="Timeline_ShowThisMomentInReplay" xml:space="preserve">
+    <value>Afișează acest moment în Reluare</value>
+  </data>
+  <data name="Timeline_CompareBeforeAndAfter" xml:space="preserve">
+    <value>Compară înainte și după</value>
+  </data>
+  <data name="Timeline_CompareThe15MinutesBeforeAndAfter" xml:space="preserve">
+    <value>Comparați cele 15 minute dinainte și de după</value>
+  </data>
+  <data name="Timeline_NoEntryToShow" xml:space="preserve">
+    <value>Nicio intrare de afișat</value>
+  </data>
+  <data name="Timeline_ChooseALongerPeriodOrShowMoreKindsOfEntries" xml:space="preserve">
+    <value>Alegeți o perioadă mai lungă sau afișați mai multe tipuri de intrări. Sysora nu adaugă niciodată o intrare pe care nu a observat-o.</value>
+  </data>
+  <data name="Troubleshooting_InvestigateAProblemForALimitedTimeSysoraCollects" xml:space="preserve">
+    <value>Investigați o problemă pentru un timp limitat: Sysora colectează mai mult context, apoi explică ce a măsurat.</value>
+  </data>
+  <data name="Troubleshooting_StartInvestigation" xml:space="preserve">
+    <value>Pornește investigația</value>
+  </data>
+  <data name="Troubleshooting_StopNow" xml:space="preserve">
+    <value>Oprește acum</value>
+  </data>
+  <data name="Troubleshooting_DuringTheInvestigationSysoraSamplesWithThe" xml:space="preserve">
+    <value>În timpul investigației, Sysora eșantionează cu intensitatea Detaliată (CPU și memorie la fiecare 0,5 s, procese, GPU și discuri în fiecare secundă), chiar și cu fereastra ascunsă, și păstrează toate evenimentele. Rămâne totuși în bugetul său de CPU și revine singur la intensitatea obișnuită la final. Nimic nu părăsește acest PC.</value>
+  </data>
+  <data name="Troubleshooting_Investigation" xml:space="preserve">
+    <value>Investigație</value>
+  </data>
+  <data name="Troubleshooting_OpenInReplay" xml:space="preserve">
+    <value>Deschide în Reluare</value>
+  </data>
+  <data name="Troubleshooting_ShowTheInvestigatedPeriodInReplay" xml:space="preserve">
+    <value>Afișează perioada investigată în Reluare</value>
+  </data>
+  <data name="Troubleshooting_SaveTheReportAsAnHTMLPageOrJSONData" xml:space="preserve">
+    <value>Salvați raportul ca pagină HTML sau date JSON</value>
+  </data>
+  <data name="Troubleshooting_CPUUsageDuringTheInvestigation" xml:space="preserve">
+    <value>Utilizarea CPU în timpul investigației</value>
+  </data>
+  <data name="Troubleshooting_MemoryUsageDuringTheInvestigation" xml:space="preserve">
+    <value>Utilizarea memoriei în timpul investigației</value>
+  </data>
+  <data name="Troubleshooting_Peak" xml:space="preserve">
+    <value>Vârf</value>
+  </data>
+  <data name="Troubleshooting_ColumnsAverageThenPeak" xml:space="preserve">
+    <value>Coloane: medie, apoi vârf.</value>
+  </data>
+  <data name="Troubleshooting_Anomalies" xml:space="preserve">
+    <value>Anomalii</value>
+  </data>
+  <data name="Troubleshooting_CorrelationsAndLikelyExplanations" xml:space="preserve">
+    <value>Corelații și explicații probabile</value>
+  </data>
+  <data name="Troubleshooting_ObservedMeasuredInferredACoincidenceInThe" xml:space="preserve">
+    <value>Observat = măsurat. Dedus = o coincidență în măsurători: datele o sugerează, nu este dovedită.</value>
+  </data>
+  <data name="Troubleshooting_ApplicationsInvolved" xml:space="preserve">
+    <value>Aplicații implicate</value>
+  </data>
+  <data name="Troubleshooting_Events" xml:space="preserve">
+    <value>Evenimente</value>
+  </data>
+  <data name="Troubleshooting_WhatCouldNotBeKnown" xml:space="preserve">
+    <value>Ce nu a putut fi aflat</value>
+  </data>
+  <data name="Network_DownloadHeader" xml:space="preserve">
+    <value>DESCĂRCARE</value>
+  </data>
+  <data name="Network_UploadHeader" xml:space="preserve">
+    <value>ÎNCĂRCARE</value>
+  </data>
+  <data name="Common_Checking" xml:space="preserve">
+    <value>Se verifică…</value>
+  </data>
+  <data name="Dashboard_NoIssue" xml:space="preserve">
+    <value>Nicio problemă detectată</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_One" xml:space="preserve">
+    <value>{0} element necesită atenție</value>
+  </data>
+  <data name="Dashboard_ItemsAttention_Other" xml:space="preserve">
+    <value>{0} elemente necesită atenție|{0} de elemente necesită atenție</value>
+  </data>
+  <data name="Dashboard_DiagnosisNotAvailable" xml:space="preserve">
+    <value>Diagnostic indisponibil</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_NoReference" xml:space="preserve">
+    <value>Sysora compară cu un instantaneu de ieri; primul este realizat la un minut după pornire.</value>
+  </data>
+  <data name="Dashboard_SinceYesterday_Nothing" xml:space="preserve">
+    <value>Nimic nu s-a schimbat în zonele comparate ({0}).</value>
+  </data>
+  <data name="Dashboard_AlertsNew" xml:space="preserve">
+    <value>Alerte (noi: {0})</value>
+  </data>
+  <data name="Dashboard_AlertsActive" xml:space="preserve">
+    <value>Alerte (active: {0})</value>
+  </data>
+  <data name="Common_Off" xml:space="preserve">
+    <value>Dezactivat</value>
+  </data>
+  <data name="Dashboard_NetworkOff" xml:space="preserve">
+    <value>Monitorizarea rețelei este dezactivată</value>
+  </data>
+  <data name="Dashboard_NotConnected" xml:space="preserve">
+    <value>Neconectat</value>
+  </data>
+  <data name="Dashboard_ConnectivityUnknown" xml:space="preserve">
+    <value>Conectivitate necunoscută</value>
+  </data>
+  <data name="Dashboard_SpeedNotAvailable" xml:space="preserve">
+    <value>Viteză indisponibilă</value>
+  </data>
+  <data name="Count_Thread_One" xml:space="preserve">
+    <value>{0} fir de execuție</value>
+  </data>
+  <data name="Count_Thread_Other" xml:space="preserve">
+    <value>{0} fire de execuție|{0} de fire de execuție</value>
+  </data>
+  <data name="Dashboard_Temperature" xml:space="preserve">
+    <value>Temperatură: {0}</value>
+  </data>
+  <data name="Dashboard_MemoryOf" xml:space="preserve">
+    <value>din {0} · {1}</value>
+  </data>
+  <data name="Dashboard_MemoryAvailable" xml:space="preserve">
+    <value>{0} disponibil</value>
+  </data>
+  <data name="Dashboard_GpuOff" xml:space="preserve">
+    <value>Monitorizarea GPU este dezactivată</value>
+  </data>
+  <data name="Dashboard_GpuMemory" xml:space="preserve">
+    <value>Memorie {0} / {1}</value>
+  </data>
+  <data name="Dashboard_DiskFree" xml:space="preserve">
+    <value>{0} · {1} liber din {2}</value>
+  </data>
+  <data name="Dashboard_ActiveTime" xml:space="preserve">
+    <value>Timp activ {0}</value>
+  </data>
+  <data name="Dashboard_ActiveTimeNotAvailable" xml:space="preserve">
+    <value>Timp activ indisponibil</value>
+  </data>
+  <data name="LargeFiles_View_Files" xml:space="preserve">
+    <value>Fișiere</value>
+  </data>
+  <data name="LargeFiles_View_ByType" xml:space="preserve">
+    <value>După tip</value>
+  </data>
+  <data name="LargeFiles_View_ByExtension" xml:space="preserve">
+    <value>După extensie</value>
+  </data>
+  <data name="LargeFiles_View_ByFolder" xml:space="preserve">
+    <value>După folder</value>
+  </data>
+  <data name="LargeFiles_AllTypes" xml:space="preserve">
+    <value>Toate tipurile</value>
+  </data>
+  <data name="LargeFiles_OrMore" xml:space="preserve">
+    <value>{0} sau mai mult</value>
+  </data>
+  <data name="LargeFiles_Starting" xml:space="preserve">
+    <value>Se pornește…</value>
+  </data>
+  <data name="LargeFiles_ScanFailed" xml:space="preserve">
+    <value>Scanarea a eșuat: {0}</value>
+  </data>
+  <data name="LargeFiles_FolderTarget" xml:space="preserve">
+    <value>Folder: {0}</value>
+  </data>
+  <data name="LargeFiles_VolumeTarget" xml:space="preserve">
+    <value>{0}{1}{2} · {3} liber din {4}</value>
+  </data>
+  <data name="LargeFiles_AllFixed" xml:space="preserve">
+    <value>Toate volumele fixe</value>
+  </data>
+  <data name="LargeFiles_Progress" xml:space="preserve">
+    <value>{0} · {1} · {2} parcurse · {3} până acum</value>
+  </data>
+  <data name="Count_FileN0_One" xml:space="preserve">
+    <value>{0:N0} fișier</value>
+  </data>
+  <data name="Count_FileN0_Other" xml:space="preserve">
+    <value>{0:N0} fișiere|{0:N0} de fișiere</value>
+  </data>
+  <data name="Count_LargeFile_One" xml:space="preserve">
+    <value>{0} fișier mare</value>
+  </data>
+  <data name="Count_LargeFile_Other" xml:space="preserve">
+    <value>{0} fișiere mari|{0} de fișiere mari</value>
+  </data>
+  <data name="LargeFiles_LastScan" xml:space="preserve">
+    <value>Scanat {0}: {1} · {2} de {3} sau mai mult</value>
+  </data>
+  <data name="LargeFiles_Truncated" xml:space="preserve">
+    <value>(sunt listate cele mai mari {0})</value>
+  </data>
+  <data name="LargeFiles_Problem_Denied" xml:space="preserve">
+    <value>Acces refuzat: {0} nu au putut fi citite, deci conținutul lor este necunoscut (nu gol). De exemplu: {1}.</value>
+  </data>
+  <data name="LargeFiles_Problem_Unavailable" xml:space="preserve">
+    <value>Indisponibile: {0} nu au putut fi citite (eliminate în timpul scanării, eroare de dispozitiv sau cale prea lungă).</value>
+  </data>
+  <data name="LargeFiles_Problem_Cloud" xml:space="preserve">
+    <value>{0} omise: sunt stocate în cloud, nu pe acest PC.</value>
+  </data>
+  <data name="LargeFiles_Problem_Links" xml:space="preserve">
+    <value>{0} neurmărite (joncțiunile și legăturile simbolice indică date numărate în altă parte).</value>
+  </data>
+  <data name="LargeFiles_Problem_Excluded" xml:space="preserve">
+    <value>Nescanat: {0} — {1}</value>
+  </data>
+  <data name="Diagnosis_WhyNowFailed" xml:space="preserve">
+    <value>Analiza nu a putut fi finalizată. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Diagnosis_BeforeData" xml:space="preserve">
+    <value>Înaintea datelor analizate</value>
+  </data>
+  <data name="Diagnosis_UsualNotKnown" xml:space="preserve">
+    <value>Intervalul obișnuit nu este încă cunoscut.</value>
+  </data>
+  <data name="Diagnosis_Failed" xml:space="preserve">
+    <value>Diagnosticul nu a putut fi finalizat. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Diagnosis_Analyzed" xml:space="preserve">
+    <value>Analizat: ultimele {0} · {1} · actualizat {2}</value>
+  </data>
+  <data name="Diagnosis_ObservedFor" xml:space="preserve">
+    <value>{0}: {1} timp de {2}</value>
+  </data>
+  <data name="Diagnosis_Reference" xml:space="preserve">
+    <value>Referință: {0}</value>
+  </data>
+  <data name="Diagnosis_ObservedAt" xml:space="preserve">
+    <value>Observat {0}</value>
+  </data>
+  <data name="State_ProblemDetected" xml:space="preserve">
+    <value>Problemă detectată</value>
+  </data>
+  <data name="State_Healthy" xml:space="preserve">
+    <value>În regulă</value>
+  </data>
+  <data name="Alerts_Filter_All" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="Alerts_Filter_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Alerts_Filter_Resolved" xml:space="preserve">
+    <value>Rezolvate</value>
+  </data>
+  <data name="Alerts_NoneIn7Days" xml:space="preserve">
+    <value>Nicio alertă înregistrată în ultimele 7 zile.</value>
+  </data>
+  <data name="Alerts_Summary" xml:space="preserve">
+    <value>{0} · noi: {1} · {2} în ultimele 7 zile</value>
+  </data>
+  <data name="Count_ActiveAlert_One" xml:space="preserve">
+    <value>{0} alertă activă</value>
+  </data>
+  <data name="Count_ActiveAlert_Other" xml:space="preserve">
+    <value>{0} alerte active|{0} de alerte active</value>
+  </data>
+  <data name="Alerts_Rule_Cpu" xml:space="preserve">
+    <value>CPU peste {0} timp de {1}</value>
+  </data>
+  <data name="Alerts_Rule_Memory" xml:space="preserve">
+    <value>memorie peste {0} timp de {1}</value>
+  </data>
+  <data name="Alerts_Rule_Disk" xml:space="preserve">
+    <value>disc ocupat peste {0} timp de {1}</value>
+  </data>
+  <data name="Alerts_Rule_App" xml:space="preserve">
+    <value>o aplicație peste {0} CPU timp de {1}</value>
+  </data>
+  <data name="Alerts_Rule_Growth" xml:space="preserve">
+    <value>memoria crește cu {0:0} p.p. în {1}</value>
+  </data>
+  <data name="Alerts_Rule_Unusual" xml:space="preserve">
+    <value>activitate peste intervalul obișnuit timp de {0}</value>
+  </data>
+  <data name="Alerts_Rule_UnusualOff" xml:space="preserve">
+    <value>activitate neobișnuită dezactivată</value>
+  </data>
+  <data name="Alerts_Rule_Space" xml:space="preserve">
+    <value>mai puțin de {0} liber pe discul de sistem</value>
+  </data>
+  <data name="Alerts_Lasted" xml:space="preserve">
+    <value>a durat {0}</value>
+  </data>
+  <data name="Alerts_SinceOngoing" xml:space="preserve">
+    <value>Din {0} · în curs{1}</value>
+  </data>
+  <data name="Count_Occurrence_One" xml:space="preserve">
+    <value>{0} apariție</value>
+  </data>
+  <data name="Count_Occurrence_Other" xml:space="preserve">
+    <value>{0} apariții|{0} de apariții</value>
+  </data>
+  <data name="Changes_View_Timeline" xml:space="preserve">
+    <value>Cronologie (ultimele 30 de zile)</value>
+  </data>
+  <data name="Changes_View_Morning" xml:space="preserve">
+    <value>De azi-dimineață</value>
+  </data>
+  <data name="Changes_View_Yesterday" xml:space="preserve">
+    <value>De ieri</value>
+  </data>
+  <data name="Changes_View_7Days" xml:space="preserve">
+    <value>De acum 7 zile</value>
+  </data>
+  <data name="Changes_View_30Days" xml:space="preserve">
+    <value>De acum 30 de zile</value>
+  </data>
+  <data name="Changes_SinceFailed" xml:space="preserve">
+    <value>Comparația cu ziua de ieri nu a putut fi realizată.</value>
+  </data>
+  <data name="Changes_NoSnapshotYet" xml:space="preserve">
+    <value>Încă nu a fost înregistrat niciun instantaneu. Sysora realizează unul la un minut după pornire, apoi la fiecare șase ore.</value>
+  </data>
+  <data name="Changes_Snapshots" xml:space="preserve">
+    <value>{0} din {1} · ultimul {2}</value>
+  </data>
+  <data name="Count_DailySnapshot_One" xml:space="preserve">
+    <value>{0} instantaneu zilnic</value>
+  </data>
+  <data name="Count_DailySnapshot_Other" xml:space="preserve">
+    <value>{0} instantanee zilnice|{0} de instantanee zilnice</value>
+  </data>
+  <data name="Changes_NoChangeYet" xml:space="preserve">
+    <value>Încă nu a fost înregistrată nicio schimbare. Schimbările apar aici pe măsură ce Sysora compară instantaneele zilnice ale PC-ului (aplicații, programe de pornire, versiunea Windows, dispozitive, spațiu pe disc și utilizare medie).</value>
+  </data>
+  <data name="Changes_DetectedNote" xml:space="preserve">
+    <value>Detectate prin compararea instantaneelor PC-ului. Aplicațiile desktop instalate sau actualizate în ultimele 30 de zile sunt listate și pe baza datelor înregistrate în Windows.</value>
+  </data>
+  <data name="Changes_LoadFailed" xml:space="preserve">
+    <value>Modificările nu au putut fi încărcate. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Changes_Group_ThisWeek" xml:space="preserve">
+    <value>Săptămâna aceasta</value>
+  </data>
+  <data name="Changes_Group_Earlier" xml:space="preserve">
+    <value>Mai devreme</value>
+  </data>
+  <data name="Importance_HighLong" xml:space="preserve">
+    <value>Importanță mare</value>
+  </data>
+  <data name="Changes_On" xml:space="preserve">
+    <value>Pe {0}</value>
+  </data>
+  <data name="Changes_Between" xml:space="preserve">
+    <value>Între {0} și {1}</value>
+  </data>
+  <data name="Changes_SameDayBetween" xml:space="preserve">
+    <value>{0}, între {1} și {2}</value>
+  </data>
+  <data name="Changes_BeforeTime" xml:space="preserve">
+    <value>Înainte de {0}</value>
+  </data>
+  <data name="Recurring_OccurrencesShort" xml:space="preserve">
+    <value>{0}× în {1} zile</value>
+  </data>
+  <data name="AppImpact_Failed" xml:space="preserve">
+    <value>Impactul aplicațiilor nu a putut fi calculat. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="AppImpact_Summary" xml:space="preserve">
+    <value>{0} · {1} măsurat</value>
+  </data>
+  <data name="AppImpact_SummaryApps" xml:space="preserve">
+    <value>{0} · {1} măsurat · {2}</value>
+  </data>
+  <data name="Count_Application_One" xml:space="preserve">
+    <value>{0} aplicație</value>
+  </data>
+  <data name="Count_Application_Other" xml:space="preserve">
+    <value>{0} aplicații|{0} de aplicații</value>
+  </data>
+  <data name="AppImpact_LastHourPerMinute" xml:space="preserve">
+    <value>Ultima oră, pe minut</value>
+  </data>
+  <data name="AppImpact_PathNotAccessible" xml:space="preserve">
+    <value>Cale inaccesibilă: identificată doar după nume</value>
+  </data>
+  <data name="AppImpact_PathProtected" xml:space="preserve">
+    <value>Calea executabilului nu este accesibilă (proces protejat): identificată doar după nume.</value>
+  </data>
+  <data name="AppImpact_RelativeScore" xml:space="preserve">
+    <value>Scor relativ {0}/100</value>
+  </data>
+  <data name="AppImpact_Peaks" xml:space="preserve">
+    <value>Vârf CPU {0} · vârf memorie {1} · vârf I/O {2}</value>
+  </data>
+  <data name="AppImpact_Starts_One" xml:space="preserve">
+    <value>{0} pornire observată</value>
+  </data>
+  <data name="AppImpact_Starts_Other" xml:space="preserve">
+    <value>{0} porniri observate|{0} de porniri observate</value>
+  </data>
+  <data name="AppImpact_NoStart" xml:space="preserve">
+    <value>Nicio pornire observată în această perioadă</value>
+  </data>
+  <data name="AppImpact_RunningNow" xml:space="preserve">
+    <value>Rulează acum · {0}</value>
+  </data>
+  <data name="AppImpact_LastSeen" xml:space="preserve">
+    <value>Văzută ultima dată {0}</value>
+  </data>
+  <data name="AppImpact_NoHistory" xml:space="preserve">
+    <value>Niciun istoric pentru această aplicație în această perioadă.</value>
+  </data>
+  <data name="AppImpact_ChartPerHour" xml:space="preserve">
+    <value>Medie în timpul rulării, pe oră. Goluri: nu rula sau nu a fost măsurată.</value>
+  </data>
+  <data name="AppImpact_ChartPerMinutes" xml:space="preserve">
+    <value>Medie în timpul rulării, la fiecare {0}. Goluri: nu rula sau nu a fost măsurată.</value>
+  </data>
+  <data name="AppImpact_MostOfTheTime" xml:space="preserve">
+    <value>Majoritatea timpului</value>
+  </data>
+  <data name="AppImpact_PartOfTheTime" xml:space="preserve">
+    <value>O parte din timp</value>
+  </data>
+  <data name="AppImpact_Briefly" xml:space="preserve">
+    <value>Pentru scurt timp</value>
+  </data>
+  <data name="Replay_LoadFailed" xml:space="preserve">
+    <value>Datele reluării nu au putut fi încărcate. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Replay_Live" xml:space="preserve">
+    <value>Live · {0}</value>
+  </data>
+  <data name="Replay_Paused" xml:space="preserve">
+    <value>Întrerupt · {0}</value>
+  </data>
+  <data name="Replay_NoMeasurementAtTime" xml:space="preserve">
+    <value>Nicio măsurătoare la acest moment</value>
+  </data>
+  <data name="Replay_NowAt" xml:space="preserve">
+    <value>Acum ({0})</value>
+  </data>
+  <data name="Replay_DiskActive" xml:space="preserve">
+    <value>{0} activ{1}</value>
+  </data>
+  <data name="Replay_AppsNotAvailable" xml:space="preserve">
+    <value>Datele aplicațiilor nu sunt disponibile pentru acest moment.</value>
+  </data>
+  <data name="Replay_AppAverage" xml:space="preserve">
+    <value>{0} — {1} CPU, {2} (medie pe 5 minute)</value>
+  </data>
+  <data name="Replay_NoAppRecorded" xml:space="preserve">
+    <value>Nicio aplicație înregistrată pentru această perioadă de cinci minute.</value>
+  </data>
+  <data name="Replay_AppNow" xml:space="preserve">
+    <value>{0}{1} — {2} CPU, {3}</value>
+  </data>
+  <data name="Trend_MemoryRisingBy" xml:space="preserve">
+    <value>Memoria crește (+{0})</value>
+  </data>
+  <data name="Trend_MemoryRising" xml:space="preserve">
+    <value>Memoria crește</value>
+  </data>
+  <data name="Trend_CpuRisingBy" xml:space="preserve">
+    <value>CPU crește (+{0})</value>
+  </data>
+  <data name="Trend_CpuRising" xml:space="preserve">
+    <value>CPU crește</value>
+  </data>
+  <data name="Trend_MemoryFallingBy" xml:space="preserve">
+    <value>Memoria scade ({0})</value>
+  </data>
+  <data name="Trend_MemoryFalling" xml:space="preserve">
+    <value>Memoria scade</value>
+  </data>
+  <data name="Trend_CpuFallingBy" xml:space="preserve">
+    <value>CPU scade ({0})</value>
+  </data>
+  <data name="Trend_CpuFalling" xml:space="preserve">
+    <value>CPU scade</value>
+  </data>
+  <data name="Trend_NotEnoughData" xml:space="preserve">
+    <value>Date insuficiente</value>
+  </data>
+  <data name="Trend_Stable" xml:space="preserve">
+    <value>Stabil</value>
+  </data>
+  <data name="Count_MeasurementN0_One" xml:space="preserve">
+    <value>{0:N0} măsurătoare</value>
+  </data>
+  <data name="Count_MeasurementN0_Other" xml:space="preserve">
+    <value>{0:N0} măsurători|{0:N0} de măsurători</value>
+  </data>
+  <data name="Evidence_Source" xml:space="preserve">
+    <value>Sursă: {0}</value>
+  </data>
+  <data name="Action_Compare" xml:space="preserve">
+    <value>Compară înainte / după</value>
+  </data>
+  <data name="Action_Open" xml:space="preserve">
+    <value>Deschide {0}</value>
+  </data>
+  <data name="Gaming_NotFollowed" xml:space="preserve">
+    <value>{0} nu va mai fi urmărit ca joc. Puteți anula acest lucru în Setări › Jocuri.</value>
+  </data>
+  <data name="Gaming_LiveTitle" xml:space="preserve">
+    <value>{0} · rulează de {1}</value>
+  </data>
+  <data name="Gaming_LiveCpu" xml:space="preserve">
+    <value>CPU {0} medie (vârf {1})</value>
+  </data>
+  <data name="Gaming_LiveGpu" xml:space="preserve">
+    <value>GPU {0} medie (vârf {1})</value>
+  </data>
+  <data name="Gaming_LiveMemory" xml:space="preserve">
+    <value>memorie {0} medie</value>
+  </data>
+  <data name="Gaming_LiveGameMemory" xml:space="preserve">
+    <value>joc {0} medie</value>
+  </data>
+  <data name="Gaming_Collecting" xml:space="preserve">
+    <value>Se colectează primele măsurători…</value>
+  </data>
+  <data name="Gaming_SelfCpu" xml:space="preserve">
+    <value>Sysora însuși: {0} din CPU în medie în timpul acestei sesiuni. FPS: Indisponibil.</value>
+  </data>
+  <data name="Gaming_FpsNotAvailable" xml:space="preserve">
+    <value>FPS: Indisponibil.</value>
+  </data>
+  <data name="Gaming_NoSessionYet" xml:space="preserve">
+    <value>Încă nu a fost înregistrată nicio sesiune de joc.</value>
+  </data>
+  <data name="Gaming_Summary" xml:space="preserve">
+    <value>{0} în ultimele 90 de zile · {1} de joc măsurat</value>
+  </data>
+  <data name="Count_Session_One" xml:space="preserve">
+    <value>{0} sesiune</value>
+  </data>
+  <data name="Count_Session_Other" xml:space="preserve">
+    <value>{0} sesiuni|{0} de sesiuni</value>
+  </data>
+  <data name="Gaming_LoadFailed" xml:space="preserve">
+    <value>Sesiunile de joc nu au putut fi încărcate: {0}</value>
+  </data>
+  <data name="Gaming_Detection" xml:space="preserve">
+    <value>Identificat ca joc: {0} ({1})</value>
+  </data>
+  <data name="Gaming_CpuLegend" xml:space="preserve">
+    <value>Tot PC-ul (umplut) și jocul (linie), {0}</value>
+  </data>
+  <data name="Gaming_GpuLegendNoGame" xml:space="preserve">
+    <value>Cel mai ocupat adaptor grafic, {0} (utilizarea GPU a jocului: indisponibilă)</value>
+  </data>
+  <data name="Gaming_GpuLegend" xml:space="preserve">
+    <value>Cel mai ocupat adaptor grafic (umplut) și jocul (linie), {0}</value>
+  </data>
+  <data name="Gaming_StepMinute" xml:space="preserve">
+    <value>medie pe minut</value>
+  </data>
+  <data name="Gaming_StepOther" xml:space="preserve">
+    <value>medie la fiecare {0}</value>
+  </data>
+  <data name="Gaming_AppLine" xml:space="preserve">
+    <value>{0}: {1} CPU în medie (vârf {2}), până la {3}</value>
+  </data>
+  <data name="Timeline_LoadFailed" xml:space="preserve">
+    <value>Cronologia nu a putut fi încărcată. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Timeline_Empty" xml:space="preserve">
+    <value>Încă nu s-a înregistrat nimic în această perioadă. Intrările provin din ce observă Sysora cât timp rulează: aplicații, jocuri, alerte, vârfuri, modificări, repaus și investigații.</value>
+  </data>
+  <data name="Timeline_Shown" xml:space="preserve">
+    <value>Afișate {0} din {1}. Orele sunt cele observate de Sysora; ≈ marchează o schimbare găsită prin compararea instantaneelor (s-a produs cel târziu la acea oră).</value>
+  </data>
+  <data name="Network_Connected" xml:space="preserve">
+    <value>Conectat la internet</value>
+  </data>
+  <data name="Network_RestrictedDetail" xml:space="preserve">
+    <value>Windows raportează acces restricționat, de exemplu o pagină de conectare</value>
+  </data>
+  <data name="Network_LocalOnly" xml:space="preserve">
+    <value>Conectat doar la o rețea locală</value>
+  </data>
+  <data name="Network_NoInterface" xml:space="preserve">
+    <value>Nicio interfață de rețea activă</value>
+  </data>
+  <data name="Network_StatusUnknown" xml:space="preserve">
+    <value>Starea conexiunii este necunoscută</value>
+  </data>
+  <data name="Network_NoLevel" xml:space="preserve">
+    <value>Windows nu a raportat un nivel de conectivitate</value>
+  </data>
+  <data name="Network_Cellular" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="Network_DefaultRoute" xml:space="preserve">
+    <value>Rută implicită</value>
+  </data>
+  <data name="Network_NoAddress" xml:space="preserve">
+    <value>Niciuna</value>
+  </data>
+  <data name="Compare_Preset_HourAgo" xml:space="preserve">
+    <value>Acum față de acum 1 oră</value>
+  </data>
+  <data name="Compare_Preset_Yesterday" xml:space="preserve">
+    <value>Acum față de ieri la această oră</value>
+  </data>
+  <data name="Compare_Preset_TodayYesterday" xml:space="preserve">
+    <value>Astăzi față de ieri</value>
+  </data>
+  <data name="Compare_Preset_GameDuring" xml:space="preserve">
+    <value>Sesiune de joc: înainte și în timpul</value>
+  </data>
+  <data name="Compare_Preset_GameAfter" xml:space="preserve">
+    <value>Sesiune de joc: înainte și după</value>
+  </data>
+  <data name="Compare_Preset_GamePrevious" xml:space="preserve">
+    <value>Sesiune de joc față de cea anterioară</value>
+  </data>
+  <data name="Compare_Preset_Moment" xml:space="preserve">
+    <value>Înainte și după un moment</value>
+  </data>
+  <data name="Compare_Preset_TwoMoments" xml:space="preserve">
+    <value>Două momente</value>
+  </data>
+  <data name="Compare_Failed" xml:space="preserve">
+    <value>Comparația nu a putut fi realizată. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Compare_NotCompared" xml:space="preserve">
+    <value>Necomparat</value>
+  </data>
+  <data name="Troubleshooting_Idle" xml:space="preserve">
+    <value>Alegeți cât timp să dureze investigația, apoi porniți-o în timp ce apare problema (sau chiar înainte).</value>
+  </data>
+  <data name="Troubleshooting_Active" xml:space="preserve">
+    <value>Mod de depanare activ · Se colectează context suplimentar…</value>
+  </data>
+  <data name="Troubleshooting_Elapsed" xml:space="preserve">
+    <value>{0} din {1} · se încheie singur, apoi colectarea revine la normal</value>
+  </data>
+  <data name="Count_Event_One" xml:space="preserve">
+    <value>{0} eveniment</value>
+  </data>
+  <data name="Count_Event_Other" xml:space="preserve">
+    <value>{0} evenimente|{0} de evenimente</value>
+  </data>
+  <data name="Troubleshooting_Period" xml:space="preserve">
+    <value>{0} · {1} · colectare detaliată</value>
+  </data>
+  <data name="Troubleshooting_EndedByItself" xml:space="preserve">
+    <value>s-a încheiat singură</value>
+  </data>
+  <data name="Troubleshooting_Stopped" xml:space="preserve">
+    <value>oprită</value>
+  </data>
+  <data name="Troubleshooting_EndedOnClose" xml:space="preserve">
+    <value>s-a încheiat la închiderea Sysora</value>
+  </data>
+  <data name="Troubleshooting_AppCpu" xml:space="preserve">
+    <value>{0} medie · {1} vârf</value>
+  </data>
+  <data name="Troubleshooting_AppMemory" xml:space="preserve">
+    <value>{0} vârf</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_One" xml:space="preserve">
+    <value>Cea mai ocupată într-un moment cu CPU ridicat ({0})</value>
+  </data>
+  <data name="Troubleshooting_BusiestCpu_Other" xml:space="preserve">
+    <value>Cea mai ocupată în momentele cu CPU ridicat ({0})|Cea mai ocupată în momentele cu CPU ridicat ({0})</value>
+  </data>
+  <data name="Troubleshooting_MostIo_One" xml:space="preserve">
+    <value>Cele mai multe I/O într-un moment cu disc ocupat ({0})</value>
+  </data>
+  <data name="Troubleshooting_MostIo_Other" xml:space="preserve">
+    <value>Cele mai multe I/O în momentele cu disc ocupat ({0})|Cele mai multe I/O în momentele cu disc ocupat ({0})</value>
+  </data>
+  <data name="Storage_Summary" xml:space="preserve">
+    <value>{0} · {1} liber din {2}</value>
+  </data>
+  <data name="Count_Volume_One" xml:space="preserve">
+    <value>{0} volum</value>
+  </data>
+  <data name="Count_Volume_Other" xml:space="preserve">
+    <value>{0} volume|{0} de volume</value>
+  </data>
+  <data name="Storage_UsedPercent" xml:space="preserve">
+    <value>{0} utilizat</value>
+  </data>
+  <data name="Storage_RemovableDisk" xml:space="preserve">
+    <value>Disc amovibil</value>
+  </data>
+  <data name="Storage_OpticalDrive" xml:space="preserve">
+    <value>Unitate optică</value>
+  </data>
+  <data name="Storage_RamDisk" xml:space="preserve">
+    <value>Disc RAM</value>
+  </data>
+  <data name="Storage_LocalDisk" xml:space="preserve">
+    <value>Disc local</value>
+  </data>
+  <data name="Storage_Kind_Fixed" xml:space="preserve">
+    <value>Fix</value>
+  </data>
+  <data name="Storage_Kind_Removable" xml:space="preserve">
+    <value>Amovibil</value>
+  </data>
+  <data name="Storage_Kind_Optical" xml:space="preserve">
+    <value>Optic</value>
+  </data>
+  <data name="Processes_EndTitle" xml:space="preserve">
+    <value>Opriți {0}?</value>
+  </data>
+  <data name="Processes_EndMessage" xml:space="preserve">
+    <value>Sysora va opri {0} (PID {1}). Orice lucru nesalvat în această aplicație va fi pierdut.</value>
+  </data>
+  <data name="Processes_EndButton" xml:space="preserve">
+    <value>Oprește procesul</value>
+  </data>
+  <data name="Processes_Ended" xml:space="preserve">
+    <value>Proces oprit</value>
+  </data>
+  <data name="Processes_EndedMessage" xml:space="preserve">
+    <value>{0} (PID {1}) a fost oprit.</value>
+  </data>
+  <data name="Processes_NotEnded" xml:space="preserve">
+    <value>{0} nu a fost oprit</value>
+  </data>
+  <data name="Processes_UnknownError" xml:space="preserve">
+    <value>Eroare necunoscută.</value>
+  </data>
+  <data name="Processes_Filtered" xml:space="preserve">
+    <value>{0} din {1}</value>
+  </data>
+  <data name="Common_Loading" xml:space="preserve">
+    <value>Se încarcă…</value>
+  </data>
+  <data name="System_VersionBuild" xml:space="preserve">
+    <value>Versiunea {0} (build {1})</value>
+  </data>
+  <data name="System_Build" xml:space="preserve">
+    <value>Build {0}</value>
+  </data>
+  <data name="System_RunsAs" xml:space="preserve">
+    <value>{0} (Sysora rulează ca {1})</value>
+  </data>
+  <data name="Count_Core_One" xml:space="preserve">
+    <value>{0} nucleu</value>
+  </data>
+  <data name="Count_Core_Other" xml:space="preserve">
+    <value>{0} nuclee|{0} de nuclee</value>
+  </data>
+  <data name="System_Base" xml:space="preserve">
+    <value>de bază {0}</value>
+  </data>
+  <data name="System_Usable" xml:space="preserve">
+    <value>{0} utilizabil</value>
+  </data>
+  <data name="System_Bits64x64" xml:space="preserve">
+    <value>64 de biți (x64)</value>
+  </data>
+  <data name="System_Bits64Arm" xml:space="preserve">
+    <value>64 de biți (ARM64)</value>
+  </data>
+  <data name="System_Bits32" xml:space="preserve">
+    <value>32 de biți (x86)</value>
+  </data>
+  <data name="PcHealth_Failed" xml:space="preserve">
+    <value>Scorul nu a putut fi calculat. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="PcHealth_BasedOn" xml:space="preserve">
+    <value>Bazat pe {0} · {1} · actualizat {2}</value>
+  </data>
+  <data name="PcHealth_SelfMeasures" xml:space="preserve">
+    <value>Sysora își măsoară propria utilizare la fiecare zece secunde.</value>
+  </data>
+  <data name="Performance_TemperatureHint" xml:space="preserve">
+    <value>Windows nu expune temperatura procesorului printr-un API documentat. Citirea ei necesită un driver de kernel, pe care Sysora nu îl instalează în mod intenționat.</value>
+  </data>
+  <data name="Performance_CoreN" xml:space="preserve">
+    <value>CPU {0}</value>
+  </data>
+  <data name="Performance_DiskN" xml:space="preserve">
+    <value>Disc {0}</value>
+  </data>
+  <data name="Usual_CurrentAverage" xml:space="preserve">
+    <value>Media ultimelor {0:0} minute</value>
+  </data>
+  <data name="Usual_NotMeasuredRecently" xml:space="preserve">
+    <value>Nemăsurat în ultimele minute</value>
+  </data>
+  <data name="Usual_PeriodAverage" xml:space="preserve">
+    <value>{0}: medie pe {1} de măsurători ({2})</value>
+  </data>
+  <data name="Duration_Second_One" xml:space="preserve">
+    <value>{0} secundă</value>
+  </data>
+  <data name="Duration_Second_Other" xml:space="preserve">
+    <value>{0} secunde|{0} de secunde</value>
+  </data>
+  <data name="Chart_Rising" xml:space="preserve">
+    <value>În creștere</value>
+  </data>
+  <data name="Chart_Falling" xml:space="preserve">
+    <value>În scădere</value>
+  </data>
+  <data name="Chart_Stats" xml:space="preserve">
+    <value>Medie {0} · Vârf {1}{2}</value>
+  </data>
+  <data name="Shell_ResumeMonitoring" xml:space="preserve">
+    <value>Reia monitorizarea</value>
+  </data>
+  <data name="Tray_Open" xml:space="preserve">
+    <value>Deschide Sysora</value>
+  </data>
+  <data name="Tray_Exit" xml:space="preserve">
+    <value>Ieșire</value>
+  </data>
+  <data name="Tray_StillRunning" xml:space="preserve">
+    <value>Sysora rulează în continuare</value>
+  </data>
+  <data name="Tray_StillRunningText" xml:space="preserve">
+    <value>Monitorizarea continuă în zona de notificare. Faceți clic dreapta pe pictogramă pentru a ieși.</value>
+  </data>
+  <data name="Tray_GameRecap" xml:space="preserve">
+    <value>Rezumat de joc: {0}</value>
+  </data>
+  <data name="Tray_GameRecapText" xml:space="preserve">
+    <value>{0} · {1}. Faceți clic pentru a deschide rezumatul.</value>
+  </data>
+  <data name="Tray_InvestigationComplete" xml:space="preserve">
+    <value>Investigație finalizată</value>
+  </data>
+  <data name="Tray_InvestigationText" xml:space="preserve">
+    <value>{0}. Faceți clic pentru a deschide raportul.</value>
+  </data>
+  <data name="Tray_AlertText" xml:space="preserve">
+    <value>{0}. Faceți clic pentru a deschide Alertele.</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>(întrerupt)</value>
+  </data>
+  <data name="Tray_Tooltip" xml:space="preserve">
+    <value>CPU {0} · Memorie {1}</value>
+  </data>
+  <data name="Export_PrepareFailed" xml:space="preserve">
+    <value>Raportul nu a putut fi pregătit. Consultați jurnalul pentru detalii.</value>
+  </data>
+  <data name="Export_Html" xml:space="preserve">
+    <value>Raport (pagină HTML)</value>
+  </data>
+  <data name="Export_Json" xml:space="preserve">
+    <value>Date structurate (JSON)</value>
+  </data>
+  <data name="Export_Saved" xml:space="preserve">
+    <value>Raport salvat: {0}</value>
+  </data>
+  <data name="Export_SaveFailed" xml:space="preserve">
+    <value>Raportul nu a putut fi salvat: {0}</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="Settings_Language_Description" xml:space="preserve">
+    <value>Limba interfeței, analizelor, alertelor și rapoartelor</value>
+  </data>
+  <data name="Settings_Language_Restart" xml:space="preserve">
+    <value>Noua limbă se aplică după repornirea Sysora. Istoricul și setările sunt păstrate.</value>
+  </data>
+  <data name="Settings_Language_RestartNow" xml:space="preserve">
+    <value>Repornește acum</value>
+  </data>
+  <data name="Settings_Log_Debug" xml:space="preserve">
+    <value>Depanare</value>
+  </data>
+  <data name="Settings_Log_Information" xml:space="preserve">
+    <value>Informații</value>
+  </data>
+  <data name="Settings_Log_Warning" xml:space="preserve">
+    <value>Avertizare</value>
+  </data>
+  <data name="Settings_Log_Error" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="Settings_Language_System" xml:space="preserve">
+    <value>Limba Windows ({0})</value>
+  </data>
+  <data name="Settings_Theme_System" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Settings_Theme_Light" xml:space="preserve">
+    <value>Luminoasă</value>
+  </data>
+  <data name="Settings_Theme_Dark" xml:space="preserve">
+    <value>Întunecată</value>
+  </data>
+  <data name="Settings_Close_Quit" xml:space="preserve">
+    <value>Închide aplicația</value>
+  </data>
+  <data name="Settings_Close_Tray" xml:space="preserve">
+    <value>Minimizează în zona de notificare</value>
+  </data>
+  <data name="Settings_Version" xml:space="preserve">
+    <value>Versiunea {0}</value>
+  </data>
+  <data name="Settings_License" xml:space="preserve">
+    <value>Licență {0} · {1}</value>
+  </data>
+  <data name="Settings_DeleteHistory_Title" xml:space="preserve">
+    <value>Ștergeți istoricul local?</value>
+  </data>
+  <data name="Settings_DeleteHistory_Message" xml:space="preserve">
+    <value>Sysora va șterge de pe acest PC istoricul de performanță înregistrat, utilizarea aplicațiilor, evenimentele, alertele, modificările detectate și sesiunile de joc. Referința comportamentului obișnuit va fi învățată din nou. Acțiunea nu poate fi anulată.</value>
+  </data>
+  <data name="Settings_DeleteHistory_Failed" xml:space="preserve">
+    <value>Istoricul nu a putut fi șters: {0}</value>
+  </data>
+  <data name="Settings_Startup_Enabled" xml:space="preserve">
+    <value>Sysora pornește la conectare.</value>
+  </data>
+  <data name="Settings_Startup_DisabledByUser" xml:space="preserve">
+    <value>Înregistrat, dar dezactivat în Setări Windows › Aplicații › Pornire.</value>
+  </data>
+  <data name="Settings_Startup_Unknown" xml:space="preserve">
+    <value>Înregistrarea la pornire nu a putut fi citită.</value>
+  </data>
+  <data name="Settings_Startup_Off" xml:space="preserve">
+    <value>Folosește cheia Run standard per utilizator; vizibilă în Setări › Aplicații › Pornire.</value>
+  </data>
+  <data name="Settings_Stretched" xml:space="preserve">
+    <value>prelungit ×{0:0.##} pentru a rămâne în bugetul de CPU</value>
+  </data>
+  <data name="Settings_History_Since" xml:space="preserve">
+    <value>date din {0}</value>
+  </data>
+  <data name="Settings_History_NoData" xml:space="preserve">
+    <value>încă nu există date</value>
+  </data>
+  <data name="Settings_History_OnDisk" xml:space="preserve">
+    <value>{0} pe disc</value>
+  </data>
+  <data name="Settings_History_NotAvailable" xml:space="preserve">
+    <value>Istoric indisponibil: {0}</value>
+  </data>
+  <data name="Common_On" xml:space="preserve">
+    <value>Activat</value>
+  </data>
+  <data name="Dashboard_SortByCpu" xml:space="preserve">
+    <value>După CPU</value>
+  </data>
+  <data name="Dashboard_SortByMemory" xml:space="preserve">
+    <value>După memorie</value>
+  </data>
+  <data name="Dashboard_TopCpu" xml:space="preserve">
+    <value>{0} CPU</value>
+  </data>
+  <data name="Dashboard_TopMemory" xml:space="preserve">
+    <value>{0} memorie</value>
+  </data>
+  <data name="Dashboard_Uptime" xml:space="preserve">
+    <value>{0} · Funcționează de {1}</value>
+  </data>
+  <data name="AppImpact_LevelImpact" xml:space="preserve">
+    <value>Impact {0}</value>
+  </data>
+  <data name="Changes_NoneFound" xml:space="preserve">
+    <value>Nicio schimbare găsită.</value>
+  </data>
+  <data name="Replay_PerMinute" xml:space="preserve">
+    <value>{0} (pe minut)</value>
+  </data>
+  <data name="Replay_SourceHint" xml:space="preserve">
+    <value>Faceți clic pe un grafic sau mutați glisorul pentru a citi valorile la un anumit moment.</value>
+  </data>
+  <data name="Replay_SourceOlder" xml:space="preserve">
+    <value>Mai vechi de {0}: aplicațiile sunt afișate pe intervale de cinci minute.</value>
+  </data>
+  <data name="Settings_Games_LauncherToggle" xml:space="preserve">
+    <value>Jocuri instalate cu un lansator</value>
+  </data>
+  <data name="Settings_Games_LauncherToggleDescription" xml:space="preserve">
+    <value>Jocuri pe care Steam, Epic Games, Riot sau GOG le raportează ca instalate, citite din fișierele lansatoarelor de pe acest PC</value>
+  </data>
+  <data name="Settings_Games_LaunchersTitle" xml:space="preserve">
+    <value>Jocuri găsite în lansatoare</value>
+  </data>
+  <data name="Settings_Games_LaunchersDescription" xml:space="preserve">
+    <value>Sysora citește fișierele proprii ale lansatoarelor de pe acest PC: funcționează offline, nu trimite nimic, nu pornește niciodată un joc și nu îi modifică niciodată fișierele. Confirmați un joc pentru a-l urmări și fără lansatorul său sau ignorați-l.</value>
+  </data>
+  <data name="Settings_Games_ScanAgain" xml:space="preserve">
+    <value>Caută din nou</value>
+  </data>
+  <data name="Settings_Games_Confirm" xml:space="preserve">
+    <value>Confirmă</value>
+  </data>
+  <data name="Settings_Games_ConfirmHint" xml:space="preserve">
+    <value>Continuă să urmărească acest joc chiar dacă detectarea lansatoarelor este dezactivată sau lansatorul este dezinstalat</value>
+  </data>
+  <data name="Settings_Games_Ignore" xml:space="preserve">
+    <value>Ignoră</value>
+  </data>
+  <data name="Settings_Games_YourGames" xml:space="preserve">
+    <value>Jocurile dvs.</value>
+  </data>
+  <data name="Settings_Games_YourGamesDescription" xml:space="preserve">
+    <value>Adăugați un joc pe care Sysora nu îl recunoaște alegând programul său (.exe). Sysora îl urmărește la următoarea rulare; nu îl pornește niciodată. Aplicațiile marcate ca non-jocuri nu sunt urmărite niciodată.</value>
+  </data>
+  <data name="Settings_Games_Browse" xml:space="preserve">
+    <value>Adaugă un joc…</value>
+  </data>
+  <data name="Settings_Games_OrRunning" xml:space="preserve">
+    <value>Sau alegeți o aplicație care rulează acum</value>
+  </data>
+  <data name="Settings_Games_ChangeLocation" xml:space="preserve">
+    <value>Schimbă locația…</value>
+  </data>
+  <data name="Settings_Games_AlreadyAdded" xml:space="preserve">
+    <value>{0} este deja în jocurile dvs.</value>
+  </data>
+  <data name="Settings_Games_Added" xml:space="preserve">
+    <value>{0} a fost adăugat: Sysora îl urmărește de la următoarea pornire.</value>
+  </data>
+  <data name="Settings_Games_Moved" xml:space="preserve">
+    <value>{0} indică acum noua sa locație. Sesiunile anterioare sunt păstrate.</value>
+  </data>
+  <data name="Settings_Games_NotAProgram" xml:space="preserve">
+    <value>Alegeți programul jocului (un fișier care se termină cu .exe).</value>
+  </data>
+  <data name="Settings_Games_NotFound" xml:space="preserve">
+    <value>{0} nu a fost găsit. Este posibil să fi fost mutat sau șters.</value>
+  </data>
+  <data name="Settings_Games_Unreadable" xml:space="preserve">
+    <value>{0} nu poate fi verificat: calea nu este validă sau accesul este refuzat.</value>
+  </data>
+  <data name="Settings_Games_SystemProgram" xml:space="preserve">
+    <value>Programele Windows nu sunt niciodată urmărite ca jocuri.</value>
+  </data>
+  <data name="Settings_Games_NoLauncherGame" xml:space="preserve">
+    <value>Niciun joc găsit în fișierele lansatoarelor (Steam, Epic Games, Riot, GOG).</value>
+  </data>
+  <data name="Settings_Games_LauncherSummary" xml:space="preserve">
+    <value>{0}: {1}. Jocurile al căror folder nu mai există sunt omise.</value>
+  </data>
+  <data name="Count_GameFound_One" xml:space="preserve">
+    <value>{0} joc găsit</value>
+  </data>
+  <data name="Count_GameFound_Other" xml:space="preserve">
+    <value>{0} jocuri găsite|{0} de jocuri găsite</value>
+  </data>
+  <data name="Settings_Games_Missing" xml:space="preserve">
+    <value>Negăsit la această locație: este posibil ca jocul să fi fost mutat. Alegeți noua locație sau eliminați-l.</value>
+  </data>
+  <data name="Settings_Games_State_Confirmed" xml:space="preserve">
+    <value>Confirmat</value>
+  </data>
+  <data name="Settings_Games_State_ConfirmedGone" xml:space="preserve">
+    <value>Confirmat (nu mai este listat de lansator)</value>
+  </data>
+  <data name="Settings_Games_State_Ignored" xml:space="preserve">
+    <value>Ignorat: neurmărit</value>
+  </data>
+  <data name="Settings_Games_State_Auto" xml:space="preserve">
+    <value>Urmărit automat</value>
+  </data>
+  <data name="Settings_Games_State_Off" xml:space="preserve">
+    <value>Neurmărit (detectarea lansatoarelor este dezactivată)</value>
+  </data>
+  <data name="Settings_Games_FollowAgain" xml:space="preserve">
+    <value>Urmărește din nou</value>
+  </data>
+  <data name="Settings_Games_Unconfirm" xml:space="preserve">
+    <value>Elimină confirmarea</value>
+  </data>
+</root>

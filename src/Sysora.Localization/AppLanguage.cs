@@ -51,6 +51,7 @@ public static class AppLanguage
         new("fi", "Suomi"),
         new("el", "Ελληνικά"),
         new("hu", "Magyar"),
+        new("ro", "Română"),
         new("ja", "日本語"),
         new("zh-Hans", "中文（简体）") { WindowsTag = "zh-CN" },
         new("zh-Hant", "中文（繁體）") { WindowsTag = "zh-TW" },

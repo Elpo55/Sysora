@@ -84,7 +84,8 @@ public sealed partial class LocalizationTests
         var culture = CultureInfo.GetCultureInfo(language);
         var english = Read(Manager(set), CultureInfo.InvariantCulture);
         var translated = Read(Manager(set), culture);
-        var threeForms = new[] { 2L, 5L }.Select(n => Text.Category(n, culture)).Distinct().Count() == 2;
+        // Romanian only switches to its third form at 20 ("20 de fișiere"), so 2 and 5 alone would not reveal it.
+        var threeForms = new[] { 2L, 5L, 20L }.Select(n => Text.Category(n, culture)).Contains(PluralCategory.Few);
         foreach (var (key, text) in translated)
         {
             // The "other" template of a plural pair (key_One / key_Other) holds "few|many" in languages with three forms.
