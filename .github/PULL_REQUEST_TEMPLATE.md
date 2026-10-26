@@ -10,7 +10,7 @@
 
 - [ ] `dotnet build Sysora.slnx` and `dotnet test --project src/Sysora.Tests` pass
 - [ ] New logic has tests
-- [ ] Every new text is in `src/Sysora.Localization`, in English and French (or the French text is marked as missing above)
+- [ ] Every new text is in `src/Sysora.Localization`, in English, French and Spanish (or translations are marked as missing above)
 - [ ] No value is estimated or invented; what cannot be measured shows "Not available"
 - [ ] No network access, telemetry or change to the user's files
 - [ ] Documentation updated if the behavior changed
