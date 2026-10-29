@@ -124,13 +124,17 @@ var
 procedure StopInstalledCopies(const Dir: String);
 var
   ResultCode: Integer;
+  Prefix: String;
 begin
   if not DirExists(Dir) then
     exit;
 
+  // The folder goes into a single-quoted PowerShell string: its apostrophes are doubled (C:\Users\O'Brien\...).
+  Prefix := AddBackslash(Dir);
+  StringChangeEx(Prefix, '''', '''''', True);
   Exec(ExpandConstant('{sys}\WindowsPowerShell\v1.0\powershell.exe'),
     '-NoProfile -NonInteractive -ExecutionPolicy Bypass -Command "Get-Process -Name {#AppName},{#LegacyAppName} -ErrorAction SilentlyContinue | ' +
-    'Where-Object { $_.Path -and $_.Path.StartsWith(''' + AddBackslash(Dir) + ''', ''OrdinalIgnoreCase'') } | Stop-Process -Force"',
+    'Where-Object { $_.Path -and $_.Path.StartsWith(''' + Prefix + ''', ''OrdinalIgnoreCase'') } | Stop-Process -Force"',
     '', SW_HIDE, ewWaitUntilTerminated, ResultCode);
 end;
 
