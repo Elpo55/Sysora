@@ -3,6 +3,7 @@ using Sysora.Core.Alerts;
 using Sysora.Core.Analysis;
 using Sysora.Core.Diagnosis;
 using Sysora.Core.Formatting;
+using Sysora.Core.History;
 using Sysora.Core.Interfaces;
 using Sysora.Localization;
 
@@ -170,10 +171,10 @@ public static class SinceYesterdayBuilder
             }
         }
 
-        var local = TimeZoneInfo.ConvertTime(now, zone);
-        var midnight = new DateTimeOffset(local.Date, zone.GetUtcOffset(local.Date));
+        var midnight = LocalDays.Midnight(now, zone);
+        var yesterdayMidnight = LocalDays.Midnight(now, zone, daysBefore: 1);
         var today = alerts.Where(a => a.RaisedAt >= midnight && a.RaisedAt <= now).ToArray();
-        var yesterday = alerts.Count(a => a.RaisedAt >= midnight.AddDays(-1) && a.RaisedAt < midnight);
+        var yesterday = alerts.Count(a => a.RaisedAt >= yesterdayMidnight && a.RaisedAt < midnight);
         if (Math.Abs(today.Length - yesterday) >= 2)
         {
             var more = today.Length > yesterday;

@@ -115,7 +115,7 @@ public sealed class ChangeDetectionService : IChangeDetectionService, IAsyncDisp
     {
         var current = await CaptureCurrentAsync(force: false, cancellationToken).ConfigureAwait(false);
         var snapshots = await GetSnapshotsAsync(cancellationToken).ConfigureAwait(false);
-        var chosen = Pick(snapshots, reference, current.CapturedAt);
+        var chosen = Pick(snapshots, reference, current.CapturedAt, _time.LocalTimeZone);
         if (chosen is null)
         {
             var oldest = snapshots.Count > 0
@@ -186,17 +186,23 @@ public sealed class ChangeDetectionService : IChangeDetectionService, IAsyncDisp
     }
 
     /// <summary>The reference snapshot for a comparison, or null when none is old enough.</summary>
-    internal static SystemBaseline? Pick(IReadOnlyList<SystemBaseline> snapshots, BaselineReference reference, DateTimeOffset now)
+    internal static SystemBaseline? Pick(IReadOnlyList<SystemBaseline> snapshots, BaselineReference reference, DateTimeOffset now, TimeZoneInfo zone)
     {
-        var today = new DateTimeOffset(now.ToLocalTime().Date, now.ToLocalTime().Offset);
-        return reference switch
+        var today = LocalDays.Midnight(now, zone);
+        if (reference == BaselineReference.Today)
         {
-            BaselineReference.Today => snapshots.FirstOrDefault(s => s.CapturedAt >= today),
-            BaselineReference.Yesterday => snapshots.LastOrDefault(s => s.CapturedAt >= today.AddDays(-1) && s.CapturedAt < today)
-                ?? snapshots.LastOrDefault(s => s.CapturedAt < today),
-            BaselineReference.SevenDaysAgo => snapshots.LastOrDefault(s => s.CapturedAt <= today.AddDays(-6)),
-            _ => snapshots.LastOrDefault(s => s.CapturedAt <= today.AddDays(-29)),
-        };
+            return snapshots.FirstOrDefault(s => s.CapturedAt >= today);
+        }
+
+        if (reference == BaselineReference.Yesterday)
+        {
+            var yesterday = LocalDays.Midnight(now, zone, daysBefore: 1);
+            return snapshots.LastOrDefault(s => s.CapturedAt >= yesterday && s.CapturedAt < today)
+                ?? snapshots.LastOrDefault(s => s.CapturedAt < today);
+        }
+
+        var limit = LocalDays.Midnight(now, zone, daysBefore: reference == BaselineReference.SevenDaysAgo ? 6 : 29);
+        return snapshots.LastOrDefault(s => s.CapturedAt <= limit);
     }
 
     /// <summary>Average usage over the 24 hours before <paramref name="now"/> from the minute history.</summary>

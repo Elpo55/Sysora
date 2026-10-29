@@ -197,11 +197,11 @@ public sealed class ChangeDetectionTests
         var now = new DateTimeOffset(DateTime.Now.Date.AddHours(15));
         var snapshots = new[] { Baseline(now.AddDays(-40)), Baseline(now.AddDays(-8)), Baseline(now.AddDays(-1)), Baseline(now.AddHours(-6)) };
 
-        Assert.Same(snapshots[3], ChangeDetectionService.Pick(snapshots, BaselineReference.Today, now));
-        Assert.Same(snapshots[2], ChangeDetectionService.Pick(snapshots, BaselineReference.Yesterday, now));
-        Assert.Same(snapshots[1], ChangeDetectionService.Pick(snapshots, BaselineReference.SevenDaysAgo, now));
-        Assert.Same(snapshots[0], ChangeDetectionService.Pick(snapshots, BaselineReference.ThirtyDaysAgo, now));
-        Assert.Null(ChangeDetectionService.Pick(snapshots.Skip(1).ToArray(), BaselineReference.ThirtyDaysAgo, now));
+        Assert.Same(snapshots[3], ChangeDetectionService.Pick(snapshots, BaselineReference.Today, now, TimeZoneInfo.Local));
+        Assert.Same(snapshots[2], ChangeDetectionService.Pick(snapshots, BaselineReference.Yesterday, now, TimeZoneInfo.Local));
+        Assert.Same(snapshots[1], ChangeDetectionService.Pick(snapshots, BaselineReference.SevenDaysAgo, now, TimeZoneInfo.Local));
+        Assert.Same(snapshots[0], ChangeDetectionService.Pick(snapshots, BaselineReference.ThirtyDaysAgo, now, TimeZoneInfo.Local));
+        Assert.Null(ChangeDetectionService.Pick(snapshots.Skip(1).ToArray(), BaselineReference.ThirtyDaysAgo, now, TimeZoneInfo.Local));
     }
 
     [Fact]

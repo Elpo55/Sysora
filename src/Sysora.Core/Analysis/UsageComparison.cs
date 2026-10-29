@@ -93,8 +93,8 @@ public static class UsageComparer
 
         var chunks = Merge(buckets, now);
         var localNow = TimeZoneInfo.ConvertTime(now, zone);
-        var midnight = new DateTimeOffset(localNow.Date, zone.GetUtcOffset(localNow.Date));
-        var yesterday = midnight.AddDays(-1);
+        var midnight = LocalDays.Midnight(now, zone);
+        var yesterday = LocalDays.Midnight(now, zone, daysBefore: 1);
 
         var metrics = new List<MetricComparison>();
         foreach (var (metric, nameOf) in Compared)

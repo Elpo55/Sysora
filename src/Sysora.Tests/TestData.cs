@@ -10,6 +10,25 @@ internal static class TestData
 
     public const ulong TotalMemory = 16UL << 30;
 
+    /// <summary>
+    /// UTC+1 with European summer time (UTC+2 from the last Sunday of March to the last Sunday of October), built in code so
+    /// tests do not depend on the time zones installed on the machine. In 2026 the clocks change on 29 March and 25 October.
+    /// </summary>
+    public static readonly TimeZoneInfo CentralEurope = TimeZoneInfo.CreateCustomTimeZone(
+        "Test/CentralEurope",
+        TimeSpan.FromHours(1),
+        "Central Europe (test)",
+        "CET",
+        "CEST",
+        [
+            TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule(
+                DateTime.MinValue.Date,
+                DateTime.MaxValue.Date,
+                TimeSpan.FromHours(1),
+                TimeZoneInfo.TransitionTime.CreateFloatingDateRule(new DateTime(1, 1, 1, 2, 0, 0), 3, 5, DayOfWeek.Sunday),
+                TimeZoneInfo.TransitionTime.CreateFloatingDateRule(new DateTime(1, 1, 1, 3, 0, 0), 10, 5, DayOfWeek.Sunday)),
+        ]);
+
     /// <summary>A monitor snapshot with the given CPU and memory usage.</summary>
     public static SystemSnapshot System(DateTimeOffset time, double cpu, double memoryPercent = 40, IReadOnlyList<ProcessMetrics>? processes = null, double? disk = 5) =>
         new()

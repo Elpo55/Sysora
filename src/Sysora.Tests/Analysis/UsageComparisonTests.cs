@@ -119,6 +119,21 @@ public sealed class UsageComparisonTests
         Assert.Equal(20, cpu.Get(ComparisonPeriod.Yesterday).Average!.Value, 0.001);
     }
 
+    [Fact]
+    public void DayAfterAClockChange_YesterdayStartsAtItsOwnMidnight()
+    {
+        // Monday 26 October 2026, 12:00 UTC. Sunday the 25th started at 00:00 summer time (UTC+2), 22:00 UTC on the 24th.
+        var now = new DateTimeOffset(2026, 10, 26, 12, 0, 0, TimeSpan.Zero);
+        var buckets = new List<SystemUsageAggregate>();
+        buckets.AddRange(Minutes(new DateTimeOffset(2026, 10, 24, 22, 0, 0, TimeSpan.Zero), 90, cpu: 70));
+        buckets.AddRange(Minutes(new DateTimeOffset(2026, 10, 24, 21, 0, 0, TimeSpan.Zero), 60, cpu: 10));
+
+        var cpu = UsageComparer.Compare([], buckets, now, TestData.CentralEurope).Metrics.Single(m => m.Metric == HistoryMetric.Cpu);
+
+        Assert.Equal(70, cpu.Get(ComparisonPeriod.Yesterday).Average!.Value, 0.001);
+        Assert.Equal(1.5, cpu.Get(ComparisonPeriod.Yesterday).MonitoredHours, 0.001);
+    }
+
     private static List<MetricSnapshot> Recent(double cpu) =>
         TestData.Series(Now.AddMinutes(-10), 600, _ => cpu);
 

@@ -378,10 +378,9 @@ public sealed class StateComparisonService(
                     await LoadAsync(Strings.State_Label_Now, now - MomentWindow, now, cancellationToken).ConfigureAwait(false));
             case ComparisonPreset.TodayVsYesterday:
             {
-                var local = TimeZoneInfo.ConvertTime(now, zone);
-                var midnight = new DateTimeOffset(local.Date, zone.GetUtcOffset(local.Date));
+                var midnight = LocalDays.Midnight(now, zone);
                 return StateComparer.Compare(
-                    await LoadAsync(Strings.Usual_Period_Yesterday, midnight.AddDays(-1), midnight, cancellationToken).ConfigureAwait(false),
+                    await LoadAsync(Strings.Usual_Period_Yesterday, LocalDays.Midnight(now, zone, daysBefore: 1), midnight, cancellationToken).ConfigureAwait(false),
                     await LoadAsync(Strings.Usual_Period_Today, midnight, now, cancellationToken).ConfigureAwait(false));
             }
 
