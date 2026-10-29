@@ -35,6 +35,7 @@ internal sealed unsafe class ProcessSnapshotReader : IDisposable
 
     private void* _buffer;
     private uint _bufferSize;
+    private bool _disposed;
 
     public ProcessSnapshotReader()
     {
@@ -45,8 +46,14 @@ internal sealed unsafe class ProcessSnapshotReader : IDisposable
     /// <summary>Takes a snapshot and fills <paramref name="entries"/> (cleared first).</summary>
     public void Read(List<RawProcessEntry> entries)
     {
-        ObjectDisposedException.ThrowIf(_buffer is null, this);
+        ObjectDisposedException.ThrowIf(_disposed, this);
         entries.Clear();
+
+        // Null after an allocation that failed while growing the buffer: try again at the size it had.
+        if (_buffer is null)
+        {
+            _buffer = NativeMemory.Alloc(_bufferSize);
+        }
 
         int status;
         while ((status = NativeMethods.NtQuerySystemInformation(
@@ -59,7 +66,9 @@ internal sealed unsafe class ProcessSnapshotReader : IDisposable
                 throw new InvalidOperationException("The process list is unexpectedly large.");
             }
 
+            // Forget the old buffer before allocating: if the allocation fails, it must not be freed a second time.
             NativeMemory.Free(_buffer);
+            _buffer = null;
             _buffer = NativeMemory.Alloc(newSize);
             _bufferSize = newSize;
         }
@@ -106,5 +115,6 @@ internal sealed unsafe class ProcessSnapshotReader : IDisposable
     {
         NativeMemory.Free(_buffer);
         _buffer = null;
+        _disposed = true;
     }
 }
