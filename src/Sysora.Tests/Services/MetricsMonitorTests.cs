@@ -185,6 +185,29 @@ public sealed class MetricsMonitorTests : IAsyncLifetime
     }
 
     [Fact]
+    public async Task DisablingGpu_WhileItIsBeingCollected_KeepsItCleared()
+    {
+        await _monitor.DisposeAsync();
+        var gpu = new BlockingGpuProvider();
+        _monitor = CreateMonitor(SimulatedProviders.Create(_machine) with { Gpu = gpu, Cpu = _cpu });
+        await StartAndWaitForFirstRoundAsync();
+        Assert.NotNull(_monitor.Current.Gpus);
+
+        gpu.BlockNext();
+        await AdvanceUntilAsync(() => gpu.IsWaiting);
+        _settings.Update(s => s with { Monitoring = s.Monitoring with { GpuEnabled = false } });
+        Assert.Null(_monitor.Current.Gpus);
+
+        // The loop collects one round at a time: a CPU collection started after the release means the GPU round is over.
+        var calls = _cpu.Calls;
+        gpu.Release();
+        await AdvanceUntilAsync(() => _cpu.Calls > calls);
+
+        Assert.Null(_monitor.Current.Gpus);
+        Assert.False(_monitor.Current.IsUnavailable(MetricKind.Gpu));
+    }
+
+    [Fact]
     public async Task FaultySubscriber_DoesNotBreakMonitoring()
     {
         _monitor.MetricsUpdated += (_, _) => throw new InvalidOperationException("subscriber bug");
@@ -356,6 +379,32 @@ public sealed class MetricsMonitorTests : IAsyncLifetime
             Fail
                 ? Task.FromException<IReadOnlyList<GpuMetrics>>(new InvalidOperationException("No GPU counters on this machine."))
                 : Task.FromResult<IReadOnlyList<GpuMetrics>>([new GpuMetrics("gpu0", "Test GPU")]);
+    }
+
+    /// <summary>Returns a GPU at once, except for the call after <see cref="BlockNext"/>, which waits for <see cref="Release"/>.</summary>
+    private sealed class BlockingGpuProvider : IGpuMetricProvider
+    {
+        private readonly TaskCompletionSource _gate = new(TaskCreationOptions.RunContinuationsAsynchronously);
+        private volatile bool _blockNext;
+        private volatile bool _waiting;
+
+        public bool IsWaiting => _waiting;
+
+        public void BlockNext() => _blockNext = true;
+
+        public void Release() => _gate.TrySetResult();
+
+        public async Task<IReadOnlyList<GpuMetrics>> CollectAsync(CancellationToken cancellationToken)
+        {
+            if (_blockNext)
+            {
+                _blockNext = false;
+                _waiting = true;
+                await _gate.Task.WaitAsync(cancellationToken);
+            }
+
+            return [new GpuMetrics("gpu0", "Test GPU") { UsagePercent = 40 }];
+        }
     }
 
     private sealed class NullStore : ISettingsStore

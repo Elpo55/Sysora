@@ -366,39 +366,53 @@ public sealed class MetricsMonitor : IMetricsMonitor, IAsyncDisposable
         var results = await Task.WhenAll(sources.Select(s => CollectSafeAsync(s, cancellationToken))).ConfigureAwait(false);
         cancellationToken.ThrowIfCancellationRequested();
 
-        var snapshot = Current;
-        var unavailable = snapshot.Unavailable;
+        SystemSnapshot snapshot;
+        DateTimeOffset timestamp;
         var updated = MetricKind.None;
-        for (var i = 0; i < sources.Length; i++)
+        lock (_lock)
         {
-            var source = sources[i];
-            switch (results[i])
+            // Under the lock, like a settings change: a metric turned off while it was being collected stays cleared
+            // instead of getting back the value of this round (which would then never be refreshed).
+            var enabled = _schedule.Enabled;
+            snapshot = Current;
+            var unavailable = snapshot.Unavailable;
+            for (var i = 0; i < sources.Length; i++)
             {
-                case { Apply: { } apply }:
-                    snapshot = apply(snapshot);
-                    unavailable &= ~source.Kind;
-                    break;
-                case { Skipped: true }:
-                    // No valid value this time: keep the metric as it is and do not report it as updated.
+                var source = sources[i];
+                if ((enabled & source.Kind) == 0)
+                {
                     continue;
-                default:
-                    snapshot = source.Clear(snapshot);
-                    unavailable |= source.Kind;
-                    break;
+                }
+
+                switch (results[i])
+                {
+                    case { Apply: { } apply }:
+                        snapshot = apply(snapshot);
+                        unavailable &= ~source.Kind;
+                        break;
+                    case { Skipped: true }:
+                        // No valid value this time: keep the metric as it is and do not report it as updated.
+                        continue;
+                    default:
+                        snapshot = source.Clear(snapshot);
+                        unavailable |= source.Kind;
+                        break;
+                }
+
+                updated |= source.Kind;
             }
 
-            updated |= source.Kind;
-        }
+            if (updated == MetricKind.None)
+            {
+                return;
+            }
 
-        if (updated == MetricKind.None)
-        {
-            return;
+            timestamp = _time.GetUtcNow();
+            snapshot = snapshot with { Timestamp = timestamp, Unavailable = unavailable };
+            Volatile.Write(ref _current, snapshot);
         }
 
         Interlocked.Increment(ref _rounds);
-        var timestamp = _time.GetUtcNow();
-        snapshot = snapshot with { Timestamp = timestamp, Unavailable = unavailable };
-        Volatile.Write(ref _current, snapshot);
         RecordHistory(snapshot, updated, timestamp);
         Publish(new SystemMetricsUpdatedEventArgs(snapshot, updated));
     }
