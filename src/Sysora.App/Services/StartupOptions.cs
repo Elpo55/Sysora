@@ -22,7 +22,8 @@ public sealed record StartupOptions(bool DemoMode, bool LaunchedAtSignIn, bool S
             pageName = nameof(AppPage.Replay);
         }
 
-        var page = pageName is not null && Enum.TryParse<AppPage>(pageName, ignoreCase: true, out var parsed)
+        // TryParse also accepts any number ("--page=42"), which is not a page.
+        var page = pageName is not null && Enum.TryParse<AppPage>(pageName, ignoreCase: true, out var parsed) && Enum.IsDefined(parsed)
             ? parsed
             : AppPage.Dashboard;
 
