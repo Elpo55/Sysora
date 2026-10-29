@@ -67,7 +67,7 @@ Use `-r win-arm64` for ARM64. Release publishes are precompiled (ReadyToRun), wh
 
 ```powershell
 dotnet publish src/Sysora.App -c Release -r win-x64 --self-contained -o artifacts/publish/win-x64
-& "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" /DAppVersion=1.3.0 /DArch=x64 installer\Sysora.iss
+& "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" /DAppVersion=1.4.0 /DArch=x64 installer\Sysora.iss
 ```
 
 The installer lands in `artifacts/installer`. To publish a release, set `<Version>` in `Directory.Build.props`, add

@@ -19,7 +19,7 @@ checked.
 
 A successful build or test run is not proof that the application works on a real computer: only the Windows x64 column
 has been used on real hardware, on Windows 11. Windows 10 (version 1809 or later) uses the same APIs and is supported,
-but version 1.3 has not been tried on it.
+but version 1.4 has not been tried on it.
 
 ## Compatibility matrix
 

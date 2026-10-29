@@ -25,6 +25,13 @@ native WinUI 3 application, in English, French and Spanish: no account, no serve
 
 > Screenshots use demo mode (`--demo`): every value is simulated, and the app shows a "DEMO MODE" badge.
 
+## What's new in 1.4
+
+A reliability release: no new feature, nine fixes. A metric turned off in Settings no longer stays frozen on screen,
+"yesterday" starts at the right time after a change to or from summer time, the Games, Changes and Replay pages no
+longer report a failed load that did not happen, and the installer closes Sysora before an update in every folder.
+Details in the [release notes](docs/release-notes/v1.4.0.md).
+
 ## What's new in 1.3
 
 - **Sysora in French and Spanish**: the interface, analyses, diagnoses, alerts and reports. Choose the language in
@@ -38,7 +45,7 @@ native WinUI 3 application, in English, French and Spanish: no account, no serve
 - **Ready for other systems**: the shared code now builds and is tested on Windows, Linux and macOS. There is no Linux
   or macOS application yet; see [platforms](docs/platforms.md).
 
-Full details in the [release notes](docs/release-notes/v1.3.0.md). Earlier versions:
+Full details in the [1.3 release notes](docs/release-notes/v1.3.0.md). Earlier versions:
 [1.2](docs/release-notes/v1.2.0.md), [1.1](docs/release-notes/v1.1.0.md).
 
 ## Features
