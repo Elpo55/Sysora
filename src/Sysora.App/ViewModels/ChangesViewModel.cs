@@ -186,10 +186,13 @@ public sealed partial class ChangesViewModel : PageViewModel
         _load?.Cancel();
         _load?.Dispose();
         var load = _load = new CancellationTokenSource();
+
+        // Read once: a newer load disposes this source, and reading its token after that throws.
+        var token = load.Token;
         IsLoading = true;
         try
         {
-            var snapshots = await _changes.GetSnapshotsAsync(load.Token);
+            var snapshots = await _changes.GetSnapshotsAsync(token);
             SnapshotText = snapshots.Count == 0
                 ? UiStrings.Changes_NoSnapshotYet
                 : Text.Format(
@@ -200,7 +203,7 @@ public sealed partial class ChangesViewModel : PageViewModel
 
             if (ViewIndex == 0)
             {
-                var timeline = await _changes.GetTimelineAsync(DateTimeOffset.UtcNow - TimelineLength, load.Token);
+                var timeline = await _changes.GetTimelineAsync(DateTimeOffset.UtcNow - TimelineLength, token);
                 if (load.IsCancellationRequested)
                 {
                     return;
@@ -213,7 +216,7 @@ public sealed partial class ChangesViewModel : PageViewModel
             }
             else
             {
-                var comparison = await _changes.CompareAsync((BaselineReference)(ViewIndex - 1), load.Token);
+                var comparison = await _changes.CompareAsync((BaselineReference)(ViewIndex - 1), token);
                 if (load.IsCancellationRequested)
                 {
                     return;

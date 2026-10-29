@@ -443,10 +443,13 @@ public sealed partial class ReplayViewModel : PageViewModel
         _appsLoad?.Cancel();
         _appsLoad?.Dispose();
         var load = _appsLoad = new CancellationTokenSource();
+
+        // Read once: a newer load disposes this source, and reading its token after that throws.
+        var token = load.Token;
         try
         {
-            await Task.Delay(250, load.Token);
-            var apps = await _replay.GetAppsAroundAsync(time, load.Token);
+            await Task.Delay(250, token);
+            var apps = await _replay.GetAppsAroundAsync(time, token);
             if (load.IsCancellationRequested)
             {
                 return;

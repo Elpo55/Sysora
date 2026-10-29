@@ -286,12 +286,15 @@ public sealed partial class GamingViewModel : PageViewModel
         _load?.Cancel();
         _load?.Dispose();
         var load = _load = new CancellationTokenSource();
+
+        // Read once: a newer load disposes this source, and reading its token after that throws.
+        var token = load.Token;
         IsLoading = true;
         HasError = false;
         try
         {
-            var sessions = await _games.GetSessionsAsync(DateTimeOffset.UtcNow - GameSessionService.ListedHistory, load.Token);
-            var recaps = await Task.Run(() => sessions.Select(s => GameRecapBuilder.Build(s, sessions)).ToArray(), load.Token);
+            var sessions = await _games.GetSessionsAsync(DateTimeOffset.UtcNow - GameSessionService.ListedHistory, token);
+            var recaps = await Task.Run(() => sessions.Select(s => GameRecapBuilder.Build(s, sessions)).ToArray(), token);
             if (load.IsCancellationRequested)
             {
                 return;
