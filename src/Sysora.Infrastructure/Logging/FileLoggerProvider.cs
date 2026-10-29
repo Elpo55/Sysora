@@ -109,6 +109,12 @@ public sealed class FileLoggerProvider : ILoggerProvider
                 var today = DateOnly.FromDateTime(DateTime.Now);
                 if (writer is null || day != today)
                 {
+                    if (day is not null && day != today)
+                    {
+                        // Sysora often runs for weeks in the notification area: expire old files at each new day, not only at start.
+                        DeleteExpiredFiles();
+                    }
+
                     writer?.Dispose();
                     writer = TryOpen(today);
                     day = today;
