@@ -85,10 +85,19 @@ public sealed class WindowsGpuMetricProvider : IGpuMetricProvider, IDisposable
 
             RefreshAdapters();
             var query = new PdhQuery();
-            _engines = query.TryAddCounter(@"\GPU Engine(*)\Utilization Percentage");
-            _dedicated = query.TryAddCounter(@"\GPU Adapter Memory(*)\Dedicated Usage");
-            _shared = query.TryAddCounter(@"\GPU Adapter Memory(*)\Shared Usage");
-            query.Collect();
+            try
+            {
+                _engines = query.TryAddCounter(@"\GPU Engine(*)\Utilization Percentage");
+                _dedicated = query.TryAddCounter(@"\GPU Adapter Memory(*)\Dedicated Usage");
+                _shared = query.TryAddCounter(@"\GPU Adapter Memory(*)\Shared Usage");
+                query.Collect();
+            }
+            catch
+            {
+                query.Dispose();
+                throw;
+            }
+
             _query = query;
             return true;
         }
