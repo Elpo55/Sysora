@@ -32,7 +32,9 @@ public sealed class AlertService : IAsyncDisposable
     private readonly ILogger<AlertService> _logger;
     private readonly TimeProvider _time;
     private readonly Lock _lock = new();
-    private DateTimeOffset _lastEvaluation;
+
+    /// <summary>UTC ticks of the last evaluation: a long, so the monitoring thread reads it whole while it is written.</summary>
+    private long _lastEvaluationTicks;
     private DateTimeOffset _lastSave;
     private int _evaluating;
     private bool _started;
@@ -149,7 +151,7 @@ public sealed class AlertService : IAsyncDisposable
         var now = _time.GetUtcNow();
         var context = new AlertContext(now, _monitor.Current, _history.GetRecent(_history.Duration), _baseline.Current, _settings.Current.SmartAlerts);
         AlertEvaluation evaluation;
-        IReadOnlyList<Alert> active;
+        IReadOnlyList<Alert> toSave = [];
         lock (_lock)
         {
             if (!_started)
@@ -158,8 +160,20 @@ public sealed class AlertService : IAsyncDisposable
             }
 
             evaluation = _engine.Evaluate(context);
-            active = _engine.Alerts.Where(a => a.IsActive).ToArray();
-            _lastEvaluation = now;
+            Interlocked.Exchange(ref _lastEvaluationTicks, now.UtcTicks);
+
+            // Decided under the lock: two evaluations at once (a test or diagnostic next to the background one) never
+            // both save, nor read the time of the last save while the other one writes it.
+            if (evaluation.Raised.Count > 0 || evaluation.Resolved.Count > 0)
+            {
+                toSave = [.. evaluation.Raised, .. evaluation.Resolved];
+                _lastSave = now;
+            }
+            else if (now - _lastSave >= SaveInterval && _engine.Alerts.Where(a => a.IsActive).ToArray() is { Length: > 0 } active)
+            {
+                toSave = active;
+                _lastSave = now;
+            }
         }
 
         foreach (var alert in evaluation.Raised)
@@ -178,15 +192,9 @@ public sealed class AlertService : IAsyncDisposable
             _logger.LogInformation("{Count} alert(s) not raised: hourly limit reached.", evaluation.Suppressed);
         }
 
-        if (evaluation.Raised.Count > 0 || evaluation.Resolved.Count > 0)
+        if (toSave.Count > 0)
         {
-            Save([.. evaluation.Raised, .. evaluation.Resolved]);
-            _lastSave = now;
-        }
-        else if (active.Count > 0 && now - _lastSave >= SaveInterval)
-        {
-            Save(active);
-            _lastSave = now;
+            Save(toSave);
         }
 
         if (evaluation.HasChanges)
@@ -228,7 +236,8 @@ public sealed class AlertService : IAsyncDisposable
 
     private void OnSnapshotRecorded(object? sender, MetricSnapshot snapshot)
     {
-        if (snapshot.Timestamp - _lastEvaluation < CurrentInterval || Interlocked.Exchange(ref _evaluating, 1) == 1)
+        if (snapshot.Timestamp.UtcTicks - Interlocked.Read(ref _lastEvaluationTicks) < CurrentInterval.Ticks
+            || Interlocked.Exchange(ref _evaluating, 1) == 1)
         {
             return;
         }
